@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Redirecting...</title>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const userLang = navigator.language || navigator.userLanguage;
+        if (userLang.startsWith("ja")) {
+          // 日本語の場合
+          window.location.href = "https://kankusakabe.github.io/Portfolio/ja";
+        } else {
+          // その他の言語の場合
+          window.location.href = "https://kankusakabe.github.io/Portfolio/";
+        }
+      });
+    </script>
+  </head>
+  <body>
+    <p>Redirecting...</p>
+  </body>
+</html>
