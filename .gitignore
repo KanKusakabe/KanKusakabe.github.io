@@ -1,0 +1,9 @@
+.env
+.DS_Store
+*.pyc
+__pycache__/
+.venv/
+Portfolio/node_modules/
+Portfolio/.next/
+Portfolio/out/
+Portfolio/.env

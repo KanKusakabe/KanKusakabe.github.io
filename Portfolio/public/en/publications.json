@@ -1,0 +1,89 @@
+[
+  {
+    "title": "KanaShark: Exploration of Japanese Gesture Input Method based on SHARK2 (in Japanese). ",
+    "authors": "Shingo Toyoda, ***Kan Kusakabe***, Daisuke Sakamoto.",
+    "year": 2025,
+    "publisher": "The 33rd Workshop on Interactive Systems and Software (WISS’25), Japan Society for Software Science and Technology, pp.158-164, December 2025.",
+    "url": "[link](https://www.wiss.org/WISS2025/downloads/proceedings.pdf)",
+    "type": "peer",
+    "nation": "ja",
+    "date": "20251203"
+  },
+  {
+    "title": "Proposal and Evaluation of a Redirection Method based on Unperceived Thresholds for Relieving Physical Constraints in Seated Positions (in Japanese).",
+    "authors": "Hiromu Kobayashi, Yuto Suzuki, ***Kan Kusakabe***, Daisuke Sakamoto.",
+    "year": 2025,
+    "publisher": "The 33rd Workshop on Interactive Systems and Software (WISS’25), Japan Society for Software Science and Technology, pp.126-133, December 2025",
+    "url": "[link](https://www.wiss.org/WISS2025/downloads/proceedings.pdf)",
+    "type": "peer",
+    "nation": "ja",
+    "date": "20251203"
+  },
+  {
+    "title": "BeMyARm: The Assitive Technology for Camera Aiming for the blind and Low-Vision People(in Japanese). ",
+    "authors": "***Kan Kusakabe***, Yuki Abe, Daisuke Sakamoto.",
+    "year": 2023,
+    "publisher": "The 33rd Workshop on Interactive Systems and Software (WISS’25), Japan Society for Software Science and Technology, Demonstration. December 2025.",
+    "url": "[link](https://www.wiss.org/WISS2025Proceedings/)",
+    "date": "20231220"
+  },
+  {
+    "title": "BodSockets: Enabling Back-of-Device Interaction on Smartphones with Socket-based Interface",
+    "authors": "***Kan Kusakabe***, Kaori Ikematsu, Daisuke Sakamoto, Tetsuo Ono.",
+    "year": 2025,
+    "abstract": "Handheld-style head-mounted displays (HMDs) are becoming increasingly popular as a convenient option for onsite exhibitions. However, they lack established practices for basic interactions, particularly pointing methods. Through our formative study involving practitioners, we discovered that controllers and hand gestures are the primary pointing methods being utilized. Building upon these findings, we conducted a usability study to explore seven different pointing methods, incorporating insights from the formative study and current virtual reality (VR) practices. The results showed that while controllers remain a viable option, hand gestures are not recommended. Notably, dwell time-based methods, which are not fast and are not commonly recognized by practitioners, demonstrate high usability and user confidence, particularly for inexperienced VR users.We recommend the use of dwell-based methods for onsite exhibition contexts. This research provides insights for the adoption of handheld-style HMDs, laying the groundwork for improving user interaction in exhibition environments, thereby potentially enhancing visitor experiences.",
+    "publisher": "Transactions of the Information Processing Society of Japan, Vol. 66, No. 12, Feb. 2025",
+    "url": "[DOI](https://doi.org/10.20729/0002006344)",
+    "type": "peer",
+    "nation": "ja",
+    "date": "20251215"
+  },
+  {
+    "title": "Understanding Usability of VR Pointing Methods with a Handheld-style HMD for Onsite Exhibitions",
+    "authors": "Yuki Abe*, ***Kan Kusakabe****, Myungguen Choi*, Daisuke Sakamoto, Tetsuo Ono. *Joint first authors.",
+    "year": 2025,
+    "abstract": "Handheld-style head-mounted displays (HMDs) are becoming increasingly popular as a convenient option for onsite exhibitions. However, they lack established practices for basic interactions, particularly pointing methods. Through our formative study involving practitioners, we discovered that controllers and hand gestures are the primary pointing methods being utilized. Building upon these findings, we conducted a usability study to explore seven different pointing methods, incorporating insights from the formative study and current virtual reality (VR) practices. The results showed that while controllers remain a viable option, hand gestures are not recommended. Notably, dwell time-based methods, which are not fast and are not commonly recognized by practitioners, demonstrate high usability and user confidence, particularly for inexperienced VR users.We recommend the use of dwell-based methods for onsite exhibition contexts. This research provides insights for the adoption of handheld-style HMDs, laying the groundwork for improving user interaction in exhibition environments, thereby potentially enhancing visitor experiences.",
+    "publisher": "ACM CHI Conference on Human Factors in Computing Systems (CHI 2025), ACM, 2025. **Hornable Mention Award (5%)**.",
+    "url": "[DOI](https://doi.org/10.1145/3706598.3713874)",
+    "type": "peer",
+    "nation": "en",
+    "date": "20250430"
+  },
+  {
+    "title": "RingSense: Exploring User-defined Gestures for Phone Ring Holders",
+    "authors": "***Kan Kusakabe***, Daisuke Sakamoto, Tetsuo Ono.",
+    "year": 2025,
+    "abstract": "We present RingSense, a phone ring-holder-style device equipped with eight pressure sensors for back-of-device (BoD) interaction on smartphones. The phone ring holder is a ring-type smartphone accessory attached to the back of the smartphone, and RingSense can be easily affixed to the smartphone, similar to a standard smartphone accessory. RingSense serves as both a smartphone input device and a safety accessory for fall prevention. To develop RingSense, we first conducted a gesture elicitation study and created a user-defined gesture set for the phone ring holder. Next, we prototyped RingSense using 8 pressure sensors and a machine-learning-based gesture classification system. We then evaluated our system using the gesture data from 10 participants. Consequently, our system achieved 92.7% accuracy for within-user validation and showed the feasibility of gesture classification by our approach. Finally, we demonstrated some potential applications of RingSense.",
+    "publisher": "Transactions of the Information Processing Society of Japan, Vol. 66, No. 2",
+    "url": "[DOI](https://doi.org/10.20729/0002000028)",
+    "type": "journal",
+    "nation": "ja",
+    "date": "20250215"
+  },
+  {
+    "title": "Design and Implementation of a Phone-Ring-Type Device for Back-of-Device Gesture Interaction (in Japanese). ",
+    "authors": "***Kan Kusakabe***, Daisuke Sakamoto, Tetsuo Ono.",
+    "year": 2022,
+    "publisher": "The 30th Workshop on Interactive Systems and Software (WISS’22), Japan Society for Software Science and Technology, pp.8-14, December 2022. (Long-press, acceptance rate: 12.5%).",
+    "url": "[link](https://www.wiss.org/WISS2022Proceedings/data/02.pdf)",
+    "type": "peer",
+    "nation": "ja",
+    "date": "20221215"
+  },
+  {
+    "title": "Game-2-X: A System Connecting Different Types of Gameplay (in Japanese). ",
+    "authors": "***Kan Kusakabe****, Yuki Abe*, Daisuke Sakamoto, Tetsuo Ono. *Joint first author.",
+    "year": 2023,
+    "publisher": "The 31st Workshop on Interactive Systems and Software (WISS’23), Japan Society for Software Science and Technology, Demonstration. December 2023.",
+    "url": "[link](https://www.wiss.org/WISS2023Proceedings/data/1-A03.pdf)",
+    "date": "20231220"
+  },
+  {
+    "title": "Exploratory Study of Hand Gesture Interaction for Stepless Adjustment Interfaces (in Japanese).  ",
+    "authors": "***Kan Kusakabe***, Myungguen Choi, Daisuke Sakamoto, Tetsuo Ono.",
+    "year": 2023,
+    "publisher": "Information Processing Society of Japan, 2022-HCI-197(25), 1-8, March 2022.",
+    "url": "[link](http://id.nii.ac.jp/1001/00217337/)",
+    "date": "20220318"
+  }
+]

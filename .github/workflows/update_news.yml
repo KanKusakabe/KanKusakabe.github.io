@@ -1,0 +1,40 @@
+name: Daily Market News Update
+
+on:
+  schedule:
+    # 毎日日本時間 18:00 (協定世界時 UTC 09:00) に自動実行
+    - cron: '0 9 * * *'
+  workflow_dispatch:
+    # 手動実行も可能にする設定
+
+permissions:
+  contents: write
+
+jobs:
+  update-news:
+    runs-on: ubuntu-latest
+    steps:
+      - name: リポジトリの取得
+        uses: actions/checkout@v4
+
+      - name: uvのセットアップ
+        uses: astral-sh/setup-uv-action@v5
+        with:
+          enable-cache: true
+
+      - name: ニュース要約データの生成
+        env:
+          # GitHubリポジトリの Settings > Secrets and variables > Actions で
+          # GEMINI_API_KEY (または OPENAI_API_KEY) を登録しておく必要があります。
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: |
+          uv run generate_news.py
+
+      - name: 生成データのコミットとプッシュ
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add news/news_data.js
+          # 変更がある場合のみコミット
+          git diff --quiet && git diff --staged --quiet || (git commit -m "docs: ニュース要約データの自動更新" && git push)

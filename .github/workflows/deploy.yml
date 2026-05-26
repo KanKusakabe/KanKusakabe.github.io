@@ -1,0 +1,57 @@
+name: Build and Deploy Site to Pages
+
+on:
+  push:
+    branches: ["main"]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "npm"
+          cache-dependency-path: "./Portfolio/package-lock.json"
+
+      - name: Install dependencies
+        run: |
+          cd Portfolio
+          npm ci
+
+      - name: Build Next.js
+        run: |
+          cd Portfolio
+          npm run build
+
+      - name: Assemble public site
+        run: |
+          mkdir -p public_site
+          # ルートの index.html と news ディレクトリをコピー
+          cp index.html public_site/
+          cp -r news public_site/
+          # ビルドされた Portfolio を public_site/Portfolio に配置
+          cp -r Portfolio/out public_site/Portfolio
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./public_site
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
