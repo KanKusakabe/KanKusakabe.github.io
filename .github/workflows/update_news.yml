@@ -28,6 +28,9 @@ jobs:
           # GEMINI_API_KEY (または OPENAI_API_KEY) を登録しておく必要があります。
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          SMTP_USER: ${{ secrets.SMTP_USER }}
+          SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
+          TO_EMAIL: ${{ secrets.TO_EMAIL }}
         run: |
           uv run generate_news.py
 
