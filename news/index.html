@@ -101,7 +101,7 @@
 <body class="bg-slate-50 text-slate-900 font-sans min-h-screen flex flex-col antialiased relative overflow-x-hidden">
   <div class="glow-bg"></div>
 
-  <header class="glass-nav sticky top-0 z-30 border-b px-4 sm:px-6 lg:px-8 py-4 transition-all">
+  <header class="glass-nav z-30 border-b px-4 sm:px-6 lg:px-8 py-4 transition-all">
     <div class="max-w-[90rem] mx-auto flex items-center justify-between relative z-10">
       <div class="flex items-center gap-3">
         <a href="https://kankusakabe.github.io/Portfolio/ja" class="flex items-center gap-3 group">
@@ -179,7 +179,7 @@
     </div>
 
     <div class="bg-white/80 backdrop-blur-md rounded-2xl border border-slate-200 shadow-xl mb-8">
-      <div id="news-tabs-container" class="flex border-b border-slate-200 bg-white/95 backdrop-blur-md sm:bg-slate-50/50 p-2 gap-1 sm:gap-2 rounded-t-2xl sticky top-[73px] sm:relative sm:top-0 z-20 transition-all duration-300 ease-in-out">
+      <div id="news-tabs-container" class="flex border-b border-slate-200 bg-white/95 backdrop-blur-md sm:bg-slate-50/50 p-2 gap-1 sm:gap-2 rounded-t-2xl sticky top-0 sm:relative sm:top-0 z-20 transition-all duration-300 ease-in-out">
         <button id="tab-days" onclick="switchTab('days')" class="flex-1 sm:flex-none px-4 sm:px-8 py-3 text-sm font-semibold rounded-xl text-center transition-all duration-200 focus:outline-none text-slate-500 hover:text-slate-800 hover:bg-slate-200/50">最新ニュース</button>
         <button id="tab-week" onclick="switchTab('week')" class="flex-1 sm:flex-none px-4 sm:px-8 py-3 text-sm font-semibold rounded-xl text-center transition-all duration-200 focus:outline-none text-slate-500 hover:text-slate-800 hover:bg-slate-200/50">今週のトレンド</button>
       </div>
@@ -300,6 +300,63 @@
       renderNews();
     }
 
+    function buildTopicKey(topic) {
+      const url = (topic?.url || '').trim();
+      const headline = (topic?.headline || '').trim();
+      return url || headline;
+    }
+
+    function dedupeAndLimitTopics(topics, globalSeenKeys, limit = 30) {
+      if (!Array.isArray(topics)) return [];
+      const localSeenKeys = new Set();
+      const uniqueTopics = [];
+
+      topics.forEach(topic => {
+        if (!topic || typeof topic !== 'object') return;
+        const key = buildTopicKey(topic);
+        if (!key || localSeenKeys.has(key) || globalSeenKeys.has(key)) return;
+        localSeenKeys.add(key);
+        globalSeenKeys.add(key);
+        uniqueTopics.push(topic);
+      });
+
+      return uniqueTopics.slice(0, limit);
+    }
+
+    function renderTopicCard(topic) {
+      const dateHtml = topic.date ? `<div class="text-[10px] text-slate-400 font-semibold">${topic.date}</div>` : '';
+      const sourceLinkHtml = topic.url 
+        ? `<a href="${topic.url}" target="_blank" class="text-[10px] font-bold text-indigo-600 hover:text-indigo-800 transition-colors inline-flex items-center gap-1 group/link">
+            <span>ソース記事</span>
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-2.5 w-2.5 transform group-hover/link:translate-x-0.5 group-hover/link:-translate-y-0.5 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+            </svg>
+          </a>`
+        : '';
+      const headerRowHtml = (dateHtml || sourceLinkHtml)
+        ? `<div class="flex items-center justify-between gap-2 mb-2">${dateHtml}${sourceLinkHtml}</div>`
+        : '';
+
+      const headlineText = parseGlossaryTerms(topic.headline);
+      const headlineHtml = topic.url 
+        ? `<a href="${topic.url}" target="_blank" class="hover:text-indigo-600 transition-colors inline-flex items-start gap-1 group"><span>${headlineText}</span><svg xmlns="http://www.w3.org/2000/svg" class="h-3.5 w-3.5 text-slate-400 group-hover:text-indigo-500 transition-colors mt-0.5 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" /></svg></a>`
+        : headlineText;
+
+      return `
+        <div class="mb-5 last:mb-0 pb-5 last:pb-0 border-b last:border-0 border-slate-200">
+          ${headerRowHtml}
+          <h5 class="text-sm font-bold text-slate-800 mb-2 leading-relaxed font-sans">${headlineHtml}</h5>
+          <div class="space-y-3.5">
+            <p class="text-xs sm:text-[13px] leading-relaxed text-slate-600 font-normal font-sans">${parseGlossaryTerms(topic.content)}</p>
+            <div class="bg-indigo-50/50 border-l-2 border-indigo-400 p-3.5 rounded-r-lg">
+              <span class="text-[9px] font-bold text-indigo-600 uppercase tracking-widest mb-1.5 block font-outfit">Impact & Implications</span>
+              <p class="text-xs sm:text-[13px] leading-relaxed text-slate-600 font-normal font-sans">${parseGlossaryTerms(topic.impact)}</p>
+            </div>
+          </div>
+        </div>
+      `;
+    }
+
     function renderNews() {
       if (!newsData) return;
       
@@ -323,44 +380,32 @@
 
       if (activeTab === 'days') {
         let gridHtml = '<div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 sm:gap-8">';
+        const globalSeenTopicKeys = new Set();
         
         if (periodData.categories && Array.isArray(periodData.categories)) {
           periodData.categories.forEach(cat => {
             let topicsHtml = '';
             if (cat.topics && Array.isArray(cat.topics)) {
-              cat.topics.forEach(topic => {
-                const dateHtml = topic.date ? `<div class="text-[10px] text-slate-400 font-semibold">${topic.date}</div>` : '';
-                const sourceLinkHtml = topic.url 
-                  ? `<a href="${topic.url}" target="_blank" class="text-[10px] font-bold text-indigo-600 hover:text-indigo-800 transition-colors inline-flex items-center gap-1 group/link">
-                      <span>ソース記事</span>
-                      <svg xmlns="http://www.w3.org/2000/svg" class="h-2.5 w-2.5 transform group-hover/link:translate-x-0.5 group-hover/link:-translate-y-0.5 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                        <path stroke-linecap="round" stroke-linejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
-                      </svg>
-                    </a>`
-                  : '';
-                const headerRowHtml = (dateHtml || sourceLinkHtml)
-                  ? `<div class="flex items-center justify-between gap-2 mb-2">${dateHtml}${sourceLinkHtml}</div>`
-                  : '';
+              const uniqueTopics = dedupeAndLimitTopics(cat.topics, globalSeenTopicKeys, 30);
+              const visibleTopics = uniqueTopics.slice(0, 4);
+              const hiddenTopics = uniqueTopics.slice(4);
 
-                const headlineText = parseGlossaryTerms(topic.headline);
-                const headlineHtml = topic.url 
-                  ? `<a href="${topic.url}" target="_blank" class="hover:text-indigo-600 transition-colors inline-flex items-start gap-1 group"><span>${headlineText}</span><svg xmlns="http://www.w3.org/2000/svg" class="h-3.5 w-3.5 text-slate-400 group-hover:text-indigo-500 transition-colors mt-0.5 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" /></svg></a>`
-                  : headlineText;
-
-                topicsHtml += `
-                  <div class="mb-5 last:mb-0 pb-5 last:pb-0 border-b last:border-0 border-slate-200">
-                    ${headerRowHtml}
-                    <h5 class="text-sm font-bold text-slate-800 mb-2 leading-relaxed font-sans">${headlineHtml}</h5>
-                    <div class="space-y-3.5">
-                      <p class="text-xs sm:text-[13px] leading-relaxed text-slate-600 font-normal font-sans">${parseGlossaryTerms(topic.content)}</p>
-                      <div class="bg-indigo-50/50 border-l-2 border-indigo-400 p-3.5 rounded-r-lg">
-                        <span class="text-[9px] font-bold text-indigo-600 uppercase tracking-widest mb-1.5 block font-outfit">Impact & Implications</span>
-                        <p class="text-xs sm:text-[13px] leading-relaxed text-slate-600 font-normal font-sans">${parseGlossaryTerms(topic.impact)}</p>
-                      </div>
+              const visibleTopicsHtml = visibleTopics.map(topic => renderTopicCard(topic)).join('');
+              const hiddenTopicsHtml = hiddenTopics.length > 0
+                ? `
+                  <details class="rounded-lg border border-slate-200 bg-slate-50/60 p-3.5">
+                    <summary class="cursor-pointer list-none flex items-center justify-between text-xs sm:text-sm font-semibold text-slate-600 hover:text-indigo-600 transition-colors">
+                      <span>残り${hiddenTopics.length}件を表示</span>
+                      <span class="text-[10px] font-bold text-indigo-500">OPEN</span>
+                    </summary>
+                    <div class="pt-4 mt-3 border-t border-slate-200">
+                      ${hiddenTopics.map(topic => renderTopicCard(topic)).join('')}
                     </div>
-                  </div>
-                `;
-              });
+                  </details>
+                `
+                : '';
+
+              topicsHtml = visibleTopicsHtml + hiddenTopicsHtml;
             }
 
             let iconColorClass = 'bg-slate-100 border-slate-200 text-slate-500';
@@ -525,7 +570,7 @@
 
       chartSymbols.forEach(chart => {
         const wrapper = document.createElement('div');
-        wrapper.className = "w-[80vw] sm:w-auto flex-shrink-0 snap-center bg-white/40 backdrop-blur-sm rounded-xl border border-slate-200/80 overflow-hidden h-36 relative hover:border-slate-300 transition-all duration-300";
+        wrapper.className = "w-[80vw] sm:w-auto aspect-square sm:aspect-auto h-auto sm:h-36 flex-shrink-0 snap-center bg-white/40 backdrop-blur-sm rounded-xl border border-slate-200/80 overflow-hidden relative hover:border-slate-300 transition-all duration-300";
         
         const pulse = document.createElement('div');
         pulse.className = "absolute inset-0 z-0 bg-slate-100/50 animate-pulse";
