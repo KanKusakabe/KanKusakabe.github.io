@@ -16,6 +16,8 @@ jobs:
     steps:
       - name: リポジトリの取得
         uses: actions/checkout@v4
+        with:
+          persist-credentials: false
 
       - name: uvのセットアップ
         uses: astral-sh/setup-uv-action@v5
@@ -35,9 +37,12 @@ jobs:
           uv run generate_news.py
 
       - name: 生成データのコミットとプッシュ
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
+          git remote set-url origin https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git
           git add news/news_data.js
           # 変更がある場合のみコミット
           git diff --quiet && git diff --staged --quiet || (git commit -m "docs: ニュース要約データの自動更新" && git push)
