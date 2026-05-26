@@ -81,6 +81,19 @@
         radial-gradient(circle at 10% 10%, rgba(79, 70, 229, 0.12) 0%, transparent 45%),
         radial-gradient(circle at 90% 80%, rgba(168, 85, 247, 0.12) 0%, transparent 45%);
     }
+    /* Hide scrollbars for Chrome, Safari and Opera */
+    .no-scrollbar::-webkit-scrollbar {
+      display: none;
+    }
+    /* Hide scrollbars for IE, Edge and Firefox */
+    .no-scrollbar {
+      -ms-overflow-style: none;  /* IE and Edge */
+      scrollbar-width: none;  /* Firefox */
+    }
+    /* Hide sticky tabs on mobile by sliding up */
+    .tabs-hidden {
+      transform: translateY(-150%) !important;
+    }
   </style>
   <!-- Load the generated data -->
   <script src="./news_data.js"></script>
@@ -137,7 +150,7 @@
         </div>
       </div>
 
-      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4" id="mini-charts-container">
+      <div class="flex overflow-x-auto snap-x snap-mandatory gap-4 pb-4 -mx-4 px-4 no-scrollbar sm:mx-0 sm:px-0 sm:grid sm:grid-cols-2 lg:grid-cols-4 sm:pb-0" id="mini-charts-container">
         <!-- Charts will be rendered here by JS -->
       </div>
     </div>
@@ -165,8 +178,8 @@
       </div>
     </div>
 
-    <div class="bg-white/80 backdrop-blur-md rounded-2xl border border-slate-200 shadow-xl overflow-hidden mb-8">
-      <div class="flex border-b border-slate-200 bg-slate-50/50 p-2 gap-1 sm:gap-2">
+    <div class="bg-white/80 backdrop-blur-md rounded-2xl border border-slate-200 shadow-xl mb-8">
+      <div id="news-tabs-container" class="flex border-b border-slate-200 bg-white/95 backdrop-blur-md sm:bg-slate-50/50 p-2 gap-1 sm:gap-2 rounded-t-2xl sticky top-[73px] sm:relative sm:top-0 z-20 transition-all duration-300 ease-in-out">
         <button id="tab-days" onclick="switchTab('days')" class="flex-1 sm:flex-none px-4 sm:px-8 py-3 text-sm font-semibold rounded-xl text-center transition-all duration-200 focus:outline-none text-slate-500 hover:text-slate-800 hover:bg-slate-200/50">最新ニュース</button>
         <button id="tab-week" onclick="switchTab('week')" class="flex-1 sm:flex-none px-4 sm:px-8 py-3 text-sm font-semibold rounded-xl text-center transition-all duration-200 focus:outline-none text-slate-500 hover:text-slate-800 hover:bg-slate-200/50">今週のトレンド</button>
       </div>
@@ -316,7 +329,19 @@
             let topicsHtml = '';
             if (cat.topics && Array.isArray(cat.topics)) {
               cat.topics.forEach(topic => {
-                const dateHtml = topic.date ? `<div class="text-[10px] text-slate-400 font-medium mb-1.5">${topic.date}</div>` : '';
+                const dateHtml = topic.date ? `<div class="text-[10px] text-slate-400 font-semibold">${topic.date}</div>` : '';
+                const sourceLinkHtml = topic.url 
+                  ? `<a href="${topic.url}" target="_blank" class="text-[10px] font-bold text-indigo-600 hover:text-indigo-800 transition-colors inline-flex items-center gap-1 group/link">
+                      <span>ソース記事</span>
+                      <svg xmlns="http://www.w3.org/2000/svg" class="h-2.5 w-2.5 transform group-hover/link:translate-x-0.5 group-hover/link:-translate-y-0.5 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                      </svg>
+                    </a>`
+                  : '';
+                const headerRowHtml = (dateHtml || sourceLinkHtml)
+                  ? `<div class="flex items-center justify-between gap-2 mb-2">${dateHtml}${sourceLinkHtml}</div>`
+                  : '';
+
                 const headlineText = parseGlossaryTerms(topic.headline);
                 const headlineHtml = topic.url 
                   ? `<a href="${topic.url}" target="_blank" class="hover:text-indigo-600 transition-colors inline-flex items-start gap-1 group"><span>${headlineText}</span><svg xmlns="http://www.w3.org/2000/svg" class="h-3.5 w-3.5 text-slate-400 group-hover:text-indigo-500 transition-colors mt-0.5 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" /></svg></a>`
@@ -324,7 +349,7 @@
 
                 topicsHtml += `
                   <div class="mb-5 last:mb-0 pb-5 last:pb-0 border-b last:border-0 border-slate-200">
-                    ${dateHtml}
+                    ${headerRowHtml}
                     <h5 class="text-sm font-bold text-slate-800 mb-2 leading-relaxed font-sans">${headlineHtml}</h5>
                     <div class="space-y-3.5">
                       <p class="text-xs sm:text-[13px] leading-relaxed text-slate-600 font-normal font-sans">${parseGlossaryTerms(topic.content)}</p>
@@ -458,6 +483,8 @@
     }
 
     function handleGlossaryClick(e) {
+      e.preventDefault();
+      e.stopPropagation();
       const term = e.currentTarget.getAttribute('data-term');
       if (!term || !newsData.glossary[term]) return;
 
@@ -498,7 +525,7 @@
 
       chartSymbols.forEach(chart => {
         const wrapper = document.createElement('div');
-        wrapper.className = "bg-white/40 backdrop-blur-sm rounded-xl border border-slate-200/80 overflow-hidden h-36 relative hover:border-slate-300 transition-all duration-300";
+        wrapper.className = "w-[80vw] sm:w-auto flex-shrink-0 snap-center bg-white/40 backdrop-blur-sm rounded-xl border border-slate-200/80 overflow-hidden h-36 relative hover:border-slate-300 transition-all duration-300";
         
         const pulse = document.createElement('div');
         pulse.className = "absolute inset-0 z-0 bg-slate-100/50 animate-pulse";
@@ -552,6 +579,53 @@
       currentChartRange = range;
       renderMiniCharts();
     }
+
+    // Mobile Scroll-up Pop-up Tab Switcher logic
+    let lastScrollY = window.scrollY;
+    let accumulatedScrollUp = 0;
+    let accumulatedScrollDown = 0;
+    const SCROLL_THRESHOLD = 50; // pixels of scroll up to trigger popup
+
+    window.addEventListener('scroll', () => {
+      const tabsContainer = document.getElementById('news-tabs-container');
+      if (!tabsContainer) return;
+
+      // Only run on mobile (screen width < 640px)
+      if (window.innerWidth >= 640) {
+        tabsContainer.classList.remove('tabs-hidden', 'shadow-md');
+        return;
+      }
+
+      const currentScrollY = window.scrollY;
+      
+      // When we are scrolled down past the hero/overview section (approx 350px)
+      if (currentScrollY > 350) {
+        if (currentScrollY > lastScrollY) {
+          // Scrolling down
+          accumulatedScrollUp = 0;
+          accumulatedScrollDown += (currentScrollY - lastScrollY);
+          if (accumulatedScrollDown > 30) {
+            // Slide up and hide behind sticky header
+            tabsContainer.classList.add('tabs-hidden');
+            tabsContainer.classList.remove('shadow-md');
+          }
+        } else {
+          // Scrolling up
+          accumulatedScrollDown = 0;
+          accumulatedScrollUp += (lastScrollY - currentScrollY);
+          if (accumulatedScrollUp > SCROLL_THRESHOLD) {
+            // Slide down and reveal (pop up)
+            tabsContainer.classList.remove('tabs-hidden');
+            tabsContainer.classList.add('shadow-md');
+          }
+        }
+      } else {
+        // Reset to normal inline position near the top
+        tabsContainer.classList.remove('tabs-hidden', 'shadow-md');
+      }
+
+      lastScrollY = currentScrollY;
+    });
   </script>
 </body>
 </html>
