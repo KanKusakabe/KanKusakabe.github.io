@@ -201,6 +201,8 @@ def normalize_topic_key(topic):
     """Return a stable deduplication key for a topic."""
     url = (topic.get("url") or "").strip()
     headline = (topic.get("headline") or "").strip()
+    if url and headline:
+        return f"{url}|{headline}"
     return url or headline
 
 def enforce_topic_limits(llm_response, limit=TOPICS_PER_CATEGORY):
@@ -287,9 +289,9 @@ def main():
 
 ■ ジャンル別の特別な抽出ルール（重要）
 ・[マクロ・ビジネス系] (GLOBAL_WORLD, GLOBAL_BUSINESS, JAPAN_BUSINESS)
-  => グローバルとローカルの動きをクロスリファレンスし、社会・市場全体に影響があるものを最大30件まで抽出してください。
+  => グローバルとローカルの動きをクロスリファレンスし、社会・市場全体に影響がある高インパクト案件を優先して最大30件まで抽出してください。
 ・[テクノロジー・開発者系] (HACKER_NEWS, TECHCRUNCH, ZENN)
-  => 概要（本文抜粋）を深く読み込み、**「なぜそれが面白いのか」「日本の開発者にどういう影響があるか」を含めた具体的なトピックを最大30件まで抽出**して列挙してください。
+  => 概要（本文抜粋）を深く読み込み、**「なぜそれが面白いのか」「日本の開発者にどういう影響があるか」が明確な高関連トピックを優先して最大30件まで抽出**して列挙してください。
 ・全カテゴリ共通で、topics は **重複禁止（headline と url の重複を禁止）**。同一ニュースは複数カテゴリに重複掲載しないでください。
 
 ■ レポートの出力要件

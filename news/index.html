@@ -305,6 +305,7 @@
     function buildTopicKey(topic) {
       const url = (topic?.url || '').trim();
       const headline = (topic?.headline || '').trim();
+      if (url && headline) return `${url}|${headline}`;
       return url || headline;
     }
 
