@@ -22,9 +22,9 @@
 
 `KanKusakabe.github.io/news` では、最新の経済およびテクノロジートレンドが株式市場に与えた影響を因果関係に基づいて要約・解説するページがホストされています。
 
-* **フロントエンド:** [news/index.html](news/index.html) (Tailwind CSSを使用したレスポンシブな1枚のHTML。`news/news_data.json` を非同期で読み込んで表示します)
+* **フロントエンド:** [news/index.html](news/index.html) (Tailwind CSSを使用したレスポンシブな1枚のHTML。`news/news_data.js` を非同期で読み込んで表示します)
 * **バックエンド (要約スクリプト):** [generate_news.py](generate_news.py) (Google NewsのRSSをフェッチし、GeminiまたはOpenAIのAPIを用いて要約JSONを生成します)
-* **自動更新ワークフロー:** [.github/workflows/update_news.yml](.github/workflows/update_news.yml) (GitHub Actionsにより、毎日日本時間18:00に自動でスクリプトが走り、最新情報に更新されます)
+* **自動更新ワークフロー:** [.github/workflows/update_news.yml](.github/workflows/update_news.yml) (GitHub Actionsにより、日本時間 7:00, 12:00, 18:00 に自動でスクリプトが走り、最新情報に更新されます)
 
 ---
 
