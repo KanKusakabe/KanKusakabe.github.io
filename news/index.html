@@ -251,6 +251,8 @@
   <script>
     let newsData = null;
     let activeTab = 'days';
+    const TOPICS_PER_CATEGORY = 30;
+    const INITIAL_VISIBLE_TOPICS = 4;
 
     document.addEventListener('DOMContentLoaded', () => {
       loadNewsData();
@@ -306,7 +308,7 @@
       return url || headline;
     }
 
-    function dedupeAndLimitTopics(topics, globalSeenKeys, limit = 30) {
+    function dedupeAndLimitTopics(topics, globalSeenKeys, limit = TOPICS_PER_CATEGORY) {
       if (!Array.isArray(topics)) return [];
       const localSeenKeys = new Set();
       const uniqueTopics = [];
@@ -386,9 +388,9 @@
           periodData.categories.forEach(cat => {
             let topicsHtml = '';
             if (cat.topics && Array.isArray(cat.topics)) {
-              const uniqueTopics = dedupeAndLimitTopics(cat.topics, globalSeenTopicKeys, 30);
-              const visibleTopics = uniqueTopics.slice(0, 4);
-              const hiddenTopics = uniqueTopics.slice(4);
+              const uniqueTopics = dedupeAndLimitTopics(cat.topics, globalSeenTopicKeys);
+              const visibleTopics = uniqueTopics.slice(0, INITIAL_VISIBLE_TOPICS);
+              const hiddenTopics = uniqueTopics.slice(INITIAL_VISIBLE_TOPICS);
 
               const visibleTopicsHtml = visibleTopics.map(topic => renderTopicCard(topic)).join('');
               const hiddenTopicsHtml = hiddenTopics.length > 0
