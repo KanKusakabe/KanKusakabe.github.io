@@ -35,6 +35,8 @@ FEEDS = {
     "TECHCRUNCH": "https://techcrunch.com/feed/",
     "ZENN": "https://zenn.dev/feed"
 }
+TOPICS_PER_CATEGORY = 30
+RSS_MAX_ITEMS = 40
 
 def fetch_article_summary(url):
     """Scrape the main content or summary of the article to provide deeper context."""
@@ -195,6 +197,45 @@ def send_email_notification(to_email, subject, body_text):
     except Exception as e:
         print(f"メール送信エラー: {e}", file=sys.stderr)
 
+def normalize_topic_key(topic):
+    """Return a stable deduplication key for a topic."""
+    url = (topic.get("url") or "").strip()
+    headline = (topic.get("headline") or "").strip()
+    if url and headline:
+        return f"{url}|{headline}"
+    return url or headline
+
+def enforce_topic_limits(llm_response, limit=TOPICS_PER_CATEGORY):
+    """Limit topics per category and remove duplicates across all categories."""
+    days_data = llm_response.get("periods", {}).get("days", {})
+    categories = days_data.get("categories", [])
+    if not isinstance(categories, list):
+        return llm_response
+
+    seen_global = set()
+    for category in categories:
+        topics = category.get("topics", [])
+        if not isinstance(topics, list):
+            category["topics"] = []
+            continue
+
+        unique_topics = []
+        seen_local = set()
+        for topic in topics:
+            if not isinstance(topic, dict):
+                continue
+            key = normalize_topic_key(topic)
+            if not key or key in seen_local or key in seen_global:
+                continue
+            seen_local.add(key)
+            seen_global.add(key)
+            unique_topics.append(topic)
+            if len(unique_topics) >= limit:
+                break
+        category["topics"] = unique_topics
+
+    return llm_response
+
 def main():
     load_dotenv()
     
@@ -209,7 +250,7 @@ def main():
     news_data = {}
     total_news = 0
     for name, url in FEEDS.items():
-        items_text = fetch_news_from_rss(url, max_items=12)
+        items_text = fetch_news_from_rss(url, max_items=RSS_MAX_ITEMS)
         news_data[name] = items_text
         count = len(items_text.splitlines()) if items_text else 0
         total_news += count
@@ -248,9 +289,10 @@ def main():
 
 ■ ジャンル別の特別な抽出ルール（重要）
 ・[マクロ・ビジネス系] (GLOBAL_WORLD, GLOBAL_BUSINESS, JAPAN_BUSINESS)
-  => グローバルとローカルの動きをクロスリファレンスし、社会・市場全体に影響があるものを1〜3つに厳選してください。
+  => グローバルとローカルの動きをクロスリファレンスし、社会・市場全体に影響がある高インパクト案件を優先して最大30件まで抽出してください。
 ・[テクノロジー・開発者系] (HACKER_NEWS, TECHCRUNCH, ZENN)
-  => 概要（本文抜粋）を深く読み込み、**「なぜそれが面白いのか」「日本の開発者にどういう影響があるか」を含めた具体的なトピックを必ず3〜5個抽出**して列挙してください。
+  => 概要（本文抜粋）を深く読み込み、**「なぜそれが面白いのか」「日本の開発者にどういう影響があるか」が明確な高関連トピックを優先して最大30件まで抽出**して列挙してください。
+・全カテゴリ共通で、topics は **重複禁止（headline と url の重複を禁止）**。同一ニュースは複数カテゴリに重複掲載しないでください。
 
 ■ レポートの出力要件
 必ず以下のJSONスキーマに従って日本語のみで出力してください。Markdownのコードブロック（```json など）で囲まず、純粋なJSON文字列のみを返してください。
@@ -272,27 +314,27 @@ JSONスキーマ:
               "date": "ニュースの日付 (例: 10/24 等)",
               "url": "ニュースの元のURL"
             }}
-          ]
+          ] // 各カテゴリ最大30件、重複禁止
         }},
         {{
           "genre": "BUSINESS",
           "title": "ビジネス・経済動向",
-          "topics": [ ... ]
+          "topics": [ ... ] // 最大30件
         }},
         {{
           "genre": "TECHNOLOGY",
           "title": "グローバル・テックトレンド",
-          "topics": [ ... ]
+          "topics": [ ... ] // 最大30件
         }},
         {{
           "genre": "SCIENCE",
           "title": "サイエンス・ディープテック",
-          "topics": [ ... ]
+          "topics": [ ... ] // 最大30件
         }},
         {{
           "genre": "DEVELOPER_TRENDS",
           "title": "デベロッパートレンド (Hacker News & 国内)",
-          "topics": [ ... ]
+          "topics": [ ... ] // 最大30件
         }}
       ],
       "summary": {{
@@ -325,6 +367,8 @@ JSONスキーマ:
     if not llm_response:
         print("エラー: LLMによるレポート生成に失敗しました。", file=sys.stderr)
         sys.exit(1)
+
+    llm_response = enforce_topic_limits(llm_response, TOPICS_PER_CATEGORY)
         
     jst_tz = timezone(timedelta(hours=9))
     now = datetime.now(jst_tz)
