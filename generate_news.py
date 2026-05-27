@@ -91,9 +91,8 @@ def call_gemini_api(api_key, prompt):
     
     models = [
         "gemini-3.5-flash",
-        "gemini-2.5-flash",
-        "gemini-2.0-flash",
-        "gemini-flash-latest"
+        "gemini-flash-latest",
+        "gemini-2.5-flash"
     ]
     
     payload = {
@@ -121,7 +120,7 @@ def call_gemini_api(api_key, prompt):
             method='POST'
         )
         try:
-            with urllib.request.urlopen(req, timeout=60) as response:
+            with urllib.request.urlopen(req, timeout=180) as response:
                 result = json.loads(response.read().decode('utf-8'))
                 text_content = result['candidates'][0]['content']['parts'][0]['text']
                 usage = result.get('usageMetadata', {})
@@ -163,7 +162,7 @@ def call_openai_api(api_key, prompt):
     )
     
     try:
-        with urllib.request.urlopen(req, timeout=30) as response:
+        with urllib.request.urlopen(req, timeout=180) as response:
             result = json.loads(response.read().decode('utf-8'))
             text_content = result['choices'][0]['message']['content']
             usage = result.get('usage', {})
@@ -416,9 +415,32 @@ def main():
     now = datetime.now(jst_tz)
     final_response["updated_at"] = now.strftime("%Y-%m-%d %H:%M JST")
     
+
     output_dir = os.path.join(os.path.dirname(__file__), 'news')
     os.makedirs(output_dir, exist_ok=True)
     output_path = os.path.join(output_dir, 'news_data.js')
+    
+    token_usage = {}
+    try:
+        if os.path.exists(output_path):
+            with open(output_path, 'r', encoding='utf-8') as f:
+                content = f.read()
+                json_text = content[content.find('{'):content.rfind('}')+1]
+                import json
+                prev_data = json.loads(json_text)
+                token_usage = prev_data.get("token_usage", {})
+    except Exception as e:
+        print(f"Previous token usage could not be loaded: {e}")
+
+    current_month = now.strftime("%Y-%m")
+    current_day = now.strftime("%Y-%m-%d")
+    
+    run_tokens = total_api_usage["total_tokens"]
+    token_usage[current_month] = token_usage.get(current_month, 0) + run_tokens
+    token_usage[current_day] = token_usage.get(current_day, 0) + run_tokens
+    
+    final_response["token_usage"] = token_usage
+
     
     archive_dir = os.path.join(output_dir, 'archive')
     os.makedirs(archive_dir, exist_ok=True)

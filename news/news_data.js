@@ -7,39 +7,60 @@ window.newsData = {
           "title": "グローバル情勢・マクロ経済",
           "topics": [
             {
-              "headline": "米国がインド太平洋監視計画と米印重要鉱物合意を発表、中国依存脱却へのサプライチェーン再編が加速",
-              "content": "マルコ・ルビオ米国務長官（候補）らがインド太平洋監視計画を発表。同時に、米国とインドが半導体やクリーンエネルギーに不可欠なクリティカルミネラル（重要鉱物）に関する二国間合意を締結した。中東のホルムズ海峡の緊張が高まる中で、クアッド連携による対中供給網依存からの脱却を急ぐ方針が鮮明になった。",
-              "impact": "EV、半導体、電子部品などの製造において極めて重要なレアメタルや鉱物資源のグローバルな調達先多角化を決定づける動き。日本のハイテク製造業や車載ソフトウェア、ハードウェア開発者にとっては、中国一極集中リスクが低減する一方、調達コンプライアンスや米主導の枠組み（IPEF等）への適合がさらに厳格化される。日米印を軸とする新たなサプライチェーン設計が急務となる。",
-              "date": "5/26",
-              "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQd2JYMjg4bVh3UHdiUWFRZDdDM1RGeW95NGRyZlhqZGJZYXlIMlpfN1lyNzVXSU5LRmdIWjBzU0ptRkpVWlltdWE4akpnaVd0Yk1MYU5ndVhXTnpzaHlNOE9IWmthTWt5WnctY292R3BIeExkNDR5c09ZWFlIdnVpendSc2ZSYmp2VE9BbG5jb2dtUUlWVkFFYngyUjVucksyWmc0T3d4cWRucC15dHlfWGQyM2R6UQ?oc=5"
+              "headline": "NASAが恒久的な月面基地建設に向けたロボット着陸機やホッピングドローンの計画を発表",
+              "content": "NASAは、米国の月面基地計画の一環として送り込む予定のロボット着陸機、ホッピングドローン、探査車両の詳細を明らかにした。ジェフ・ベゾス氏の宇宙企業「Blue Origin」などが開発パートナーに選定されており、米国は2029年までの有人月面着陸を目指して中国と激しい宇宙開発競争を繰り広げている。",
+              "impact": "★重要★ 日本のロボティクスや自動制御、通信技術を保有する開発者やスタートアップにとって、極限環境（月面）での自律制御システムの需要が急増する契機となる。また、アルテミス計画に参画する日本政府や国内宇宙セクターへの共同開発や予算獲得の機会拡大を後押しする。",
+              "date": "05/26",
+              "url": "https://www.bbc.com/news/articles/c39228nxyr4o?at_medium=RSS&at_campaign=rss"
             },
             {
-              "headline": "北朝鮮が日本海へ弾道ミサイルを発射、地政学的リスクの再燃で防衛セクターに注目",
-              "content": "北朝鮮が弾道ミサイルを含む複数の兵器を日本海に向けて発射。トランプ米新政権発足に合わせた最新の武力誇示とみられ、周辺地域での緊張が急速に高まっている。",
-              "impact": "日本国内の安全保障・防衛関連株（三菱重工、川崎重工、各種防衛ITベンダーなど）に直接的な市場インフレ圧力がかかる。開発者コミュニティにとっては、政府のサイバー防衛予算やセキュリティ監視システムの国産化、重要インフラ向けセキュリティ対策の基準引き上げに伴う、防衛・公共系ITプロジェクト需要のさらなる増加を意味する。",
-              "date": "5/26",
-              "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQLWNzaG1lNDA3Z2R4QzQ5bHNYeENqaXdUWjEyUjVOQVY4SzhFSlRFUU80Z011US1fZXY3RW9MX19RNW1fdTVlOWNoam5IaVA5dkE4YjM5Z0tIWDZTZkZWS3hTSnIwSUtDOGViQVxvVkpSaThPVTFxeU9oR0FCb3lXd0dtb3R2V1dxSEhyVw?oc=5"
+              "headline": "シドニーのライトショーで約90機のドローンが海に落下、技術的不具合で今後のショーが中止に",
+              "content": "オーストラリア・シドニーの光の祭典「Vivid Sydney」にて、約90機のドローンが技術的トラブルによりダーリングハーバーの海へと一斉に落下した。主催者はこれを「予期せぬ技術的困難」とし、予定されていた今後のドローン空撮ディスプレイの中止と謝罪を発表した。",
+              "impact": "★重要★ 近年、日本国内でもエンターテインメントや空撮、物流分野でドローン活用が急速に進んでいるが、本件はスウォーム（群）制御システムや無線干渉、GNSS（全球測位衛星システム）ロストに対するフェイルセーフ設計の重要性を再認識させる。イベント・制御系を開発する組込みエンジニアは、より厳格な安全・冗長化基準へのアップデートが迫られる。",
+              "date": "05/26",
+              "url": "https://www.bbc.com/news/videos/clyppgdl3xwo?at_medium=RSS&at_campaign=rss"
             },
             {
-              "headline": "ホルムズ海峡の緊迫とイラン非核化交渉の膠着、原油調達に連動する日本のインフレリスク",
-              "content": "トランプ政権が「良い条件がなければ合意しない」とする強硬姿勢を崩さない中、イラン側は米国が停戦合意に重大な違反をしたと告発。ホルムズ海峡を巡る地政学的緊張が高まり、原油供給ルートへの脅威が懸念されている。",
-              "impact": "日本は原油輸入の約9割をホルムズ海峡に依存しており、本地域の地政学リスクは国内のエネルギーコスト、燃料、素材価格、さらには輸送コストの急騰に直結する。国内全般のマクロ経済にマイナスの影響を与える懸念があり、日本の市場全体（特に航空・陸運・化学セクター）の株価変動要因となる。また、代替エネルギー（クリーンエネルギー、水素技術）や省エネ関連技術のシステム開発案件が再び加速する契機となる。",
-              "date": "5/26",
-              "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOMEc0ZGt5aGt6emxZVkRKZFdPV2kyekNrR1dzb3ZDcml2dzAxa09Ma0FFR3pIN2RxaEJ6X3U0dnctSUhwUTh0R1ZDazZLSHlOY0UwbzF0OURPUzNnVWJRSnZLX2l1TVJ6WGNLUkJnUF9XLV9Zam80dG11emxiVnNrZ1pvR3ZHMkh3eXBuMHVYTkpzVzFsa0w4Ng?oc=5"
+              "headline": "欧州西部で記録的な早期熱波が発生、英国で5月の最高気温を大幅更新",
+              "content": "西ヨーロッパ全域が「ヒートドーム」に覆われ、平年を10〜15度も上回る深刻な熱波に襲われている。英国では5月としては過去最高となる35度を突破し、専門家は「あり得ない異常事態」と警鐘を鳴らしている。",
+              "impact": "★重要★ 急激な気候変動の顕在化は、再生可能エネルギーへの移行、スマートグリッド構築、電力需要予測AIの開発を促す強い圧力となる。日本市場においても、データセンターの超省電力冷却技術や、熱中症対策・省エネ向けスマートシティ技術（Climate Tech）を開発する企業にとって技術需要の拡大を意味する。",
+              "date": "05/26",
+              "url": "https://www.bbc.com/news/articles/c62rrj66p3eo?at_medium=RSS&at_campaign=rss"
             },
             {
-              "headline": "EUがドローン・偽情報対策強化を表明、サイバー・認知戦対策がグローバル防衛の核に",
-              "content": "フォン・デア・ライエン欧州委員長は、ロシアがウクライナを越えてバルト三国など欧州の安定を揺るがす「ハイブリッドキャンペーン」を行っていると警告。ドローン兵器やAIを用いた誤情報（ディスインフォメーション）への対抗措置を強化する方針を示した。",
-              "impact": "現代の紛争における「AI・デジタル兵器・フェイク情報」の脅威が本格化。日本政府もサイバー防衛や認知戦（偽情報対策）の強化を進めており、国内のITベンダーやAIエンジニアにとって、フェイク動画・記事を検出するAIモデルの開発や、重要インフラ（通信・電力）を物理ドローンおよびサイバー攻撃から守るシステムの需要が急拡大する。",
-              "date": "5/26",
-              "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOUW9XQXR4RTVVQ1JOTnhQaURfVWdmRkh1ejA0MGNYMjcySnFNNU0tcUtFVnMyd0xfY04tNW9WWlgteldtbUFRQVBJTFp5QUcxSno1cTFwelNTMl9scXNqanNvME5Xa3duOEprZ0RPeTlfSl9pWVdmQl85ZnZCV005VjdrOGRjOTdsd3pKc1lwQzBaWkNiUVpaSnZGbmJjZUdTSXUxX3B1Y1VSQUdaLXllRU1QT0xrTGFJMjFPVm9sb2lLLWd5cGNURnVCLVNfZi1aMFE?oc=5"
+              "headline": "米国がホルムズ海峡緊迫の中で「インド太平洋モニター計画」を提唱、日米豪印Quadとの連携強化へ",
+              "content": "マルコ・ルビオ米上院議員が、ホルムズ海峡での地政学的緊張（イラン・米国間の衝突）を受けて「インド太平洋モニター計画」を発表した。この計画は、海洋監視能力を強化し、日米豪印（Quad）やインドとの重要な鉱物・供給網取引、安全保障協力を加速させることを意図している。",
+              "impact": "★重要★ シーレーンの防衛とエネルギー・サプライチェーンの安定は、資源国ではない日本にとって生命線である。防衛産業やセキュリティ・監視システム、AI画像解析・海洋データ分析を手がける日本のハイテク企業や開発者にとって、多国間での防衛調達や技術開発共同プロジェクトの立ち上げといった直接的なビジネス機会が創出される。",
+              "date": "05/26",
+              "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQd2JYMjg4bVh3UHdiUWFRZDdDM1RGeW95NGRyZlhqZGJZYXlIMlpfN1lyNzVXSU5LRmdIWjBzU0ptRkpVWlltdWE4akpnaVd0Yk1MYU5ndVhXTnpzaHlNOE9IWmthTWt5WnctY292R3BHeExkNDR5c09ZWFlIdnVpendSc2ZSYmp2VE9BbG5jb2dtUUlWVkFFYngyUjVucksyWmc0T3d4cWRucC15dHlfWGQyM2R6UQ?oc=5"
             },
             {
-              "headline": "米軍、NATO（欧州）の兵力削減方針、戦略焦点をアジア太平洋（対中・日米同盟）へシフトへ",
-              "content": "米国政府は、欧州のNATO防衛体制に配備していた戦闘機や駆逐艦、潜水艦などの主力アセットを大幅に削減・撤収する方針であると報じられた。",
-              "impact": "米軍が欧州から引き揚げた防衛アセットを「インド太平洋地域（対中・対北朝鮮）」にシフトさせる可能性が極めて高く、これによって日本の安全保障上の責任範囲や日米共同運用の密度が格段に増す。日本の防衛予算増額の流れが決定的となり、防衛テック（ミリタリーテック）、AI監視、ドローン制御、通信セキュリティ分野での国産開発パートナーを模索する日本政府・防衛省との協業ビジネスが急拡大する。",
-              "date": "5/26",
-              "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQdlRBcTNVRExheUVXVnRsZ1FNX2VWUXcwTzN5UDdDLXlFWlFGem5lLThsaEphQ3dyekJ1T0FZZm1RQkdJc1RGSmFXYXBmdXAyN1doMm15RXdubmRxVmVfUUZ5SmRHZVdhODl2cmxhQ19meWFsMHpGSGxaQnkyYmxpTDhVUDhiZzVuUTBKQldlWnh5TENzdWNIVE44VUV0LXF6MzhXOHhNcnFRdEFmRHJUdWotVzNGQQ?oc=5"
+              "headline": "英GCHQが警告：ロシアが欧州の重要インフラや民主主義の「破壊」を執拗に標的に",
+              "content": "英国の諜報機関GCHQの長官アン・キースト＝バトラー氏は、ロシアがサイバー攻撃や情報操作を通じ、重要インフラや民主主義を執拗に狙っていると強く警告する予定。EUもまた、ロシアによる世論誘導（デマキャンペーン）やドローン脅威に対抗する姿勢を表明している。",
+              "impact": "★重要★ 日本のインフラ企業（電力、鉄道、水道など）や通信会社にとって、標的型サイバー攻撃の猛威は対岸の火事ではない。日本のITエンジニア・セキュリティ専門家は、重要インフラを標的とした攻撃への耐性を高めるためのゼロトラストセキュリティ、OT（制御技術）防御、ソフトウェアサプライチェーンセキュリティの適用を急ぐ必要がある。",
+              "date": "05/26",
+              "url": "https://www.bbc.com/news/articles/c4g44gprnnvo?at_medium=RSS&at_campaign=rss"
+            },
+            {
+              "headline": "米国ワシントン州の製紙工場で大規模な化学物質爆発事故が発生",
+              "content": "ワシントン州ロングビューの日本系（日本ユニパック等関連）企業「Nippon Dynawave Packaging」の工場で大規模な化学爆発が発生し、少なくとも1人が死亡、9人が依然行方不明、複数名が負傷した。",
+              "impact": "★重要★ プラント設備を多く保有する日本の素材・製造業において、工場保安の再点検が求められる。産業用IoT（IIoT）、センサー技術、異常検知AIなどの「スマート保安」および「予防保全」技術を開発するテックベンダーにとって、より高信頼性の安全監視システムに対する需要が高まる。",
+              "date": "05/27",
+              "url": "https://www.bbc.com/news/articles/cj9ppm94xw9o?at_medium=RSS&at_campaign=rss"
+            },
+            {
+              "headline": "イランが米国の空爆を「停戦の重大な違反」と非難、中東の緊張状態が激化",
+              "content": "米中央軍（Centcom）がイランのミサイル基地などを「自衛攻撃」として標的にしたことに対し、イラン外務省は深刻な停戦違反であると抗議し、米国側に全責任があると警告した。この緊迫化によりホルムズ海峡の安全航行が脅かされている。",
+              "impact": "★重要★ エネルギーの大部分を中東に依存する日本にとって、原油高によるインフレ再燃リスクが直撃する。海運セクターでは航路の安全確保のための迂回が想定され、物流コストの上昇は避けられない。この地政学的リスクを受け、サプライチェーンの動的再構成技術や物流最適化アルゴリズムの重要度がさらに上昇する。",
+              "date": "05/26",
+              "url": "https://www.bbc.com/news/articles/c4g44yl7q70o?at_medium=RSS&at_campaign=rss"
+            },
+            {
+              "headline": "ロシア新型ミサイル「オレシニク」の特異な兵器ペイロード『運動エネルギー貫徹体』の全貌",
+              "content": "ロシアが試射した新型中距離弾道ミサイル「オレシニク」の弾頭に、爆薬ではなく、高速の衝撃のみで標的を破壊する「運動エネルギー貫徹体（Kinetic Penetrators）」が搭載されていたことが注目されている。専門家はその破壊力と目的の分析を進めている。",
+              "impact": "★重要★ 防衛装備・軍事技術の急速なパラダイムシフトを示す事例。日本が研究開発を進める電磁加速砲（レールガン）や極超音速滑空弾（HVGL）の技術とも交差する。高精度センサや超耐熱・超硬度素材等の先端材料工学に関わる日本の防衛・製造エンジニアにとって、物理的運動エネルギー兵器の脅威に対する新たな防護技術の研究が必要となる。",
+              "date": "05/26",
+              "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNWWZIWUR1R0V0RFZwMzJqY0ZYNm5ocGgwd2ItVnpzbG1ESWdSNVA3blRXYzJYVGlucmpOWm1oU3RFNXJxNWRmWWIwR2tHZWExdkZZX3Vxekk1SjUycThqOHM2c3ljOGtQSjNzbm1xOE0wQVYweEplLWN4UXNHZkt5QU9VVjVkaUhEbzIyMXh4bUdKdTh0YkVZbzg3aV83Z9IBoAFBVV95cUxPRFJ1SEZlWFBqLWFjanFzSjB5dUZjTjhST3lCajE2ekt6bFlrOVQ3MFN0QWlkc3Ywc2pJbmpZOElUdTZJYWxFZ20ycWhPTGtjcWpFQ0tNaEtBQTZNLWFIQV90TkVLUjROY2N5YUFJSGwwQkZXYWdWUHlheGowRFFjeGFjOU52Mk9menh0cGpPWENkU2NrdW5IZHlpenZld1Ru?oc=5"
             }
           ]
         },
@@ -48,102 +69,130 @@ window.newsData = {
           "title": "ビジネス・経済動向",
           "topics": [
             {
-              "headline": "日経平均株価、一時初の6万6000円台を突破。上げ幅は1400円を超える記録的高騰",
-              "content": "日経平均株価が取引時間中に一時、史上初となる6万6000円台に乗せ、上げ幅が1400円を超える爆発的な高騰を記録しました。世界的なテック株高やAI半導体需要の盛り上がりを追い風に、日本市場への資金流入が加速しています。",
-              "impact": "★重要★日本経済のマクロ的な大転換を象徴する出来事です。海外資本の流入促進や個人投資家のマインド好転は、国内スタートアップや先端技術開発への投資環境を劇的に改善します。一方で急激な資産価格の上昇は、円相場や国内の物価体系、および日銀の利上げペースへ直接波及するため、全セクターにおいて財務・投資戦略の再考が求められます。",
-              "date": "5/27",
-              "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9oTGFwOEJpdWlGTHpaaG91LVRmNGFlLVhzUkRsLUdtNFRoTEQxcU12aVpWbGtsWGN5OWNESW00bnZwVWNoaTdwSUN1azhSZHFoMXdwdHctQjZtZ1e1UktWSFpHUmJkV1NGQzA3OQ?oc=5"
+              "headline": "AIメモリ半導体の需要爆発：SK HynixとMicronが時価総額1兆ドルを突破し日韓株高を牽引",
+              "content": "生成AI向けの需要爆発に伴い、韓国のSK Hynixと米半導体大手Micronの時価総額がそれぞれ1兆ドル（約150兆円超）の大台を突破。これに連動して、日韓の株式市場でも半導体関連銘柄が記録的な上昇を見せている。",
+              "impact": "★重要★日本の半導体製造装置（東京エレクトロンやレーザーテック等）や極めて高い技術力を持つ部素材サプライヤー（信越化学、東京応化工業等）にとって、中長期にわたる直接的な業績押し上げの追い風となる。先端パッケージングやHBM（高帯域幅メモリ）対応のエンジニア需要も劇的に高まる。",
+              "date": "05/27",
+              "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9pc1lxTWxPek5FNFMzT09uTVpsYWpaRVl0Zlhia1MwcGpRNGdSUjNMVWM0VHZUSGliSS1zRHFZajV1RHQ1dGlqU01udFJQNEpsQ01CNVVEQlI1dw?oc=5"
             },
             {
-              "headline": "ソフトバンクG株価が4日で6割急騰、時価総額でトヨタに迫る勢い",
-              "content": "ソフトバンクグループ（SBG）の株価が急騰し、わずか4日間で6割上昇しました。これにより時価総額は、日本市場の首位を独走してきたトヨタ自動車に肉薄する水準まで拡大しています。",
-              "impact": "★重要★SBGの急騰は、同社が傘下に持つ英Armを中心とした「AI・半導体シフト」に対する市場の絶対的な信頼を反映しています。日本発のAI投資プレイヤーとして世界的な資本力を誇示することは、国内のITエコシステム、スタートアップ、そして先端技術エンジニアに対するグローバルマネーの呼び込みを強力に後押しします。",
-              "date": "5/26",
-              "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1tbEVyaHBtS25tZFlqNmhvNkZ1N1VkamRrZllXeVRqOTRKUGp0UWRUc20xWVRNS0lRTUxVTUxSWEJTY0o2dWlXYWw5ZHgyNWRHY2FJWWNibG81YTVEYWxLZzNaWHlTVy1WczZ0bQ?oc=5"
+              "headline": "キオクシアHDが連日高値、時価総額一時36兆円台に急拡大",
+              "content": "国内メモリー大手のキオクシアホールディングス（旧東芝メモリ）の株価が連日で高値を更新。世界的メモリ需要の逼迫とMicron等の躍進を背景に、時価総額は一時36兆円台に達した。",
+              "impact": "★重要★日本の半導体業界への投資環境がかつてないほど良好であることを示している。キオクシアは国内での生産設備投資や研究開発（R&D）を増強する見込みであり、日本のデバイス・回路設計開発者、生産エンジニアに対する人材需要が急激に活性化する。",
+              "date": "05/27",
+              "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBXRXQyZGZvNW9MVVBtb29ZcWtmMjI5R2NPTnhIM0RjYUZGUU9ZWU8td1ZGRUtvWTdvUXB4TmJEb0xSbUw2Z1Nod0xDUGZWTF8xN1NVUnY5aGpVUEZFcXdlVGo0Nk9oYUd3eEE3dQ?oc=5"
             },
             {
-              "headline": "米マイクロンと韓SK Hynix、AI半導体ブームを追い風に相次ぎ時価総額1兆ドルを突破",
-              "content": "米半導体大手マイクロン・テクノロジーおよび韓国のSKハイニックスが、生成AIの急速な普及に伴う高帯域幅メモリー（HBM）などの深刻な逼迫を背景に、相次いで時価総額1兆ドルの大台を突破しました。",
-              "impact": "★重要★メモリー半導体の両巨頭が空前の評価を獲得したことは、製造に欠かせない極めて高い技術力を持つ日本の半導体製造装置（東京エレクトロンなど）や化学部材・材料メーカー（信越化学、レゾナック、JSRなど）に長期的な超巨大需要をもたらします。日本の開発者にとっては、最先端のハードウェア設計やプロセス開発において、より密接な日米韓の共同開発機会が急増することを示唆しています。",
-              "date": "5/26",
-              "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQbWJaVWxjcTRNazA3d3ZRWnFKNS0yZ2R2R0pqNUYyUWlDT3NyMGRpa1ppUzgtaEE2MHdjTUs5WWlPaWVkOWlYaTlxY2F0RHdodlJJOUVxdFlybURkdkZSaDQySGZqOGcwdkZraEdxQkpTdkROOHl4U3B2RFlDNkM1ZzhqTVQ2QQ?oc=5"
+              "headline": "日経平均株価が一時初の6万6000円台へ急騰、上げ幅1400円を超える歴史的株高",
+              "content": "日経平均株価は一時、史上初となる6万6000円台に乗り、前日比での上げ幅が1400円を超える記録的な爆騰を見せた。AI需要を発端とする世界のテクノロジー株高が波及している。",
+              "impact": "★重要★日本市場全体の資金流動性を極限まで高めており、国内スタートアップの大型調達や、国内企業のITシステムおよびDXへの再投資予算を大幅に拡大させる契機となる。他方で急激な市況変動に耐えうる金融関連インフラの構築など、FinTechエンジニアへの期待も並行して上昇する。",
+              "date": "05/27",
+              "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9oTGFwOEJpdWlGTHpaaG91LVRmNGFlLVhzUkRsLUdtNFRoTEQxcU12aVpWbGtsWGN5OWNESW00bnZwVWNoaTdwSUN1azhSZHFoMXdwdHctQjZtZTE1UktWSFpHUmJkV1NGQzA3OQ?oc=5"
             },
             {
-              "headline": "国内の4月工作機械受注が45%増。データセンター関連投資が牽引役に",
-              "content": "4月の工作機械受注額が前年同月比45%増と大幅に増加しました。特に国内市場におけるデータセンター（DC）関連のインフラ整備や設備投資の活発化が、受注急増の強力なドライバーとなっています。",
-              "impact": "★重要★世界的なAIデータセンターの建設計画が日本国内でも急速に現実化している証左です。冷却システムや電源ユニット、基盤筐体などを製造する日本の高精度工作・産業用機械セクターの好調が約束されました。製造業やインフラ・通信分野のエンジニアにとって、技術開発のターゲットとしての「データセンター特需」が鮮明になっています。",
-              "date": "5/26",
-              "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBDb19qVVBrOXljTld4QnhaNXdjd3dFUnNzSmppUnRIMUZiNEJHZWlTTEdJS1FEQU5hb2p6N2JHVHBGeHQ5UDdraDFMdGQ4aTdVT2ZxblVadGtDMVE2el96eDFPZVBON2JudDFrRQ?oc=5"
+              "headline": "日本の4月工作機械受注が前年比45%増と大幅回復、データセンター（DC）投資が後押し",
+              "content": "4月の日本の工作機械受注が、前年同月比45%増の大幅な伸びを記録。国内市場で上向き傾向が鮮明となっており、背景には世界的なデータセンターやデジタルインフラへの投資増が寄与している。",
+              "impact": "★重要★日本の得意とする精密製造業、FA（ファクトリーオートメーション）市場の本格復活を告げるデータ。データセンター向けの各種ICや冷却システム、配電装置の製造に直結しており、機械設計エンジニアや工場の産業用IoTシステム構築を行うインテグレーターにとって特需が発生する。",
+              "date": "05/26",
+              "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBDb19qVVBrOXljTld4QnhaNXdjd3dFUnNzSmppUnRIMUZiNEJHZWlTTEdJS1FEQU5hb2p6N2JHVHBGeHQ5UDdraDFMdGQ4aTdVT2ZxblVadGtDMVE2el96eDFOZVBON2JudDFrRQ?oc=5"
             },
             {
-              "headline": "オーストラリアがLNG輸出の20%を国内優先に留保。日本の調達に影響か",
-              "content": "オーストラリア政府は、国内のエネルギー不足懸念に対応するため、LNG（液化天然ガス）の輸出量のうち20%を国内市場に優先留保する方針を固めました。同国からのLNG輸入に深く依存する日本への安定供給に影を落としています。",
-              "impact": "★重要★中東情勢緊迫による原油価格の100ドル突破と併せ、日本のエネルギー調達に致命的なインパクトを与えかねない経済安保上のリスクです。電気料金および製造コストのさらなる高騰は、データセンターの運営コストを押し上げ、ひいてはAI利用やクラウドサービスの料金設計にも直接響くため、低消費電力アーキテクチャの採用など開発側にも変革が迫られます。",
-              "date": "5/25",
-              "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBzb3NQcWhQbldramJJRzBuZ3M5bGRMMUxWb01CcmRIZ1VwcGgyUWJRejlldXNZamk3WHFlelBaOGpfX0ZOSFZ3OXZmR3ZzOHVMQlh2eFhPOVpMQS1GQnlzd2JWdG1ONV8xQzlVUg?oc=5"
-            },
-            {
-              "headline": "住友電工、中国からの超硬原材料タングステンの調達が「完全にストップ」と公表",
-              "content": "住友電気工業の井上社長は、精密加工用の切削工具などに必須とされる重要鉱物「タングステン」について、主要な輸出国である中国からの調達ルートが完全にストップしたことを明らかにしました。",
-              "impact": "★重要★中国によるレアアース支配強化の地政学的動きが、日本の最重要製造ラインを直撃しています。タングステンなしには精密な金型加工や半導体部材加工が困難になるため、非中国ルートの代替サプライチェーン構築が急務です。材料工学のエンジニアにとっては、代替素材の開発や加工技術の再設計において極めて重要かつ差し迫った開発需要が発生しています。",
-              "date": "5/25",
-              "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1QbFZMU2hFNnBCUHVVYzBYMkh6SWJubUhPR2U0YkFTTk8zZGNXb3Jua1VDakdvUGRFaC0xcWN6V1Q1SjRSTHctRUI1UkctM2NERzZLeW5xMmFiaWVUZEJOWjBFbmRfSnJWekJVUw?oc=5"
-            },
-            {
-              "headline": "米政権が量子コンピューティングに20億ドル支援、日米で量子コンピューター関連株が急騰",
-              "content": "米国政府が量子コンピューティング分野に対して新たに20億ドル（約3100億円）規模の連邦資金を提供することを決定し、米市場でIBMやQBTS、RGTIといった関連銘柄が急騰。日本市場でも「国策銘柄」の急先鋒として量子関連株へ資金が殺到しています。",
-              "impact": "★重要★暗号技術や最適化問題など、次世代の計算パラダイムをリードするための米中競争が激化。日本国内でも量子・物理エンジニア、先端アルゴリズム開発者への予算流動性が一気に向上します。将来の耐量子暗号（PQC）の実装や、量子クラウドを活かした独自ユースケースの開発競争に強力な追い風が吹いています。",
-              "date": "5/26",
+              "headline": "日米で量子コンピューター株急騰、米政府巨額出資を背景に「国策銘柄」化へ",
+              "content": "米政府による量子分野への20億ドル規模の資金提供プログラム発足を契機に、IBMや主要量子ベンダーが注目され、日米で量子コンピューター関連銘柄に買いが殺到。「国策銘柄」として位置づけられつつある。",
+              "impact": "★重要★量子技術開発を行うスタートアップや研究開発部署にとって、これまでにない大規模な官民協調資金が流れ込むトリガーとなる。国内SIerや暗号技術専門家にとっても、量子耐性暗号（PQC）のシステム移行や量子アルゴリズムを実業務に適用するソフトウェアの開発競争が本格化する。",
+              "date": "05/26",
               "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9wVVl3d21tdllfRElMVHVHWC1QdFhYaEdBUGl5NVBLbnY0eWNISnpaMFpELTRKNmF1ZHREdkJfWHBaY3cxQkdNR3U4dm9HZmpfVWVJb19uV2wwbkdnSVRCMTl1MklVZFpmbHFwNQ?oc=5"
             },
             {
-              "headline": "米IPO市場がスペースXなどで世界の資金の6割を独占。東証の資金流出と低空飛行が浮き彫りに",
-              "content": "SpaceXの新規公開株（IPO）観測による異常な盛り上がりなどを契機に、世界のスタートアップ・IPO調達資金の約60%が米国に一極集中する状況が発生しています。日本国内（東証）は魅力的なディープテック上場が乏しく、低空飛行が続いています。",
-              "impact": "★重要★日本の先進的スタートアップやロボティクス、宇宙開発に携わる開発会社が、国内ではなく「米国市場に直接リーチする」形でのグローバルな資金調達やガバナンスへの移行を迫られる現状を示しています。日本のイノベーターやエンジニアの起業家にとって、最初からグローバル展開（Global from Day One）を狙う戦略的な必要性を高める警鐘となります。",
-              "date": "5/26",
-              "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1HdFpvS3JXU1RnSEh5N211TW5YRGhCb1hGUEhxVTdMZEhiUnZQWXRVcVdENk0wZnhZLVdUU2gxY2hZeWJKZFNpcng0Mm11OHRDZG5aLUNWWDVlS0FhVjl4WXNxZk1OLXhqeU51dA?oc=5"
+              "headline": "ソフトバンクグループ（SBG）株価が4日で6割急騰、トヨタ自動車に迫る時価総額に",
+              "content": "ソフトバンクグループの株価が急上昇を続け、時価総額で首位を維持してきたトヨタ自動車に猛烈に迫る状態となった。同社が強固な地位を築くAI・先端半導体エコシステムへの期待値が再びピークに達している。",
+              "impact": "★重要★日本のテック・スタートアップエコシステム全体へのVCマネー還流の期待がさらに高まる。SBGのAIシフトに伴い、国内のAI応用開発者、ロボティクス、エッジAI領域での新規M&Aや技術投資が呼び込まれ、国内エンジニアの評価額および給与水準にも好影響を与える。",
+              "date": "05/26",
+              "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1tbEVyaHBtS25tZFlqNmhvNkZ1N1VkamRrZllXeVRqOTRKUGp0UWRUc20xWVRNS0lRTUxVTUxSWEJTY0o2dWlXYWw5ZHgyNWRHY2FJWWNibG81YTVEYWxLZzNaWHlTVy1WczZ0bQ?oc=5"
             },
             {
-              "headline": "ChatGPTに「トラブルは即通報」の仕様。プロ野球監督の辞任・逮捕騒動を背景にAIガバナンスが焦点に",
-              "content": "プロ野球巨人の阿部慎之助監督が、長女への暴力容疑で逮捕・辞任した劇的な騒動の中で、長女が事前にChatGPTに相談した際、ChatGPTが直ちに通報を強く推奨する安全仕様（ガードレール）に則って回答し、事件発覚につながったことが波紋を広げています。",
-              "impact": "★重要★生成AI（LLM）が単なるテキスト生成ツールを超え、社会の司法プロセスや人身の保護に直接影響を及ぼした極めて重大なケーススタディです。AI開発において、倫理設計やハームリダクション（危害軽減）、プロンプトのセーフティガードをいかに「自律的な動作」として組み込むべきか、日本を含む全世界のエンジニア、サービスプランナーにとって設計基準を大きく定義し直す事件と言えます。",
-              "date": "5/26",
+              "headline": "原油価格が再び100ドルを突破、中東緊迫で九州などの製造拠点に「ナフサ不足」の影",
+              "content": "米国によるイラン攻撃とイランの報復姿勢を受け、原油価格が再び1バレル100ドルを突破。日本国内（特に九州の製造業）では石油化学製品の原料である「ナフサ」が秋以降不足するとの見通しが立ち、生産継続への不安が広がっている。",
+              "impact": "★重要★半導体パッケージ、電子部品基板、自動車樹脂部品などに使用される合成樹脂（プラスチック）の調達価格・安定調達に大きな影響を及ぼす。日本のサプライチェーンマネージャーや設計エンジニアは、素材の代替化検討や、高効率（省エネ）の製造工程開発を急ぐ必要がある。",
+              "date": "05/27",
+              "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE53c0o3bF9TRWRDOEtEcExKT2dvRi1mNWxFRFY2VUtReHFiNWxTZHdzWUVVTHdEYzVlSWQzOWJSTEtiNHAyQl9nTXhMUTlqTENKeGNMRXdhRTBlbExlT090RjkzQzNtd2IxNzdiMg?oc=5"
+            },
+            {
+              "headline": "オーストラリアがLNG輸出量の20%を国内優先留保、対日輸出削減に波及の懸念",
+              "content": "オーストラリア政府が、国内の需要とエネルギー価格安定化を理由に、液化天然ガス（LNG）輸出全体の20%を国内枠として留保する方針を示した。LNGの対外最大輸入国の一つである日本のエネルギー調達に深刻な影響を及ぼす可能性がある。",
+              "impact": "★重要★日本の火力発電コストの押し上げ要因になり、産業用・家庭用を問わず電気料金がさらに高騰するリスクがある。これを受け、電力スマートグリッドや、省エネ型パワー半導体の開発、AIによる自律型エネルギーマネジメントシステム（HEMS/BEMS）の需要が国内で飛躍的に増大する。",
+              "date": "05/25",
+              "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBzb3NQcWhQbldramJJRzBuZ3M5bGRMMUxWb01CcmRIZ1VwcGgyUWJRejlldXNZamk3WHFlelBaOGpfX0ZOSFZ3OXZmR3ZzOHVMQlh2eFhPOVpMQS1GQnlzd2JWdG1ONV8xQzlVUg?oc=5"
+            },
+            {
+              "headline": "米Uberがわずか4ヶ月で2026年通期のAI予算を使い果たし、投資対効果（ROI）への懸念高まる",
+              "content": "米Uber TechnologiesのCOOは、2026年度に用意したAI関連の総予算をわずか4ヶ月で全額消費してしまったことを受け、AIへの大規模な投資が本当に割に合うのかという疑問（ROI懸念）を公式に表明した。",
+              "impact": "★重要★「AIを導入するだけで価値が出る」という盲目的なブームが終焉し、実質的なコスト最適化が厳格に問われる第2フェーズに入ったことを意味する。日本の開発現場にとっても、APIコストの無駄を削るLLMの小型化（SLM）や、独自のRAG（検索拡張生成）技術、エッジAI活用など「推論コストの劇的な削減」を実現できるエンジニアが圧倒的に優位に立つ。",
+              "date": "05/26",
+              "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9yeXo0WE4zM3ZWcXBrb0tISE5Wa1ZBQlRGdHlPcjlfZEVWeC03QVJWaVBMS01USWQxZTAwZ1BxRWZhdkw1N3ZjUE9NRjZvVWF3T3BwdUxFb0VlRVJnQUJHalFkOC1FbGhFNm5Xd0xibWlQa2tRSEFmUkFfVQ?oc=5"
+            },
+            {
+              "headline": "ChatGPTトラブルで「すぐ公的機関等に通報・相談」を促す新仕様、プロ野球監督の辞任劇から仕様見直しか",
+              "content": "プロ野球・読売ジャイアンツの阿部慎之助監督が、家庭内トラブル（娘への暴行容疑での逮捕報道）に伴い辞任。その直前に長女がChatGPTに家庭内の深刻な問題を相談していたとされる一件から、AIが危機的状況を検知した場合にすぐ公的な通報や相談窓口を示すよう安全仕様が見直されたことが注目を浴びている。",
+              "impact": "★重要★生成AIを用いた各種コンシューマー向けサービスを開発・運用する日本の事業者において、AIの安全性と法的・社会的リスク管理（Safety Guardrails）の構築が義務的要件となる。AIの出力制御や不適切プロンプトへの自動バイパスなどの信頼性担保技術の開発が急務。",
+              "date": "05/26",
               "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBSdXU1MFdvdFJtOTA2WjFTZVpKdzlTVFVGWEJBS3d2NWFib0lka3VGalhtWXpOSEpIT3pZemg2Q0h4QlhGVUZwOGRtVnRrTXRiWWNaeWJNLTVCMUc1OUFhMFo2eTF4OXNvUjR2ZQ?oc=5"
             },
             {
-              "headline": "国内スタートアップAstroX、民間初「気球＋ロケット」による宇宙軌道投入を2026年度中に目指す",
-              "content": "日本の宇宙ベンチャーであるAstroXは、気球によって高度数万メートルまで打ち上げて空気の薄い成層圏からロケットを点火する、民間としては世界初の低コスト打上げ方式を採用した実証実験について、2026年度中の実施を正式表明しました。",
-              "impact": "★重要★日本の国産打上げプラットフォームにおける画期的な技術挑戦です。衛星搭載コストを従来比で劇的に引き下げることが可能となり、日本国内でのIoTセンサネットワーク、宇宙実証データの収集、環境観測を行う開発者や研究者にとって、独自の「格安の打上げインフラ」という新たな選択肢が手に入ることになります。",
-              "date": "5/26",
+              "headline": "Anthropicが秘匿していた超高性能AIモデル「Claude Mythos」を開発ツール「Claude Code」に統合か",
+              "content": "Anthropicが社内などで限定提供していた強力な推論能力を持つ特別モデル「Claude Mythos」が、同社のコード生成・自動デバッグツール「Claude Code」に組み込まれる動きが判明した。",
+              "impact": "★重要★ソフトウェア開発者の生産性にゲームチェンジをもたらす。Mythosの高精度な推論能力がエンジニアのコーディング、レガシーコードの検証、自動テスト生成に適用されれば、日本国内の深刻なエンジニア不足（2025年の崖課題）を劇的に緩和。より上流の要件定義やシステム設計に特化する人材価値がより高まる。",
+              "date": "05/25",
+              "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOM3gtQUw5b0lnX0FlSVFOvlloTnNHSVNYMENHOFdjU3hGS2Zvd2hGekUwc1RueGRVa0tWSW1ZWnZXbFdaNl94ZWJNaEtkSmtZeUV3ZmtSZFhuOTVoZTkyT01jRF90VVo2NHUxU3VLNXBHLW1yUHdXWFVaeENoQ29vc3ZKT0dkaWJfNWNQTWo4T3pJR243Z2hRVUpZOFNHY2hCQzVjZnNsOTY1bVhGWjdhYWtFRE1CSmc3MXc4Vk05VVBHbHc0ZEhFaTRvdTl2Z9IB0wFBVV95cUxNVWxiS2NQZGl3bXBBeWg2amk0U1YyMm5GLVc1X0ZsM2VLRjkzVXZvUjJZTC1ISERsbFBBakJvcVhqYzhtQ0dJSXhZQVNzWWJSMEYxTjFmTzdzZlhJVDNCMU5mWGJ1MXh3aUZQNlVZZXpJWUlQM3dxcmphVmNweUVERnRiZlo5NzRlUHpVSC1MMkJoOGl3LS1Mb3BGVG9LUWJ5LS1nMTNUZzhidzlkOE9KVHFQemlSNVc2SDFCUWFjZG5jdEJEQnNHRWQ5WlVLbHNmb2Jr?oc=5"
+            },
+            {
+              "headline": "民間世界初の「気球＋ロケット」で宇宙到達へ、日本の新興AstroXが2026年度中の打上げを計画",
+              "content": "日本の宇宙スタートアップAstroXは、高高度気球から空中発射（ロックーン方式）で小型ロケットを放出し宇宙空間へ届かせる世界初の民間商用運用を、2026年度中に実施すると発表。",
+              "impact": "★重要★世界的な打上げ機会の逼迫に対抗する新たな国産低コスト打上げプラットフォームとして極めて価値が高い。これにより宇宙データの収集・通信デバイス開発が活性化し、GIS（地理情報システム）やIoT通信を組み合わせた新たなエッジソフトウェア開発への門戸が広がる。",
+              "date": "05/26",
               "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE13WEFJWjlsTTk2TjZKSjZhOG83VlZpU0Z0WGJWalpmMHlsZC1OcFE2bmdjNkllSGZDVFluSEpjQW9HWWdfcUt4VzdGN3VOX1V4OTlpUWlBd1pRTHM0T0pfNS1zV1dRbmNuTy1YNg?oc=5"
             },
             {
-              "headline": "日本の対外純資産が中国に抜かれ世界3位に転落。2025年末の集計で明らかに",
-              "content": "2025年末時点の対外資産・負債残高の発表を受け、日本の「対外純資産」が561兆7504億円を記録したものの、中国（香港等を含む実質）に追い抜かれ、世界最大の純債権国の座から事実上の転落、3位に後退したことが明らかになりました。",
-              "impact": "★重要★日本経済の「世界最大の買い手」としての地位低下、中長期的な円売り・円安圧力を補強する構造変化を暗示。エンジニアを含む働き手は、完全に日本国内の閉じた経済環境（円建て）だけではなく、グローバルに外貨を稼げるビジネスモデルやスキル（多言語対応、グローバルプロダクト）の構築を、より急速に進める必要性に迫られます。",
-              "date": "5/26",
-              "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFA5aEhrUk5yQjBYT2RxMGM5ZHZCQ3Frc2ZMSVJ1OW8zT3ZNdkF6b2x0OUFUYmwxbVJrbXdfQThDaFJKcm01ZC03LTl1anhlWkRSUzNxdm1peWp3T1Qtcmp0bWVHX2xXNGd3SnhldQ?oc=5"
+              "headline": "自民党、アクティビスト（もの言う株主）対策で新プロジェクトチーム（PT）発足。会社法改正も視野",
+              "content": "自民党は、国内外のアクティビストによる日本企業への過度な敵対的・短期的な配当要求などを牽制するため、制度の見直しを進める新PTを立ち上げる。状況に応じた会社法の改正も視野に入れている。",
+              "impact": "★重要★日本のコーポレートガバナンスと、海外からの資金誘致スピードのバランスに影響する。ガバナンス改革の逆行と受け取られれば外資離れを招く一方、企業が技術研究開発（R&D）などの長期投資へ予算を回しやすくなるメリットもあり、日本の大手メーカー・ハイテク企業の将来性に直接影響を与える。",
+              "date": "05/26",
+              "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5LcXFJWmk1bTUwdnRMZm5Yb3NQUXdQdkh4R3p6Q1RqblJoYl9YVzZBVGNldDhaNjN3Q253Rl9qY1BrUXVEdjkxZWFLWFI4aldwYnZ4bGoxQy1DdGNMNm9UV2JjMzBZTTN5ZmFHSA?oc=5"
             },
             {
-              "headline": "日銀の国債購入減額が長期金利急騰のリスクに。政府との深刻な神経戦",
-              "content": "「国債市場のクジラ」と呼ばれ、過度な買い支えを行ってきた日銀が購入ペースの減額へ踏み出すことで、長期金利の急激な上昇を招く懸念が高まっており、政府の利払いコスト増大を巡って政府・日銀間の緊迫した駆け引きが展開されています。",
-              "impact": "★重要★日本企業の資金調達環境の前提条件である「超低金利」時代の本格的な終焉を示唆します。金利負担の増加は、多額の先行研究開発投資を要する国内ディープテックや設備投資が必要な製造業にとってマイナスです。資本効率（ROI）が今まで以上にシビアに評価されることになります。",
-              "date": "5/26",
+              "headline": "「ただ働き陳列」排除に向け公取委がロピアを行政処分。対抗するP&Gはデータを用いた「科学的棚割り提案」で小売を支援",
+              "content": "大手激安スーパー「ロピア」が、納入メーカーへ無償での店舗陳列作業を強要していたとして公正取引委員会の行政処分を受けた。これに対し、P&Gなどの先進メーカーは不当労働によらず、データに基づく棚割りを自動提案するDX手法へと切り替えている。",
+              "impact": "★重要★流通・小売業における属人的・優越的地位の濫用というレガシー文化に終止符を打つ契機。今後の小売・消費財メーカー間では、実データの需要分析に基づいた棚割り自動化システムや販促最適化AIの導入が標準化され、流通向けデータエンジニアやデータ分析の専門人材の市場ニーズが拡大する。",
+              "date": "05/26",
+              "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE0xZFJ1NU42Z19aNVRYQzJHdkxHV1kxbWRxd1JQNUxpdjdFeGlyQTI0ckFBcnRSYUZGVzhxMy04OGVneXFqMkQ1Sk5acTN2LUdPZUlCc2REZXB1R2ZVeWFPcF9qLW5RM21aaWlpQg?oc=5"
+            },
+            {
+              "headline": "外食大手ワタミがコメの自律的「自給」へ参入、原料高騰へのサプライチェーン自己防衛が加速",
+              "content": "相次ぐコメ高騰を受け、大手外食のワタミは自社栽培および独自の直接契約農家を通じた「コメの完全自給体制」への参入を決定。コメ不足や流通コスト上昇リスクへの自衛策を進める。",
+              "impact": "★重要★日本の主要な農業生産と食料サプライチェーンにおけるDX（アグリテック）の必要性が急速に高まる。大規模な自動運転トラクター、ドローンによる土壌/生育状態の監視システム、AIによる収穫量予測システムを内製化、ないし外注する動きが加速し、農業IT分野に開発案件を呼び込む。",
+              "date": "05/26",
+              "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9pRXFHLU9faWdOVHpaQVRsZnF4ZUFsS0JkUW5MeDRJRnhFOUpsNlRIZjJuNGRRUTlrblBCckhYdWtlZXZIcDYxR2k3am8xQzJtVzdPbXJWQUxqbWxvb0VaZzVLaXZna190YU5pTw?oc=5"
+            },
+            {
+              "headline": "NVIDIAジェンセン・フアンCEO「AI時代、子供が何を学ぶかは関係なくなる」発言の大きな波紋",
+              "content": "NVIDIAのジェンセン・フアンCEOは、生成AIの劇的な進化によって言語やプログラミングを始めとする専門知識習得の必要性は著しく低下し、「子供たちが何を選択して学ぶべきか、学校の専攻科目は意味を持たなくなる。誰でも即座にAIを使いこなして仕事を進められるからだ」と発言した。",
+              "impact": "★重要★これからの日本の教育現場（プログラミング必修化等）やIT技術者の「価値定義」を根本から変えうる思想。単なるコードを書く作業はAIへ移行するため、日本のエンジニアは「プロダクトの要件定義能力」「ビジネスドメイン知識」「顧客課題の特定」といった、AIに代替不可能なメタスキルを身に付けることが死活問題となる。",
+              "date": "05/26",
+              "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPamNLUlVCVk5PZnNkNWhCZlZfX0ZOV0JaMVRnUVR6Y211TGhJQ21JZlRpTUxTZVJUMFFhZ3JDV25BajNlQktGcXVIWlowY1NQRUd3bklWVW9ITmVwZTBvT2pjdEVicmRzLUQ0QUgzYVBIZHhqdGtCTFRsOGhLdGM1ZHNEUUw3QXVCbUdqNUpvRWpRMV84OHlucFJ5ODN5N3Z0T0tv?oc=5"
+            },
+            {
+              "headline": "日銀の国債購入減、長期金利急騰に政府との息詰まる神経戦が本格化",
+              "content": "日本国債の最大購入者であった「国債市場のクジラ」こと日本銀行が、金融正常化に伴い購入額を減少させている。金利急騰を防ぎたい政府と、市場への影響を最小限に抑えつつ利上げを進めたい日銀による緊迫した主導権争いが続いている。",
+              "impact": "★重要★長期金利の上昇は企業の新規システム投資や大規模ITインフラ調達における借入コストを増加させ、保守的なIT投資姿勢を招くおそれがある。その反面、国内メガバンクや地銀では金利計算やポートフォリオ評価等、大規模なコアバンキングシステムの改修・更新開発案件が多発する。",
+              "date": "05/26",
               "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE10Y0tzTlZsZ2pLLVhtbmV4SmJJN0FsSU5mOTd2c0hVa2xIUnRYWlppU2JyRTZjel9RS294bFVUWS1XTUlrUl91Rll3WUlkUENqYVR0Wld5MWZCUHViSFE5RWlBcWc3ejZ3NG05Sw?oc=5"
             },
             {
-              "headline": "米著名投資家、巨大テック株の選別売りを加速。マイクロソフトの売却も顕著に",
-              "content": "米ウォール街の著名投資家らの保有報告書から、これまで市場を強力に牽引してきたマイクロソフト（MS）を含むメガテック（GAFAM）銘柄のポジションを大幅に縮小する、保有株選別・利益確定売りの流れが鮮明になっています。",
-              "impact": "★重要★AI技術への巨額の設備投資サイクルが一巡し、今後は「AI技術の搭載」自体から「いかに利益・生産性として実用化（ monetized ）されているか」への評価転換が進んでいることを意味します。国内のソフトウェア・ソリューション開発者も、単なるAIツールの実験的導入ではなく、明確な費用対効果（ROI）を生み出す実務レベルのAIシステム構築の責任を課せられます。",
-              "date": "5/26",
-              "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9ZeVFNcDZrZmZzbXBicDlQSDhzOHpRV1ZKV29GdGtYUHY1SGZUakNpWEloNHdwWlhteFVaemZNNW5mRXpPa3NCeElfcXFybnVrZjBBei05VThyU05aZnY3aVd4NUVBRFJXNjB5aA?oc=5"
-            },
-            {
-              "headline": "中東緊迫でナフサ不足が深刻化。九州の自動車・半導体製造業の生産継続に暗雲",
-              "content": "米中央軍によるイラン攻撃やそれに対する報復の応酬など、緊迫化する中東情勢から石油化学製品の最重要基礎原料である「ナフサ」の日本への供給網が寸断。特に九州の製造業の現場で「秋以降の見通しが立たない」と危機感が広がっています。",
-              "impact": "★重要★九州は近年、「シリコンアイランド」の復活として半導体受託製造（TSMC誘致等）や自動車生産の重要集積地となっています。ナフサ由来の化学部材、樹脂、ウエハ梱包材等の欠乏は、日本のエレクトロニクス産業の生産活動全体の広域なサプライチェーン停止を誘発しかねず、調達代替や設計による資材カット等の緊急支援策が重要になります。",
-              "date": "5/25",
-              "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE53c0o3bF9TRWRDOEtEcExKT2dvRi1mNWxFRFY2VUtReHFiNWxTZHdzWUVVTHdEYzVlSWQzOWJSTEtiNHAyQl9nTXhMUTlqTENKeGNMRXdhRTBlbExlT090RjkzQzNtd2IxNzdiMg?oc=5"
+              "headline": "芝浦機械の株価が急落、ストップ安を記録。業績改善もコンセンサス下回る、ハイテク株選別深化へ",
+              "content": "産業用機械大手の芝浦機械が発表した2027年3月期純利益見通しは増益を確保したものの、市場予測（コンセンサス）を大きく下回ったことで売りが殺到しストップ安を記録。市場のテック・製造業銘柄への要求の厳しさが顕在化した。",
+              "impact": "★重要★市場は少しでも見通しが下振れする銘柄に対して容赦なく資金を抜くため、AI・半導体関連の恩恵を受ける実質的な成果、確固たる生産効率化を証明できない製造メーカーの淘汰が進む。現場の開発者は期待先行を煽るのではなく、確実な受注から利益に転換する強固な収益システムの構築を求められる。",
+              "date": "05/26",
+              "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1YRm1ETldTVW5VMGJWUWtVQXdqVnNValc5SzN3WnhzZkFHbWhDVzhDYV9mWlVQUEZ0SzVmNDVqQW5qdS16LWF1cy16OFExSW5QOW9tUlVyaWJvOG9LMHBfWG5pNGVlUGFVeF9zRg?oc=5"
             }
           ]
         },
@@ -152,53 +201,60 @@ window.newsData = {
           "title": "グローバル・テックトレンド",
           "topics": [
             {
-              "headline": "人気AIゲートウェイのOpenRouterが1.13億ドルを調達、評価額は13億ドルに倍増",
-              "content": "複数のAIモデルのAPIを一元管理して利用できる人気のAIゲートウェイサービス「OpenRouter」が、Google親会社Alphabet傘下のCapitalGが主導するシリーズBラウンドで1億1300万ドルを調達。創業からわずか約3年で、評価額は前年比2倍以上の13億ドルに達した。",
-              "impact": "日本の多くのAIスタートアップや個人開発者にとって、OpenRouterは各種LLM（GPT、Claude、Llama等）を切り替えながら安価にプロトタイプを構築・運用できる必須インフラとなっている。この巨額調達はサービスの持続可能性を高め、さらなる接続モデルの拡大やAPI価格競争の加速を意味する。マルチLLM（ハイブリッド構成）を採用する日本のAIエンジニアのシステム設計やコスト最適化戦略に直接的なメリットをもたらす。",
+              "headline": "AIゲートウェイのOpenRouterが13億ドルの評価額に到達、Alphabet系ベンチャー主導で1億1300万ドル調達",
+              "content": "AIゲートウェイを提供するOpenRouterは、Alphabet傘下のCapitalGが主導するシリーズBラウンドで1億1,300万ドルを調達した。創業から約1年で評価額は13億ドルと前年比で2倍以上に急成長している。",
+              "impact": "日本のAI開発者やスタートアップにとって、複数のLLM（大規模言語モデル）を柔軟に切り替えて利用できるOpenRouterは、開発工数の削減やAPI利用料金の最適化に直結する重要インフラである。この急成長は、プロバイダ非依存のマルチモデル仲介サービス（AIゲートウェイ）の需要がグローバルで急拡大していることを裏付けており、今後のシステムアーキテクチャ設計やインフラ選定に大きな影響を与える。",
               "date": "05/26",
               "url": "https://techcrunch.com/2026/05/26/openrouter-more-than-doubles-valuation-to-1-3b-in-a-year/"
             },
             {
-              "headline": "Googleの「AI検索」強制にユーザーが反発、DuckDuckGoの新規インストール数が30%急増",
-              "content": "Googleが検索結果をAI主導で大幅変更（要約表示など）したことに対して、AI検索からオプトアウト（不使用の選択）を望むユーザーの不満が噴出。これに伴い、プライバシー重視の検索エンジンである「DuckDuckGo」の新規インストール数が前週比30%増加した。",
-              "impact": "日本でもGoogleの「AIによる概要」がSEOトラフィックに大きな打撃を与える中、一部のユーザーがアンチAI・プライバシーファーストへとシフトし始めている。日本のWeb開発者やSEOマーケターは、Google一強前提のコンテンツ戦略だけでなく、代替検索エンジンやユーザーの「AI忌避傾向」を考慮した流入対策、UI/UX設計を模索すべきターニングポイントにある。",
+              "headline": "Googleの「AI検索の押し付け」にユーザーが反発、DuckDuckGoのインストール数が30%急増",
+              "content": "Googleが検索エンジンの大規模なAI刷新を発表した後、AI検索を回避して従来型のシンプルな検索環境を望むユーザーがDuckDuckGoへ移行し、同アプリのインストール数が30%増加した。ユーザーの間で「AIをオプトアウトしたい」という選択志向が高まっている。",
+              "impact": "日本のWeb開発者やSEOマーケターにとって、GoogleによるAI検索の強制導入が引き起こすオーガニック検索トラフィック減少の懸念が現実化したデータと言える。AIに依存しないプライバシー指向の検索エンジンへのユーザーシフトを考慮に入れ、SEO偏重の流入戦略から、直接的なユーザーエンゲージメントや多様なチャネルを活用したマーケティング戦略への転換が求められる。",
               "date": "05/26",
               "url": "https://techcrunch.com/2026/05/26/duckduckgo-installs-are-up-30-as-users-reject-being-force-fed-googles-ai-search/"
             },
             {
-              "headline": "セブン-イレブンで大規模なデータ侵害、18万5,000人超の個人情報が漏洩",
-              "content": "世界的なコンビニチェーンであるセブン-イレブン（7-Eleven）においてデータ侵害が発生し、18万5,000人以上の氏名、生年月日、住所などの個人情報が外部に流出したことが、データ侵害通知サービス「Have I Been Pwned」により報告された。",
-              "impact": "セブン-イレブンを擁するセブン＆アイ・ホールディングスは日本発の巨大グローバル企業であり、海外子会社や地域フランチャイズの脆弱性は本邦のコーポレートガバナンスやブランドイメージ、セキュリティ責任にも大きな影響を及ぼす。国内のインフラ・小売ITエンジニアにとって、グローバルサプライチェーンと拠点統合時のアイデンティティ管理・セキュリティ基準の再評価を迫る警鐘となる事例である。",
-              "date": "05/26",
-              "url": "https://techcrunch.com/2026/05/26/7-eleven-data-breach-affects-over-185000-peoples-personal-data/"
-            },
-            {
-              "headline": "生産性ツール「ClickUp」の大規模レイオフが示す、AI時代の労働と組織の未来",
-              "content": "人気タスク管理・コラボレーションツールを運営するClickUpが大規模な人員削減を敢行。AI技術の浸透が業務の劇的な生産性向上をもたらす一方、従業員の役割の再定義や、ツールベンダー自身における余剰人員の削減を加速させている状況が浮き彫りとなった。",
-              "impact": "日本でも急速に進むSaaS導入とAIによる業務自動化だが、今回の事例は「AIによる効率化が人々の業務を奪う、あるいは高度な活用スキルを求める」未来を証明している。国内のIT意思決定者や社内システム開発者は、単なるツールの導入ではなく、AIを活用する従業員のスキル再開発（リスキリング）や、よりスリムで効率的な次世代型の開発組織・運用体制への変革を考慮する必要がある。",
-              "date": "05/25",
-              "url": "https://techcrunch.com/2026/05/25/what-clickups-mass-layoff-tells-us-about-the-future-of-work/"
-            },
-            {
-              "headline": "トランプ政権がボルボに対し、中国系コネクテッド技術規制からの「除外」を認め販売を許可",
-              "content": "中国・吉利（Geely）が過半数株式を保有するスウェーデンの自動車メーカー、ボルボ・カーズが米トランプ政権と合意。これにより、中国製コネクテッドビークル技術に対する米国政府の厳しい規制から免除され、米国市場での販売継続が許可された。",
-              "impact": "自動車産業を基幹産業とする日本にとって、車載通信・自動運転ソフトウェアにおける中国製排除の動きは最重要監視対象である。今回「中国資本の欧州企業」に対して米政権が妥協・例外を設けたことは、地政学リスクを考慮した車載ソフトウェアのサプライチェーン戦略に新しい前例を与える。日本の自動車メーカーおよび車載組込みエンジニアは、米国の制裁ルールと抜け道の最新動向を注視し、戦略をアップデートする必要がある。",
+              "headline": "米トランプ政権、中国資本傘下のボルボにコネクテッドカーの販売継続を容認",
+              "content": "スウェーデンの自動車メーカーで、中国の吉利（Geely）が過半数株式を保有するボルボが、中国製コネクテッドカー技術に対する米国の厳しい取り締まり（規制）から除外されることで、トランプ政権と合意に至った。",
+              "impact": "自動運転や車載ソフトウェア、スマートモビリティを開発する日本の自動車メーカー（OEM）やサプライヤーにとって極めて重要な地政学的シグナル。サプライチェーン内の中国製ハード・ソフト排除規制の免除要件や適用範囲の境界線を示す前例となり、日本企業のグローバル開発体制やベンダー選定戦略に直接的な影響を及ぼす。",
               "date": "05/26",
               "url": "https://techcrunch.com/2026/05/26/trump-administration-permits-volvo-to-keep-selling-connected-cars-in-the-us/"
             },
             {
-              "headline": "ユニバーサルミュージック（UMG）とTikTokが契約更新、非認可「AI生成音楽」の排除を徹底へ",
-              "content": "世界最大手音楽レーベルのUMGとTikTokが新たなライセンス契約を締結。アーティストや作曲家の権利を守るため、プラットフォーム上から非認可のAI生成音楽を検出・排除する取り組みを強化・共同で推進することで合意した。",
-              "impact": "音楽・アニメ・ゲームなど世界屈指のIP（知的財産）を保有する日本市場において、生成AIとプラットフォーム企業の「共生と法規制」の動向はビジネスモデルに直撃する。TikTok等の主要プラットフォームが大手ライツホルダーと結ぶこの契約は業界の「デファクトスタンダード」となり、日本の生成AIエンジニアや音声・音楽AI開発スタートアップにとっても、どのレベルのデータ収集やコンテンツ生成が許容されるかを判断する極めて重要なメルクマールとなる。",
+              "headline": "AIによる生産性向上を掲げるClickUpが大規模解雇を実施、AI普及の二面性が露呈",
+              "content": "コラボレーションツール大手のClickUpが大規模な人員削減を実施した。同社CEOはAIによる生産性向上を提唱してきたが、結果として人間の代替や組織の最適化（人員削減）が加速する形となり、労働市場におけるAIの影響について深い議論を呼んでいる。",
+              "impact": "日本のIT企業、SaaSプロバイダー、および人事・開発マネージャーにとって無視できない警鐘。AI導入がもたらす『生産性向上』が、単なる業務効率化に留まらず、組織構成そのものの急激なスリム化や人員削減圧力へとつながるリアルなフェーズに突入したことを示しており、国内のDX・リスキリング戦略のあり方に一考を促す。",
+              "date": "05/25",
+              "url": "https://techcrunch.com/2026/05/25/what-clickups-mass-layoff-tells-us-about-the-future-of-work/"
+            },
+            {
+              "headline": "セブン-イレブンでデータ漏洩が発生、18万5,000人以上の個人情報が流出",
+              "content": "データ漏洩監視サービス「Have I Been Pwned」によると、大手コンビニチェーンのセブン-イレブン（7-Eleven）で18万5,000人以上の名前、生年月日、住所などの個人情報が流出するインシデントが発生した。",
+              "impact": "日本国内でも最大シェアを持つセブン＆アイ・グループのグローバルブランドにおけるセキュリティ問題。リテールテックや共通会員ID、ECアプリを構築する日本のシステムインテグレーターやWebエンジニアにとって、サプライチェーンにおける顧客データ保護のセキュリティ基準を再点検する強い契機となり、サイバーセキュリティ対策や監査体制の強化が促される。",
+              "date": "05/26",
+              "url": "https://techcrunch.com/2026/05/26/7-eleven-data-breach-affects-over-185000-peoples-personal-data/"
+            },
+            {
+              "headline": "インドのギグエコノミーをロボット学習データ収集に活用する新興企業が登場",
+              "content": "インド国内のフードデリバリー（Zomato、Swiggyなど）や出張サービスの急速な成長を背景に、現地のサービス従事者（ギグワーカー）を通じて、物理空間で動作するAI（ロボティクス）向けの訓練データを効率的に収集・提供しようとするスタートアップ『Human Archive』が注目されている。",
+              "impact": "少子高齢化・人手不足からサービスロボットや産業自動化技術の導入が急務な日本にとって、物理AI向け高品質データの不足は深刻な課題。ギグワーカーを活用してリアルワールドデータを大規模かつ低コストに収集するアプローチは、日本のロボット・AI研究開発者やスタートアップにとって、学習データ蓄積の手法や新規ビジネス創出の極めて実用的なソリューションの好例となる。",
+              "date": "05/26",
+              "url": "https://techcrunch.com/2026/05/26/human-archive-taps-into-indias-services-startups-to-collect-data-for-physical-ai/"
+            },
+            {
+              "headline": "ユニバーサルミュージックとTikTokがライセンス合意を更新、無許諾のAI生成音楽排除を強化",
+              "content": "ユニバーサル ミュージック グループ（UMG）とTikTokはライセンス契約の更新を発表。プラットフォームから無断で作成・アップロードされたAI生成音楽を排除し、所属アーティストや作詞作曲家の正当な権利を守る取り組みを強化することで合意した。",
+              "impact": "生成AIを活用した音楽、音声、その他コンテンツ系サービスやSNSアプリを開発する日本のスタートアップ、デベロッパーへの影響。海外メジャーレーベルおよび世界的プラットフォームがAIコンテンツの著作権保護（IPガードレール）に対してさらに厳格な共同戦線を敷くことで、商用AIサービス開発におけるコンプライアンス要件や、高度な無断検出・フィルタリング技術の実装が不可避になることを示している。",
               "date": "05/26",
               "url": "https://techcrunch.com/2026/05/26/universal-music-group-and-tiktok-renew-agreement-to-combat-unauthorized-ai-music/"
             },
             {
-              "headline": "Amazon対抗のECスマート物流「Stord」が2.5億ドルを調達、評価額30億ドルに到達",
-              "content": "多様なチャネルのeコマース配送・フルフィルメント管理を提供するStordが、Strike Capitalから2億5000万ドルを調達し、評価額を1年前の2倍となる30億ドルへと急伸させた。Amazonの独占に対抗する自立型物流ネットワークとして成長を続けている。",
-              "impact": "日本における「物流の2024年問題（配送人員の不足や積載率の低下）」は現在も深刻な社会課題である。Stordのような分散型・AI最適化型の物流プラットフォームのアーキテクチャやシステムモデルは、日本のEC事業者やロジスティクステックを開発するエンジニアにとって非常に示唆に富む。在庫の最適配置やマルチチャネル一元管理システムの開発において、大きな設計リファレンスとなるだろう。",
+              "headline": "米トランプ政権、原子力スタートアップに対し原子炉燃料としてプルトニウムの活用を推奨",
+              "content": "冷戦期に兵器用に製造された後、米国内に保管されている約100トンのプルトニウムを、次世代原子力スタートアップが開発する新型原子炉（高速炉等）の燃料として有効活用させる方針をトランプ政権が推進している。",
+              "impact": "脱炭素社会の実現や、AIデータセンターの増設に伴う電力需要の逼迫から、日本国内でも次世代型ミニ原子炉（SMRなど）やクリーンエネルギー技術への注目が高まっている。米国における原子力分野の規制緩和やスタートアップ支援の方向性は、世界のエネルギー投資トレンドや研究開発ロードマップを大きくシフトさせる可能性があり、日本のディープテック分野にとっても重要な中長期情報となる。",
               "date": "05/26",
-              "url": "https://techcrunch.com/2026/05/26/amazon-fulfillment-competitor-stord-raises-250m-at-3b-valuation/"
+              "url": "https://techcrunch.com/2026/05/26/trump-administration-wants-nuclear-startups-to-use-plutonium-for-their-reactors/"
             }
           ]
         },
@@ -207,46 +263,53 @@ window.newsData = {
           "title": "サイエンス・ディープテック",
           "topics": [
             {
-              "headline": "カイコの絹からケブラー並みの超素材を開発、6G応用への期待も",
-              "content": "科学者らがカイコの絹をケブラーに匹敵する強度を持つプラスチック状の「スーパーマテリアル」に変換することに成功した。さらに、この素材は次世代通信規格「6G」への活用可能性も示唆されている。",
-              "impact": "★重要★日本は伝統的に養蚕や高度な繊維化学技術、スマートテキスタイル分野で圧倒的な蓄積を持つ。この新素材技術は、国内の素材メーカーや通信インフラ開発者にとって、6G用超低損失アンテナや超軽量な構造部材といった高付加価値市場を開拓する大きなチャンスとなる。",
-              "date": "05/25",
+              "headline": "Hugging Faceが3Dプリント可能な2,500ドルの二足歩行ロボットプロジェクトを発表",
+              "content": "Hugging Faceが、開発者や研究者向けに3Dプリントが可能な二足歩行ロボットの脚部開発プロジェクト「$2,500 bipedal robot project」を立ち上げた。低コストで高度なロボット実験が行える環境をオープンソースをベースに提供する。",
+              "impact": "ロボットおよびモノづくり分野に強みを持つ日本の開発者や研究機関にとって、開発コストを劇的に引き下げる画期的なプロジェクト。オープンソースコミュニティと3Dプリント技術の活用が、国内の人型ロボット開発の民主化とプロトタイピングの迅速化を促すトリガーとなる。",
+              "date": "5/26",
+              "url": "https://arstechnica.com/ai/2026/05/3d-printable-humanoid-legs-let-robotics-experiments-run-wild/"
+            },
+            {
+              "headline": "週3.25億回ダウンロードのStarletteに重大な脆弱性、数百万のAIエージェントに脅威",
+              "content": "Pythonの主要な非同期Webフレームワーク「Starlette」に、AIエージェントの安全性を脅かす重大な脆弱性「BadHost」が発見された。Starletteは多くのモダンなWebアプリケーションでバックボーンとして利用されている。",
+              "impact": "FastAPIなどのPythonエコシステムを多用してAIエージェントやAPIサーバーを構築している日本のAIスタートアップやソフトウェアデベロッパーに深刻な影響を与える。本脆弱性は早急な修正が求められるため、迅速なライブラリ更新とセキュリティ監査の実施が必要不可欠である。",
+              "date": "5/26",
+              "url": "https://arstechnica.com/information-technology/2026/05/millions-of-ai-agents-imperiled-by-critical-vulnerability-in-open-source-package/"
+            },
+            {
+              "headline": "蚕の糸をケブラーに匹敵する超強度素材に変換、6G通信などへの応用も視野",
+              "content": "科学者たちが蚕（カイコ）の絹糸を加工し、プラスチックのような特性と高い強度を持つスーパーマテリアルに変換する手法を開発した。この新素材は6G通信技術への応用ポテンシャルを秘めている。",
+              "impact": "古くから養蚕技術や高品質繊維素材の強みを持つ日本の素材・ケミカル業界にとって、次世代のイノベーションを創出する契機。6G用部材、サステナブルな防護衣料、自動車用軽量高強度パーツなど、日本のハイテクマテリアル領域における新規ビジネス開拓が期待される。",
+              "date": "5/25",
               "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQZHdTM04yYkp1Wkp5VnB6RExadnFjNk04NUVnSUZCSlRXb3lQb0JZRzR4Y01qRnhXaUJkQ2JkZk1GSHJjS0I5VGprSkJnMUF3NklobVQtR1ozSTdSMEhKcUJkZkczanJOcVV3ZW9SMXA3UlBDeWpVUnp0QzhxQXJMampzR0M5UEU0MDB5ZDVxN3ZSeXRKZkN5TGx4LU5Bd1BQNVE?oc=5"
             },
             {
-              "headline": "科学研究を自動化する「AI研究者（AI Scientist）」への巨額資金投入",
-              "content": "自律的に科学的探究や実験設計、さらには論文の執筆まで行う「AI Scientists」の開発が進んでおり、この領域に世界中で数十億ドル（数千億円〜数兆円規模）の資金が投入されている。",
-              "impact": "★重要★日本の強みであるマテリアルズ・インフォマティクス（材料開発×IT）、創薬、半導体などのR&Dプロセスを激変させる可能性がある。AIによる自動開発パイプラインの構築は、日本のIT開発者が技術開発競争で優位に立つための必須要件となりつつある。",
-              "date": "05/26",
+              "headline": "AIによる科学研究の自動化、世界中で数十億ドルの巨額投資が進む",
+              "content": "科学研究のプロセスや仮説検証を「AIサイエンティスト」に自動で担わせる取り組みに対し、グローバルで数十億ドル規模の投資が集まっている。研究の発見プロセス自体の質的向上が進む。",
+              "impact": "新薬開発（創薬）や新素材開発（マテリアルズインフォマティクス）において、AIの本格導入は日本の化学・製薬などの大手製造業の競争力に直結する。研究効率の圧倒的向上を目指すAI自動化トレンドを競合他社に先んじてシステム化できるかが勝負の分かれ目となる。",
+              "date": "5/26",
               "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQNFR1UC1zRmVaOV9fTDRoUExEZHpRZnBPVzB2U004aDVrR2JCVFNkTC1FV3E4Ym96RHVwdExNWkNPTHg3RU1ia3EyV3RXVnJiMW5RTXc4T3BHWnVIVkVValVOcEZVQW9CZTFsYUlzbU9ielAxM1Y0azZ6a2pTWWc3SUk3V1dwbU1VUm96cjhXaVFIeGZSNkhJUnJMUQ?oc=5"
             },
             {
-              "headline": "NASAがアルテミス計画の月無人探査ミッションでブルーオリジンを採用",
-              "content": "NASAは有人月面基地建設を視野に入れた「アルテミス計画」において、ジェフ・ベゾス氏率いる宇宙企業「ブルーオリジン」を無人月探査ミッションに選定した。永久月面基地に向けた準備が加速している。",
-              "impact": "★重要★日本政府および日本の宇宙関連スタートアップ、JAXAはアルテミス計画に深く関与している（有人ローバーの開発など）。月面インフラ構築に必要な通信、エネルギー、ロボティクス技術を有する日本企業にとって、民間宇宙市場の経済圏拡大が約束されたことを意味する。",
-              "date": "05/27",
-              "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOSmRvRl9YRjBNemlROUY5R0wyUVo2dU1yMzVWUkM2UnNmM1JMMl9FWXBLRUlUQ1NFUHA2RkxUSTIzSzdLRmhsaHFIUE9Bemdkck5MYWU3RmhXOVR5Q0xxSnZHZDhQUEZFMFVUaGFNejFZZmcyZ3oycWhleGpIWXAyag?oc=5"
-            },
-            {
-              "headline": "科学分野の論文レビューにおけるAI生成情報の信頼性の欠如が指摘される",
-              "content": "科学誌Natureにて、学術的なレビュー論文をAIに執筆させることの危険性が議論されている。事実関係の誤り（ハルシネーション）が混入する懸念が極めて高く、編集現場での深刻な課題となっている。",
-              "impact": "★重要★日本の企業のR&D部門や特許調査、技術ドキュメンテーションにおいて、生成AIを活用した技術調査ツールの導入が進んでいるが、その品質保証に対する警鐘である。正確性が求められるB2B向けAIツールを開発する日本のエンジニアにとって、RAG（検索拡張生成）などの精度向上技術やファクトチェック機能の実装需要がさらに高まる。",
-              "date": "05/26",
+              "headline": "Natureが警告：学術論文レビュー執筆での安易なAI利用に警鐘",
+              "content": "学術誌『Nature』などで、科学的な信頼性を担保する上で重要な役割を果たす「論文レビュー」におけるAI執筆が、ファクト誤認（ハルシネーション）などを助長するとして懸念が強まっている。",
+              "impact": "日本の研究開発機関、大学、製薬企業、先端テクノロジー分野の技術調査部門において、情報分析ツールとしてのAI活用のあり方にルール策定を促す。信頼性の高い技術調査プロセスを再定義し、安易なAI依存による知的財産・特許調査等のリスクを回避するガバナンスが求められる。",
+              "date": "5/26",
               "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1RU0lUd3BQc28teGV2dEc4R0VoVHJJUDV6VHd3WjFHYkpzcE5IT2xNNVQ3Q18zb09jZ0RydjhkQzdPWWR5VkJ1MS1OQnZzSHVYMlJ4cVN2OGdSRVQ1cjBN?oc=5"
             },
             {
-              "headline": "有人火星探査に十分な推進力を持つ次世代スラスターの試験に成功",
-              "content": "人類を火星に送るためのミッションに対応できる、非常に強力なスラスター（推進器）の技術テストに成功した。深宇宙探査への実用化が期待される。",
-              "impact": "★重要★日本は小惑星探査機「はやぶさ」に代表される電気推進（イオンエンジンなど）の分野で高い技術力を持つ。超高出力推進器の台頭は、日本の宇宙機器メーカーや先端材料開発企業に対して新たな性能要求を突きつけると同時に、グローバルな深宇宙探査サプライチェーンに食い込む好機を提供する。",
-              "date": "05/26",
-              "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOS2J5Xy01M1ZLYURCR3BqVHQycVhNWjUxTDlQTVM4Tm5pZjZmUGRaek52MVRXSUlSbGw5QXAza3R5QU1wWGV2aFRPUHFOLUZqLUtlYnBmOTltZW0yaGJicTlWUXI5bXRsUjlTWVJkTmhDQXY1eXljOTNleXVIYXBicmNvWlYyRjJ3YlNoYWFpWm5zZVZQS0tLcjhIMDFiYWhLMWdHeg?oc=5"
+              "headline": "NASAが恒久月面基地建設の具体策を公表、最初のミッションにブルーオリジンを選定",
+              "content": "NASAは有人月面基地の建設計画を前進させ、他国との境界（ペリメーター）の設定を含む宇宙条約に則した運用ルールを議論している。また、3つの無人月面輸送フライトの初回ランダーとしてブルーオリジンを選定した。",
+              "impact": "アルテミス計画を通じて月面開発への貢献度を高める日本（JAXAや民間宇宙ベンチャーのispace等）にとって、月面インフラ構築での物流パートナーや法的な占有ルールの動向は最重要インテリジェンス。宇宙供給網における日本企業のプレゼンス発揮や事業機会獲得に直接的な影響を与える。",
+              "date": "5/27",
+              "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOSmRvRl9YRjBNemlROUY5R0wyUVo2dU1yMzVWUkM2UnNmM1JMMl9FWXBLRUlUQ1NFUHA2RkxUSTIzSzdLRmhsaHFIUE9Bemdkck5MYWU3RmhXOVR5Q0xxSnZHZDhQUEZFMFVUaGFNejFZZmcyZ3oycWhleGpIWXAyag?oc=5"
             },
             {
-              "headline": "中国が人工胚モデルを軌道上に打ち上げ、宇宙での人類生殖能力を検証",
-              "content": "中国は培養された人間の生体細胞モデルを軌道上に送り込み、宇宙の微小重力環境や宇宙放射線が生殖や胚の初期発達に与える影響について科学的調査を開始した。",
-              "impact": "★重要★宇宙空間における中長期的な有人滞在やスペースコロニー構想において、生命科学領域の検証は急務。日本のバイオテクノロジー企業、iPS細胞等を用いた再生医療分野のスタートアップが、未開拓の「宇宙医療・宇宙ライフサイエンス」領域へ進出するための新たなロードマップを提示している。",
-              "date": "05/26",
-              "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPMl9sVlpkRUNNMHFPWEtIYm1FY2RYdklVbkxoRGdHQmk2V3NIQm5jUks1R1EtZjFuaV9oZnNGNE9hNjVyVzdfbHQ5SEpoaEFIQ0VpczQxRHZRc1dMcnNvVmMyT2dtOWdGN1BneFpBaDV0RlNtVHhjUEJBbVNGeEhyOFdsejczNmZvMWUzTXhuQkdQX1NwTWc?oc=5"
+              "headline": "中国ロケットのデブリ問題が悪化、宇宙インフラ企業への衝突リスク高まる",
+              "content": "専門家によると、中国による使用済みのロケット上段が軌道上に滞留し続ける問題が悪化の一途をたどっている。放置された上段は軌道上で極めて危険なスペースデブリとなる。",
+              "impact": "デブリ除去ビジネスの急先鋒であるアストロスケール社をはじめ、民間宇宙開発事業をリードする日本のスタートアップや衛星運用事業者にとって市場機会の増加と脅威の双方を示唆する。軌道上サービス（ADR）市場における日本の技術力が、今後より大きなグローバル価値を帯びることになる。",
+              "date": "5/26",
+              "url": "https://arstechnica.com/space/2026/05/analyst-on-chinas-spent-rocket-stages-things-only-continue-to-get-worse/"
             }
           ]
         },
@@ -255,107 +318,107 @@ window.newsData = {
           "title": "デベロッパートレンド (Hacker News & 国内)",
           "topics": [
             {
-              "headline": "米国の環境活動家がAIデータセンター監視マップを構築、地域への影響を可視化",
-              "content": "環境活動家のエリン・ブロコビッチ氏が、全米のデータセンターをマッピングし、その地域社会（電力・水・環境等）への影響を住民が報告できる監視ツールを立ち上げた。",
-              "impact": "★重要★ 日本国内でもAIインフラ建設に伴う電力需要や環境負荷が議論される中、今後日本でのデータセンター建設に対する住民運動や法規制・ESG開示要求が高まる可能性を示唆している。",
-              "date": "5/27",
-              "url": "https://www.niemanlab.org/2026/05/erin-brockovich-made-a-map-to-track-data-centers-around-the-country/"
-            },
-            {
-              "headline": "フロンティアモデルより「外注＋ローカルAI」の組み合わせが低コストへ移行する見込み",
-              "content": "ローカルAIの進歩とアウトソーシング（業務委託）を組み合わせるアプローチが、OpenAI等のフロンティアラボが提供する高価なAPIを使い続けるよりも費用対効果が高くなるという分析。",
-              "impact": "★重要★ 円安やドル建てAPI料金の高騰に苦しむ日本の開発現場において、特定領域にカスタマイズしたオンプレミス/ローカルLLMと、オフショア・アウトソーシングを組み合わせた設計が、極めて現実的なコスト削減の最適解となる可能性がある。",
+              "headline": "アウトソーシングとローカルAIの組み合わせがフロンティアAIモデルに経済性で勝る未来",
+              "content": "将来的に独自の最先端フロンティアモデルを使い続けるよりも、開発のアウトソーシングとローカル（オープンソース含む）AIの活用を組み合わせるアプローチの方が、まもなく高いコスト効率を達成するようになると予測されています。",
+              "impact": "高価な大手API（OpenAIやAnthropic等）に依存し続けるリスクとコストを懸念する企業にとって、ローカルLLMのチューニングやエッジAIの重要性が一気に高まることを示唆します。日本国内のシステムインテグレーターやスタートアップが、独自のドメインデータを用いたエッジ/インハウスAI開発へとシフトする強い後押しになります。",
               "date": "5/26",
               "url": "https://www.signalbloom.ai/posts/outsourcing-plus-localai-will-soon-become-more-economical-vs-frontier-labs/"
             },
             {
-              "headline": "LLM時代のシステム開発で「退屈な（枯れた）言語」を選択すべき理由",
-              "content": "LLMによるコード支援を最大化するためには、主流で普及している技術（枯れた言語や標準フレームワーク）を選択すべきだとする提唱。新興の言語は学習データが不足しており、AIのコード生成時に不整合を生みやすい。",
-              "impact": "★重要★ 日本の技術選定プロセスにおいて、新奇なフレームワークの導入を控え、AIとの協調開発における効率を最優先した「枯れた定番技術（Python, Go, Java等）」の再評価が起きる契機となる。",
+              "headline": "LLM開発時代こそ、一貫性があり枯れた「退屈な言語」を採用すべきという提言",
+              "content": "LLMはコード設計の一貫性を損なうような書き方を増幅させやすく、システム全体の不整合を静かに悪化させる傾向があります。そのため、AIのコード生成と協調する上では、一貫性を担保しやすい「枯れた言語（Boring languages）」を採用する方が最終的な生産性が高まるという主張です。",
+              "impact": "AIコーディングツールの普及に伴い、新奇なフレームワークの乱立による技術負債を抑制するための現実的な防衛策を提示しています。日本国内の開発組織やプロジェクトマネジメントにおいて、長期保守を見越した現実的な技術選定のパラダイムシフトを促します。",
               "date": "5/22",
               "url": "https://jry.io/writing/use-boring-languages-with-llms/"
             },
             {
-              "headline": "GitHubにおけるサプライチェーン攻撃対策の実効性を検証する監査基盤の内製化",
-              "content": "スマートラウンド社が、昨今増加するサプライチェーン攻撃からGitHub組織（リポジトリ設定やシークレット）を守るため、対策の実効性を継続検証するための社内監査基盤を自作した事例。",
-              "impact": "★重要★ セキュリティ基準を高めたい国内のSaaS・ITベンダーにおいて、単に設定を見直すだけでなく、「そのセキュリティ対策が今でも正しく機能しているか」をCI/CDベースで自動監視・監査する取り組みの模範となる。",
-              "date": "5/26",
-              "url": "https://zenn.dev/smartround_dev/articles/478c195bf914b6"
-            },
-            {
-              "headline": "AIが書いたコードをAIが検証する自律型コードレビュー＆マージパイプラインの構築",
-              "content": "エアークローゼット社が、開発エージェントが起こしたPRを別のAIがレビューし、自動修正からマージまでを人の手を介さずに自律的に回す仕組みを検証。品質のボトルネックを解消するアプローチを紹介。",
-              "impact": "★重要★ 開発者の人材不足が深刻な日本市場において、単なるコードアシスタントを越え、「レビュープロセスの自律化」によってボトルネックを完全に排除し、リリースサイクルを最大化する強力なプラクティスとなる。",
-              "date": "5/25",
-              "url": "https://zenn.dev/aircloset/articles/91824e55b7fc9c"
-            },
-            {
-              "headline": "AIエージェント指示書の文字制限の罠：Codexが特定ファイルを途中で打ち切る仕様が発覚",
-              "content": "AIコーディングエージェントに指示を与えるskillファイルを詳細に記述していたところ、CLI側がシェルコマンド（sed）で220行目以降を読み飛ばし、指示の半分が完全に無視されていた実態のレポート。",
-              "impact": "★重要★ AIアシスタント（Cursorや自作AIエージェントなど）を実務に組み込む際、コンテキストや指示書の長大化が原因で「指示を無視される」現象をデバッグ・対策するための極めて具体的な知見を提供する。",
-              "date": "5/25",
-              "url": "https://zenn.dev/haru0416/articles/codex-skill-md-220-lines"
-            },
-            {
-              "headline": "Rust製Webフロントエンドフレームワーク「Yew」が2年の沈黙を破りアップデートを連続再開",
-              "content": "Wasmを利用してRustだけでWeb UIを構築できる「Yew」が、約2年間マイナーアップデートが停止していた状態から、2025年末以降バージョン0.22、0.23と活発にリリースを重ねている現在の状況。",
-              "impact": "★重要★ 国内のRust開発コミュニティにおいて、「Wasmを用いたWeb開発」の今後の本番採用における懸念材料であったフレームワークの持続可能性が再評価され、選定候補として再度活発化する可能性がある。",
-              "date": "5/25",
-              "url": "https://zenn.dev/amenaruya/articles/d9718f5a25056b"
-            },
-            {
-              "headline": "Dockerより高速・軽量な開発環境再現ツール「Devbox（Nixベース）」の活用",
-              "content": "DockerやDevContainerのオーバーヘッドやVS Code依存を回避するため、パッケージ管理システム「Nix」をベースにした、仮想化を行わない軽量・高速な環境構築ツール「Devbox」の実践検証。",
-              "impact": "★重要★ 日本のインフラ構築においてDevContainerの動作ストレス（起動やリソース消費）に直面している開発チームに、Dockerを使用せずに一瞬でプロジェクト固有の開発環境を構築・配布する新機軸を提供する。",
-              "date": "5/25",
-              "url": "https://zenn.dev/arkbig/articles/devbox_0b6b39cd097e3288fe58baa5a49c7d39a28c5b46849"
-            },
-            {
-              "headline": "GitHub Actionsのセキュリティ設定で「persist-credentials: false」を徹底すべきリスク対策",
-              "content": "actions/checkout を使う際、デフォルトで有効となる「persist-credentials: true」によって、後続のステップや不正なリモートアクションからGitHubトークンが盗まれるリスクと回避策の推奨。",
-              "impact": "★重要★ 日本のほぼすべてのCI/CD開発環境に直結する脆弱性であり、サプライチェーン攻撃から会社のソースコードやリポジトリ権限を守るために即座に設定変更を適用すべき実用プラクティス。",
+              "headline": "GitHub Actions のセキュリティ脆弱性を防ぐ `persist-credentials: false` 設定の推奨",
+              "content": "GitHub Actionsの `actions/checkout` では、デフォルトで認証情報（トークン等）がファイルシステムに永続化されます。これにより後続の依存ステップやサードパーティのスクリプトインジェクションからトークンを抜き取られるリスクがあり、明示的にfalseを設定すべきであると警鐘を鳴らしています。",
+              "impact": "CI/CDでの自動デプロイやリリース自動化が一般的になる中、意図しないサプライチェーン攻撃によって強力な書き込み権限を持つGitHubトークンが奪取されるリスクは計り知れません。国内の開発現場におけるセキュリティプラクティスの見直し、および監査項目の追加に直結する重要トピックです。",
               "date": "5/25",
               "url": "https://zenn.dev/kou_pg_0131/articles/gha-checkout-persist-credentials"
             },
             {
-              "headline": "Karpathy氏の「LLM Wiki」設計による社内RAGのデータ検索・コンテキスト精度向上",
-              "content": "ドキュメントをそのままベクトル化してRAGへ渡すのではなく、LLMが段階的に消化できるよう適切に情報構造化して加工してから渡す「progressive disclosure」設計思想を実務に適用し、20万ファイルでの検索精度を大きく向上させた検証。",
-              "impact": "★重要★ 日本の多くの企業が導入に苦戦している「RAGを活用した社内ドキュメント検索AI」の性能限界を打破し、実用レベルに引き上げるための設計ブレイクスルーとなる。",
+              "headline": "サプライチェーン攻撃に備え、GitHubのセキュリティ「実効」を継続検証する監査基盤の内製事例",
+              "content": "スマートラウンド社は、npm/PyPIへの悪意あるパッケージ混入や開発者アカウントの侵害といった各種サプライチェーン攻撃への対策の実効性を検証するため、自社のGitHub Organizationの設定を継続的に自動テストする社内監査基盤を内製。その設計思想を公開しました。",
+              "impact": "「一度対策したはず」の設定が、運用の過程でいつの間にか緩んでしまうリスクに対応する手法を提示しています。セキュリティ監査を形骸化させず自動化によって実効性を保つアプローチは、セキュリティ基準の厳しい国内SaaS事業者やエンタープライズにとって即効性のある手本となります。",
+              "date": "5/26",
+              "url": "https://zenn.dev/smartround_dev/articles/478c195bf914b6"
+            },
+            {
+              "headline": "AIが書いたコードをAIがレビュー、マージまで自律的に回す開発自動化パイプライン",
+              "content": "エアークローゼット社の事例。AIプラットフォームを用いてPR（プルリクエスト）のレビューや修正、マージまでをAIが半自動で執り行う仕組み（Cortex）を開発。AIエージェントの導入によって懸念される「人間レビューの詰まり（ボトルネック）」と「コード品質低下」を構造的に克服したパイプラインを紹介。",
+              "impact": "少子高齢化やIT人材不足が深刻化する日本市場において、エンジニアの労働時間を削減しつつ開発速度を飛躍的に向上させる「AIエージェント主導型開発」の先進的なロールモデルです。開発プロセスの自動化の究極系として注目に値します。",
               "date": "5/25",
-              "url": "https://zenn.dev/nori_handa/articles/llm-knowledge-base-karpathy-wiki"
+              "url": "https://zenn.dev/aircloset/articles/91824e55b7fc9c"
             },
             {
-              "headline": "AIによる開発速度激増が生んだ「非開発部門（CS・営業）への共有ボトルネック」自動化対策",
-              "content": "Nstock社が、AIエージェント（Claude Code等）によるプルリクエスト数の激増に対応し、目まぐるしく変化するプロダクトのUI差異などをGitHub Actions経由で自動的に営業やCS部門へ要約通知するシステムを構築した事例。",
-              "impact": "★重要★ AI導入により開発スピードが数倍に跳ね上がった結果、開発組織の外（ビジネスサイドやサポートチーム）が情報の変化についていけなくなる、という「AI時代特有の組織課題」に対する最先端の先回り解決策。",
-              "date": "5/24",
-              "url": "https://zenn.dev/nstock/articles/ui-change-notifier"
-            },
-            {
-              "headline": "AIコーディングエージェント前提の仕様駆動開発（SDD）による開発ライフサイクル（SDLC）の再設計",
-              "content": "AIエージェントを生産性のコアに据え、仕様書策定、Living Specsの維持、自動レビュー、UIの自動検証等を組み合わせた「仕様駆動開発」を推進するための、総合的なプロセスガイドの紹介。",
-              "impact": "★重要★ 「プログラマーが手動でコードを書く」ことを前提とした従来のウォーターフォールやアジャイルのプロセスから、AIと共同で推進する「AIネイティブなソフトウェア開発プロセス」への移行を促す設計指針となる。",
-              "date": "5/24",
-              "url": "https://zenn.dev/myntai/books/spec-driven-frontier"
-            },
-            {
-              "headline": "なぜAnthropicはプロンプトでMarkdownより「XMLタグ」を推奨するのかの構造的考察",
-              "content": "システムプロンプトやRAGに渡すコンテキストを構造化する際、Markdownによる構造化よりもXML/HTMLタグを使用する方がLLM（特にClaude）の解釈精度が高まる理由を、トークン解釈や学習データの特性から検証した考察。",
-              "impact": "★重要★ AIを組み込んだシステムや高精度なチャットボットを構築している日本のエンジニアが、今すぐプロンプト記述の最適化を図る上で極めて価値の高いプロンプトエンジニアリングのテクニック。",
+              "headline": "AIプロンプトでXML/HTMLタグ構造が推奨される理由とMarkdownとの決定的な解釈差",
+              "content": "システムプロンプトの記述やRAG（検索拡張生成）のソースデータにおいて、一般的なMarkdown形式よりも、XMLやHTMLなどのタグ構造を用いる方が、AIモデルのトークン解釈精度が向上するメカニズムや、言語設計と学習データの背景からくる違いを論理的に考察しています。",
+              "impact": "AIエージェント開発やRAG搭載の業務ツールの精度向上に取り組んでいる日本のAIエンジニアにとって、システム設計を大きく最適化できる重要な知見です。無駄なハルシネーションを減らし、安定した出力を得るための必須級の実践テクニックとなります。",
               "date": "5/24",
               "url": "https://zenn.dev/yun_bow/articles/a339e1d31a4c43"
             },
             {
-              "headline": "TypeScript国内最大級カンファレンス「TSKaigi 2026」開催、進むフロントエンドとAIの融合",
-              "content": "2026年5月22日・23日に開催された、TypeScriptをテーマにした技術カンファレンスの様子。チームラボをはじめとする多くの先端IT企業が参加し、AIエージェント、型システム、インフラ周辺ツールなどを網羅。",
-              "impact": "★重要★ 日本のWeb開発シーンで圧倒的シェアを持つTypeScriptの最新トレンドと、AIを開発ツールに取り入れる国内フロントエンドエンジニアの熱量・方向性が凝縮されたイベント報告であり、国内コミュニティの動向を示している。",
-              "date": "5/26",
-              "url": "https://zenn.dev/teamlab_fe/articles/aaffd117e03c34"
+              "headline": "AIコーディングエージェント時代に適合する「仕様駆動開発（SDD）」とSDLCの再構築",
+              "content": "AIエージェントをプロダクト開発の主軸に据えるにあたり、従来のシステム開発ライフサイクル（SDLC）を抜本的に再考し、仕様策定、AI運用の可観測性、テスト戦略（Honeycomb構造）、レビューやリリースマネジメントまでを一気通貫で設計する「Living Book」の試みが展開されています。",
+              "impact": "AIがコードを自動生成する時代においては、仕様書自体の精度とメンテナンス性が全体の開発速度を決める最大の律速となります。日本国内のソフトウェア開発組織が、AIによる生産性向上を部分最適にとどめず、組織レベルの競争力に変えるためのパラダイムシフトを提唱しています。",
+              "date": "5/24",
+              "url": "https://zenn.dev/myntai/books/spec-driven-frontier"
             },
             {
-              "headline": "Dropbox共同創業者ドリュー・ハウストン氏がCEOを退任、エグゼクティブ会長に移行",
-              "content": "Dropboxを約20年前に創業し、Y Combinator出身企業として初の上場を成し遂げたドリュー・ハウストン氏がCEOを退任し、新たな経営陣へ引き継ぐことをスタッフに伝えた。",
-              "impact": "★重要★ シリコンバレーを長年牽引してきた象徴的なテックリーダーの交代。日本でも法人・個人問わず広く利用されているDropboxのプロダクト方針、特にAIを活用したクラウド管理戦略への変化に大きな影響を与える可能性がある。",
+              "headline": "RAG精度を極限まで高める設計思想「Progressive Disclosure」とKarpathy式LLM Wikiの実践",
+              "content": "社内ドキュメントを単純にベクトルDBに突っ込んでも検索精度が出ない問題に対し、生の文書をLLMが理解しやすいように段階的に加工して要約・整理してからインデックスする設計思想（コンテキストエンジニアリング）を、約20万ファイルの実環境で検証し大きな精度改善を実証。",
+              "impact": "現在多くの日本企業が挑戦している「社内データでのAI・RAG活用」が直面している「精度が低くて使えない」という共通課題に対する、非常に具体的かつ強力な処方箋です。エンタープライズのAI活用を本格実用レベルに引き上げる突破口となり得ます。",
+              "date": "5/25",
+              "url": "https://zenn.dev/nori_handa/articles/llm-knowledge-base-karpathy-wiki"
+            },
+            {
+              "headline": "AIが爆速化するプロダクトの変化速度を、開発チーム外（CS・営業）へ自動共有する仕組み",
+              "content": "Nstock社において、AIエージェントの導入によってリリース（マージ）数が約1.5倍から2倍近くに激増した結果、プロダクトの仕様変更スピードにカスタマーサクセスや営業などの非開発部門が追いつかなくなる課題が発生。これをClaude CodeとGitHub Actionsで変更内容を自動でわかりやすくまとめ共有する仕組みを構築しました。",
+              "impact": "AI開発時代の「嬉しくも深刻な課題」をいち早く捉えた実践例です。開発プロセスのAI化は、非エンジニアチームとのコミュニケーション不全という組織的摩擦を引き起こしやすいため、組織全体の情報循環を自動設計する重要性を教えてくれます。",
+              "date": "5/24",
+              "url": "https://zenn.dev/nstock/articles/ui-change-notifier"
+            },
+            {
+              "headline": "AIエージェント開発に潜む罠：Codexが長大な指示（SKILL.md）を途中で打ち切っていたログが判明",
+              "content": "AIエージェントに自律ルールやスキルを教え込む設計（Skill-based agent）において、441行あったルールファイルの後半半分をCodexが一度も読み込んでおらず、220行目で強制的に打ち切って実行コマンドを実行していた実態がログから発覚しました。",
+              "impact": "「プロンプト通りに動かない」と悩む開発者にとって、エージェント側の入力パース制限（裏側のシェルコマンド仕様）という想定外のボトルネックが存在することを示しています。エージェント構築プロセスのデバッグ手法や、設定ファイルの分割設計（モジュール化）の重要性を伝える貴重な知見です。",
+              "date": "5/25",
+              "url": "https://zenn.dev/haru0416/articles/codex-skill-md-220-lines"
+            },
+            {
+              "headline": "Nixベースの軽量・高速な環境構築ツール「Devbox」による、Dockerに頼らない開発環境の構築",
+              "content": "パッケージ管理およびシステム構成フレームワークであるNixを基盤とし、DockerにありがちなリソースオーバーヘッドやVS Code依存を排除し、VimやEmacsを含む自由なIDE環境で高速かつ再現性のある開発環境を瞬時に構築するツール「Devbox」の検証事例。",
+              "impact": "開発環境（DevContainer等）の起動速度や動作の重さに不満を感じているエンジニアに対して、Dockerを使わない超軽量なオルタナティブを提案します。開発環境構築時間を大幅に削減し、日々の開発者体験（DX）を高めたいと考える技術者・組織に最適なツールです。",
+              "date": "5/25",
+              "url": "https://zenn.dev/arkbig/articles/devbox_0b6b39cd097e3288fe58baa5a49c7d39a28c5b46849"
+            },
+            {
+              "headline": "TanStack Query × Dexie.js を用いた、API未完成でもプロトタイプを使い捨てないフロントエンド境界設計",
+              "content": "プロトタイプをAI等で素早く作りつつ、バックエンドの実装完了後に最小限の変更で本実装へ差し替える設計パターンを紹介。フロントエンドにIndexedDB（Dexie.js）を使用し、-api層 -> -query層 -> コンポーネントの3層構造とすることでモックを活かした本実装化を可能にします。",
+              "impact": "要件が流動的なスタートアップや新規事業の立ち上げ、PoC（概念実証）開発において、「動くデモを作ったが本番コードとして使い物にならない」という二度手間を劇的に低減。スピードと品質・設計の美しさを両立させたい日本のフロントエンドエンジニアに有益な指針を提供します。",
+              "date": "5/25",
+              "url": "https://zenn.dev/dress_code/articles/5d33f06aa14582"
+            },
+            {
+              "headline": "Rustのフロントエンドフレームワーク「Yew」が約2年の沈黙を経て開発を再開、v0.22/v0.23を連続リリース",
+              "content": "WebAssemblyを活用し、Rustだけで高速なWebアプリケーションを作れるフロントエンドフレームワーク「Yew」が、約2年の長きにわたるバージョン停止期間（0.21止まり）を経て復活。2025年末から2026年にかけて相次いでマイナーアップデートを重ねている現状が報告されました。",
+              "impact": "Rustを用いたWebアプリ開発の可能性を探っていた開発者にとって、本命視されていたライブラリが息を吹き返したことは朗報です。WebAssemblyエコシステムおよびRustでのクライアントサイド開発の再検討を行うきっかけになります。",
+              "date": "5/25",
+              "url": "https://zenn.dev/amenaruya/articles/d9718f5a25056b"
+            },
+            {
+              "headline": "AIデータセンター急増に対する環境活動家エリン・ブロコビッチの監視マップ作成",
+              "content": "著名な環境活動家エリン・ブロコビッチ氏が、全米で急速に開発が進むAI用の大型データセンターの所在地と、それに伴う地域社会・環境（電力、水資源等）への影響を住民が報告・追跡できるマッピングツールの提供を開始。AIインフラに対する市民の監視活動が強まっています。",
+              "impact": "AIモデル学習の爆発的なインフラ需要により、日本国内（千葉や北海道、関西など）でも大規模なデータセンター建設ラッシュが進んでいます。電力供給の逼迫や温室効果ガス増加、地域の水資源枯渇問題といった「ESGリスク」への批判が集まりかねず、事業推進者は環境負荷削減策のより透明な開示を迫られる可能性があります。",
+              "date": "5/27",
+              "url": "https://www.niemanlab.org/2026/05/erin-brockovich-made-a-map-to-track-data-centers-around-the-country/"
+            },
+            {
+              "headline": "Dropbox創業者のDrew Houston氏がCEOを退任、会長職（Executive Chairman）へ移行",
+              "content": "Dropboxを24歳で共同創業し、Y Combinator出身のスタートアップとして初めて上場まで牽引したDrew Houston氏（43）が、CEOを退任。後任のAshraf Alkarmi氏に日々の経営権を委ね、自身はエグゼクティブ・チェアマンとして意思決定を支援する体制へ移行することを社員に発表しました。",
+              "impact": "シリコンバレーの象徴的な起業家の一人の退任劇です。Dropboxは日本企業における導入数も非常に多いため、新しいCEO体制のもとで、競争の激化するAI対応型クラウドストレージやコラボレーションツール市場においてどのような革新や製品ラインナップの刷新を図っていくのかが注目されます。",
               "date": "5/26",
               "url": "https://www.cnbc.com/2026/05/26/dropbox-ceo-drew-houston-ashraf-alkarmi.html"
             }
@@ -363,36 +426,44 @@ window.newsData = {
         }
       ],
       "summary": {
-        "content": "本日は日経平均株価の一時6万6000円突破という日本経済のマクロ的な大転換が刻まれる一方、対外純資産の世界3位転落や、タングステン供給途絶、ナフサ・LNG等のエネルギー調達における深刻な地政学的脆弱性が浮き彫りとなりました。技術市場ではAIバブル的な期待から、実質的なROI（投資対効果）を重視する実用化へのシフトが加速。これに伴い、開発現場では「外注＋ローカルAI」によるコスト最適化や、AIエージェント前提の仕様駆動開発（SDD）、自律的コードレビュー、防衛サイバーセキュリティといった「地政学リスクへの備えとAIの社会実装インフラ構築」へ注視すべき潮流が明確化しています。"
+        "content": "マクロ経済における地政学的緊張（中東・ロシア情勢）とエネルギー供給リスク（原油・LNG価格の高騰）が強まる一方で、日経平均株価の歴史的急騰や半導体・量子技術への爆発的投資が日本のハイテク産業に空前の追い風をもたらしています。テック領域では、盲目的なAI導入ブームから「推論コストの削減」や「セキュアなAIエージェント実装」といった実質主義へのシフトが鮮明です。日本としては、先端技術分野での官民資金の活用を進めつつ、地政学リスクに対応するサプライチェーンの強靭化（スマート保安、アグリテック、省エネパワー半導体等）を急ぐ必要があります。"
       }
     },
     "week": {
-      "overview": "直近1週間のグローバル市場および技術の潮流は、「経済安全保障に基づくサプライチェーンの不可逆的な再編」と「生成AIの実用フェーズ移行に伴う費用対効果（ROI）の厳格化」という二大潮流に支配されています。米国主導の米印鉱物合意や、中国によるタングステン供給停止、中東・オーストラリア発のエネルギー調達リスクの顕在化は、日本の強みである半導体（シリコンアイランド九州など）や高度な電子部品製造のサプライチェーンに対して、劇的な調達先の多角化と代替素材（カイコ絹由来の超素材などマテリアルズ・インフォマティクス）への積極的な投資を強く迫っています。\n\n同時に、テック企業における投資評価の基準は「AIの機能アピール」から「具体的な生産性・収益への寄与」へと完全にシフトしました。著名投資家によるテック株の選別売りや、ClickUpのレイオフに見られる組織再編がこれを裏付けています。これにより、開発現場ではドル建てAPI高騰に対抗する「外注＋ローカルAI」の構成や、AIを安全かつ最大限に活用するための「仕様駆動開発（SDD）」、サプライチェーンを標的としたサイバー攻撃に対するCI/CD自動監査など、実利と安全性を両立する極めて堅実なアーキテクチャ選定が主流となっています。",
+      "overview": "直近1週間の世界市場と技術潮流は、「マクロ地政学リスクとエネルギー不安の再燃」および「AI実用化の第2フェーズ（コスト最適化とエッジ移行）」という2つの対照的な動きによって特徴づけられます。中東での緊迫やロシアのサイバー・軍事威嚇は、サプライチェーンや重要インフラの脆弱性を突き、産業用IoT（IIoT）やサイバーセキュリティ、代替素材への移行圧力を極限まで高めました。一方で、SK HynixやMicron、キオクシアに代表される半導体市場の熱狂は日経平均株価を過去最高値へと押し上げ、半導体製造装置や部素材で世界をリードする日本企業に莫大な好業績をもたらしています。\n\nソフトウェア開発の現場では、AIのコストパフォーマンスに対するシビアな評価が始まっており、高価なクラウドAPIに依存しない「ローカル/エッジAI」や、AIによるコード生成の前提となる「仕様駆動開発（SDD）」といった現実的かつ強固な開発手法へと関心が急速に移行しています。技術の民主化（オープンソースの二足歩行ロボット等）が進むと同時に、学術論文や企業法務におけるAIの倫理・安全性のガードレール構築が本格的な義務的要件となった1週間でした。",
       "key_trends": [
         {
-          "title": "経済安全保障の激化と重要鉱物・エネルギーサプライチェーンの再設計",
-          "analysis": "中国のレアアース支配強化（タングステン調達ストップ）や中東緊迫によるナフサ・原油不足、豪州LNGの自国優先策は、日本の基幹産業である半導体、自動車、化学セクターに甚大なリスクをもたらしています。日本の開発・製造現場にとっては、IPEF（インド太平洋経済枠組み）などの日米印を中心とした新たな調達網の設計や、マテリアルズ・インフォマティクスを活用した代替素材開発、さらにはデータセンター運営のための「低消費電力・省エネアーキテクチャ」の採用が事業継続に不可欠なミッションとなっています。"
+          "title": "AIの投資対効果（ROI）重視へのシフトとエッジ/ローカルAIの台頭",
+          "analysis": "米UberによるAI予算の早期使い果たしに代表されるように、AIを導入するだけで価値が出るという幻想が終焉を迎え、今後はAPIコストや推論コストの劇的な削減が問われます。これに伴い、特定の業務に特化した独自のRAG技術や、軽量LLM（SLM）をローカル環境やエッジデバイス上で動作させる技術への需要が急増しており、日本の開発現場でも開発効率化とコスト最適化の両立が最大のテーマとなっています。"
         },
         {
-          "title": "AIバブルの終焉と「費用対効果（ROI）」を重視する開発アプローチの台頭",
-          "analysis": "巨大テック株の選別売りや米SaaS企業のレイオフは、AI投資に対する市場の評価がシビアになったことを意味します。これを受け、国内の技術選定では高コストなグローバルモデル（GPT-4等）に依存せず、特定ドメインに最適化した「ローカルLLM＋外注」を組み合わせてコスト削減を図るアプローチや、AIとの協調開発における効率を最優先した「枯れた（定番の）プログラミング言語」の再評価、RAGの精度を劇的に向上させる「Karpathy氏のLLM Wiki」モデルの実装などが急速に進んでいます。"
+          "title": "半導体・量子コンピューティングの国策化と日本市場への資金流入",
+          "analysis": "AIメモリ半導体（HBM）の爆発的な需要を背景とした半導体株の急騰と、米政府の巨額出資による量子コンピューティングの「国策銘柄」化は、日本市場の資金流動性を極限まで高めています。この好況は、日本の強みである半導体製造装置や高機能化学素材メーカーの業績を中長期的に下支えし、国内スタートアップの大型調達や企業のIT/DXへの再投資予算を大幅に拡大させる契機となっています。"
         },
         {
-          "title": "AIネイティブ開発（仕様駆動開発：SDD）と自律型セキュリティ監査の確立",
-          "analysis": "エンジニアが手動でコードを書く時代から、AIエージェントに仕様書を読み込ませて開発する「仕様駆動開発（SDD）」や「自律型コードレビュー＆マージパイプライン」の構築へと、ソフトウェア開発ライフサイクル（SDLC）自体が再設計されています。開発速度が数倍に跳ね上がる一方、GitHub Actionsの脆弱性（persist-credentials: false）に代表されるサプライチェーン攻撃のリスクも高まっており、CI/CDプロセスにおいて「セキュリティが正常動作しているか」を自律的に監視・監査する取り組みが、国内ベンダーの競争力を決定づける要素となっています。"
+          "title": "重要インフラとサプライチェーンに対する地政学的・環境的リスクの顕在化",
+          "analysis": "ロシアによる欧州インフラへの執拗なサイバー攻撃の警告、中東情勢による原油高とナフサ不足、オーストラリアのLNG対日輸出削減懸念など、日本の産業基盤を揺るがす地政学的リスクが同時多発的に発生しています。これらは重要インフラにおけるゼロトラストセキュリティや、工場・プラントの異常を未然に防ぐIIoT技術（スマート保安）、自律的サプライチェーンを構築するアグリテックや省エネ冷却技術（Climate Tech）の社会実装を強く後押ししています。"
+        },
+        {
+          "title": "AIエージェント時代における「仕様駆動開発（SDD）」とSDLCの再構築",
+          "analysis": "AIがコードの生成からレビュー、マージまでを自律的に行うパイプラインが現実味を帯びる中、開発プロセスの主役は「コードを書くこと」から「仕様を厳密に定義・管理すること」へシフトしています。これからのエンジニアには、単なるプログラミングスキルではなく、ビジネスドメインを深く理解し、AIに対して正確な『仕様』を記述・デバッグできる高度な要件定義能力とメタスキルが求められます。"
         }
       ]
     }
   },
   "glossary": {
-    "IPEF（インド太平洋経済枠組み）": "インド太平洋地域におけるサプライチェーンの強靭化、クリーンエネルギーの導入、公正な経済活動などを目的として、米国主導で発足した経済協力の枠組み。中国依存からの脱却を狙う性質が強い。",
-    "ナフサ": "原油を蒸留して得られる粗製ガソリン。プラスチック、合成繊維、合成ゴムなどの化学製品だけでなく、半導体や自動車部材に必要な様々な合成樹脂や梱包材などの基幹原料となる物質。",
-    "SDD（仕様駆動開発）": "人間が直接プログラムコードを書くのではなく、詳細かつ厳密な「仕様（設計要件）」の定義に集中し、その仕様書に基づいてAI（コーディングエージェント）に自動でプログラムを生成・テストさせる次世代の開発手法。",
-    "RAG（検索拡張生成）": "大規模言語モデル（LLM）が学習していない最新の外部データや社内文書から情報を検索し、その結果をプロンプトに付け加えてからAIに回答を生成させることで、正確性を劇的に向上させる技術。",
-    "耐量子暗号（PQC / Post-Quantum Cryptography）": "将来、量子コンピューターが実用化された場合でも、極めて解読が困難とされる次世代の暗号技術。現在の主要なインターネット通信で使われている暗号が解破される未来に備えたセキュリティ技術。",
-    "マテリアルズ・インフォマティクス": "AI（機械学習）やビッグデータ解析を駆使して、従来は実験と経験則に頼っていた新材料や新素材の開発プロセスを、シミュレーションによって圧倒的に高速化する技術分野。",
-    "OpenRouter": "GPT、Claude、Llamaといった世界中の様々な大規模言語モデル（LLM）に対して、一つの共通APIからアクセスできるサービス。複数のモデルを切り替えながらコストパフォーマンスの良いシステムを組む際に重宝される。",
-    "認知戦": "サイバー攻撃やフェイクニュース、SNSなどを通じた世論誘導などの手法を用いて、相手国の国民や意思決定者の心理・認識に介入し、社会の混乱や判断の誤りを引き起こそうとする、現代の安全保障における新領域の紛争形式。"
+    "HBM (高帯域幅メモリ)": "主にAI処理などの超高速演算を支えるため、DRAMと呼ばれるメモリチップを垂直に何層も積み上げ、シリコン貫通電極（TSV）によって超広帯域でのデータ転送を可能にした最先端の積層メモリ技術。",
+    "RAG (検索拡張生成)": "大規模言語モデル（LLM）に対して、インターネットや社内の信頼できるデータベース等から外部知識をリアルタイムに検索・参照させてから回答を生成させることで、情報の正確性を高め「ハルシネーション（嘘）」を抑制する技術。",
+    "ゼロトラストセキュリティ": "「何も信頼しない、すべてを検証する」を原則とするセキュリティモデル。ネットワークの「内と外」を区別して防御する従来の境界防衛ではなく、すべての通信やユーザーに対して都度認証・評価・認可を行い、セキュリティ侵害のリスクを最小化する。",
+    "スマート保安": "工場やエネルギーインフラなどの設備に、産業用IoT（IIoT）センサーやAI画像解析などのデジタル技術を導入し、異常の早期発見、故障の予測（予防保全）、安全確保を自動的かつ高度に行う取り組み。",
+    "仕様駆動開発 (SDD)": "AIによる自動コード生成を前提とした新しい開発パラダイム。人間が自然言語や定型フォーマットを用いて、曖昧さのない詳細な「システムの仕様（仕様書）」を綿密に設計・記述し、これをAIエージェントに入力することで高品質なシステムを自動生成させる手法。",
+    "量子耐性暗号 (PQC)": "スーパーコンピューターを遥かに凌駕する計算能力を持つ将来の量子コンピューターが実用化されても、容易に解読されない強力な安全性を備えた新しい数学的アルゴリズムに基づく暗号システム。",
+    "スウォーム（群）制御": "多数のドローンや移動ロボットが、互いの距離や周囲の障害物をリアルタイムに認識し合い、衝突を避けながら一つの群れとして協調・連携して動作する自律制御技術。",
+    "Climate Tech (クライメートテック)": "地球温暖化や異常気象などの気候変動問題を解決するために、温室効果ガスの排出削減、再生可能エネルギーへの移行、省エネ型データセンター冷却など、環境負荷低減に直接貢献するテクノロジーの総称。"
   },
-  "updated_at": "2026-05-27 11:51 JST"
+  "updated_at": "2026-05-27 12:30 JST",
+  "token_usage": {
+    "2026-05": 109229,
+    "2026-05-27": 109229
+  }
 };
