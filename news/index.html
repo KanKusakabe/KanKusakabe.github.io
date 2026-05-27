@@ -185,11 +185,6 @@
     </div>
 
     <div class="bg-white/80 backdrop-blur-md rounded-2xl border border-slate-200 shadow-xl mb-8">
-      <div id="news-tabs-container" class="flex border-b border-slate-200 bg-white/95 backdrop-blur-md sm:bg-slate-50/50 p-2 gap-1 sm:gap-2 rounded-t-2xl sticky top-0 sm:relative sm:top-0 z-20 transition-all duration-300 ease-in-out">
-        <button id="tab-days" onclick="switchTab('days')" class="flex-1 sm:flex-none px-4 sm:px-8 py-3 text-sm font-semibold rounded-xl text-center transition-all duration-200 focus:outline-none text-slate-500 hover:text-slate-800 hover:bg-slate-200/50">最新ニュース</button>
-        <button id="tab-week" onclick="switchTab('week')" class="flex-1 sm:flex-none px-4 sm:px-8 py-3 text-sm font-semibold rounded-xl text-center transition-all duration-200 focus:outline-none text-slate-500 hover:text-slate-800 hover:bg-slate-200/50">今週のトレンド</button>
-      </div>
-
       <div class="p-6 sm:p-8">
         
         <div id="loading-state" class="py-20 flex flex-col items-center justify-center gap-4">
@@ -256,7 +251,6 @@
 
   <script>
     let newsData = null;
-    let activeTab = 'days';
     const TOPICS_PER_CATEGORY = 30;
     const INITIAL_VISIBLE_TOPICS = 4;
 
@@ -316,10 +310,6 @@
       else el.classList.add('hidden');
     }
 
-    function switchTab(period) {
-      activeTab = period;
-      renderNews();
-    }
 
     function buildTopicKey(topic) {
       const url = (topic?.url || '').trim();
@@ -367,12 +357,12 @@
       return `
         <div class="mb-5 last:mb-0 pb-5 last:pb-0 border-b last:border-0 border-slate-200">
           ${headerRowHtml}
-          <h5 class="text-sm font-bold text-slate-800 mb-2 leading-relaxed font-sans">${headlineHtml}</h5>
+          <h5 class="text-sm font-bold text-slate-800 mb-2 leading-relaxed font-sans break-words">${headlineHtml}</h5>
           <div class="space-y-3.5">
-            <p class="text-xs sm:text-[13px] leading-relaxed text-slate-600 font-normal font-sans">${parseGlossaryTerms(topic.content)}</p>
+            <p class="text-xs sm:text-[13px] leading-relaxed text-slate-600 font-normal font-sans break-words">${parseGlossaryTerms(topic.content)}</p>
             <div class="bg-indigo-50/50 border-l-2 border-indigo-400 p-3.5 rounded-r-lg">
               <span class="text-[9px] font-bold text-indigo-600 uppercase tracking-widest mb-1.5 block font-outfit">Impact & Implications</span>
-              <p class="text-xs sm:text-[13px] leading-relaxed text-slate-600 font-normal font-sans">${parseGlossaryTerms(topic.impact)}</p>
+              <p class="text-xs sm:text-[13px] leading-relaxed text-slate-600 font-normal font-sans break-words">${parseGlossaryTerms(topic.impact)}</p>
             </div>
           </div>
         </div>
@@ -382,93 +372,122 @@
     function renderNews() {
       if (!newsData) return;
       
-      const periods = ['days', 'week'];
-      periods.forEach(p => {
-        const btn = document.getElementById(`tab-${p}`);
-        if (!btn) return;
-        if (p === activeTab) {
-          btn.className = "flex-1 sm:flex-none px-6 py-2.5 text-xs font-bold rounded-xl text-center text-white bg-gradient-to-r from-indigo-500 to-violet-500 shadow-md shadow-indigo-500/20 border border-indigo-500/20 focus:outline-none font-outfit uppercase tracking-wider tab-transition";
-        } else {
-          btn.className = "flex-1 sm:flex-none px-6 py-2.5 text-xs font-semibold rounded-xl text-center text-slate-500 hover:text-slate-800 bg-transparent hover:bg-slate-200/50 border border-transparent focus:outline-none font-outfit uppercase tracking-wider tab-transition";
-        }
-      });
-
-      const periodData = newsData.periods[activeTab];
-      if (!periodData) return;
-
+      const periodDataDays = newsData.periods['days'];
+      const periodDataWeek = newsData.periods['week'];
+      
       const newsContent = document.getElementById('news-content');
       newsContent.innerHTML = '';
       newsContent.classList.remove('hidden');
 
-      if (activeTab === 'days') {
-        let gridHtml = '<div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 sm:gap-8">';
+      let finalHtml = '';
+
+      // --- Render Days (Latest News) ---
+      if (periodDataDays) {
         const globalSeenTopicKeys = new Set();
-        
-        if (periodData.categories && Array.isArray(periodData.categories)) {
-          periodData.categories.forEach(cat => {
-            let topicsHtml = '';
-            if (cat.topics && Array.isArray(cat.topics)) {
-              const uniqueTopics = dedupeAndLimitTopics(cat.topics, globalSeenTopicKeys);
-              const visibleTopics = uniqueTopics.slice(0, INITIAL_VISIBLE_TOPICS);
-              const hiddenTopics = uniqueTopics.slice(INITIAL_VISIBLE_TOPICS);
+        let generalCategories = [];
+        let techCategories = [];
 
-              const visibleTopicsHtml = visibleTopics.map(topic => renderTopicCard(topic)).join('');
-              const hiddenTopicsHtml = hiddenTopics.length > 0
-                ? `
-                  <details class="rounded-lg border border-slate-200 bg-slate-50/60 p-3.5">
-                    <summary class="cursor-pointer list-none flex items-center justify-between text-xs sm:text-sm font-semibold text-slate-600 hover:text-indigo-600 transition-colors">
-                      <span>残り${hiddenTopics.length}件を表示</span>
-                      <span class="text-[10px] font-bold text-indigo-500">開く</span>
-                    </summary>
-                    <div class="pt-4 mt-3 border-t border-slate-200">
-                      ${hiddenTopics.map(topic => renderTopicCard(topic)).join('')}
-                    </div>
-                  </details>
-                `
-                : '';
-
-              topicsHtml = visibleTopicsHtml + hiddenTopicsHtml;
+        if (periodDataDays.categories && Array.isArray(periodDataDays.categories)) {
+          periodDataDays.categories.forEach(cat => {
+            if (cat.genre === 'WORLD' || cat.genre === 'BUSINESS') {
+              generalCategories.push(cat);
+            } else {
+              techCategories.push(cat);
             }
-
-            let iconColorClass = 'bg-slate-100 border-slate-200 text-slate-500';
-            let iconSvg = `<svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>`;
-            
-            if (cat.genre === 'WORLD') {
-              iconColorClass = 'bg-cyan-50 border-cyan-200 text-cyan-600';
-              iconSvg = `<svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10" /><path d="M12 2a15.3 15.3 0 014 10 15.3 15.3 0 01-4 10m0-20a15.3 15.3 0 00-4 10 15.3 15.3 0 004 10M2 12h20" /></svg>`;
-            } else if (cat.genre === 'BUSINESS') {
-               iconColorClass = 'bg-amber-50 border-amber-200 text-amber-600';
-               iconSvg = `<svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M3 3v18h18M18.5 12V7.5H15M21 5l-8.5 8.5-4-4L3 15" /></svg>`;
-            } else if (cat.genre === 'TECHNOLOGY') {
-               iconColorClass = 'bg-indigo-50 border-indigo-200 text-indigo-600';
-               iconSvg = `<svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><rect x="4" y="4" width="16" height="16" rx="2" /><path stroke-linecap="round" stroke-linejoin="round" d="M9 9h6v6H9V9zM9 1v3M15 1v3M9 20v3M15 20v3M20 9h3M20 15h3M1 9h3M1 15h3" /></svg>`;
-            } else if (cat.genre === 'SCIENCE') {
-               iconColorClass = 'bg-fuchsia-50 border-fuchsia-200 text-fuchsia-600';
-               iconSvg = `<svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="2" /><ellipse cx="12" cy="12" rx="10" ry="4" transform="rotate(-30 12 12)" /><ellipse cx="12" cy="12" rx="10" ry="4" transform="rotate(30 12 12)" /></svg>`;
-            } else if (cat.genre === 'DEVELOPER_TRENDS') {
-               iconColorClass = 'bg-rose-50 border-rose-200 text-rose-600';
-               iconSvg = `<svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M8 9l-4 3 4 3m8-6l4 3-4 3m-2-9l-4 12" /></svg>`;
-            }
-
-            gridHtml += `
-              <section class="flex flex-col bg-white/90 border border-slate-200/80 rounded-xl p-5">
-                <div class="flex items-center gap-2.5 mb-4 pb-3.5 border-b border-slate-100">
-                  <span class="p-2 rounded-lg border ${iconColorClass}">
-                    ${iconSvg}
-                  </span>
-                  <h3 class="text-sm sm:text-base font-bold text-slate-800 font-sans">${cat.title}</h3>
-                </div>
-                <div class="flex-1">
-                  ${topicsHtml}
-                </div>
-              </section>
-            `;
           });
         }
-        gridHtml += '</div>';
+
+        const renderCategorySection = (cat) => {
+          let topicsHtml = '';
+          if (cat.topics && Array.isArray(cat.topics)) {
+            const uniqueTopics = dedupeAndLimitTopics(cat.topics, globalSeenTopicKeys);
+            const visibleTopics = uniqueTopics.slice(0, INITIAL_VISIBLE_TOPICS);
+            const hiddenTopics = uniqueTopics.slice(INITIAL_VISIBLE_TOPICS);
+
+            const visibleTopicsHtml = visibleTopics.map(topic => renderTopicCard(topic)).join('');
+            const hiddenTopicsHtml = hiddenTopics.length > 0
+              ? `
+                <details class="rounded-lg border border-slate-200 bg-slate-50/60 p-3.5">
+                  <summary class="cursor-pointer list-none flex items-center justify-between text-xs sm:text-sm font-semibold text-slate-600 hover:text-indigo-600 transition-colors">
+                    <span>残り${hiddenTopics.length}件を表示</span>
+                    <span class="text-[10px] font-bold text-indigo-500">開く</span>
+                  </summary>
+                  <div class="pt-4 mt-3 border-t border-slate-200">
+                    ${hiddenTopics.map(topic => renderTopicCard(topic)).join('')}
+                  </div>
+                </details>
+              `
+              : '';
+
+            topicsHtml = visibleTopicsHtml + hiddenTopicsHtml;
+          }
+
+          let iconColorClass = 'bg-slate-100 border-slate-200 text-slate-500';
+          let iconSvg = `<svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>`;
+          
+          if (cat.genre === 'WORLD') {
+            iconColorClass = 'bg-cyan-50 border-cyan-200 text-cyan-600';
+            iconSvg = `<svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10" /><path d="M12 2a15.3 15.3 0 014 10 15.3 15.3 0 01-4 10m0-20a15.3 15.3 0 00-4 10 15.3 15.3 0 004 10M2 12h20" /></svg>`;
+          } else if (cat.genre === 'BUSINESS') {
+             iconColorClass = 'bg-amber-50 border-amber-200 text-amber-600';
+             iconSvg = `<svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M3 3v18h18M18.5 12V7.5H15M21 5l-8.5 8.5-4-4L3 15" /></svg>`;
+          } else if (cat.genre === 'TECHNOLOGY') {
+             iconColorClass = 'bg-indigo-50 border-indigo-200 text-indigo-600';
+             iconSvg = `<svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><rect x="4" y="4" width="16" height="16" rx="2" /><path stroke-linecap="round" stroke-linejoin="round" d="M9 9h6v6H9V9zM9 1v3M15 1v3M9 20v3M15 20v3M20 9h3M20 15h3M1 9h3M1 15h3" /></svg>`;
+          } else if (cat.genre === 'SCIENCE') {
+             iconColorClass = 'bg-fuchsia-50 border-fuchsia-200 text-fuchsia-600';
+             iconSvg = `<svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="2" /><ellipse cx="12" cy="12" rx="10" ry="4" transform="rotate(-30 12 12)" /><ellipse cx="12" cy="12" rx="10" ry="4" transform="rotate(30 12 12)" /></svg>`;
+          } else if (cat.genre === 'DEVELOPER_TRENDS') {
+             iconColorClass = 'bg-rose-50 border-rose-200 text-rose-600';
+             iconSvg = `<svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M8 9l-4 3 4 3m8-6l4 3-4 3m-2-9l-4 12" /></svg>`;
+          }
+
+          return `
+            <section class="flex flex-col bg-white/90 border border-slate-200/80 rounded-xl p-5 mb-6 sm:mb-0 h-full">
+              <div class="flex items-center gap-2.5 mb-4 pb-3.5 border-b border-slate-100">
+                <span class="p-2 rounded-lg border ${iconColorClass}">
+                  ${iconSvg}
+                </span>
+                <h3 class="text-sm sm:text-base font-bold text-slate-800 font-sans">${cat.title}</h3>
+              </div>
+              <div class="flex-1">
+                ${topicsHtml}
+              </div>
+            </section>
+          `;
+        };
+
+        const generalHtml = generalCategories.map(renderCategorySection).join('');
+        const techHtml = techCategories.map(renderCategorySection).join('');
+
+        let gridHtml = `
+          <div id="swipe-container" class="flex overflow-x-auto snap-x snap-mandatory no-scrollbar sm:block pb-4 sm:pb-0 -mx-4 px-4 sm:mx-0 sm:px-0">
+            
+            <div id="swipe-tab-general" class="w-full flex-none snap-start sm:w-auto sm:min-w-0 sm:block shrink-0 sm:mb-8 pr-2 sm:pr-0">
+              <div class="hidden sm:flex items-center gap-3 mb-6">
+                <h2 class="text-xl font-bold text-slate-800 font-outfit tracking-wide">General News</h2>
+                <div class="flex-1 h-px bg-slate-200"></div>
+              </div>
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8">
+                ${generalHtml}
+              </div>
+            </div>
+            
+            <div id="swipe-tab-tech" class="w-full flex-none snap-start sm:w-auto sm:min-w-0 sm:block shrink-0 pl-2 sm:pl-0">
+              <div class="hidden sm:flex items-center gap-3 mb-6">
+                <h2 class="text-xl font-bold text-slate-800 font-outfit tracking-wide">Tech & Dev Trends</h2>
+                <div class="flex-1 h-px bg-slate-200"></div>
+              </div>
+              <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 sm:gap-8">
+                ${techHtml}
+              </div>
+            </div>
+            
+          </div>
+        `;
 
         const summaryHtml = `
-          <section class="relative border border-indigo-100 rounded-xl bg-gradient-to-br from-indigo-50/50 to-white text-slate-800 p-6 sm:p-8 shadow-sm overflow-hidden">
+          <section class="mt-8 relative border border-indigo-100 rounded-xl bg-gradient-to-br from-indigo-50/50 to-white text-slate-800 p-6 sm:p-8 shadow-sm overflow-hidden">
             <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-4 pb-4 border-b border-indigo-100">
               <div class="flex items-center gap-2.5">
                 <span class="p-2 rounded-lg bg-indigo-100 border border-indigo-200 text-indigo-600">
@@ -478,31 +497,39 @@
               </div>
               <div class="text-[10px] font-bold text-indigo-600 bg-white border border-indigo-200 px-3 py-1 rounded-full uppercase tracking-wider font-outfit">Outlook & Summary</div>
             </div>
-            <p class="text-sm leading-relaxed text-slate-600 font-normal">${parseGlossaryTerms(periodData.summary?.content || "")}</p>
+            <p class="text-sm leading-relaxed text-slate-600 font-normal break-words">${parseGlossaryTerms(periodDataDays.summary?.content || "")}</p>
           </section>
         `;
 
-        newsContent.innerHTML = gridHtml + summaryHtml;
-      } else if (activeTab === 'week') {
+        finalHtml += gridHtml + summaryHtml;
+      }
+
+      // --- Divider ---
+      if (periodDataDays && periodDataWeek) {
+        finalHtml += `<div class="my-16 flex items-center justify-center opacity-30"><div class="w-full h-px bg-slate-300"></div><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-slate-400 px-4 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" /></svg><div class="w-full h-px bg-slate-300"></div></div>`;
+      }
+
+      // --- Render Week (Trends) ---
+      if (periodDataWeek) {
         let trendsHtml = '';
-        if (periodData.key_trends && Array.isArray(periodData.key_trends)) {
-          periodData.key_trends.forEach(trend => {
+        if (periodDataWeek.key_trends && Array.isArray(periodDataWeek.key_trends)) {
+          periodDataWeek.key_trends.forEach(trend => {
             trendsHtml += `
               <div class="bg-white/80 border border-slate-200 rounded-xl p-6 shadow-sm hover:shadow-md transition-shadow">
-                <h4 class="text-base font-bold text-slate-800 mb-3 border-l-4 border-indigo-500 pl-3 leading-snug">${parseGlossaryTerms(trend.title)}</h4>
-                <p class="text-sm text-slate-600 leading-relaxed">${parseGlossaryTerms(trend.analysis)}</p>
+                <h4 class="text-base font-bold text-slate-800 mb-3 border-l-4 border-indigo-500 pl-3 leading-snug break-words">${parseGlossaryTerms(trend.title)}</h4>
+                <p class="text-sm text-slate-600 leading-relaxed break-words">${parseGlossaryTerms(trend.analysis)}</p>
               </div>
             `;
           });
         }
 
-        newsContent.innerHTML = `
+        finalHtml += `
           <div class="max-w-4xl mx-auto w-full space-y-8">
             <section class="bg-gradient-to-r from-indigo-900 to-slate-800 rounded-2xl p-8 sm:p-10 text-white shadow-xl relative overflow-hidden">
               <div class="absolute top-0 right-0 -mt-10 -mr-10 w-40 h-40 bg-white/10 rounded-full blur-2xl"></div>
               <div class="relative z-10">
-                <h3 class="text-2xl font-black mb-4 tracking-tight">Week in Review</h3>
-                <p class="text-[15px] leading-relaxed text-indigo-100 font-medium">${parseGlossaryTerms(periodData.overview || "")}</p>
+                <h3 class="text-2xl font-black mb-4 tracking-tight">Trends & Big Picture</h3>
+                <p class="text-[15px] leading-relaxed text-indigo-100 font-medium break-words">${parseGlossaryTerms(periodDataWeek.overview || "")}</p>
               </div>
             </section>
             
@@ -519,7 +546,42 @@
         `;
       }
 
+      newsContent.innerHTML = finalHtml;
+
       attachGlossaryListeners();
+      
+      setTimeout(() => {
+        const container = document.getElementById('swipe-container');
+        if (container) {
+          container.addEventListener('scroll', () => {
+            const scrollLeft = container.scrollLeft;
+            const width = container.clientWidth;
+            const btnGeneral = document.getElementById('btn-swipe-general');
+            const btnTech = document.getElementById('btn-swipe-tech');
+            
+            if (!btnGeneral || !btnTech) return;
+            
+            if (scrollLeft > width / 3) {
+              btnTech.className = "flex-1 py-2 text-xs font-bold rounded-lg text-center bg-white text-indigo-600 shadow-sm transition-all focus:outline-none uppercase tracking-wider";
+              btnGeneral.className = "flex-1 py-2 text-xs font-bold rounded-lg text-center text-slate-500 hover:text-slate-800 transition-all focus:outline-none uppercase tracking-wider";
+            } else {
+              btnGeneral.className = "flex-1 py-2 text-xs font-bold rounded-lg text-center bg-white text-indigo-600 shadow-sm transition-all focus:outline-none uppercase tracking-wider";
+              btnTech.className = "flex-1 py-2 text-xs font-bold rounded-lg text-center text-slate-500 hover:text-slate-800 transition-all focus:outline-none uppercase tracking-wider";
+            }
+          });
+        }
+      }, 100);
+    }
+    
+    function scrollToSwipeTab(tab) {
+      const container = document.getElementById('swipe-container');
+      const target = document.getElementById(`swipe-tab-${tab}`);
+      if (container && target) {
+        container.scrollTo({
+          left: target.offsetLeft - container.offsetLeft,
+          behavior: 'smooth'
+        });
+      }
     }
 
     function parseGlossaryTerms(text) {
@@ -647,52 +709,6 @@
       renderMiniCharts();
     }
 
-    // Mobile Scroll-up Pop-up Tab Switcher logic
-    let lastScrollY = window.scrollY;
-    let accumulatedScrollUp = 0;
-    let accumulatedScrollDown = 0;
-    const SCROLL_THRESHOLD = 50; // pixels of scroll up to trigger popup
-
-    window.addEventListener('scroll', () => {
-      const tabsContainer = document.getElementById('news-tabs-container');
-      if (!tabsContainer) return;
-
-      // Only run on mobile (screen width < 640px)
-      if (window.innerWidth >= 640) {
-        tabsContainer.classList.remove('tabs-hidden', 'shadow-md');
-        return;
-      }
-
-      const currentScrollY = window.scrollY;
-      
-      // When we are scrolled down past the hero/overview section (approx 350px)
-      if (currentScrollY > 350) {
-        if (currentScrollY > lastScrollY) {
-          // Scrolling down
-          accumulatedScrollUp = 0;
-          accumulatedScrollDown += (currentScrollY - lastScrollY);
-          if (accumulatedScrollDown > 30) {
-            // Slide up and hide behind sticky header
-            tabsContainer.classList.add('tabs-hidden');
-            tabsContainer.classList.remove('shadow-md');
-          }
-        } else {
-          // Scrolling up
-          accumulatedScrollDown = 0;
-          accumulatedScrollUp += (lastScrollY - currentScrollY);
-          if (accumulatedScrollUp > SCROLL_THRESHOLD) {
-            // Slide down and reveal (pop up)
-            tabsContainer.classList.remove('tabs-hidden');
-            tabsContainer.classList.add('shadow-md');
-          }
-        }
-      } else {
-        // Reset to normal inline position near the top
-        tabsContainer.classList.remove('tabs-hidden', 'shadow-md');
-      }
-
-      lastScrollY = currentScrollY;
-    });
   </script>
 </body>
 </html>

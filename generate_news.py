@@ -24,6 +24,7 @@ import time
 import smtplib
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
+import concurrent.futures
 
 # RSS Feeds
 FEEDS = {
@@ -36,7 +37,12 @@ FEEDS = {
     "ARS_TECHNICA": "http://feeds.arstechnica.com/arstechnica/index",
     "HACKER_NEWS": "https://hnrss.org/frontpage?points=100",
     "TECHCRUNCH": "https://techcrunch.com/feed/",
-    "ZENN": "https://zenn.dev/feed"
+    "ZENN": "https://zenn.dev/feed",
+    "LOBSTERS": "https://lobste.rs/rss",
+    "REDDIT_PROG": "https://www.reddit.com/r/programming/top/.rss?t=day",
+    "DEV_TO": "https://dev.to/feed",
+    "INFOQ": "https://feed.infoq.com/",
+    "THE_REGISTER": "https://www.theregister.com/headlines.atom"
 }
 TOPICS_PER_CATEGORY = 30
 RSS_MAX_ITEMS = 40
@@ -60,7 +66,11 @@ def fetch_news_from_rss(url, max_items=12):
     """Fetch news headlines and scrape basic content from RSS/Atom feed."""
     print(f"RSSフィードを取得中: {url}")
     try:
-        feed = feedparser.parse(url)
+        # Use requests with User-Agent to avoid blocks (e.g. from Reddit)
+        headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'}
+        response = requests.get(url, headers=headers, timeout=10)
+        response.raise_for_status()
+        feed = feedparser.parse(response.content)
         items = []
         for entry in feed.entries[:max_items]:
             title = entry.title
@@ -243,34 +253,39 @@ GENRE_MAPPING = {
     "WORLD": {
         "title": "グローバル情勢・マクロ経済",
         "feeds": ["GLOBAL_WORLD", "BBC_WORLD"],
-        "prompt_instruction": "グローバルとローカルの動きをクロスリファレンスし、社会・市場全体に影響がある高インパクト案件を優先して可能な限り多く（最大30件まで）抽出してください。"
+        "system_role": "世界情勢・マクロ経済の第一線で活躍するプロフェッショナル・アナリスト",
+        "prompt_instruction": "真にインパクトのある重要ニュースのみを厳選して抽出してください。ノイズや単なるPRは除外すること（目安: 5〜15件）。\\n事実関係と、グローバルな社会・経済への影響を論理的に解説してください（日本市場に特段の関連がある場合は付記する）。"
     },
     "BUSINESS": {
         "title": "ビジネス・経済動向",
         "feeds": ["GLOBAL_BUSINESS", "CNBC_BUSINESS", "JAPAN_BUSINESS"],
-        "prompt_instruction": "グローバルとローカルの動きをクロスリファレンスし、社会・市場全体に影響がある高インパクト案件を優先して可能な限り多く（最大30件まで）抽出してください。"
+        "system_role": "世界情勢・マクロ経済の第一線で活躍するプロフェッショナル・アナリスト",
+        "prompt_instruction": "真にインパクトのある重要ニュースのみを厳選して抽出してください。ノイズや単なるPRは除外すること（目安: 5〜15件）。\\n事実関係と、グローバルな社会・経済への影響を論理的に解説してください（日本市場に特段の関連がある場合は付記する）。"
     },
     "TECHNOLOGY": {
         "title": "グローバル・テックトレンド",
-        "feeds": ["TECHCRUNCH"],
-        "prompt_instruction": "概要（本文抜粋）を深く読み込み、「なぜそれが面白いのか」「日本の開発者にどういう影響があるか」が明確な高関連トピックを優先して可能な限り多く（最大30件まで）抽出して列挙してください。"
+        "feeds": ["TECHCRUNCH", "THE_REGISTER"],
+        "system_role": "先端技術トレンドとソフトウェア開発の第一線で活躍するプロフェッショナル・エンジニア",
+        "prompt_instruction": "技術的ブレイクスルーの核心や、真に重要なニュースのみを厳選して抽出してください。ノイズや単なる製品PRは除外すること（目安: 5〜15件）。\\nなぜそれが面白いのか、技術的な意義や将来への影響を論理的に解説してください。"
     },
     "SCIENCE": {
         "title": "サイエンス・ディープテック",
         "feeds": ["GLOBAL_SCIENCE", "ARS_TECHNICA"],
-        "prompt_instruction": "科学的発見やディープテック分野の進展について、日本市場や未来の技術にどう繋がるかを示唆する重要ニュースを優先して可能な限り多く（最大30件まで）抽出してください。"
+        "system_role": "先端技術トレンドとソフトウェア開発の第一線で活躍するプロフェッショナル・エンジニア",
+        "prompt_instruction": "科学的発見やディープテック分野の進展について、真に重要なニュースのみを厳選して抽出してください。ノイズは除外すること（目安: 5〜15件）。\\nなぜそれが面白いのか、技術的な意義や将来への影響を論理的に解説してください。"
     },
     "DEVELOPER_TRENDS": {
-        "title": "デベロッパートレンド (Hacker News & 国内)",
-        "feeds": ["HACKER_NEWS", "ZENN"],
-        "prompt_instruction": "概要（本文抜粋）を深く読み込み、「なぜそれが面白いのか」「日本の開発者にどういう影響があるか」が明確な高関連トピックを優先して可能な限り多く（最大30件まで）抽出して列挙してください。"
+        "title": "デベロッパートレンド (Hacker News & 海外フォーラム & 国内)",
+        "feeds": ["HACKER_NEWS", "LOBSTERS", "REDDIT_PROG", "DEV_TO", "INFOQ", "ZENN"],
+        "system_role": "先端技術トレンドとソフトウェア開発の第一線で活躍するプロフェッショナル・エンジニア",
+        "prompt_instruction": "技術的ブレイクスルーの核心や、開発者にとって真に重要なニュースのみを厳選して抽出してください。ノイズや単なる製品PRは除外すること（目安: 5〜15件）。\\nなぜそれが面白いのか、技術的な意義や将来への影響を論理的に解説してください。"
     }
 }
 
-def generate_topics_for_genre(api_key, call_func, genre, title, news_text, instruction):
+def generate_topics_for_genre(api_key, call_func, genre, title, news_text, instruction, system_role):
     prompt = f"""
-あなたは世界情勢、マクロ経済、および先端技術トレンドの第一線で活躍するプロフェッショナル・アナリストであり、日本の市場・エンジニア向けに高度なインテリジェンスを提供しています。
-提供された海外および国内のニュースリスト（本文抜粋を含む）から、**「日本市場や日本の開発者にとって大きなインパクトを与える重要ニュース」**を抽出してください。
+あなたは{system_role}であり、高度なインテリジェンスを提供しています。
+提供された海外および国内のニュースリスト（本文抜粋を含む）から、ニュースを抽出してください。
 
 【分析対象のニュースリスト】
 {news_text}
@@ -278,17 +293,18 @@ def generate_topics_for_genre(api_key, call_func, genre, title, news_text, instr
 【抽出ルール】
 - {instruction}
 - topics は **重複禁止（headline と url の重複を禁止）**。
+- 抽出するニュースについて、提供されたテキスト内のURLを一文字も改変・省略せずにそのまま転記すること。
 - 必ず以下のJSONスキーマに従って日本語のみで出力してください。Markdownのコードブロック（```json など）で囲まず、純粋なJSON文字列のみを返してください。
 
 JSONスキーマ:
 {{
   "topics": [
     {{
-      "headline": "具体的なトピック見出し（例：米FRBが利下げを示唆）",
+      "headline": "具体的なトピック見出し",
       "content": "事実関係の簡潔なまとめ（スクレイピングされた本文内容を反映すること）",
-      "impact": "★重要★日本市場や関連セクターへの影響、または社会的な意義の論理的な解説",
+      "impact": "★重要★ 意義や影響の論理的な解説",
       "date": "ニュースの日付 (例: 10/24 等)",
-      "url": "ニュースの元のURL"
+      "url": "ニュースの元のURL（改変禁止）"
     }}
   ]
 }}
@@ -298,7 +314,7 @@ JSONスキーマ:
 def generate_synthesis(api_key, call_func, headlines_text):
     prompt = f"""
 あなたはプロフェッショナル・アナリストです。
-本日抽出された以下の重要ニュースのリストに基づいて、本日の総括サマリー、週間トレンド（直近1週間の市場・技術の潮流の総括）、およびニュース内で使われている専門用語の解説（5〜10個程度）を作成してください。
+本日抽出された以下の重要ニュースのリストに基づいて、本日の総括サマリー、本日のニュース群全体から見えてくるマクロな潮流（Big Picture）、およびニュース内で使われている専門用語の解説（5〜10個程度）を作成してください。
 
 【本日の重要ニュースリスト】
 {headlines_text}
@@ -308,14 +324,14 @@ def generate_synthesis(api_key, call_func, headlines_text):
 JSONスキーマ:
 {{
   "summary": {{
-    "content": "本日の世界のビッグトレンドと、日本が注視すべきポイントの総括"
+    "content": "本日の世界のビッグトレンドと、注視すべきポイントの総括"
   }},
   "week": {{
-    "overview": "直近1週間の市場・技術の潮流に関する総括文章（数段落で深い洞察を記述）",
+    "overview": "本日のニュース群全体から見えてくる、より大きなマクロトレンドや技術の潮流（Big Picture）に関する総括文章（数段落で深い洞察を記述）",
     "key_trends": [
       {{
         "title": "トレンド見出し（例：AI市場の二極化とエッジ移行）",
-        "analysis": "具体的な分析、日本への影響、今後の展望"
+        "analysis": "具体的な分析、グローバル市場や開発者への影響、今後の展望"
       }}
     ]
   }},
@@ -342,12 +358,21 @@ def main():
         
     news_data = {}
     total_news = 0
-    for name, url in FEEDS.items():
-        items_text = fetch_news_from_rss(url, max_items=RSS_MAX_ITEMS)
-        news_data[name] = items_text
-        count = len(items_text.splitlines()) if items_text else 0
-        total_news += count
-        print(f"取得した {name} ニュース件数: {count}")
+    
+    print("RSSフィードの並列取得を開始します...")
+    with concurrent.futures.ThreadPoolExecutor(max_workers=len(FEEDS)) as executor:
+        future_to_name = {executor.submit(fetch_news_from_rss, url, max_items=RSS_MAX_ITEMS): name for name, url in FEEDS.items()}
+        for future in concurrent.futures.as_completed(future_to_name):
+            name = future_to_name[future]
+            try:
+                items_text = future.result()
+                news_data[name] = items_text
+                count = len(items_text.splitlines()) if items_text else 0
+                total_news += count
+                print(f"取得完了: {name} ({count}件)")
+            except Exception as exc:
+                print(f"{name} の取得でエラーが発生しました: {exc}", file=sys.stderr)
+                news_data[name] = ""
     
     if total_news == 0:
         print("エラー: ニュースの取得に失敗しました。", file=sys.stderr)
@@ -357,33 +382,51 @@ def main():
     all_headlines = []
     total_api_usage = {"prompt_tokens": 0, "completion_tokens": 0, "total_tokens": 0}
     
-    for genre, info in GENRE_MAPPING.items():
-        news_text = ""
-        for feed_name in info["feeds"]:
-            news_text += f"【{feed_name}】\n{news_data.get(feed_name, '')}\n"
+    print("\\n各カテゴリのLLM解析を並列で実行します...")
+    genre_results = {}
+    with concurrent.futures.ThreadPoolExecutor(max_workers=len(GENRE_MAPPING)) as executor:
+        future_to_genre = {}
+        for genre, info in GENRE_MAPPING.items():
+            news_text = ""
+            for feed_name in info["feeds"]:
+                news_text += f"【{feed_name}】\\n{news_data.get(feed_name, '')}\\n"
             
-        print(f"カテゴリ [{genre}] のニュースを生成中...")
-        res, usage = generate_topics_for_genre(api_key, call_func, genre, info["title"], news_text, info["prompt_instruction"])
-        if res and "topics" in res:
-            topics = res["topics"]
-            categories.append({
-                "genre": genre,
-                "title": info["title"],
-                "topics": topics
-            })
-            all_headlines.append(f"\n[{info['title']}]")
-            for t in topics:
-                all_headlines.append(f"- {t.get('headline')}: {t.get('impact')}")
+            future = executor.submit(generate_topics_for_genre, api_key, call_func, genre, info["title"], news_text, info["prompt_instruction"], info.get("system_role", "プロフェッショナル・アナリスト"))
+            future_to_genre[future] = genre
+
+        for future in concurrent.futures.as_completed(future_to_genre):
+            genre = future_to_genre[future]
+            try:
+                res, usage = future.result()
+                genre_results[genre] = (res, usage)
+                print(f"解析完了: [{genre}]")
+            except Exception as exc:
+                print(f"[{genre}] の解析でエラーが発生しました: {exc}", file=sys.stderr)
+                genre_results[genre] = (None, {})
                 
-        # Update usage (handle both Gemini and OpenAI formats)
-        if gemini_key:
-            total_api_usage["prompt_tokens"] += usage.get('promptTokenCount', 0)
-            total_api_usage["completion_tokens"] += usage.get('candidatesTokenCount', 0)
-            total_api_usage["total_tokens"] += usage.get('totalTokenCount', 0)
-        else:
-            total_api_usage["prompt_tokens"] += usage.get('prompt_tokens', 0)
-            total_api_usage["completion_tokens"] += usage.get('completion_tokens', 0)
-            total_api_usage["total_tokens"] += usage.get('total_tokens', 0)
+    # 結果を元の順序（GENRE_MAPPINGの定義順）で組み立てる
+    for genre, info in GENRE_MAPPING.items():
+        if genre in genre_results:
+            res, usage = genre_results[genre]
+            if res and "topics" in res:
+                topics = res["topics"]
+                categories.append({
+                    "genre": genre,
+                    "title": info["title"],
+                    "topics": topics
+                })
+                all_headlines.append(f"\\n[{info['title']}]")
+                for t in topics:
+                    all_headlines.append(f"- {t.get('headline')}: {t.get('impact')}")
+                    
+            if gemini_key:
+                total_api_usage["prompt_tokens"] += usage.get('promptTokenCount', 0)
+                total_api_usage["completion_tokens"] += usage.get('candidatesTokenCount', 0)
+                total_api_usage["total_tokens"] += usage.get('totalTokenCount', 0)
+            else:
+                total_api_usage["prompt_tokens"] += usage.get('prompt_tokens', 0)
+                total_api_usage["completion_tokens"] += usage.get('completion_tokens', 0)
+                total_api_usage["total_tokens"] += usage.get('total_tokens', 0)
             
     print("全体サマリーと用語解説を生成中...")
     headlines_text = "\n".join(all_headlines)
