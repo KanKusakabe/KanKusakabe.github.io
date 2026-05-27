@@ -1,254 +1,23 @@
-#!/usr/bin/env python3
-# /// script
-# requires-python = ">=3.10"
-# dependencies = [
-#     "python-dotenv",
-#     "feedparser",
-#     "requests",
-#     "beautifulsoup4",
-# ]
-# ///
-
-import os
 import sys
-import json
-import urllib.request
-import urllib.parse
-from datetime import datetime, timezone, timedelta
-import urllib.error
-import feedparser
-from dotenv import load_dotenv
-import requests
-from bs4 import BeautifulSoup
-import time
-import smtplib
-from email.mime.text import MIMEText
-from email.mime.multipart import MIMEMultipart
 
-# RSS Feeds
-FEEDS = {
-    "GLOBAL_WORLD": "https://news.google.com/rss/headlines/section/topic/WORLD?hl=en-US&gl=US&ceid=US:en",
-    "BBC_WORLD": "http://feeds.bbci.co.uk/news/world/rss.xml",
-    "GLOBAL_BUSINESS": "https://news.google.com/rss/headlines/section/topic/BUSINESS?hl=en-US&gl=US&ceid=US:en",
-    "CNBC_BUSINESS": "https://search.cnbc.com/rs/search/combinedcms/view.xml?id=10001147",
-    "JAPAN_BUSINESS": "https://news.google.com/rss/search?q=site:nikkei.com&hl=ja&gl=JP&ceid=JP:ja",
-    "GLOBAL_SCIENCE": "https://news.google.com/rss/headlines/section/topic/SCIENCE?hl=en-US&gl=US&ceid=US:en",
-    "ARS_TECHNICA": "http://feeds.arstechnica.com/arstechnica/index",
-    "HACKER_NEWS": "https://hnrss.org/frontpage?points=100",
-    "TECHCRUNCH": "https://techcrunch.com/feed/",
-    "ZENN": "https://zenn.dev/feed"
-}
-TOPICS_PER_CATEGORY = 30
-RSS_MAX_ITEMS = 40
+with open('generate_news.py', 'r') as f:
+    content = f.read()
 
-def fetch_article_summary(url):
-    """Scrape the main content or summary of the article to provide deeper context."""
-    try:
-        headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'}
-        response = requests.get(url, headers=headers, timeout=5)
-        response.raise_for_status()
-        soup = BeautifulSoup(response.text, 'html.parser')
-        
-        paragraphs = soup.find_all('p')
-        text = ' '.join([p.get_text().strip() for p in paragraphs if len(p.get_text().strip()) > 30])
-        return text[:400] if text else ""
-    except Exception as e:
-        print(f"Scraping skipped for {url}: {e}", file=sys.stderr)
-        return ""
+index = content.find('def main():')
+if index == -1:
+    print("Could not find def main():")
+    sys.exit(1)
 
-def fetch_news_from_rss(url, max_items=12):
-    """Fetch news headlines and scrape basic content from RSS/Atom feed."""
-    print(f"RSSフィードを取得中: {url}")
-    try:
-        feed = feedparser.parse(url)
-        items = []
-        for entry in feed.entries[:max_items]:
-            title = entry.title
-            date_str = ""
-            if hasattr(entry, 'published'):
-                date_str = entry.published
-            elif hasattr(entry, 'updated'):
-                date_str = entry.updated
-            
-            link = entry.link if hasattr(entry, 'link') else ""
-            summary = entry.summary if hasattr(entry, 'summary') else ""
-            if summary:
-                summary = BeautifulSoup(summary, "html.parser").get_text()[:200]
-            
-            article_text = fetch_article_summary(link)
-            content_snippet = article_text if len(article_text) > len(summary) else summary
-            
-            items.append(f"- [日付: {date_str}] {title}\n  (概要/本文抜粋: {content_snippet})\n  (URL: {link})")
-            time.sleep(0.5)
-        return "\n".join(items)
-    except Exception as e:
-        print(f"RSS取得エラー ({url}): {e}", file=sys.stderr)
-        return ""
-
-def call_gemini_api(api_key, prompt):
-    """Call Google Gemini API via raw HTTP request."""
-    print("Gemini APIを呼び出し中...")
-    
-    models = [
-        "gemini-3.5-flash",
-        "gemini-2.5-flash",
-        "gemini-2.0-flash",
-        "gemini-flash-latest"
-    ]
-    
-    payload = {
-        "contents": [{
-            "parts": [{
-                "text": prompt
-            }]
-        }],
-        "generation_config": {
-            "response_mime_type": "application/json"
-        }
-    }
-    data = json.dumps(payload).encode('utf-8')
-    
-    last_error = None
-    for model in models:
-        url = f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent"
-        req = urllib.request.Request(
-            url,
-            data=data,
-            headers={
-                'Content-Type': 'application/json',
-                'x-goog-api-key': api_key
-            },
-            method='POST'
-        )
-        try:
-            with urllib.request.urlopen(req, timeout=60) as response:
-                result = json.loads(response.read().decode('utf-8'))
-                text_content = result['candidates'][0]['content']['parts'][0]['text']
-                usage = result.get('usageMetadata', {})
-                return json.loads(text_content), usage
-        except urllib.error.HTTPError as e:
-            error_body = e.read().decode('utf-8') if e.fp else ""
-            print(f"Gemini API ({model}) HTTPエラー ({e.code}): {e.reason}\n詳細: {error_body}", file=sys.stderr)
-            last_error = e
-        except Exception as e:
-            print(f"Gemini API ({model}) 接続試行エラー: {e}", file=sys.stderr)
-            last_error = e
-            
-    print(f"Gemini APIのすべてのモデル呼び出しに失敗しました。最後のエラー: {last_error}", file=sys.stderr)
-    return None, {}
-
-def call_openai_api(api_key, prompt):
-    """Call OpenAI API via raw HTTP request."""
-    print("OpenAI APIを呼び出し中...")
-    url = "https://api.openai.com/v1/chat/completions"
-    
-    payload = {
-        "model": "gpt-4o-mini",
-        "messages": [
-            {"role": "system", "content": "You are a helpful assistant that outputs only valid JSON."},
-            {"role": "user", "content": prompt}
-        ],
-        "response_format": {"type": "json_object"}
-    }
-    
-    data = json.dumps(payload).encode('utf-8')
-    req = urllib.request.Request(
-        url,
-        data=data,
-        headers={
-            'Content-Type': 'application/json',
-            'Authorization': f'Bearer {api_key}'
-        },
-        method='POST'
-    )
-    
-    try:
-        with urllib.request.urlopen(req, timeout=30) as response:
-            result = json.loads(response.read().decode('utf-8'))
-            text_content = result['choices'][0]['message']['content']
-            usage = result.get('usage', {})
-            return json.loads(text_content), usage
-    except Exception as e:
-        print(f"OpenAI APIエラー: {e}", file=sys.stderr)
-        return None, {}
-
-def send_email_notification(to_email, subject, body_text):
-    """Send an email notification via SMTP."""
-    smtp_server = os.environ.get("SMTP_SERVER", "smtp.gmail.com")
-    smtp_port = int(os.environ.get("SMTP_PORT", "587"))
-    smtp_user = os.environ.get("SMTP_USER")
-    smtp_password = os.environ.get("SMTP_PASSWORD")
-    
-    if not smtp_user or not smtp_password or not to_email:
-        print("メール通知用の環境変数が設定されていません。", file=sys.stderr)
-        return
-        
-    msg = MIMEMultipart()
-    msg['From'] = smtp_user
-    msg['To'] = to_email
-    msg['Subject'] = subject
-    
-    msg.attach(MIMEText(body_text, 'plain', 'utf-8'))
-    
-    try:
-        server = smtplib.SMTP(smtp_server, smtp_port)
-        server.starttls()
-        server.login(smtp_user, smtp_password)
-        server.send_message(msg)
-        server.quit()
-        print("メールを送信しました。")
-    except Exception as e:
-        print(f"メール送信エラー: {e}", file=sys.stderr)
-
-def normalize_topic_key(topic):
-    """Return a stable deduplication key for a topic."""
-    url = (topic.get("url") or "").strip()
-    headline = (topic.get("headline") or "").strip()
-    if url and headline:
-        return f"{url}|{headline}"
-    return url or headline
-
-def enforce_topic_limits(llm_response, limit=TOPICS_PER_CATEGORY):
-    """Limit topics per category and remove duplicates across all categories."""
-    days_data = llm_response.get("periods", {}).get("days", {})
-    categories = days_data.get("categories", [])
-    if not isinstance(categories, list):
-        return llm_response
-
-    seen_global = set()
-    for category in categories:
-        topics = category.get("topics", [])
-        if not isinstance(topics, list):
-            category["topics"] = []
-            continue
-
-        unique_topics = []
-        seen_local = set()
-        for topic in topics:
-            if not isinstance(topic, dict):
-                continue
-            key = normalize_topic_key(topic)
-            if not key or key in seen_local or key in seen_global:
-                continue
-            seen_local.add(key)
-            seen_global.add(key)
-            unique_topics.append(topic)
-            if len(unique_topics) >= limit:
-                break
-        category["topics"] = unique_topics
-
-    return llm_response
-
-
+new_code = content[:index] + """
 GENRE_MAPPING = {
     "WORLD": {
         "title": "グローバル情勢・マクロ経済",
-        "feeds": ["GLOBAL_WORLD", "BBC_WORLD"],
+        "feeds": ["GLOBAL_WORLD"],
         "prompt_instruction": "グローバルとローカルの動きをクロスリファレンスし、社会・市場全体に影響がある高インパクト案件を優先して可能な限り多く（最大30件まで）抽出してください。"
     },
     "BUSINESS": {
         "title": "ビジネス・経済動向",
-        "feeds": ["GLOBAL_BUSINESS", "CNBC_BUSINESS", "JAPAN_BUSINESS"],
+        "feeds": ["GLOBAL_BUSINESS", "JAPAN_BUSINESS"],
         "prompt_instruction": "グローバルとローカルの動きをクロスリファレンスし、社会・市場全体に影響がある高インパクト案件を優先して可能な限り多く（最大30件まで）抽出してください。"
     },
     "TECHNOLOGY": {
@@ -258,7 +27,7 @@ GENRE_MAPPING = {
     },
     "SCIENCE": {
         "title": "サイエンス・ディープテック",
-        "feeds": ["GLOBAL_SCIENCE", "ARS_TECHNICA"],
+        "feeds": ["GLOBAL_SCIENCE"],
         "prompt_instruction": "科学的発見やディープテック分野の進展について、日本市場や未来の技術にどう繋がるかを示唆する重要ニュースを優先して可能な限り多く（最大30件まで）抽出してください。"
     },
     "DEVELOPER_TRENDS": {
@@ -269,7 +38,7 @@ GENRE_MAPPING = {
 }
 
 def generate_topics_for_genre(api_key, call_func, genre, title, news_text, instruction):
-    prompt = f"""
+    prompt = f\"\"\"
 あなたは世界情勢、マクロ経済、および先端技術トレンドの第一線で活躍するプロフェッショナル・アナリストであり、日本の市場・エンジニア向けに高度なインテリジェンスを提供しています。
 提供された海外および国内のニュースリスト（本文抜粋を含む）から、**「日本市場や日本の開発者にとって大きなインパクトを与える重要ニュース」**を抽出してください。
 
@@ -293,11 +62,11 @@ JSONスキーマ:
     }}
   ]
 }}
-"""
+\"\"\"
     return call_func(api_key, prompt)
 
 def generate_synthesis(api_key, call_func, headlines_text):
-    prompt = f"""
+    prompt = f\"\"\"
 あなたはプロフェッショナル・アナリストです。
 本日抽出された以下の重要ニュースのリストに基づいて、本日の総括サマリー、週間トレンド（直近1週間の市場・技術の潮流の総括）、およびニュース内で使われている専門用語の解説（5〜10個程度）を作成してください。
 
@@ -324,7 +93,7 @@ JSONスキーマ:
     "用語名": "その用語の一般向け解説（5〜10個程度ピックアップ）"
   }}
 }}
-"""
+\"\"\"
     return call_func(api_key, prompt)
 
 def main():
@@ -361,7 +130,7 @@ def main():
     for genre, info in GENRE_MAPPING.items():
         news_text = ""
         for feed_name in info["feeds"]:
-            news_text += f"【{feed_name}】\n{news_data.get(feed_name, '')}\n"
+            news_text += f"【{feed_name}】\\n{news_data.get(feed_name, '')}\\n"
             
         print(f"カテゴリ [{genre}] のニュースを生成中...")
         res, usage = generate_topics_for_genre(api_key, call_func, genre, info["title"], news_text, info["prompt_instruction"])
@@ -372,7 +141,7 @@ def main():
                 "title": info["title"],
                 "topics": topics
             })
-            all_headlines.append(f"\n[{info['title']}]")
+            all_headlines.append(f"\\n[{info['title']}]")
             for t in topics:
                 all_headlines.append(f"- {t.get('headline')}: {t.get('impact')}")
                 
@@ -387,7 +156,7 @@ def main():
             total_api_usage["total_tokens"] += usage.get('total_tokens', 0)
             
     print("全体サマリーと用語解説を生成中...")
-    headlines_text = "\n".join(all_headlines)
+    headlines_text = "\\n".join(all_headlines)
     synthesis_res, usage = generate_synthesis(api_key, call_func, headlines_text)
     
     if gemini_key:
@@ -428,7 +197,7 @@ def main():
         with open(output_path, 'w', encoding='utf-8') as f:
             f.write("window.newsData = ")
             json.dump(final_response, f, ensure_ascii=False, indent=2)
-            f.write(";\n")
+            f.write(";\\n")
         print(f"要約ニュースデータを保存しました: {output_path}")
         
         with open(archive_path, 'w', encoding='utf-8') as f:
@@ -444,7 +213,7 @@ def main():
     smtp_user = os.environ.get("SMTP_USER")
     
     if to_email and smtp_user:
-        usage_msg = f"\n[API使用量]\n入力トークン: {total_api_usage['prompt_tokens']}\n出力トークン: {total_api_usage['completion_tokens']}\n合計トークン: {total_api_usage['total_tokens']}"
+        usage_msg = f"\\n[API使用量]\\n入力トークン: {total_api_usage['prompt_tokens']}\\n出力トークン: {total_api_usage['completion_tokens']}\\n合計トークン: {total_api_usage['total_tokens']}"
         
         try:
             summary_text = final_response.get("periods", {}).get("days", {}).get("summary", {}).get("content", "サマリーが見つかりませんでした。")
@@ -452,17 +221,17 @@ def main():
             summary_text = "サマリーの抽出に失敗しました。"
             
         subject = f"📰 ニュース要約完了 ({now.strftime('%Y-%m-%d')})"
-        body_text = f"ニュースの自動取得と要約が完了しました。\n取得件数: {total_news}件\n\n"
-        body_text += f"【本日のサマリー】\n{summary_text}\n\n"
+        body_text = f"ニュースの自動取得と要約が完了しました。\\n取得件数: {total_news}件\\n\\n"
+        body_text += f"【本日のサマリー】\\n{summary_text}\\n\\n"
         
         try:
             week_overview = final_response.get("periods", {}).get("week", {}).get("overview", "")
             if week_overview:
-                body_text += f"【直近1週間の総括】\n{week_overview}\n\n"
+                body_text += f"【直近1週間の総括】\\n{week_overview}\\n\\n"
         except:
             pass
 
-        body_text += f"---\n{usage_msg}"
+        body_text += f"---\\n{usage_msg}"
         
         send_email_notification(to_email, subject, body_text)
     else:
@@ -470,3 +239,8 @@ def main():
 
 if __name__ == "__main__":
     main()
+"""
+
+with open('generate_news.py', 'w') as f:
+    f.write(new_code)
+print("Updated generate_news.py successfully")
