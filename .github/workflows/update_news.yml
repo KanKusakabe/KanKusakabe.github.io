@@ -20,7 +20,7 @@ jobs:
           persist-credentials: false
 
       - name: uvのセットアップ
-        uses: astral-sh/setup-uv-action@v5
+        uses: astral-sh/setup-uv@v5
         with:
           enable-cache: true
 
