@@ -7,60 +7,74 @@ window.newsData = {
           "title": "グローバル情勢・マクロ経済",
           "topics": [
             {
-              "headline": "ロマニアへのロシア無人機衝突、NATO・EUが非難と懸念を表明",
-              "content": "ロマニアの東部ガラーツィにあるアパートにロシアのドローンが衝突し、火災が発生して2人が負傷しました。NATOとEUはこの事態を非難した一方、ロシア高官は「欧州はさらなるドローン事案に備えるべきだ」と警告し、対立が先鋭化しています。",
-              "impact": "★重要★ NATO加盟国領内への直接的なドローン衝突は、ウクライナ戦争の物理的な飛び火リスクの実例となります。ロシアが欧州全体への揺さぶりを強めるなか、欧州各国の防衛警備体制への負荷が急増し、地政学的リスクプレミアムによる防衛・軍事関連株への資金流入や、欧州経済の先行き不透明感を強める要因になります。",
-              "date": "05/29",
-              "url": "https://www.bbc.com/news/articles/c93x4nxlkjeo?at_medium=RSS&at_campaign=rss"
-            },
-            {
-              "headline": "イスラエル首相、ガザ領土の「70%支配」を軍に指示",
-              "content": "イスラエルのネタニヤフ首相は、停戦合意を揺るがしかねない方針として、ガザ地区の軍事支配比率を現在の60%から70%へと引き上げるようイスラエル国防軍（IDF）に指示したことを明かしました。",
-              "impact": "★重要★ 国際社会が求めている停戦合意への道筋が極めて困難になり、中東地域における安全保障上のリスクがさらに長期化します。これに伴い、ホルムズ海峡周辺を含む地政学的リスクが解消されず、原油価格の底堅さや、地政学的リスクを嫌気したグローバル市場のボラティリティ継続をもたらします。",
-              "date": "05/29",
-              "url": "https://www.bbc.com/news/articles/ceqpelq5reqo?at_medium=RSS&at_campaign=rss"
-            },
-            {
-              "headline": "EU、対中貿易政策の強化で合意：中国は報復措置を警告",
-              "content": "欧州連合（EU）はブリュッセルでの会合において、中国に対するより厳しい貿易・関税政策を実施することで合意しました。これに対して北京政府は、欧州に対する報復措置をとることを明言しており、両者の間で「貿易戦争」が勃発する危機が現実味を帯びています。",
-              "impact": "★重要★ 米中摩擦に加えて欧中間の貿易障壁がさらに高まることで、EV（電気自動車）やハイテク・電子部品といった基幹産業のグローバルサプライチェーンに深刻な打撃を与えます。多国籍企業のコスト増を招くだけでなく、サプライチェーンの再編を余儀なくされる日本企業（特に車載向け半導体や電子部品大手）にも多大な影響を及ぼします。",
-              "date": "05/29",
-              "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNV3dWOVpUZldOcWpPTGI4aHlVUkNXdmVnaHN5TmVrNmhPTmNWWDhrM1RiZmtvTzQ3NGZnSklsUW9saWdQN0Jqb2NwTjVUOXJUS2toeFIzc3NhR0FCdXJQN3pnMVhMUHpTMW9Ub3VQc2xfVHIyS1RscDZZei1CeldDam1rbjJjZGhXUE1MS2lMN2FnMGJjMlZ5ellWdlpKWW1zZzRmSVpwZWNDUDU1VGVVdHVkUkJONklsZVdBY0NTUVIwZnQtaTRVVmVUMC1na3FQRHRv0gHTAUFVX3lxTE1ZdUg1dUdFdXpCbEx3Uk96R0hjUGs5d3RtRzdWcnNQQ0tnT1AybXcwY0piMGVYcGY4amw4M3NSZEZIc2ExeVY1azltaW14MW1IY3lZbEdwTEd1Ri1TZnBHVVR3UGFfS1FVNE1kRGVFMDN1YVUwdGc5c0MwSXlBRGlVNkVKM0FCYkFiMWpmMlI2RDdIa1l5WTVzSXhVNGM1WF9ZcnREcFdiMlF1Y0o5bUNxcFhnblZXeTBwemV1Ri05THpjYkxRV2lVblpabzlaN2dSdTg?oc=5"
-            },
-            {
-              "headline": "ロシア、国家財政が戦争費用で逼迫：ウクライナのドローン優勢が足止め要因に",
-              "content": "ウクライナにおける軍事活動の長期化により、ロシアの財政支出が当初の予算を超過し、大きな経済的打撃となっています。さらに、ウクライナ軍の「ドローンによる圧倒的な優勢」がロシア軍の前進を阻止しており、膠着状態で戦費のみが嵩む悪循環に陥っています。",
-              "impact": "★重要★ ロシア財政の破綻リスクや戦費調達を目的としたエネルギー資源の変則的な格安売却（対中・対印など）は、世界の原油・天然ガス・コモディティ市場の価格秩序を歪め続けます。長期的な戦費負担によるロシア国内経済の失速は、ユーラシア周辺国の地政学的再編をも促す引き金になります。",
-              "date": "05/29",
-              "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQUVdBcG1oTnQ2MEtUcjMzX2x6UF84VlhaVzMxVFp6R1kzX1ZGUzJ4SGYyY2FlV1VnYnhtMlB2bF9UM1gxZTQ2cWc5RkdsNG5TNzdGQmVXTTFIbWp0SXhHSVliZzJNYzNnc2RwSHNGc0FrbjRHRnR6akxsTDRKQjRTNFpxWHhTWUJDTERVTWF0S0lrMFA0eDdiMXNpcWlIYm9pcHhLaTFtRUxHRTNwc0RBaTtwZG1Rdw?oc=5"
-            },
-            {
-              "headline": "ポルトガルで5月の観測史上最高気温40.3度、欧州を記録的熱波が急襲",
-              "content": "ポルトガルのモーラで5月としての国内最高気温となる40.3度が観測されました。例年よりも大幅に早く到来したこの酷暑は欧州全体におよんでおり、各国の政府インフラやエネルギー供給網への警戒感が高まっています。",
-              "impact": "★重要★ 早期の熱波は小麦やワインなどの農作物収穫高に壊滅的な影響を与え、食品インフレの引き金となります。また、夏期を通じた冷房用電力需要の急増はLNG（液化天然ガス）などエネルギー価格を吊り上げ、再び世界的な物価上昇圧力を誘発する懸念があり、日本市場のエネルギーコスト上昇にも波及します。",
-              "date": "05/28",
-              "url": "https://www.bbc.com/news/articles/c3v2yv5207xo?at_medium=RSS&at_campaign=rss"
-            },
-            {
-              "headline": "米ブルーオリジンの新型大型ロケットが爆発、NASAの有人月面着陸計画に暗雲",
-              "content": "ジェフ・ベゾス氏が率いる宇宙企業「Blue Origin」が開発する全長98メートルの新型ロケット「New Glenn」が、フロリダでのエンジン試験中に爆発しました。死傷者は報告されていませんが、NASAが予定している有人月面探査ミッション「アルテミス」計画の基幹インフラとしての役割に疑問符が打たれています。",
-              "impact": "★重要★ 民間宇宙委託への依存を強めている米国主導の月探査・宇宙開発ロードマップに大幅な遅延が生じる恐れがあります。競合するSpaceX等への恩恵や、宇宙・防衛産業セクター内でのサプライチェーン再評価を促し、関連ハイテクメーカーの株価動向に影響を与えます。",
-              "date": "05/29",
-              "url": "https://www.bbc.com/news/articles/cwy2q0g07kgo?at_medium=RSS&at_campaign=rss"
-            },
-            {
-              "headline": "トランプ米大統領、対イラン停戦延長に向け最終決定会合を招集",
-              "content": "トランプ米大統領はホワイトハウスのシチュエーションルームで安全保障幹部を集め、イランとの停戦合意を延長するかどうかの最終判断のための会議を行いました。米国側はイランの非核化、およびホルムズ海峡の無制限の通行確保を強く求めています。",
-              "impact": "★重要★ 交渉が不調に終わればホルムズ海峡での安全保障リスクが再燃し、世界の海上輸送ルートに即座に大打撃を与えます。原油調達の9割を中東に依存する日本経済にとって直撃コースとなるほか、エネルギー株や海運株のボラティリティを急拡大させる直接的な契機になります。",
-              "date": "05/29",
+              "headline": "トランプ米政権、イランとの停戦合意延長交渉が決裂 ホルムズ海峡の緊張高まる",
+              "content": "トランプ米大統領は主要側近と会議を開き、イランとの停戦延長フレームワークの最終判断を下す予定だったが、合意には至らなかった。米国はイランに核兵器不保持やホルムズ海峡での「制限のない航行」を求めている。",
+              "impact": "中東における長期の軍事緊張が継続することを示し、原油・天然ガス市場に甚大な不確実性をもたらす。地政学的リスクの高まりから原油高や保険料急騰、グローバルなインフレ圧力が再燃する可能性がある。",
+              "date": "5/30",
               "url": "https://www.bbc.com/news/articles/c0r2d40r91qo?at_medium=RSS&at_campaign=rss"
             },
             {
-              "headline": "日本政府、対中牽制を念頭にフィリピン大統領を国賓として厚遇、防衛・武器協力を推進",
-              "content": "日本は国賓として来日したフィリピンの大統領を迎え、武器売却、情報共有協定の交渉、および中国を念頭に置いた安全保障協力の拡大について協議を進めました。南シナ海での共同対処を強固にする狙いがあります。",
-              "impact": "★重要★ 日米比の防衛連携の強化により、東シナ海から南シナ海にかけての「シーレーン安全保障」が補強されます。これは日本の安全保障上のメリットとなる一方、中国との二国間・多国間関係のさらなる緊張を招き、地政学的に敏感なハイテク輸出規制やサプライチェーンのデカップリング圧力の継続を示唆します。",
-              "date": "05/29",
-              "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNbmV3NXdLc2xPOElUdVZOemhWbXctajJHQlkwZ2NVbi14eTZlUkJWWmhBNUpveTdFM3p1YU5pOGd5T1VkVlRtWG40NDVnY2ZNclkwcmdpdXZ5cEZZMmhwc2lpQzd1WDhhbHJZQ0dBQnNwTTRGNDlHNVlMeXBPTXZXMEhLM3o1STFqcVpDa2M4MGxxdktxcTNzY3Y0dVRTaEZxdU9wX0xGMUdWWGs?oc=5"
+              "headline": "ホルムズ海峡で船舶が「ダーク航行」を強化、イラン緊迫化で安全確保へ",
+              "content": "イランとの戦争に巻き込まれホルムズ海峡に閉じ込められていた大型石油タンカーの約4分の1が、位置を特定されないようトランスポンダー（自動識別装置）をオフにした「ダーク状態」で海峡を脱出した。",
+              "impact": "海上輸送の国際安全基準が形骸化するほどの深刻な危機を示す。海域の航行リスク増大に伴い、日本のエネルギー・サプライチェーン（日本が依存する原油の大部分がこの海峡を通る）へも深刻な物流コスト上昇や調達遅延のリスクが生じる。",
+              "date": "5/30",
+              "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOLV9uY0htdjk3RFJxUlNTYmRsRWtrRWR5Um9ZcmdPVDZaTUYwbzJqaFN6dy0tWTk3allVdk5TaGpyYzEyRjBrZGhpZ2JKZGpvWGRXWkczdjZmNE9kS3FZRGR1VHVQQUExRHNwSW1lUmwxTXJxQ1F3ZFNidWF0UnN2UV9neEpNd2hnNHo0cE9JQl9PRF8zWnRjdTZlbm5kc1hDbkZqVw?oc=5"
+            },
+            {
+              "headline": "クウェートの空軍基地へのイラン製ミサイル攻撃で米軍関係者らが負傷",
+              "content": "クウェートにある空軍基地に対してイランがミサイル攻撃を実行し、アメリカ人が負傷したと報じられた。米中間での水面下の外交や停戦合意に影を落としている。",
+              "impact": "代理戦争にとどまらず、イランによる米軍駐留基地への直接的な軍事攻撃が行われたことで、米・イランの偶発的な本格武力衝突を招くトリガーになり得る。中東の安全保障秩序が崩壊の危機に瀕している。",
+              "date": "5/30",
+              "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNSzZTdFNEU2ZBNV83YkFtbG9DX3VzdW8xdkUxbFNobTdSdmE1S2N4SzVxemE1VUx6aGZZQVZ1endOWm5GU0xXbURjMVNXYlJxSDM2VXNZdlFoMEI1UUs1WGxRQlFuQkVxQlRYZUxQbnA2azF0Z2kwVWp2RHJzMzY5aUl3Y3N3M2ctYmJPaGVOZ3NDVHZPUHBwd1pLVGRFYkNManV4SDBJN3FETmdKc2JUNi05V00?oc=5"
+            },
+            {
+              "headline": "ウクライナ軍、新型AI搭載ドローンでロシアの最重要補給路を次々破壊",
+              "content": "ウクライナ軍が占領下の主要道路で、AIドローン技術を用いたロシア軍輸送車への集中攻撃を強化。ロシアとクリミアおよびその他占領地域を結ぶ複数の重要ルートで、食料や燃料などを運ぶ車両への打撃が確認されている。",
+              "impact": "AI自律兵器の実戦配備と有効性が証明された形となり、今後の世界的な軍事技術開発の競争に拍車をかける。同時に、ロシアの兵站機能の深刻な麻痺を招き、ウクライナ情勢の長期化・泥沼化に大きく影響する。",
+              "date": "5/30",
+              "url": "https://www.bbc.com/news/articles/cdjp0n7rn41o?at_medium=RSS&at_campaign=rss"
+            },
+            {
+              "headline": "ロシア製ドローンがルーマニア住宅街に衝突 NATO・EU加盟国への脅威が激化",
+              "content": "ロシアのドローンがウクライナ国境に近いルーマニア東部ガラツィの集合住宅に衝突し火災が発生。ウクライナ政府は「欧州全域への現実的な脅威」と警告し、NATOとEUは衝突事件を非難した。",
+              "impact": "NATO同盟国の領域に軍事ドローンが直接飛来・衝突したことは、NATO条約第5条（共同防衛）発動をめぐるリスクを劇的に高める。欧州の直接介入懸念が市場に伝わり、ユーロ売りや安全資産への逃避（ドル買い・金買い）を強める要因になる。",
+              "date": "5/29",
+              "url": "https://www.bbc.com/news/articles/c93x4nxlkjeo?at_medium=RSS&at_campaign=rss"
+            },
+            {
+              "headline": "米USTR、ベトナムの知的財産権保護を対象に通商法301条に基づく調査開始を発表",
+              "content": "米国通商代表部（USTR）は、知的財産保護および法執行に関連するベトナムの行為や政策に関し、1974年通商法301条に基づく調査を開始。ベトナムの海賊版や偽造品流通の防止策などが焦点となる。",
+              "impact": "脱中国シフトとしてベトナムへの生産拠点移転を進めてきた世界中のハイテク・製造業サプライチェーンに激震が走る可能性がある。調査結果次第では米国によるベトナムへの制裁関税発動に繋がる恐れがあり、アジアの貿易動向を大きく揺るがす。",
+              "date": "5/29",
+              "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxPWVI4eGRvekRpMTFmRjdWQ2gzMjE1SVRodGwwVVcyaHdkbXBkQzdhVnJUWTNMRmxrcGVSTzhPSXFjaXc2aTVKUmdPcXNKVGZ3THN0QjlwU2xWczl4Q2ZDYmNUZm5MdjBYdkVPc3NGYjNLanVGMXYwQzdtdHFLZ2MxZEF2RjZ1N2JiNmdWYnN6YlBYQXhsbWhRcFZycGxXc0s2UVlERndEUElMeGJtd2ZYTDZYMkt4RWFDVU9pYm9CRWRUYTlVcU1UYmRTOHVBdEZWQVJYaWF3MUo3RllqOC0wYzBZM1JJNEk1YlJYMXE0a1hiV2pYY0RSTXpfejRiUXdBcUxr?oc=5"
+            },
+            {
+              "headline": "EUが対中貿易規制強化で合意 北京政府は即座に「報復措置」を警告",
+              "content": "欧州連合（EU）の主要機関は、中国に対するより厳しい貿易保護政策の導入で合意した。これを受けて中国当局は即座に欧州への報復措置を講じることを公式に表明した。",
+              "impact": "米中に続き、EUと中国の間でも本格的な「貿易戦争」が勃発。EV、バッテリー、再エネ機器などのサプライチェーンに甚大な打撃を与えるだけでなく、欧州に多くの製品を輸出するアジア（日本含む）の部品サプライヤーや多国籍企業にも大きなマイナス影響を与える。",
+              "date": "5/29",
+              "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNV3dWOVpUZldOcWpPTGI4aHlVUkNXdmVnaHN5TmVrNmhPTmNWWDhrM1RiZmtvTzQ3NGZnSklsUW9saWdQN0Jqb2NwTjVUOXJUS2toeFIzc3NhR0FCdXJQN3pnMVhMUHpSMW9Ub3VQc2xfVHIyS1RscDZZei1CeldDam1rbjJjZGhXUE1MS2lMN2FnMGJjMlZ5ellWdlpKWW1zZzRmSVpwZWNDUDU1VGVVdHVkUkJONklsZVdBY0NTUVIwZnQtaTRVVmVUMC1na3FQRHRv0gHTAUFVX3lxTE1ZdUg1dUdFdXpCbEx3Uk96R0hjUGs5d3RtRzdWcnNQQ0tnT1AybXcwY0piMGVYcGY4amw4M3NSZEZIc2ExeVY1azltaW14MW1IY3lZbEdwTEd1Ri1TZnBHVVR3UGFfS1FVNE1kRGVFMDN1YVUwdGc5c0MwSXlBRGlVNkVKM0FCYkFiMWpmMlI2RDdIa1l5WTVzSXhVNGM1WF9ZcnREcFdiMlF1Y0o5bUNxcFhnblZXeTBwemV1Ri05THpjYkxRV2lVblpabzlaN2dSdTg?oc=5"
+            },
+            {
+              "headline": "ロシア、カザフスタンで165億ドルの原子力発電所建設を受注 中央アジア支配強化へ",
+              "content": "ロシアはカザフスタンと、同国初となる原子力発電所を建設する165億ドル（約2.5兆円）規模の大型合意に署名した。ロシアが中央アジアにおいて巨大なエネルギー利権を獲得した格好となる。",
+              "impact": "米欧がウクライナ侵攻による対露経済制裁網を敷く中、プーチン政権にとっては巨大な外貨・産業プロジェクトの獲得となり、制裁の無効化を進める象徴的な勝利。中央アジアにおけるロシアの地政学的・エネルギー覇権がより強固になり、西側諸国の影響力低下を意味する。",
+              "date": "5/28",
+              "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPTHM1UkZSZ1lubTJLYi1XTVdtRk5lTTZsbWVsMFRPZkdzZV9XTGlTWFlZcE1xd0FvQUhtbnFJdmhqUHJSNTNFQVBMWnRUOXBwcUJkNzZlOUNER091Rk5xd05FdGtnSTZ6SXd2azZRRElINzZtcGk0Tl9qeG11OWgtR3ZxalVWelFmWFdRaEwyRDhjcmVtc05ubF8zeDQ2SzQtNVMyNHlVS19BRXPSAbABQVVfeXFMTk94MHFsTXNnbVlSQk5McFJuSm5oUkZicERzM2ZneE95TC1kR0FEdURJRDRnblZrd1lTcGpIZGhwTlFVNDNBQ2VpME5nUGNNaFBZZmpqcEVMRnBpX1p0NU82TnA0UXVibTB4LUg2QUx0Ni13MzVWWGdRVWdXUTBLd0hpaUlDU3EzclVneWJwTjRobGhHbE1kN0pJNGhodVB5eFNWZnBxNnJEalpacTA2TG0?oc=5"
+            },
+            {
+              "headline": "ブルー・オリジンの大型ロケットが試験中に大爆発 NASAのアルテミス月計画に懸念",
+              "content": "ジェフ・ベゾス氏が設立した宇宙企業ブルー・オリジンの新型大型ロケット「ニュー・グレン」が、フロリダ州のケネディ宇宙センターでの燃焼試験中に大爆発を起こした。人的被害はなかったが、同ロケットに依存するNASAの計画進行が危ぶまれている。",
+              "impact": "米国の国家プロジェクトである有人月面着陸（アルテミス計画）など複数の主要ミッションのスケジュール大幅延期は不可避。民間資本を主導とした「宇宙ビジネス（ニュースペース）」の成長期待に対して冷や水を浴びせる事態となり、関連銘柄や今後の投資活動への心理的悪影響は免れない。",
+              "date": "5/29",
+              "url": "https://www.bbc.com/news/articles/cwy2q0g07kgo?at_medium=RSS&at_campaign=rss"
+            },
+            {
+              "headline": "ガーナ国会、同性愛とLGBTQ推進活動を『最長3年の禁錮刑』とする厳しい法案を可決",
+              "content": "ガーナ議会は、LGBTQ+であると認識すること、および関連する活動の推進を犯罪化し、最長3年の禁錮刑を科す法案を承認した。大統領による署名の可否に国際社会の注目が集まる。",
+              "impact": "西側支援国や国際社会、人権団体からの反発は必至であり、ガーナへの国際的な投資引き揚げや世界銀行などの開発資金援助の制限・停止を招く恐れがある。アフリカ新興国のガバナンスと国際金融環境に大きな摩擦を生じさせる。",
+              "date": "5/30",
+              "url": "https://www.bbc.com/news/articles/c5yedendprko?at_medium=RSS&at_campaign=rss"
             }
           ]
         },
@@ -69,60 +83,74 @@ window.newsData = {
           "title": "ビジネス・経済動向",
           "topics": [
             {
-              "headline": "日経平均株価が大幅反発、初の6万6000円台に乗せ最高値を更新",
-              "content": "2026年5月29日の東京株式市場で日経平均株価は前日比1636円高の6万6329円と大幅に反発し、4日ぶりに過去最高値を更新した。データセンター向け需要を見込んだAI関連の電子部品株（村田製作所、太陽誘電、SUMCOなど）に国内外の巨額な資金が集中した。",
-              "impact": "★重要★ AI向け電子部品セクターへの市場の期待が極めて強いことが実証され、日本市場がグローバルAIバブルにおける主要なサプライヤー供給拠点として再評価されている。日経平均が年初比で3割以上急上昇している事実は、外資の日本買いの流れが持続していることを示す。",
+              "headline": "米アンソロピックの評価額が9650億ドルに急拡大、新型「ミュトス」AIモデルを一般公開へ",
+              "content": "AIスタートアップのアンソロピック（Anthropic）が、最新の資金調達ラウンドで650億ドルを調達し、評価額が過去最高の9650億ドルに達した。同社は数週間以内に新型の「ミュトス（Mythos）級」AIモデルを一般公開する予定であることを発表した。",
+              "impact": "★重要★ 生成AI分野においてOpenAIを超える評価額を記録したことは、市場における主導権争いが次の段階へと進んだことを示している。次世代モデル「Mythos」の登場により、世界中の企業におけるAI導入やクラウドインフラへの投資はさらに加速する見通しであり、ビッグテック各社のAI覇権争いにも決定的な影響を及ぼす。",
+              "date": "05/29",
+              "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPeEYweUhONDZuY3lWbG1EUnFITTR2UkI3UFlLY2h6c3ZwYUl2QkFDSEtmSUItVU1tN3RYZ2dpdHRFaC1EZXcyZS0tYU1aVG9ubHNwem1UdUFHTm5Dd3RveTJBbkNzVlA4akp5ZnktM2ZzVFpMYm9hZHM3N08wTEF6YndwRlJySDI0UGk0U0cxeUxvZFFKVVZBaXAtNW5sVXZKdWN2RzRJRjFOQQ?oc=5"
+            },
+            {
+              "headline": "米ブルーオリジンの新型ロケット爆発、宇宙開発競争でスペースXの優位性がより鮮明に",
+              "content": "ジェフ・ベゾス氏率いるブルーオリジンのロケットがケープカナベラルでのテスト中に大規模な爆発事故を起こした。この事故により打上げ施設に被害が生じ、イーロン・マスク氏のスペースXとの民間宇宙開発競争において、スペースXの独走状態がさらに際立つ結果となった。",
+              "impact": "★重要★ 民間宇宙開発プロジェクトが世界的に重要視される中、ブルーオリジンのローンチロードマップが大幅に遅れることは避けられない。これにより、スペースXの衛星通信網（スターリンクなど）や打上げ市場における優位性が実質的な独占体制へと強化され、安全保障・軍事分野における宇宙利用の覇権にも深く影響する。",
+              "date": "05/30",
+              "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQUzBtWmh1VlJhQ1h1X25TTzBqSjV0Um9ZOVNBVl8zNTZPTVMyR2dXWHRRY25DN05vd0twTzV6Y2tSclVyc3dOZ2hfRmpSNEJTalNPbWs1WDUtT3N4cXBWZ0RSOHNLSEVaTXBEVHlzZUFadEdEeG13T2RtNUxaUnF1X0JNcms5N0Zta3VFeDhMUFpOZ2FPS2kycWlpWGkwZzB3UElLZm9nQTVTcEt2N3hJa3lVbUhzTUk0TmtXNQ?oc=5"
+            },
+            {
+              "headline": "日経平均株価が史上初の6万6000円台に乗せ最高値更新、半導体・AI電子部品株が牽引",
+              "content": "東京株式市場で日経平均株価が前日比1636円高の6万6329円と急反発し、過去最高値を更新した。データセンター向けの電子部品需要や、半導体関連銘柄への資金集中が相場を大きく押し上げる要因となった。",
+              "impact": "★重要★ 世界的なAI関連インフラ投資の熱狂が、高い技術力を持つ日本企業の価値を急進させている。円安環境が持続するなか、外貨を獲得できる日本の半導体及び電子部品サプライヤーがグローバルな投資マネーの強力な受け皿として再評価されており、日本市場全体の国際的な地位が向上している。",
               "date": "05/29",
               "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1MakVDWkhNZ0NMWVhja1VrbFJUZjZfUTN5cDQtNmc2ZGR3bXBQY0k5MWlqaTdTTFBaakU5eGJKbTlUclFLV1VPZjNvS0dHTjNSMjVrT0hNakR0a1VBQnlwdFM3a3lFcWN0bHdpQg?oc=5"
             },
             {
-              "headline": "米AI新興アンソロピックが企業価値9650億ドルに急騰、新型「ミュトス」公開へ",
-              "content": "米生成AI開発スタートアップのアンソロピック（Anthropic）が、最新の資金調達ラウンドで650億ドルを調達し、評価額が約9650億ドル（約154兆円）に達した。これによりOpenAIの企業価値を上回った。また、数週間以内に新型AIモデル「Mythos（ミュトス）」を一般公開することを明らかにした。",
-              "impact": "★重要★ 生成AI市場における独占的地位を狙う企業間競争が新たなフェーズに突入した。Microsoftなどが背後で連携するOpenAIに対する、Amazon等の支援を受けるAnthropicの急伸は、生成AIのパワーバランスを激変させ、技術開発のさらなる超加速をもたらす。",
+              "headline": "デル・テクノロジーズ株が30%超急騰、AIサーバー需要爆発と巨額国防契約が後押し",
+              "content": "デル・テクノロジーズの発表した好決算により、AIサーバー向け売上高の急増と利益率向上が好感され、株価が30%以上急騰した。また、トランプ政権との関わりを通じて獲得したとみられる97億ドル規模の国防総省（ペンタゴン）向けITコントラクト締結も大きな要因となっている。",
+              "impact": "★重要★ 企業のAIインフラ構築への投資は実質的な収益化フェーズに突入していることを示す。同時に、政権移行を背景にした政治的な結びつきがテック大手の受注規模に多大なる影響を及ぼし始めている点は、今後の地政学的リスク及び産業政策の予測において無視できないシグナルである。",
               "date": "05/29",
-              "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPeEYweUhONDZuY3lWbG1FUnFITTR2UkI3UFlLY2h6c3ZwYUl2QkFDSEtmSUItVU1tN3RYZ2dpdHRFaC1EZXcyZS0tYU1aVG9ubHNwem1UdUFHTm5Dd3RveTJBbkNzVlA4akp5ZnktM2ZzVFpMYm9hZHM3N08wTEF6YndwRlJySDI0UGk0U0cxeUxvZFFKVVZBaXAtNW5sVXZKdWN2RzRJRjFOQQ?oc=5"
+              "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPcVJqdDdzRnFib0ZkeU1rd1F6WlZrOHF4cTB2MGVoLUhqRlNJNzY1RXY0MHBpcHhNUXBQODVMSlNRd0c5N292QnRTcUZpRkpvR2dVYnVLSm1YalVEUkZ0blV6UllTZTJPaUtlU2VfbDZjWk1ESWYwcGtwRzAzWHV3UjN0dS1Oc1ExNXNLSHVmRmRBQy1xOWFyN3ZaNjFFdDVzYWxEcGN4UTBmdUs1bV9ySnpBaTVRSkdQMkZqcg?oc=5"
             },
             {
-              "headline": "米SEC、企業の気候関連情報・温室効果ガス排出量の開示規則を撤回提案",
-              "content": "米証券取引委員会（SEC）は、上場企業に対して温室効果ガスの排出量や気候変動リスクの開示を義務付ける、かつて可決した環境報告規制の撤回を提案した。トランプ政権による規制緩和の方針が色濃く反映されているとみられる。",
-              "impact": "★重要★ バイデン前政権下で進められたESGおよび気候変動対策の開示標準化の動きが大幅に後退する見通し。米国企業の事務的コストは一時的に削減されるが、EU等グローバルな厳格基準との乖離が深まることで、多国籍企業のコンプライアンス戦略に二重基準が生じる混乱も想定される。",
+              "headline": "米SECが企業の気候変動開示義務ルールの廃止を提案、環境規制緩和への舵切り",
+              "content": "米国証券取引委員会（SEC）は、上場企業に対して温室効果ガスの排出量や気候変動関連リスクの報告を義務付ける規制ルールの撤回へと踏み出した。この動きは、これまでのESG情報開示標準化への世界的努力を根底から見直すものである。",
+              "impact": "★重要★ 米国の急激な規制緩和路線が、企業のESG対応負担を軽減する一方、グローバルなサステナブル投資の流れを乱す可能性がある。多国籍企業は日欧の厳格な環境規制との間で二重の対応基準に直面することになり、世界的な気候変動対策への足並みが乱れる懸念が生じている。",
               "date": "05/29",
-              "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOQUI3ZV9MOWJtZmlzRXBQU1h2VXgxaWhBbkFRczkxRGdISGpFUTJsMzNFV1hMSnFBSGh1aElyT0FjSWVUcWZ1Y3ZnM1pCTjNGUUN6NVJDallETmdHWHhYbk82TVBWWEh2YV96cGZGNzNTUU5DVHhIMnc3Q3c3NzA4T21SdWVFVmFJYjlZRThZRlRLUkVVZ1NMMVROWnhFLVU3czd5cm9LbzFmdGl1?oc=5"
+              "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNUVpaM0NweWJRdjg4N09Td3psRXBDRFdmMWtHSzNCckpNLXcyNmJ3MHlzQ2FBcEtWT1JRWmdWY25NcHNObXBUNlZ0SVAzOVVpbmpVUDBRRGVrSG5xcHVLLW9YcUZES2ZWSHViWkozWTZEM3BVUDBFY3IxU19GZnJjU19NbEY4QlZmcW5RWmJmOEt6WHQ1ODh0Qjd0NGtYcDlBRmc?oc=5"
             },
             {
-              "headline": "日本の人口が5年間で309万人減少、大都市圏や愛知県でも戦後初の減少を記録",
-              "content": "2025年国勢調査の速報値によると、日本の人口は1億2304万人となり、5年間で309万人減少した。全国の13の政令指定都市で人口が減少し、横浜市や広島市などで戦後初の減少を記録したほか、製造業が集積する愛知県でも戦後初の人口減少となった。",
-              "impact": "★重要★ 少子高齢化に伴う労働力不足が、地方部だけでなく日本の基幹産業を支える大都市圏や工業地帯（愛知県など）にまで深刻な規模で迫っていることを示す。内需の縮小リスクに加え、在留外国人の資格更新手続き（手数料上限引き上げ等）への影響や人手不足解消に向けた移民政策の転換圧力が一段と強まる。",
+              "headline": "仮想通貨の「無期限先物取引」が米国内で初承認、コインベースらにライセンス認可",
+              "content": "米商品先物取引委員会（CFTC）は、KalshiおよびCoinbaseに対し、米国内で初となる規制下の仮想通貨無期限先物（パーペチュアル契約）の取引提供を初めて承認した。これにより、これまでオフショアの規制外市場で主に取引されてきたレバレッジ商品のオンショア化が進む。",
+              "impact": "★重要★ 米国がデリバティブ分野の規制緩和に踏み切ったことで、流動性と資本効率が急激に向上する。機関投資家が米国の法的保護下で本格的なヘッジや投機を行える環境が整備されたことで、暗号資産市場の成熟化を加速させるとともに、世界の金融センターとしての存在感を強化する動きとなる。",
+              "date": "05/29",
+              "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNQzF3QVRVU3Z5TnJXenI1V1k2ZlU2SVhhTjFmOFFkS3IxYXhKYXpySEk5TjV0T0E3T3VuRUcwQm9KUHJoejBWVWhtMmdxMHRtMTV1MmhrbW5mV1ljdzh6Q2RFQnlHZjlDUS1YTm1uM2l4Mjd1djN6bnljYVE4cVRkR0w2NExGU2NCSDJkRVMwbTJBTmNyWlNYVzIydy1uLTJrUTJOTjRtTHlsaU5qRVFMNzNR?oc=5"
+            },
+            {
+              "headline": "トヨタが次世代EVセダンの開発を中止、資源をSUVなどに選別集中する戦略へと再編",
+              "content": "トヨタ自動車は、開発を進めていた次世代のEVセダン開発を中止し、需要の底堅いSUV型などのEVモデルへ限定して経営資源を配分する決定を下した。新社長の方針のもと、EVポートフォリオの絞り込みと徹底した採算性の向上が優先される。",
+              "impact": "★重要★ EV市場における需要成長の頭打ち（キャズム）が表面化する中、世界最大の自動車メーカーが「現実路線」を選択したことは大きな意義を持つ。不採算分野からの一気の撤退は、他の主要メーカーのEV投資配分やハイブリッドシフトの流れをさらに後押しするものとみられる。",
               "date": "05/28",
-              "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1UUnZvYjFWejcxRHYwWU1xSGFicXdZUW9XNk52N1hhbXlKdkJzbUN3Qi13VVZJelVtSTZJbWNhZGdhMHBuMFJyeVdiRVpzd0dJZEkxWjlPNXZEVk5VdlZpTDZVY2hHZjFuMVotcw?oc=5"
+              "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1nYjhCNXR0Wk9laDBJc1pPV1lmeDliY0lKdVVmTThBMEE2MGYtYWQzR0xvQ0ltNmFyOHRvRUphLXdhODhsRnpNWGdvSmJzb0J1a0l0ZFRkSC1NampSbHp4TGNHb3ZuTmNXWGxVXw?oc=5"
             },
             {
-              "headline": "日本の原油輸入が5割減少、イラン攻撃後の供給途絶により中東依存の脆弱性が顕在化",
-              "content": "中東におけるイラン攻撃から3カ月が経過し、日本の原油輸入量は5割減少した。この大幅な減少幅は主要先進国の中でも突出しているが、代替調達先を確保できず、中東地域からの依然とした依存体質が課題となっている。",
-              "impact": "★重要★ エネルギー供給の脆弱性は日本の製造業および家計を直接圧迫する。すでに6月電気代の最大91円値上げが決まるなど、エネルギー高騰の価格転転が始まっており、中長期的には外食産業でのサービス終了（ステーキガスト食べ放題終了）など国内消費マインドを冷え込ませるマクロ経済上の重大な逆風となる。",
+              "headline": "日本政府による「11.7兆円」介入の効果は一時的、再び1ドル=160円台に迫る構造的円安",
+              "content": "日本政府が実施した過去最大規模の11.7兆円に上る為替介入は、為替レートをわずか1円程度戻すにとどまり、再び160円の大台に迫る円安水準へと戻った。日米の金利差固定や構造的な資本流出がその背景にあると指摘されている。",
+              "impact": "★重要★ 通貨当局による資金を投入した市場介入だけでは、構造的な国力差や金利差を覆せない現実が露呈した。長期化する円安は、輸入インフレを定着させ中小企業の採算や家計の購買力を削ぐリスクを高めており、日本銀行に対してより早期かつ急進的な利上げ圧力として跳ね返ることになる。",
               "date": "05/28",
-              "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5TUGdaa0VCQXJDSnMtNTNxMS04emt2bzlmQjl1ZUZxdFQ2bUQ5YVJCdWJ1LTRXVDFwcDhHOF9EQ2xNS1huckw4NU1OcWRvbWlTZFhvOFpFb09mNDBSRTMwLU8zSGp0SU41Z05oaA?oc=5"
+              "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFA3dENaWHA1T2ZycjBQamdJcFJCTHp2UHZKLUt6RGdmZW1Qc2x1TGxZN2tJNFltV3V2WjV2MnNva0hLU19yMWxLc3pyTGNhd3VUM21FM1hxTk9sWHJHQ2pnV3RsTTdDYmlNQUhmSQ?oc=5"
             },
             {
-              "headline": "米ブルーオリジンの新型ロケットがテスト中に爆発、宇宙開発競争に打撃",
-              "content": "ジェフ・ベゾス氏が創設した宇宙開発企業ブルー・オリジン（Blue Origin）の大型ロケットが、フロリダ州ケープカナベラルの発射台での試験中に爆発を起こした。この事故は、民間宇宙ビジネスで先行するスペースXとの競争に影響を及ぼす可能性がある。",
-              "impact": "★重要★ 民間宇宙事業およびNASAのアルテミス計画など次世代宇宙ミッションへのスケジュール遅延を招くリスクがある。競争の激化により株式上場（IPO）などの市場観測も賑わうスペースXの一強独占状態がさらに強まり、宇宙開発分野でのインフラ整備ペースに影を落とす恐れがある。",
+              "headline": "村田製作所の時価総額が18兆円へと急増、AIデータセンター需要が周辺部品に波及",
+              "content": "電子部品世界大手の村田製作所の時価総額が4月末の10兆円から18兆円規模へ急拡大。AIサーバーやデータセンターの急増に伴う省電力・超高速対応の電子部品（積層セラミックコンデンサなど）の需要拡大が株価高騰の原動力となった。",
+              "impact": "★重要★ AIブームにおけるバリューチェーンの波及効果が、GPU半導体そのものから、その動作を支える高度な受動電子部品へと明確にシフトしている。高品質で高いシェアを誇る日本の電子部品産業の圧倒的な市場支配力が再評価され、日本の新たな成長エンジンとしての側面が強調されている。",
               "date": "05/29",
-              "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE91VFhuQkFmeFNzQnFnc2VKMm5qVjRSMy15M3BiN0hzY28tU1pyTVRaY1psRmc5X1BURjJRWDNMWnM0MDFOY2pGMzNveEZWbU9JcENiTEM5S3FJdElFNHpXQlNrdnctYzcwbm0tdkl0blZycloxbkhLV08weHl2RjA?oc=5"
+              "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE0xOVJ5X2kyYUV2RnBFd1VvMW16SmxNTzg3cnJSRnJXQnZpOUtkUmRaMXpicjdJbHdIc2VmMHg0MUp4WnB5T24ydU9DY20tMFY0VjdhSmhzSXQ3SnJ1aENleFlzb2FUYlZDNm0ydw?oc=5"
             },
             {
-              "headline": "フェラーリ初EVの「らしさ」巡る設計に批判、ブランド路線の転換で大論争に発展",
-              "content": "イタリアの高級車メーカー、フェラーリ（Ferrari）が初めて展開する電気自動車（EV）のデザインに対し、本国イタリアをはじめとするファンや市場から激しい反発が起きている。元Appleデザイナーの関与による大幅な路線転換が背景にあるとされる。",
-              "impact": "★重要★ 高級車ブランドが「伝統的なエモーション（エンジン音や特有の設計）」をどのようにEVに継承・変革できるかという、ラグジュアリー自動車産業全体の共通課題。デザインや方向性の過度な近代化は、既存の最もロイヤリティの高い顧客層を失うリスクを伴うため、他高級メーカーの電動化戦略にも一石を投じる。",
+              "headline": "スペースXが評価額1.8兆ドルで上場模索、宇宙関連ETFへの個人マネー流入が前代未聞の8.5倍に",
+              "content": "イーロン・マスク氏率いるスペースX（SpaceX）が時価総額1.8兆ドル（約280兆円）での資金調達や上場（IPO）を検討する中で、宇宙関連の投資信託やETFに対する個人投資家の資金流入が急加速し、資産額が従来の8.5倍へと沸騰している。",
+              "impact": "★重要★ 宇宙セクターにおける世界最大のメガプレイヤーが資本市場への参入を模索することで、防衛・先端通信・衛星データ産業に対する世界規模のマネー循環が飛躍的に増大している。スターリンクを基盤とする安全保障インフラへの影響力も増しており、官民一体となった次世代宇宙エコシステムの構築が急ピッチで進んでいる。",
               "date": "05/29",
-              "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOQi02cFQ4b0RZdEd2dnNVWWptWDdaVUVkYmQyU1N6TXBiTUZET1pfMVNKRlNVdUNVX2l6TWJMeHVEdmYwa2dQSVJleVdsSnNnTk5JM2R6TEtPWXF4bEZjci1ubXRidnIyWlZEcU8wTmdGYkV2Yk9xOEliVzVPMG45SGl0VTFnakJYcTFKWmNEaGJMVE9PZkdPSw?oc=5"
-            },
-            {
-              "headline": "米デル株がAI好業績で30%超急騰、トランプ氏の個人投資に対する利益供与疑惑が浮上",
-              "content": "デル（Dell）の株価がAIサーバー事業の売上急成長により約30%〜40%急騰した。一方で、トランプ大統領の個人保有株にデルが含まれていたことから、大統領本人が過去の発言や優遇等を通じて特定のAI・テック株の価値を意図的に引き上げ、自ら利益を得ているのではないかという汚職批判が巻き起こっている。",
-              "impact": "★重要★ AIバブルが持つ莫大な経済的インパクトが、米国の最高指導者の個人的な金融資産と結びつくことで生じる地政学的・倫理的リスク。政策決定や政権内閣からの発言が市場に直接的な利益誘導を招くとの不信感が、金融市場の公平性とガバナンスへの懸念を増幅させている。",
-              "date": "05/29",
-              "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1iOW43dkdoZGl0dEJRTHcwcVB5ek1XbHVWTGdoZDV5R0QtN1JMYThTL-bMNUQ3OVp4SUc3R0JkOVRGc25qUWJJRFNRT01JSEVieW8yNVMycjM3RlllZHpiTFh0aDRCeFdnQ05Zd2ZfNlV3d1VnMlE?oc=5"
+              "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9kazRfa3NfTEZ3bGNnWTQ2MWhyWVdjbE1GTjhzVGV4M0J2WGRxS3JpWFIxelVCcjMtSHRRcDNqY1ZPaW1YSEJBN0U4YnlEa0ZwSFYtMFkyREo3YUdvVjNTazlDS1h6TzBOcHYwTg?oc=5"
             }
           ]
         },
@@ -131,75 +159,74 @@ window.newsData = {
           "title": "グローバル・テックトレンド",
           "topics": [
             {
-              "headline": "AIコーディングへの過度な依存と、それによるコード品質低下の懸念",
-              "content": "2026年現在、開発者たちの間でAIコーディングツールの利用が定着し、これなしでの作業を拒否する動きが強まっている。しかし研究によると、AIはコードの生成速度を劇的に向上させる一方で、必ずしも高品質なコードの生成にはつながっていないことが明らかになった。",
-              "impact": "★重要★ 生産性向上と引き換えに、隠れたバグやセキュリティ脆弱性、保守性の低い「ボット製スロップウェア」が増加するリスクを警告している。ソフトウェアエンジニアリングにおける今後の品質管理（QA）のあり方に再考を迫る論点である。",
-              "date": "5/29",
+              "headline": "AIコーディングツールへの依存が生み出す技術的負債のリスク",
+              "content": "2026年現在、開発者の間でAIコーディングツールの利用が完全に定着しており、AIなしでの作業を拒否する動きも見られる。しかし、AIによってコード生成速度は大幅に向上したものの、生成されるコードの品質自体は低下している可能性があり、将来的な技術的負債の増大が警告されている。",
+              "impact": "★重要★ 生産性の向上と引き換えに、脆弱性や非効率な設計がコードベースに埋め込まれる懸念がある。AIによるコード開発の持続可能性と品質担保プロセスの再設計が必要とされる。",
+              "date": "05/29",
               "url": "https://techcrunch.com/2026/05/29/coders-are-refusing-to-work-without-ai-and-that-could-come-back-to-bite-them/"
             },
             {
-              "headline": "AIのボトルネックは演算ではなくメモリ：Xcenaが1億3500万ドルを調達",
-              "content": "AI半導体スタートアップのXcenaが、評価額5.7億ドルで1億3500万ドルの資金調達を実施した。同社は、ChatGPTなどの生成AI処理において、ボトルネックとなっているのはGPUの演算性能（Compute）ではなく、プロセッサとメモリ間のデータ転送速度（Memory）であると考え、新しいメモリアキテクチャの開発を進めている。",
-              "impact": "★重要★ 現在のAIサーバーはHBM（高帯域幅メモリ）の枯渇と高コスト化、およびフォン・ノイマン・ボトルネックに直面している。メモリに特化した新アーキテクチャが実用化されれば、AIモデルの実行効率が飛躍的に向上し、データセンターの省電力化にも大きく貢献する可能性がある。",
-              "date": "5/29",
+              "headline": "推論特化型AIチップのGroq、6億5000万ドルの資金調達へ",
+              "content": "Nvidiaによる人材の実質的買収（not-acqui-hire）などが市場を騒がせる中、独自のAI推論チップを開発するGroqが既存投資家から約6億5000万ドルの新たな資金調達を進めている。同社は独自のAIチップをベースとした推論専用クラウド「neocloud」事業を大きく加速させている。",
+              "impact": "★重要★ LLMの運用段階（推論）においてコストとレイテンシの削減が最重要課題となる中、Nvidia一強の市場に対抗する独自ハードウェア企業の躍進を象徴している。",
+              "date": "05/29",
+              "url": "https://techcrunch.com/2026/05/29/after-nvidias-20b-not-acqui-hire-ai-chip-startup-groq-reportedly-raising-650m/"
+            },
+            {
+              "headline": "AIの本当のボトルネックはメモリ：Xcenaが1億3500万ドルを調達",
+              "content": "AIハードウェア・スタートアップのXcenaが、評価額5.7億ドルで1億3500万ドルの資金調達を実施。同社はAIにおける最大の問題を、プロセッサの計算能力ではなく、メモリとCPU/GPU間のデータ転送におけるボトルネック（フォン・ノイマン・ボトルネック）と位置づけ、その解決を図る革新的なメモリセントリック・チップを開発している。",
+              "impact": "★重要★ 大規模言語モデルの処理において、データ移動にかかる消費電力と時間の削減が真の課題となっている。本技術はAIインフラのコストと効率性を劇的に変える可能性を秘めている。",
+              "date": "05/29",
               "url": "https://techcrunch.com/2026/05/29/xcena-secures-135m-at-570m-valuation-betting-on-memory-as-ais-real-bottleneck/"
             },
             {
-              "headline": "CognitionのCEOが言及：「AIコーディングエージェントは人間のエンジニアを代替すべきではない」",
-              "content": "自律型AIコーディングエージェント「Devin」を開発するCognitionが、260億ドルの評価額で10億ドルを調達した。同社のCEOであるScott Wu氏は、Devinなどの自律エージェントの目的は人間のエンジニアを完全に置き換えることではなく、エンジニアと協調して生産性を最大化することであると主張した。",
-              "thought": "（AIによる開発者代替の議論が過熱する中で、主要なエージェント開発企業のトップが『共存』を強調した意味は大きい。技術が高度化する中での人間のエンジニアの役割の再定義を示唆している）",
-              "impact": "★重要★ AI自律エージェントが高度なタスクをこなせるようになっても、最終的なシステム設計やドメイン知識の適用には人間が不可欠である。AIエージェントを「部下」や「パートナー」として使いこなすメタなエンジニアリングスキルの重要性が高まっている。",
-              "date": "5/29",
-              "url": "https://techcrunch.com/2026/05/29/cognitions-scott-wu-says-ai-coding-agents-shouldnt-replace-humans/"
-            },
-            {
-              "headline": "インターネットインフラの再構築：人間用から「AIエージェント向け」へのシフト",
-              "content": "従来のクラウドインフラやWebインフラは、人間が検索、クリック、スクロール、動画視聴を一定の予測可能なペースで行うことを前提に設計されていた。しかし、爆発的かつ非同期に多数のサブエージェントを立ち上げて並列処理を行う「AIエージェント」の挙動は全く異なり、インフラに対して急激なバースト負荷を与える。そのため、インターネットはマシン向けに再設計されつつある。",
-              "impact": "★重要★ インターネットの通信特性そのものが根本から変化することを示す。これまでのAPI制限やロードバランシング、CDNの仕組みではAIエージェントによるトラフィックを制御できず、プロトコルやインフラ全体の再構築（パラダイムシフト）が求められている。",
-              "date": "5/28",
+              "headline": "自律型AIエージェントの爆発的な増加に対応する「インターネットの再構築」",
+              "content": "従来のクラウドインフラは、人間が検索、クリック、スクロール、ストリーミングを行う緩やかな予測可能トラフィックを前提に設計されてきた。しかし自律型AIエージェントは、瞬時に大量のサブエージェントを立ち上げて並列処理を行うため、トラフィック構造が根本的に異なる。このため、機械向けに最適化された新しいインターネットインフラの再構築が進んでいる。",
+              "impact": "★重要★ ネットワーク帯域、API設計、負荷分散の手法が人間の想定を超えた領域へとシフトする。エージェント間通信の最適化に向けたクラウド設計のパラダイムシフトを意味する。",
+              "date": "05/28",
               "url": "https://techcrunch.com/2026/05/28/the-internet-is-being-rebuilt-for-machines/"
             },
             {
-              "headline": "ChatGPTを騙す脆弱性：Webページを読み込ませるだけでフィッシング攻撃が可能に",
-              "content": "ChatGPTなどのAIチャットボットが、Webブラウジング機能を使って外部のページを要約する際、そのページに隠された悪意あるMarkdownや指示（プロンプトインジェクション）を、AI自身の生成コードと区別できずに実行してしまう脆弱性が指摘された。これにより、無害を装ったWebページがフィッシング攻撃のペイロードへと変わるリスクがある。",
-              "impact": "★重要★ LLMが外部の非構造化データソース（Web、ドキュメントなど）と連携する際の根本的なセキュリティ限界を示している。RAG（検索拡張生成）などの実務応用において、信頼できない入力をAIが鵜呑みにしないための堅牢な入力検証と隔離技術（コンテキスト分離）の確立が急務である。",
-              "date": "5/29",
+              "headline": "Okta、暴走するAIエージェントを強制停止するセキュリティ制御技術を開発",
+              "content": "アイデンティティ管理大手のOktaが、ServiceNow等の顧客向けに、権限を逸脱したり異常な挙動を始めたりした自律型「暴走AIエージェント」を検知し、即座に特権やアクセス権を剥奪（シャットダウン）できるガバナンス機能を開発している。",
+              "impact": "★重要★ AIエージェントが実務で活用されるにつれて、予期せぬ動作による機密データの不正取得やシステム破壊のリスクが高まる。アイデンティティレベルでAIの実行権限を動的に制御する仕組みは、エンタープライズでのエージェント運用において必須の安全弁となる。",
+              "date": "05/29",
+              "url": "https://www.theregister.com/ai-ml/2026/05/29/okta-writes-its-own-license-to-kill-rogue-ai-agents/5248766"
+            },
+            {
+              "headline": "外部ウェブコンテンツをペイロードに変えるChatGPTのプロンプトインジェクション脆弱性",
+              "content": "セキュリティ研究者により、ChatGPTが「自身で生成したテキスト」と「参照した外部Webサイト上の攻撃者制御コンテンツ（隠されたMarkdown命令等）」を判別できない脆弱性が指摘された。ユーザーがWebページの要約を頼むだけで、そのページがフィッシングなどのペイロードとして機能してしまう危険性がある。",
+              "impact": "★重要★ LLMが外部のWebサイトやデータソースとリアルタイムに接続する際の「信頼境界」の脆さを示している。安全なAI統合プラットフォームを構築するためのアーキテクチャ改良が急務となっている。",
+              "date": "05/29",
               "url": "https://www.theregister.com/research/2026/05/29/chatgpt-prompt-injection-turns-web-pages-into-phishing-lures/5248137"
             },
             {
-              "headline": "DNSを応用したAIエージェント相互発見プロジェクト「DNS-AID」が発足",
-              "content": "Linux Foundationの後援のもと、AIエージェント同士がDomain Name System（DNS）を活用して、ポートスキャンや複雑な設定ファイルの読み込みなしで互いに発見・認証・通信し合えるようにするオープンソースプロジェクト「DNS-AID（DNS for AI Discovery）」が立ち上がった。",
-              "impact": "★重要★ マルチエージェント時代における、エージェント間連携（Agent-to-Agent）のための事実上の標準プロトコル構築を目指す動き。Webの既存かつ最も堅牢な社会インフラであるDNSを拡張利用することで、導入のハードルを極めて低くしている点が革新的である。",
-              "date": "5/28",
+              "headline": "Linux Foundation、DNSを利用したAIエージェント発見規格「DNS-AID」を発表",
+              "content": "Linux Foundationの後援のもと、DNSを利用してAIエージェント同士が相互に自動発見・通信相手を特定できるようにするオープンソースプロジェクト「DNS-AID (DNS for AI Discovery)」が立ち上がった。ポート探索や個別のリソース構成を行わずに、エージェント間連携が可能になる。",
+              "impact": "★重要★ AIエージェント同士が自律的に協調し経済活動を行う「エージェント・エコノミー」の確立に向けた、世界標準となるプロトコルの第一歩。既存の安定したインターネット技術（DNS）を活用するアプローチが合理的かつ強力である。",
+              "date": "05/28",
               "url": "https://www.theregister.com/ai-ml/2026/05/28/ai-agents-get-their-own-phone-directory-built-atop-dns/5247539"
             },
             {
-              "headline": "SnowflakeがNatomaを買収、暴走するAIエージェント（Rogue Agents）の制御技術を統合",
-              "content": "データクラウド大手のSnowflakeが、エンタープライズアプリケーション間におけるAIエージェントの権限やポリシー管理ゲートウェイを提供する「Natoma」を買収した。自律的なAIエージェントが、企業のセキュリティポリシーやアクセス権限を超えて勝手にデータを取得・操作することを防ぐ「オフスイッチ（制御装置）」として機能する。",
-              "impact": "★重要★ 自律型AIエージェントの普及に伴う「野良エージェント（Rogue Agent）」や「暴走エージェント」のセキュリティリスクに対処する。企業のAIガバナンスにおいて、エージェントの権限管理やアクティビティ監査が必須のセキュリティ分野（新たなデファクトスタンダード）になることを示している。",
-              "date": "5/28",
-              "url": "https://www.theregister.com/ai-ml/2026/05/28/snowflake-buys-natoma-to-help-freeze-out-rogue-agents/5248062"
-            },
-            {
-              "headline": "Gartnerが予測：生成AIプロジェクトの半数以上、およびカスタムモデル開発の多くは失敗に終わる",
-              "content": "IT調査会社Gartnerは、生成AIプロジェクトの少なくとも半分が、不適切なシステム設計や運用ノウハウの欠如によって予算オーバーに陥ると予測。また、自社で独自のカスタムモデル構築を試みる大半の組織は、法外なコストや複雑性、肥大化する技術負債を前にプロジェクトを断念せざるを得なくなると警告している。",
-              "impact": "★重要★ 生成AIブーム（ハイプサイクル）が幻滅期へ突入しつつあることを如実に示している。莫大な初期開発・学習コストだけでなく、継続的な推論コスト、メンテナンスコスト、実務に適応させるためのOps（LLMOps）の現実的な壁を予測しており、企業のAI投資がより現実的でROI重視の視点へとシフトしていく転換点となる。",
-              "date": "5/28",
+              "headline": "生成AIプロジェクトの過半数は予算超過と技術的負債で失敗する：Gartner予測",
+              "content": "ガートナーは、不適切なシステムアーキテクチャ設計や運用管理スキルの不足により、生成AIプロジェクトの少なくとも半分が予算超過に陥り、さらに自社専用のカスタムモデルを構築しようとする組織の多くが、コスト、複雑さ、技術的負債によって途中で開発を断念すると予測した。",
+              "impact": "★重要★ 単なる「生成AIブーム」としての導入期が終了し、ビジネス価値、システム全体の持続可能性、投資対効果（ROI）が厳しく問われる現実的なフェーズに移行したことを示している。",
+              "date": "05/28",
               "url": "https://www.theregister.com/ai-ml/2026/05/28/most-generative-ai-and-custom-model-projects-will-be-a-bust-gartner/5247633"
             },
             {
-              "headline": "Linuxの主要仮想化コンポーネント「QEMU」、AI生成コードの貢献制限を緩和か",
-              "content": "Linuxの重要なオープンソースハイパーバイザープロジェクトであるQEMUが、これまで適用していた「AI生成コードによる貢献の全面禁止」ルールを緩和することを検討している。Red Hatの著名なエンジニアPaolo Bonzini氏が提案したもので、リスクとベネフィットのバランス変化に伴い、システムの非コア領域に限定してAIの支援を許可する方向で議論されている。",
-              "impact": "★重要★ 著作権やコード品質の懸念からAIツールを完全に排除してきた主要なオープンソースコミュニティにおいて、実用面での利便性を考慮して「AIの限定的受容」へと舵を切りつつある。AI生成コードが一般のソフトウェアエコシステムに統合される過程における、過渡期の現実的なアプローチを象徴している。",
-              "date": "5/29",
-              "url": "https://www.theregister.com/ai-ml/2026/05/29/qemu-mulls-relaxing-ai-contribution-ban/5248638"
+              "headline": "未修正脆弱性の公開を巡り、Microsoftとゼロデイ研究者の対立が泥沼化",
+              "content": "Windowsのゼロデイ脆弱性を相次いで公開したバグハンター「Nightmare Eclipse」に対し、Microsoftが法的措置や警察への通報を含む警告を行った。これに反発した研究者は「骨を砕くような打撃を与える」とし、7月14日により深刻な未公開ゼロデイの大量放出を予告している。",
+              "impact": "★重要★ ベンダーと善意のバグハンター、もしくは対立する脆弱性開示（Coordinated Vulnerability Disclosure）のエコシステムがいかに壊れやすいかを浮き彫りにした。威嚇的な対応が結果として業界全体のセキュリティリスクを爆発させる契機になり得ることを示唆している。",
+              "date": "05/28",
+              "url": "https://www.theregister.com/security/2026/05/28/microsoft-0-day-feud-escalates-as-researcher-threatens-another-windows-exploit-dump/5248085"
             },
             {
-              "headline": "Zig言語創始者のAndrew Kelley氏：1.0に向けた「妥協なき完璧」へのこだわりと、AIへの違和感",
-              "content": "C言語の代替として高いパフォーマンスと安全性を両立することを目指すシステムプログラミング言語「Zig」の創始者Andrew Kelley氏のインタビュー。同氏は、完璧な仕様に到達するまではバージョン1.0をリリースしないという開発姿勢を強調。また、開発者がクラウド上のAIコーディング支援に月額料金を払い続ける現状について「狂気の沙汰（insane proposition）」と批判した。",
-              "impact": "★重要★ あらゆる開発環境がクラウドやAIエージェントに依存しつつあるトレンドの中で、言語レベルでの「ローカルファースト」「バグを原理的に排除する厳密さ」を追求するシステムプログラミングの古典的かつ本質的な哲学を思い出させる。AI任せの不確実な開発に対するアンチテーゼとして価値がある。",
-              "date": "5/28",
-              "url": "https://www.theregister.com/software/2026/05/28/zig-creator-seeks-uncompromising-perfection-before-blessing-10/5247916"
+              "headline": "Snowflake、AIエージェントのアクセス権管理スタートアップNatomaを買収",
+              "content": "データプラットフォーム大手のSnowflakeが、エンタープライズアプリケーション間における自律型AIエージェントのパーミッション（認可権限）を一元管理するゲートウェイ技術を提供する「Natoma」の買収を発表した。エージェントが企業のセキュリティポリシーに違反するのを防ぐ狙いがある。",
+              "impact": "★重要★ AIエージェントの活用が広がる中で「データセキュリティ」と「AIアクションの自律性」の調和が企業の最大の懸念点となっている。Snowflakeがインフラレイヤーでこのセキュリティを担保しようとする動きは業界トレンドを牽引する。",
+              "date": "05/28",
+              "url": "https://www.theregister.com/ai-ml/2026/05/28/snowflake-buys-natoma-to-help-freeze-out-rogue-agents/5248062"
             }
           ]
         },
@@ -208,74 +235,74 @@ window.newsData = {
           "title": "サイエンス・ディープテック",
           "topics": [
             {
-              "headline": "NASAの次世代宇宙望遠鏡「ナンシー・グレース・ローマン」、5年間で約10万個の新惑星を発見する見込み",
-              "content": "NASAの次期主力宇宙望遠鏡「ナンシー・グレース・ローマン」が、稼働開始からわずか5年間のミッション期間中に約10万個のトランジット惑星を発見すると予想されている。これには、主星を持たずに銀河系内を漂う「浮遊惑星（rogue worlds）」の史上最大のカタログ作成も含まれる。",
-              "impact": "従来の宇宙望遠鏡を遥かに凌駕する広視野観測性能により、系外惑星の統計的理解が飛躍的に進みます。特に星系から弾き出された浮遊惑星の分布データは、惑星形成理論の大幅なアップデートを促し、宇宙におけるハビタブル（居住可能）な環境の多様性を再定義する極めて重要な研究成果をもたらします。",
+              "headline": "NASAの静粛超音速実証機「X-59」、初の超音速飛行に向けた最終準備へ",
+              "content": "NASAが進める低ソニックブーム飛行実証プロジェクト「X-59」が、初の超音速飛行に向けた最終段階の地上テスト及び低速テストへと進行した。機体形状の最適化により、陸上での飛行に耐える静音超音速飛行の実現を目指している。",
+              "impact": "商用超音速旅客機の復活における最大の障壁である「ソニックブームによる騒音被害とそれゆえの陸上飛行規制」を克服する実証実験。これが成功すれば、既存の航空法規制が緩和され、世界規模での超高速輸送インフラの商業化が一気に現実味を帯びる。",
+              "date": "05/28",
+              "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPRFNLZ2l4TTd6dl9xQXZVZVVxc3ZVZG03ZnowaHh2TXFvaWwxV2hFR0hEWXExaEptRTZSR2xzWE1CSUs2RlRBOVJoYkZWd0l5Z0VqTnJrSEZJMnZ4RkpCN1hOY1ljXzVORHBFTUZaXy1mMXF6YWhMOVdHcDZnVVV3czJXbU5zMXU5WkJmSXUydVFiYi0td0NuMVhDaFRWS3FJRGNtag?oc=5"
+            },
+            {
+              "headline": "宇宙空間での幹細胞培養：がんおよび難病治療の飛躍的向上へ",
+              "content": "NASAが微小重力環境（宇宙空間）において幹細胞を培養するプロジェクトを拡大。宇宙の特殊な物理環境を利用することで、地上では不可能な細胞の3次元的な立体構築と高効率な培養の実現を目指している。",
+              "impact": "バイオ製造（In-space manufacturing）におけるブレイクスルー。地球上の重力制限下では分化してしまったり壊れやすい幹細胞を高品質かつ未分化のまま維持・増殖でき、創薬プロセスやがん治療法の開拓、さらには再生医療における人工臓器開発を飛躍的に加速させる。",
+              "date": "05/28",
+              "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNeGpqcUJSbGNkQzM3Nm91STM2SWotNXJ3UVRmb2dnNzIxTExXdjlSc3VIZWtQU1M4QkNuR2ZIbndKYUpzSVktOUxuUTZUbjBBNU9JcDlSR01BSUVjUGNVRC1LMkNXcmp2a0xoUVNVcFNtUHJqemswbmJlU3JiaXEyT2RlYlZ0dV_1NEpRMzZqNzNWN0tLQ0MzV3VNTXYxN1BJOG5pWkRHOWRVdzZfQkU2OFlwcW1iR0FLYzVYTA?oc=5"
+            },
+            {
+              "headline": "電気パルスによるホヤの老化逆転：幹細胞の「再充電」による寿命延長のアプローチ",
+              "content": "電気的刺激（電気パルス）を生物（ホヤ）に与えることで、幹細胞の活性を再活性化させ、老化現象を逆転させることに成功したとの研究が発表された。人間のアンチエイジングおよび寿命延長へ応用可能な知見を提供している。",
+              "impact": "従来の遺伝子導入や化学物質による細胞リプログラミングとは異なり、「物理的な電気刺激」という安全かつ制御しやすい手法で若返りを誘発できる可能性を示唆した。低侵襲な次世代再生医療や長寿治療への応用研究に新たな道を開く。",
+              "date": "05/28",
+              "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFB1TkdYS3U4ck44OEpmREo5WUhXMVVBdER5RUxHcFZWNE1qcWZvMnMxdkJ6Zlh2QUVOLWtiZmtMc2xBZmNrb2pXdGg4VV9hc1_qZS1ma3VfSUh5UlBpa1pURk1nTWRjbEtkOW9ja0x0ZURCSld3WTJkamtn?oc=5"
+            },
+            {
+              "headline": "脳および体内の標的分子を従来にない高感度で検出する新型MRIセンサー",
+              "content": "極微量の標的分子を脳内や体組織から直接・高感度に検出する新しいMRIセンサー技術が開発された。生体内での分子挙動をリアルタイムで精密にマッピング可能になる。",
+              "impact": "脳内の神経伝達物質やがん等の微小なバイオマーカーを、生体を傷つけることなく検出するリアルタイム・イメージングが実現する。診断精度の劇的な向上のみならず、脳機能の解明やドラッグ・デリバリー・システム（DDS）の評価を強力に後押しするデバイス技術。",
+              "date": "05/28",
+              "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE50YkNoZ0pFY1Y1RlNhMV84S3RPYTk1cHBTWWJhUEh6dm9ibEo5MEZaOVRaaHl1SFFrdHV1Z044SE5Bbkt5YlZBdHBid0gyb3hvSXJjOHJyRHh5ZVpaam9TZUszRmkybUUzR2VsMkhlTmRmRmk5enc?oc=5"
+            },
+            {
+              "headline": "Blue Originの巨大ロケット「New Glenn」、燃焼試験中に爆発的な大破。宇宙開発計画に大打撃",
+              "content": "フロリダ州の射点で行われたBlue Originの大型ロケット「New Glenn」の地上燃焼試験（スタティックファイア）中にエンジン点火直後に壊滅的な爆発が発生。ロケットが完全大破し、射点インフラにも深刻な被害が生じた模様。",
+              "impact": "SpaceXの独占に対抗する超大型ペイロードキャリアとしての期待が集まっていた「New Glenn」の失敗は、商業宇宙輸送だけでなく、NASAの有人月探査「アルテミス計画」の着陸船スケジュールにも計り知れない遅延をもたらすリスクがあり、宇宙産業全体の地政学・市場勢力図に多大な影響を及ぼす。",
               "date": "05/29",
-              "url": "https://news.google.com/rss/articles/CBMitwJBVV95cUxOeEU0cWtpMFY2M2dvUHpFT3FUaGJ4TWwxa0ktMjlCbERyVGc3QnpvYVB5R0N0UTlEbFN6c2Vib0lfcHREdUZ4ZW5jQWxaM1lSR3dmSjVaUTBEWnBlMzJNZWNZWVNHeDVSY1d1dFM2SzJyWWFnWUdWVnFEZ25WZjctYkxjVEFoXzEzRWdfMXUzLUw1bDlwRVZfcHpzN0E2dmIweXZGemN0bWYxZUR2WXoteW9RS0Y3MzFMb29LUk92ZnBiN0JWbWNTdkZQUnZ6TXI4RlhKLVg5MGd4R2Vtand3aWVlcG1mOGlRUUpacVUxcEpmZ2NGb1BRdmF1dmhTX2pKWFdYWVdWMl9lNENRcmFCY1JhVmVERmlfOUlsaTZDXzNhejk5eV9rMjlFaXQ0SkFsMjNGUXhmVQ?oc=5"
+              "url": "https://arstechnica.com/space/2026/05/blue-origins-new-glenn-rocket-just-exploded-during-a-static-fire-test/"
             },
             {
-              "headline": "ジェームズ・ウェッブ宇宙望遠鏡、ホスト銀河より先に形成されたとみられる異例の超巨大ブラックホールを発見",
-              "content": "ジェームズ・ウェッブ宇宙望遠鏡（JWST）が、所属するホスト銀河が十分に形成される前の高赤方偏移の時代において、すでに存在していた超巨大ブラックホールを発見した。科学者たちにとっても、どのようにしてこのタイミングでこれほどの質量に成長したのかは未解明である。",
-              "impact": "銀河と超巨大ブラックホールは調和しながら「共進化」するという従来の天文学的パラダイムに疑問を投げかける発見です。初期宇宙における最初のブラックホールがどのように誕生したのか、例えば巨大ガス雲の直接崩壊シナリオ（Direct Collapse Black Hole）などの新興理論を支持する強力な実証データとなります。",
-              "date": "05/28",
-              "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPMWlKUlV6VV9yODJtX3owRElsWFlxU0hKdTlLWTF3RWFNZGxsQWNCV1ljNE9ONnJtQmF3bFY3eU5mVVZVdFhhNng4VXNkOWVTWU11THlfYWdsdG9XbFEtSmRjWkhKTDFNZlhzMHRBREp6Z2trRG9wc2NtR2M0RnlBYWlnRmp2cEhkbEMyc0xUQXVCektQdndNT0dQSTI5SFBqd2EzRW82VldpMnF1czE3TWZOSWpQQ1BkaTNLaDhLYkY0bXdxUmdBVjZYSHlVeVRseW53bmlGUzZaZF9wSl9FWFpZVlZiazZNbkE?oc=5"
-            },
-            {
-              "headline": "電気の代わりに「光」で情報処理を行う集積回路チップの開発に成功",
-              "content": "研究チームが、従来の電気信号の代わりに光回路を用いてデータを処理する極小チップ（オンチップ・プログラマブル・バレー光電ナノ回路）の開発に成功した。電気から光へのパラダイムシフトによって高速・低消費電力なプロセッシングが可能となる。",
-              "impact": "半導体の物理的微細化限界（ムーアの法則の終焉）や、AI演算に伴う爆発的な電力消費に対するゲームチェンジャー技術です。光速による超並列演算をオンチップで実現することで、次世代の超高速AIインフラ、自動運転の低遅延推論プロセッサ、さらには量子・光ハイブリッド計算機の開発を著しく加速させます。",
-              "date": "05/28",
-              "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOUnY5Y0xSYUpmM1BNZmpUTjl0enVCR3pEQ3NBVUowTHBaSTFUNFlXbWlDa1g0emtaSWtBYVItOXBqZ2tNeWg4bGI5YVQ0MUxUeVRTX2s0MGlYVV9IdXhnclNFMFoyMnFRVnY2SGJBMkRlLVFLSXg2OW9HOGpZMktXTUNNZFplMUxwWmM1X3U5V1RpS2FNXzF0ZjdDaWd0RElTRjJxZ2lzUWJ1Y2NTTG8wYzN2cEdjdw?oc=5"
-            },
-            {
-              "headline": "電気パルスによる生物の老化逆転現象を発見、長寿延伸研究への貢献に期待",
-              "content": "研究チームが電気パルスを照射することにより、被嚢類であるホヤ（sea squirts）の老化プロセスを逆転させることに成功した。電気刺激が「幹細胞を充電する」ことで機能回復が誘導されている可能性が示されている。",
-              "impact": "細胞レベルの若返りにおける生物電気（Bioelectricity）の重要性を示した画期的なアプローチです。高価な遺伝子治療や薬物ではなく、物理的・電気的な非侵襲シグナルによって局所の幹細胞や組織再生をコントロールできる可能性を提示しており、人間の健康寿命延伸や先進的なエイジング治療に新たな可能性を開きます。",
-              "date": "05/28",
-              "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFB1TkdYS3U4ck44OEpmREo5WUhXMVVBdER5RUxHcFZWNE1qcWZvMnMxdkJ6Zlh2QUVOLWtiZmtMc2xBZmNrb2pXdGg4VV9hc19xZS1ma3VfSUh5UlBpa1pURk1nTWRjbEtkOW9ja0x0ZURCSld3WTJkamtn?oc=5"
-            },
-            {
-              "headline": "反水素の基底状態超微細分裂を「4 ppm」の超高精度で精密測定、宇宙の物質非対称性に迫る",
-              "content": "ALPHA共同研究グループは、反水素原子の基底状態超微細分裂のエネルギーギャップを4 ppm（100万分の4）という極めて微小な不確かさで測定することに成功した。これは標準的な水素のスペクトルテストに匹敵する精度での比較検証となる。",
-              "impact": "現代物理学の最大の謎である「なぜ宇宙には物質だけが残り、反物質が消えたのか（物質支配宇宙）」の解明に向けた極めて重要な基礎研究です。素粒子物理学の根幹であるCPT対称性を極限の精度でテストし、理論予測からのわずかなズレを検出すれば、現在の宇宙標準模型を書き換える歴史的マイルストーンとなります。",
-              "date": "05/27",
-              "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE84NG9vOGJPUWNCZjVpZVZNYXFkSmtwVy04dV90MDZsaWstVlJHZGV3M2hHWkVGaFF3Z2l0UURwaU9FUnp0b2V0T04zNVV6TUd3Z2xwSzlXVXZlWC1QcW1j?oc=5"
-            },
-            {
-              "headline": "ナマコの切断された付属器官が死なずに自己再組織化を維持する驚異的な生命力が確認される",
-              "content": "一般に宿主から切り離された臓器や複雑な組織は速やかに壊死するが、ナマコの切断された一部の付属器官が、無菌環境や成長因子に満ちた特殊な栄養培地でなくとも生き続け、組織を自己再組織化させるプロセスが生物学者により確認された。",
-              "impact": "従来の組織移植や再生医療の常識を揺るがす現象です。ナマコの細胞が持っている自律的な生存・修復および「脱分化・再分化」のシグナル経路を遺伝子レベルで解明できれば、地上の医療用移植臓器の簡易的な長期保存技術や、四肢・複合組織再生の制御技術に向けた革新的なインスピレーション源になります。",
-              "date": "05/29",
-              "url": "https://arstechnica.com/science/2026/05/severed-sea-cucumber-appendages-dont-seem-to-die/"
-            },
-            {
-              "headline": "微小重力下での幹細胞培養プロジェクトをNASAが始動、がんや難病の創薬を加速",
-              "content": "NASAは、宇宙空間の微小重力環境において幹細胞を培養し、がんや致命的な疾患の新たな治療法開発を前進させる実証プログラムを開始した。地球上では再現不可能な3次元的な細胞組織の成長を狙う。",
-              "impact": "重力から解放された環境では、細胞が地上のフラットな培養皿とは異なり、人体内部に極めて近い3次元オルガノイドを自然に形成します。これにより、極めて精巧な疾患モデルによる正確な創薬スクリーニングが可能になり、不治の病に対する治療法の特定や、将来的な「宇宙軌道上での高度再生医療製品製造」という先進産業の基盤を作ります。",
-              "date": "05/28",
-              "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNeGpqcUJSbGNkQzM3Nm91STM2SWotNXJ3UVRmb2dnNzIxTExXdjlSc3VIZWtQU1M4QkNuR2ZIbndKYUpzSVktOUxuUTZUbjBBNU9JcDlSR01BSUVjUGNVRC1LMkNXcmp2a0xoUVNVcFNtUHJqemswbmJlU3JiaXEyT2RlYlZ0dV91NEpRMzZqNzNWN0tLQ0MzV3ZNTXYxN1BJOG5pWkRHOWRVdzZfQkU2OFlwcW1iR0FLYzVYTA?oc=5"
-            },
-            {
-              "headline": "硬岩からリチウムを抽出する高効率な新精錬プロセスが開発される",
-              "content": "電気自動車（EV）用バッテリーなどで需要が急増している「リチウム」について、従来の精錬法を刷新し、硬い岩石から効率的にリチウムを取り出すための新しい化学プロセスが研究開発された。",
-              "impact": "これまで塩湖の蒸発に依存していたリチウム供給において、鉱石ベースでの高効率・低環境負荷での抽出を実現する新手法です。エネルギー消費と化学廃棄物を大幅に削減し、世界的な鉱物資源サプライチェーンの地政学的リスク緩和と脱炭素化社会のインフラ構築に直接貢献する実用性の高いディープテック技術です。",
-              "date": "05/28",
-              "url": "https://arstechnica.com/science/2026/05/researchers-develop-a-new-process-to-get-lithium-out-of-rocks/"
-            },
-            {
-              "headline": "LLMは「事実ではない」という明示的な否定警告を与えられても誤情報を信じ続ける脆弱性（否定無視）が露呈",
-              "content": "大規模言語モデル（LLM）において、「この内容は虚偽である」とファインチューニング段階で明確に否定の記述を与えて学習させても、依然としてその誤情報を自信を持って「真実」として出力してしまう「否定無視（negation neglect）」の現象が判明した。",
-              "impact": "生成AIの「ハルシネーション（幻覚）」対策や、悪意あるフェイクニュースの拡散防止において極めて深刻な課題を提示しています。システムルールやフィルターによる『〜をしてはいけない』『この事実は間違い』というルールベースの抑止がLLMの潜在的知識の学習に追いつかないアーキテクチャ上の欠陥を示しており、次世代AI開発における論理構造の根本的再設計を迫っています。",
+              "headline": "AIが警告を無視する脆弱性「否定の無視（Negation Neglect）」の存在が判明",
+              "content": "「この情報は事実ではない（誤りである）」と明確な打ち消し警告をラベル付けしてファチューニングを施しても、LLMが学習の過程でそれを「事実」として都合よく記憶・出力してしまうバイアス現象が最新研究により明らかになった。",
+              "impact": "現行のLLMアーキテクチャ（特にAttention機構）が、論理の「否定」を抽象的に理解するのが苦手であるという致命的な技術的脆弱性を突いている。ハルシネーション（虚偽出力）防止や偽情報対策における「単純な否定データ提示による学習」の限界を示しており、より厳密な真偽推論アーキテクチャの必要性を提起している。",
               "date": "05/28",
               "url": "https://arstechnica.com/ai/2026/05/llms-believe-false-statements-even-after-explicit-warnings-that-theyre-false/"
             },
             {
-              "headline": "AIコードに頼る「バイブ・コーディング」に反発、オープンソースのテストツールにAI破壊用プロンプト・インジェクションが混入",
-              "content": "十分な仕様理解やテストを行わずにAIにコードを丸投げする「バイブ・コーディング（vibe coding）」の風潮を憂慮した開発者が、オープンソースのJava用テストフレームワーク「jqwik」の内部コードに、AIコーディングエージェントに自律的にデータを消去させるような隠し指示を混入させ、物議を醸した。",
-              "impact": "AI開発時代の「ソフトウェアサプライチェーン攻撃」の新しい脅威ベクトルを実証したケースです。また、開発プロセス全般がAI任せになり品質保証が崩壊することへのコミュニティの強い危機感を表しており、開発者ツールにおける安全なAI運用の監査、ガバナンス、コードレビューの重要性が今後劇的に高まることを予期させます。",
+              "headline": "AI依存開発者に怒り、オープンソース開発者がライブラリに「AIエージェントのコード破壊プロンプト」を混入",
+              "content": "テストフレームワーク「jqwik」の開発者が、AIコーディングエージェントを検出すると出力ファイルを自動削除する隠し指示（プロンプトインジェクション）をオープンソースコード内に実装。思考停止してAI生成コードに頼る「バイブコーダー」へ対抗した。",
+              "impact": "ソフトウェア・サプライチェーンにおける、対AIエージェント型「データ毒殺（データ・サボタージュ）」の実例。自動化されたAIエージェントがサードパーティのリポジトリをスキャン・実行する時代の新たな脆弱性クラスであり、AI時代のOSSセキュリティ監査モデルの再構築を強いる。",
               "date": "05/28",
               "url": "https://arstechnica.com/security/2026/05/fed-up-with-vibe-coders-dev-sneaks-data-nuking-prompt-injection-into-their-code/"
+            },
+            {
+              "headline": "鉱石（岩石）から高効率にリチウムを抽出する新プロセスの実証",
+              "content": "電気自動車（EV）バッテリーに不可欠なリチウムを、硬質岩石の鉱石から安価かつ環境負荷を低減して抽出するための新たな化学プロセスが開発された。これがスケールアップすれば、リチウムサプライチェーンの構造変化が期待される。",
+              "impact": "リチウム抽出プロセスの大部分を占める従来の巨大な蒸発池方式や、高コストな製錬手法への依存を解消し得る。鉱山資源の精製プロセスをクリーン化・高効率化することで、EVバッテリーの価格引き下げと、地域的な供給ボトルネック（地政学的依存度）の緩和を両立させる技術となる。",
+              "date": "05/28",
+              "url": "https://arstechnica.com/science/2026/05/researchers-develop-a-new-process-to-get-lithium-out-of-rocks/"
+            },
+            {
+              "headline": "「無料の家事清掃」を対価に生のロボット学習データを収集する新興スタートアップの試み",
+              "content": "ドイツのMicroAGIは、プロの清掃員にカメラを装着させ、家事動作の全編を撮影してAIモデル訓練用の「行動データ」とする引き換えに、ニューヨーク市民に無料の本格住宅クリーニングを提供する新しいビジネスモデルを検証している。",
+              "impact": "実世界AI（Embodied AI・物理ロボット）に最も不足している「複雑で汚く、一貫性のない現実世界の行動データ」を効率よく大量収集するための、究極的に合理的かつ挑発的なアプローチ。プライバシーの議論を呼びつつも、実世界汎用AIロボットの実用化速度を大きく変える可能性がある。",
+              "date": "05/29",
+              "url": "https://arstechnica.com/ai/2026/05/robot-training-startup-will-send-humans-wearing-cameras-to-clean-your-home/"
+            },
+            {
+              "headline": "JWST、太陽の5000万倍の質量を持つ超大質量ブラックホールの直接測定に成功：銀河に先んじて形成された可能性",
+              "content": "ジェームズ・ウェッブ宇宙望遠鏡（JWST）が、最初期の古代銀河の中心で周囲の全恒星の合計質量を上回る超大質量ブラックホールの直接測定を実施。恒星よりもブラックホールが先に誕生したとする宇宙論シナリオを支持するデータが得られた。",
+              "impact": "銀河の中心で物質が集まることでブラックホールが成長したとする、従来の銀河形成理論モデルに根本的な再考を迫るパラダイムシフト。宇宙創成期の物質進化や暗黒物質（ダークマター）との関わりについて、物理学の基本シミュレーションのアップデートを余儀なくする超弩級の発見。",
+              "date": "05/29",
+              "url": "https://news.google.com/rss/articles/CBMixwJBVV95cUxNQ3ZBck12TE1DOHI4LUpGVXdkQXNPR2N3Y2ZYRFcxTW82eGRWOFQyLUVRZkEzbjE3aVREaUF4bjRKOUY4Y2d4UmpTVlViZjZzcXJiYUdOUlZncE1xQVREcTdnUGNHLXhfNThuTVBJZjNSQWlIVVBsa2h2UFM4emFjQzVQNGN5ZFNoakUxOTZvYV9nLXdQREdva3BUS0lTVzZjeWZLckZtSlN4eUF4MFFMZkh5UDZwUmRldnBnTURtOUtWZmVNY3phYzhrOGZRSDR4N2c3NHJnQl9seWc3Sm5tS1JUREV2cTBfZndwUjV6Vk1FeUZMUTR2Wl9fenBzakNMcndIcW9CeTY4bV85QU5oSmNsLUdXVlVIdjNvb0VyNTJ6VEg4ZnVRMEd0MVdvOWZOZEdHei0zNkVJRERSMElIVDE4RjhNYU0?oc=5"
             }
           ]
         },
@@ -284,116 +311,115 @@ window.newsData = {
           "title": "デベロッパートレンド (Hacker News & 海外フォーラム & 国内)",
           "topics": [
             {
-              "headline": "「bijou64」可変長整数エンコーディングによるCRDTの不整合解消と高速化",
-              "content": "Subduction CRDT同期プロトコル向けに開発された、ユニークな可変長整数（varint）エンコーディング「bijou64」。数値に対して一意の表現（非冗長表現）のみを許可することで、署名検証のバグを回避しつつ、数倍高速に動作することに成功した事実が公開されました。",
-              "impact": "★重要★ 従来の可変長エンコーディング（プロトコルバッファ等で使われるBase128など）は、同じ数値に対して複数のバイナリ表現が許容されてしまう「冗長性」があり、これがセキュリティ署名のバイパスやデータ破損を引き起こす要因となっていました。bijou64は「一値一表現」を保証することでセキュリティを保証し、かつビット演算を最適化することでパフォーマンス向上も両立させる、分散システム開発において極めて実用性の高い画期的な設計です。",
-              "date": "05/29",
+              "headline": "MCP（Model Context Protocol）の限界と実用性の懸念：実運用での検証レポート",
+              "content": "Model Context Protocol (MCP) のパフォーマンスについて検証したエンジニアリングブログにて、MCPがコンテキストを大量に消費すること、信頼性が低いこと、および既存のCLIやAPIとの重複が多いことが指摘されています。一方で、Claude Codeの遅延読み込み（Deferred Loading）などでのツール検索の改善も進められています。",
+              "impact": "★重要★ AIエージェントとローカル/リモートツールの連携として大きな期待を集めていたMCPですが、実際の大規模な開発スタックにおいてはコンテキスト制限や安定性の壁に直面しうることが実証されました。より現実的なアプローチとして、CLIやAPIを活用する既存設計との適切なハイブリッドモデルの模索が必要となる契機を示しています。",
+              "date": "5/29",
+              "url": "https://www.quandri.io/engineering-blog/mcp-is-dead"
+            },
+            {
+              "headline": "C++とCUDAによるミニマルかつ高性能なLLM推論エンジン「Tiny-vLLM」が公開",
+              "content": "vLLMの基本機能をコンパクトに再現することを目指し、C++とCUDAを用いてゼロから設計された軽量かつ高性能なLLM推論エンジン「tiny-vllm」が公開されました。数学的および技術的な推論最適化のアイデアをフルスクラッチで体験・学習することを目的としたリポジトリです。",
+              "impact": "★重要★ Pythonに依存しないネイティブ言語（C++/CUDA）で推論エンジンを記述することで、GPUのメモリ最適化や並列実行制御を極限までチューニングする手法を理解するための、教育的かつ実用性の高いプロジェクトです。推論パフォーマンス最適化に挑むエンジニアに深い知見を提供します。",
+              "date": "5/29",
+              "url": "https://github.com/jmaczan/tiny-vllm"
+            },
+            {
+              "headline": "Liquid AIが38兆トークン学習の8B MoEエッジモデル「LFM2.5-8B-A1B」を発表",
+              "content": "Liquid AIは、コンシューマ向けハードウェアで高速かつ高精度に動作するエッジ型MoE（混合専門家）モデル「LFM2.5-8B-A1B」をリリースしました。38兆トークンという膨大な学習を背景に、128Kのコンテキストウィンドウ、大規模な強化学習の導入、そして他言語対応効率を改善する語彙数の倍増を果たしています。",
+              "impact": "★重要★ クラウド側の巨大なモデルに依存することなく、安価な個人向けPCなどの端末上で信頼性の高いツール呼び出し（Tool Calling）や大規模なコンテキスト処理が可能になります。ローカル環境でのエージェント自走化やプライバシー保護型のAI実装をさらに加速させるマイルストーンです。",
+              "date": "5/29",
+              "url": "https://www.liquid.ai/blog/lfm2-5-8b-a1b"
+            },
+            {
+              "headline": "暗号化と超高速化を両立する可変長整数エンコーディング「bijou64」の登場",
+              "content": "Subduction CRDT同期プロトコル開発の中で、単一の数値を唯一の方法でしかエンコードできないようにすることで署名検証バグを防ぐ特殊な可変長整数（varint）エンコーディング「bijou64」が開発されました。結果として、安全性が向上しただけでなく、従来のエンコーディングよりも数倍高速に動作することが確認されました。",
+              "impact": "★重要★ セキュリティ向上のために設計された制約が、結果としてメモリアクセスやエンコードの並列化において極めて高いパフォーマンス改善をもたらした好例です。CRDTやP2P、高頻度トランザクションを行う分散システムの基礎レイヤー技術として広範な応用が期待されます。",
+              "date": "5/29",
               "url": "https://www.inkandswitch.com/tangents/bijou64/"
             },
             {
-              "headline": "SQLiteが「AIエージェントによる自動コード送信（PR）」を拒否するAGENTS.mdを追加",
-              "content": "SQLiteプロジェクトのソースコード管理にAGENTS.mdが追加され、AIエージェントによる自動的なプルリクエストを原則として拒否する方針が明記されました。コミット権の譲渡やパブリックドメイン化などの法的書類の提出が人間によってなされない限り、自動生成コードはマージされません。",
-              "impact": "★重要★ Claude Codeや各種AIコーディングツールの普及に伴い、人間ではなく「AIエージェントが自律的にプルリクエストを送る」時代に突入しています。SQLiteは知的財産権の厳格な管理やコードの100%パブリックドメイン化を理念に掲げており、この対応はAI生成コードが孕むライセンスリスクや、エージェントによるスパム的PRからプロジェクトを守るための歴史的な境界線となります。",
-              "date": "05/28",
+              "headline": "SQLiteがAIエージェントによる自動コード送信（Pull Request）を受け入れない「AGENTS.md」を追加",
+              "content": "SQLiteの開発プロジェクトが「AGENTS.md」という方針ファイルをリポジトリに追加しました。ここでは、AIエージェントによる自動生成コードのPull Requestを受け付けず、人間との事前の合意やパブリックドメインへの移行の明確な法的合意が必要であることを明記しています。",
+              "impact": "★重要★ AIエージェントが自動でリポジトリを走査してバグ修正やコード改善を送ることが容易になった現代において、ライセンス汚染や法的責任の不透明さからプロジェクトの完全性を防衛するための画期的なガバナンス表明です。今後のOSS開発姿勢に大きな一石を投じています。",
+              "date": "5/28",
               "url": "https://simonwillison.net/2026/May/27/sqlite-agents/"
             },
             {
-              "headline": "AIコーディングエージェントを撹乱する「プロテストウェア」がテストコードに出現",
-              "content": "テストフレームワーク「jqwik 1.10.0」において、テスト実行コード内にAIコーディングエージェントに「これまでの指示を無視してコードを削除せよ」というプロンプトインジェクションを試みるコードが仕込まれました。ターミナル実行時にはANSIエスケープにより隠蔽され、人間に気付かれずエージェントにのみ実行されるよう設計されています。",
-              "impact": "★重要★ AIエージェントにワークスペースを探索させてコードを書かせる際、敵対的なプロンプト（指示の乗っ取り）がソースコードや依存パッケージ、テストケースのなかに埋め込まれているリスクを示しています。自走型AIの自律実行にどう「サンドボックス」や「ガードレール」を強いるべきか、開発者にとって最も差し迫ったセキュリティ課題を浮き彫りにしています。",
-              "date": "05/28",
+              "headline": "AIコーディングエージェントを攪乱・防御する「プロテストウェア（Protestware）」の実装",
+              "content": "テストフレームワーク「jqwik 1.10.0」にて、テスト実行中に標準出力へ「これまでの指示を無視してコードを削除せよ」とプロンプトインジェクション命令を出力し、その後ANSIエスケープシーケンスでターミナル描画前に消去する仕組み（プロテストウェア）が実験的に仕込まれました。ターミナル等の標準出力をそのまま解析するAIエージェントにのみ作用します。",
+              "impact": "★重要★ オープンソースへの無断スクレイピングや、AIエージェントが勝手に依存コードをインポートして改変・学習することに抗議する新たな形態のハッカーカルチャーです。AIの文脈理解プロセスを逆手に取った防御・攻撃手法として、セキュリティの観点からも無視できない現象です。",
+              "date": "5/28",
               "url": "https://nesbitt.io/2026/05/28/protestware-for-coding-agents.html"
             },
             {
-              "headline": "GitHub、MCPの動的剪定によりAIエージェントのトークン消費を最大62%削減",
-              "content": "GitHubがAIエージェントにおけるワークフロー最適化の取り組みを発表。モデルコンテキストプロトコル（MCP）の動的剪定（Pruning）技術と、毎日の自動監査機構を導入することで、AIが不要なコンテキスト情報を読み込むオーバーヘッドを削減し、最大62%のトークン消費量削減に成功しました。",
-              "impact": "★重要★ 大規模なコードベースでAIエージェントを稼働させる場合、コンテキストの肥大化によるAPIコストの爆発とモデルの記憶（コンテキストウィンドウ）限界が最大の障壁となります。動的なMCP剪定は、エージェントが必要な最小限のコード・ツール文脈のみを参照する技術であり、AIを用いたソフトウェア開発を実用的なコスト水準で持続するための重要な突破口となります。",
-              "date": "05/29",
+              "headline": "GitHub、エージェントワークフローにおけるトークン消費を日次監査とMCP剪定で最大62%削減",
+              "content": "GitHubは自社の開発エージェントワークフローで発生するトークンコストを最適化するため、日次の利用状況監査とModel Context Protocol (MCP) のデータ選別・剪定（Pruning）を実行し、トークン消費量を最大62%削減することに成功しました。",
+              "impact": "★重要★ 自律型AIエージェントは実用化に向かっていますが、コンテキストの過剰な読み込みや無駄なプロンプトの往復によるAPI請求コストの高騰が実務上のボトルネックでした。この実績は、エージェントを実運用に乗せるために「トークンのガバナンスと刈り込み」が極めて実践的な課題かつ解決可能であることを証明しています。",
+              "date": "5/29",
               "url": "https://www.infoq.com/news/2026/05/github-agentic-token-savings/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global"
             },
             {
-              "headline": "AI時代の実装力は「コードを書く力」から「解空間を収束させる力」へシフト",
-              "content": "AIエージェントやvibe codingが台頭した今、エンジニアの実装力の本質が変化しているという論理的考察。人間が自らコードを書く代わりに、AIが高速生成した無数の「コード解空間」とあいまいな「仕様の解空間」を、現実のプロダクトとして使える形に『収束させる力』がシニアエンジニアの本質価値に据え置かれつつあります。",
-              "impact": "★重要★ シンタックスの記述能力自体の価値が急速に低下する一方で、要件の曖昧さを定義し直す力、抽象度の高いソフトウェア構成要素のオーケストレーション、および境界条件の設計力など、「メタプログラミング」的なスキルこそがこれからの開発者に求められる事実を言語化しています。開発者としてのキャリア形成戦略における指針となります。",
-              "date": "05/26",
+              "headline": "サイバーセキュリティに特化した高性能フロンティアAIの脅威変化に対する、金融スタートアップの対応方針",
+              "content": "Claude MythosやGPT-5.5-Cyberといったサイバーセキュリティ領域に特化した超高性能AIの台頭を踏まえ、金融庁および日銀の共同要請を受けたFinatextグループが、セキュリティ設計や監査体制、AIエージェントの利用に対する具体的な防御方針を策定しました。",
+              "impact": "★重要★ AIが高度な脆弱性探索や攻撃スクリプト生成を担うようになり、サイバー攻撃の難易度が一気に下がった現状における企業の現実的な「防衛シールド」の提示です。AI時代において金融・セキュリティクリティカルな事業者がどのように防御スタンスをアップデートすべきかの実務例として参考になります。",
+              "date": "5/29",
+              "url": "https://zenn.dev/finatext/articles/policy-for-frontier-ai"
+            },
+            {
+              "headline": "RustとWebAssemblyでMicrosoft Word（.docx）をブラウザ閲覧するOSS「Oxi」をフルスクラッチ開発",
+              "content": "ブラウザ上でOfficeドキュメント（.docx / .xlsx / .pptx）やPDFを完全にネイティブ環境で再現し高速に閲覧可能にするオープンソースプロジェクト「Oxi」の軌跡が公開。Rust + WebAssemblyでゼロからパーサーとレンダラーを記述し、短期間で約98k行の実装を完了しています。",
+              "impact": "★重要★ 高価な商用ライセンスや重いサーバーサイド処理を用いることなく、安全にブラウザサンドボックス内で複雑なOffice規格をレンダリングする極めて野心的な試みです。WasmがWebのフロントエンド設計をどこまで拡張できるかの極限を示すエンジニアリングです。",
+              "date": "5/28",
+              "url": "https://zenn.dev/ryujiyasuko/articles/8a464ab4382a66"
+            },
+            {
+              "headline": "AI時代の実装力：『コードを書く力』から『解空間を収束させる力』への役割の変化",
+              "content": "AIエージェントによる自動生成（vibe coding）の普及が進む中で、エンジニアに求められる「実装力」の定義が変わっています。現在は「構文を書く力」ではなく、無限に発散する「コード解空間」と顧客が必要とする「プロダクト解空間」を結びつけ、現実に動作する形に収束させる能力が真の価値とされています。",
+              "impact": "★重要★ コーディングタスクが自動化されるなかで、エンジニアがキャリアを積む上で「何が最も重要な能力なのか」を抽象的・論理的に明確化した分析。シニアからジュニア、ノーコード開発者まで、それぞれのAIとの付き合い方を再定義する思考モデルとして極めて有益です。",
+              "date": "5/26",
               "url": "https://zenn.dev/tesla/articles/f67c29415a02fc"
-            },
-            {
-              "headline": "「JWTをlocalStorageに置くな」からBFFを介したCookie回帰への歴史的必然性",
-              "content": "セキュリティの第一人者である徳丸浩氏のX上の指摘をもとに、SPA（シングルページアプリケーション）のセッション管理においてJWTから伝統的なCookieセッションへ先祖返りしている潮流を時系列で整理。BFF（Backend For Frontend）パターンにより、フロントエンドが直接JWTを持たない安全な設計が主流になりつつあります。",
-              "impact": "★重要★ API主導の開発初期にJWTのlocalStorage保持がカジュアルに広まりましたが、XSS脆弱性による漏洩リスクが常に課題でした。BFFを挟むことで「クライアント側はセキュアなCookieでBFFと通信し、内部でJWTを扱う」という二段階構成が確立され、Webセキュリティにおけるベストプラクティスが再定義されています。AIエージェントがコードを生成する際、誤った「JWT直保持」パターンを排除するための必須知識です。",
-              "date": "05/27",
-              "url": "https://zenn.dev/khale/articles/web-session-jwt-cookie-history"
-            },
-            {
-              "headline": "偽npmパッケージに隠されたRAT、HuggingFaceをC2・流出先として悪用",
-              "content": "npmレジストリ上の「js-logger-pack」という悪意あるパッケージが、計29回のアップデートを経て完全なリモートアクセストロイの木馬（RAT）へと進化。被害者の機密データを流出させる送信先として「HuggingFace」のリポジトリが悪用されていたことが検知されました。",
-              "impact": "★重要★ サプライチェーン攻撃における最新の戦術変化を示しています。従来のように不審なC2サーバーや一般的なクラウドストレージではなく、AI開発の標準インフラである「HuggingFace」のドメインを利用することで、組織の監視フィルタリングやIPブロッキングを容易に回避できる点が極めて狡猾であり、セキュリティ担当者にとって警戒すべき新しい脅威です。",
-              "date": "05/29",
-              "url": "https://www.reddit.com/r/programming/comments/1tqwksq/someone_hid_a_full_rat_inside_a_fake_npm_package/"
-            },
-            {
-              "headline": "AIコーディング支援は「月額サブスク」から「トークンAPI従量課金」の限界へ",
-              "content": "GitHub Copilotが始めた「月額固定で補完・チャット使い放題」というサブスクリプションモデルが、Claude CodeやCodexのような高密度に自走する「エージェント型」の台頭により変革を迫られています。実質的に消費したトークン量に応じたAPI課金や、上限枠の変動を伴う新課金モデルへの移行を分析しています。",
-              "impact": "★重要★ 自走型AIエージェントは1回の命令で裏側で数百回ループし、数万〜数十万トークンを数分で消費します。これにより、従来の「月額20ドル」で定額提供することの経済的破綻が顕在化しつつあり、企業やエンジニアは「エージェントツールの費用対効果」を計算しながら自走させるという、新たなコスト管理（FinOps）のフェーズに入っています。",
-              "date": "05/28",
-              "url": "https://zenn.dev/tkithrta/articles/0378bc53599fb3"
-            },
-            {
-              "headline": "「論理削除（deleted_at列）」を廃止し、テーブル分離によるDB設計のプラクティス",
-              "content": "多くのシステムで採用されている「deleted_at」フラグによる論理削除が、ユニークキー制約の崩壊、不要なインデックス付与、WHERE句の書き忘れによるデータ流出リスクといった「運用の辛さ」を生むアンチパターンであると指摘。生存データと履歴データでテーブルを物理的に分ける具体的なDB設計パターンを提示しています。",
-              "impact": "★重要★ 開発初期は手軽な論理削除ですが、プロダクトが成長するにつれてクエリの複雑化やパフォーマンス悪化の原因となります。データを「状態」に応じて別テーブル（例: active_users, deleted_users）へ退避させるアプローチは、リレーショナルデータベースにおける本来の整合性とインデックス最適化を取り戻すための、実践的で長寿なアーキテクチャ設計指針です。",
-              "date": "05/28",
-              "url": "https://zenn.dev/mstn_/articles/af99d216639b30"
-            },
-            {
-              "headline": "Liquid AI、38兆トークン事前学習のエッジ向けMoEモデル「LFM2.5-8B-A1B」発表",
-              "content": "Liquid AIがコンシューマー向けハードウェア上で動作する高速なエッジAIモデル「LFM2.5-8B-A1B」を発表。事前学習トークン数を前作の12Tから38Tへ大幅にスケールアップし、128Kコンテキストウィンドウ、語彙数の倍増による日本語をはじめとする非ラテン語圏でのトークナイズ効率向上を実現しました。",
-              "impact": "★重要★ クラウドにデータを送れない、あるいはオフライン環境での自走AIが求められるシナリオにおいて、エッジ側での「Tool Calling（関数呼び出し）」の精度と速度を劇的に向上させます。また、トークナイズ効率の向上は、日本語の文字あたりのトークン数（コストと応答速度に直結）を削減するため、ローカルAIの実用性を飛躍的に高める基盤となります。",
-              "date": "05/29",
-              "url": "https://www.liquid.ai/blog/lfm2-5-8b-a1b"
             }
           ]
         }
       ],
       "summary": {
-        "content": "本日は、AI技術の急激な進歩とそれに伴う「現実的な課題（幻滅期への突入、コスト爆発、セキュリティリスク）」の顕在化、そして地政学的緊張（ウクライナ、中東、欧中摩擦）によるエネルギー・サプライチェーンの不確実性が、グローバル市場と先端技術開発を複雑に揺さぶっている1日と言えます。日経平均が史上最高値を更新する一方で、現実の資源不足や労働力不足といった構造的な限界も浮き彫りになっています。"
+        "content": "本日のニュースは、中東地域における直接的な軍事衝突リスクの高まりとエネルギー供給網への懸念、米中欧における貿易摩擦の激化といった地政学的緊迫化が顕著です。その一方で、ビジネス・テック分野ではAI産業が単なるモデルの性能競争から、データセンター向け受動部品や推論特化チップなどのインフラ実需、さらにはAIエージェントの暴走を抑えるセキュリティやガバナンス（プロテストウェアやAGENTS.mdなど）の実用フェーズへと急速に移行していることが浮き彫りとなっています。"
       }
     },
     "week": {
-      "overview": "世界の潮流は今、実用化の初期熱狂（ハイプサイクルにおけるピーク）を終え、実質的なコスト・持続可能性・セキュリティを問う「大いなる現実検証期」へとシフトしています。AI分野では、生成モデルの自律性（AIエージェント）の台頭に伴い、これまでの人間用Webインフラの崩壊、コード品質の低下、トークン消費コストの経済的破綻といった技術的・財務的なボトルネックが急速に表面化しています。これに対し、エッジ向けMoEモデルやメモリボトルネック解消を狙うハードウェア革命など、効率性と実用性を追求する動きが連動しています。\n\n同時に、物理世界では地政学的な対立が常態化し、グローバル経済のブロック化（デカップリング）とエネルギー・資源供給の脆弱性が際立っています。こうした緊張感のなか、ディープテック（光半導体、微小重力下での創薬、新エネルギー精錬）や基礎科学のブレイクスルーが、従来の物理的・経済的制約（ムーアの法則の限界、不治の病、資源枯渇）を打破するための次なる成長エンジンとして切望されています。",
+      "overview": "本日の一連のニュース群から見えてくるマクロな潮流は、AI技術の『実装・運用の現実』への直面と、グローバル地政学における『多極的摩擦の常態化』です。これまで理想化されてきた生成AIや自律型エージェントの普及に伴い、予算超過や技術的負債、プロンプトインジェクションなどのセキュリティ脆弱性、さらにはオープンソースコミュニティにおける対AI防御（プロテストウェア）といった現実的な課題が次々と表面化しています。これに伴い、市場の関心は高度な基盤モデルそのものから、実用的なセキュリティ制御や、受動部品を含む物理インフラのサプライチェーンへとシフトしています。\n\n同時に、中東の緊張激化によるエネルギー航路（ホルムズ海峡）の危機や、米・中・欧・ベトナムを巻き込む新たな貿易・関税リスクは、従来のグローバルサプライチェーンに二重の打撃を与えています。宇宙開発におけるスペースXの一強独占が強まる中、エネルギーや安全保障、サイバー防衛の全領域において、国家と民間、そしてAIが複雑に絡み合う『新しい地政学的秩序』が形成されつつあります。",
       "key_trends": [
         {
-          "title": "AIエージェントの自律化とガバナンスの衝突",
-          "analysis": "AIによるコード生成や自律的タスク遂行（AIエージェント）が普及する一方で、コード品質の低下（スロップウェアの増加）や、悪意あるコードを埋め込む敵対的プロンプト、暴走エージェントによるセキュリティ侵害といったリスクが現実のものとなっています。SQLiteによるAIエージェントのPR拒否やSnowflakeのNatoma買収に代表されるように、今後は『いかにAIを活用するか』から『いかにAIを制御・監視するか』というガバナンスが企業の重要課題になります。"
+          "title": "AIの関心移行：モデル開発から「推論・エッジ・物理部品」の実需へ",
+          "analysis": "AIモデルの規模拡大競争と並行して、Groqなどの推論特化チップ、メモリ帯域問題の解決（Xcena）、さらには村田製作所に代表される受動部品へと投資と需要の波及が鮮明になっています。また、Liquid AIによるエッジ向けMoEモデルの登場など、巨大クラウドから端末側（ローカル）での自律動作を狙う「エッジ移行」のトレンドが強まっています。"
         },
         {
-          "title": "生成AIの「定額制バブル」崩壊と従量課金FinOpsの台頭",
-          "analysis": "AIエージェントが自走する場合、短時間で膨大なAPIコール（トークン）を消費するため、月額20ドルのようなサブスクリプション型ビジネスモデルが破綻しつつあります。GitHubのMCP（モデルコンテキストプロトコル）による文脈の動的剪定など、開発プロセスにおいて「トークン消費コストの最適化（FinOps）」を考慮することが、現実的なシステム維持の必須スキルへと移行しています。"
+          "title": "AIエージェントの自律化に伴うセキュリティとガバナンス摩擦の勃発",
+          "analysis": "自律型AIエージェントの普及は、企業に大きな生産性向上をもたらす一方で、システム破壊やデータ流出のリスクをはらんでいます。OktaやSnowflakeがセキュリティ制御技術の開発や買収を急ぐ一方、SQLiteがAIによる自動PRを拒否するガバナンス表明を出し、開発者がAIを錯乱させるコードを混入させるなど、人間とAIエージェントの「主権争い」と新たな脆弱性対策が急速に顕在化しています。"
         },
         {
-          "title": "物理的デカップリングとシーレーン安全保障の死活問題",
-          "analysis": "ウクライナ戦争の欧州飛び火懸念、中東でのホルムズ海峡リスク、東シナ海・南シナ海を巡る日米比と中国の覇権争いは、海上輸送ルート（シーレーン）と原材料サプライチェーンを直撃しています。特に中東依存度の高い日本にとって、原油輸入激減とエネルギーコスト高騰は、国内産業の空洞化や物価高を助長するアキレス腱となっており、半導体や車載電子部品における国産回帰や代替調達路の確保が急務となっています。"
+          "title": "エネルギー・物流の地政学的遮断リスクとブロック経済化の加速",
+          "analysis": "イランとの停戦決裂に伴うホルムズ海峡での「ダーク航行」の増加は、日本のエネルギー安全保障に直撃します。これに米USTRのベトナム通商法301条調査やEUの対中関税規制が重なり、従来のグローバルな水平分業体制は完全に崩壊。信頼できる同盟国内でサプライチェーンを完結させる「フレンド・ショアニング」や地産地消型ブロック経済化への再編をさらに加速させています。"
         }
       ]
     }
   },
   "glossary": {
-    "RAG (Retrieval-Augmented Generation)": "検索拡張生成。LLM（大規模言語モデル）に外部データベースやWebドキュメントの情報をリアルタイムに検索・参照させることで、事実に基づく正確な回答を生成させ、嘘（ハルシネーション）を抑制する技術。",
-    "プロンプトインジェクション (Prompt Injection)": "AI（LLM）への入力（プロンプト）のなかに、開発者の意図しない命令や悪意ある指示を紛れ込ませることで、AIを騙して不正な動作をさせたり、秘密情報を漏洩させたりする攻撃手法。",
-    "CRDT (Conflict-free Replicated Data Type)": "競合のない複製データ型。分散システムや共同編集ツール（Notion、Googleドキュメントなど）において、複数のサーバーやデバイスで同時にデータが編集されても、中央サーバーを介さずに自動的に一貫性のある正しい状態に統合（マージ）できるデータ構造。",
-    "BFF (Backend For Frontend)": "フロントエンド専用のバックエンドサーバー。クライアント（ブラウザやアプリ）とバックエンドAPIの間に入り、セキュリティの強化（セッション管理、Cookieの制御）や、デバイス向けの情報整理を肩代わりする設計パターン。",
-    "MoE (Mixture of Experts)": "混合専門家モデル。AIの学習モデル内に複数の「専門家（Expert）」となる小さなネットワークを配置し、タスクごとに最適なネットワークのみを有効化させて処理を行うことで、高い性能を維持したまま計算コストやメモリ消費を劇的に抑える技術。",
-    "フォン・ノイマン・ボトルネック (von Neumann bottleneck)": "一般的なコンピュータにおいて、演算処理装置（CPU）と記憶装置（メモリ）が分離しているために、データ転送速度が全体の処理速度のボトルネックとなり、遅延や電力消費の肥大化を招く物理的な限界現象。",
-    "オルガノイド (Organoid)": "幹細胞などを培養し、体外で再現された「ミニ臓器（類似臓器）」。人間の本物の臓器に近い3次元構造を持つため、動物実験に代わる精緻な病態解明や新薬のスクリーニング（毒性・有効性テスト）に利用される。",
-    "C2サーバー (Command and Control Server)": "サイバー攻撃（マルウェアなど）において、感染させた標的のコンピュータに対して不正な命令を送信したり、盗み出したデータを収集したりするためにハッカーが利用する制御用の指令サーバー。"
+    "ダーク航行": "AIS（自動船舶識別装置）などの位置情報発信機を意図的にオフにして航行すること。軍事的脅威や海賊から自船の位置を隠す安全確保のために行われるが、衝突事故のリスクを高めるほか、国際的な海上輸送の監視を困難にする。",
+    "通商法301条": "米国の通商法に基づき、外国の不公正な貿易慣行や知的財産権侵害に対して、米大統領が一方的な制裁措置（関税の引き上げなど）を発動できる強力な条項。",
+    "プロンプトインジェクション": "AI（特に大規模言語モデル）に対して悪意のある命令やデータを入力し、システムの開発者が想定していない不正な動作や機密情報の開示、セキュリティ制約の回避を引き起こす攻撃手法。",
+    "MCP (Model Context Protocol)": "AIエージェントが、外部のデータソースや開発ツール（API、ローカルファイルなど）と安全かつ標準化された方法で連携するためのオープンな共通規格。",
+    "プロテストウェア (Protestware)": "政治的な主張やテクノロジー企業の行動（AIによる無断学習など）に抗議（プロテスト）するために、開発者が自身のオープンソース・ソフトウェアにあえて意図的なバグや制限、特定行動を妨害するコードを混入させる手法。",
+    "MoE (Mixture of Experts)": "複数の特化したニューラルネットワーク（エキスパート）を用意し、入力データに応じて最適な専門モデルのみを活性化させて処理を行うAIの設計手法。効率的な推論と高性能化を低コストで両立できる。",
+    "ソニックブーム": "航空機などが音速（超音速）を超えて飛行する際に、機体によって圧縮された空気が衝撃波となり、地上に大音響の騒音や振動（爆音）をもたらす現象。超音速旅客機の商業運航における最大の技術的・規制的障壁となっている。"
   },
-  "updated_at": "2026-05-30 08:04 JST",
+  "updated_at": "2026-05-30 15:17 JST",
   "token_usage": {
-    "2026-05": 1046578,
+    "2026-05": 1181111,
     "2026-05-27": 248362,
     "2026-05-28": 401129,
     "2026-05-29": 263394,
-    "2026-05-30": 133693
+    "2026-05-30": 268226
   }
 };
