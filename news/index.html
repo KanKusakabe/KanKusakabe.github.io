@@ -94,7 +94,20 @@
     .tabs-hidden {
       transform: translateY(-150%) !important;
     }
+    .wordcloud-genre-container span {
+      transition: transform 0.2s cubic-bezier(0.4, 0, 0.2, 1), color 0.2s ease, text-shadow 0.2s ease;
+      cursor: pointer;
+      display: inline-block;
+      user-select: none;
+    }
+    .wordcloud-genre-container span:hover {
+      transform: scale(1.12) !important;
+      text-shadow: 0 4px 12px rgba(99, 102, 241, 0.15);
+      z-index: 50;
+    }
   </style>
+  <!-- Load wordcloud2 library -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/wordcloud2.js/1.0.2/wordcloud2.min.js"></script>
   <!-- Load the generated data -->
   <script src="./news_data.js"></script>
 </head>
@@ -131,30 +144,7 @@
     </div>
   </header>
 
-  <!-- Market Overview Charts -->
-  <div class="w-full bg-white/60 border-b border-slate-200/80 py-4 sm:py-6 relative z-10 backdrop-blur-sm">
-    <div class="max-w-[90rem] mx-auto px-4 sm:px-6 lg:px-8">
-      
-      <!-- Chart Controls -->
-      <div class="flex items-center justify-between mb-4">
-        <h3 class="text-lg sm:text-xl font-bold text-slate-800 flex items-center gap-2 tracking-wide font-outfit">
-          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-indigo-500" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M6 3v18M18 3v18M12 1v22M9 7h6v10H9z" />
-          </svg>
-          主要マーケット指標
-        </h3>
-        <div class="flex bg-slate-100/80 p-0.5 rounded-lg border border-slate-200/80">
-          <button id="btn-range-1W" onclick="updateChartRange('1W')" class="px-3 py-1 text-[10px] font-bold rounded-md text-slate-500 hover:text-slate-700 transition-colors font-outfit uppercase tracking-wider">1W</button>
-          <button id="btn-range-1M" onclick="updateChartRange('1M')" class="px-3 py-1 text-[10px] font-bold rounded-md bg-white text-indigo-600 shadow-sm border border-slate-200/50 transition-all font-outfit uppercase tracking-wider">1M</button>
-          <button id="btn-range-12M" onclick="updateChartRange('12M')" class="px-3 py-1 text-[10px] font-bold rounded-md text-slate-500 hover:text-slate-700 transition-colors font-outfit uppercase tracking-wider">1Y</button>
-        </div>
-      </div>
 
-      <div class="flex overflow-x-auto snap-x snap-mandatory gap-4 pb-4 -mx-4 px-4 no-scrollbar sm:mx-0 sm:px-0 sm:grid sm:grid-cols-2 lg:grid-cols-4 sm:pb-0" id="mini-charts-container">
-        <!-- Charts will be rendered here by JS -->
-      </div>
-    </div>
-  </div>
 
   <main class="flex-1 max-w-[90rem] w-full mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-12 relative z-10">
     
@@ -180,6 +170,17 @@
             <path stroke-linecap="round" stroke-linejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z" />
           </svg>
           API使用量(本日/今月): <span id="token-usage" class="font-semibold text-indigo-600">--</span>
+        </span>
+        <span id="filter-status-wrapper" class="hidden flex items-center gap-1.5 border-l border-slate-300 pl-4">
+          <span class="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full text-xs font-semibold bg-indigo-50 border border-indigo-200 text-indigo-600 shadow-sm">
+            <span>絞り込み: </span>
+            <span id="active-filter-word" class="font-bold"></span>
+            <button onclick="clearWordFilter()" class="hover:text-indigo-800 transition-colors ml-1 focus:outline-none flex items-center justify-center w-3.5 h-3.5 rounded-full hover:bg-indigo-100" title="フィルターを解除">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-3 w-3" viewBox="0 0 20 20" fill="currentColor">
+                <path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd" />
+              </svg>
+            </button>
+          </span>
         </span>
       </div>
     </div>
@@ -207,6 +208,7 @@
           </button>
         </div>
 
+
         <div id="news-content" class="hidden space-y-10">
           <!-- Content rendered dynamically by JS -->
         </div>
@@ -230,6 +232,31 @@
 
   </main>
 
+  <!-- Market Overview Charts -->
+  <div class="w-full bg-white/60 border-t border-b border-slate-200/80 py-8 relative z-10 backdrop-blur-sm">
+    <div class="max-w-[90rem] mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <!-- Chart Controls -->
+      <div class="flex items-center justify-between mb-4">
+        <h3 class="text-lg sm:text-xl font-bold text-slate-800 flex items-center gap-2 tracking-wide font-outfit">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-indigo-500" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M6 3v18M18 3v18M12 1v22M9 7h6v10H9z" />
+          </svg>
+          主要マーケット指標
+        </h3>
+        <div class="flex bg-slate-100/80 p-0.5 rounded-lg border border-slate-200/80">
+          <button id="btn-range-1W" onclick="updateChartRange('1W')" class="px-3 py-1 text-[10px] font-bold rounded-md text-slate-500 hover:text-slate-700 transition-colors font-outfit uppercase tracking-wider">1W</button>
+          <button id="btn-range-1M" onclick="updateChartRange('1M')" class="px-3 py-1 text-[10px] font-bold rounded-md bg-white text-indigo-600 shadow-sm border border-slate-200/50 transition-all font-outfit uppercase tracking-wider">1M</button>
+          <button id="btn-range-12M" onclick="updateChartRange('12M')" class="px-3 py-1 text-[10px] font-bold rounded-md text-slate-500 hover:text-slate-700 transition-colors font-outfit uppercase tracking-wider">1Y</button>
+        </div>
+      </div>
+
+      <div class="flex overflow-x-auto snap-x snap-mandatory gap-4 pb-4 -mx-4 px-4 no-scrollbar sm:mx-0 sm:px-0 sm:grid sm:grid-cols-2 lg:grid-cols-4 sm:pb-0" id="mini-charts-container">
+        <!-- Charts will be rendered here by JS -->
+      </div>
+    </div>
+  </div>
+
   <div id="glossary-drawer" class="fixed inset-x-0 bottom-0 z-50 bg-white/98 backdrop-blur-xl border-t border-slate-200 shadow-[0_-20px_50px_rgba(0,0,0,0.1)] transform translate-y-full transition-transform duration-300 cubic-bezier(0.4, 0, 0.2, 1) flex flex-col max-h-[85vh] sm:max-h-[50vh]">
     <div class="mx-auto w-12 h-1.5 bg-slate-300 hover:bg-slate-400 rounded-full my-3 flex-shrink-0 cursor-pointer" onclick="closeGlossary()"></div>
     <div class="px-6 pb-6 overflow-y-auto max-w-3xl mx-auto w-full">
@@ -251,8 +278,171 @@
 
   <script>
     let newsData = null;
+    let activeWordFilter = null;
     const TOPICS_PER_CATEGORY = 30;
     const INITIAL_VISIBLE_TOPICS = 4;
+
+
+
+    function buildWordCloudData(topics) {
+      const stopWords = new Set([
+        "こと", "もの", "ため", "これ", "それ", "よう", "あり", "ある", "する", "いる", 
+        "での", "から", "まで", "より", "とき", "ツール", "わけ", "はず", "そう", "うち", 
+        "どこ", "そこ", "ここ", "こちら", "そちら", "あちら", "ニュース", "情報", "発表", 
+        "指摘", "影響", "関連", "結果", "部分", "全体", "自身", "概要", "本文", "抜粋", 
+        "日付", "重要", "可能", "現在", "解説", "サマリー", "本日", "対象", "ルール", 
+        "記載", "表示", "確認", "報告", "存在", "対応", "導入", "設定", "計画", "実行",
+        "予定", "追加", "新規", "更新", "完了", "エラー", "警告", "失敗", "成功", "提供",
+        "利用", "使用", "開始", "終了", "変更", "削除", "場合", "機能", "構築", "対応",
+        "拡大", "実現", "期待", "加速", "懸念", "計画", "報告", "開始", "発表", "関連",
+        "結果", "状況", "世界", "中心", "方法", "解決", "開発者", "日本", "市場", "必要",
+        "今回", "非常", "各種", "対策"
+      ]);
+
+      const words = {};
+      const regex = /[\u4e00-\u9fff]{2,8}|[\u30a0-\u30ff\u30fc]{2,8}|[a-zA-Z0-9#+-]{2,8}/g;
+
+      topics.forEach(topic => {
+        const text = `${topic.headline || ''} ${topic.content || ''} ${topic.impact || ''}`;
+        let match;
+        while ((match = regex.exec(text)) !== null) {
+          const word = match[0];
+          let normalized = word;
+          if (/^[a-zA-Z]+$/.test(word)) {
+            normalized = word.toUpperCase();
+          }
+          if (normalized.length > 1 && !stopWords.has(normalized.toLowerCase())) {
+            words[normalized] = (words[normalized] || 0) + 1;
+          }
+        }
+      });
+
+      return Object.entries(words)
+        .sort((a, b) => b[1] - a[1])
+        .slice(0, 60); // Show 60 words for organic density
+    }
+
+    function getWordColor(word, scale) {
+      if (activeWordFilter) {
+        if (word === activeWordFilter) {
+          return '#4f46e5'; // Indigo for active
+        } else {
+          return '#cbd5e1'; // Greyed out for others
+        }
+      }
+
+      // Pastels/earthy tones similar to user's reference image
+      const colors = [
+        '#7b9f35', '#6b8e23', '#a2ad59', // Greens/olive
+        '#c0392b', '#d9534f', '#cd5c5c', // Reds/crimson
+        '#8e44ad', '#9b59b6', '#c71585', '#db7093', // Purples/pinks
+        '#2980b9', '#4682b4', '#5f9ea0', // Blues
+        '#d35400', '#f39c12', '#e67e22', '#daa520', // Oranges/yellows
+        '#2c3e50', '#7f8c8d' // Slate/dark gray
+      ];
+      
+      let hash = 0;
+      for (let i = 0; i < word.length; i++) {
+        hash = word.charCodeAt(i) + ((hash << 5) - hash);
+      }
+      const idx = Math.abs(hash) % colors.length;
+      return colors[idx];
+    }
+
+    function updateFilterStatusUI() {
+      const wrapper = document.getElementById('filter-status-wrapper');
+      const textSpan = document.getElementById('active-filter-word');
+      if (!wrapper || !textSpan) return;
+      if (activeWordFilter) {
+        textSpan.innerText = activeWordFilter;
+        wrapper.classList.remove('hidden');
+      } else {
+        wrapper.classList.add('hidden');
+      }
+    }
+
+    function renderGenreWordCloud(cat) {
+      const wordsDiv = document.getElementById(`wordcloud-genre-${cat.genre}`);
+      if (!wordsDiv) return;
+
+      const topics = cat.topics || [];
+      const wordFreqs = buildWordCloudData(topics).slice(0, 18);
+
+      if (wordFreqs.length === 0) {
+        wordsDiv.classList.add('hidden');
+        return;
+      }
+
+      wordsDiv.innerHTML = '';
+
+      const maxF = Math.max(...wordFreqs.map(w => w[1]));
+      const minF = Math.min(...wordFreqs.map(w => w[1]));
+
+      const isMobile = window.innerWidth < 640;
+      const minSize = 9;
+      const maxSize = isMobile ? 18 : 22;
+
+      const list = [];
+      wordFreqs.forEach(([word, count]) => {
+        const scale = maxF === minF ? 0.5 : (count - minF) / (maxF - minF);
+        const size = minSize + Math.round(scale * (maxSize - minSize));
+        const finalSize = (activeWordFilter === word) ? Math.round(size * 1.1) : size;
+        list.push([word, finalSize]);
+      });
+
+      WordCloud(wordsDiv, {
+        list: list,
+        gridSize: 4,
+        weightFactor: 1,
+        fontFamily: 'Outfit, Inter, Noto Sans JP, sans-serif',
+        color: function (word) {
+          const count = wordFreqs.find(w => w[0] === word)?.[1] || minF;
+          const scale = maxF === minF ? 0.5 : (count - minF) / (maxF - minF);
+          return getWordColor(word, scale);
+        },
+        backgroundColor: 'transparent',
+        rotateRatio: 0,
+        drawOutOfBound: false,
+        shuffle: false
+      });
+
+      if (!wordsDiv.dataset.listenerBound) {
+        wordsDiv.addEventListener('click', (e) => {
+          const span = e.target.closest('span');
+          if (span) {
+            const word = span.textContent.trim();
+            if (word) {
+              toggleWordFilter(word);
+            }
+          }
+        });
+        wordsDiv.dataset.listenerBound = 'true';
+      }
+    }
+
+    function toggleWordFilter(word) {
+      if (activeWordFilter === word) {
+        activeWordFilter = null;
+      } else {
+        activeWordFilter = word;
+      }
+      renderNews();
+    }
+
+    function clearWordFilter() {
+      activeWordFilter = null;
+      renderNews();
+    }
+
+    let resizeTimer = null;
+    window.addEventListener('resize', () => {
+      clearTimeout(resizeTimer);
+      resizeTimer = setTimeout(() => {
+        if (newsData) {
+          renderNews();
+        }
+      }, 300);
+    });
 
     document.addEventListener('DOMContentLoaded', () => {
       loadNewsData();
@@ -370,6 +560,7 @@
     }
 
     function renderNews() {
+      updateFilterStatusUI();
       if (!newsData) return;
       
       const periodDataDays = newsData.periods['days'];
@@ -380,6 +571,48 @@
       newsContent.classList.remove('hidden');
 
       let finalHtml = '';
+
+      // --- Render Week (Trends) ---
+      if (periodDataWeek) {
+        let trendsHtml = '';
+        if (periodDataWeek.key_trends && Array.isArray(periodDataWeek.key_trends)) {
+          periodDataWeek.key_trends.forEach(trend => {
+            trendsHtml += `
+              <div class="bg-white/80 border border-slate-200 rounded-xl p-6 shadow-sm hover:shadow-md transition-shadow">
+                <h4 class="text-base font-bold text-slate-800 mb-3 border-l-4 border-indigo-500 pl-3 leading-snug break-words">${parseGlossaryTerms(trend.title)}</h4>
+                <p class="text-sm text-slate-600 leading-relaxed break-words">${parseGlossaryTerms(trend.analysis)}</p>
+              </div>
+            `;
+          });
+        }
+
+        finalHtml += `
+          <div class="max-w-4xl mx-auto w-full space-y-8">
+            <section class="bg-gradient-to-r from-indigo-900 to-slate-800 rounded-2xl p-8 sm:p-10 text-white shadow-xl relative overflow-hidden">
+              <div class="absolute top-0 right-0 -mt-10 -mr-10 w-40 h-40 bg-white/10 rounded-full blur-2xl"></div>
+              <div class="relative z-10">
+                <h3 class="text-2xl font-black mb-4 tracking-tight">Trends & Big Picture</h3>
+                <p class="text-[15px] leading-relaxed text-indigo-100 font-medium break-words">${parseGlossaryTerms(periodDataWeek.overview || "")}</p>
+              </div>
+            </section>
+            
+            <div class="space-y-4">
+              <h3 class="text-lg font-bold text-slate-800 flex items-center gap-2 px-2">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-indigo-500" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" /></svg>
+                注目すべきキートレンド
+              </h3>
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
+                ${trendsHtml}
+              </div>
+            </div>
+          </div>
+        `;
+      }
+
+      // --- Divider ---
+      if (periodDataDays && periodDataWeek) {
+        finalHtml += `<div class="my-16 flex items-center justify-center opacity-30"><div class="w-full h-px bg-slate-300"></div><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-slate-400 px-4 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" /></svg><div class="w-full h-px bg-slate-300"></div></div>`;
+      }
 
       // --- Render Days (Latest News) ---
       if (periodDataDays) {
@@ -400,7 +633,22 @@
         const renderCategorySection = (cat) => {
           let topicsHtml = '';
           if (cat.topics && Array.isArray(cat.topics)) {
-            const uniqueTopics = dedupeAndLimitTopics(cat.topics, globalSeenTopicKeys);
+            let filteredTopics = cat.topics;
+            if (activeWordFilter) {
+              const lowerFilter = activeWordFilter.toLowerCase();
+              filteredTopics = cat.topics.filter(topic => {
+                const headline = (topic.headline || '').toLowerCase();
+                const content = (topic.content || '').toLowerCase();
+                const impact = (topic.impact || '').toLowerCase();
+                return headline.includes(lowerFilter) || content.includes(lowerFilter) || impact.includes(lowerFilter);
+              });
+            }
+
+            if (filteredTopics.length === 0) {
+              return '';
+            }
+
+            const uniqueTopics = dedupeAndLimitTopics(filteredTopics, globalSeenTopicKeys);
             const visibleTopics = uniqueTopics.slice(0, INITIAL_VISIBLE_TOPICS);
             const hiddenTopics = uniqueTopics.slice(INITIAL_VISIBLE_TOPICS);
 
@@ -450,6 +698,12 @@
                 </span>
                 <h3 class="text-sm sm:text-base font-bold text-slate-800 font-sans">${cat.title}</h3>
               </div>
+              
+              <!-- Genre-specific Word Cloud -->
+              <div id="wordcloud-genre-${cat.genre}" class="wordcloud-genre-container relative w-full h-32 overflow-hidden bg-slate-50/40 rounded-xl border border-slate-200/50 p-2 mb-4 hover:border-slate-300 transition-colors">
+                <!-- Spans will be rendered here dynamically -->
+              </div>
+
               <div class="flex-1">
                 ${topicsHtml}
               </div>
@@ -460,31 +714,50 @@
         const generalHtml = generalCategories.map(renderCategorySection).join('');
         const techHtml = techCategories.map(renderCategorySection).join('');
 
-        let gridHtml = `
-          <div id="swipe-container" class="flex overflow-x-auto snap-x snap-mandatory no-scrollbar sm:block pb-4 sm:pb-0 -mx-4 px-4 sm:mx-0 sm:px-0">
-            
-            <div id="swipe-tab-general" class="w-full flex-none snap-start sm:w-auto sm:min-w-0 sm:block shrink-0 sm:mb-8 pr-2 sm:pr-0">
-              <div class="hidden sm:flex items-center gap-3 mb-6">
-                <h2 class="text-xl font-bold text-slate-800 font-outfit tracking-wide">General News</h2>
-                <div class="flex-1 h-px bg-slate-200"></div>
+        let gridHtml = '';
+        if (activeWordFilter && !generalHtml.trim() && !techHtml.trim()) {
+          gridHtml = `
+            <div class="py-12 flex flex-col items-center justify-center text-center max-w-md mx-auto gap-4 p-6 bg-slate-50 border border-slate-200/60 rounded-2xl my-4">
+              <div class="w-12 h-12 rounded-full bg-slate-100 text-slate-400 flex items-center justify-center border border-slate-200">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                </svg>
               </div>
-              <div class="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8">
-                ${generalHtml}
-              </div>
-            </div>
-            
-            <div id="swipe-tab-tech" class="w-full flex-none snap-start sm:w-auto sm:min-w-0 sm:block shrink-0 pl-2 sm:pl-0">
-              <div class="hidden sm:flex items-center gap-3 mb-6">
-                <h2 class="text-xl font-bold text-slate-800 font-outfit tracking-wide">Tech & Dev Trends</h2>
-                <div class="flex-1 h-px bg-slate-200"></div>
-              </div>
-              <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 sm:gap-8">
-                ${techHtml}
+              <div>
+                <h3 class="text-sm font-bold text-slate-700">「${activeWordFilter}」に一致する記事はありませんでした</h3>
+                <p class="text-xs text-slate-500 mt-1">別のキーワードを選択するか、フィルターを解除してください。</p>
               </div>
             </div>
-            
-          </div>
-        `;
+          `;
+        } else {
+          gridHtml = `
+            <div id="swipe-container" class="flex overflow-x-auto snap-x snap-mandatory no-scrollbar sm:block pb-4 sm:pb-0 -mx-4 px-4 sm:mx-0 sm:px-0">
+              
+              ${generalHtml.trim() ? `
+              <div id="swipe-tab-general" class="w-full flex-none snap-start sm:w-auto sm:min-w-0 sm:block shrink-0 sm:mb-8 pr-2 sm:pr-0">
+                <div class="hidden sm:flex items-center gap-3 mb-6">
+                  <h2 class="text-xl font-bold text-slate-800 font-outfit tracking-wide">General News</h2>
+                  <div class="flex-1 h-px bg-slate-200"></div>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8">
+                  ${generalHtml}
+                </div>
+              </div>` : ''}
+              
+              ${techHtml.trim() ? `
+              <div id="swipe-tab-tech" class="w-full flex-none snap-start sm:w-auto sm:min-w-0 sm:block shrink-0 pl-2 sm:pl-0">
+                <div class="hidden sm:flex items-center gap-3 mb-6">
+                  <h2 class="text-xl font-bold text-slate-800 font-outfit tracking-wide">Tech & Dev Trends</h2>
+                  <div class="flex-1 h-px bg-slate-200"></div>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 sm:gap-8">
+                  ${techHtml}
+                </div>
+              </div>` : ''}
+              
+            </div>
+          `;
+        }
 
         const summaryHtml = `
           <section class="mt-8 relative border border-indigo-100 rounded-xl bg-gradient-to-br from-indigo-50/50 to-white text-slate-800 p-6 sm:p-8 shadow-sm overflow-hidden">
@@ -504,49 +777,14 @@
         finalHtml += gridHtml + summaryHtml;
       }
 
-      // --- Divider ---
-      if (periodDataDays && periodDataWeek) {
-        finalHtml += `<div class="my-16 flex items-center justify-center opacity-30"><div class="w-full h-px bg-slate-300"></div><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-slate-400 px-4 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" /></svg><div class="w-full h-px bg-slate-300"></div></div>`;
-      }
-
-      // --- Render Week (Trends) ---
-      if (periodDataWeek) {
-        let trendsHtml = '';
-        if (periodDataWeek.key_trends && Array.isArray(periodDataWeek.key_trends)) {
-          periodDataWeek.key_trends.forEach(trend => {
-            trendsHtml += `
-              <div class="bg-white/80 border border-slate-200 rounded-xl p-6 shadow-sm hover:shadow-md transition-shadow">
-                <h4 class="text-base font-bold text-slate-800 mb-3 border-l-4 border-indigo-500 pl-3 leading-snug break-words">${parseGlossaryTerms(trend.title)}</h4>
-                <p class="text-sm text-slate-600 leading-relaxed break-words">${parseGlossaryTerms(trend.analysis)}</p>
-              </div>
-            `;
-          });
-        }
-
-        finalHtml += `
-          <div class="max-w-4xl mx-auto w-full space-y-8">
-            <section class="bg-gradient-to-r from-indigo-900 to-slate-800 rounded-2xl p-8 sm:p-10 text-white shadow-xl relative overflow-hidden">
-              <div class="absolute top-0 right-0 -mt-10 -mr-10 w-40 h-40 bg-white/10 rounded-full blur-2xl"></div>
-              <div class="relative z-10">
-                <h3 class="text-2xl font-black mb-4 tracking-tight">Trends & Big Picture</h3>
-                <p class="text-[15px] leading-relaxed text-indigo-100 font-medium break-words">${parseGlossaryTerms(periodDataWeek.overview || "")}</p>
-              </div>
-            </section>
-            
-            <div class="space-y-4">
-              <h3 class="text-lg font-bold text-slate-800 flex items-center gap-2 px-2">
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-indigo-500" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" /></svg>
-                注目すべきキートレンド
-              </h3>
-              <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
-                ${trendsHtml}
-              </div>
-            </div>
-          </div>
-        `;
-      }
-
       newsContent.innerHTML = finalHtml;
+
+      // Render genre-specific word clouds
+      if (periodDataDays && periodDataDays.categories) {
+        periodDataDays.categories.forEach(cat => {
+          renderGenreWordCloud(cat);
+        });
+      }
 
       attachGlossaryListeners();
       
