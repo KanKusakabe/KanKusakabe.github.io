@@ -435,10 +435,12 @@
     }
 
     let resizeTimer = null;
+    let lastWindowWidth = window.innerWidth;
     window.addEventListener('resize', () => {
       clearTimeout(resizeTimer);
       resizeTimer = setTimeout(() => {
-        if (newsData) {
+        if (newsData && window.innerWidth !== lastWindowWidth) {
+          lastWindowWidth = window.innerWidth;
           renderNews();
         }
       }, 300);
