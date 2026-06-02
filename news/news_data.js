@@ -7,40 +7,22 @@ window.newsData = {
           "title": "グローバル情勢・マクロ経済",
           "topics": [
             {
-              "headline": "イスラエル軍、レバノンの古代要塞を占領し、中東情勢が緊迫化",
-              "content": "イスラエルがレバノンの古代要塞を占領したことが、レバノン全土に衝撃を与えています。米国主導の停戦交渉は停滞し、イスラエルはベイルートへの攻撃も視野に入れていると報じられています。",
-              "impact": "この出来事は、中東地域におけるイスラエルとレバノンの間の緊張を劇的に高め、大規模な軍事衝突に発展する可能性を秘めています。既に不安定な中東情勢がさらに悪化し、原油価格の変動や国際的な外交介入の必要性が高まる可能性があります。日本市場への直接的な影響は限定的ですが、エネルギー供給の不安定化を通じて間接的な影響が懸念されます。",
-              "date": "6/1",
-              "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOcllpVVNlWTd2Z05ZbFo1SVJmS1hzU1lLc0ZpQWhtbHVLZGE5a0xxUENsSDlCMk1Ja0Q0WmRlN2hUYlhTbjRyUWtjNkg2NDRVM2dwNVZQOUtPYUx5UW9vUFBvZTAtOS1xMG56OWtxaXFpcFVqYS1na0JtUFpZNTUxbTFWWm1wcG9iQ0xtYXVLNDZzb2Fj?oc=5",
+              "headline": "米国、欧州での核兵器配備拡大を検討か",
+              "content": "米国が欧州における核兵器の配備拡大について協議しているとフィナンシャル・タイムズ紙が報じた。これは現在の国際情勢、特にロシアとの緊張関係を背景にした動きと見られる。",
+              "impact": "NATOとロシア間の軍事的緊張を大幅に高める可能性があり、欧州の安全保障環境に深刻な影響を与える。核軍拡競争への懸念を引き起こし、世界の軍事バランスに影響を与える極めて重要なニュース。日本を含むアジア太平洋地域の安全保障政策にも間接的な影響を与える可能性がある。",
+              "date": "6/2",
+              "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOWmg1S0hBZlpzSlVNZ29fUHpnYXQzSWw2WmoyRGE2QXY2STFnVGNXcDJOOV9mcTY3bHdfbGk2LWpnOWtCOG1QNHFMaU1QUUs2bUppclJ2RGJDR1Vud2doWEI5RFVRQ1BwcWRNV0hRdlpoNUsxdlFfLU5yRTVPZnlnNURXTlE3S01QOTkyamlmNGlHazVjVFA5NFlTc1lNVXBJSC1vTzBoWjl2NU1SREpJblZkcjRHdVU3N0xyVkln?oc=5",
               "importance": 5,
-              "fetched_at": "2026-06-02T08:21:14.522922+09:00"
+              "fetched_at": "2026-06-02T16:16:46.339187+09:00"
             },
             {
-              "headline": "AlphabetがAI目標達成のため800億ドル調達計画、Berkshireが100億ドル投資へ",
-              "content": "Googleの親会社であるAlphabetが、人工知能（AI）関連の目標達成に向けて800億ドルもの資金調達を計画しており、ウォーレン・バフェット氏率いるBerkshire Hathawayがそのうち100億ドルを投資する意向を示しました。",
-              "impact": "この巨額な資金調達と投資は、AI分野への資本流入の加速を明確に示しており、世界のテクノロジー産業およびマクロ経済全体に大きな影響を与えます。AI技術の進化がさらに加速し、競争が激化することで、関連企業の株価やスタートアップ投資に影響を及ぼすでしょう。日本企業にとっても、AI技術への投資や提携戦略の見直しが求められる動きとなります。",
+              "headline": "イスラエル首相、ベイルート郊外への攻撃を指示",
+              "content": "イスラエルのネタニヤフ首相が、レバノンの首都ベイルート郊外への軍事攻撃を指示した。この動きは、レバノンとの国境地域における緊張の高まりを受けたもの。",
+              "impact": "中東地域での紛争が拡大する可能性を秘めており、すでに不安定な地域情勢をさらに悪化させる恐れがある。民間人への影響や、近隣諸国を巻き込む可能性から、国際社会の動向が注視される。原油価格などグローバルな経済にも影響を及ぼす可能性がある。",
               "date": "6/1",
-              "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNaUNJWklGZ01OTElsSDZlbDBsN1pGeFZ2NTVqdHBFNTFmdkViM2s3YmRvTWk2WTZZU2J0TnVxWHVJeU9hMjUzZVhVend5TzJOQmp4dXZFa0xfXzVTMFZYLVhBMmJKbTZfbzd0V25WTFpmV0FpUThNYzhyVkUwODQtRVR5Y0YyQVVPZXB3RkJwNEd3bVdKZS14cjZsRlUxY050SVNxVnlQbW1oWk9Y?oc=5",
+              "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNLVo1X1doOVJXTjdTcTJkbnFNLVV2SGVuR1ZLc3pVdUpMVUpLaVU3OE9wT3JNc3dLYUxkX3ZRbmJpTmZoZmpqc2ZiN1hiemhBS0huR3JJUWwzYVp4dWxTamhGeTF3QS10NFB6bE95djFXMm5aVzdvSjZBRVBzWW1WNXFraU96TWpHM2FUeTJnZTlhWUxoRU5xN0VBaw?oc=5",
               "importance": 5,
-              "fetched_at": "2026-06-02T08:21:14.522922+09:00"
-            },
-            {
-              "headline": "EUが史上最も厳格な移民法を承認、加盟国の移民政策に大きな転換",
-              "content": "欧州連合（EU）が、リターンハブ（送還センター）の設置を含む、これまでで最も厳格な移民法を承認しました。これにより、欧州全体で移民に対する見方が硬化し、一部ではトランプ氏のような戦術に向かう動きが報じられています。",
-              "impact": "この新法は、EU加盟国全体の移民政策に大きな転換をもたらし、欧州社会の構造や労働市場に長期的な影響を与える可能性があります。人権団体からの批判も予想され、社会的な分断や政治的な緊張が高まることも考えられます。厳格化された移民政策は、EU域内の労働力不足や経済成長にも影響を及ぼす可能性があり、グローバルな人材流動性にも影響を与えるため、日本企業が欧州での事業展開を検討する際にも考慮すべき要素となります。",
-              "date": "6/1",
-              "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOVXNKSEgzZXdHZmNmNGI1NE1ZMV9vZ0l2NVVEUkFyTDZwSkp1ZXc1TlEzTGo4S2NkTlpaZXJvVlNKaVZzR251TTlDTHBGV2pyVnEyLXBGOGx2LU1nLUxGakRnVHZfZnFlVjR0X0Rzd1RDaHhtU3VIWHlqQjV0VmxjcTdDM0JVWjlDZ0JQc0lMOUVuOG9QZDVHXzNkV0hfcXRxSjItRkJ4eW44VnRJVnc3ZEhQdEsxSFltaU9VT0RZbw?oc=5",
-              "importance": 5,
-              "fetched_at": "2026-06-02T08:21:14.522922+09:00"
-            },
-            {
-              "headline": "ウクライナがロシアによる子どもの拉致を告発、国際的な戦争犯罪の懸念高まる",
-              "content": "ウクライナは、ロシアがウクライナの子どもたちを拉致し、戦闘に利用していると主張しています。これは、国際社会において戦争犯罪であるとの認識を深めるものです。",
-              "impact": "この報道は、ウクライナ戦争における人道危機と国際法の重大な違反を示しており、ロシアに対する国際社会からの非難をさらに強めるでしょう。国際刑事裁判所での訴追や追加制裁の可能性が高まり、ロシアの国際的な孤立を深める要因となります。人権を尊重する日本の立場からも、この問題への国際的な連携強化が求められる可能性があります。",
-              "date": "6/1",
-              "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQbVUwek01Yk5yQjR3dHJwSWk5QUZkX3hCVFVfLTBXY3JPUWpHUG9RQW9EMnBEVmRCdkpCcERldFJESlVCbHhDclR5bnFlWVYyMnQ5LU5GUWNUSDR1bE0xVENSOUxaTThHSDBmZG9rV1lYSEFwdGoybjFIOFVZLWVlUzNkR2JVMXZ1eUJEbWFJVkpGTDAtbjk0?oc=5",
-              "importance": 5,
-              "fetched_at": "2026-06-02T08:21:14.522922+09:00"
+              "fetched_at": "2026-06-02T16:16:46.339187+09:00"
             },
             {
               "headline": "米国、Nvidia製AIチップの中国国外企業への輸出規制を強化",
@@ -79,40 +61,40 @@ window.newsData = {
               "fetched_at": "2026-06-01T20:56:47.704320+09:00"
             },
             {
-              "headline": "トランプ氏、レバノンのヒズボラと仲介者を通じて対話したと発言",
-              "content": "トランプ氏が、レバノンのシーア派武装組織ヒズボラと仲介者を通じて対話したと発言しました。これは中東地域の不安定化が懸念される中での発言であり、米国の外交姿勢に対する憶測を呼んでいます。",
-              "impact": "この発言は、米国の中東政策に大きな影響を与える可能性があり、特にレバノンとイスラエルの関係が緊迫する中で、地域の安定をさらに揺るがす恐れがあります。トランプ氏が次期大統領選に再び出馬する場合、その外交方針が中東地域の力学を大きく変えることになるかもしれません。日本にとっても、中東情勢の不安定化は原油供給に影響を及ぼす可能性があるため、注目すべき動向です。",
-              "date": "6/1",
-              "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxONDZETGU3TFh2UFRaRjc2b3lGU3RSRDZwUzVpWU9YRXRwWlM5MDdoMS1JQ09NVXR5TUQ1SnRXQWl2S2sxNWg3eTNxR2RPNTdEY0RhSWxMQ1Jndm1SaHZMRklDZVNuZ1dQdGJCRkw5alY0ekpTNllfZFpfNkNob2lRaWJqWV8zR2d5eXFKNDdWOXl6UnNqa0pyc2kyeE5aejRQX2lyMnppcjdoeXR5RzZwckxNT0NpejdKNzdOTU1EbFo?oc=5",
+              "headline": "ロシア、ウクライナの都市に大規模なドローン・ミサイル攻撃",
+              "content": "ロシア軍がウクライナの首都キーウを含む複数の都市に対し、大規模なドローンとミサイル攻撃を実施した。これにより多数の死傷者が出たと報じられており、アパートの建物のがれきに人々が閉じ込められている恐れもある。",
+              "impact": "継続するウクライナ紛争の激化を示すものであり、人道危機を深め、国際社会の対ロシア制裁や支援の姿勢に影響を与える。エネルギー市場や食料供給への間接的な影響も懸念される。",
+              "date": "6/2",
+              "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNZGRBTno1akhxdE5Kb2ZMTC1MSFZSZkpGX05NM0dCcGh1c1B2RkV4akJY0jVUlVd0NIZmpDT0o3amlfcF9TTTRvR3hnRmNSQmFqWkpPb05TbFVnSzJhVUdjS3BQeEtxTXpHYUFBcERCRWNnQ2xXVjFuNk5jdDNrVU5SdE1YZlRxZDVLTjdnbWhKQUg1RHNERmQ0RHpaaVdLcThMeEw2djU2Zw?oc=5",
               "importance": 4,
-              "fetched_at": "2026-06-02T08:21:14.522922+09:00"
+              "fetched_at": "2026-06-02T16:16:46.339187+09:00"
             },
             {
-              "headline": "フランス海軍、ロシア関連の石油タンカーを大西洋で阻止",
-              "content": "フランス海軍が、大西洋でロシア関連の制裁対象の石油タンカーを阻止しました。これは、ロシアへの制裁措置を強化する動きの一環です。",
-              "impact": "この措置は、ロシアに対する経済制裁が継続され、その執行が厳格に行われていることを示しています。世界のエネルギー市場において、ロシア産原油の供給経路に影響を与え、原油価格に変動をもたらす可能性があります。また、海洋における国際法の遵守と航行の安全保障にも関わる問題であり、グローバルな貿易ルートの不確実性を高める要因となり得ます。日本経済も原油輸入に依存しており、エネルギー価格の変動は大きな影響を及ぼす可能性があります。",
+              "headline": "EU、新たな移民送還法案で合意",
+              "content": "欧州連合（EU）の交渉担当者らが、新たな移民送還法案について合意した。これにより、EU圏外のセンターへの移民送還を可能にする道が開かれる。",
+              "impact": "欧州の移民政策が大きく転換する可能性があり、人道問題、国際法、加盟国間の関係、そして欧州の社会構造に広範な影響を及ぼす。強硬な移民対策は、将来のEUの政治的安定性や国際的な人権団体との摩擦を生む可能性がある。",
               "date": "6/1",
-              "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPbF82Tk5xbHY0Q19xM1ZIbEw3cUliT1N5VzhISzdZdDN1SjltTlEyZE1XRXBQMW5KZk9LY3pBNmFHN2Vwc2hkRzBrRFZjSFNuMzZDWVNNN1FweWp2NWQ0Rk1VaU5qMExUMXJCQmxmbVJuLVd3YlIxTlU5WGItWEpBRVZvWGdQR3dSVl81TWZ2ZS02Z9IBkgFBVV95cUxPVHdjZ0tuQ2liS1Iyd0xSVUZEZkVDRUhWVmNPandNdmRpcExTSFgwc01fM0FRZ1Z6YV9BS0szWFU2VjdQTVpma3N4Xy15dG5Yald2QUJURzNGYWFnZVZXbjBWaTE4amRBVHRPNGk4YVZyUjYxYURUc3ZBal9oaXBhU213eVZnV2dWX2J2NEM3SnYtQQ?oc=5",
+              "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOMmxkWC1mRURsT0QwbzUtOS0xYlJkQ3FlVUhrSGhPWnRnYU8xUk5RbGJhTGEwRUZRYmpZUVIzV3NhUEppVGVOTFN4Qm1CZTBfcUtsSDNVT0VUVHoxdnZKTWtNOS1ZQUd1eERFT1k1TnM3a1FVVXBVWlhwVXNUR0pxQWJIQWFFLVROMUVIWHFwTUsxZURWcUpQeG9fWGQ3OHJVckxKc0xFMWJWcUg5c1VQZXloanNKVW1t?oc=5",
               "importance": 4,
-              "fetched_at": "2026-06-02T08:21:14.522922+09:00"
+              "fetched_at": "2026-06-02T16:16:46.339187+09:00"
             },
             {
-              "headline": "エチオピア総選挙、内戦の中で行われ、アビー首相の再選が焦点に",
-              "content": "エチオピアでは総選挙が実施され、ノーベル平和賞を受賞しながら内戦を引き起こしたアビー首相の再選が確実視されています。選挙は一部で投票が停止されるなど、混乱の中で行われました。",
-              "impact": "この選挙結果は、エチオピア国内の政治的安定と民族紛争の行方に決定的な影響を与えます。内戦が継続する中での再選は、民主主義プロセスへの疑問を提起し、アフリカの角地域の不安定化をさらに助長する可能性があります。人道危機や地域紛争の激化は、国際社会からの介入や援助の必要性を高め、国際関係にも影響を及ぼします。日本にとっても、アフリカの安定は重要な外交課題の一つです。",
-              "date": "5/31",
-              "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNNFpoVlplTDBoOGd1bXAxaGU0Mm9LYWJLWUdSOENfRHBicUNndm9iclkzai01aHRzVVVjSUwxaDUtQWhlZGJqTzJHcFZGR25tamczREpsSk5DZFExTzRJRmRtRlVsVTZROUR1aWJSZTBXTVZXUnc0SmJfUjFiS2x3Q0d2VlJ6UDJyWF8weERKYkJNRU5VQkFfRzhlT1V1NjhBVUU2MmJ30gGrAUFVX3lxTE9ENVVSY2ZKZHQ3YXdSdFpQSnFPU3JzTy1KOGZXUjVINFBza1ZLeGlFb2diU2dGQWFKdmx3MXBWeHVzWmVpenFjVzNkZ0VzckZCcVdYYzlKaVQ4WUJPM3NQUFhCWEI3a2YwRFJXNi1aWlRQUWFxbzktMWdLd1V5VUhiY05zZHZMV1VDNGpDcXR6TTROeFNTbVBzc3BRZ3ZwQzdsLVlDTXhaUnIxRQ?oc=5",
+              "headline": "ウクライナがロシアを非難、戦闘に子供を使用するため子供を誘拐していると主張",
+              "content": "ウクライナが、ロシアがウクライナの子供たちを誘拐し、戦闘に参加させるための訓練を行っていると主張した。これは戦争犯罪にあたる深刻な告発。",
+              "impact": "国際的な人権侵害および戦争犯罪として、ロシアに対する国際社会からの非難をさらに高める可能性がある。これにより、国際刑事裁判所などの動きが加速することも考えられ、ロシアの国際的孤立を深める。",
+              "date": "6/1",
+              "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQbVUwek01Yk5yQjR3dHJwSWk5QUZkX3hCVFVfLTBXY3JPUWpHUG9RQW9EMnBEVmRCdkpCcERldFJESlVCbHhDclR5bnFlWVYyMnQ5LU5GUWNUSDR1bE0xVENSOUxaTThHSDBmZG9rV1lYSEFwdGo1bjFIOFVZLWVlUzNkR2JVMXZ1eUJEbWFJVkpGTDAtbjk0?oc=5",
               "importance": 4,
-              "fetched_at": "2026-06-02T08:21:14.522922+09:00"
+              "fetched_at": "2026-06-02T16:16:46.339187+09:00"
             },
             {
-              "headline": "SpaceXがIPO株式の5%を選定投資家に割り当て、ロックアップ期間を免除",
-              "content": "SpaceXが新規株式公開（IPO）において、株式の5%を選定された買い手のために確保し、通常課されるロックアップ期間を免除すると発表しました。これは市場への柔軟な対応を示唆しています。",
-              "impact": "この動きは、SpaceXのような革新的な非公開企業が上場に際して、特定の投資家を優遇し、流動性を確保しようとする戦略を示しています。これは宇宙技術産業への投資熱が高まっていることを反映しており、テクノロジーセクター全体の評価や資金調達戦略に影響を与える可能性があります。特に、ロックアップ免除は早期の市場売却を可能にし、短期的には株価変動要因となる一方で、長期的な企業価値向上への期待も高めます。日本企業が宇宙ビジネスへの参入や投資を検討する上で、海外の主要企業の市場戦略は重要な参考情報となります。",
-              "date": "6/1",
-              "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOSHNFZUpSZ0h1bnRZQmVxTDR5d2hiRHZuc3Vmc1R5eHVtakpJZTF0NHQ4ZlJvaks4RnRFZGpqd1JJZGgyaEJxNnJ1c1RoUzlfT05xZ3c3N29IQkluYlZsbERMS1dTOHlfVHpxMFBEc3dsdkNRSm5RRXA5SEZOdGoxN2lXVVRPczNzVm11Vml3bENZYTNQQ3ZoUWlKcHVGbGJDaEQ1b0RxbTRXOFNlekMxV25NaDM?oc=5",
+              "headline": "トランプ大統領、鉄鋼・アルミニウム・銅の輸入関税を改正する宣言に署名",
+              "content": "トランプ大統領が、鉄鋼、アルミニウム、銅の輸入関税を改正する宣言に署名した。これは、特定の国に対する新たな関税措置の導入や既存の関税の調整を含むものと見られる。",
+              "impact": "グローバルな貿易関係に影響を及ぼし、特定の産業や国のサプライチェーンに混乱をもたらす可能性がある。保護主義的な貿易政策の継続は、世界経済の成長に下押し圧力をかける恐れがあり、日本を含む多くの貿易相手国に関税措置への対応を迫る。",
+              "date": "6/2",
+              "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPNlNFdU5LUi02WFE5WjRfNmRCMEtBWGlOa2VwMjlDY25yUWdETHcyM2xrOFR6VVF1UWxjS1JxWkhRXy1pczB0Z0RwcFBIMG9FZnVNYWlqd21rZGl5NV9CSDNLc25NVnlDZ3UtYWpfN3o3ZVF0T2Y1RU9rVjk4V2ppZVExRVIzT2ktYTZyVEhRSHRVYWt3emxQRmVTZjQ1QlZkaEhlTFNZVjZ3T2d4WmdsY1lfWFBESkU?oc=5",
               "importance": 4,
-              "fetched_at": "2026-06-02T08:21:14.522922+09:00"
+              "fetched_at": "2026-06-02T16:16:46.339187+09:00"
             },
             {
               "headline": "フィリピンとベトナムが関係強化、南シナ海の平和は「交渉不可」と表明",
@@ -140,6 +122,15 @@ window.newsData = {
               "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNbjRWZnFRUnJXQ3d6Y2E4bUlNLURud3YyVlNPTldYaGRmMDZCVGtlSGRlVlpIRUx2SnAtVTRXM3QxaFN4a20zSjFQTHFmektPVUliWjBTc3dmVWVEMlhBWWhNN3lmQlFRbWUtX09HRVdjckRpbjg2S1l3bEs3WGl2NDBJQjVQakhkdWUyVUlibkJlTXNPZllvNkxUMzU5NTRSc2pwR2UyNEdkV0Z5cnRFS0o1Vll0dw?oc=5",
               "importance": 4,
               "fetched_at": "2026-06-01T20:56:47.704320+09:00"
+            },
+            {
+              "headline": "トランプ大統領のイランとの交渉継続発言を受け、原油価格下落",
+              "content": "トランプ大統領がイランとの交渉が継続中であると発言したことを受け、原油価格が下落した。イランとの関係改善への期待が市場心理に影響を与えた模様。",
+              "impact": "中東情勢の緊張緩和の兆しとして市場が受け止め、原油価格に直接的な影響を与えた。今後の交渉次第では、世界のエネルギー供給と価格に大きな変動をもたらす可能性がある。日本経済は原油輸入への依存度が高いため、原油価格の動向は特に重要。",
+              "date": "6/2",
+              "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPMkZaWGJPbHBSQnUxdWZ6U3l6a3otSGFQSVNoTmpQNWJORWEtZ1dXeE42NGp2c2s4anV6UVFYenhsNHcycHh5UnhYUTJLRFlIbS1ONElzNzBCT2RsX0ROZVh4RXk3SmhKQmc0UXlFa1l4Sm5admU2LUNkdWxaZENkSmN3ZHJnbU1UYTJDbHZUdUJiNFFJZ3lfOTJmTnFKV21LQXZxcE1sWUF3TGZ5N3A4ZFROTTU?oc=5",
+              "importance": 3,
+              "fetched_at": "2026-06-02T16:16:46.339187+09:00"
             }
           ]
         },
@@ -148,31 +139,49 @@ window.newsData = {
           "title": "ビジネス・経済動向",
           "topics": [
             {
-              "headline": "AI大手AnthropicがIPO申請、大規模上場へ",
-              "content": "AI企業Anthropicは株式の公開売却に向けた予備的なIPO申請書類を提出しました。これにより、同社は数兆円規模での上場準備を進めていると報じられています。",
-              "impact": "AI分野における投資とイノベーションの活況を示す重要な指標であり、市場の成熟度と投資家の高い期待を反映しています。上場による巨額の資金調達は、AI技術開発競争をさらに加速させ、関連産業全体に波及効果をもたらす可能性があります。日本を含む世界のAI関連企業や投資家にとっても、市場の動向として大きな注目点となります。",
-              "date": "06/01",
+              "headline": "AI giant Anthropic prepares to sell stock to the public; files preliminary IPO paperwork",
+              "content": "AI大手AnthropicがIPOに向けた予備書類を提出し、株式公開を準備していると報じられました。これはOpenAIに先駆けての動きと見られています。",
+              "impact": "大手AI企業が株式市場に参入することで、AI産業への新たな資金流入が期待され、市場の成熟度と競争激化を示すものとなります。今後のAI企業の資金調達戦略や評価に大きな影響を与える可能性があります。",
+              "date": "6/1",
               "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE4xSjA1OERrenh2U2ZHdDRlZUZxRkxDVXFQYkpaODU2WmxDaTB0bklTdW1CTk5uc3dIUXVJQVoyVm93cndTMGVFNElRaVdVbzlTLU12NU4xTWdtWFExR3FjTG9xU0JFOU1JRnFCNVE4Wm5uSllzUXV6d0JsQXFLbDA?oc=5",
               "importance": 5,
-              "fetched_at": "2026-06-02T08:21:14.522922+09:00"
+              "fetched_at": "2026-06-02T16:16:46.339187+09:00"
             },
             {
-              "headline": "AlphabetがAI構築に800億ドル調達、Berkshire Hathawayも追加投資",
-              "content": "AlphabetはAI技術基盤の構築資金として、株式売却を通じて800億ドルを調達する計画を立てています。また、ウォーレン・バフェット率いるBerkshire HathawayはAlphabetに100億ドルを追加投資し、AI分野への投資を深めています。",
-              "impact": "大手テクノロジー企業がAI開発に巨額の資金を投入していることを示し、AI分野における競争激化と成長期待の高さが伺えます。Berkshire Hathawayのような伝統的な投資会社による大規模な追加投資は、AI技術の長期的な価値と持続可能性に対する強い信頼を示唆しており、市場全体のリスク選好度にも影響を与えるでしょう。",
-              "date": "06/01",
-              "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxObUREOEdlT2g4VjMwSGo0SklIaEZxa2FIWXZiQzByLTB0OUJyWlU0cllrS3FiX1pFVW0yZG1XYnBtV0lOUGltLUYyTmdKNnRiQXhob0tocDdkZ2JoeEhQUjlPYkJDRWNCNGtCa0JHQmROLUJrUFp6X2xEUVBEVGstT25MZ3c3MHJFVS1tZzlaaGVSVGlWLXhtRTZmNXpkZmxHOXpFddIBqgFBVV95cUxQN1lhbnJlekNsalFLMEJhM0lq0Sj85cFBqTjFWdFkzU1NDaWdwb3B4WVgtY2RfdWNuX1lOT1VOajBnTVEzSFl1Qm56NGJtMjZrN0g3WkZ3WmVrYVJ2THcwZXJQMlhyZWRNV01rLXpMWEt4MUdIUzRfOWd6dHFZSDR4UkJDYU9BWUIxU2V0RHV1aS02VGgySElWTkxYUEpCTzUtTllITlUwdw?oc=5",
+              "headline": "Alphabet plans to raise $80 billion for AI goals, Berkshire to invest $10 billion",
+              "content": "AlphabetがAI関連目標達成のため、株式売却により800億ドルを調達する計画であると報じられています。これに対し、Berkshire HathawayはAlphabetに100億ドルを追加投資し、AIへの賭けを深めています。",
+              "impact": "テクノロジー大手によるAIへの莫大な投資意欲と、Warren Buffett氏率いるBerkshire Hathawayのような主要機関投資家からのAI分野への信頼を強く示唆します。AI開発競争の激化と、それに見合う資本が市場に供給され続けている現状を浮き彫りにします。世界的なAIインフラ構築と技術革新を加速させる要因となります。",
+              "date": "6/1",
+              "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNaUNJWklGZ01OTElsSDZlbDBsN1pGeFZ2NTVqdHBFNTFmdkViM2s3YmRvTWk2WTZZU2J0TnVxWHVJeU9hMjUzZVhVend5TzJOQmp4dXZFa0xfXzVTMFZYLVhBMmJKbTZfbzd0V25WTFpmR0FpUThNYzhyVkUwODQtRVR5Y0YyQVVPZXB3RkJwNEd3bWdKZS14cjZsRlUxY050SVNxVnlQbW1oWk9Y?oc=5",
               "importance": 5,
-              "fetched_at": "2026-06-02T08:21:14.522922+09:00"
+              "fetched_at": "2026-06-02T16:16:46.339187+09:00"
             },
             {
-              "headline": "投機筋の円売りが1年10カ月ぶり高水準、政府・日銀の介入前の水準超え",
-              "content": "投機筋による円売りポジションが1年10カ月ぶりの高水準に達し、前回の政府・日本銀行による円買い介入前の水準を上回りました。",
-              "impact": "円安トレンドの継続と、市場における円売り圧力の根強さを示す非常に重要なシグナルです。これは日本の輸入物価のさらなる上昇や企業収益への影響を通じて、日本経済全体に大きな影響を与える可能性があります。政府・日銀による今後の為替介入の可能性や、金融政策の動向が国内外の市場から注視されることになります。",
-              "date": "06/01",
-              "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE90MHI3eGpxOWNSc3hqMEpPQldIcFgtUHhEdDVDR1VkeEx4SG1CWkZvcmtPVjFPekNzTF9rbDNwS1B4THBzeGdvUV9nWWdfbTBKcmMzT0d4LWFVcDV0dVBsVmxDNmxoQ1FmWGt3bg?oc=5",
+              "headline": "Florida sues OpenAI, Sam Altman, in first-of-its-kind lawsuit over violent incidents",
+              "content": "フロリダ州がOpenAIとSam Altman氏を提訴しました。ChatGPTが暴力事件を助長したと主張する、この種の訴訟は初めてのことです。",
+              "impact": "AIモデルによって生成されたコンテンツに対する企業の責任を問う、初の画期的な訴訟であり、AI倫理、規制、および開発の将来に重大な影響を及ぼす可能性があります。AI開発企業は今後、より厳格な安全対策とコンテンツ管理を求められる可能性があります。",
+              "date": "6/1",
+              "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQa0hyNGRfbjMybWROU1RXc2dTX2wyQzJHekNyUi1qYTRWMnBGR2xxQ1NBTVM2eFJYZnJPZ2V0Yk80N2dnX1VWQ2ZEdG9aaURQZlk3aHhfcnhodlE2MUR1X1g4R3ZOV0hPbWR4ZjQ4amEtV1lNel9raUkycXFJOUp4OV9yYkU3NndIRjR6T0NUMjJla2ZpWVJFcF9wQzJyN0lqMHVLRjJheW5RcG0wUVBSYUJiUDE1VE5J?oc=5",
               "importance": 5,
-              "fetched_at": "2026-06-02T08:21:14.522922+09:00"
+              "fetched_at": "2026-06-02T16:16:46.339187+09:00"
+            },
+            {
+              "headline": "Trump administration proposes 25% tariff on Brazilian goods over unfair trade practices",
+              "content": "トランプ政権が不公正な貿易慣行を理由に、ブラジル製品に対して25%の関税を提案したと報じられました。",
+              "impact": "保護主義的な貿易政策への回帰の可能性を示しており、米国とブラジル間の貿易関係に大きな影響を与えるだけでなく、世界のサプライチェーンや商品市場にも波紋を広げる可能性があります。特に南米経済に直接的な影響を及ぼすでしょう。",
+              "date": "6/2",
+              "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9VN1o4ZXh6dGdsbkRJeUlTS01fTkpCUGdUcjQ4OVQ4Z0VMR3V2T0NGV2dZbkpXNnlDRFdrbFBKRzNiX3dlSDZSRnBhR3ZnQW1iVGRjTTBFTDRacWo2WUxRS05VaVM3QlY1VGFzaVA3VUowdGxYSzJlSlRUTdIBgAFBVV95cUxQMWdST2RZdkMzLUVqWFNTWW1tM0xONlM1ODhtRWRXQThZek51UlVyR29VR3NUR1VqeVFhOExBTURVSVQ1cTl0NnBZT1hia3FsNlJzSjdkd0ZrTEdyYVhQZk1KRGxocHllMFZJWnNLRGFPVmV1QnpuQWRxN3BkcUVYaw?oc=5",
+              "importance": 5,
+              "fetched_at": "2026-06-02T16:16:46.339187+09:00"
+            },
+            {
+              "headline": "CNBC's The China Connection newsletter: China learns to build without Nvidia",
+              "content": "中国がNvidiaの技術に頼らずにAIインフラを構築する方法を学んでいると報じられました。",
+              "impact": "米国と中国間の技術競争が激化する中で、中国が自国のAI技術開発とサプライチェーンの自立を目指していることを示しています。これは、長期的に世界のテクノロジー供給網と地政学的なパワーバランスに大きな影響を与える可能性があります。",
+              "date": "6/1",
+              "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5scF9KS0JoZU9HZ2dGWmEteGRYbGFlejdPS2VWdXIwNF9MVE9RdmgybUFDRDJqU1NqOUk0UUYzREdJcU9pWnY1TW1tUTBISFBEaHBiQkNZQXRqTmI5U202eGItUnk5LXRldGtMSERVbTRrckwzNkZKRUVwY2VQZ9IBgwFBVV95cUxNckNCVGRpMUpmNDh4ckxXS3JnbjBzYU0zRXdlUGJzS1laQk1rYWpGV3RTWmtfODhGZVBfT2xoQlBpdldfb2NfNGQzd0stNjNxdTNqTXVjZDN5bzdPRWdxTUhaM2dvdnNzbFNVSDV6QkpreUsyTS1TYWhMTWVLMklnQmFPVQ?oc=5",
+              "importance": 5,
+              "fetched_at": "2026-06-02T16:16:46.339187+09:00"
             },
             {
               "headline": "「AI革命はドットコムバブルの50倍規模」ソフトバンク孫氏発言と米中チップ規制、市場競争激化",
@@ -220,31 +229,40 @@ window.newsData = {
               "fetched_at": "2026-06-01T20:56:47.704320+09:00"
             },
             {
-              "headline": "フロリダ州、OpenAIとサム・アルトマンCEOを提訴",
-              "content": "フロリダ州は、ChatGPTに関連する複数の殺人事件が発生したことを受け、OpenAIとそのCEOであるサム・アルトマン氏を提訴しました。州は、AIのリスクに関してアルトマン氏の個人的な責任を追及しようとしています。",
-              "impact": "AI技術の安全性、倫理、および法的責任に関する重要な課題を提起する出来事です。この訴訟は、AI開発企業が製品設計と展開において、より厳格な安全基準と倫理的ガイドラインを遵守するよう促す圧力となるでしょう。将来のAI規制の方向性や、企業の責任範囲に大きな影響を与える可能性があります。",
-              "date": "06/01",
-              "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOUi02cDNYZFZuSk04X0FYVTV0TFJpc1VtMUxncmd5Y1FNeUtpYlVTRjA5YUxRX01TeFF0TUt5V0lBaEs0X1pxeXBqY0w1SzBUQXg0RGh5MUxzY0xHckFhOG5HdXZtZHNKOGRtOGU0S1VXeml5QUhHMHVjZTRwTVFGQmNMWm9tWS1OWmREWVptRWJqMDBDS19qSVNlNXM3UzlaUmNfRDRiRkN3cGVHWU8yVGxOQQ?oc=5",
+              "headline": "Oil Holds Gains, US Futures Slip on War Confusion: Markets Wrap",
+              "content": "原油価格は上昇を維持し、米国の先物市場は「戦争の混乱」（中東情勢の不安やイラン戦争の不確実性）を背景に下落しました。",
+              "impact": "中東地域での地政学的緊張が、世界のエネルギー市場と投資家心理に直接的な影響を与えていることを示しています。これは、マクロ経済の不確実性が高まっていることを反映しており、原油価格の変動は世界のインフレ圧力や企業コストに影響を及ぼします。",
+              "date": "6/1",
+              "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQNVBudWh6TlRWNUZQRTZ0Mi1ZbDFBdUtUaG1VU2FXaVBycUo0dERfbEtITi11U3NmQlEtbUVDMkcyRmhodG5BM1BZQjQ4ZTZ3Y0d2cWdkTmt4a1dKNzdUMEpHQjU3VV9ZN1pVZjZzR1ZTR0VoLWRVUGZoNTRWRWtYbktvUG9LbnNhVW04TjJfc0RpTk91MTNDSWJvbE5MWEtNZ05MQng0U1hHQUFLd2ZEa2Jn?oc=5",
               "importance": 4,
-              "fetched_at": "2026-06-02T08:21:14.522922+09:00"
+              "fetched_at": "2026-06-02T16:16:46.339187+09:00"
             },
             {
-              "headline": "中東危機後にEV販売が世界的に急増、37カ国で過去最高を記録",
-              "content": "中東危機発生後、世界37カ国で電気自動車（EV）の販売が過去最高を記録しました。原油価格の高騰により、EVの割安感が増したことが、この急増の背景にあるとされています。",
-              "impact": "地政学的な緊張が世界のエネルギー市場と自動車産業の構造変化を加速させていることを示す明確な兆候です。原油価格の変動がクリーンエネルギーへの移行を促し、EV市場のさらなる拡大と、自動車メーカーや関連サプライチェーンの変革を引き起こす可能性があります。日本の自動車メーカーも、このグローバルトレンドへの対応と戦略見直しを一層迫られることになります。",
-              "date": "06/01",
-              "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9RNmczWE5ETHdMcUMzTlJaMzB0dnFjcHFIZEVVX1FmNzJKQkdZNWtCUGZqQXFHOGFEdm9pRXBtZlFfMUQ2TEU5QXlkN1NwUjJlalRJM2l4dDM3VFFDc0Y2S0hMLU1PYktCY2g3eA?oc=5",
+              "headline": "Blackstone closes its largest Asia private equity fund at over $13 billion",
+              "content": "Blackstoneがアジア最大のプライベートエクイティファンドを130億ドル以上でクローズしました。",
+              "impact": "アジア市場への投資家からの強い信頼と、プライベートエクイティが主要な資産クラスとして確立されていることを示しています。アジア地域でのM&Aや企業投資が今後活発化する可能性があり、地域経済に大きな影響を与えるでしょう。",
+              "date": "6/2",
+              "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOaGRHaHpTUG8wOFFySkg5UjIxVmtSNTAxdUR2M0ZKSTFJNjZqMk5PdUlNR3BlMFRDa3BoRWhNS1g4QU5lVUw2X2pXeEltYlJPbnJnT0FhTmVuZFdGd2RWVXJmY3FQZUVENkpSOC1STjlzQW5jM2Z2eERkcnBCbXF1dDIzQURzMTTSAYwBQVVfeXFMTUc1OWVrUWprclNqUzhvWF9hMTVYNFFRRjlvRWhGVnREQ0hQUTNHRUxXMmVweE1ncG00bzZjcmM2NmVKV0h6dUQzeXQ0bFVhenhqdWRzLXNnb1lDMVJlQW44Q05FZDhLVndib19lR0lWbnVEdm8xOUVjRHdDM2Y3YmZybUhFc2RaUng1Z2Q?oc=5",
               "importance": 4,
-              "fetched_at": "2026-06-02T08:21:14.522922+09:00"
+              "fetched_at": "2026-06-02T16:16:46.339187+09:00"
             },
             {
-              "headline": "米主要株価指数が2026年最長連騰を記録、トランプ氏がイラン協議再開を示唆",
-              "content": "2026年6月1日、ダウ、S&P 500、ナスダックの主要3指数が揃って過去最高値を更新し、今年最長の連騰を記録しました。同時に、トランプ氏がイランとの協議が再開されたと発言しました。",
-              "impact": "強い市場の楽観主義と、投資家心理の改善を示す動向です。トランプ氏によるイラン協議再開の示唆は、地政学的リスクの緩和期待を高め、世界の原油価格や中東地域の安定に影響を及ぼす可能性があります。これは世界経済のセンチメントに好影響を与える一方で、地政学的な発言の真偽とそれに伴う影響は今後も注視される必要があります。",
-              "date": "06/01",
-              "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPcXdJUmxsNG5MQmxHNUlELW1XclRzNk51a0pOOEp4S0stUzh1WF9FM2RXcHZreHpJYk1ETVpMZVRfbi1ZNnN3VmQ4WDc2VmVDMEFrTjUtYXdvYzR5SmlVVS15TFA4U1VNdWdkT2c5Qy02UXhnemFPSE1DRmFmUHBxSTBUeHBfVFhvUEhQWE9jZVB5cU5EMjFQLTZoR2N4VWVoVVR4ZDBzVnJmbTZjNU9HTmkxRS1fWnJUN3EzRmtR?oc=5",
+              "headline": "人材派遣大手5社に公取委が立ち入り 派遣料金引き上げでカルテルか",
+              "content": "公正取引委員会が、人材派遣大手5社に対し、派遣料金の引き上げに関するカルテルの疑いで立ち入り検査を行いました。",
+              "impact": "日本の労働市場における主要な規制当局の行動であり、人材派遣業界の価格設定慣行に大きな影響を与える可能性があります。これが事実であれば、派遣労働者の賃金や派遣先の企業のコスト構造にも影響を及ぼし、日本の雇用市場全体に波紋を広げるでしょう。",
+              "date": "6/2",
+              "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9YSk9kdTlhRjRtOHNRajZMZHlRMldWVUNnRHVCb0plRVFGZFlFTnIwTmltVzctWjVwemh4U2dSdkRycklnTVBRM3pPU25BaDBINnZTX1RWc1V1QVcxMEZCSEZ6T2p6bjZCVkFnYQ?oc=5",
               "importance": 4,
-              "fetched_at": "2026-06-02T08:21:14.522922+09:00"
+              "fetched_at": "2026-06-02T16:16:46.339187+09:00"
+            },
+            {
+              "headline": "米名門大の秀才を襲う就職難 8000社玉砕、コンピューター専攻で悲劇",
+              "content": "米国の名門大学のコンピュータサイエンス専攻の学生たちが、AIブームにもかかわらず、就職難に直面していると報じられました。8000社以上の企業から不採用通知を受け取るケースも発生しています。",
+              "impact": "AI分野への投資が活発であるにもかかわらず、特定の分野でトップ層の学生ですら就職が困難であるという、労働市場の意外な側面を明らかにしています。これは、市場の需要と供給のミスマッチ、あるいは技術進歩による仕事の性質の変化を示唆しており、将来の労働力と教育政策に警鐘を鳴らすものとなります。",
+              "date": "6/1",
+              "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5tbnMtbWRuRjZPSDNXQ0g4aFoydDJYNW1zQnBLb1pLQnpKX0R4NDBEdUlLNnRGU3VNZV9DZDl2YlJfVC1HQTUxS19zN2U3cDR4bnEtT2V4eHZNcmZuSDJKUU1zSERYRE5UTmozMQ?oc=5",
+              "importance": 4,
+              "fetched_at": "2026-06-02T16:16:46.339187+09:00"
             },
             {
               "headline": "中国製造業活動は公式・民間調査で評価割れる、世界経済の不確実性増大",
@@ -263,15 +281,6 @@ window.newsData = {
               "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOa19fZGlrLU9WdHJLWEpEYkJxWTk5OWU2TFNjLURmdU1xSXNEWm5vZUV2b0w3WjRXOE5PMjlEMTBJX3FvZ2hPX01iWVZEeXFPVk1LR0RpbXBNTGh1RDhuU3hNOTNIRkR1eE1kVVFlMHp3a3BQaktBRlp4TFJoZldLVUEtYXQwSU5DU2tpTEw3bUxfelU4eDNPNkxObjAxY202SGRfYU9hS1dwUzlFQlhrMg?oc=5",
               "importance": 4,
               "fetched_at": "2026-06-01T20:56:47.704320+09:00"
-            },
-            {
-              "headline": "大学新卒者の就職難はAIではなくリモートワークが原因との研究結果",
-              "content": "最新の研究により、近年における大学新卒者の就職難の原因は、AIの普及ではなく、リモートワークの拡大にある可能性が示されました。リモートワークにより、若年層が職場で経験を積む機会が減っていることが指摘されています。",
-              "impact": "AIが雇用の未来を脅かすという一般的な認識に対し、新たな視点を提供する重要な研究結果です。これは、労働市場の構造変化、特にリモートワークが若年層のスキル形成やキャリアパスに与える影響について、再評価を促すものです。政策立案者や教育機関は、このトレンドに対応した支援策や教育プログラムを検討する必要があり、社会全体で若者の雇用機会創出に新たなアプローチが求められる可能性があります。",
-              "date": "06/01",
-              "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQRUgxRXVZalFyZ1RDZkxydXRrQ3hMMVpscmZLNHRSdE05N1VFLWM0bmJQdE92Z0RVS3RjdHNzSjBFdVI0c0lWQ2pyVnV0WG5tdndJY0d5SmFmUTJocGJhLTdwV25RM2pUYk1aelpyd2ZoV2pZZkpETjJ5ajhPbHdJcFNxRUh2WlF2Mlo5NUhoNEstOG80?oc=5",
-              "importance": 3,
-              "fetched_at": "2026-06-02T08:21:14.522922+09:00"
             }
           ]
         },
@@ -280,31 +289,31 @@ window.newsData = {
           "title": "テクノロジー・サイエンス",
           "topics": [
             {
-              "headline": "フロリダ州、OpenAIとサム・アルトマンをAI関連の暴力事件で提訴 - AI倫理と法的責任に初の判例",
-              "content": "フロリダ州がOpenAIとそのCEOであるサム・アルトマンを、AIが生成したとされる暴力的なコンテンツに関連する初の訴訟で提訴した。この訴訟は、AIモデルが引き起こす可能性のある有害な影響と、それに対する企業の責任について問うもの。",
-              "impact": "AI技術の倫理的利用と法的責任に関する重要な判例となる可能性があり、AI開発企業が今後、生成AIの安全性や利用ガイドラインを強化する契機となる。社会におけるAIの役割と規制の議論を加速させる。",
+              "headline": "Alphabet、AIインフラ構築のために800億ドルの資金調達を計画",
+              "content": "AlphabetがAIインフラの構築に充てるため、800億ドルという巨額の資金調達を計画している。",
+              "impact": "この大規模な資金調達は、AI開発競争におけるAlphabetの強いコミットメントと、将来のAI技術の基盤となる計算能力への投資の重要性を示唆している。生成AIなどの高度なAIモデルには膨大な計算資源が必要であり、この投資は次世代AIの発展を加速させるだろう。AIが社会に与える影響がさらに拡大することが予想される。",
               "date": "06/01",
-              "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQa0hyNGRfbjMybWROU1RXc2dTX2wyQzJHekNyUi1qYTRWMnBGR2xxQ1NBTVM2eFJYZnJPZ2V0Yk80N2dnX1VWQ2ZEdG9aaURQZlk3aHhfcnhodlE2MUR1X1g4R3ZOV0hPbWR4ZjQ4amEtV1lNel9raUkycXFJOUp4OV9yYks3NndIRjR6T0NUMjJla2ZpWVJFcF9wQzJyN0lqMHVLRjJheW5RcG0wUVBSYUJiUDE1VE5J?oc=5",
+              "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPaXY3SDM3WmZJVjNhaDBLWmt6cm5WR0ZlV3NsdmxZVGllVm9tQ3FqR1dHRmxsaUg3VmxWTWJKcXREd2NiYktWZk16NkxteUdHSmpQZXptTUduRWFoX0RJNVVBbTIzSWc0SFhJa0tEYmlQdTRUbW1Zd3N1WXRuRHpvejlCclhMZXBJcmNkRGZXNzJWc2RnZVdv?oc=5",
               "importance": 5,
-              "fetched_at": "2026-06-02T08:21:14.522922+09:00"
+              "fetched_at": "2026-06-02T16:16:46.339187+09:00"
             },
             {
-              "headline": "科学者、深宇宙からの不可解な信号を解読する「宇宙のロゼッタストーン」を発見",
-              "content": "科学者たちが深宇宙からの謎めいた信号を解読するための「宇宙のロゼッタストーン」を発見した。これにより、これまで理解できなかった宇宙現象や天体からの情報の解析が進む可能性がある。",
-              "impact": "宇宙物理学における画期的な発見であり、深宇宙からの信号の性質や起源、ひいては宇宙の根本的な理解を大きく前進させる。未知の物理現象の解明や、宇宙における生命の探査にも影響を与えうる。",
+              "headline": "科学者たちが深宇宙からの謎の信号を解読する「宇宙のロゼッタストーン」を発見",
+              "content": "科学者たちが、深宇宙から届く不可解な信号を解読するための「宇宙のロゼッタストーン」を発見したと報じられている。",
+              "impact": "もしこの発見が事実であれば、宇宙の神秘を解き明かす画期的なブレイクスルーとなる。地球外生命体や未知の物理現象、宇宙の起源に関する理解を根底から覆す可能性を秘めている。基礎科学の進歩に大きく貢献し、人類の宇宙に対する認識を広げる非常に重要な出来事となるだろう。",
               "date": "06/01",
               "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPekVGTThCdm1KdVc5SUNocGNIRERLV2c3SkF5MjNoRzN1V25UVElxU242Undib2xVeFU0bGs1ZFNzdU1TOUxoVTFQdkJhTENfN0ZZYVM4ejdSSjBtZ3ozeFp3NjVTMm1NWWhFdFFLNGVzUUxXdFlsWGk1M2VteTlwMVBMN25Kby16ZjNwcXlBQkhEZmhkWWs1T3U1blpEcnlXejhhb1dOZzFnZW85?oc=5",
               "importance": 5,
-              "fetched_at": "2026-06-02T08:21:14.522922+09:00"
+              "fetched_at": "2026-06-02T16:16:46.339187+09:00"
             },
             {
-              "headline": "天文学者、ブラックホール合体の「失われた世界」を発見 — 宇宙論に新知見",
-              "content": "天文学者たちが、これまで未発見だった種類のブラックホール合体現象が多発する「失われた世界」を発見した。これは、古代文明の発掘に匹敵する天文学的発見とされている。",
-              "impact": "重力波天文学とブラックホール研究に新たな視点をもたらし、宇宙における大質量天体の形成と進化に関する現在のモデルを再評価させる可能性がある。宇宙初期の構造形成やダークマターの分布など、広範な宇宙論的議論に影響を与える。",
+              "headline": "フロリダ州、ChatGPT関連の殺人事件を受けOpenAIとサム・アルトマンを提訴",
+              "content": "フロリダ州が、ChatGPTに関連する複数の殺人事件が発生したとして、OpenAIとそのCEOであるサム・アルトマンを提訴した。",
+              "impact": "AI技術の進化が社会にもたらす倫理的、法的な課題を浮き彫りにする画期的な訴訟である。AIモデルの責任範囲、有害コンテンツ生成への関与、そしてAI開発者の法的責任という、AIガバナンスの最も根源的な問題に直面している。この訴訟の結果は、今後のAI開発の方向性、規制の枠組み、および企業のリスク管理に甚大な影響を与える可能性がある。",
               "date": "06/01",
-              "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxQNmRjZmZ5Q2xkdnJDNEhVaHRjeF9JZV9wbkdtZHB4QmpZMmtTa0dIRVBhcmRxeXRnMDVwRFpzNjZ0STJxbk8zV0RIX0h1OGJ6VnFVZjVGRkU0b1lFMThhZjR3MXk1ZlNPellaLTFSLTNxcUczU0F1YnFhMDRpWVNmbzNyUG5BNFRUT25LSXlSRFowclZLT0c0VXVTeEE0c2J0SDJOU3ZaQURNNkdBcUxlWDBQSTcxVG1rNU9rdWVvRDRZRVRuNXoxVFhtenFTeXFCRERtRWdtOWVNZzllRDJjUXkxT3NVTFlQNEN4UzQwQjRFSzduZmpueUNNUW9OUQ?oc=5",
+              "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOUi02cDNYZFZuSk04X0FYVTV0TFJpc1VtMUxncmd5Y1FNeUtpYlVTRjA5YUxRX01TeFF0TUt5V0lBaEs0X1pxeXBqY0w1SzBUQXg0RGh5MUxzY0xHckFhOG5uR3V2bWRzSjhkbThlNEtVVXppeUFIRzB1Y2U0cE1RRkJjTFpvbVktTlpkRFllbWJqMDBDS19qSVNlNXM3UzlaUmNfRDRiRkN3cGVHWU8yVGxOQQ?oc=5",
               "importance": 5,
-              "fetched_at": "2026-06-02T08:21:14.522922+09:00"
+              "fetched_at": "2026-06-02T16:16:46.339187+09:00"
             },
             {
               "headline": "OpenAIのAIモデルが80年間未解決だった数学の難問を解決",
@@ -352,67 +361,49 @@ window.newsData = {
               "fetched_at": "2026-06-01T20:56:47.704320+09:00"
             },
             {
-              "headline": "Nvidia、Microsoft、Dell、HPと提携しAIエージェントPCで2000億ドルCPU市場に参入",
-              "content": "NvidiaがMicrosoft、Dell、HPと提携し、AIエージェントPCを投入することで2000億ドル規模のCPU市場への本格参入を目指している。これにより、AI処理に最適化された新しいパーソナルコンピュータの時代が到来する見込み。",
-              "impact": "AI処理をローカルで高速化する新しいPCカテゴリを確立し、AIが日常業務やクリエイティブ作業に深く統合されることを加速させる。Nvidiaの市場支配力をさらに拡大させるとともに、IntelやAMDといった既存のCPU市場の巨人との競争を激化させる。",
+              "headline": "Nvidia、Microsoft、Dell、HPと提携しAIエージェントPCで2000億ドルのCPU市場に参入",
+              "content": "Nvidiaは、Microsoft、Dell、HPと協力し、AIエージェント機能を搭載したPCを通じて2000億ドル規模のCPU市場への参入を目指している。",
+              "impact": "GPU市場のリーダーであるNvidiaがCPU市場に本格参入し、特に「AIエージェントPC」というコンセプトを打ち出している点は注目に値する。これは、AI処理がデータセンターだけでなく、エッジデバイスであるPCの根幹をなす機能となる未来を予見させる。従来のCPUメーカーとの競争が激化し、PCアーキテクチャやAIソフトウェアとの統合が加速する可能性がある。",
               "date": "06/01",
-              "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPdHJTNHRSY0pFRmJ0a3VybVloaTJ3WVlEZjdvOUl1LVZIeGlJM1M4dGJtemdVOVFBRnpZU2lRT2RkVU1PeW90MmxWYXN5dTJPVUHadllrWld2ei1zSFdqSURqQ2MzMlBySHNLekR0SVRzTlhYVXpfa3R0eENFU2FUbEcxdXZMT1R2THh6bmVqcnpyNmlWem9lc2lJZ2M2QnBqczdEZElzUko4Y1I1TXc?oc=5",
+              "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPdHJTNHRSY0pFRmJ0a3VybVloaTJ3WVlEZjdvOUl1LVZIeGlJM1M4dGJtemdVOVFBRnpZU2lRT2RkVU1PeW90MmxWYXN5dTJPVUhadllrWld2ei1zSFdqSURqQ2MzMlBySHNLekR0SVRzTlhYVXpfa3R0eENFU2FUbEcxdXZMT1R2THh6bmVqcnpyNmlWem9lc2lJZ2M2QnBqczdEZElzUko4Y1I1TXc?oc=5",
               "importance": 4,
-              "fetched_at": "2026-06-02T08:21:14.522922+09:00"
+              "fetched_at": "2026-06-02T16:16:46.339187+09:00"
             },
             {
-              "headline": "ハッカーがMeta AIサポートチャットボットを騙しInstagramアカウントを乗っ取り",
-              "content": "ハッカーがMetaのAIサポートチャットボットを欺き、Instagramアカウントへのアクセス権を獲得し、著名なアカウントを乗っ取った。これはAIが提供するサポートシステムの脆弱性を悪用した新しい手口を示唆している。",
-              "impact": "AIシステム、特に顧客サポートやセキュリティに関連するAIの設計における新たなセキュリティリスクを浮き彫りにする。AIの安全性と悪用防止策の開発が急務となり、AI倫理とセキュリティガイドラインの進化を促す。",
-              "date": "06/01",
-              "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOMUVtR19XclUyUmtCUnBqN19xbVBHSVRyMXVIYzFFVzVfRWNOUEZiZ3A2NkxtWkZSU1FYNHA3Z19fTkgxRXBLS3RoUmowS3UzeXZpY2poUDQ0bWhsMVN2M0U0MW1STkFkTUkzZ2VyTU55ZXZ2SGQybTByempWYmxmamhLVEJudFhxdnFfcHlBY2MwNTMwTGdwcnVxa0pwdmRjM1ZReDZhYjJSUlZWbFBiOEl5Q25CUmF6ckwyRkEwS25FeUNnUkE?oc=5",
-              "importance": 4,
-              "fetched_at": "2026-06-02T08:21:14.522922+09:00"
-            },
-            {
-              "headline": "主要AI企業Anthropicが株式公開申請、AI産業の成長加速を示す",
-              "content": "主要なAI開発企業であるAnthropicが株式公開（IPO）を申請した。これは、AI分野への大規模な投資と市場の期待の高まりを反映している。",
-              "impact": "AI産業が成長段階に入り、大規模な資本市場の注目を集めていることを示す。これにより、AI研究開発への資金流入がさらに加速し、AI技術の進化と商用化が促進される。AI「バブル」の兆候とも見られる。",
-              "date": "06/01",
-              "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5uTlVpVnVmaGV5RkVMUElXX3d1eHR2cHA1YjBlT00tclVZd3N4elVsd2N2R1dERXdUQ18xSUNVSmFLeGlIcmdUMU5vdENIY3JKbFNpQm1EV1g5UHZxbW5uX0plYkhDYUdhNTUzRmw1aE0?oc=5",
-              "importance": 4,
-              "fetched_at": "2026-06-02T08:21:14.522922+09:00"
-            },
-            {
-              "headline": "モデルナ、ブンディブギョ型エボラウイルス向けmRNAワクチン開発に5000万ドル獲得",
-              "content": "モデルナが、ブンディブギョ型エボラウイルスに対するmRNAワクチンの開発に5000万ドルの資金を獲得した。これはmRNA技術の応用範囲が拡大していることを示唆している。",
-              "impact": "mRNA技術がパンデミック対応だけでなく、特定の致死性の高い感染症への迅速なワクチン開発にも応用できる可能性を示す。公衆衛生におけるmRNA技術の重要性を高め、将来的な感染症対策の基盤を強化する。",
-              "date": "06/01",
-              "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPRUpDdnBKSW9oZ0I5NzduejhKM2QySzBDN0dzSUtfTWhzMnNXQ195WThRR1Q3Qm5Dc3NMVHo5ejRnbkVLRWtkRkFzdGVsbUNkb0pUMEtxcWV1c05sVDBHb0x5VDJLaVdaOUxwNjFfVUg1Q21kdUt3T1ZITzVrb3hMazZDMEk5ZTVPVW1jVmRZUktyRjV2Q3d2VnlieXFiMHZSd1FYcnQyNGh4ZTd5U1ZCeDZR?oc=5",
-              "importance": 4,
-              "fetched_at": "2026-06-02T08:21:14.522922+09:00"
-            },
-            {
-              "headline": "AI気象スタートアップが政府機関を凌駕する予報精度を達成",
-              "content": "あるAI気象スタートアップが、政府機関の予報能力を上回り、より正確な気象予測を提供している。AIが複雑な自然現象のモデリングと予測において、従来のシステムを凌駕し始めている事例である。",
-              "impact": "気象予測の精度向上は、農業、災害対策、エネルギー管理など多岐にわたる産業に計り知れない経済的・社会的な恩恵をもたらす。AIが従来の専門知識やインフラを補完・超越し、実世界の課題解決に貢献する可能性を示す。",
+              "headline": "AI気象スタートアップが政府機関の予測精度を上回る",
+              "content": "あるAI気象スタートアップが、政府機関の天気予報よりも高い精度で予測を行っていると報じられている。",
+              "impact": "AIが複雑な物理モデルを必要とする気象予測のような分野で、既存の伝統的な手法や大規模な政府機関の能力を上回る可能性を示している。これは、AIが科学的モデリングやデータ分析において、新たなブレイクスルーをもたらす潜在力があることを示唆する。気象、災害予測、環境モデリングなど、公共性の高い分野でのAIの活用と、その結果としての社会への貢献が期待される。",
               "date": "06/01",
               "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNaFdELUFWNTdSeENxMURRM2VIeVcySWpVUjlQazQwcFhuVDRoazF0c09QckczdU9xY1AzeUNtOHFISVE4Tl9HNEJYcEJWb1ZPeFVMS1JSWm4zN3B1TW9ialpDbHV3bGwtWGhqMHg4WkJSaGw1WnEydlI4SXhlazg2aEl6S3JveUZnUEFnTV9LeVJ2YWVuZlNOS1U1Qll6dw?oc=5",
               "importance": 4,
-              "fetched_at": "2026-06-02T08:21:14.522922+09:00"
+              "fetched_at": "2026-06-02T16:16:46.339187+09:00"
             },
             {
-              "headline": "Red Hat npmパッケージに「Shai-Hulud」マルウェア、週8万回以上ダウンロード",
-              "content": "「Shai-Hulud」マルウェアが、Red Hatの公式NPMチャンネルを通じて配布されたnpmパッケージのバージョンに感染し、週に8万回以上ダウンロードされていたことが判明した。これはサプライチェーン攻撃の深刻さを示す。",
-              "impact": "オープンソースソフトウェアサプライチェーンの脆弱性を悪用した大規模なサイバー攻撃であり、開発者コミュニティと企業に深刻なセキュリティリスクをもたらす。ソフトウェアの信頼性とセキュリティ検証プロセスの強化が不可欠となる。",
+              "headline": "カリフォルニア州、3Dプリント製ゴーストガンに対する「アルゴリズムによる死」法案を可決",
+              "content": "カリフォルニア州が、3Dプリント製ゴーストガンに関して「アルゴリズムによる死」を宣言する法案を可決した。",
+              "impact": "AIと3Dプリンティングという先端技術が犯罪に悪用される可能性に対し、政府が法的に対応を始めた重要な一歩である。これは、技術の進歩に伴う倫理的・社会的な課題が現実のものとなり、法規制の必要性が高まっていることを示す。AIが意思決定に関わる「アルゴリズムによる死」という概念が法制化されたことは、AIの責任とガバナンスに関する議論を深める上で大きな影響を与えるだろう。",
               "date": "06/01",
-              "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNdFJUZmxLUUg3aDhNY0xHXzlzajMwODZHYWtJNFd2WXBzSjQwMEhVbEFOU3VqVFMtSjdtNjN6M1FsRnFya1RZRzd3VEF3ejhXbzBqWm9fZ0lsM3FJaV84UnhqSldDMUdJbFVJQ0RQZGJmejRadTZQUHQyUGNzZnVzdGtKdDhvSkZSRDhvc29GdHNZZGxUcEJrRjNUNmphbklCdVdYbU10bWxabmhzNDBBdmFwOGxVa0tZczBGb1lDeEFvYlhGY0xjYm16dw?oc=5",
+              "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOeTFPSDh4UW1WdG5Ha2QyOGhzSXhuSHptbjFyQ3VtSmtLVG5SODdMaDBLcFZFbHFhNlFKSGw4R1pUMF9CNjU0bEVtSlpQbHYwblNIbUdsM2hEV3k5dTdxT2hkbXlmZEU0UE5Cd09Cam9DQU9pNTJiMHFBMERjMVR2NHNkbVRXcGRkTFY2RFNqOFRGekNEOGptRXhxQXBtaTVGdER3N1dIWnE?oc=5",
               "importance": 4,
-              "fetched_at": "2026-06-02T08:21:14.522922+09:00"
+              "fetched_at": "2026-06-02T16:16:46.339187+09:00"
             },
             {
-              "headline": "元Meta CTO、気候変動対策に2億5000万ドルのファンドを設立",
-              "content": "元MetaのCTOが、気候変動対策のための2億5000万ドルのファンドを立ち上げた。これは、ハイテク業界のリーダーがディープテック分野、特に気候変動ソリューションへの大規模投資を加速させている傾向を示す。",
-              "impact": "気候変動問題に対する技術的ソリューションへの民間投資の増加は、革新的なディープテック企業の成長を促し、持続可能な未来への移行を加速させる。技術者が単なる利益追求だけでなく、社会課題解決にコミットする姿勢を反映。",
+              "headline": "最長寿種グリーンランドシャークの全ゲノム解読、極限の長寿の秘密を解き明かす手がかりに",
+              "content": "最も長寿な脊椎動物であるグリーンランドシャークの全ゲノムが初めて解読され、その驚異的な長寿の秘密を解き明かす手がかりとなる可能性が示されている。",
+              "impact": "このゲノム解読は、老化メカニズムの理解を深め、人間の健康や寿命延長に関する研究に新たな道を開く可能性がある。極限環境下での生命維持メカニズムや疾患抵抗性に関する知見は、バイオテクノロジーや創薬の分野に応用されるかもしれない。ディープテック分野における生命科学の重要な進展と言える。",
               "date": "06/01",
-              "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNdjR3Zmc1aVxlsYnloby1jcW5hX19CVG1vQk5rbld1TjhRSnZJelZ3b2VqZVNsa1ozZ2dXLUR3V25ROW5mbWpkYjhQQ19yTGNLMnBwdUdQOFVaWTRQb3JRRFZvYm1oVjNaM3hJa2J5QmQ2RGYtUkVRUUlRV2hORUdsb1VpMUxFVFlWbFJQZDNVeVBUNklWVzJqb2pYOWp0SDV1S3RZ?oc=5",
+              "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxObmlFWkNmZkVHU1pscHROeU1LZTVjcXBoUDZ4NUZJTjJ3eEJSVW55Y0RsSDE4NGFJWFNabjdGb1otZ0d0WjB4OFhMWURsZVpnMWJsR1I4RExpMzd4MFJnNUQ3SGxRY2tCejlfLVlRT01jRzZlRVhmSkpqNS1xRFdncjR0TDFjaVNDRWlxMklvWlNYV05hZkVQMUpZUkFremVKb1NaLWEyY0o5bXJzMzdiNkJnR3hQTlg4N3BIbk1KcmFuSnh3VTdfRTV3?oc=5",
               "importance": 4,
-              "fetched_at": "2026-06-02T08:21:14.522922+09:00"
+              "fetched_at": "2026-06-02T16:16:46.339187+09:00"
+            },
+            {
+              "headline": "Modernaが5000万ドルを獲得、ブンディブギョ型エボラウイルスに対するmRNAワクチン開発へ",
+              "content": "Modernaは、ブンディブギョ型エボラウイルスに対抗するmRNAワクチンの開発資金として5000万ドルを獲得した。",
+              "impact": "mRNA技術がCOVID-19以外の感染症、特に致死性の高いエボラウイルスに対するワクチン開発にも応用されていることを示す。これはmRNAプラットフォームの汎用性と、迅速な開発、緊急対応能力の向上を裏付けるものであり、公衆衛生の未来を大きく変える可能性を秘めている。バイオディープテックの進化が、世界的な健康課題解決に貢献する期待が高まる。",
+              "date": "06/01",
+              "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPRUpDdnBKSW9oZ0I5NzduejhKM2QySzBDN0dzSUtfTWhzMnNXQ195WThRR1Q3Qm5Dc3NMVHo5ejRnbkVLRWtkRkFzdGVsbUNkb0pUMEtxcWV1c05sVDBHb0x5VDJLaVdaOUxwNjFfVUg1Q21kdUt3T1ZITzVrb3hMazZDMEk5ZTVPVW1jVmRZUktyRjV2Q3d2VnlieXFiMHZSd1FYcnQyNGh4ZTd5U1ZCeDZR?oc=5",
+              "importance": 4,
+              "fetched_at": "2026-06-02T16:16:46.339187+09:00"
             },
             {
               "headline": "NvidiaのGrace BlackwellスーパーチップがRTX SparkノートブックでPCに登場",
@@ -448,31 +439,40 @@ window.newsData = {
           "title": "デベロッパートレンド (Hacker News & 海外フォーラム & 国内)",
           "topics": [
             {
-              "headline": "Red Hat Cloud Servicesの公開パイプラインが侵害され、悪意のあるnpmパッケージが出荷される",
-              "content": "Red Hat Cloud Servicesのnpmパッケージ「patch-client@4.0.4」が、プロジェクト自身のGitHub Actions OIDC信頼されたパブリッシャーを通じて出荷され、トークン盗難やタイプスクワッティングではなく、実際のリリースパイプラインが不正なパッケージを生成したことが確認されました。",
-              "impact": "これは、現代のソフトウェアサプライチェーンにおける極めて深刻なセキュリティ侵害を示しています。信頼されたベンダーの署名されたパッケージがマルウェアを含む可能性は、開発者や企業に広範な影響を及ぼし、CI/CDパイプラインのセキュリティ対策の再評価を促すでしょう。サプライチェーン全体の信頼性への懸念が高まります。",
+              "headline": "AlphabetがAIインフラと計算能力拡張のため800億ドルの株式増資を発表",
+              "content": "AlphabetはAIインフラストラクチャと計算能力の拡張を目的として、800億ドルの株式資本調達を提案したと発表した。",
+              "impact": "AI開発競争が激化する中で、Alphabetのこの巨額投資は、今後のAI技術の進化と規模拡大を強力に推進する原動力となる。これは、AIモデルの複雑化と処理要件の増大に対応するための、業界全体のトレンドを象徴する動きであり、開発者にとってはより高性能なAIサービスやプラットフォームが利用可能になることを意味する。",
+              "date": "06/01",
+              "url": "https://abc.xyz/investor/news/news-details/2026/Alphabet-Announces-Proposed-80-Billion-Equity-Capital-Raise-to-Expand-AI-Infrastructure-and-Compute-2026-b0myAMewCa/default.aspx",
+              "importance": 5,
+              "fetched_at": "2026-06-02T16:16:46.339187+09:00"
+            },
+            {
+              "headline": "Red Hat Cloud Servicesの公開パイプラインが侵害され、悪意のあるnpmパッケージを配布",
+              "content": "Red Hat Cloud Servicesの公開パイプラインが侵害され、正規の署名と信頼された経路を通じて悪意のあるnpmパッケージ「patch-client@4.0.4」が配布された。これはトークン盗用やタイポスクワッティングではなく、実際のリリースパイプラインが生成したもの。",
+              "impact": "ソフトウェアサプライチェーン攻撃の深刻さを改めて浮き彫りにする事態。主要ベンダーの信頼されたCI/CDパイプライン自体が標的となり、正規のパッケージとしてマルウェアが配布されることは、開発者が利用するオープンソースライブラリのセキュリティに対する根本的な信頼を揺るがす。開発者は依存関係の監視と検証の重要性を再認識する必要がある。",
               "date": "06/01",
               "url": "https://www.reddit.com/r/programming/comments/1ttt4p4/redhatcloudservices_publish_pipeline_is/",
               "importance": 5,
-              "fetched_at": "2026-06-02T08:21:14.522922+09:00"
+              "fetched_at": "2026-06-02T16:16:46.339187+09:00"
             },
             {
-              "headline": "Google APIキー削除後のセキュリティ問題：削除しても23分間は有効",
-              "content": "Google APIキーが漏洩した際、Google Cloud Consoleでキーを削除しても、そのキーはその後23分間は依然として機能し続け、攻撃者が要求を発行し、クラウド料金を発生させたり、データにアクセスしたりできるというセキュリティ上の危機が指摘されています。",
-              "impact": "この問題は、クラウドベースの開発を行う多くのエンジニアにとって重大なセキュリティ上の盲点です。APIキー管理のベストプラクティスを見直す必要があり、即時無効化が保証されないという事実は、インシデント対応戦略に大きな影響を与えます。クラウドプロバイダー側の挙動がユーザーの期待と異なることの危険性を示しています。",
-              "date": "06/01",
-              "url": "https://dev.to/walosha/your-deleted-google-api-key-is-still-working-heres-why-thats-a-security-crisis-4mg7",
-              "importance": 5,
-              "fetched_at": "2026-06-02T08:21:14.522922+09:00"
-            },
-            {
-              "headline": "AIエージェントとLLMゲートウェイを標的とする新たな脆弱性「BadHost」が判明",
-              "content": "「BadHost」と呼ばれる新たな脆弱性が、AIエージェント、評価器、およびLLMゲートウェイに影響を及ぼすことが報告されました。これにより、これらのAIシステムが新たな攻撃ベクトルにさらされる可能性があります。",
-              "impact": "この脆弱性は、AIシステムのセキュリティパノラマに新たなレイヤーを追加し、今後のAI開発における設計と実装に大きな影響を与えます。特に、AIエージェントが自律的に動作する環境では、この種の脆弱性がシステム全体の整合性や信頼性を損なう可能性があり、AIセキュリティ対策の進化を加速させるでしょう。",
+              "headline": "BadHost脆弱性がAIエージェント、評価器、LLMゲートウェイを危険に晒す",
+              "content": "AIシステムに特化した「BadHost」と呼ばれる新たな脆弱性が発見され、AIエージェント、評価器、およびLLMゲートウェイが攻撃に晒される可能性があると報告された。",
+              "impact": "AIシステムに固有の新しいセキュリティリスクが浮上したことを示す。AIエージェントやLLMの利用が拡大する中で、これらのシステムに対する新たな攻撃経路と防御策の必要性が高まる。AI開発者は、従来のソフトウェアセキュリティに加え、AI特有の脆弱性への対策を設計段階から考慮することが不可欠となる。",
               "date": "06/01",
               "url": "https://www.infoq.com/news/2026/06/badhost-ai-systems-vulnerability/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
               "importance": 5,
-              "fetched_at": "2026-06-02T08:21:14.522922+09:00"
+              "fetched_at": "2026-06-02T16:16:46.339187+09:00"
+            },
+            {
+              "headline": "Polyfill.ioを放置したサイトで不審なダイアログが表示されるサプライチェーン攻撃",
+              "content": "2024年にサプライチェーン攻撃に利用されたpolyfill.ioを未削除のWebサイトで、現在、ユーザー名とパスワードの入力を求める不審なHTTP認証ダイアログが表示される事態が発生している。これはブラウザが表示するHTTP認証画面であり、polyfill.ioの継続的な悪用を示唆している。",
+              "impact": "過去のサプライチェーン攻撃が長期的に影響を及ぼし続ける危険性を示す具体的な事例。JavaScript CDNからの読み込みに依存するWebサイト運営者に対し、古い、または侵害された外部スクリプトの即時削除と、Webサイトの依存関係に対する継続的な監査の重要性を強く警告する。セキュリティ対策の怠りが、ユーザーデータ漏洩や信頼失墜に直結する。",
+              "date": "06/01",
+              "url": "https://zenn.dev/roboin/articles/43a205f1249889",
+              "importance": 5,
+              "fetched_at": "2026-06-02T16:16:46.339187+09:00"
             },
             {
               "headline": "AIツールにおけるGoogle Sheetsからのデータ流出、深刻なセキュリティリスクが明らかに",
@@ -547,46 +547,64 @@ window.newsData = {
               "fetched_at": "2026-06-01T20:56:47.704320+09:00"
             },
             {
-              "headline": "フロリダ州がAIリスクを巡りOpenAIとサム・アルトマンを提訴",
-              "content": "フロリダ州が、AIがもたらすリスクを理由に、主要なAI開発企業であるOpenAIとそのCEOであるサム・アルトマンを提訴しました。",
-              "impact": "この訴訟は、AI技術の急速な発展に対する法的・規制的な動きが活発化していることを明確に示しています。AI企業にとっては、技術開発だけでなく、潜在的な社会的リスクとそれに伴う法的責任への対応がより重要になります。今後のAIガバナンスや倫理的ガイドラインの策定に大きな影響を与える可能性があります。",
+              "headline": "OpenAIのフロンティアモデルとCodexがAWS Bedrockで利用可能に",
+              "content": "OpenAIの最先端モデルとコード生成AI「Codex」が、Amazon Bedrockを通じてAWS上で提供開始された。",
+              "impact": "これにより、AWSを利用する企業や開発者は、OpenAIの強力なAIモデルを、セキュリティ、ガバナンス、既存環境との統合が容易な形で導入できるようになる。企業におけるAI導入の障壁を下げ、AI駆動型アプリケーションの開発と運用を加速させる重要な一歩となる。",
               "date": "06/01",
-              "url": "https://www.politico.com/news/2026/06/01/openai-hit-with-florida-lawsuit-00944215",
+              "url": "https://openai.com/index/openai-frontier-models-and-codex-are-now-available-on-aws/",
               "importance": 4,
-              "fetched_at": "2026-06-02T08:21:14.522922+09:00"
+              "fetched_at": "2026-06-02T16:16:46.339187+09:00"
             },
             {
-              "headline": "NVIDIA GPUのVRAMをLinuxのスワップスペースとして利用する「nbd-vram」",
-              "content": "NVIDIA GPUのVRAMをLinuxのスワップスペースとして利用する「nbd-vram」が発表されました。これは、特にメモリが半田付けされておりアップグレードパスがないノートPC向けに開発され、RTXカードのVRAMをSSDへのスワップの代わりに活用することを目的としています。",
-              "impact": "この技術は、ハードウェアリソースの革新的な活用法を示しており、特にメモリ容量が限られたシステムにおいてパフォーマンスを大幅に向上させる可能性を秘めています。低レベルのシステムプログラミングや、リソースの制約が厳しい環境でのアプリケーション開発に新たな選択肢を提供し、GPUの汎用的な利用範囲を広げる一歩となるでしょう。",
-              "date": "06/01",
-              "url": "https://github.com/c0dejedi/nbd-vram",
+              "headline": "LLMのコード生成テストで2,859回中エラーゼロを達成",
+              "content": "Qwen2.5-32B LLMモデルを用いた2,859回のコード生成テストにおいて、構造的なエラーがゼロであったことが報告された。EvalScopeによるコード生成タスクが複数の項目をカバーし、全テストセッションで成功。",
+              "impact": "AIによるコード生成の信頼性と実用性が飛躍的に向上していることを示す画期的な成果。これまでAI生成コードの品質や正確性が課題とされてきたが、この結果はLLMがより複雑なタスクや厳密な要件にも対応できる可能性を示唆し、ソフトウェア開発プロセスにおけるAIエージェントの役割を大きく拡大させるだろう。",
+              "date": "06/02",
+              "url": "https://dev.to/yiqinumber1/how-i-ran-2859-llm-code-generation-tests-with-evalscope-and-got-zero-errors-17km",
               "importance": 4,
-              "fetched_at": "2026-06-02T08:21:14.522922+09:00"
+              "fetched_at": "2026-06-02T16:16:46.339187+09:00"
             },
             {
-              "headline": "AIチームが抱える見えない技術的負債とその財務的影響",
-              "content": "AIツールがチームの生産性を向上させる一方で、全く新しい種類の技術的負債を生み出していることが指摘されています。この記事では、それがもたらすコストと、それに対処する方法について解説しています。",
-              "impact": "AI技術の導入が加速する中で、AI固有の技術的負債という概念は、プロジェクト管理や予算編成において見過ごせない重要な課題です。従来の技術的負債とは異なる性質を持つため、AIプロジェクトの長期的な持続可能性とROIを確保するためには、新たな評価基準と管理戦略の確立が不可欠となります。これは、AIを活用する全ての企業にとっての喫緊の課題を提示しています。",
-              "date": "06/01",
-              "url": "https://dev.to/keithjmackay/your-ai-team-is-building-debt-your-cfo-cant-see-heres-the-ledger-65c",
+              "headline": "AIエージェントはAPIの弱点を露呈させる",
+              "content": "AIエージェントがツールを発見し、呼び出し、ワークフローを構築する能力があることで、多くのAPIが持つ静的な統合の限界が明らかになっている。エージェントはAPIを置き換えるのではなく、既存APIの設計の不備を浮き彫りにしているという見解が示された。",
+              "impact": "AIエージェント時代におけるAPI設計のパラダイムシフトを促す重要な提言。エージェントが自律的にAPIを操作する未来を見据え、開発者はよりセマンティックで、発見しやすく、柔軟なAPI設計を追求する必要がある。これは、APIエコシステムの進化と、より「エージェントフレンドリー」な開発文化の形成に繋がるだろう。",
+              "date": "06/02",
+              "url": "https://dev.to/simongriffiths/agents-dont-replace-apis-they-expose-how-weak-most-apis-already-are-255p",
               "importance": 4,
-              "fetched_at": "2026-06-02T08:21:14.522922+09:00"
+              "fetched_at": "2026-06-02T16:16:46.339187+09:00"
             },
             {
-              "headline": "Claude Codeが並列エージェント協調のための動的ワークフローを追加",
-              "content": "AIコーディングアシスタントであるClaude Codeに、並列エージェント協調のための動的ワークフロー機能が追加されました。",
-              "impact": "この機能拡張は、AIエージェントがより複雑で多段階のタスクを効率的に処理する能力を大幅に向上させます。複数のAIエージェントが連携して動作することで、ソフトウェア開発の自動化範囲が広がり、より大規模なシステム設計や問題解決が可能になるでしょう。今後のAI開発におけるマルチエージェントシステムの設計思想に大きな影響を与える技術的進展です。",
+              "headline": "JetBrainsがMellum2をオープンソース化、サードパーティAPIの制限に挑戦",
+              "content": "JetBrainsが、オンプレミスで動作する12BパラメータのAIコーディングモデル「Mellum2」をオープンソースとして公開した。このモデルは、コード補完ツールではなく、エージェントAIの速度、スコープ、ネイティブプライベートデプロイメントにおいて新たな境地を開くものとされている。",
+              "impact": "主要な開発ツールベンダーが大規模なAIコーディングモデルをオープンソースかつオンプレミスで提供することで、開発者はより高いプライバシーとカスタマイズ性を享受できるようになる。これは、AI開発におけるベンダーロックインを回避し、クローズドなAPIに依存しない新たなAI開発エコシステムを促進する可能性を秘めている。",
+              "date": "06/02",
+              "url": "https://dev.to/davekurian/jetbrains-open-sources-mellum2-to-challenge-third-party-api-limitations-2mc9",
+              "importance": 4,
+              "fetched_at": "2026-06-02T16:16:46.339187+09:00"
+            },
+            {
+              "headline": "Claude Codeが並列エージェント調整のための動的ワークフローを追加",
+              "content": "Claude Codeに、AIエージェントの並列調整を可能にする動的ワークフロー機能が追加された。",
+              "impact": "複数のAIエージェントが連携して複雑なタスクを処理する能力が向上し、より高度な自律型AIシステムの構築が可能になる。これは、AIエージェントが単一のタスクを実行するだけでなく、協調して大規模なプロジェクトを管理・実行する未来に向けた重要な進化であり、AI駆動型開発の可能性を広げる。",
               "date": "06/01",
               "url": "https://www.infoq.com/news/2026/06/dynamic-workflows-claude-code/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
               "importance": 4,
-              "fetched_at": "2026-06-02T08:21:14.522922+09:00"
+              "fetched_at": "2026-06-02T16:16:46.339187+09:00"
+            },
+            {
+              "headline": "AIエージェントでクラッシュ報告からPRまで全自動化した事例",
+              "content": "GitHub ActionsとClaude Code Routinesを組み合わせることで、アプリケーションのクラッシュ報告から、原因特定、修正提案、プルリクエスト作成までの一連のプロセスを自動化する仕組みが構築された。これにより、人間の開発者は最終確認と開発者テストのみを行う運用が可能となった。",
+              "impact": "AIエージェントがソフトウェア開発のライフサイクルにおいて、より具体的な役割を果たす可能性を示唆する実践的な事例。特に、エラーハンドリングや保守作業の自動化は、開発者の負担を軽減し、生産性を大幅に向上させる。CI/CDパイプラインにAIを統合することで、開発プロセスが進化する具体的な方向性を示す。",
+              "date": "06/01",
+              "url": "https://zenn.dev/interpark/articles/auto-fix-crash-with-claude-routines",
+              "importance": 4,
+              "fetched_at": "2026-06-02T16:16:46.339187+09:00"
             }
           ]
         }
       ],
       "summary": {
-        "content": "本日の世界は、AI技術革命と地政学的緊張の拡大という二つの大きな潮流に支配されています。AI分野では、Alphabetによる800億ドル規模のAI投資計画やAnthropicのIPO申請など、かつてない規模の資金流入と技術革新が進行し、「ドットコムバブルの50倍規模」とも評される市場の熱狂を呈しています。OpenAIが数学の難問を解決するなど技術的ブレイクスルーが続く一方、フロリダ州がOpenAIを提訴するなどAI倫理と法的責任に関する新たな課題も顕在化しており、セキュリティ脆弱性「BadHost」のような脅威も急増しています。地政学的には、中東情勢がイスラエル軍のレバノン要塞占領、米イランの攻撃応酬、クウェートへの攻撃などにより極度に緊迫化し、原油価格の高騰を招いています。ウクライナではロシアによる子どもの拉致や原発への攻撃が続き、EUは厳格な移民法を承認しました。また、米国はNvidia製AIチップの対中輸出規制を強化し、中国も外国企業への規制を拡大するなど、米中間の技術デカップリングの動きが加速しています。日本が注視すべきは、まずAIブーストによる市場への影響です。日経平均株価はAIブームに乗り67,000円超えを記録し、ソフトバンクGがトヨタを抜いて国内最高価値企業となるなど、AI関連の恩恵を強く受けています。しかし、投機筋による円売りが1年10カ月ぶりの高水準に達し、政府・日銀の介入前の水準を超えたこと、そして長期金利が40年ぶりの高水準を記録したことは、国内経済における深刻な懸念材料です。中東情勢の緊迫化による原油価格の高騰は、円安と相まって日本経済に二重の負担をかける可能性があります。日本は、AIがもたらす成長機会を最大限に活用しつつ、円安と金利上昇がもたらす経済的逆風にどう対処していくかが喫緊の課題となります。同時に、米中対立の激化や中東の不安定化といった国際情勢の変動がサプライチェーンやエネルギー供給に与える影響を継続的にモニタリングし、国家安全保障と経済安定性のバランスを取る戦略が求められます。"
+        "content": "本日は、世界中で地政学的緊張が極めて高い水準で推移し、中東での攻撃応酬、ロシア・ウクライナ紛争の激化、米国の核兵器配備検討などが報じられました。これに伴い、原油価格は中東情勢の緊迫化で高騰しており、世界経済の不確実性が増大しています。\n\n同時に、AI技術革命は爆発的な加速を見せており、AlphabetがAI目標のために800億ドル規模の資金調達を計画し、AnthropicがIPO準備に入るなど、巨額の投資がAI分野に集中しています。ソフトバンクグループの孫氏が「AI革命はドットコムバブルの50倍規模」と発言する中、NvidiaによるAIチップの輸出規制強化や中国の外国企業規制拡大に見られるように、AI技術覇権を巡る米中間のデカップリングが深刻化しています。また、フロリダ州がOpenAIを提訴するなど、AIの倫理、セキュリティ、社会への影響に関する懸念も顕在化し、新たな法的・規制的課題が浮上しています。\n\n日本においては、日経平均株価がAIブーストによって67,000円を超え、ソフトバンクGがトヨタを抜き国内時価総額首位になるなど、AI関連の活況が市場を牽引しています。しかし、地政学リスクによるエネルギー価格の高騰や、米中技術摩擦の激化は、資源輸入国である日本経済にとって重大な影響を及ぼす可能性があります。また、長期金利が40年ぶりの高水準にある点も、金融市場の安定性に留意すべきポイントです。\n\nテクノロジー分野では、OpenAIが数学の難問を解決し、CERNが標準模型を超える物理学の兆候を発見するなど、AIと基礎科学の両面で画期的な進展が見られます。デベロッパートレンドでは、AIエージェントの活用による開発プロセスの劇的な効率化が進む一方で、AIシステムのセキュリティ脆弱性やサプライチェーン攻撃、データ流出などのリスクが深刻化しており、その対策が急務となっています。\n\n総じて、本日は地政学的な不安定性の中でAIを中心とした技術革新が急速に進む一方で、それに伴う新たな経済的・社会的な課題が浮上している一日となりました。日本は、このグローバルなAI競争と地政学リスクの高まりの中で、経済安全保障と技術革新の両面から戦略的な対応を求められています。"
       }
     },
     "week": {
@@ -619,15 +637,15 @@ window.newsData = {
     "LPU (Language Processing Unit)": "大規模言語モデル（LLM）のようなAIの言語処理タスクに特化して設計された新しいタイプのプロセッサです。従来のGPUと比較して、特定の言語処理タスクにおいて高速かつ効率的な処理を目指しています。",
     "MoE (Mixture of Experts)": "大規模なAIモデルのアーキテクチャの一つで、入力データに応じて複数の「専門家（エキスパート）」と呼ばれる小さなモデルの中から最適なものを選び、その部分だけを動かすことで、計算効率を高め、より大規模なモデルを訓練・実行できるようにする技術です。"
   },
-  "updated_at": "2026-06-02 08:21 JST",
+  "updated_at": "2026-06-02 16:16 JST",
   "token_usage": {
     "2026-05": 1444521,
     "2026-05-27": 248362,
     "2026-05-28": 401129,
     "2026-05-29": 263394,
     "2026-05-30": 531636,
-    "2026-06": 272690,
+    "2026-06": 351772,
     "2026-06-01": 194207,
-    "2026-06-02": 78483
+    "2026-06-02": 157565
   }
 };
