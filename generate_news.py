@@ -136,6 +136,8 @@ def call_gemini_api(api_key, prompt):
     print("Gemini APIを呼び出し中...")
     
     models = [
+        "gemini-3-flash-preview",
+        "gemini-3.1-flash-lite",
         "gemini-2.5-flash",
         "gemini-1.5-flash"
     ]
