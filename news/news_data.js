@@ -7,49 +7,58 @@ window.newsData = {
           "title": "グローバル情勢・マクロ経済",
           "topics": [
             {
-              "headline": "ウクライナ大統領がプーチン氏に直接会談と「完全停戦」を提案、一方で露本土への攻撃も継続",
-              "content": "ゼレンスキー大統領はプーチン大統領への公開書簡で、対面での会談と完全な停戦を提案した。一方で、ウクライナ軍はサンクトペテルブルク近郊でロシアのコルベット艦をドローンで攻撃しており、外交的提案と軍事的圧力を同時に行っている。",
-              "impact": "★重要★ 停戦に向けた外交的な動きが表面化しているが、ロシア側は依然として強硬姿勢を崩していない。戦況の激化と和平提案が並行する極めて不安定な局面。地政学リスクの長期化は欧州経済の重石となり続けるが、トランプ氏の関与を含めた終戦シナリオへの期待感も市場には混在している。",
+              "headline": "ゼレンスキー大統領、プーチン氏へ直接会談と「完全停戦」を提案",
+              "content": "ウクライナのゼレンスキー大統領がプーチン大統領に対し、直接会談と完全停戦を求める公開書簡を送付した。これまで難色を示してきたロシア側に対し、和平交渉の場を設けるよう改めて求めている。",
+              "impact": "★重要★ ロシア・ウクライナ戦争における外交的局面の大きな転換点となる可能性がある。交渉が実現すれば、エネルギー価格の安定やサプライチェーンの正常化へ寄与する一方、停戦条件を巡る欧米諸国の足並みの乱れが市場に新たな不確実性をもたらす懸念もある。",
               "date": "06/04",
               "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQRmFVQi1IcXNUYk1iZFhpeWtWVkxGelFnQ0R0bERsOXRnQVBiekxXUjNqaENfTXdFS1BpbW5PTFFsTnYya1ZWOEJCUG8wVXNXLWFCakp4SGhYSVpvei1tNUNmUUR6SG12YkFXMGJVQzFpaThCUGhoMHN2TGF1d05rdUZldVliRTFhT1pwTUtELTZuLUx4aXZGVlh6U1ZXOE1sWG1saTIybGdPTk9RaF9NUDFlS3BOc3k1eU81ZUhrRjJ5dG8?oc=5",
               "importance": 5,
-              "fetched_at": "2026-06-05T08:00:45.324873+09:00"
+              "fetched_at": "2026-06-05T15:57:55.745657+09:00"
             },
             {
-              "headline": "トランプ氏、主要60カ国の貿易相手国に対し新たな関税導入の脅威を示唆",
-              "content": "トランプ次期大統領は、日本を含む60の貿易相手国に対し、大規模な関税導入を検討していると警告した。これは通商政策を交渉の強力なカードとして利用する戦略の一環とみられる。",
-              "impact": "★重要★ 世界的なサプライチェーンの再構築とインフレの再燃を招くリスクがある。特に日本企業にとっては輸出競争力の大幅な低下に直結し、株価や為替相場に甚大な影響を与える。保護主義の台頭は、マクロ経済の成長率を世界規模で抑制する最大の懸念要因である。",
-              "date": "06/04",
-              "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPaFlaYlY3cW1haWpSUVNzWmZLV0VOTm9TaEM1UFdxdFBOSUJaWWJzS0x5VnZEaXpQNmZvX2JTLUhpb21jMnFEeVE2bERvRWl6cXl2cThpVTdHTThZUUhVQ2pXMTBrRnYyWXJCdW9DRXBCTWxXOHNLdTBrZVZOaXQ2N2lHQ3V0VkszYWZmNDhCb1gwQXBiaHRHZnlzTGMwTUtIeUtj?oc=5",
+              "headline": "オマーンの石油積み出し施設で爆発、出荷停止で原油価格上昇",
+              "content": "オマーンのミナ・アル・ファハル端末で爆発が発生し、石油の積み出しが一時停止された。これを受け、供給懸念から原油先物価格が上昇。地政学的リスクがエネルギー市場に影を落としている。",
+              "impact": "★重要★ 中東における供給網の寸断は、インフレ抑制を目指す主要国の金融政策に直接的な悪影響を及ぼす。ホルムズ海峡付近の緊張感と重なり、エネルギーコスト増大がグローバル経済の減速を招くリスクがある。",
+              "date": "06/05",
+              "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNN09XbDZ2X3c4NmJuMHFyWUltX3Q3VVRaTnBxVEZUWkdROVdPQ04zalFzX3E5RXY4bVVqTlB6akdjS1NSaTk2RmR5eFRIOVBiM29WdURtZ2FwcVpwOHpOZWE5LWoycXRudmlJd21ubUQyMXVNUXRHVkpzQXJYck1NcHI4MktzcS1XVGtfTF9rRFdWZndObzR1aGtZVldSOEVraGUtTndVRk9lUTZ0ZU9SRjB0ek5xeXhtUWtBZENLX2NIMThFekQ3ZzNZTXU?oc=5",
               "importance": 5,
-              "fetched_at": "2026-06-05T08:00:45.324873+09:00"
+              "fetched_at": "2026-06-05T15:57:55.745657+09:00"
             },
             {
-              "headline": "米・イラン間で直接的な軍事衝突、中東の停戦合意に重大な亀裂",
-              "content": "米国とイランが軍事攻撃を応酬し、停戦に向けた交渉が極めて不透明な状況に陥っている。イランによるクウェート空港への攻撃も報告されており、地域全体への紛争拡大が懸念されている。",
-              "impact": "★重要★ 石炭輸送の要衝である中東の不安定化は、原油価格の急騰（オイルショック）リスクを孕んでいる。資源輸入国である日本にとっては、貿易収支の悪化とエネルギーコストの上昇を通じた実体経済への打撃が不可避となる。",
-              "date": "06/04",
-              "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQXzhwX2s4YkZjdnpieUdhRmVDSjZMTnhabmdMMkpXWFFFcHRnLTBIQkpTLWtYaUdweTBTRnRfQVFTM0d3Z2R4SzdNaXIya09vZmpRbWRPM1p5UG15S3ZVWGJpcWFWZ19OekQtR2JfWFpWQ0ZDZVJNQk1VWGJwM2laVFhIRUYtOFBQa0NPcmJrRGhHQklaNU9HZkRwbmUwbm8?oc=5",
+              "headline": "円安加速し160円目前、中東緊張によるドル買いが圧迫",
+              "content": "為替市場で円が一時1ドル＝160円に迫る水準まで下落した。中東情勢の緊迫化に伴う「安全な資産としてのドル」への資金逃避に加え、日本の当局による介入警戒感も高まっている。",
+              "impact": "★重要★ 日本経済にとっては輸入物価のさらなる上昇要因となり、日銀の金融政策決定に強い圧力をかける。アジア圏の通貨安競争を誘発する恐れがあり、マクロ経済の安定性を揺るがす深刻な事態と言える。",
+              "date": "06/05",
+              "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNY1I1UFVHbFdub2xoRDE3aktGWXBsaC1XNFZReFFnVEFiMl9YR2t1UVlXMjhtYWtWbHJjNkMtWlZKZERtTEZMTEE4TzFtZGhFS3oyc3p1Wm1nVEtxdEN6OENxWWFtdTNYOEpnNFRDaVdKMTNySW1MZTlQWEZyd0tMSEdkaVpvOU1VY19CZ2hrR3JhY0R5LUFiQlFhNy1PYllOcGlnVzhHY3lqNnNQS0RxOW5MSzFIb2Y3Rnc?oc=5",
+              "importance": 5,
+              "fetched_at": "2026-06-05T15:57:55.745657+09:00"
+            },
+            {
+              "headline": "習近平主席が北朝鮮を訪問へ、中朝関係の深化を図る",
+              "content": "中国の習近平国家主席が近く北朝鮮を訪問する方針。軍事協力の懸念が深まる中、中国が朝鮮半島における影響力を誇示し、対米牽制を含めた地政学的な連携を強化する狙いがある。",
+              "impact": "★重要★ ロシア・北朝鮮・中国の「新冷戦構造」の結束を象徴する動き。東アジアの安全保障リスクを高め、日本を含む周辺国の防衛政策や対中輸出規制にさらなる圧力をかける要因となる。",
+              "date": "06/05",
+              "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNMVpSWUNvcTYwOUc0MWVVN0FuSklCZTY2SDNHV0RTbKLXdEZCRkRkcnZrUGNsc2xGc1d3eDFrZmYwalFxck1yeUxIWmcySE5ZOXBJWmwxbnhMeHpFMEpKcVk0d2hHaTUzNmc0bTJETmdyY1JvR2dWakQ0enU1dVppQl9aSHBLcVdia0tCWkNXQklpUDdjejAzOENiSVhSbEZMVFdRdGx6NXF4SFZ2Tm9PSzUxTzBmWnc?oc=5",
               "importance": 4,
-              "fetched_at": "2026-06-05T08:00:45.324873+09:00"
+              "fetched_at": "2026-06-05T15:57:55.745657+09:00"
             },
             {
-              "headline": "「ファイブ・アイズ」、LinkedIn等を通じた中国のスパイ活動に異例の警告",
-              "content": "米・英を含む5カ国の情報共有枠組み「ファイブ・アイズ」は、中国の情報機関がLinkedInなどの求人サイトを利用して西側の諜報員をリクルートしているとして、共同で警告を発した。",
-              "impact": "★重要★ 知的財産や高度技術の流出防止が国家安全保障の最優先課題となっている。技術デカップリング（切り離し）がさらに進展し、グローバルな人材交流やビジネス活動において審査が厳格化されることが予想される。ハイテク産業における企業のセキュリティコスト増大につながる。",
-              "date": "06/04",
-              "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOSmtjTGE4VF9CRHhQZ0h4Uk9VbnJNV2ZxVGttekNXNmp2SHdOaFZoaUZSQVRnenYwVWswdWRJUFVEaHdViW9Fei1yNncxY2c4ekU0Umw3QTRvU2E3ZWhGZEEyd2s4ellLWVhsTXdwX0ZKdXVLb1NaS1NDcHN2RFpkS2lqSDBZVkNuUUFFNlJxdHktUVhjQVBreXgzcG9NX0Fid05maGJLQmxDdnpZU0ZoUVRWRG4?oc=5",
-              "importance": 3,
-              "fetched_at": "2026-06-05T08:00:45.324873+09:00"
+              "headline": "NVIDIA CEO、韓国ロボティクス市場の急成長を示唆",
+              "content": "NVIDIAのジェンスン・フアンCEOは、韓国がロボティクス分野における次の主要拠点になると述べ、今後「いくつかの驚き」があることを示唆した。AIとハードウェアの融合による産業変革を強調している。",
+              "impact": "★重要★ ハイテク株の調整局面が続く中、新たな成長セクターとしてのロボティクスへの注目を促す。特に製造業の自動化や半導体需要の持続性を示すものであり、韓国および日本のロボット産業にとっても追い風となるポジティブなシグナル。",
+              "date": "06/05",
+              "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNYzAyaDJINHJWeF8xZEdQSVR6aDBObTZzeW1RYmhrSXlBQWl5QkQ3OWVFbFZyOGhfVVkzcHlhdWVoaTJ5VVRkQ3FtRDV2UlNDMEY2Qkxual9aQVVySVdYdXR0M0tTUmRVN21OSGNQN3hSeEl1RndFVWJtREtDSDJaVWhYNG94U0plRnM0WGxBVVI1OVdpeHlZWHdnM2l3b09Za0g4NVBWWDF1VlpVNVN6NGFVdw?oc=5",
+              "importance": 4,
+              "fetched_at": "2026-06-05T15:57:55.745657+09:00"
             },
             {
-              "headline": "トランプ氏、非常事態権限を行使して石炭産業を数百億円規模で支援",
-              "content": "ドナルド・トランプ大統領は、非常事態権限を利用して石炭産業に数億ドルの公的資金を投入するよう指示した。気候変動対策よりもエネルギー安全保障と国内産業保護を優先する姿勢を鮮明にしている。",
-              "impact": "★重要★ 世界的な脱炭素（ESG投資）の流れに逆行する米国のエネルギー政策の転換を象徴している。化石燃料への回帰は短期的には米国のエネルギーコストを抑制する可能性があるが、国際的な環境規制やグリーンボンド市場への混乱、パリ協定の枠組み形骸化を招くリスクがある。",
-              "date": "06/04",
-              "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNWmt4MmlhUHI0SjcweUxuY181M0VRa2I3cHNqZ3c0enFRN1N0a3AxYXB0TkFXM2E0M25mLWEwTjZ3ZDNUa0RQMVRhclB5MjR2bnpKMFlMbU5WTVVHT3FVUGowN3hNTjJ5eEQ0MzBhTGVrcVpmRy1ITVFIVG55aFp2M0J2Z1F3WjItMm1mUzkxS3o3a3lmZGxvSHllVUgyUkJhSzN5RW1zaEVnNDdmZ2NwYm9ldlljcmFvMFE?oc=5",
+              "headline": "米国下院、ロシア制裁とウクライナ援助案を可決",
+              "content": "米下院はトランプ前大統領の反対を押し切り、ロシアへの追加制裁とウクライナへの軍事援助を継続する法案を可決した。超党派による支持が維持された形となっている。",
+              "impact": "★重要★ 米国内の政治的対立にもかかわらず、安全保障政策の継続性が確認されたことは同盟諸国にとって安心材料となる。対ロシア包囲網が維持されることで、長期化する紛争の戦況およびエネルギー外交に強い影響を及ぼし続ける。",
+              "date": "06/05",
+              "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNYU8zSVNZN0FKTnFpdlNVNmdPVkZyTFNJanZsclRyNmNRaEozcnYwd093VVVrRzE1aWp3RlRDeUw0dXVqMk1KcURLZlptSGc4LVl1bkJLV0dlQjk2ZTlCY3BLTDQ1UFE0enk1VjJlMWJIM19WbmhMWlVvaEM0X0FJTDNPUHlUTGlNZGhPYWF4TmpaUEtjbmVPSGpQUnNaTEJLQkc2bTJxWVpQZw?oc=5",
               "importance": 3,
-              "fetched_at": "2026-06-05T08:00:45.324873+09:00"
+              "fetched_at": "2026-06-05T15:57:55.745657+09:00"
             }
           ]
         },
@@ -58,67 +67,58 @@ window.newsData = {
           "title": "テクノロジー・サイエンス",
           "topics": [
             {
-              "headline": "HelionがMicrosoft向け核融合発電所建設へ、4億6500万ドルの資金調達を実施",
-              "content": "Sam Altman氏が支援する核融合スタートアップHelionが、Microsoftに電力を供給する実証プラントの建設に向けて4億6500万ドルを調達した。次世代のエネルギー源として期待される核融合の商業化を加速させる。",
-              "impact": "★重要★ AIの爆発的な普及に伴う電力需要の急増に対し、核融合は究極のクリーンエネルギーとして期待されている。Microsoftという巨大テック企業が直接契約し、巨額投資が行われることは、核融合が理論段階から実用的なインフラ構築フェーズへと移行しつつあることを示唆している。",
+              "headline": "核融合ベンチャーHelion、マイクロソフト向け発電所建設に4億6500万ドルを調達",
+              "content": "サム・アルトマンが支援する核融合スタートアップHelionが、マイクロソフトに電力を供給するための商用核融合発電所建設に向けて、4億6500万ドルの資金を調達しました。",
+              "impact": "★重要★ AIの爆発的な電力需要を支える究極のクリーンエネルギーとして、核融合の商用化が現実味を帯びてきました。テック大手が直接エネルギー源を確保する動きは、今後のデータセンター戦略の標準となる可能性があります。",
               "date": "06/04",
               "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOYnh2NzdiajZwUkRkejZsbnhwaGlYbHV5OUZjOWRyOUJJSTAxci1DTHgwTFFnUkNST0JyRkdOR09jaXFmTFpWSW85SHRpaDNpYVZRNFZ2eW93UkZWLTBwUkh0UG9OelFLVHN1S1VXVHNGdVpFTjFkcnVpM2MwNWpqdFY3SXNzX1VLTjRZRF9XZlJaaU0xbnZKYnEzbTA2enpFcEM4MGxlQlJmZXN0eG54OEYxRm1neExlUnFtbVVxLXQxSXgxN0E?oc=5",
               "importance": 5,
-              "fetched_at": "2026-06-05T08:00:45.324873+09:00"
+              "fetched_at": "2026-06-05T15:57:55.745657+09:00"
             },
             {
-              "headline": "天の川銀河のブラックホールを巡る50年来の謎「失われた風」がついに発見される",
-              "content": "銀河系中心のブラックホールから放出されているはずだが半世紀近く見つかっていなかった「プラズマの風」が特定された。銀河の進化プロセスを解明する上で欠かせない重要なパズルのピースが埋まった。",
-              "impact": "★重要★ ブラックホールが銀河全体のガス分布や星形成をどのように制御しているかを理解するための核心的な発見。銀河のダイナミクスを数学的に記述するモデルの精度を向上させ、宇宙の構造形成に関する理論を裏付ける極めて重要な科学的成果である。",
+              "headline": "天の川銀河中心のブラックホールから放出される「失われた風」を50年ぶりに発見",
+              "content": "天文学者たちが、50年にわたる探索の末、天の川銀河の巨大ブラックホールから放出されるガス流（風）の証拠をついに特定しました。",
+              "impact": "★重要★ 銀河の形成と進化においてブラックホールが果たすフィードバック機構の謎を解くミッシングリンクです。宇宙物理学の基礎理論を実証する歴史的な発見と言えます。",
               "date": "06/04",
               "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5tTGtFV2dLcWJSRUlsX2ttNDR3UGw4amRhZzV6UlNQWUZvdHUyODJTNUoyelJEeFB3bm9Ib1RVbXl4VWljN1lkVjhfTjlWa2Z3STJoWUxFdTVCX2toc3JSRmFUZDR3V01IVEo4?oc=5",
               "importance": 5,
-              "fetched_at": "2026-06-05T08:00:45.324873+09:00"
+              "fetched_at": "2026-06-05T15:57:55.745657+09:00"
             },
             {
-              "headline": "7つの太陽系外惑星に磁場を発見、生命存在の可能性を探る新たな窓が開く",
-              "content": "科学者たちが意図せず、7つの遠方にある系外惑星の周囲に磁場が存在することを偶然発見した。磁場は惑星の大気を保護し、生命が存続するために不可欠な要素とされる。",
-              "impact": "★重要★ 惑星に磁場があることは、有害な宇宙放射線から地表を守り、居住可能性（ハビタビリティ）を高める極めて重要な指標である。磁場を広範囲に検出する手法が確立されれば、第二の地球を探査する研究において決定的なフィルタリングツールとなる。",
-              "date": "06/03",
-              "url": "https://news.google.com/rss/articles/CBMikwJBVV95cUxQX0l4MHVRR201V2JsdEN5aDBuMnlqWDljVmF3VTZ1bU1nZlZnQVZjYzhDMEQ5YU5CNmRVZEw1aUFnVDBVb2I5ZjhkMnRaSnY4ZThVRVpnMWwyeG9PMThSWTVXblR5S2ZYZmRKMkpqYlRWWWNkVURYSTQ5Mnp0ZmVobUFCUEZKM3p5WGI4WUczSDcydzFWU1BoaHBwTnR2U1pmdTRtVjdNbFhfWEFBTTkySVl1djJoNzlodU1tRzlvV0pxanVEbUhTOXh4UjZmVXNjTjhEclU5TEcxYUhvc1MzeEVmYVlTbERUQzFDZ3hTU2JlanNDYXU0Ykl4RGhaejh6WXEtM3FQYW1vcHR2UjZtbDRFdw?oc=5",
-              "importance": 5,
-              "fetched_at": "2026-06-05T08:00:45.324873+09:00"
+              "headline": "マルハナバチの高度な知能：チンパンジーに匹敵する問題解決能力を実証",
+              "content": "新しい実験により、マルハナバチが複雑な課題を自発的に解決し、道具を使用できることが示されました。これは大型類人猿に匹敵する認知能力を示唆しています。",
+              "impact": "★重要★ 知能の発生には巨大な脳が必須ではないことを示しており、神経科学や、より効率的なアーキテクチャを持つ次世代AIモデル（バイオインスパイアードAI）の開発に大きなインスピレーションを与えます。",
+              "date": "06/04",
+              "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5MZm5PVW9FUzAxT1NxQ0VYOHZUTjNZZDBGOTluaE5zd0Z3dS1JRWhLY3FOaWFueHM5VEZRZEt5cHZLb0tvODZnUTMyQjdXZlhNTmdfRlRVMWM0VElIUk9MV3owSS1YRmUwNzZhOWpTc2NBbzQybVZOQ3Fra29UM2M?oc=5",
+              "importance": 4,
+              "fetched_at": "2026-06-05T15:57:55.745657+09:00"
             },
             {
-              "headline": "OpenAIのAIエージェント、旧式のDoS攻撃を組み合わせてサーバーを瞬時にダウンさせるリスクが判明",
-              "content": "OpenAIのAIエージェントが、10年以上前の古いDoS攻撃の手法を自律的に連鎖させ、わずか数秒でWebサーバーをクラッシュさせることが可能であることが報告された。脆弱性探索におけるAIの悪用懸念が浮き彫りとなった。",
-              "impact": "★重要★ AIエージェントが自律的に高度なサイバー攻撃を構成できる能力を示した。ゼロデイ脆弱性がなくても、既存の脆弱性を組み合わせて破壊的な攻撃を行う「攻撃の自動化」は、今後のサイバーセキュリティにおける防御側の負担を劇的に増加させる技術的脅威となる。",
+              "headline": "OpenAIのエージェント、自律的にDoS攻撃を連鎖させサーバーを数秒でクラッシュ",
+              "content": "OpenAIのAIエージェントが、10年前の古いDoS攻撃を連鎖させてウェブサーバーを瞬時にダウンさせる能力を示したことが報告されました。",
+              "impact": "★重要★ 自律型AIがサイバー攻撃の高度なオーケストレーターとして機能する危険性を実証しています。AIの安全性（アライメント）と、AIによる自動防御システムの必要性を緊急に示唆する事案です。",
               "date": "06/04",
               "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOc28xQzQ4LXVNaVNtLXhtMXlYbWI5SmwxdERvMVNfTTgxVjBGblZsRFdNMGhvNHlxc0cwSFRtZFlva21YVEViOXY0eXc1a1l6X0UyYmYwai05V3ctazNDalNmSmY3MFMzZ3l3YW1JdDRYMm1ORTVlVnNLUG9OQms2aklZTWRwRjRBZklZeHB4SnpSSkpaajZnVHducllqamNBM0c2dENXV19pS1pNcTY5bElnT2pqcmR2OVYw?oc=5",
               "importance": 4,
-              "fetched_at": "2026-06-05T08:00:45.324873+09:00"
+              "fetched_at": "2026-06-05T15:57:55.745657+09:00"
             },
             {
-              "headline": "マルハナバチの知能は霊長類に匹敵か、道具を使用して問題を解決する能力を確認",
-              "content": "新たな行動実験により、マルハナバチが複雑な多段階の問題を解決するために道具を使用できることが示された。これは、チンパンジーなどの高等動物に特有と考えられてきた認知能力に近い。",
-              "impact": "★重要★ 脳のサイズと知能の関係性に一石を投じる発見。小さな脳でも効率的なニューラルネットワークによって高度な推論や学習が可能であることを示唆しており、生物学的な知能の理解だけでなく、より効率的なAI（省リソース型AI）の設計へのインスピレーションを与える可能性がある。",
+              "headline": "系外惑星Proxima bに強力な磁場の証拠、生命存在の可能性が再燃",
+              "content": "地球に最も近い太陽系外惑星Proxima bを含む惑星系において、巨大な磁場の証拠が発見されました。磁場は大気を恒星風から守るため、生命居住の鍵となります。",
+              "impact": "★重要★ これまで「過酷な恒星放射」により生命生存は絶望的とされた説を覆す発見です。磁場検出技術の向上により、アストロバイオロジーの焦点が大きく変化する可能性があります。",
               "date": "06/04",
-              "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOLXY3MVZya1FJSTg0aFpIVWxtLWJKcWtlTFlBRGpGelRNVlZtd09OQTVmWkJ1UFhPa1UycVJ1Vlg3ZHF5QjlpZmFfd1lSSXVLWVZhOXFVQ3FiSnRzWnZGNVFWOS1HOE0zYkY4QXVJSzV0d0VOanpOTHF0X3cySVpLeGRPMkY2ck5pdWhoRVNwYWN2WjNHY2E1bkZjeVM?oc=5",
+              "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPdEUxanV2YXZrdFowcmZxVEgwTkZiUTFkaEV5R2NvNlJjNUR6cVJYaFBCdlczVTc4MV9CLUlxVU4tR1N3d2hhRVpnS0hFR2RsSW5UZnR3QUVMQkROazJNdWZmVXRZTlF0cnJ6V0o1WVg4VjNxdVhEU0xGQmNTcUlkQl9rcU9UWUV6NlpvMW5RQVlJaHlpLWNDMlpEUE9lYUxvR1E5V2ppakVJVTFpa3BIZ25ESHVfTXRZandDcTJEZGhlUFNWVlU4UENDMlFUb0FzMDJN?oc=5",
               "importance": 4,
-              "fetched_at": "2026-06-05T08:00:45.324873+09:00"
+              "fetched_at": "2026-06-05T15:57:55.745657+09:00"
             },
             {
-              "headline": "サハラ砂漠の隕石から「失われた惑星」の証拠を発見、初期太陽系の姿を書き換える可能性",
-              "content": "アフリカで発見された隕石を分析した結果、かつて太陽系に存在した巨大なプロトプラネット（原始惑星）の一部である可能性が高いことが判明した。初期太陽系の惑星形成と衝突の歴史を示す物理的な証拠となる。",
-              "impact": "★重要★ 太陽系の形成初期には現在よりも多くの惑星が存在し、激しい衝突の末に淘汰されたという仮説を物理的に裏付けるもの。地球がどのようにして誕生し、現在の安定した軌道を得たのかを探る上で、この「失われた世界」の物質解析は極めて高い学術的価値を持つ。",
-              "date": "06/04",
-              "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOdmROOVVPWXNYVWJvaWpGN1Z0SGlYa2duS3ZxNVBCTU0yQzNyMk5vTy1hRFdLN0lrOG5QM3JEbzk4R2ljbG1VYWd5Mmg5QzFQQU5vUmFraVBqeGdBU2xTeXpGeEhXWWE0Vk55elMtMlNtUS0tbWc3ZU51UFNtVVBSLWZneTJiUnNvTVNtTVVULTJHcXR3dnlKaEpGWl9JWmNaYko4b2MzM085bUwwU0RVeEMxUFJlX29Pb1N5anFEQS1lUQ?oc=5",
-              "importance": 4,
-              "fetched_at": "2026-06-05T08:00:45.324873+09:00"
-            },
-            {
-              "headline": "Waymoのロボタクシー用中古バッテリー、電力グリッドのバックアップストレージとして再利用",
-              "content": "Waymoが自社の自動運転車両で使用したリチウムイオンバッテリーを、送電網（グリッド）の定置型蓄電池として活用するプロジェクトを開始した。EVバッテリーのライフサイクル管理とエネルギーインフラの安定化を両立させる。",
-              "impact": "★重要★ 循環型経済（サーキュラーエコノミー）におけるディープテックの応用事例。車載用としては性能が低下したバッテリーでも、グリッド貯蔵用としては十分活用可能であり、再生可能エネルギーの導入拡大に伴う蓄電ニーズに応えるためのスケーラブルなソリューションとなる。",
+              "headline": "Waymoの使用済み自動運転車バッテリー、電力網のバックアップ蓄電池として再利用",
+              "content": "Waymoのロボタクシーで使用された古いバッテリーを、電力グリッド用のエネルギー貯蔵システムとして再活用するプロジェクトが発表されました。",
+              "impact": "★重要★ 電気自動車（EV）の普及に伴うバッテリー廃棄問題を解決するサーキュラーエコノミーの先行事例です。モビリティとエネルギーインフラを繋ぐ技術的プラットフォームの確立が期待されます。",
               "date": "06/04",
               "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOMExfclNzWDBzNlBjX0xZWlBHNnRQSWIzUWQ1M1ZfVkpTdmR5ckQwbTB4bjR0NTM5ODBHU3hUSUEwWDVENWI5Nm1vSlZial94S0hhM2NMSkNQRFh6QV9waFRJek9sb1VZeXRzamVjdHlSYVZwX2FaT3dHTVpWXzBUbVJ0eWtFUzhjSHU0eUFCUGZCOTJqNmdJQjRiemVORU5feDRRXzJaaFAtdEo4?oc=5",
               "importance": 3,
-              "fetched_at": "2026-06-05T08:00:45.324873+09:00"
+              "fetched_at": "2026-06-05T15:57:55.745657+09:00"
             }
           ]
         },
@@ -127,64 +127,73 @@ window.newsData = {
           "title": "デベロッパートレンド (Hacker News & 海外フォーラム & 国内)",
           "topics": [
             {
-              "headline": "VoidZeroがCloudflareに加入、Viteエコシステムの基盤強化へ",
-              "content": "Vite, Vitest, Rolldownなどを開発するVoidZeroのチーム全体がCloudflareに加わることが発表されました。主要プロジェクトは引き続きオープンソースかつベンダーに依存しないコミュニティ主導で維持される方針ですが、Cloudflareの強力なインフラ支援を受けることになります。",
-              "impact": "★重要★ フロントエンド開発ツールの標準となりつつあるViteエコシステムが、エッジコンピューティングの巨人Cloudflareと統合されることで、ビルド速度のさらなる高速化やデプロイ体験の劇的な向上が期待されます。開発環境の覇権争いにおける決定的な動きと言えます。",
-              "date": "06/04",
-              "url": "https://blog.cloudflare.com/voidzero-joins-cloudflare/",
-              "importance": 5,
-              "fetched_at": "2026-06-05T08:00:45.324873+09:00"
-            },
-            {
-              "headline": "Elixir v1.20リリース、漸進的型付け（Gradual Typing）を導入",
-              "content": "長らく研究段階にあったElixirの型システムがついに実用化の第一歩を踏み出しました。v1.20では、既存のプログラムに型注釈を追加することなく、型推論と漸進的型チェックを行うマイルストーンを達成しています。",
-              "impact": "★重要★ 動的言語としての柔軟性を維持しつつ、静的解析による堅牢性を獲得する大きな転換点です。関数型言語としての魅力に加え、大規模開発における型安全性の恩恵が受けられるようになり、エコシステム全体に破壊的な好影響を与えるでしょう。",
-              "date": "06/03",
-              "url": "https://elixir-lang.org/blog/2026/06/03/elixir-v1-20-0-released/",
-              "importance": 5,
-              "fetched_at": "2026-06-05T08:00:45.324873+09:00"
-            },
-            {
-              "headline": "AWS、データセンターネットワークにランダムグラフ理論を導入、ルーター数を69%削減",
-              "content": "AWSは従来のFat-Treeトポロジーに代わり、ランダムグラフ理論を用いた新しいネットワークアーキテクチャを採用しました。これにより、必要なルーター数を大幅に削減しつつ、高いスケーラビリティと耐障害性を維持することに成功しました。",
-              "impact": "★重要★ 数十年来の標準だったデータセンター設計の常識を覆す技術革新です。インフラコストの劇的な低減と効率化は、最終的にクラウドサービスの利用料金や計算リソースの可用性に直結するため、全開発者にとって無視できない進歩です。",
-              "date": "06/04",
-              "url": "https://www.infoq.com/news/2026/06/aws-random-graph-data-center/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-              "importance": 5,
-              "fetched_at": "2026-06-05T08:00:45.324873+09:00"
-            },
-            {
-              "headline": "Anthropicが「再帰的な自己改善」の進展を公開",
-              "content": "AI開発のサイクルをAI自体に委ねる「再帰的な自己改善」の進捗が報告されました。人間主導の開発から、AIが自律的にシステムを設計・開発する段階への移行が進んでおり、開発スピードが加速しているとしています。",
-              "impact": "★重要★ ソフトウェア開発そのもののあり方が根本から変わる可能性を示唆しています。AIが自身の次世代モデルを設計するループが確立されれば、技術的特異点（シンギュラリティ）へ向かう速度が指数関数的に向上する恐れと期待の両面があります。",
+              "headline": "AnthropicがAIによる「再帰的自己改善」の進展を発表、AI開発の主導権がAIへ移行",
+              "content": "Anthropicは、AIシステムの開発サイクルにおいてAI自身が設計・開発を行う「再帰的自己改善」の進展を公開しました。これまで人間が行っていた開発ステップをAIに委譲し始めており、十分な計算リソースがあれば、完全に自律的なAIシステムの設計が可能になる傾向を示唆しています。",
+              "impact": "★重要★ AI開発のパラダイムシフトです。AIがAIを改善するループが確立されることで、開発速度が指数関数的に加速する「シンギュラリティ」の技術的基盤となります。ソフトウェアエンジニアの役割が「コードを書く」ことから「改善プロセスを設計する」メタ的なレイヤーへ急速にシフトすることを意味します。",
               "date": "06/04",
               "url": "https://www.anthropic.com/institute/recursive-self-improvement",
-              "importance": 4,
-              "fetched_at": "2026-06-05T08:00:45.324873+09:00"
+              "importance": 5,
+              "fetched_at": "2026-06-05T15:57:55.745657+09:00"
             },
             {
-              "headline": "AIによる自律的脆弱性発見フレームワーク、AnthropicがOSSで公開",
-              "content": "Claudeを活用してコードの脆弱性を自律的に発見・修正するためのリファレンス実装「defending-code-reference-harness」が公開されました。セキュリティチームとの連携から得られた知見が凝縮されています。",
-              "impact": "★重要★ 「AIがコードを書く」フェーズから「AIがコードを守る」フェーズへの進化を象徴するツールです。開発ライフサイクルに自律的なセキュリティ監査を組み込む手法のデファクトスタンダードになる可能性を秘めています。",
+              "headline": "AWS、データセンターネットワークを「ランダムグラフ理論」で刷新。ルーター数を69%削減",
+              "content": "AWSは、従来のFat-Tree構造のデータセンターネットワークをランダムグラフ理論（Random Graph Theory）に基づいた設計に置き換えたことを発表しました。これにより、物理的なルーターの数を69%削減しつつ、高い効率とスケーラビリティを維持することに成功しました。",
+              "impact": "★重要★ インフラコストと複雑性を劇的に低減するブレイクスルーです。従来の定石であった階層型ネットワーク構造から脱却し、数学的モデルによる最適化を大規模インフラに適用した実例として、今後のクラウド基盤の標準設計を塗り替える可能性があります。",
               "date": "06/04",
-              "url": "https://github.com/anthropics/defending-code-reference-harness",
+              "url": "https://www.infoq.com/news/2026/06/aws-random-graph-data-center/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
               "importance": 4,
-              "fetched_at": "2026-06-05T08:00:45.324873+09:00"
+              "fetched_at": "2026-06-05T15:57:55.745657+09:00"
             },
             {
-              "headline": "ローカルLLMにおける「16GB VRAMの壁」の検証、RTX 4080を用いた実測結果",
-              "content": "RTX 4080 (16GB VRAM) を用い、OllamaやvLLMで7種類のモデルを実測した結果、モデルサイズが約15GBを超えるとCPUオフロードにより速度が1/10以下に激減することが示されました。MoEモデルの優位性についても触れられています。",
-              "impact": "★重要★ 開発者がローカル環境でAIモデルを動かす際の、具体的かつ現実的なハードウェア制約を明らかにしています。量子化やモデル選択の戦略において、エンジニアが参照すべき極めて実用的な知見です。",
+              "headline": "Vite/Vitestの開発企業「VoidZero」がCloudflareに統合。フロントエンド基盤の垂直統合加速",
+              "content": "Vite, Vitest, Rolldownなどを手掛けるVoidZeroがCloudflareに買収されました。チーム全員が移籍しますが、各プロジェクトは引き続きオープンソースかつベンダーニュートラルとして維持されます。Cloudflareのインフラと密結合した次世代の開発体験の提供が期待されます。",
+              "impact": "★重要★ フロントエンド開発エコシステムの再編です。ランタイム（Cloudflare Workers）とビルドツール（Vite）が同一組織に属することで、ゼロ構成での最適化やエッジデプロイの高度化がさらに進みます。Vercel等との競合が激化し、Web開発の標準が大きく変化する転換点です。",
+              "date": "06/04",
+              "url": "https://blog.cloudflare.com/voidzero-joins-cloudflare/",
+              "importance": 4,
+              "fetched_at": "2026-06-05T15:57:55.745657+09:00"
+            },
+            {
+              "headline": "AIエージェントによる多段レビュー運用で、レビュー待ち時間を70%削減（国内事例）",
+              "content": "estie社の開発チームが、PR前後にClaude CodeとCodeRabbitを組み合わせた2段階のAIレビュー体制を構築しました。AI Agentの導入で実装速度が上がった結果生じた「人間によるレビューのボトルネック」を解消し、レビュー待ち時間を約70%削減することに成功しました。",
+              "impact": "★重要★ 「AIがコードを書く」時代の後の、開発プロセスの最適化モデルを示しています。人間がクリエイティブな設計判断に集中できるよう、定型的な指摘をAIに委譲する「AI-Nativeな開発フロー」の成功事例として、多くのチームが模倣すべきプラクティスです。",
               "date": "06/03",
-              "url": "https://zenn.dev/seeda_yuto/articles/ollama-vs-vllm-rtx4080-benchmark",
+              "url": "https://zenn.dev/estie/articles/4f06bde08a90d4",
+              "importance": 4,
+              "fetched_at": "2026-06-05T15:57:55.745657+09:00"
+            },
+            {
+              "headline": "韓国政府、全ての掲示板にAI検閲ツールの導入を義務化。中小事業者にハードウェア負担",
+              "content": "韓国の新しい電気通信事業法に基づき、国内のオンラインコミュニティやフォーラムの管理者は、ユーザーがアップロードする全ての画像・動画をAIでスキャンすることが義務付けられました。政府はハードウェアを提供せず、事業者は自費でNVIDIAのデータセンターグレードGPUを導入する必要があり、死活問題となっています。",
+              "impact": "★重要★ 技術革新が規制によって「強制的なコスト」に変わった象徴的なニュースです。AIの社会的責任を追求するあまり、中小のWebサービス運営が経済的に不可能になるリスクを示唆しており、自由なインターネット空間と法規制のバランスについて世界的な議論を呼ぶ可能性があります。",
+              "date": "06/04",
+              "url": "https://discuss.privacyguides.net/t/south-korean-online-communities-will-need-to-scan-every-images-with-ai-censorship-tools/38341",
+              "importance": 4,
+              "fetched_at": "2026-06-05T15:57:55.745657+09:00"
+            },
+            {
+              "headline": "Elixir v1.20がリリース、漸進的型付け（Gradual Typing）を導入",
+              "content": "Elixir v1.20が正式にリリースされ、漸進的型付けが言語仕様に組み込まれました。動的言語としての柔軟性を維持しつつ、コンパイル時に型の整合性をチェックできる機能が追加され、大規模開発における安全性と保守性が向上します。",
+              "impact": "★重要★ Erlang VM (BEAM) 上のモダン言語としての地位を盤石にする進化です。動的型付けの欠点であるランタイムエラーのリスクを、既存のコードベースを壊さずに段階的に排除できるため、信頼性が要求されるミッションクリティカルなバックエンド開発での採用が加速します。",
+              "date": "06/04",
+              "url": "https://www.reddit.com/r/programming/comments/1twg7mu/elixir_v120_released_now_a_gradually_typed/",
               "importance": 3,
-              "fetched_at": "2026-06-05T08:00:45.324873+09:00"
+              "fetched_at": "2026-06-05T15:57:55.745657+09:00"
+            },
+            {
+              "headline": "Next.js 16.2リリース、開発起動速度が400%向上しAIエージェント向け機能を強化",
+              "content": "Next.js 16.2が発表され、開発サーバーの起動時間が400%高速化されました。また、AIエージェントがコードベースを理解しやすくするためのメタデータ構造や、AIツールとの統合を深めるためのAPIが拡充されています。",
+              "impact": "★重要★ 開発者の生産性（DX）の極端な向上と、AIによる自動開発への適応を同時に進めたアップデートです。もはやツールは「人間が使うもの」だけでなく「AIエージェントが操作しやすいもの」へと進化しており、フレームワークの設計思想の変遷を象徴しています。",
+              "date": "06/04",
+              "url": "https://www.infoq.com/news/2026/06/nextjs-6-2/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+              "importance": 3,
+              "fetched_at": "2026-06-05T15:57:55.745657+09:00"
             }
           ]
         }
       ],
       "summary": {
-        "content": "本日は地政学、エネルギー、先端技術、およびソフトウェア開発の全域で、既存の枠組みを再定義するような重大な転換が集中しました。地政学面では、トランプ氏による広範な関税脅威や米イランの衝突が、グローバル経済の不確実性を極限まで高めています。一方で、マイクロソフトによる核融合への投資やAWSのネットワーク革新、Elixirの型導入といった動きは、インフラと開発エコシステムの抜本的な効率化が進んでいることを示しています。日本としては、エネルギー安全保障の再考、サプライチェーンの耐性強化、そしてAnthropicが指摘するようなAIによる自律的なセキュリティリスクへの早期対応という、多面的な防御と投資のバランスを注視すべき局面です。"
+        "content": "本日は、地政学リスクの再燃とAI技術の質的転換という二極の大きな動きが顕著な一日でした。グローバル経済では、中東の石油施設爆発や円安加速（160円目前）が、エネルギー価格と為替の不確実性を極限まで高めています。一方でテクノロジー分野では、核融合発電への巨額投資や、Anthropicによる「AIの再帰的自己改善」など、エネルギーと知能の基盤が根本から刷新されようとしています。日本としては、経済的ショックへの警戒を強めると同時に、AIエージェントによる開発の自動化やインフラの垂直統合といった、開発効率を劇的に変える技術潮流を迅速に取り込み、産業競争力へ転換することが急務です。"
       }
     },
     "week": {
@@ -217,18 +226,18 @@ window.newsData = {
     "LPU (Language Processing Unit)": "大規模言語モデル（LLM）のようなAIの言語処理タスクに特化して設計された新しいタイプのプロセッサです。従来のGPUと比較して、特定の言語処理タスクにおいて高速かつ効率的な処理を目指しています。",
     "MoE (Mixture of Experts)": "大規模なAIモデルのアーキテクチャの一つで、入力データに応じて複数の「専門家（エキスパート）」と呼ばれる小さなモデルの中から最適なものを選び、その部分だけを動かすことで、計算効率を高め、より大規模なモデルを訓練・実行できるようにする技術です。"
   },
-  "updated_at": "2026-06-05 08:00 JST",
+  "updated_at": "2026-06-05 15:57 JST",
   "token_usage": {
     "2026-05": 1444521,
     "2026-05-27": 248362,
     "2026-05-28": 401129,
     "2026-05-29": 263394,
     "2026-05-30": 531636,
-    "2026-06": 641477,
+    "2026-06": 686771,
     "2026-06-01": 194207,
     "2026-06-02": 157565,
     "2026-06-03": 140423,
     "2026-06-04": 103486,
-    "2026-06-05": 45796
+    "2026-06-05": 91090
   }
 };
