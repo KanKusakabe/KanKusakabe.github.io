@@ -7,58 +7,49 @@ window.newsData = {
           "title": "グローバル情勢・マクロ経済",
           "topics": [
             {
-              "headline": "イランがクウェートの米軍拠点を攻撃、中東情勢は重大な局面へ",
-              "content": "イランがクウェートの米軍基地および空港を攻撃したと報じられた。イスラエルとレバノンが停戦更新に合意する一方で、イランによる直接的な軍事行動が激化している。主要メディアはこの攻撃の重要詳細を十分に報じていないとの指摘もある。",
-              "impact": "★重要★ 米イラン間の直接衝突のリスクが極めて高まっており、ホルムズ海峡周辺の地政学的リスクは最高レベルに達した。エネルギー供給路への脅威から、原油価格の急騰を招く恐れがある。日本にとってはエネルギー安全保障に直結する事態である。",
-              "date": "06/05",
-              "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQN1RZaFJJUm01LU9QSHZJamFpNGFxdFh2STQyS294YkNSMUJoOFFtRXluTHpHZFpldTI1aFdlUWVyRW9ZUkdnakxyM0RDQ1d2b0xnYS1xRVJueVBDS0NRek1PLXNCY0k4Nm9jX3Nmam5VaGY5OHZ4RjA4YV9UbGNTOF92N1NHSGthNVlqM2NsOS1tT0w5MUtoT0R6VHNNeUM1SWhZUzRwalZQSUJhMkkwVU5ROTg?oc=5",
+              "headline": "イランがホルムズ海峡に向けドローン発射、米軍が撃墜し緊張激化",
+              "content": "イランがホルムズ海峡に向けて複数のドローンを発射し、米軍が少なくとも4機を撃墜した。米国はイラン軍施設への攻撃後、ペルシャ湾周辺の同盟国への反撃を警戒している。イラン側はレーダーサイトへの攻撃も受けており、事態は直接的な軍事衝突の様相を呈している。",
+              "impact": "★重要★ 世界有数の原油輸送の要衝であるホルムズ海峡での軍事緊張は、エネルギー価格の急騰と海上輸送保険の上昇を招く。地政学リスクの増大はグローバルなインフレ懸念を再燃させ、日本の原油調達コストにも直撃する極めて深刻な事態である。",
+              "date": "06/06",
+              "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPMElJNTFWUFhqeEdWLUtxSEdMOS05ZjFhbVlFTlNYd2dGTFhma0xGREdJSnBuR1pFenB3UU05OHRValFIb1BLMW4zeElXeE1jRVZtS3ZRWlpZYkRXZElmS0dGMHltYnlKNURHVWVzWF9UYXJzeFByM3VTQlVSMnc4THV1VQ?oc=5",
               "importance": 5,
-              "fetched_at": "2026-06-06T07:57:51.857369+09:00"
+              "fetched_at": "2026-06-06T15:21:28.695752+09:00"
             },
             {
-              "headline": "世界的な石油在庫の枯渇、次なる価格高騰が世界経済に打撃の恐れ",
-              "content": "世界の石油在庫が著しく減少しており、次の供給ショックや価格スパイクが起きれば、世界経済や金融市場に深刻な混乱を招くとの警告が出されている。需要の堅調さと供給制限が背景にある。",
-              "impact": "★重要★ インフレ再燃のトリガーとなり得る。中央銀行の利下げシナリオを根底から覆し、スタグフレーションのリスクを増大させる。製造業・輸送コストに依存する日本経済にとっても深刻な下押し圧力となる。",
-              "date": "06/05",
-              "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQV01INndjOU8xWVM2Z1hYdU16cy1qQU85c0tLb0N6RDhaeG5Oa0J0YWQ4Yzh4TmRUUUJUTDBoVEdWUE5Kc2Y3NXFveG1NZHN6aVZpMHh5RV9waE96a3Z6ckxscHBVajJITGowdVFSeEV2cTVUaHhKcEFBSmxtdmFTU3Jpd1VMbzVyZnBN?oc=5",
+              "headline": "トランプ氏、カナダ・メキシコ・EUへの10%関税導入を提案",
+              "content": "トランプ政権が、強制労働問題を理由にカナダ、メキシコ、およびEUからの輸入全般に対して10%の新たな関税を課す広範な提案を行った。これは従来の自由貿易協定を揺るがす強力な貿易保護政策の一環とされる。",
+              "impact": "★重要★ 世界最大の経済圏である北米および欧州との貿易摩擦を決定づける動き。サプライチェーンの分断とコスト増は不可避であり、メキシコ等に生産拠点を持つ日本企業にとっても多大な悪影響を及ぼす。グローバルな貿易構造の再編を強いるインパクトを持つ。",
+              "date": "06/04",
+              "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPbS1Ca2RMOFVVTUFHWXo2aXRQT2NPekxJM1pGN2FMODhCQzZsVUxlYjJtZFJxeGRYNmxtdWtDV2llN0Fpb3RDR2xqZkpwN1lGMzYxMXIzb0JqUXVYTlpQa05CbE9PLVFmZVVYWGZLV1BFSExDRTdRbXBqaEx4NnlGMndNSDBaWVBsLXpZ0gGQAUFVX3lxTE5HMVVxbjNGZEVnOGxXTm1SUUZ4dDk5YjVNTVA2bUdQTlMzVmZEa1dsUFBSVFVaQUlUcWpGSUpSZFhVcVMtSTFjNHhRRXlrOUFaUl9vZm5ndnBuVUpXWXdQT1NRU21LeFFMVWZnYk1mcFhRVkhJdE9kUG9VNV9ORFQzSlR3ZkdZdVhIalVDbkY3Qg?oc=5",
               "importance": 5,
-              "fetched_at": "2026-06-06T07:57:51.857369+09:00"
+              "fetched_at": "2026-06-06T15:21:28.695752+09:00"
             },
             {
-              "headline": "半導体セクターの急落により時価総額1.3兆ドルが消失、AIブームに影",
-              "content": "半導体市場の低迷により、関連株の時価総額が合計1.3兆ドル（約200兆円）消失した。一方でMetaがAIインフラ投資のために巨額の増資を検討し、MarvellがS&P500に採用されるなど、AI関連銘柄内での選別が加速している。",
-              "impact": "★重要★ AIバブルの調整局面に入った可能性があり、ハイテク株主導の市場成長が揺らいでいる。多額の資本を必要とするAIインフラ投資の持続可能性が問われており、東京エレクトロンなどの国内半導体関連株にも多大な影響を及ぼす。",
+              "headline": "半導体セクターの急落により市場価値1.3兆ドルが消失",
+              "content": "世界的な半導体株の下落により、市場全体で1.3兆ドル（約200兆円）相当の時価総額が失われた。AIブームを背景としたMarvellのS&P 500採用といった明るいニュースがある一方、セクター全体の過熱感と需要の偏りが市場の重石となっている。",
+              "impact": "★重要★ マクロ経済の先行指標である半導体需要の変調を示唆している。AIインフラへの投資は継続しているが、それ以外の民生用・産業用チップの低迷が表面化。東京エレクトロンやアドバンテストなど、日本市場を牽引する半導体関連株への波及も避けられない状況にある。",
               "date": "06/05",
               "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPT1dxeHpfT3VRaWg4NVg2eW5SMmxTNGgzY0x2azZFQ1ItdVlEZjlPQjVtNzdxRGNLYThRRi1MNTRyVmZkQkpCZ18yZzkwbVRvNlBsVUdjVGVLN1VBVVcwOTZfU0NHYzV1MjFlbHFVb3RfenhQUlFqbW9BUlUtZ1lWV3RFblNMdmg1RW13YlU0aG82ZWVTM2tHOV9BcGdGWE9qVWROM1hYTWZCX3lSTHV5V1VQVQ?oc=5",
-              "importance": 5,
-              "fetched_at": "2026-06-06T07:57:51.857369+09:00"
-            },
-            {
-              "headline": "プーチン大統領、ゼレンスキー大統領との会談を拒否し新世界秩序を標榜",
-              "content": "プーチン大統領は、ウクライナ戦争終結に向けたゼレンスキー大統領との会談について「意味がない」と拒絶した。ロシア版ダボス会議において、西側主導ではない「新しい世界秩序」の構築を強調している。",
-              "impact": "★重要★ 外交的な解決の道筋が完全に閉ざされ、戦争が長期泥沼化することを意味する。地政学的なブロック化（分断）が決定定的となり、欧州の軍備拡張と防衛関連予算の増大が継続するため、グローバルな財政・経済構造に恒常的な変化をもたらす。",
-              "date": "06/05",
-              "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE45b1VaUEU3MjROUi12WVdOdkFLMWlFZFZfcDU5eVlCS20tOUhOLXdIZk1SMmpIM0toeW5oR2QtQTJrcWZXWlEyTHk1NE9mbm9HTUY2QmQwb2hhQQ?oc=5",
               "importance": 4,
-              "fetched_at": "2026-06-06T07:57:51.857369+09:00"
+              "fetched_at": "2026-06-06T15:21:28.695752+09:00"
             },
             {
-              "headline": "習近平主席、来週北朝鮮を訪問へ：東アジアの勢力均衡に変容の兆し",
-              "content": "中国の習近平国家主席が来週、北朝鮮を訪問することが確認された。米中対立が続く中、中朝露の連携を強化する狙いがあると見られ、核・ミサイル問題を含めた安全保障環境に緊張が走っている。",
-              "impact": "★重要★ 中国による北朝鮮への影響力行使は、日米韓の防衛協力に対する牽制となる。北東アジアの地政学的リスクを高める要因であり、日本の防衛政策や対中・対韓関係、さらにはサプライチェーンのリスク管理に再考を迫る事案である。",
+              "headline": "習近平主席が北朝鮮訪問へ、核武装国との連携を誇示",
+              "content": "中国の習近平国家主席が北朝鮮を訪問する。北朝鮮は訪朝に合わせるように1万トン級の駆逐艦建造計画を発表しており、軍事・経済の両面で両国の重要性をアピールしている。米国主導の包囲網に対抗する動きと見られる。",
+              "impact": "★重要★ 東アジアにおける安全保障環境を大きく変容させる。中国の北朝鮮への影響力強化は、朝鮮半島の非核化交渉をさらに困難にし、日本や韓国にとって直接的な脅威となる。地政学的な「新冷戦」構造が強固になるサインである。",
               "date": "06/05",
-              "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNREJjTFpaYXVuSWJnYVc3Wm1LOE84WnNXam1IRndkUWRFaDlXTUhEZ21FS2JndXhYUFUtWEpIYkdpRXpsdGFjOWgtN0hNZ28yLWNQWm56SDBBcGpac09jaHoxZGoyZmNZcmVuSjVKNXNtXzNwcFV0MFdKWkRUVVFFOW41U0hHd0txRHJCWVkwbnY2Q0NVWFRMTWxpR3QzeVFnb3A5c2JnWV94N0RSR1lIUEhYZ2trMWNpN2c4RGR30gG-AUFVX3lxTE96cTVVU3ZsdWdjbml2WWRDeVpWRnB4aGdBRTEwM2Q3M2drX29nbjhTLTlXdGdSWEZjYkI3US0zcW1NcWN6ZnNwX3YzNkpJR2JJaWIyeHROemZ3azFLUjRnR0paYk41anhwSEFMMkJBemZDYzVfX0VCMXZMa0FZWmliQUdCcDZrN004ZnUyM19XTlJ3Q0Rqc1JwQkl5N05GU1JPYnZaTHB3ZERRanpodXpDWmF1SXNhemM1VXBIbHc?oc=5",
+              "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNd0RueGdOS0VUMmhxUmRaX2pMeXVzR0RIOUE2bWVkMW9MRldGQnF1ZmpmZHRqUFJCYnZoYkF4VEFPNDJUc2tyTzh3YjRReDRiQVhXU1M3Z3hSRUpTb1d6YXdoTHpHQjZobm1sTjlrUVFxOGg2TzZOeGpQbUlfeEZYc3QxaG90REhRbkZqMlA0cWllcjFNZ3Q5TWdSUEZnSTBIUjJEb3Qzb0N3QkxEYnNqenoyUkhFV0Y4VHc?oc=5",
               "importance": 4,
-              "fetched_at": "2026-06-06T07:57:51.857369+09:00"
+              "fetched_at": "2026-06-06T15:21:28.695752+09:00"
             },
             {
-              "headline": "SpaceXがGoogleとAIコンピューティング契約、IPO控え需要超過に",
-              "content": "SpaceXは上場を前に、GoogleとAIコンピューティング分野で提携し、Anthropicとの契約に続く大型案件を獲得した。同社のIPOは投資家の需要が供給を2倍上回る「オーバーサブスクライブ」状態にあると報じられている。",
-              "impact": "★重要★ 宇宙産業とAIの融合が加速しており、新たな巨大経済圏の誕生を示唆している。SpaceXのIPOは市場における資本流入の象徴となり、既存の航空宇宙産業だけでなく、通信・クラウドインフラ分野の勢力図を塗り替える可能性がある。",
+              "headline": "プーチン大統領、ゼレンスキー氏との会談を拒否し戦争終結を否定",
+              "content": "ロシアのプーチン大統領は、ウクライナのゼレンスキー大統領と会談する理由は現状で見当たらないと述べた。ウクライナ南部ヘルソン州での攻撃も続いており、軍事侵攻の継続を改めて鮮明にしている。",
+              "impact": "★重要★ ウクライナ情勢の長期固定化が確実視される。停戦の糸口が見えないことで、欧州のエネルギー・食料安全保障への懸念が常態化し、国際的なインフレ圧力の長期的な要因となる。グローバルな資源高騰の出口が見えない状況を裏付けている。",
               "date": "06/05",
-              "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOUmJaWjFuRkZ4dWpWN2RkYnU4S3FpZ1FEOHFNa09HVnZ0ODdrTzBFMm0wcjQ4SWhTb1l4ZHBlVmNobGNhVG56LWRQQVdJc3poTjBMN2RxeFBVY0xDSXdNRkRJaFpaMHJzZHdqZnFDMmRCbTZPTkQ1bVlYdWpWNmk1X0QxM3BKczRQcjRfVUVhLWYyVU5FLUZmTjVB?oc=5",
-              "importance": 3,
-              "fetched_at": "2026-06-06T07:57:51.857369+09:00"
+              "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOV2JqeXdjdF9hSy1oc2VFZFcxUWxaQTRWb3RFcWM4anBsLXozZkNScV9JQ0t6Wkx2S3hWR095Mm5VRnBvcmRhYVNTcW9FNHlvdXJUQVROYTB4T2FMM01rVnpCdWQtS3lJaWFodG1wUG8tb3dJaERnMXZBT1ZUTTZoQVQyRXFfQTZUSmJidmg3d1lTR1p0VUFXVFRSYUplMkRJQXotTDh0MA?oc=5",
+              "importance": 4,
+              "fetched_at": "2026-06-06T15:21:28.695752+09:00"
             }
           ]
         },
@@ -67,67 +58,58 @@ window.newsData = {
           "title": "ビジネス・経済動向",
           "topics": [
             {
-              "headline": "米ナスダック4%安、半導体株急落と利上げ懸念が直撃",
-              "content": "AI銘柄の大幅下落とFRBによる利上げ観測の再燃により、ナスダック総合およびS&P 500が年初来最悪の下げを記録。特にエヌビディアを含む半導体セクターが「血の海（bloodbath）」と評されるほどの急落を見せた。日本市場でも日経平均が882円安と連れ安になっている。",
-              "impact": "★重要★ AIブームに対する市場の疑念と高金利環境の長期化懸念が、過熱していたテック株の調整を加速。グローバルなリスクオフ姿勢を強め、日本の半導体関連銘柄にも深刻な下押し圧力を及ぼす。",
-              "date": "06/05",
-              "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9sRTRfckN2VmlfSVdmc18ydzNKR0gzUDBLbjVyd01GUUVseS1kSmJ3RkN6VFBNNjFTbS1EVUd5YmxFSlVGazV4QUF0SXFzSzRWYk1oM0g5T3E4Z2VJWVB2V1VvaVpLT3NwVjN1Zw?oc=5",
+              "headline": "米ナスダック4.2%の大幅下落、半導体株の「血の海」が市場を直撃",
+              "content": "半導体セクターの急落により、ナスダック総合指数が4.2%下落し、2025年4月以来最悪の一日を記録しました。投資家がAI・半導体関連株から一斉に資金を引き揚げており、S&P 500も同様に今年最悪の下落を経験しています。",
+              "impact": "★重要★ AIブームに伴う過剰な期待感の修正が始まった可能性が高いです。半導体株は世界的なグロース株指数の先行指標であり、この急落はハイテク産業への投資意欲減退と、マクロ経済の先行き不透明感を反映しています。日本市場においても、東京エレクトロンやアドバンテストなどの主要半導体銘柄への強い売り圧力が予想されます。",
+              "date": "06/06",
+              "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE84NmdTc0JoTmx2dGJNdXROemJJeWo2aTRnY2tZRExTeVppVTJDeXdVem56ZDdFMjRNMTVlWUN6RWFValllZm51TWtVXzU3N3pUV3ZJLWdSNVhXMHZIX0RxLXRmLVZpSDNSUUE?oc=5",
               "importance": 5,
-              "fetched_at": "2026-06-06T07:57:51.857369+09:00"
+              "fetched_at": "2026-06-06T15:21:28.695752+09:00"
             },
             {
-              "headline": "トランプ次期政権、AI大手への政府出資と介入を検討",
-              "content": "トランプ氏がAI企業のリーダーらと会談し、OpenAIを含む主要AIスタートアップへの政府出資や、国家安全保障の観点からの関与を議論している。また、国家情報長官室（DNI）のスタッフを大幅に削減し、民間企業との連携を強める意向も示されている。",
-              "impact": "★重要★ AI技術を「戦略的物資」と見なし、国家が直接介入するフェーズに移行する可能性を示唆。自由競争の枠組みが変わり、地政学的なAI軍拡競争が民間企業を巻き込む形で激化する恐れがある。",
+              "headline": "米雇用統計の予想外の強さと円安加速、1ドル＝160円台へ反落",
+              "content": "5月の米非農業部門雇用者数は17万2000人増と予想を大幅に上回り、失業率は4.3%となりました。これを受けて米連邦準備制度理事会（FRB）による利上げ観測が再燃し、ニューヨーク外為市場では円売り・ドル買いが加速、1ドル＝160円30～40銭まで下落しました。",
+              "impact": "★重要★ 労働市場の堅調さはインフレ抑制の難しさを示唆しており、米国の「高金利の長期化」を決定づける要因となります。日本にとっては、歴史的な円安水準への再突入を意味し、輸入物価の上昇を通じた国内インフレと実質賃金の低下が強く懸念される事態です。",
               "date": "06/05",
-              "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOT3J3bngwa1U4LVVvNDhaWlc3cVRJanNHMlNteWFPZnlOdEFXb2o1RW1uMlVNbVdYVnBIWDhtMElNSDQyZXF6MWZ3TVl5YXFhSFJxT0hEakNDSzBPLWJYUDBnTEI4bEs1NVlpdHVNWGNfeXE0cTg4NXN5VFNjTFU5Y1VTcUVZcERQeW9JMlNDOGFKbVVsRV9rckEtcFU?oc=5",
+              "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9BNWdGZDFmVXRwN0V4T3ktay1fUVV5Z19RZkx3emhfMXZpQklmYTdyVGFjR1NhUjNzRk5pU0NMTlVpVHhvSHdzSWhkV2c1OWlNRzVuc0huSUlaZG5lOUlneTJDb1JwdGhQZDBOSA?oc=5",
               "importance": 5,
-              "fetched_at": "2026-06-06T07:57:51.857369+09:00"
+              "fetched_at": "2026-06-06T15:21:28.695752+09:00"
             },
             {
-              "headline": "Google、SpaceXに対し月間約10億ドルの巨額クラウド契約",
-              "content": "Googleがイーロン・マスク氏率いるSpaceXに対し、xAIデータセンターの計算能力を利用するために月額9億2000万ドル（約1400億円以上）を支払う契約を締結。Googleは自社の計算資源不足を補うため、競合関係にあるマスク氏のインフラに頼る構図となっている。",
+              "headline": "トランプ氏、AI企業への政府出資を検討　AIの「公有化」議論が浮上",
+              "content": "トランプ次期大統領候補が、OpenAIを含むトップAI企業への政府出資を検討していることが明らかになりました。AIが公共資源であるという考えや、AIによる雇用削減への反感に対応する動きと見られます。バーニー・サンダース議員も同様の主張を展開しており、超党派的な議論になりつつあります。",
+              "impact": "★重要★ 先端技術に対する国家の関与が、従来の「規制」から「出資・保有」へとパラダイムシフトする兆しです。これは、AIが国家安全保障と経済成長の核となる戦略物資として認識されたことを意味します。実現すれば、企業の自由な開発競争が制限される一方で、国家主導の巨大資本投下が可能になります。",
+              "date": "06/06",
+              "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOX05UZVRvRHpXUGI3WVNIdWk3cjVqUU9jVnZxQ2VQQ0JmV3ZKLVdYa2ZFSmVVYWVleElsMC14TFp4akVCTjgxd29CcUxCbDdWRllJVXdJSWw4Ynd3azZ1dzV4bGtwanZqT25DQ3V2dkJnR3VzVl9xUVBYOVFnQ1hEQlFnaG1wenhzWmxKTDQwNjZlY3VVZmtxS1lWTnM5RTllVWZlMmpXR21uQ19Md0g1VXdacUo1dzRvXzhR?oc=5",
               "importance": 4,
-              "impact": "★重要★ ビッグテックによるAIインフラ確保の競争が極限状態に達していることを象徴。SpaceXにとってはIPOに向けた強力な収益源となり、Googleにとってはコスト増ながらも計算資源の囲い込みを優先した格好。",
+              "fetched_at": "2026-06-06T15:21:28.695752+09:00"
+            },
+            {
+              "headline": "スペースXの巨大IPOが過熱、安全保障リスクで中国・香港投資家を排除",
+              "content": "スペースXの上場準備（IPO）が供給を大幅に上回る需要を集めています。一方で、同社は安全保障リスクを理由に、中国本土および香港の投資家を投資対象から除外しました。また、GoogleがスペースXに対し、xAIデータセンターの計算能力利用料として月間約1,470億円を支払う契約を結んだことも判明しています。",
+              "impact": "★重要★ 宇宙・AI分野における資本のデカップリング（切り離し）が明確化しています。スペースXという巨大銘柄の上場は、市場の需給バランスを大きく変える流動性イベントであると同時に、軍民両用技術（デュアルユース）を巡る米中対立の最前線が金融市場にまで波及していることを示しています。",
               "date": "06/05",
-              "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNb1A4SUs5cFhlaVp1WFVKZjBPbUtaSUJuUjlwZFFUOTc5eENqNG5RM21qcTB2eHhDTFhyaWVWWHhXUVJUazRnZ0RRcUlwY0hFYlprYlRtYlVVNzd5UmpDaWVSYjkxYkl3cHJoMlphSjlTLXdsbEFzeUY1d1p4UGZXU3A3TE9HNXo0UGZLMUcyYWJDTVJUVVpjRC1zMjc0NE9WdEgxWUln?oc=5",
-              "fetched_at": "2026-06-06T07:57:51.857369+09:00"
+              "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBtN05wNHpXa0tTcTJYNjBLVFBwQXptNG9TU2NaYkFqTTdOSlhqYVo5WEl3dm1TN3l5dkthVHdFSXg0S19fV1pNSmRoVTZib3p4TFkzQ0ZCVGFReldDTmI0WGVFenctX01iU3NRUg?oc=5",
+              "importance": 4,
+              "fetched_at": "2026-06-06T15:21:28.695752+09:00"
             },
             {
-              "headline": "スペースXのIPO加速、日本での募集規模は4000億円に拡大",
-              "content": "SpaceXのIPOに向けた動きが活発化しており、JPモルガンのダイモンCEOもマスク氏を厚遇。日本国内においても、野村證券などを通じた販売額が最大4000億円規模に増額される見通し。個人投資家向けの参入障壁も引き下げられている。",
+              "headline": "イランによる弾道ミサイル発射、紅海情勢の緊迫化で原油市場にリスク",
+              "content": "イランが弾道ミサイルを発射し、米中央軍がこれを迎撃しました。イランは紅海のチョークポイントであるバブ・エル・マンデブ海峡に対する脅威を強めており、米政府はこれが世界の石油市場およびサプライチェーンにとって大きな脆弱性になると警告しています。",
+              "impact": "★重要★ 中東における地政学リスクの再燃は、エネルギー価格の直接的な押し上げ要因となります。特に紅海の航行不能やコスト増は、物流インフレを招き、米国の利下げをさらに遠のかせる要因になります。エネルギー自給率の低い日本にとっては、貿易収支の悪化と物価高のダブルパンチとなるリスクがあります。",
+              "date": "06/06",
+              "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1vdnJUbTE0UURKUk40bE5RaHBxdFdxZTB6THdrZ0t1RXJJTDJyYUVPNkdPbXFOS25FbTZfeDBybDhpZFNvYVZMVHdMcXZhZ1dfel9MNnRYcmJBQk1PMERxNVRLejM4Wk1qU2pHMg?oc=5",
               "importance": 4,
-              "impact": "★重要★ 非上場企業として最大級の時価総額を持つSpaceXの上場は、世界の資本市場にとって「歴史的イベント」となる。日本からの巨額の資金流入は、国内の対外直接投資・証券投資の動向にも大きな影響を与える。",
+              "fetched_at": "2026-06-06T15:21:28.695752+09:00"
+            },
+            {
+              "headline": "パラマウントとワーナーの合併に米当局が差し止め提訴を準備",
+              "content": "米複数の州が、パラマウントによるワーナー・ブラザース・ディスカバリーの買収を阻止するための訴訟を準備していることが判明しました。独占禁止法（反トラスト法）違反の観点から、メディア大手同士の統合に待ったがかかる形となりました。",
+              "impact": "★重要★ コンテンツ・メディア業界の再編における「強気な規制」姿勢が浮き彫りになりました。ストリーミング市場での生き残りをかけた巨大合併が阻害されることで、両社の財務基盤やAIへの投資余力に影響が出る可能性があります。テック・メディア業界全体におけるM&Aの停滞を招くシグナルとなります。",
               "date": "06/05",
-              "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1EUHRONGpyU19QN1UzMGstYk5hWEc0eVFHR0tSaHJ6a3kzaXJpQWdGcl9tZW41THg0aXhMcGJpUWpsTmRUdHhVZm5IT2NSTW84VlZBUWZaVVNYcTQ4bHZQenpCTWY1UWh1R1RSUg?oc=5",
-              "fetched_at": "2026-06-06T07:57:51.857369+09:00"
-            },
-            {
-              "headline": "ブラックストーン、巨大債券ファンドで初の解約制限を実施",
-              "content": "ブラックストーンが運用するプライベート・クレジット（非公開債券）ファンドにおいて、初めて解約の制限を設けた。このファンドには日本からも約3300億円が投資されている。信用収縮への懸念から投資家が資金回収を急いでいる背景がある。",
-              "importance": 4,
-              "impact": "★重要★ 「シャドーバンキング」の代表格であるプライベート・クレジット市場における流動性危機の端緒となるリスク。金利上昇局面で債務者の支払い能力が低下する中、システミック・リスクへの警戒が必要。",
-              "date": "06/04",
-              "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBPZ3NHZi1kYzBjeXhhdWZMdEhrRXp0bzJDZTM5S3liUjF6bUZxdFNPX0ZsLUU0UVRfUExVWVhVTUEzbWZucV9IeEw0VFJONlhCSTRMS1hnNEsyaDRyM1hjOVFack83T3dqTWI3Xw?oc=5",
-              "fetched_at": "2026-06-06T07:57:51.857369+09:00"
-            },
-            {
-              "headline": "米5月雇用者数17.2万人増、堅調な労働市場が利下げ期待を抑制",
-              "content": "5月の非農業部門雇用者数は17.2万人増と、市場予想を大きく上回った。失業率は4.3%と依然として歴史的低水準を維持。労働市場の底堅さが証明された形だが、同時にインフレ圧力の継続を懸念させる内容となった。",
+              "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQcC1pRHRKWUl1RVFGaVZUMGx3Uy1yeEd4ZUllTXpxTEc1amVEZ29USy1uZlYyX3lvMnVNMFFLQ2pfQ3JlQzItLXRjbmdOMUsta0tESm5SSjdMUGhrM0VKNk9wQllpUWk4TFVodndQZmJtaGY4dC12NGlabWdqVDlnZF9iQWpKdi1qRTRZellyMkNhUjRaci1wOFhqUmRVX19OdUV4cW80WWl4RkphR3llNjVZbm8?oc=5",
               "importance": 3,
-              "impact": "★重要★ 米経済のソフトランディングへの期待を繋ぐ一方、FRBが早期利下げに踏み切る根拠を弱めた。これによりドル高・円安基調が維持されやすく、日本国内の輸入インフレ圧力が継続する要因となる。",
-              "date": "06/05",
-              "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5wV0F5NGtvSmdrUzU3eFlwUTdVN2Y0QkdyX2o2TUp3RFF5dEVTQjR0SEdqWkU3U1oyVmVvMjlPdDJPZDVnWW9xeEc1ZWNObGFMOUExN05rSFp3YkxrVXJzY2djb0Z5X2xOVW1uaA?oc=5",
-              "fetched_at": "2026-06-06T07:57:51.857369+09:00"
-            },
-            {
-              "headline": "次世代小型原発（SMR）が初の臨界達成、エネルギー転換の節目",
-              "content": "米国で開発が進められていた小型モジュール原子炉（SMR）が、試験において初の臨界（核分裂の連鎖反応の維持）に到達。米エネルギー省はこの成果を「重要なマイルストーン」と位置づけ、商用化への道筋がついたとしている。",
-              "importance": 3,
-              "impact": "★重要★ AIデータセンターの爆発的な電力需要を賄うクリーンエネルギーとして、SMRへの期待は極めて高い。化石燃料への依存度を下げる「エネルギー安全保障」の観点から、世界的な原発再評価の動きを加速させる。",
-              "date": "06/05",
-              "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPc1pTZEpKVHowV2VpVEdNY3g3d2NwQ3dKTWFDa3dMeGgtRGhnbGkxbHdOSmpqVVo1NnRNQ3lwVWxCX2lvLTlLbUpWVGp1R1VfQk1PVTFxT0RQUjFtd1VQNlFVME9aOFgySTF2RTJNb3EyS1B1Y1M3SWhfWENjN1RpRzkzTkczSmxjZWxfRmFfTXhUSFROUVVmdg?oc=5",
-              "fetched_at": "2026-06-06T07:57:51.857369+09:00"
+              "fetched_at": "2026-06-06T15:21:28.695752+09:00"
             }
           ]
         },
@@ -136,58 +118,58 @@ window.newsData = {
           "title": "テクノロジー・サイエンス",
           "topics": [
             {
-              "headline": "GoogleがSpaceXと月額9億2,000万ドルの計算資源契約を締結",
-              "content": "Googleは、SpaceXに対して計算資源（compute）の利用料として月額9億2,000万ドルを支払う契約を締結した。この巨額の支払いは、地上インフラを超えた新たな計算資源の確保を示唆している。",
-              "impact": "★重要★ クラウド巨大企業が宇宙インフラ企業の計算能力を月額1,000億円規模で購入するという、異例の提携である。Starlink等の衛星通信網とデータセンターの統合、あるいは軌道上での計算処理といった、次世代の分散型コンピューティングへのパラダイムシフトを意味しており、計算資源の確保が安全保障や競争力の核となっていることを裏付けている。",
+              "headline": "次世代原子力技術の進展：小型モジュール炉（SMR）が初の臨界を達成",
+              "content": "最新の試験において、小型モジュール炉（SMR）が初めて臨界状態（核分裂連鎖反応が持続する状態）に達しました。これは商用化に向けた極めて重要なマイルストーンとなります。",
+              "impact": "★重要★ 従来の大型原子炉に比べ、安全性、建設コスト、柔軟性に優れるSMRは、脱炭素化の鍵を握る技術です。今回の臨界達成は、理論段階から実用的なエネルギー源としての証明へ一歩前進したことを意味し、AIデータセンターなどの莫大な電力を必要とする次世代インフラへの安定供給の可能性を広げます。",
               "date": "06/05",
-              "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNSE9veWl0YWNvODNENnhhakoyXzFEVWNwQkx3WmlpRDZ6RGh4RWljVWg2RFV3ejhYd1lndlZkNmVwdUxmSUZBaEo1ZUwxSUhYOExxV2RHVEx6TG9udnI1UEZzYkdRQmRPcGExeWdKbmFKT2VuZjlYNFFNVEh0cG5TdzEzRFpmRVByd2c4Qw?oc=5",
+              "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPc1pTZEpKVHowV2VpVEdNY3g3d2NwQ3dKTWFDa3dMeGgtRGhnbGkxbHdOSmpqVVo1NnRNQ3lwVWxCX2lvLTlLbUpWVGp1R1VfQk1PVTFxT0RQUjFtd1VQNlFVME9aOFgySTF2RTJNb3EyS1B1Y1M3SWhfWENjN1RpRzkzTkczSmxjZWxfRmFfTXhUSFROUVVmdg?oc=5",
               "importance": 5,
-              "fetched_at": "2026-06-06T07:57:51.857369+09:00"
+              "fetched_at": "2026-06-06T15:21:28.695752+09:00"
             },
             {
-              "headline": "NSA、AnthropicのAIモデル「Mythos」をサイバー作戦に導入へ",
-              "content": "米国家安全保障局（NSA）が、Anthropic社のAIモデル「Mythos」をサイバー作戦（cyber operations）で利用するための準備を進めていることが明らかになった。",
-              "impact": "★重要★ 民間AI技術が軍事および国家諜報の核心部に直接統合される段階に入ったことを示している。LLMが単なる情報補助ではなく、サイバー攻撃や防御の自動化、暗号解析支援といった高度な安全保障業務に特化して最適化されることで、サイバー空間における国家間のパワーバランスに劇的な変化をもたらす可能性がある。",
+              "headline": "国家安全保障とAI：NSAがAnthropicの「Mythos」をサイバー作戦に採用へ",
+              "content": "米国家安全保障局（NSA）が、Anthropic社のAIモデル「Mythos」をサイバー作戦に活用する準備を進めていることが明らかになりました。これは高度なAI技術を軍事・諜報分野に直接統合する動きです。",
+              "impact": "★重要★ これまで「安全性」と「倫理」を強調してきたAnthropicの技術が、国家主導のサイバー攻撃や防御に転用されるパラダイムシフトを示しています。AIがコード生成や脆弱性発見の自動化を加速させることで、サイバー戦の速度と複雑さが劇的に変化する恐れがあります。",
               "date": "06/05",
               "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQS0RGbUJfanBVN0JVbTZmVVF3UGkyVndZYjZ2NWdTeVZtS05ST0JsSUFKQUo2dV9lNjNrTlpXQnUtYkdwd0dQVHN3OVdJR1QxeUhsVFEwYzU0RGU1MEN5VzdScTFxNWd0NC1aTjc4SmRyemNUOWdRN0dTSjRmY3JWWFVTemc5QTFBcGF3U0piRUlaLVBIU19DNUFHbTFVeXpXemtYRmJxWQ?oc=5",
-              "importance": 4,
-              "fetched_at": "2026-06-06T07:57:51.857369+09:00"
+              "importance": 5,
+              "fetched_at": "2026-06-06T15:21:28.695752+09:00"
             },
             {
-              "headline": "ISSで深刻な空気漏れが発生、宇宙飛行士がSpaceX Dragonへ避難",
-              "content": "国際宇宙ステーション（ISS）での深刻な空気漏れを受け、NASAの宇宙飛行士たちが一時的にSpaceXのDragonカプセル内に避難する事態となった。ISSの老朽化リスクが顕在化している。",
-              "impact": "★重要★ ISSの運用限界が近づいていることを科学的・物理的に示す象徴的な事件である。同時に、緊急時の「救命ボート」として民間企業（SpaceX）の機体が不可欠な役割を果たしている点は、宇宙開発の主導権が公的機関から民間へ完全に移行したことを裏付けている。将来の民間宇宙ステーション移行への議論を加速させるだろう。",
+              "headline": "銀河系中心のブラックホールから吹く「風」を50年越しの探索で初観測",
+              "content": "天文学者たちが、天の川銀河の中心にある超巨大ブラックホールから放出される「風（ガス流）」を観測することに成功しました。これは半世紀にわたる探索の末の歴史的な発見です。",
+              "impact": "★重要★ 静穏なブラックホールでも周囲の物質に影響を与えるメカニズムが解明されつつあります。この「風」は銀河内の星形成プロセスを抑制するなどの役割を果たしている可能性があり、銀河の進化と構造形成に関する宇宙論的な理解を根本から更新する成果です。",
               "date": "06/05",
-              "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPNHZxcTZVdVM2dEpfZFRGRlA4ZUdyN2FFOHVEZFFvTDNDc2tSbFNEVWd6Wk1hMmtfMDNfbHQtWFlTcFI1VnVYWmVtUVBPTk5kRUFvVW9nTkpadWIzOHhCMjFaYlUwUGF2SkpEWC1FdmZCQTFUZnVIM29hUG5qMkVEenBMN1F6OHJDQUJzekFsWWpRZ1ZRUllXbGxXcm5UY2kzanB0SU5sUXI?oc=5",
+              "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNODdTU3dSX0xrWWVTR29FdW1VS09WTXJZaGtMcTd5RDFWOHdNOVBoTG5BMWhwaVBkSC16LThkU3kzWndKVTByUlhyMDdVREhpbmlDYzhLdDZQTmlCSTV2cHVIQTlEMVV5SFBDY05IYUVqeENWWmREalp3V3diMDFOdnlhM2dRRXFvMFp0T1V1dkpLUkVvSUdqVWVnM0V5ZHREUm9FcFlEWVl1NkM2UTI5My00eXFISUNKdE1CdTFTaVlDMXhWOVJnSmRjRUx5UXZwT2I4ZUtwc08?oc=5",
               "importance": 4,
-              "fetched_at": "2026-06-06T07:57:51.857369+09:00"
+              "fetched_at": "2026-06-06T15:21:28.695752+09:00"
             },
             {
-              "headline": "USB接続スピーカーを介した非接触PC感染手法が判明",
-              "content": "USB接続されたスピーカーを介して、ユーザーが操作することなくPCをマルウェアに感染させる攻撃手法が報告された。ファームウェアや信号処理を悪用した新たな脆弱性である。",
-              "impact": "★重要★ 従来の「怪しいファイルを開かない」といったソフトウェア層の対策を無効化する、ハードウェア・サプライチェーン攻撃の高度化を象徴している。物理デバイスの信号経路自体が攻撃ベクターになることは、IoTデバイスや周辺機器のセキュリティ基準に根本的な見直しを迫るインパクトを持つ。",
+              "headline": "計算資源の巨大取引：GoogleがSpaceXに月額9億2000万ドルを支払いへ",
+              "content": "Googleが、SpaceXの計算リソース（Compute）に対して月額9億2000万ドルという巨額の費用を支払う契約を結びました。AI開発に必要な膨大な計算能力の確保が狙いと見られます。",
+              "impact": "★重要★ クラウド市場の巨人と宇宙・通信インフラの巨人が、AI開発に必要な「物理的な計算資源」の争奪戦において協力関係にあることを象徴しています。SpaceXのStarlinkインフラや衛星間の計算網が、従来の地上データセンターを補完する新たなAIプラットフォームになる可能性を示唆しています。",
               "date": "06/05",
-              "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOOWd6NzIwbXhzY3VPMWtCOTRmQmx4UVpwNnpaVS1POWZ6LUUwNG05WEtCSXp6Q0FIUXdsejlBaktMVFk5ZUM1VzV2dGhZaTlmUFg2MTR5bHA2eHN0VGlxRkx0R3hNdnNFS1pvaW1ob2U1YTIyY24tTnMweUp5S05QMEJEUlp1Y2RMN25KYXQwSlpyNXRIckljODJLdk1NSms0Wk1SLXBUSWdad0IyNksxaEs1WU1HanJSM2x0Vg?oc=5",
+              "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNSE9veWl0YWNvODNENnhhakoyXzFEVWNwQkx3WmlpRDZ6RGh4RWljVWg2RFV3ejhYd1lndlZkNmVwdUxmSUZBaEo1ZUwxSUhYOExxV2RHVEx6TG9udnI1UEZzYkdRQmRPcGExeWdKbmFKT2VuZjlYNFFNVEh0cG5TdzEzRFpmRVByd2c4Qw?oc=5",
               "importance": 4,
-              "fetched_at": "2026-06-06T07:57:51.857369+09:00"
+              "fetched_at": "2026-06-06T15:21:28.695752+09:00"
             },
             {
-              "headline": "天の川銀河の超巨大ブラックホールから吹く「風」を初観測",
-              "content": "銀河系中心の超巨大ブラックホールから放出される「風（ガス流）」が初めて発見された。これにより、50年にわたる天文学上の謎が解明された。",
-              "impact": "★重要★ ブラックホールが銀河全体の進化をどのように制御しているかを理解するためのミッシングリンクが埋まった。この「風」は星形成の材料となるガスの供給を調整する役割を担っており、銀河の誕生と死のプロセスを物理的に解明する上で極めて重要な科学的進展である。",
+              "headline": "消滅した「失われた惑星」の証拠：サハラ砂漠の隕石に古代の衝突痕",
+              "content": "サハラ砂漠で発見された隕石の分析により、太陽系形成初期に存在し、その後衝突によって失われた惑星の残骸である可能性が浮上しました。惑星形成プロセスのミッシングリンクを埋める発見です。",
+              "impact": "★重要★ 太陽系の成り立ちに関する定説を覆す可能性があります。地球などの現存する惑星が形成される以前のプロト惑星（原始惑星）の組成を直接知る手がかりとなり、惑星科学における重要な物理的証拠を提供しています。",
               "date": "06/05",
-              "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNVE1zR0xtVk1iZDF4ekN2THh0cllwdkdPcGJ5LVBlb1BPSUFZS09wTXkyTDRGbFMzR0dSekd3RTJKdlVsWXhCQ1o2MTVpczBkakRLWE16UHQteXo3QzNseU1lUEs0bkU2ajBDZHJOY0czaXRXc0gzRm9lcTJIcFJFWkRIaDZucXowNkxXTnNzb25qNG4tTTVZN0ZXNXRRazRCUkRJMVVsbHI?oc=5",
+              "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOdmROOVVPWXNYVWJvaWpGN1Z0SGlYa2duS3ZxNVBCTU0yQzNyMk5vTy1hRFdLN0lrOG5QM3JEbzk4R2ljbG1VYWd5Mmg5QzFQQU5vUmFraVBqeGdBU2xTeXpGeEhXWWE0Vk55elMtMlNtUS0tbWc3ZU51UFNtVVBSLWZneTJiUnNvTVNtTVVULTJHcXR3dnlKaEpGWl9JWmNaYko4b2MzM085bUwwU0RVeEMxUFJlX29Pb1N5anFEQS1lUQ?oc=5",
+              "importance": 4,
+              "fetched_at": "2026-06-06T15:21:28.695752+09:00"
+            },
+            {
+              "headline": "非接触型攻撃の脅威：USB接続デバイスを介した新たなPC感染ルートの解明",
+              "content": "USB接続されたスピーカーを介して、ユーザーが一切操作しなくてもPCをマルウェアに感染させる攻撃手法が研究者により報告されました。物理デバイスの信頼性に警鐘を鳴らす発見です。",
+              "impact": "★重要★ 従来の「不審なファイルを開く」といったユーザーのミスを必要とせず、接続されている周辺機器のドライバーやハードウェアの脆弱性を突く攻撃です。サプライチェーン攻撃の高度化を意味しており、機密情報を扱う組織におけるハードウェア管理の基準を根本から見直す必要性を提示しています。",
+              "date": "06/05",
+              "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOOWd6NzIwbXhzY3VPMWtCOTRmQmx4UVpwNnpaVS1POWZ6LUUwNG05WEtCSXp6Q0FIUXdsejlBaktMVFk5ZUM1VzV2dGhZaTlmUFg2MTR5bHA2eHN0VGlxRkx0R3hNdnNFS1pvaW1ob2U1YTIyY24tTnMweUp5S05QMEJEUlp1Y2RMN25KYXQwSlpyNXRIckljODJLdk1NSms0Wk1SLXBUSWdad0IyNks4xaEs1WU1HanJSM2x0Vg?oc=5",
               "importance": 3,
-              "fetched_at": "2026-06-06T07:57:51.857369+09:00"
-            },
-            {
-              "headline": "マルハナバチが自発的な問題解決能力を示す、脳の大きさの常識を覆す発見",
-              "content": "最新の研究により、マルハナバチが道具の使用を含む複雑な問題解決を自発的に行うことが証明された。これは大きな脳が知性の絶対条件であるという仮説に挑戦するものである。",
-              "impact": "★重要★ 神経科学および認知科学に対する重大な示唆を持つ。極小の神経系であっても、効率的なネットワーク構成により高度な推論が可能であることを示しており、生物学的な知性の定義を書き換えるだけでなく、低消費電力で動作する次世代の「エッジAI」や効率的なアルゴリズム設計へのインスピレーションとなる可能性がある。",
-              "date": "06/04",
-              "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE50WHRxeG9TUjBSY0k3SzNWcTd1XzZaSHVGR05rcENlRTREaWY5ci1mS3E2bU9FY1lZcmNFdmIyWnBhWFFfTUozOVYwX3Z6MC1sSk1oTGhLT0lZd2dqZTJlMUFhWmV4bkEyT0NnOFZPQlkzdjA5ZnVMZHRR?oc=5",
-              "importance": 3,
-              "fetched_at": "2026-06-06T07:57:51.857369+09:00"
+              "fetched_at": "2026-06-06T15:21:28.695752+09:00"
             }
           ]
         },
@@ -196,64 +178,64 @@ window.newsData = {
           "title": "デベロッパートレンド (Hacker News & 海外フォーラム & 国内)",
           "topics": [
             {
-              "headline": "AWS、データセンターネットワークにランダムグラフ理論を導入。ルーター数を69%削減",
-              "content": "AWSは、従来のFat-Tree（ファットツリー）トポロジーに代わり、ランダムグラフ理論に基づいた新しいデータセンターネットワーク構造を採用しました。これにより、ルーターの数を69%削減しながら、スケーラビリティと耐障害性を維持、あるいは向上させることに成功しています。",
-              "impact": "★重要★ ネットワークトポロジーにおける数十年単位のパラダイムシフトです。物理インフラの劇的な簡素化は、コスト削減だけでなく、消費電力の低減や、AI学習のような超大規模クラスタにおける通信レイテンシの最適化に直結します。",
-              "date": "06/04",
-              "url": "https://www.infoq.com/news/2026/06/aws-random-graph-data-center/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+              "headline": "ICLR 2026優秀論文：Transformerの本質的な簡潔さが証明される",
+              "content": "ICLR 2026で優秀論文賞に選ばれたこの研究は、Transformerアーキテクチャが本質的に「簡潔（succinct）」であることを理論的に示しています。膨大なパラメータを持つモデルがなぜ効率的に情報を処理し、高い汎用性を持つのかを解明する重要な一歩です。",
+              "impact": "★重要★ 近年のAIブームにおけるブラックボックス化に対し、数理的な側面から効率性の根拠を提示しています。モデルの軽量化や新しいアーキテクチャ設計における理論的基盤となり、LLMの推論効率を根本から改善する可能性を秘めています。",
+              "date": "06/05",
+              "url": "https://openreview.net/pdf?id=Yxz92UuPLQ",
               "importance": 5,
-              "fetched_at": "2026-06-06T07:57:51.857369+09:00"
+              "fetched_at": "2026-06-06T15:21:28.695752+09:00"
             },
             {
-              "headline": "Amazon S3 Files発表：S3バケットをNFSとして直接マウント可能に",
-              "content": "Amazon S3をNFSv4.1経由でファイルシステムとしてマウントできる「Amazon S3 Files」がリリースされました。AWS Lambda、EC2、ECS、EKSなどのリソースから、オブジェクトストレージをPOSIX準拠のファイルシステムのように操作（作成・読取・更新・削除）できるようになります。",
-              "impact": "★重要★ オブジェクトストレージとファイルシステムの境界を消し去るアップデートです。従来必要だったSDK経由の実装や複雑なデータ同期が不要になり、レガシーなアプリケーションのクラウド移行や、機械学習パイプラインのデータ共有が劇的に簡素化されます。",
+              "headline": "Cloudflareが提示する「AIエージェントによる脆弱性診断」の失敗原因と解決策",
+              "content": "Cloudflareが50以上のリポジトリに対し、Anthropicのセキュリティ特化モデルを用いて脆弱性スキャンを実施。単に「脆弱性を探せ」という指示では失敗することを証明しました。成功には適切な「ハーネス（制約とコンテキスト）」の設計が不可欠であることを報告しています。",
+              "impact": "★重要★ コーディングエージェントの実践的な限界を浮き彫りにしています。AIに丸投げするのではなく、エンジニアがどのようにAIの探索範囲を定義し、精度の高いツールとして飼いならすべきかという「エージェント・エンジニアリング」の本質を突いた知見です。",
               "date": "06/04",
-              "url": "https://zenn.dev/kameoncloud/articles/784f5d85db531b",
+              "url": "https://zenn.dev/aiwatch_jp/articles/agent-vuln-hunting-harness-glasswing",
               "importance": 5,
-              "fetched_at": "2026-06-06T07:57:51.857369+09:00"
+              "fetched_at": "2026-06-06T15:21:28.695752+09:00"
             },
             {
-              "headline": "Microsoftが「pg_durable」をオープンソース化：PostgreSQL内での耐久実行を実現",
-              "content": "Microsoftは、PostgreSQLデータベース内で長時間実行されるフォールトトレラントなワークフローを直接定義・実行できる「pg_durable」を公開しました。外部のジョブキューやワーカーを使わずに、SQL関数レベルで耐久性のあるバックグラウンド処理を可能にします。",
-              "impact": "★重要★ 分散システムの複雑さをデータベース層に閉じ込める野心的な試みです。Cronジョブやステータス管理用のテーブルを手動で結合する手間を省き、「データベースをランタイムとして使う」という新しいアーキテクチャの選択肢を提示しています。",
+              "headline": "Microsoftが『pg_durable』を公開：Postgres内での永続的実行を実現",
+              "content": "Microsoftは、PostgreSQL関数を長時間実行可能かつフォールトトレラントにする『pg_durable』をオープンソース化しました。cronジョブや外部のキュー、ステータス管理テーブルを組み合わせることなく、データベース内で直接ワークフローの信頼性を担保します。",
+              "impact": "★重要★ 現代の分散システムで複雑化している「状態管理」と「非同期処理」のパイプラインを劇的に簡素化します。アプリケーションコードから複雑なリトライロジックを排除し、DB中心の堅牢なバックグラウンド処理を実現するパラダイムシフトです。",
               "date": "06/05",
               "url": "https://github.com/microsoft/pg_durable",
               "importance": 4,
-              "fetched_at": "2026-06-06T07:57:51.857369+09:00"
+              "fetched_at": "2026-06-06T15:21:28.695752+09:00"
             },
             {
-              "headline": "70年ぶりの進化：SIMD対応の高速な新ハフマン符号化「PivCo-Huffman」",
-              "content": "ウェーブレットツリーのデータ構造を応用した新しいハフマン符号化手法「PivCo-Huffman（Pivot-Coded Huffman）」が提案されました。従来のハフマン符号よりもSIMD（単一命令複数データ処理）に最適化されており、現代のCPUアーキテクチャで極めて高速な圧縮・展開を可能にします。",
-              "impact": "★重要★ データ圧縮というコンピューティングの根幹技術における重要なブレイクスルーです。ビッグデータ処理やリアルタイム通信において、CPU負荷を最小限に抑えつつスループットを向上させる可能性を秘めており、ライブラリ層への波及が期待されます。",
+              "headline": "CPython JITプロジェクトの今後に関するステアリング評議会からの声明",
+              "content": "CPythonにおける実験的なJIT（Just-In-Time）コンパイラについて、Pythonステアリング評議会が今後の方向性を発表しました。これまでの開発への謝意と共に、メインブランチにおける実装のあり方と、パフォーマンス向上への長期的な道筋を示しています。",
+              "impact": "★重要★ Python 3.13以降の目玉機能であるJITが、単なる実験に終わらず言語のコアとしてどう統合されるかが明確化されます。エコシステム全体への互換性を保ちつつ、実行速度のボトルネックを解消するエンジニア注目の進展です。",
               "date": "06/05",
-              "url": "https://marcinzukowski.github.io/pivco-huffman/paper-1.0/ph.html",
+              "url": "https://discuss.python.org/t/an-announcement-from-the-steering-council-regarding-the-jit-project/107638",
               "importance": 4,
-              "fetched_at": "2026-06-06T07:57:51.857369+09:00"
+              "fetched_at": "2026-06-06T15:21:28.695752+09:00"
             },
             {
-              "headline": "Gemma 4 QAT：量子化意識学習によるエッジAI推論の劇的効率化",
-              "content": "GoogleがGemma 4ファミリーにQuantization-Aware Training (QAT) を適用したモデルをリリースしました。マルチトークン予測（MTP）と組み合わせることで、メモリ要件を大幅に削減しつつ、モバイルやノートPC上でのローカル推論パフォーマンスを最大化しています。",
-              "impact": "★重要★ AIモデルの「軽量化」ではなく「学習段階からの最適化」が主流になることを示しています。クラウドに依存しない「オンデバイスAI」の実行速度が実用レベルに達し、プライバシー重視のAIアプリケーション開発が加速するでしょう。",
+              "headline": "Amazon S3 Files発表：S3バケットをNFSとして直接マウント可能に",
+              "content": "Amazon S3をネットワークファイルシステム（NFSv4.1）としてマウントできる『Amazon S3 Files』がリリースされました。Lambda、EC2、EKSなどの各リソースから、従来のファイルシステム操作（POSIX）でオブジェクトストレージを扱えるようになります。",
+              "impact": "★重要★ オブジェクトストレージとファイルシステムの境界を消滅させます。既存のアプリケーションを大幅に改修することなく、S3の圧倒的なスケーラビリティをレガシーなファイル操作インターフェースで享受できるため、データパイプラインの設計が劇的に柔軟になります。",
+              "date": "06/04",
+              "url": "https://zenn.dev/kameoncloud/articles/784f5d85db531b",
+              "importance": 4,
+              "fetched_at": "2026-06-06T15:21:28.695752+09:00"
+            },
+            {
+              "headline": "Gemma 4 QATモデル：量子化対応学習によるモバイル・ラップトップ推論の高速化",
+              "content": "Googleは、量子化対応学習（QAT）とMulti-Token Prediction（MTP）を採用したGemma 4の新しい最適化バージョンを発表しました。オンデバイスでのメモリ要件を大幅に削減し、従来比で最大2.2倍の推論速度向上を実現しています。",
+              "impact": "★重要★ AIの主戦場がクラウドから「オンデバイス」へ移行する中で、精度を落とさずにいかに圧縮するかという課題への強力な回答です。開発者がエッジ環境で高度なLLMを動かすための実用的なスタンダードとなる技術です。",
               "date": "06/05",
               "url": "https://blog.google/innovation-and-ai/technology/developers-tools/quantization-aware-training-gemma-4/",
-              "importance": 4,
-              "fetched_at": "2026-06-06T07:57:51.857369+09:00"
-            },
-            {
-              "headline": "AIによる脆弱性診断の限界：Cloudflareが示す「harness」の必要性",
-              "content": "Cloudflareが50以上のリポジトリを対象に、AIエージェント（Anthropic Mythos Preview）を用いた脆弱性スキャンの実験「Project Glasswing」を実施。単純な指示では失敗しやすく、有効な結果を得るには適切なコンテキストを与える「ハーネス（harness）」が不可欠であることを報告しました。",
-              "impact": "★重要★ AIエージェントをセキュリティに活用する際の実践的な教訓です。「AIに投げれば解決する」という幻想を打ち砕き、エンジニアがいかにしてAIに適切なドメイン知識を注入し、検証可能なパイプラインを構築すべきかという現実的な指針を与えています。",
-              "date": "06/04",
-              "url": "https://zenn.dev/aiwatch_jp/articles/agent-vuln-hunting-harness-glasswing",
               "importance": 3,
-              "fetched_at": "2026-06-06T07:57:51.857369+09:00"
+              "fetched_at": "2026-06-06T15:21:28.695752+09:00"
             }
           ]
         }
       ],
       "summary": {
-        "content": "本日の世界情勢は、中東での武力衝突と半導体セクターの急落という二重の衝撃に見舞われ、地政学的・経済的リスクが極限まで高まった一日となりました。イランによる米軍拠点攻撃と石油在庫の枯渇懸念がエネルギー危機を再燃させる一方、AIブームの影で時価総額1.3兆ドルが消失した市場は、金利高止まりへの警戒感を強めています。また、SpaceXとGoogleの巨額提携やトランプ政権によるAI介入の動きは、テック産業が国家安全保障の最前線となったことを象徴しています。日本は、エネルギー供給の不安定化と半導体サプライチェーンの再編、さらにはSpaceXの国内募集規模拡大に見られるグローバル資本の流入と出口戦略を極めて慎重に注視すべき局面にあります。"
+        "content": "本日は地政学リスクの急拡大と金融市場の激震が重なる極めて不安定な一日となりました。中東での緊張激化やトランプ氏による一律関税提案といった政治的火種に加え、半導体セクターの暴落と1ドル＝160円台への円安加速が日本経済に強い下押し圧力をかけています。技術面では小型モジュール炉（SMR）の進展やAIの国家安全保障への転用が加速しており、エネルギーと計算資源が国家競争力の核となる動きが鮮明です。日本は為替変動への即応に加え、エネルギー安全保障の再構築と、地政学リスクを織り込んだ次世代技術サプライチェーンの確保を最優先課題として注視すべき局面です。"
       }
     },
     "week": {
@@ -286,19 +268,19 @@ window.newsData = {
     "LPU (Language Processing Unit)": "大規模言語モデル（LLM）のようなAIの言語処理タスクに特化して設計された新しいタイプのプロセッサです。従来のGPUと比較して、特定の言語処理タスクにおいて高速かつ効率的な処理を目指しています。",
     "MoE (Mixture of Experts)": "大規模なAIモデルのアーキテクチャの一つで、入力データに応じて複数の「専門家（エキスパート）」と呼ばれる小さなモデルの中から最適なものを選び、その部分だけを動かすことで、計算効率を高め、より大規模なモデルを訓練・実行できるようにする技術です。"
   },
-  "updated_at": "2026-06-06 07:57 JST",
+  "updated_at": "2026-06-06 15:21 JST",
   "token_usage": {
     "2026-05": 1444521,
     "2026-05-27": 248362,
     "2026-05-28": 401129,
     "2026-05-29": 263394,
     "2026-05-30": 531636,
-    "2026-06": 746324,
+    "2026-06": 804260,
     "2026-06-01": 194207,
     "2026-06-02": 157565,
     "2026-06-03": 140423,
     "2026-06-04": 103486,
     "2026-06-05": 91090,
-    "2026-06-06": 59553
+    "2026-06-06": 117489
   }
 };
