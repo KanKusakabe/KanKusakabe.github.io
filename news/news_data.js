@@ -7,58 +7,67 @@ window.newsData = {
           "title": "グローバル情勢・マクロ経済",
           "topics": [
             {
-              "headline": "トランプ大統領がイラン攻撃を直前で中止、合意成立を示唆するも緊張続く",
-              "content": "トランプ米大統領は、イランの最高指導者が米国との合意を承認したとの見解を示し、木曜夜に予定されていたイランへの軍事攻撃を中止した。一方で、合意に至らない場合はイランが「代償を払うことになる」と警告しており、交渉と軍事的圧力を同時にかける極めて不安定な局面にある。",
-              "impact": "★重要★ 中東における軍事的衝突の回避は一時的な安堵をもたらすが、トランプ政権の予測不能な外交スタイルは原油価格のボラティリティを極限まで高める要因となる。合意の成否は世界のエネルギー供給とインフレ動向に直結する。",
-              "date": "06/11",
-              "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOamhQQXRZb2JYdUNtQ1pGRzBUYWplRG8yRS1HOTdLR0RQRllRYTdkSzZJLU5sUzdhbnpUUUl6Q0VQa1Uta3BVblpPQUlUX0dubVlJd2VTd2N5OWZNTm85VU9fcXNYbEtaVS1kWktDZnV4SGRkSUxNYzBVejNobHBzZzF2QmVEU0JQV2NHQkxfUF95YVNCcnNIcDRtUkRFeUJKS0pOSjdTMkVla2V1X050Z1V0UQ?oc=5",
+              "headline": "韓国の尹前大統領に禁錮30年の実刑判決、北朝鮮へのドローン派遣と戒厳令計画で",
+              "content": "韓国の裁判所は、北朝鮮へのドローン派遣が戒厳令計画の一環であったとして、拘束中の尹前大統領に対し禁錮30年の追加判決を言い渡しました。これは軍事的な挑発を利用した国内政治工作とみなされています。",
+              "impact": "★重要★ 東アジアにおける重大な政治的動乱を意味します。かつての同盟国の国家元首が国家反逆に近い罪で重刑を科されたことは、韓国の民主主義の脆弱性を露呈させるとともに、対北朝鮮関係における地政学的リスクを再評価させる事態です。",
+              "date": "06/12",
+              "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOQW4ycGpINUt3YmRLOTZyakJhTUFJdWplMkhheFJLRXRJSHBVU1lDMmJhZHJJWXBST3dEVnRKcndJRXY3RUVZeUM1bDM1ZEdRTHpKekl1R3V5N0hSYzB0dWZNbkJScDFlbzZNMDdGeWRwY2R1UjFQN3JOQ0FUZGtuMUhsc3RWNVJlYXVzX1I4cGU2YnFZYXdSdWYwbWc5YzJYV050Mm8yLXlFUFcwSmlQSzA4QlF6RlhHN215NHk4VTJqRURrMjRjaA?oc=5",
               "importance": 5,
-              "fetched_at": "2026-06-12T08:14:17.957002+09:00"
+              "fetched_at": "2026-06-12T16:12:57.860812+09:00"
             },
             {
-              "headline": "SpaceXが歴史的なIPO、イーロン・マスク氏が人類初のトリリオネアに",
-              "content": "イーロン・マスク氏率いるSpaceXが、1株135ドル、総額750億ドル規模の新規株式公開（IPO）を実施した。この上場に伴う資産価値の急騰により、マスク氏は保有資産が1兆ドル（約150兆円超）を超える世界初の「トリリオネア」となった。",
-              "impact": "★重要★ 民間宇宙開発への資本流入が加速し、関連産業の勢力図を塗り替える。また、一人の個人に莫大な富が集中することへの政治的・社会的批判が高まる可能性があり、富裕層課税などの議論を再燃させる経済的インパクトを持つ。",
+              "headline": "日本銀行が31年ぶりの高水準へ利上げを決定、タカ派姿勢は緩和へ",
+              "content": "日本銀行は政策金利を31年ぶりの高水準に引き上げる方針を固めました。一方で、今後のさらなる急進的な利上げを唆すような「タカ派的信号」は取り下げ、市場の安定を図る構えです。",
+              "impact": "★重要★ 日本市場にとって歴史的な転換点です。長年の超低金利時代の終焉は円相場や国内債券市場に多大な影響を与えますが、市場との対話を重視し始めたことで、急激な円高や株安を回避しつつ正常化を進めるフェーズに入ったことを示唆しています。",
+              "date": "06/12",
+              "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPWEJpSnJwbDhJNzRjVXVOdThMckZNZTBvbURMNHJtcFppdWVQNnNpX0FSaVZRQnhYVlpqZDVHVjNTUWJCYUJ0aUpqZnJKRzlzSGpqZGhRZEJqMWZkTGN4RTlqTy1MNHlRQlB0YnIyZGhWdGJmbXFaSFlEQTFpcWVDWl9kMjk3cTF2cWM5TWZBQjQtUWJseEVIaUlubWViaTB0OXlVSG5rNnBpYUxjZW54VExB?oc=5",
+              "importance": 5,
+              "fetched_at": "2026-06-12T16:12:57.860812+09:00"
+            },
+            {
+              "headline": "トランプ氏、イランとの合意間近を主張し原油価格が2ヶ月ぶり低水準へ",
+              "content": "トランプ米大統領がイランとの戦争回避に向けた合意が近いと表明したことで、ホルムズ海峡での緊張緩和が期待され、原油価格が大幅に下落しました。これを受けて主要国の株式市場は反発しています。",
+              "impact": "★重要★ エネルギー価格の安定は世界的なインフレ抑制に直結します。トランプ外交による「力による平和」と経済的ディールが奏功すれば、停滞していたグローバル経済の活性化要因となりますが、地政学的な不透明感は依然として残ります。",
+              "date": "06/12",
+              "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNMXk5cUo1M00yVjgxUGh5ZHl5SWdsUFcxZWhQUUF4MUhZY3pzNGZUbUU1SEtHUEh0dnZJM1Y4TFU0SzloMWNlQ1VqcjBZZ09raU1QdnFXallaeTBVMEZsNGhsOVVDcFNUZ2tjY29zX3hYYjJ6ZzAtZU1FSURnY0J3TktmSEk2eGFpd1Njek1SUG1mbkJrVmltN3RMQVk5WFpOOUxuMEVLUHRuVE50alhrTGk0VGs?oc=5",
+              "importance": 4,
+              "fetched_at": "2026-06-12T16:12:57.860812+09:00"
+            },
+            {
+              "headline": "米国がNATO向けの軍備を大幅削減へ、欧州の安全保障体制に衝撃",
+              "content": "ニューヨーク・タイムズの報道によると、米国はNATOの欧州作戦向けに配備している戦闘機や艦船を大幅に削減する計画です。米国の安全保障戦略の優先順位が欧州から他地域へとシフトしていることを示しています。",
+              "impact": "★重要★ 欧州連合（EU）およびNATO諸国にとって、安全保障を米国に依存する体制が限界を迎えたことを意味します。欧州諸国独自の防衛支出拡大を余儀なくさせ、ウクライナ情勢を含む広域的なパワーバランスに重大な変化をもたらす可能性があります。",
+              "date": "06/12",
+              "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNT2piZ0lCY1daYmY3NTgyLVkyOHlEbVBrVWQtZU5kdUM4QS1UTTd2ckRYRDhOd2xhOHR3eU5MUWUwQU41TGdJR0E3bm5adEFGYW91UXg3Q1pNLURDbXcxNndvajR2SEhwei1Cd0JnbjJ0dEdlZ0dmdDI4MUdpTnE2bV9uN29zSVk4WXdDanNqT09ORDVRVFYzclRVZjB6S1JiN19SYUFIOXNpUzRPRUl4LU9aVWh0aVdVUi1tOXo0bXNNamw5cWg4c0dTZVNqbktTMWotYw?oc=5",
+              "importance": 4,
+              "fetched_at": "2026-06-12T16:12:57.860812+09:00"
+            },
+            {
+              "headline": "SpaceXのIPOによりイーロン・マスク氏が世界初のトリリオネアに",
+              "content": "SpaceXの新規株式公開（IPO）が成功したことで、イーロン・マスク氏の個人資産が1兆ドルを超え、人類史上初のトリリオネア（兆万長者）となりました。宇宙産業への投資熱が最高潮に達しています。",
+              "impact": "★重要★ 民間による宇宙開発が巨大な経済圏を形成した象徴的な出来事です。一人の個人が国家レベルの経済力と技術的支配力を持つことの是非に加え、テック株市場におけるバリュエーションの新たな基準となるでしょう。",
               "date": "06/11",
               "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNM2x1cE0xNTl3dWdWTHhWdTlmU05kWmRvaGxIbTRNd21CbUxDWkVuN3djS1piZGtDOUVuNnJyY1dwS1FxWnVCMmJtT05rbHJXWHlQaUo0aVFkejlpOW96Z201ck91QmJNdWlHZm1zUWJLdWxNWm9Bck5PVjRqZHI5d29RaHk4RHRvdFZCU0VmZS1pM3NxNHVKZ1N5ZjBGOXBXTDc0cTdQUmdubEVaNHpDbA?oc=5",
-              "importance": 5,
-              "fetched_at": "2026-06-12T08:14:17.957002+09:00"
-            },
-            {
-              "headline": "米国によるイラン封鎖中のタンカー攻撃でインド人3名が死亡",
-              "content": "米国によるイラン関連タンカーへの攻撃により、インド人船員3名が死亡したことが判明した。オマーン沖での軍事行動は継続しており、シーレーンの安全保障が著しく悪化している。",
-              "impact": "★重要★ 米印関係に外交的な亀裂を生じさせるリスクがある。また、主要航路での民間船への被害は海上保険料の上昇と物流コスト増を招き、世界的なサプライチェーンの停滞に繋がる恐れがある。",
-              "date": "06/11",
-              "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPTndvTUpyenV2dWRnLXNmOGljakxRLXZ3c25NMzNxeFVEWkZFTHprck56WTRNQmRNa2ZrZUZqanM1RnJqT0NaSVdSdGR5OVBvS2w4MzRIQXZkNWM5c0J2ejNCRGlTYkZybW5aTndXWjNReFlfR3VtZ0taTDBBZGlfa0JhVEJ2bndrTWs1aER0UlpDdmZHbnhlWDc4NU1ZS3hRbFJvMXpfQnJtUQ?oc=5",
-              "importance": 4,
-              "fetched_at": "2026-06-12T08:14:17.957002+09:00"
-            },
-            {
-              "headline": "英国防相が軍事予算不足を理由に辞任、スターマー政権の安保姿勢を批判",
-              "content": "英国の国防大臣が辞任を表明。スターマー首相が国家の安全を守るために十分な国防支出を行っていないと批判し、軍事増強への消極的な姿勢が国防上のリスクを招いていると警告した。",
-              "impact": "★重要★ 欧州の地政学的緊張が高まる中、NATO主要国である英国の防衛政策の混乱は西側諸国の足並みを乱す懸念がある。各国の国防予算増額圧力に拍車をかけ、マクロ経済的には財政負担の増大を意味する。",
-              "date": "06/11",
-              "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNUHR5cUxPVW1vQ0M1TVNiTTlObF9QdmFpbHNfQTJSdG5DMEJlRVdwdENYS3NBNC1qTTJacVBBZlpyS3JfdUhUclc2LXJEV2FzdHkwVnBvYk94blNoWmJXNWlOay1sM21nQ1ZIZFpQZ1pWQjctWTRoR3BhdFRGaDAxUFgwNWQ5TUFIZzktWERwQUZHUElwTkpRSHkwTFhsSmpjRDJ2OUJ4MmhwZw?oc=5",
-              "importance": 4,
-              "fetched_at": "2026-06-12T08:14:17.957002+09:00"
-            },
-            {
-              "headline": "米議会、国防省を「戦争省」へ改称する動きとウクライナへの追加支援",
-              "content": "米国の議員らがウクライナへの7億5000万ドルの追加軍事支援を求めると同時に、現在の「国防省（Department of Defense）」を、第二次世界大戦までの名称である「戦争省（Department of War）」に再改称する動きを見せている。",
-              "impact": "★重要★ 単なる名称変更ではなく、米国の外交・安全保障政策が「抑止」から「積極的な介入・交戦」へシフトすることを象徴する極めて硬派なシグナル。ウクライナ戦争の長期化と激化を予唆し、防衛産業株への強い関心を誘発する。",
-              "date": "06/11",
-              "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPUGlsUV9wSVM1UnE0dlRXc2I3TEl0bUZpUVFyNmhOT3ZfLVhzdkdqcEl6UUlHVDdVMDlSV1EzUTFKSjA2cEZVekZsVHVURHVjTEJPcDRaeThKM2d1VjAyX1ZBbjV2MHgxR0tRVmhMSHB3S1AyNS1vT0JENlpYQTh5d2RDQTkzNFl6Nm9DdGZLaDNUckZxOWlCanpEOVpLcFlzRjBnZGZUdEdlVnFyMjFtWXlqeENMTFZaNno3cVA0TkRPTGJ3ZzExSTBfUmdKT1NOR0d0cjdPSQ?oc=5",
-              "importance": 4,
-              "fetched_at": "2026-06-12T08:14:17.957002+09:00"
-            },
-            {
-              "headline": "イスラエル企業がNY・スコットランド選挙に干渉の疑い、フランスが指摘",
-              "content": "イスラエルの調査企業「BlackCore」が、ニューヨークやスコットランドの選挙に干渉した疑いがあるとフランス当局が発表。デジタル空間での世論操作が国家レベルの脅威となっている実態が浮き彫りになった。",
-              "impact": "★重要★ 民主主義の根幹である選挙の信頼性を揺るがす深刻な問題。サイバーセキュリティ規制の強化やデジタル監視の拡大が予測され、テック企業への法規制リスクとサイバー防衛市場の拡大をもたらす。",
-              "date": "06/11",
-              "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQcGVTbjMzbDFGd3AxeDF4SDZqeFFDb1BpdFhIcVFLWG94eWg1OFUyTGFDR2kydmE3cl95NWVoNGZ5S0lWQjZKRzR5ZzZZcHNJWnNQS1RyS2x0Vk03QXFOUkZjbmM4MW82cUZkei1JMTVFZ2ViWjl6c2R0VEtiVlRUdTBuUmk1dWtIYVk0am03QTJxUENZbk0tNjhKNy10b0hDeW8yTno5R1gxeWR6S3JCX1JxVF8?oc=5",
               "importance": 3,
-              "fetched_at": "2026-06-12T08:14:17.957002+09:00"
+              "fetched_at": "2026-06-12T16:12:57.860812+09:00"
+            },
+            {
+              "headline": "中国、砂漠地帯での「極端な洪水」と農作物へのリスクを警告",
+              "content": "中国政府は、通常は乾燥している砂漠地帯や南部において極端な洪水のリスクが高まっていると警告しました。これは主要な米生産地帯にも影響を及ぼし、農作物の供給不安を招いています。",
+              "impact": "★重要★ 気候変動が予測困難な形で世界最大の食料生産・消費国である中国を直撃しています。農業被害は世界的な食料価格の騰貴（アグフレーション）を誘発するリスクがあり、サプライチェーンへの打撃が懸念されます。",
+              "date": "06/12",
+              "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPUGxDSzlKQkxya2NBa3RBby1kQXdfWlNPOUF5ejdmakFNemtDOW55VDBtTTVaRXQ0WkdGZ3p3SUs1d2hGaldYdWFqTV9LZ3JiZTA4U2d5V2NmdmNjRVJOZkFYVWZscGJGakpLVWpOVzVkckc5bU1BZlRjUHBOUWJtek9sWENha1B5N05QQWJnZWFMbV9VOEpOYl9DYkVZRU1GcVlxSmln?oc=5",
+              "importance": 3,
+              "fetched_at": "2026-06-12T16:12:57.860812+09:00"
+            },
+            {
+              "headline": "ウクライナ軍がクリミアの燃料供給網を攻撃、ロシア占領地に深刻な燃料危機",
+              "content": "ウクライナ軍はクリミア半島の燃料供給拠点や橋梁を連続して攻撃し、ロシア占領地域で燃料不足と食料棚の欠乏が報告されています。ロシアの物流網に甚大な打撃を与えています。",
+              "impact": "★重要★ 戦況がロシアの兵站（ロジスティクス）破壊に重点を置いて移行していることを示します。長期化する戦争において、エネルギーと物資の枯渇は占領維持コストを増大させ、ロシア国内の政治的な不満を高める要因となります。",
+              "date": "06/12",
+              "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPcEo5VXJZa05yR3I1Yjd1SE9HdnUwb3dzeUhwWlFTWVlhT2lPT0ItU2JLOXVaZGxORVpsNS1ZeDhGeVMtaHJWUWlHX08yWHVIUTFRVnNPTElucUliQ3dfcDZLVk1aV0E3emkzUER2Z0pSbWM0cjczU3dSVV8xTHlnMmdlQk5rT0tHVmRXYkZfb013UEtzVUNaTkxoQktxNWZwcXc?oc=5",
+              "importance": 3,
+              "fetched_at": "2026-06-12T16:12:57.860812+09:00"
             }
           ]
         },
@@ -67,58 +76,58 @@ window.newsData = {
           "title": "ビジネス・経済動向",
           "topics": [
             {
-              "headline": "SpaceXが歴史的IPOへ、時価総額2兆ドル超の観測と個人投資家の熱狂",
-              "content": "SpaceXが公開価格を1株135ドルに設定し、ナスダック市場への上場準備を完了した。個人投資家からの需要は1000億ドルを超え、上場初日の時価総額は2兆ドルを突破するとの予測が出ている。イーロン・マスク氏の資産は1兆ドルに達する見通しで、世界初のトリリオネア誕生が現実味を帯びている。",
-              "impact": "★重要★ 民間宇宙企業として過去最大規模の上場であり、宇宙産業の商業化が最終段階に入ったことを象徴する。市場への流動性供給は凄まじく、日本の投資信託が「先回り買い」の殺到により販売停止に追い込まれるなど、グローバルな資金フローを劇的に変化させている。",
-              "date": "6/11",
-              "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNOEoydS1OMl8xUmQ0VzZOY1JDZENvYWZUUmZfRmo4aDVtMDdDV05TUnpVQzJ4VC1hb0txLUdteXgxdG5SVWZkOUVKVFhRN2lPVzA2dUdxMmtuTHNPRjBkTm02TDJybEtJOGlQVTdGckhxLTY5MmZHR3VBY2RjRDVxcEFEVUNETndBeDhMWkJMMUE0eVpDdW1zc3dnQTFQaHd2UFRmT3Rjb2hzdGQtSWU3MW94TGxzeGhFdkhYOGZVcldFcFZuNUo0RkdJaTRkcHE4b056RDZlaWtiSG14?oc=5",
+              "headline": "SpaceXが歴史的IPOへ、イーロン・マスク氏は世界初の「兆万長者」に",
+              "content": "SpaceXが米国市場での新規株式公開（IPO）に向けて動き出し、BlackRockなどから少なくとも50億ドルの注文を集めている。この上場に伴い、イーロン・マスク氏の純資産は紙面上で1兆ドル（約150兆円）を超え、世界初のトリリオネアとなった。",
+              "impact": "★重要★ 民間宇宙開発企業として前例のない時価総額（1.7兆ドル規模との予測も）での上場は、テスラ以来の市場インパクトとなる。宇宙ビジネスへの資金流入を加速させる一方、特定個人への富の集中と、インフラとしてのSpaceX（Starlink等）の影響力が公的規制にどう晒されるかが焦点となる。",
+              "date": "06/12",
+              "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNMC1iTEs3bm5YaTE3ckNTaUFORE1LWVAzN29UZko0bjNGUk5iNW5taUk0aXh0WTRteVk4OV9OYzh5V21qdlRzeEdIQkI0a2pLeGR3OHpNaHJBeGltWDBvNHJfdjNub1dmaF9haHp6OVNUaXdTOTIzYzNQaEZRYWc3T24tVXpDM1lYUFFKdU80anN2QkgyYzVfSFA2bGFJbkVJYkJEQUl2OXFRcGJkRkI2Ykd1bUJsVzg?oc=5",
               "importance": 5,
-              "fetched_at": "2026-06-12T08:14:17.957002+09:00"
+              "fetched_at": "2026-06-12T16:12:57.860812+09:00"
             },
             {
-              "headline": "トランプ大統領がイラン攻撃中止を電撃表明、原油安と株高を誘発",
-              "content": "トランプ大統領が直前でイランへの軍事攻撃中止を決定し、数日以内に「最終合意」に向けた署名が行われる見通しとなった。これを受け、NYダウは929ドル高と急騰し、原油価格は一時2カ月ぶりの安値を記録。ホルムズ海峡の通航量回復への期待も高まっている。",
-              "impact": "★重要★ 中東における地政学的リスクが劇的に緩和され、エネルギー価格主導のインフレ懸念が後退した。サプライチェーンの安定化と投資家心理の改善により、世界経済が再び「リスクオン」の状態へシフトする強力なトリガーとなる。",
-              "date": "6/11",
-              "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5iOENrZGhGTXVNSnpzcHlsbEpqM09PbUNpTm9wald6cllaZlNZbER3U01mSnpHVDdaQWJwamdCWjFKOEJBdjk4Z1JycWxzTFh6MmQxTHI0OVh4c3Y2ZzlPN0tRdmdfU29rNUxtQdIBckFVX3lxTE5RREtBMzJwODJXMVdDSU5PX2F4UU1yRS14RVpKeXJ6aTRMS2RJc1ZlZE90MUg4Szl1RVUtcTVlRUJwT3o5UTlTY1NJRjlQTmNsdm9xc3dyNU84VkJCNEd2ZXJpb1NCeXZGU043S3BYUXVaQQ?oc=5",
+              "headline": "トランプ米大統領がイラン攻撃を急遽中止、和平合意の進展で市場急騰",
+              "content": "トランプ大統領が予定されていたイランへの軍事攻撃を中止した。和平合意に向けた「突破口」を主張しており、これを受けて世界的に株価が上昇し、原油価格は下落している。欧州で今週末にも署名に向けた詰めが行われる見通し。",
+              "impact": "★重要★ 中東における大規模な軍事紛争のリスクが後退したことで、エネルギー価格の安定と投資家のリスクオン姿勢を誘発した。地政学的な緊張緩和はマクロ経済の不透明感を払拭するポジティブ要因だが、合意の持続性と実効性が今後の焦点となる。",
+              "date": "06/12",
+              "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNeTFuU2M0cHZheWpCaXhYZGliRXdsUm1FYURCWXcwOE1IZ2N1ME1zVklRZmtDTGE3aFo2ZHItMmhQVUFueUlhSlBFclEyUEEzcFJZeVVWSkR4d1V6MUZXN3JlbXRuVUlYZ2FvYlA4V1BvTGlKd19GNmJ6Z2NvU0F6S19vZmMxM3VkSjhzU0RjNkpRbWJNNlZUbmVHUl9ONXRLN0JhVlhHWWtkZDl4YW1KcUdBUjgzVWPSAbwBQVVfeXFMTVZLR1Z2NlRNNkU4Q0ZSNnBPX2ZMM0RYODBydzFIVWJJdU5RNktqOFdKU3RsSTN4SGQ5R0JtVzRPeDJVTDZTbDg2MjB3eGt4Mk0tQlJ3YVZZWWRTRTdJRDRKdHpRUnNvSTVMaVdWWERicUwyTU02N2tDVXJPS1FtM2xQYVZaLUg4T19qMzhMS2ZFUDNnd0VVal9yYzRHeFZJZlJqcW5ST29LRzB5TGpyN3pMTExna2J4OG4yQ0I?oc=5",
               "importance": 5,
-              "fetched_at": "2026-06-12T08:14:17.957002+09:00"
+              "fetched_at": "2026-06-12T16:12:57.860812+09:00"
             },
             {
-              "headline": "欧州中央銀行（ECB）が利上げ実施、戦争によるインフレ再燃を警戒",
-              "content": "欧州中央銀行は、イラン情勢等に起因するエネルギーコスト上昇を背景に、2023年以来となる利上げに踏み切った。ラガルド総裁は、物価安定に向けた引き締め姿勢を改めて強調した。",
-              "impact": "★重要★ 主要先進国の中でインフレ抑制への警戒感が依然として強いことを示しており、グローバルな高金利環境が長期化する可能性を示唆。ユーロ圏の成長鈍化リスクと通貨価値の変動に注視が必要。",
-              "date": "6/11",
-              "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOdk9LTVkyQm43cFJaV2QyZk1JUlktWTBzd3RaemZmVU1ob21tX2w4cDhUd2tfNHZobVFkQmxlNDZUNlE1VDdMR0VqQlVvcDBnUkgtc2c0Q3FudHM5X2JlUlRtamxEZ05UaC1uMTY4YVJjSHVBUUdsamlyQ2M1WEdodVYxZ1ltMUxOY0Zka3hVQl9kVVZ1c3A2YUlXNA?oc=5",
+              "headline": "日銀が31年ぶりの高水準へ利上げ検討、円安是正とインフレ抑制を狙う",
+              "content": "日本銀行は、政策金利を過去31年間で最高の水準まで引き上げる方針を固めた。タカ派的な姿勢を鮮明にすることで、粘着質なインフレと円安傾向に歯止めをかける狙いがある。これを受け、日経平均先物は夜間取引で一時2000円超の大幅上昇を見せた。",
+              "impact": "★重要★ 日本の金融政策の歴史的転換点であり、グローバルな資金フロー（円キャリートレードの巻き戻し等）に多大な影響を与える。国内市場では利ざや改善期待から金融株が買われる一方、借入コスト上昇による実需経済への影響が精査される段階に入る。",
+              "date": "06/11",
+              "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOeUxreXRSTWFNTjA3LWZINVk1NEJxQm1tdzJZMGpZUDVodjBKNUFkbFY2ZkJqeXpFS21KWUJJZ0pqZnFvYnNZU3cxU3pYRTU3R1dWbXNHcEpxOHIxT0ExTEttaWh3a1hHQ01mUDFVNTlmVlJWMkk2ZTdWU0gwRkpTLXdR0gGHAUFVX3lxTE9ScVBSLV9JemwtLUFIZFZQd0ZGSDIzbnUyRV9vUXZOZm1jZVotdVRqeVpyNlZLZU9fQlkxRERxUkE4RnllTkVzcXFkVHhoaGhiTzE1WUVWUkVjejJuczZmcjlyOXpwMDllaW53ekI5UTFnQ3p5bEg1bzBDMU5lcEdROGh5bEk5RQ?oc=5",
               "importance": 4,
-              "fetched_at": "2026-06-12T08:14:17.957002+09:00"
+              "fetched_at": "2026-06-12T16:12:57.860812+09:00"
             },
             {
-              "headline": "トランプ政権、米国の原発建設に「日本マネー」の活用を提案",
-              "content": "米商務長官は、次世代の小型モジュール炉（SMR）を含む米国内の原発建設において、日米の連携を主導し、日本の資金を活用する方針を明らかにした。エネルギー安全保障と脱炭素化を同時に進める狙いがある。",
-              "impact": "★重要★ 日米同盟がエネルギーインフラ分野で深化する一方、日本の官民には巨額の投資負担とリスク共有が求められる。重電メーカー等の国内企業にとっては商機となるが、トランプ政権の「ディール」の一環としての側面が強い。",
-              "date": "6/11",
-              "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9NUF9YWVBET2o5cE5oUmJVeFRyVVVEVGloMEdaRjNKQV84VFpld193MGhTT2Z3eVA5cUY1M2RaOTFrVlcxa0hnZG1YbjdoV3NUUTlvWjh5R2xhVHZwZWE4U3lxUlBTQ0RzQnJpVw?oc=5",
+              "headline": "キオクシア時価総額が45兆円に、トヨタを超え一時国内首位へ浮上",
+              "content": "半導体メモリー大手キオクシアの時価総額が一時45兆円に達し、トヨタ自動車を抜いて国内時価総額首位となった。生成AI向けデータセンター需要の爆発的な拡大により、同社の収益力が急激に向上している。",
+              "impact": "★重要★ 日本の産業構造が「自動車」から「AI・半導体」へとパラダイムシフトしていることを象徴する出来事。世界の半導体サプライチェーンにおける日本の再台頭を示すとともに、今後の国内投資戦略のベンチマークが変化する可能性がある。",
+              "date": "06/12",
+              "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBqRDM2U1VUa29Ha3ltcFB1YzRKcVpkX2xvTmZVamY4NWlUbUEwVG1CSWE1TXMyY2ttc3dWaWZuT3owQjNuRXpnd2wzaFJjQzV0WVJJZlprWXpDQk40TFcwQWQ4ejhmZmp1NFY4Mg?oc=5",
               "importance": 4,
-              "fetched_at": "2026-06-12T08:14:17.957002+09:00"
+              "fetched_at": "2026-06-12T16:12:57.860812+09:00"
             },
             {
-              "headline": "5月の米生産者物価指数（PPI）が急騰、インフレ圧力の再燃を示唆",
-              "content": "米国の5月生産者物価指数がエネルギー価格の上昇を受けて急騰し、2022年以来で最大の前年比上昇率となった。市場予想を上回る結果により、FRBによる利下げ期待が後退している。",
-              "impact": "★重要★ 製造・物流コストの上昇が消費者物価（CPI）へ転嫁されるタイムラグを考慮すると、米国のインフレ収束は想定より遅れる可能性が高い。ドル高の維持と金利高止まりが続くマクロ環境を裏付けている。",
-              "date": "6/11",
+              "headline": "米生産者物価指数（PPI）が5月に急騰、エネルギー価格がインフレを再燃",
+              "content": "5月の米生産者物価指数（PPI）は、エネルギー価格の急騰を主因に2022年以来最大の上昇幅を記録した。インフレ圧力の根強さが改めて浮き彫りとなっている。",
+              "impact": "★重要★ FRBによる利下げ期待を後退させ、金利の「Higher for Longer（より高く、より長く）」シナリオを補強する。ドル高圧力が継続し、新興国市場からの資金流出や、グローバルな債券市場のボラティリティを高める要因となる。",
+              "date": "06/11",
               "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQQkxCZWVnYlhJU3o3WkJJYS1KTGlyQXJBckhKQ29jNWY3TUdSR3NCdWUyNkpETGZtODg0Y3ZBRkxaNkZtSkNMVFgzdWVlZnlGci13TDdNMzhGM0FjY2VtZDN6U0NHa0hXc2loOVdmNnBfenJzdlhIS3ZOQm9HOTFPTEhBWG9zYzF6d0hXTFhQN2xidjhJZ2Z0MWFLN2hxRXc?oc=5",
               "importance": 4,
-              "fetched_at": "2026-06-12T08:14:17.957002+09:00"
+              "fetched_at": "2026-06-12T16:12:57.860812+09:00"
             },
             {
-              "headline": "イギリス国防相が予算不足に抗議し辞任、日英伊の次期戦闘機開発に影響懸念",
-              "content": "イギリスの国防担当大臣が、軍事予算の不足を理由に辞任を表明した。これにより、日本・イギリス・イタリアが共同で進める次期戦闘機（GCAP）の開発プロジェクトの継続性や資金分担に懸念が生じている。",
-              "impact": "★重要★ 国際的な防衛協力プロジェクトにおけるパートナー国の政治的不安定さは、日本の防衛装備移転や安全保障戦略に直結する。予算削減の動きが他国に波及すれば、開発スケジュールに重大な遅れが生じるリスクがある。",
-              "date": "6/11",
-              "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1Ed2RwSFpUbm5WS3laSzZEQUcydkVGZ0ZuU1V3WDhva3lSYWF3RlZJTnBUTWRUaVpRLTVDaE10cGN5ZHJuNlluVG0xZVdnRi1feFVUbXZrM0paR3luMElNeFJSVkxKN05zUjVIZw?oc=5",
+              "headline": "JAXAの新型「H3ロケット」打ち上げ成功、低コスト化で商業競争力を確保",
+              "content": "宇宙航空研究開発機構（JAXA）は、低コスト化を図った新型の「H3ロケット」の打ち上げに成功した。日本の宇宙産業にとって、SpaceX等の民間競合に対する価格競争力を備えた次世代主力の確保となる。",
+              "impact": "★重要★ 日本が宇宙への独自の輸送手段を安価に維持できることは、経済安全保障および衛星ビジネスの観点から極めて重要。キオクシアの躍進と合わせ、日本のハイテク産業の復活を印象づける動きである。",
+              "date": "06/11",
+              "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE0zN2p1cS1IbENvU2VlS0xudWRqZW04TnVNSTVpWGE0dkNMT2d4ZlhFYW4wcTEtMnQ5bHZKOWF6Rkp3Y0cyTy1Mb2JBRld3UlJud2hENlhSSFdSaDk4dTNjOGtBZE81RWlmM3Ftbg?oc=5",
               "importance": 3,
-              "fetched_at": "2026-06-12T08:14:17.957002+09:00"
+              "fetched_at": "2026-06-12T16:12:57.860812+09:00"
             }
           ]
         },
@@ -127,67 +136,58 @@ window.newsData = {
           "title": "テクノロジー・サイエンス",
           "topics": [
             {
-              "headline": "SpaceXが1株135ドルの史上最大規模IPOを正式発表",
-              "content": "SpaceXは、同社を1株あたり135ドルと評価し、史上最大の新規株式公開（IPO）を実施することを正式に決定しました。これにより、同社は世界の航空宇宙および防衛産業において、民間企業として比類なき時価総額を持つことになります。",
-              "impact": "★重要★ 民間企業が宇宙インフラ（スターリンク）や深宇宙探査（スターシップ）の主導権を握る中、この巨額の資金調達は火星移住構想や地球低軌道の商業化を加速させる極めて重要なマイルストーンです。政府主導から民間主導への宇宙産業のパラダイムシフトを決定付ける出来事と言えます。",
-              "date": "06/11",
-              "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOOVdibDJvYXhKUG9BSWVobkRoMUFNNWM3OVVWZ0FVVDhRRW90Z21FMG9tMzF2RzFCR3NuNW1jTDFJanJuWXlORXIzYkZ2eXc1YjhJMFR2bUxHWTRuMjh5NzZDWkl5Q1kzSzZwY0ptN2FlUzJ0ZGdnT3U3WmVxN0d4UkJ0NEVRaVdWZ1ZZTktlM1VjUkpnRmVNbDlmcGhIdw?oc=5",
+              "headline": "ジェフ・ベゾス氏のPrometheusが120億ドルを調達、「物理世界のための汎用的人工エンジニア」開発へ",
+              "content": "ジェフ・ベゾス氏が支援するPrometheusが、物理世界で多様なタスクをこなす「汎用的人工エンジニア（Artificial General Engineer）」を構築するため、120億ドルという巨額の資金調達を実施しました。",
+              "impact": "★重要★ これまでのAIが主にソフトウェアやデータの処理に特化していたのに対し、物理的なエンジニアリングや製造の現場で自律的に活動する知能の実現を目指す動きです。120億ドルという規模は、AIが物理インフラを再定義するフェーズに突入したことを象徴しています。",
+              "date": "06/12",
+              "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPdFE2N0VGYXZhRlpTb3dheHN4ZVRVaHRPZGJZaG5kbk5URzBlM0MtLUJOWlZ5UTBWZ3ZQT2RBUVprZ1owcWNoU2NuTEZ2UHpJbnhDajZrUW1RYlAtLUtpTnZFT2Z1YWV6X2V3YUJXTXdQcWEzQUgzT1NYRDNtSTRSVDJGYkVHelhKSDZmTmZSeEFBOUljY3Y5a09UeFBBbnVYd2ZFZXFVUngzUVUtdlhYYUxScUppZnl4ZnpEa2FUMEsxTjVlMFRkRnB1MA?oc=5",
               "importance": 5,
-              "fetched_at": "2026-06-12T08:14:17.957002+09:00"
+              "fetched_at": "2026-06-12T16:12:57.860812+09:00"
             },
             {
-              "headline": "JWSTが初期宇宙の「リトル・レッド・ドッツ」をブラックホール星と特定",
-              "content": "ジェイムズ・ウェッブ宇宙望遠鏡（JWST）の観測により、宇宙初期に存在する謎の天体「リトル・レッド・ドッツ」が、超巨大ブラックホールを宿す特殊な恒星（ブラックホール星）である可能性を示す有力な証拠が得られました。",
-              "impact": "★重要★ 銀河形成とブラックホールの共進化に関する従来の定説を覆す発見です。なぜ宇宙初期にこれほど巨大なブラックホールが存在できたのかという天文学最大の謎の一つに対し、直接的な回答を与えるだけでなく、初期宇宙の物理法則の理解を深めます。",
+              "headline": "ジェイムズ・ウェッブ宇宙望遠鏡、宇宙初期の謎「小さな赤い点」がブラックホール・スターである証拠を発見",
+              "content": "NASAのジェイムズ・ウェッブ宇宙望遠鏡（JWST）を用いた最新の観測により、初期宇宙に存在した「小さな赤い点」の正体が、ブラックホールによって加熱された恒星である可能性を示す強力な証拠が得られました。",
+              "impact": "★重要★ 初期の宇宙において、これほど巨大なブラックホールがなぜこれほど早期に形成され得たのかという、天体物理学における最大の謎の一つに光を当てる発見です。宇宙の進化史を塗り替える可能性を秘めています。",
               "date": "06/10",
               "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQOFBGMmpUTURHQWpOMDhpZVE4ODBiZ05ZVmRadXc3M1dTeFV0SVRhLU1xSG9VVUVNaFJTSTJqX3E5VDlONnhRRUF3SVhsVTYyR1BVSmRMVzlacm5LNjI0MTYyNEZ0T1N6LV9ISzFld0Myd1BpWGpnenUxOTJ5ZVF2MEZIWTdXRUxiRmhXR19oY2hhaDdndHJXTE5OdGw1SVBGU3ZRcDRaTnNlZ2RHY3cta2NMTl9Sb2I5dWdGRDd0OVdzQXQxT1hzbjNublNNVmxqYzVR?oc=5",
               "importance": 5,
-              "fetched_at": "2026-06-12T08:14:17.957002+09:00"
+              "fetched_at": "2026-06-12T16:12:57.860812+09:00"
             },
             {
-              "headline": "中国の地下検出器JUNO、ニュートリノ質量の階層性解明に向け初期データを取得",
-              "content": "中国に設置された巨大な地下ニュートリノ検出器（JUNO）が、初の本格的な観測データを取得。ニュートリノの3つの質量の順序（階層性）という物理学上の未解決問題の解明に向けた大きな一歩を踏み出しました。",
-              "impact": "★重要★ ニュートリノの質量階層性が明らかになれば、素粒子物理学の標準模型を超える「新しい物理」の構築が可能になります。宇宙になぜ物質が残り、反物質が消えたのかという「宇宙の起源」に関する根本的な問いへの回答に直結する基礎科学の最前線です。",
+              "headline": "中国のニュートリノ検出器JUNOが初データを放出、質量の謎解明へ一歩",
+              "content": "中国の地下深くに設置された巨大検出器JUNO（Jiangmen Underground Neutrino Observatory）が、原子炉ニュートリノ振動の初測定に成功し、ニュートリノの質量階層性の特定に向けた重要なデータを公開しました。",
+              "impact": "★重要★ ニュートリノは素粒子物理学の標準模型を超える物理の鍵を握っています。その質量の順番（階層性）が解明されれば、宇宙がなぜ物質で構成されているのか（反物質との非対称性）といった根源的な問いに対する答えが得られる可能性があります。",
               "date": "06/10",
               "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1ybmJJc3g4QnI5NXZNOERTTkx4LW9KRkM5ZWlNdU10U0dWc1JDXzE3cTZYdXhFVmFNX1pXMHpmVDJNeGYtaURtTzVaRk9TSzcwR0VOdk56UHBzX2V1M0ZB?oc=5",
-              "importance": 5,
-              "fetched_at": "2026-06-12T08:14:17.957002+09:00"
-            },
-            {
-              "headline": "Nature発表：水中カーボンナノチューブにおける「光誘起量子摩擦」の発見",
-              "content": "研究チームがNature誌にて、水中にあるカーボンナノチューブに光を照射することで発生する「量子摩擦」という物理現象を確認したと発表しました。これはナノスケールの境界で光と水分子、電子が相互作用する複雑な現象です。",
-              "impact": "★重要★ 極小スケールでの流体力学と量子力学が交差する新たな物理領域の開拓です。この制御が可能になれば、超低摩擦のナノデバイス、高効率なエネルギー輸送システム、あるいは細胞内レベルで作動する超高精度センサーの開発など、ナノテクノロジーに革命をもたらす可能性があります。",
-              "date": "06/10",
-              "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE41X29KSXJydm9zZTlkOW9oQmJYQ0ZnRm9Mc0ZKN0RzcHVfalI0b1dDaktXTGt5MGNESjJuZFRHeEt6N2s2QUtoMGF4azdIUndhbE9fV0hwaFVKZ2hQYjNN?oc=5",
               "importance": 4,
-              "fetched_at": "2026-06-12T08:14:17.957002+09:00"
+              "fetched_at": "2026-06-12T16:12:57.860812+09:00"
             },
             {
-              "headline": "未利用エネルギー源開発を目指すEndurance Energyが5,400万ドルを調達",
-              "content": "ディープテック・スタートアップのEndurance Energyが、これまで未利用だった大規模なエネルギー源（詳細は非公開だが地熱や熱物理的ソースを示唆）を活用する技術開発のため、5,400万ドルの資金を調達しました。",
-              "impact": "★重要★ 太陽光や風力といった変動性のある再エネに代わる、ベースロード電源となり得る「第3のクリーンエネルギー」への挑戦です。成功すれば、既存の送電網を補完し、カーボンニュートラル実現に向けたエネルギー安全保障のゲームチェンジャーとなる可能性があります。",
+              "headline": "世界初の菌根菌（マイコライザ）グローバルマップが作成、地下の巨大ネットワークが可視化される",
+              "content": "地球規模での菌根菌（植物と共生する菌類）の分布を測定した初のマップが公開されました。これにより、地球上の植物を支える広大な地下ネットワークの全容が明らかになりました。",
+              "impact": "★重要★ 植物による二酸化炭素の吸収と地下への隔離において、菌根菌は極めて重要な役割を果たしています。このデータは、気候変動予測の精度向上や、生物多様性の保護戦略、持続可能な農業の実現に直結する科学的ブレイクスルーです。",
               "date": "06/11",
-              "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQd180SEh4cFJmWW03cWJDOFU5bmwzanJ6VmxQeFR0SEExN01MbEZWNVh3b0ZsTDVpOU03R0tPTzZlY2kwSl9QRjZCQkV0SkxjR1VuM1NWRGFxN3YzNEQ3bHRLQ3JzMFI3Yjd2MWwwQlQwSFBtUHFTWTduQi1pSGxRd1BSaEhKenIwSTNiZTZ4WXF6OHFLUEZLR2pOZ25panhUZkUwekFCR1EyZw?oc=5",
+              "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE15OEJlVVJzb0pCZFpwamRhamxRMnNRYzBSNFRBUm4zeXd1T2Z0cHdVeEJVY0ZVUnBrTTlpZUlFNEgtSWVjWWxSNVRlNUtkWkpfNFBxdi1mdllzS09CYTRjMldLeno5XzF0anpPSW93b3FnT3dwTWh0bE52czA?oc=5",
               "importance": 4,
-              "fetched_at": "2026-06-12T08:14:17.957002+09:00"
+              "fetched_at": "2026-06-12T16:12:57.860812+09:00"
             },
             {
-              "headline": "オランダのチップ企業が欧州完結型の製造フローを確立、技術主権を強化",
-              "content": "オランダの半導体スタートアップが、米国との技術提携を維持しつつ、設計からファブ（製造拠点）までの全工程を欧州内で完結させる「All-European」なチップ製造フローを構築したと発表しました。",
-              "impact": "★重要★ 半導体サプライチェーンの地政学的リスクが極限まで高まる中、欧州が特定の地域に依存せず最先端チップを生産できる能力を確保したことは、戦略的自律性の観点から非常に大きな意義を持ちます。次世代コンピューティング資源の争奪戦における欧州の地位を盤石にします。",
+              "headline": "MIT、二酸化炭素注入によりセメントの強度を13%向上させる新手法を発見",
+              "content": "セメントの硬化過程でCO2を注入する際、特定の化学反応を誘発させることで、従来のセメントよりも13%高い強度を実現できることがMITの研究により判明しました。",
+              "impact": "★重要★ 建設産業は世界のCO2排出の大きな割合を占めていますが、この技術はCO2を資材の中に閉じ込める（カーボンキャプチャ）だけでなく、材料自体の性能を高めることができるため、脱炭素化と構造物の高耐久化を両立させる画期的な手段となります。",
               "date": "06/11",
-              "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOWW1CZDBaYVptOWlYNkJvSkp3dnJKOTF4d3A3dlBzTkljLXJSa2hlTWx6VG1NNjBIS2ZFOGRYdTlIMU1qbE1oLTZBc0ZMNWdaTTJ0Umd5X2FOazkzblBVaHB5Zk5xLTZBVmg4b1hOTVY1Z2NPdk5OUTJoNHZVNUJKS2hfc3N6UW5nZUphVzNxcTMtSnJILTR5M2xhc3liLUk5T0lVbXMxMGxuSHJERTVVR3QwV0tNWUk1NzdQUnZ5cTg1TENyc3VVWVYzc2k5Q0dVQk9xLXpNOA?oc=5",
+              "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9ub1dmUXFYaThzc0U0cGNFRWxmakRCd0kzMzBaYmRVWjF3VzlRME1OeFpwc3RaaDVYYW1vbW5NNk1KeHREbk1OMHg4aTB4NW4yaWhOUjlTUERiMlNydHpnUTdnOWViem5yc1lNQ0RmZzgtSVRvdXByaQ?oc=5",
               "importance": 4,
-              "fetched_at": "2026-06-12T08:14:17.957002+09:00"
+              "fetched_at": "2026-06-12T16:12:57.860812+09:00"
             },
             {
-              "headline": "物理学を学んだAIが直面する「古い知見の脱却（アンラーニング）」という新課題",
-              "content": "AIが宇宙の物理法則を学習し、新たな知見を導き出そうとする過程で、学習済みの「既存の物理学」がむしろ新しい物理の発見を妨げるという課題が報告されました。研究者はAIに過去の知識をあえて「忘れさせる」必要性を指摘しています。",
-              "impact": "★重要★ AIによる科学的発見（AI for Science）の限界と新境地を示す議論です。データから帰納的に真理を導くAIが、人間の既存バイアスをいかに超えるかという本質的な問いであり、今後のAI駆動型科学の設計思想に大きな影響を与えます。",
+              "headline": "最初の複雑な細胞（真核細胞）の起源、多様な種の混合遺伝子によるものであることが判明",
+              "content": "初期の複雑な細胞（真核細胞）のゲノムを解析した結果、それらが単一の祖先からではなく、極めて多様な種の混合遺伝子によって形成されていたことが明らかになりました。",
+              "impact": "★重要★ 生命の歴史における最も重要な転換点の一つである「真核生物の誕生」のプロセスを再定義する発見です。従来の共生説よりも複雑な、複数の生物間での広範な遺伝子交換が、私たちを含む高等生物の進化を可能にしたことを示唆しています。",
               "date": "06/11",
-              "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQZWJ2dFhqdW5yWkdYOUNIcm1xR0RaZW15Z3JON0p5N3BBMHJieWZ3RENmUUMtMGxzQVFtNFpOYURtcmVmbVo0RzJRS1I1Y1FmUUU1NEM2V0FLVTVaSG5zRHpETDdEVjFaMDh4LXBKTE5Od0FtTG9sV0NRSE1KWnFSN0hYRDR2SFJVOWVKaElwdzhXNUVkVUtXVzR5ZEFadHc1bUpTOElPNGE3SEljbHkwTEhudFpRVzVkeGc?oc=5",
+              "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOVVYzcWdOQWJQbUVKdEVYeERNdS14REhoWFZDQmdxT2RCMzdUZDY1dDVHbGRCWGI5bnkyc3BMV09JYlR5MWdidXpUZzkySkdhWElsUGUxbVV0VEdvblVaOUdnTnhIWERyV2tCa3diemRfaEJxYlpnMUtMLXM4ekdKd2psd1pKbEFhMnhvMXlsVzFHTlFCOE5GZFVKTkN6bDlYTHNXR2hQVQ?oc=5",
               "importance": 3,
-              "fetched_at": "2026-06-12T08:14:17.957002+09:00"
+              "fetched_at": "2026-06-12T16:12:57.860812+09:00"
             }
           ]
         },
@@ -196,73 +196,55 @@ window.newsData = {
           "title": "デベロッパートレンド (Hacker News & 海外フォーラム & 国内)",
           "topics": [
             {
-              "headline": "Anthropicが新フラグシップモデル「Claude Fable 5 & Mythos 5」を一般公開",
-              "content": "Anthropicは2026年6月9日、これまで機密扱いであった「Mythos」クラスの能力を安全対策付きで開放した新モデル「Claude Fable 5」および「Mythos 5」をリリースしました。ソフトウェアエンジニアリングや知識労働、科学研究のベンチマークにおいてSOTA（State-of-the-Art）を記録しており、Stripeなどの企業では大幅な生産性向上が確認されています。",
-              "impact": "★重要★ 最上位のコーディング能力を持つモデルが一般開放されたことで、AIエージェントによる自動自律開発（オーケストレーション）の精度が飛躍的に向上します。特に日本国内でも同時に開発者イベントが開催されるなど、グローバル展開と開発エコシステムの統合が加速しており、開発者の作業は「プロンプトから設計を指示する」フェーズへ完全に移行しつつあります。",
-              "date": "06/10",
-              "url": "https://zenn.dev/galirage/articles/claude-fable-5",
+              "headline": "Anthropicが新モデル「Claude Fable 5」をリリース",
+              "content": "Anthropicが開発者向けイベント「Code w/ Claude Tokyo」にて、最新の「Claude Fable 5」をリリース。ソフトウェア工学やナレッジワークにおいてフロンティアモデルのトップクラスの性能を示し、特にコーディング支援（Claude Code）での活用が注目されている。",
+              "impact": "既存のLLMを超える proactive（能動的）なコード生成とエージェント機能の強化により、AIを「ただの対話相手」から「自律的な開発パートナー」へと変革させるマイルストーンとなる。特にClaude Codeとの組み合わせによる生産性の劇的な向上がエンジニア界隈で実証されつつある。",
+              "date": "06/12",
+              "url": "https://simonwillison.net/2026/Jun/11/fable-is-relentlessly-proactive/",
               "importance": 5,
-              "fetched_at": "2026-06-12T08:14:17.957002+09:00"
+              "fetched_at": "2026-06-12T16:12:57.860812+09:00"
             },
             {
-              "headline": "AWS Graviton5搭載EC2開始と「形式検証」された分離エンジンの導入",
-              "content": "AWSは、最新のGraviton5プロセッサを搭載したM9g/M9gdインスタンスの一般提供を開始しました。最大の特徴は「Nitro Isolation Engine」で、仮想マシンの分離について形式手法（Formal Verification）を用いた数学的な保証がなされています。コア数は従来の96から192へと倍増しています。",
-              "impact": "★重要★ クラウドインフラにおけるセキュリティのあり方が「ベストエフォート」から「数学的証明」へと進化しました。形式検証を大規模なプロダクション環境の分離レイヤーに適用したことは、高信頼性が求められる金融や医療、国家インフラのクラウド移行において決定的なパラダイムシフトとなります。",
-              "date": "06/11",
-              "url": "https://www.amazon.science/blog/ec2s-formally-verified-isolation-engine-provides-mathematical-assurance-of-virtual-machine-isolation",
-              "importance": 5,
-              "fetched_at": "2026-06-12T08:14:17.957002+09:00"
-            },
-            {
-              "headline": "Microsoft、PostgreSQL向け「インデータベース持続的実行」拡張機能をオープンソース化",
-              "content": "Microsoftは、データベース内でワークフローの状態を管理し、障害発生時も中断した場所から実行を再開できる「Durable Execution」をPostgreSQL上で実現する拡張機能をオープンソースで公開しました。これにより、外部のオーケストレーターなしで複雑なビジネスロジックの信頼性を担保可能になります。",
-              "impact": "★重要★ ステートフルな分散システムの構築において、データベースそのものが計算の「レジリエンス」を保証する新しい設計パターンを提示しています。Temporalのような外部エンジンを必要とせず、標準的なPostgreSQLのトランザクション境界内で信頼性の高い実行を完結できる点は、マイクロサービスの複雑性解消に寄与します。",
-              "date": "06/10",
-              "url": "https://www.infoq.com/news/2026/06/postgresql-pg-durable/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-              "importance": 4,
-              "fetched_at": "2026-06-12T08:14:17.957002+09:00"
-            },
-            {
-              "headline": "ドイツ裁判所が判決：AI Overviewsの誤回答は「Google自身の言葉」として法的責任を認める",
-              "content": "ドイツの裁判所は、Googleの検索結果に表示される「AI Overviews」が生成した内容について、Google自身の主張とみなす判決を下しました。これにより、AIが不正確な情報を生成した場合、検索結果のリンク先ではなくGoogleが直接的な法的責任（名誉毀損や虚偽情報の流布）を負うことになります。",
-              "impact": "★重要★ 生成AIプロバイダーが「AIはウェブを反映しているだけ」という免責主張が通用しなくなる重要な法的判例です。テック企業は今後、出力の正確性に対してより厳格なガバナンスと、リスク回避のための「ハルシネーション制御」への莫大な投資を余儀なくされます。",
+              "headline": "ドイツ裁判所がGoogle AI Overviewsの法的責任を認定",
+              "content": "GoogleのAI Overviewsによる回答内容がGoogle自身の言葉であるとドイツの裁判所が判断し、不正確な回答に対する法的責任を課す判決を下した。Googleは既存情報の反映であると主張しているが、責任の所在が問われる画期的なケース。",
+              "impact": "生成AIの出力内容に対する法的責任が明確化される端緒となる。検索エンジンやAI回答プラットフォームの設計において、正確性と法的リスク管理のバランスが今後極めて重要な技術課題となることを示唆している。",
               "date": "06/11",
               "url": "https://the-decoder.com/landmark-german-ruling-declares-googles-ai-overviews-are-googles-own-words-and-makes-it-liable-for-false-answers/",
-              "importance": 4,
-              "fetched_at": "2026-06-12T08:14:17.957002+09:00"
+              "importance": 5,
+              "fetched_at": "2026-06-12T16:12:57.860812+09:00"
             },
             {
-              "headline": "DeepSeek-R1のオープンな再現プロジェクト「Open-R1」がHugging Faceで始動",
-              "content": "Hugging Faceは、高性能な推論モデルであるDeepSeek-R1を完全にオープンな形で再現することを目指す「Open-R1」リポジトリを公開しました。トレーニングパイプラインの欠けているピースを補完し、誰でもR1級のモデルを再現・拡張できるようにすることを目指しています。",
-              "impact": "★重要★ クローズドな高度推論モデル（o1等）に対抗するオープンソースの動きが本格化しています。再現性の高いパイプラインが共有されることで、推論特化型LLMの民主化が進み、特定の企業に依存しない高度なAIエージェントの開発が加速するでしょう。",
-              "date": "06/11",
-              "url": "https://github.com/huggingface/open-r1",
+              "headline": "AIエージェントによるネットワークスキャンで多額のAWS請求が発生",
+              "content": "DN42ネットワークへの参加を試みたAIエージェントが、ネットワークスキャンを実行した結果、運用者に6531.30ドルのAWS利用料が発生した。",
+              "impact": "自律型エージェントの制御不能による財務リスク（いわゆる「AIによる破産」）が現実味を帯びている。AIエージェントの実運用において、予算監視、API利用制限、ガードレール設置がいかに重要であるかを警鐘する極めて実戦的な教訓である。",
+              "date": "06/12",
+              "url": "https://lantian.pub/en/article/fun/ai-agent-bankrupted-their-operator-scan-dn42lantian.lantian/",
               "importance": 4,
-              "fetched_at": "2026-06-12T08:14:17.957002+09:00"
+              "fetched_at": "2026-06-12T16:12:57.860812+09:00"
             },
             {
-              "headline": "数百件のAURパッケージが情報窃取マルウェアによる攻撃を受ける",
-              "content": "Arch Linuxのユーザーリポジトリ(AUR)において、多数のパッケージが悪意のあるコミットによって侵害されました。侵害されたパッケージはユーザーの機密情報を盗み出す「Infostealer」を含んでおり、メンテナーはアカウントの凍結と悪意のあるコードの削除を急いでいます。",
-              "impact": "★重要★ オープンソースエコシステムの脆弱性を狙ったサプライチェーン攻撃の深刻さを再認識させる事件です。自動化された開発フローにおいて、依存パッケージの整合性検証を怠ることの危険性が改めて浮き彫りになり、eBPF等を用いたランタイム保護の重要性が高まっています。",
+              "headline": "AURパッケージへのinfostealerによる広範な攻撃",
+              "content": "Arch LinuxのコミュニティリポジトリであるAUR（Arch User Repository）において、多数のパッケージが情報窃取型マルウェアによって汚染される攻撃が発生した。",
+              "impact": "サプライチェーン攻撃のリスクがコミュニティ主導のパッケージ管理にも及んでいる。信頼の置かれたリポジトリであっても、インフラレベルでのコード署名や厳格な監査フローが必須であることを突きつけている。",
               "date": "06/11",
               "url": "https://lists.archlinux.org/archives/list/aur-general@lists.archlinux.org/thread/FGXPCB3ZVCJIV7FX323SBAX2JHYB7ZS4/",
               "importance": 4,
-              "fetched_at": "2026-06-12T08:14:17.957002+09:00"
+              "fetched_at": "2026-06-12T16:12:57.860812+09:00"
             },
             {
-              "headline": "Homebrew 6.0.0 リリース：セキュリティ強化とmacOS 27対応",
-              "content": "macOSおよびLinux用パッケージマネージャーのHomebrewがバージョン6.0.0にアップデートされました。新たに「Tap Trust（サードパーティ製リポジトリの信頼管理）」メカニズムを導入し、デフォルトの内部APIを高速かつ軽量なJSON APIへ移行しました。また、次期OSであるmacOS 27 (Golden Gate) の初期サポートも含まれています。",
-              "impact": "★重要★ 開発者の必須ツールにおいて、長年の課題だったサプライチェーン攻撃のリスクを軽減する「Tap Trust」の実装は極めて意義深いです。内部構造の刷新によりパフォーマンスも向上しており、エコシステム全体の安全性と開発体験が底上げされました。",
-              "date": "06/11",
-              "url": "https://brew.sh/2026/06/11/homebrew-6.0.0/",
+              "headline": "WebサイトによるAIクローラーへの課金システムの実装",
+              "content": "AIクローラーによるWebスクレイピングに対し、HTTP 402 Payment Requiredを返し、支払いを要求する仕組みを導入する動きが見られる。",
+              "impact": "Web上のコンテンツの「ただ乗り」に対する反撃手段としての経済的アプローチ。AI企業がデータ学習のためにWebを無制限に利用する時代から、コンテンツ提供者とAI開発者間での経済圏（APIや直接課金）が構築される新たなパラダイムを示唆している。",
+              "date": "06/12",
+              "url": "https://dev.to/bykamo/i-made-my-website-charge-ai-crawlers-with-http-402-in-30-days-5811-came-and-5-paid-2112",
               "importance": 3,
-              "fetched_at": "2026-06-12T08:14:17.957002+09:00"
+              "fetched_at": "2026-06-12T16:12:57.860812+09:00"
             }
           ]
         }
       ],
       "summary": {
-        "content": "本日はSpaceXの歴史的IPOという宇宙ビジネスの大きな転換点と、トランプ政権下の地政学リスク管理が市場の主導権を握った一日でした。宇宙産業が数兆ドル規模のフェーズに突入する一方で、中東情勢の緊張緩和による株高と、米欧でのインフレ再燃懸念に伴う金融政策の不透明さが同居しています。AI分野ではAnthropicの新モデル公開やAI回答への法的責任を認める欧州の判決が、技術革新と社会実装のハードルを同時に高めています。日本にとっては、米国の原発開発への資金協力要請や、英国の政情不安に伴う日英伊次期戦闘機（GCAP）への影響など、エネルギー安保と国防の両面で重要な局面を迎えています。"
+        "content": "本日は、金融・地政学・先端技術の各分野で歴史的な転換点が重なる極めて重要な一日となりました。国内では日本銀行が31年ぶりの高水準となる利上げを決定し、長年の金融緩和からの脱却と経済正常化への強い意志を示しました。グローバルでは、SpaceXのIPOによる史上初のトリリオネア誕生やベゾス氏の新会社による巨額調達など、AIと宇宙開発への資本集中が加速する一方、米国の対欧州安全保障方針の転換や韓国の政局混迷といった地政学的リスクが浮き彫りとなっています。日本としては、日銀の政策転換に伴う市場のボラティリティを注視しつつ、キオクシアの時価総額急増やH3ロケットの成功を背景に、次世代産業における競争力強化と経済安全保障の確保を急ぐ必要があります。"
       }
     },
     "week": {
@@ -295,14 +277,14 @@ window.newsData = {
     "LPU (Language Processing Unit)": "大規模言語モデル（LLM）のようなAIの言語処理タスクに特化して設計された新しいタイプのプロセッサです。従来のGPUと比較して、特定の言語処理タスクにおいて高速かつ効率的な処理を目指しています。",
     "MoE (Mixture of Experts)": "大規模なAIモデルのアーキテクチャの一つで、入力データに応じて複数の「専門家（エキスパート）」と呼ばれる小さなモデルの中から最適なものを選び、その部分だけを動かすことで、計算効率を高め、より大規模なモデルを訓練・実行できるようにする技術です。"
   },
-  "updated_at": "2026-06-12 08:14 JST",
+  "updated_at": "2026-06-12 16:12 JST",
   "token_usage": {
     "2026-05": 1444521,
     "2026-05-27": 248362,
     "2026-05-28": 401129,
     "2026-05-29": 263394,
     "2026-05-30": 531636,
-    "2026-06": 1433162,
+    "2026-06": 1494039,
     "2026-06-01": 194207,
     "2026-06-02": 157565,
     "2026-06-03": 140423,
@@ -314,6 +296,6 @@ window.newsData = {
     "2026-06-09": 122154,
     "2026-06-10": 108546,
     "2026-06-11": 124315,
-    "2026-06-12": 61090
+    "2026-06-12": 121967
   }
 };
