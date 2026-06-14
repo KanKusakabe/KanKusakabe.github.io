@@ -7,58 +7,58 @@ window.newsData = {
           "title": "グローバル情勢・マクロ経済",
           "topics": [
             {
-              "headline": "米イラン和平合意の署名が秒読み、ハメネイ師の葬儀日程も発表",
-              "content": "トランプ次期米大統領やパキスタン首相らが、米国とイランの間の和平合意が早ければ24時間以内、あるいは日曜日に署名される見通しであることを示唆した。同時に、イランの最高指導者ハメネイ師の葬儀が7月4日に開始され、埋葬が同9日に設定されたことが報じられている。",
-              "impact": "★重要★ ハメネイ師の死去（葬儀日程の発表による示唆）と外交的合意の同時進行は、中東のパワーバランスを根本から変える歴史的転換点。制裁解除が現実味を帯びれば、原油価格の下落や中東情勢の劇的な安定に寄与する。日本にとってもエネルギー供給の安定化という多大な恩恵があるが、新体制下のイランの動向には警戒が必要。",
-              "date": "06/13",
-              "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPYnc0RjByemVUM1FIQkhJVkFuVExTTDlYZUVqbFo4dWVSY3ZvZGgydUMtSjcydy15d3JkVThlQVpxblFZYVBKNmdDeTVSSXlYbV9OY1l5R25tUlhrVmtSNDQ4azVFY0w2X2tpbkNkcXBURk1XckFmRG1BbWFJQ3I2UUQ4OFNORWxDSk03dTdKWVhCNDFEb3c?oc=5",
+              "headline": "米国とイランの和平合意が秒読みか、トランプ政権下での外交的転換",
+              "content": "トランプ大統領がイランとの戦争回避に舵を切り、早ければ日曜にも合意が署名される見通し。米国とイランが合意に近づいているが、最終的なタイミングは依然として流動的。一方で、イラン側はイスラマバード覚書の署名は日曜には行われないとの意向も示している。",
+              "impact": "★重要★ 中東における軍事的緊張の劇的な緩和は、原油価格のボラティリティを低下させ、マクロ経済の安定化に寄与する。トランプ政権による「力のによる平和」の具体化であり、中東の地政学リスクを根底から書き換える可能性がある。",
+              "date": "06/14",
+              "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPSXA2RmM1Y0lOSlBJSHJpd285cFViUGlLNFRUa0FTZWxBbC1DdUdVM1hSbUY5Z1A4R3poZEI3QjNGbFFzSlZpalRkbnVGWVFMNzYzQXlJbXhMTjdaRjFLQlk0b3FXZVIzcVVDbm9YVmd4RmtRTWVGcndQN1VJaEZRUEppeGlUZWJGaUx6WEI1OUtoeDRpbGdNbF8xRVFRTlY3Tk9Fcg?oc=5",
               "importance": 5,
-              "fetched_at": "2026-06-14T07:53:50.487714+09:00"
+              "fetched_at": "2026-06-14T16:16:05.383963+09:00"
             },
             {
-              "headline": "ウクライナ軍、ロシア南部ボルゴグラードの石油インフラを撃破",
-              "content": "ウクライナ軍のドローン攻撃がロシア南部のボルゴグラード州にある石油貯蔵施設などのインフラを直撃し、大規模な火災を発生させた。ロシア側のエネルギー供給能力への打撃を目的とした作戦の一環であり、死傷者も出ている。",
-              "impact": "★重要★ 戦線から離れたロシア深部のエネルギー供給拠点を狙う戦術の常態化は、ロシアの戦争継続能力を削ぐだけでなく、国際的なエネルギー市場のボラティリティを高める。供給懸念による原油価格の変動は、輸入依存度の高い日本市場のコストプッシュ・インフレを助長するリスクがある。",
+              "headline": "北朝鮮が「非核化」の不可逆的な終了を宣言、交渉再開は絶望的か",
+              "content": "北朝鮮当局は、非核化は「不可逆的に終了した問題」であると表明。これまでの国際社会による非核化への要求を完全に拒絶する姿勢を鮮明にした。",
+              "impact": "★重要★ 東アジアにおける核の脅威が「定数」となったことを意味する。日本および韓国の防衛政策に甚大な影響を与え、日米韓の軍事連携強化や核抑止議論の再燃を促す要因となる。",
               "date": "06/13",
-              "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNaGRzQkVTRzBRZ1VSNE5FVEVrc1BKRkRObLZtVHAyeDdNMmx6YUF2aEtRM2Vpekpydm80QkZzeTcyZkR0X2JwWWNuUXphU0IzemR4VC1kYktwQWtETzBlR0VEaVlZbFoxRWpvbG52NThLaC1mVndMUENQMGlMdWhyOTZNaWlkcEZBenpJYUh4ZlFUdmlTZ0tyN2theXVvN01OOGp5SnZrZEltUWx4bEtIcnk0NnFUM3huYnctTkJ1Nk5MNzZYSWlORg?oc=5",
+              "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPeHdvNmVfYWxaeGpRVVpDT0FqUEk4Um0taURDRzNnMkxBalBNdllmamVkRWx1aGI0aVhMR2VpQXNVVHlyN05oUWMzYkdKLTFZTzBWdnRkYjZjcExtaTRJTkxuTzd4aGQ1d0hwWjJLeGRVNmt2cmlBeUw1eW5SLTlvVEJJWlNUOHFYT0tfUXZxWWFzT245X0pDczBfVEBWc2cyeHpfbnN5OWY1TG5hOXVzclJ5YTV6aDhlcDg5Rm5rbw?oc=5",
+              "importance": 5,
+              "fetched_at": "2026-06-14T16:16:05.383963+09:00"
+            },
+            {
+              "headline": "日英、240億ドル規模の投資・技術パートナーシップ合意へ",
+              "content": "英国と日本が、240億ドル（約3兆8000億円）規模の投資および技術提携に合意する見込み。経済安全保障を強化するための戦略的な協力関係構築が主眼となる。",
+              "impact": "★重要★ 日本市場にとって極めて重要なニュースであり、半導体や次世代技術における日英の連携強化を意味する。対中抑止やサプライチェーンの多様化を背景とした、多国間での経済連携の深化を象徴している。",
+              "date": "06/13",
+              "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQS2txTWlxZC1CSkRsS2V3WTJJazVhcGtZSjQ4SzF1MUt4cTR1ZHZTb2xwYW5iRHNkNUhQdU96N2txUUtjOTBqbzZyR2tWR0dObWFFcFVleHB2dzg2QlFOaFBuS0NkQVdlQlp6SDhrRVF4Zk13NzZDNUVvVENmWUx6ZFI4RWNLanN5NUZ5MGhMSUZzUWd2ZHF6a0s0SzViMUtXOFVEc09WQ21iajBqZ1hUN3o2WQ?oc=5",
               "importance": 4,
-              "fetched_at": "2026-06-14T07:53:50.487714+09:00"
+              "fetched_at": "2026-06-14T16:16:05.383963+09:00"
             },
             {
-              "headline": "SpaceXの上場観測でウォール街に新語「MANGOS」が登場",
-              "content": "SpaceXの新規株式公開（IPO）への期待が高まる中、投資家の間では「マグニフィセント・セブン」に代わる新たな優良銘柄群の呼称として、SpaceXを含めた「MANGOS」という言葉が広まり始めている。",
-              "impact": "★重要★ 資本市場の主役が従来のテック大手から宇宙開発・フロンティアテックへとシフトしていることを象徴。SpaceXの上場は巨額の資金流動性を生み、宇宙産業への投資を加速させる。日本の防衛・宇宙関連株への波及効果や、グローバルなポートフォリオの再編を促すパラダイムシフトとなる可能性がある。",
-              "date": "06/13",
-              "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOVFh2RmJuX1poQlE4QVhNMG1kYjNaeUVhQmx3T2lEU002bTluMC1kbmhIUWR0eG5EYnRycEVvc2NWUGM5WFNDY3BwM3hhZzdzc2pzQW1pMHlsaHpkYVBteHZKSDAxajF5UVNXV0ZIdlpLcWFjSlM2ZFg3YlFscDRseHpMdURVOEJicWRtdVdGUXEtYVR0dklLbzN4bjV5XzBfeHl5VEVmaWN1OXFMUzVNQVdlRWlqNGNZUXRlS1dGQllFSTlrRUE?oc=5",
+              "headline": "英軍、ロシアの「影の艦隊」石油タンカーを拿捕、制裁逃れを封鎖",
+              "content": "英国のスターマー首相は、制裁回避目的で運用されるロシアの「影の艦隊（shadow fleet）」に属する石油タンカーを英軍が捕捉・迎撃したことを発表した。",
+              "impact": "★重要★ 対ロシア経済制裁の実効性を高めるための実力行使であり、エネルギー輸送ルートの緊張を高める。エネルギー価格への波及効果とともに、西側諸国による制裁網の「穴」を塞ぐ断固たる姿勢が示された。",
+              "date": "06/14",
+              "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNMmNiNnZ0V2F3TGUxOFVraE14eEZPdUV2ZzlxVEdMN3lJUkh5X1hrdkNOLVBvX215dEctb3A1TW9xZ1BYeWxweU9yb3UyamtwVE5aTEFCYWN0RVVjUzB1dWlFSlRncGh5dFpvS0lyQ2U2eHRrVTFEQzdyLVFJTUhGX0J3bGJLZEZyWTB3ZjF1MjZWUmthbEdyT0ZWQm1KeUp6Sk4wUzE0QmhGeHhMb2F1VXpCdTM2OGdGN1NWS25KMA?oc=5",
               "importance": 4,
-              "fetched_at": "2026-06-14T07:53:50.487714+09:00"
+              "fetched_at": "2026-06-14T16:16:05.383963+09:00"
             },
             {
-              "headline": "トランプ氏、G7後にマクロン大統領とヴェルサイユ宮殿で夕食会へ",
-              "content": "G7サミット終了後、フランスのマクロン大統領がトランプ次期米大統領をヴェルサイユ宮殿での夕食会に招待した。トランプ氏はG7の傍らで中東各国のパートナーとも会談する予定であり、非公式ながら外交の主導権を握る動きを見せている。",
-              "impact": "★重要★ 正式な政権発足前であっても、トランプ氏が主要国首脳と対等以上に渡り歩く「二重外交」の様相を呈している。欧州諸国がトランプ氏への接近を強める中、G7の枠組みそのものの変質が懸念される。日本の外交戦略においても、現職政権とトランプ陣営双方への極めて繊細な対応が求められる。",
-              "date": "06/13",
-              "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQOGRfc1JkcG1zSnFaOEIwdTRtRXlXa3pLd1ViSk9VdW9OdEtZaVNoeWVlN3pxR05UTFVFMUtidWtrazdaQUZEYkQwLS11UWlhOEtEbEp5MGltbmgtbWM1TkpkY2JwbmtOSVRRT3o5QTRLTVRDbG1keVExZEdNVnNCZURza1RCcHRLYmRQeVZWX2tKa0pVTjR3dkpB?oc=5",
+              "headline": "スイス、人口を1,000万人に制限する憲法改正案を国民投票へ",
+              "content": "スイスで、人口が1,000万人に達した場合に移民制限を強化する右派提案の国民投票が実施されている。急速な人口増によるインフラ負担や文化変容への懸念が背景にある。",
+              "impact": "★重要★ 欧州全体で高まる移民抑制・保護主義的トレンドの象徴。スイスのような高度技能労働者に依存する経済圏での人口制限は、中長期的な労働力不足と経済成長の鈍化を招くリスクがあり、他国の移民政策にも影響を与え得る。",
+              "date": "06/14",
+              "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQNF84V2tQY2ZPWm5VOGdsX3lTcC1pWXFva1JjaERqbHp1TGJldy13dTNQOGF4M08zLUxJXzN2UFB0Ymd3R2YzVUhOLURMM2dlNTJzdjhpNUMwUEU3Z0d2d1FOVXlqNDZIbDJQOXZjSlFLaFVhbVVwYmdGSTZQVThZdk12WUo5YWJ1Ri1mN3lEX0Y2dmPSAZMBQVVfeXFMTjZtaWhoZkhUcXVJdlJoNDA4MThmX1kyZlVmT2dJbkM0X3hCTm13Qi1Hd01SeHpKQVZidzd6R0VBNTVMRUNkNkR2SXZLQ0tjcjZzLUk2eHBxcDRIRTBnWjhscGxSNU1qM281TFFqRUtmZ19qV0RZb2xUbTNCbHZuM2lXdUduWXM5X2tFNVo3VUdWUnBZ?oc=5",
               "importance": 3,
-              "fetched_at": "2026-06-14T07:53:50.487714+09:00"
+              "fetched_at": "2026-06-14T16:16:05.383963+09:00"
             },
             {
-              "headline": "Amazon、米当局の規制前にAnthropicのAIモデルへの懸念を内部表明",
-              "content": "Amazonが、出資先であるAIスタートアップAnthropicのモデルについて、米政府による規制強化が始まる前に懸念を抱いていたことが関係者の証言で判明した。AIの安全性や開発ガバナンスを巡る企業側の警戒感が浮き彫りになっている。",
-              "impact": "★重要★ 生成AI開発をリードする巨大IT企業とスタートアップの関係性が、規制当局の圧力によって変容しつつある。AIの安全基準を巡る不透明感は、テクノロジー業界の成長速度を鈍化させる恐れがある。日本企業によるAI投資や活用戦略においても、米国の規制動向が直接的なリスク要因となる。",
+              "headline": "AmazonがAnthropic製AIモデルに懸念、米当局の規制強化を警戒か",
+              "content": "Amazonが、出資先であるAnthropicのAIモデルに関して、米国当局による本格的な取り締まりが始まる前に懸念を表明していたことが判明。大手テック企業によるAIのリスク管理と規制当局への対応が鮮明になっている。",
+              "impact": "★重要★ 生成AI開発における「巨大資本（Amazon等）」と「開発スタートアップ（Anthropic等）」の力学変化、および政府規制が業界構造に与える影響を示唆する。今後のAI投資の冷え込みや、開発スピードの変化を注視する必要がある。",
               "date": "06/13",
               "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPYTBINmZMTlZvc1RPNEkyWjk0VkxJY29QRHRtSUpjYTlZNWMtYWJlZkVpMUwxejFzSjVxdU02MHJVS1BKYUtCNkRObWYxTkdsMWJmcF9Bb3VQTnBDZktBenJ2SjFnR2VQUGZhY3RWWXBvWGwyZFNOV250VG5QVm5sTE1fWU4tQXc3enltTUZUWXZuM1pEMTFvSmlNdlEyamFwTFBrdXRkeGFWUjU2eVp4b0ozT3p6bG5JUHNWNV9Hcm1nSjcxbHYyd1NPWHVGNFB0azJmNTFLRWM?oc=5",
               "importance": 3,
-              "fetched_at": "2026-06-14T07:53:50.487714+09:00"
-            },
-            {
-              "headline": "スイス、総人口を1,000万人に制限する案の是非を問う国民投票へ",
-              "content": "スイスで、人口増加を抑制するために1,000万人の上限を設定する憲法改正案の国民投票が実施される。移民の流入制限やインフラ負荷の軽減が狙いだが、労働力不足を懸念する声も出ている。",
-              "impact": "★重要★ 欧州で広がる「反移民・自国第一主義」の具体的な政策転換例。経済成長と人口増のトレードオフを問う試みであり、他国の移民政策にも波及しうる。労働力の移動制限は、欧州の自由市場経済にブレーキをかける可能性があり、スイスに拠点を置く多国籍企業の戦略変更を強いる可能性がある。",
-              "date": "06/13",
-              "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE4tMHg1UWFtN09zSnJ4Y3lVRE56T0NGVGNTaWFVYnhhcGk5X2dHSms0ZTZVMFF4NWllVlpHWHk1bVl6RVJrYXpQSzFDUzJ4cWhDcE5ESzhVRWp1QQ?oc=5",
-              "importance": 3,
-              "fetched_at": "2026-06-14T07:53:50.487714+09:00"
+              "fetched_at": "2026-06-14T16:16:05.383963+09:00"
             }
           ]
         },
@@ -67,58 +67,118 @@ window.newsData = {
           "title": "ビジネス・経済動向",
           "topics": [
             {
-              "headline": "SpaceXが歴史的なIPOを実施、時価総額2兆ドル規模で市場を牽引",
-              "content": "SpaceXが新規株式公開（IPO）を果たし、時価総額は約2兆ドル（約315兆円）に達した。日本の個人投資家による購入希望額が募集額の3倍を超えるなど世界的な争奪戦となり、同社の従業員には特定の都市の全住宅を購入できるほどの含み益が生じている。",
-              "impact": "★重要★ 民間宇宙開発企業として空前の企業価値を証明し、資本市場の資金フローを大きく変える可能性がある。テスラに続くイーロン・マスク氏の巨大企業の公開は、宇宙産業の商業化を加速させるだけでなく、高金利環境下でのグロース株への投資意欲を再燃させる試金石となる。日本市場においても個人投資家の海外株シフトを象徴する出来事となった。",
+              "headline": "スペースXが史上最大のIPOを実施、イーロン・マスク氏が世界初の「トリリオネア」に",
+              "content": "スペースXは史上最大規模の新規株式公開（IPO）を実施し、株価は上場直後に約30%急騰した。この資産価値の上昇により、イーロン・マスク氏の個人資産は1兆ドルを超え、世界初のトリリオネアとなった。日本国内でも個人投資家の関心が極めて高く、募集額の3倍を超える購入希望が殺到している。",
+              "impact": "★重要★ 資本市場における歴史的転換点であり、宇宙ビジネスが完全な商業化フェーズに移行したことを示唆する。マスク氏への富の過度な集中に対する政治的・倫理的議論が再燃する一方、巨大な流動性が宇宙・ハイテク市場に流れ込み、経済全体の牽引車となる可能性がある。",
               "date": "06/13",
-              "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBnY3VYeXRMdDJkbkZydi1YYnVQZEZ1MnU1dEw0bTZfVEpwRTJ4RnpHYTdYR3ZPN0lpcXhxbTlsYW9ueDZXdXk3Z0dmT2dqNFRCVjlXYmtCM0lDX3BVZWtjQ251NVZQY0dfeWFhUQ?oc=5",
+              "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBSTkpHY1NFamFfeDlfcGR4VktuQVhUdmYxZmxEUmI5S09KS2xKUmJHYUZnWXB4ZmdTSVhkbzVDSDZWbWd0TFc1bjVuaks3SmZjMVh5am84bjF5dS1hYVQ1Z01nTHE4akt3TzNvQ3c0TURNNUU?oc=5",
               "importance": 5,
-              "fetched_at": "2026-06-14T07:53:50.487714+09:00"
+              "fetched_at": "2026-06-14T16:16:05.383963+09:00"
             },
             {
-              "headline": "米政府、Anthropicの先端AI「Mythos級」の海外提供を制限",
-              "content": "米政府の指示により、AI新興企業のAnthropic（アンソロピック）は最新モデル「Fable 5」および「Mythos 5」の海外アクセスを制限した。日本を含む同盟国への提供も停止・制限の対象となっており、安全保障上の懸念が背景にあるとされる。片山財務相は「日米間の了解に変化はない」と述べているが、現場には混乱が広がっている。",
-              "impact": "★重要★ AI技術が「軍民両用（デュアルユース）」の戦略物資として完全に組み込まれたことを示す。米国による先端技術の囲い込みは、同盟国である日本企業のAI開発・利用戦略にも甚大な影響を及ぼし、テック・デカップリングがハードウェアだけでなくソフトウェア・アルゴリズム層まで深化していることを裏付けている。",
+              "headline": "トランプ米大統領、イランとの和平合意に14日署名へ　ホルムズ海峡の開放目指す",
+              "content": "トランプ大統領は、イランとの和平合意を日曜日に署名すると発表した。イラン側は慎重な姿勢を崩していないが、合意にはホルムズ海峡の完全開放が含まれる見通しである。これに先立ち、米軍によるベネズエラの犯罪組織リーダー殺害や、ホワイトハウスでの中間選挙を見据えた演出など、トランプ政権の外交・内政両面での攻勢が強まっている。",
+              "impact": "★重要★ 中東における地政学的リスクが劇的に緩和される可能性があり、原油価格の下落や供給網の安定化を通じて世界経済に強力なデフレ圧力を与える可能性がある。トランプ政権の「実利重視」の外交成果が、11月の中間選挙に向けた強力なアピールとなる。",
               "date": "06/13",
-              "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE54ZENiaEhWOG83SVhEMF9ZWVd6bHlLeEVNMzFnVncyODNYazhlME9tVlBTV2dNemVjWlpaQXhvZjM1OExhMHZ5clhTakN1ZkhFRURPaGhoNHhCZnUtdm1ZU2lReVVvcTJHaDNMYw?oc=5",
+              "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBhc21qeWtNWWNiemszTnk0X1B6aGgxSUJKT2hEWU1CWVliUnowZTcwLU1iLXR4Z010elljREtKQ1BIZ1E2VWlvVU9qVU92NHlDUjFuWDhIMkszN0tJTmRFQUdXdFhkQzNzeS1CbA?oc=5",
               "importance": 5,
-              "fetched_at": "2026-06-14T07:53:50.487714+09:00"
+              "fetched_at": "2026-06-14T16:16:05.383963+09:00"
             },
             {
-              "headline": "トランプ米大統領、イランとの和平合意署名を発表へ",
-              "content": "トランプ米大統領は、イランとの和平合意が14日（日）に署名される見通しであると述べた。この合意には、ホルムズ海峡の完全開放が含まれると主張されている。一方でイラン側は署名のタイミングについて慎重な姿勢を崩しておらず、詳細な条件が注目されている。",
-              "impact": "★重要★ 中東情勢の劇的な緩和につながる可能性があり、原油価格の下落を通じて世界的なインフレ抑制に寄与する。ホルムズ海峡の安全確保はエネルギー安全保障上の最重要課題であり、合意が実現すれば地政学リスクプレミアムの大幅な縮小をもたらすが、合意内容が不透明な段階では市場のボラティリティを高める要因にもなる。",
+              "headline": "米政府、Anthropicの最先端AI「Mythos」に輸出規制　安全保障懸念で提供停止",
+              "content": "米ホワイトハウスは、安全保障上の懸念からAnthropic社の高度AIモデル「Mythos」に対する輸出規制を導入。同社は米政府の指示に従い、日本を含む海外からのアクセスを遮断した。この動きは、中国などの競合国による先端技術の利用を阻止する戦略の一環とされる。",
+              "impact": "★重要★ AI技術の「国境」が明確化され、経済安全保障に基づくテクノロジーの囲い込みが一段と進む。日本企業のAI活用戦略にも直接的な影響を及ぼし、特定のプラットフォームへの依存リスクが浮き彫りとなった。AI開発競争が国家間の軍拡競争に近い性質を帯び始めている。",
+              "date": "06/14",
+              "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPVUFkVjhYalBRZFJXQmQ0SjJ4LS1DV2NRLWNBaHZQcGpPZE1IdFFxa2xXLV9sRDBSN0F3bHNWbXEwWGhwZWZ6R2lJT2YtZ2NSa0ZjSkV2cXcxeXNOSW1kdlhUQlRNNmZHcjRUUDdBck5YNC1Halk2a1l6US1uaXdranQtWHYtNnZTY25Melk5WXJZdkZtTFFMWmpWbnpxcDZTdXg5MzNxZkdZLW1yeFE?oc=5",
+              "importance": 4,
+              "fetched_at": "2026-06-14T16:16:05.383963+09:00"
+            },
+            {
+              "headline": "米司法省、パラマウントとワーナー・ブラザースの合併を承認　メディア再編が加速",
+              "content": "米司法省（DOJ）は、パラマウントによるワーナー・ブラザースの買収を承認した。この巨大合併により、エンターテインメント業界の勢力図が劇的に塗り替えられることになる。ストリーミング市場における競争激化と広告モデルの変容が背景にある。",
+              "impact": "★重要★ メディア・コンテンツ産業の集約が進み、ネットフリックスやディズニーに対抗する「第三の極」が誕生する。グローバルなコンテンツ調達・配信網が独占される懸念がある一方、制作コストの効率化が進む。日本国内のメディア企業も、国際競争力維持のために再編を迫られる可能性がある。",
               "date": "06/13",
-              "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFA5Nm5rWUNqT1dVanpmV3VrY2RLVVNqcll6b1lBVjN2eG95cTJFbVhLWWdrNjJiZUNuQk9wemI5YThMdDMxNE5GSHJqQXJfWFliVzZsVWpvNEJqc0djNzZCQktPNm1MUGZxdU9oNjB1cmxienM2N0Y4YdIBfkFVX3lxTE1WeU42NUw1eUkwcVRZMWZxSllSZXFEcWp4RGdhSUFpVDRKcENhdzZybzdGd2JsS3RhNTZUQnhiUndsTWhrVkNiOGFfVVNmX1F4NW1YSXJPem0zZ3NIdDJrZFFDQXRJVjB5X09SSm1ERm84M1c2cUZwMnROZDhaUQ?oc=5",
+              "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPeXdKSUxVT3Q1bFdCOEt2LTFQcDZQVlZvRVcwVXBVT0R1UjJOYlp2VmRyb3pBNFN5dEpydE5ENi1mWEhUUFlsR01WWUt5VDhKa2lrRHZnbUVyTmt1Tk4wdVNjcG5JMjNrcVpVNklWa3h5cW91QVhxTmhqeUg0MlplaG1YNi1ocW5FSGtjV1JQOEd0REt2NEg0WVNhcjZHVWlONldWTU1Zd2dnQ19MdFNjSA?oc=5",
+              "importance": 4,
+              "fetched_at": "2026-06-14T16:16:05.383963+09:00"
+            },
+            {
+              "headline": "ケビン・ウォーシュ氏がFRB議長としての存在感を強める　米金融政策の転換点",
+              "content": "トランプ政権下で影響力を増すケビン・ウォーシュ氏を「FRB議長」と呼ぶ動きが出ており、現体制への圧力が強まっている。FRBはトランプ氏に対して近く厳しい経済予測を提示する必要に迫られており、金融政策の独立性と政権の意向が衝突する局面を迎えている。",
+              "impact": "★重要★ 米連邦準備制度理事会（FRB）の独立性が揺らぐ懸念があり、市場は将来的な利下げペースやインフレ目標の変更を警戒している。ウォーシュ氏が主導権を握る場合、よりタカ派的、あるいは逆に政権寄りの極端な政策に振れるリスクがあり、ドル相場と債券市場に波乱を招く可能性がある。",
+              "date": "06/12",
+              "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9nNWtjV2JQT19rX0ZKTi10Wk56YTM3UVZVdTA2aGlfdDN2NFdOQ1ZMc2lCZ05ZaXRUemI4djVsd0Z0LW1ocmtOMFJZdGFqaXFnc1B0alluSkdWR210d05MWGMxaU1uUG82a3BRV2JoNkMxd282WWfSAXtBVV95cUxQVUIyUWlUdWNEYlFfa3JreWZkb1RsQy1ldUlCMG5ES2VxTWFaZlZZRHZiTjJhMWRHUjVwQ0JjRzR4VW9aWWwtU1owTExjTmh1S1ZEd3BGbjVwZDlQYjFNQW4xd1BxMFBzNGxFNVN3SDFEYkFZUkRjMlA1djQ?oc=5",
+              "importance": 4,
+              "fetched_at": "2026-06-14T16:16:05.383963+09:00"
+            },
+            {
+              "headline": "NVIDIAのCEO、アジア歴訪で日本を「素通り」　韓台と比較した魅力不足が露呈",
+              "content": "NVIDIAのジェンスン・フアンCEOが韓国と台湾を訪問する一方で、日本への訪問を見送った。韓国の半導体メモリー（HBM）や台湾の製造受託（TSMC）と比較し、日本のパートナーとしての魅力が劣っているとの見方が浮上している。",
+              "impact": "★重要★ 半導体エコシステムにおける日本のプレゼンス低下を象徴する出来事。AI産業の基盤となるコンピューティング・パワーの確保において、日本がサプライチェーンの「周縁」に追いやられるリスクを示唆している。国内産業政策の再構築が急務となる。",
+              "date": "06/13",
+              "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE43WnhGNTFSa2p5V2ZiZDJHdUJRMXRrOFdub1UwdXh6VUJ0LVdoS0VtR1BfeHQ2bUtRdmJTei11YmdKSW9rSjZnRGtTMTNTUzhkZ293M0xvWUpWZ1lYQkM1TVBZZlpaWWhET2JuRg?oc=5",
+              "importance": 3,
+              "fetched_at": "2026-06-14T16:16:05.383963+09:00"
+            }
+          ]
+        },
+        {
+          "genre": "TECH_SCIENCE",
+          "title": "テクノロジー・サイエンス",
+          "topics": [
+            {
+              "headline": "NASA、アルテミス計画の月着陸機デザインの改訂とミッション計画を具体化",
+              "content": "NASAが2027年のアルテミスIIIミッションに向けた月着陸機の改訂デザインを公開。乗組員の選定も進んでおり、有人月面着陸に向けた具体的なロードマップが示された。",
+              "impact": "★重要★ 月面での持続的な活動を可能にするディープテックの統合を意味し、宇宙探査の歴史において人類が恒久的な拠点を持つための重要なマイルストーンとなる。",
+              "date": "06/13",
+              "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1EcTNQX2lyRFRDU3JkY3hJb0hEUnJkV1NCVXdVLWNvbERnNUJBQVhPS0ZHUHY5N0R6dHhadEE0enRvVFFrWmRiVl9JX0ViNEotUTJUbVdQb1pHbWFLWmpnZ29lWW9NckIyNXdOMW4tWkNMMzB5OFlR?oc=5",
               "importance": 5,
-              "fetched_at": "2026-06-14T07:53:50.487714+09:00"
+              "fetched_at": "2026-06-14T16:16:05.383963+09:00"
             },
             {
-              "headline": "高市首相、G7で「重要鉱物の共同備蓄」を提案へ",
-              "content": "高市首相はイタリアでのG7サミット出席に際し、電気自動車（EV）や防衛装備品に不可欠な重要鉱物のG7共同備蓄を提案する方針を固めた。中国へのサプライチェーン依存を脱却し、経済安全保障を強化するのが狙い。首相は民間チャーター機で欧州へ出発した。",
-              "impact": "★重要★ 資源の武器化に対する先進国側の対抗策として具体性を帯びてきた。共同備蓄構想は、資源ナショナリズムが強まる中、特定国による供給遮断リスクを抑止する強力な枠組みとなる。日本が主導することで、資源の乏しい同国が国際的なサプライチェーンの再編において主導権を握る意図がある。",
+              "headline": "地球規模の巨大な真菌ネットワークの発見、生態系理解のパラダイムシフト",
+              "content": "科学者たちが、地球全土にわたり約110q（クエンティリオン）メートルも広がる巨大な地下真菌ネットワークを特定した。これは「Project Hail Mary」に比肩する科学的発見と称されている。",
+              "impact": "★重要★ 生態系の栄養循環や炭素固定における真菌の役割を再定義するものであり、生物学および気候科学において極めて大きな意義を持つ発見である。",
               "date": "06/13",
-              "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5NTjhKUVRYU0l1OXJQNWJBbUt1LWkxMC1NRGxJR2NHTnZSb3A2ZlhDMWtkRTBxVGw0TTZaYTZBNy1CamtvSU9NUkVaS3lsaEZveGc4SG83djM5a1o2a3ZNOWJYaDNJRXZXcDR0eA?oc=5",
-              "importance": 4,
-              "fetched_at": "2026-06-14T07:53:50.487714+09:00"
+              "url": "https://news.google.com/rss/articles/CBMingJBVV95cUxOYVQ2dkpld0pMaVEtSEFVS2FpMEJhQUluRlZmSjc4ZktNRTg5MGhMMTA3ZkJNUFVLRGpGWHJrSGh6cll3U0ZIQzQ5Y2tqbW5acHhnTlNVQXVrdV81azE0eEsyMWV3U2FqQVJCMG8yeW5WeTA5cmU2LUxMUEdtNEtUNkl4RWNLWEpDdl9iLWlXZ0ZwTXNzeUFEU2g0LUprREI4OUpCR28tVnVyanBnTVVOcDZJWW01VTJKMFpvZlRTTUQzdUV1QmpCaXduTzI5NnFPSmpkOHpMTzgwM3FYcGtzRDUwdElNV3h5TmstX01DTFFzbFdPaXVlbEdsbW1Ya3RGUHFOV3pxMFQ5Uk94Y1cxYmpJZXNoWWR1aWtWNkRR0gGjAkFVX3lxTE4xSTN1dEo4b3czSDF5Y2NBQ3FCZVB3dUo1aXdEQWo2NzVqRGlsNFJid2pFSHBZQS1PZ0VUM3hIMC02N2wzWC1xOFFwVmRkbW0zTGJvaG9IYUZxRzYtdzlTRmgyVzJkRzYwbkx0Z29CMXVnVUlXbXN5SktzMHQ1THFhSWY0VWlGTHZ3V25SUGZkNWlmajVnOWV0UHp4cmJWd1VNY2oyX0R5anc5OUxOamtXa202eUx1ZjhiT2o0ZGdYdm56RkY4MnpESWs0X3hSaE5aVnBQcnk1VkF5czlLcTdKT0xuZ29XcDZEdHk5enZfR05iaWlTeE1KSFM1c19Cck9Jei1NaVdfYk9ZSXJQcktCczNaV0JVX1JnS2VGMnpNcXlkTQ?oc=5",
+              "importance": 5,
+              "fetched_at": "2026-06-14T16:16:05.383963+09:00"
             },
             {
-              "headline": "米司法省、パラマウントによるワーナー・ブラザース買収を承認",
-              "content": "米司法省（DOJ）は、メディア大手パラマウント・グローバルによるワーナー・ブラザース・ディスカバリーの買収を承認した。この巨大合併により、ストリーミング市場や映画製作、放送網を網羅するエンターテインメント界の巨人が誕生する。",
-              "impact": "★重要★ NetflixやDisney+との競争が激化する中、メディア業界の再編が最終局面に入ったことを示唆する。独占禁止法のハードルをクリアしたことで、今後はコンテンツ投資の集中とコスト削減が進み、デジタル広告市場や版権ビジネスの勢力図が大きく塗り替えられる。日本のコンテンツ産業にとっても、買い手の集約化は交渉力に影響を与える。",
-              "date": "06/13",
-              "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQMnJqa0tRRlpoNGIwcGdhWnFiMVUzMHpMaldtNVFZRC1pN0xScUNqdjkwTzJPaVVIQUdlbGoxNXlpNjM3aUpEUDFwdGdTWW9nX3A0OXJXaXlpLTFWUzVfUFhsbGkzOWVaRzYxRVdtYWJobmgtbDJMZGJ0WkZmbHRBY0gwcEVoTVNwc2FySEJVOA?oc=5",
+              "headline": "Anthropicがインドでの新規モデル利用を停止、AI規制を巡る国家間競争が激化",
+              "content": "Anthropicがインドにおける最新モデルへのアクセスを停止。これを受け、インド国内ではAIの将来性と規制に関する議論が急速に高まっている。",
+              "impact": "★重要★ AIの覇権争いが純粋な技術開発から、地政学的な規制やアクセス権の制限というフェーズに移行したことを示しており、インドのテック市場に甚大な影響を与える。",
+              "date": "06/14",
+              "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQZDZjaDlpOURTekJHdEpWM3NWWU56cXd6RTdreW56V1ZyY2ZmM3JYcjJjZ0V5Y3ljLTFNUmpsRHdqVjhhd3dvTnRHdEZwUk5Ibk9fWFhKd0s0cVgwekJBUnNqWjk4TVBkdHI0dFJzOFlTWmFFSkkwa2VUbWQ2emZtMC1MVWFPanBodmtDOUt6dFRxU1d1Q1dxbWtMZkVpSVJjdjM4OVdzWm8?oc=5",
               "importance": 4,
-              "fetched_at": "2026-06-14T07:53:50.487714+09:00"
+              "fetched_at": "2026-06-14T16:16:05.383963+09:00"
             },
             {
-              "headline": "中国、国防総省の「中国軍事関連企業」リスト拡大に猛反発",
-              "content": "米国防総省（ペンタゴン）が、中国の軍事関連企業リストにアリババやバイドゥなどを追加したことに対し、中国政府は「強い不満」を表明し批判した。米国務省はこれらテック大手が中国軍の近代化を支援していると主張している。",
-              "impact": "★重要★ 米中テック戦がプラットフォーム企業にまで拡大したことで、世界的な投資引き揚げ（ダイベストメント）が加速する恐れがある。民間テック企業を軍事関連と定義することは、クロスボーダーの投資やデータ連携を事実上遮断することを意味し、グローバル経済の分断を決定的なものにするリスクを孕んでいる。",
-              "date": "06/13",
-              "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNajFEdlh0WVZnQXB4TURZWkJ0MkVfOVR0aGQyY3FXUUtyUTA3b1ozM2VDckR5YUktVmhCd2ZGU19RNzJ6eGJBYVYtUUtFbDJQUXNCS2Ntb29YZUU0OHpycXJoak1UaTJMalNtcnBFNjhGZUlwWE9wMlEtSkhlU2hFOW1rNmY1NXBzTnRsVmlnakV4Zw?oc=5",
+              "headline": "ハエトリグサの閉鎖メカニズムの謎を解明、150年来のダーウィンの問いに終止符",
+              "content": "科学者たちはハエトリグサが瞬時に閉じるための物理的なトリガーと信号伝達の仕組みを解明した。チャールズ・ダーウィン以来の未解決問題であった。",
+              "impact": "★重要★ 生体工学（バイオミミクリー）分野におけるソフトロボティクスや、エネルギー効率の高いアクチュエータ開発への応用が期待される。生体の精密な電気化学的反応を物理的運動に変換する機構の理解が進む。",
+              "date": "06/12",
+              "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQUmZYTzgwdll3ZHd3eHBMWExrUTZoM2RteW1HcHk1VVpQODNLbDJZSWZuU3EwY1BoMjJfb0pzb0tnUHlKYURPWHNCb0t3VXVzQnM0NWVUOEZkQWtHY2NUZlZUb3hDREF0dUk0VkNTM2NIV1FvaGhVWU9LWlQxZ3c3QWJqZmYtTkV2RTdQbDM5NENaMTlmZFNDMGt3blNPZUdJWmc?oc=5",
               "importance": 4,
-              "fetched_at": "2026-06-14T07:53:50.487714+09:00"
+              "fetched_at": "2026-06-14T16:16:05.383963+09:00"
+            },
+            {
+              "headline": "FBI、サイバー攻撃シミュレーション用の「レプリカタウン」を建設",
+              "content": "現実世界のインフラ攻撃をシミュレートするため、FBIが専用の模型の町を建設。実際のサイバー攻撃による物理的な影響を検証し、防御策を講じるための研究施設となる。",
+              "impact": "★重要★ デジタル上の攻撃が物理的な重要インフラ（電力・水道等）に与える影響を検証する、最先端のサイバー・フィジカル・セキュリティ研究の拠点となる。",
+              "date": "06/13",
+              "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNM19xZGlhaE1ZM0luZkVxTThjWHUwRUpyVktHTEtfRnFNb3FyTzcweVVFV1FkN3g4dEtJTWw1MHZHeTBHWnc4ZkVOd1I5bmNDZW5lMTNwNTgzSlRCY0hmYVpCZnFycjhMWkF2YUVlSDY1OVlJVURweVlKWmFvZjVpY3IwR2VvSGZBRklOS3UzeHpkWXM4akNMb2x5V3o3d2RlenhjRURtb0syMjRjUmVuWQ?oc=5",
+              "importance": 4,
+              "fetched_at": "2026-06-14T16:16:05.383963+09:00"
+            },
+            {
+              "headline": "天の川銀河中心の巨大ブラックホール「いて座A*」の解析が進展",
+              "content": "イベント・ホライズン・テレスコープ（EHT）により撮影された、太陽の400万倍の質量を持つブラックホール「いて座A*」の画像解析が進み、その特性がさらに詳細に明らかになった。",
+              "impact": "★重要★ 一般相対性理論の極限状態での検証や、銀河の進化過程を解明するための基礎データを提供し、天体物理学の理論的枠組みを強固にする。",
+              "date": "06/14",
+              "url": "https://news.google.com/rss/articles/CBMirwJBVV95cUxPOUQ2anVtRDk1NGthWi11UFVrdU5jaU9mRVFGZkpKQm1OX25ZRU4xRTZ5WGhiNmlHaENrNExjbk5xYkF3VkE1VDJjVTdYRlB2bHNTeXJEbUxpUnU2M1dTTUs3OXZtVFhOQ1E3cWZHcmp2dl81NHQ4bGdhTU12dzR4bmJtbXcwckVub1pKZHpGSHYyLXp3RnY0dmdndDUwenJqYnNmdTROVXNaZVBrSS00X2lRbXpEZVRoWjMwVkZxX1o1SXFMUXZDX1ZKMy1sOG1sRnh6U21JblIyZGFua2laZGgyeG9pNVBBeFBaa1M2VjFXMHJJOGNvUll4dGlfdEJUMmJKSW5tQ3ZyUmRzaEVkamhLZDlnOG8zN3dSNmt6aERIRE9nOXpsYlhaa0xMckk?oc=5",
+              "importance": 4,
+              "fetched_at": "2026-06-14T16:16:05.383963+09:00"
             }
           ]
         },
@@ -127,64 +187,64 @@ window.newsData = {
           "title": "デベロッパートレンド (Hacker News & 海外フォーラム & 国内)",
           "topics": [
             {
-              "headline": "米国政府によるClaude Fable 5 / Mythos 5の輸出管理制限とアクセス停止",
-              "content": "米政府が国家安全保障当局の権限に基づき、Anthropicの最新モデル「Fable 5」および「Mythos 5」へのアクセスを制限する輸出管理指令を発令しました。これにより、米国内外の外国籍の従業員や顧客に対するアクセスが即座に停止され、日本国内の開発者からも突然利用不能になったとの報告が相次いでいます。",
-              "impact": "★重要★ 最先端AIモデルが「地政学的な戦略物資」として明確に扱われ始めたことを象徴する事態です。モデルの推論能力が国力に直結すると判断された結果、クラウドサービスであっても国境による技術分断が加速するリスクを示唆しています。",
+              "headline": "米政府の輸出規制指令により、AnthropicがFable 5およびMythos 5への海外アクセスを緊急停止",
+              "content": "米国政府が国家安全保障上の理由から輸出管理指令を発令し、Anthropicの最新・最高性能モデル「Fable 5」および「Mythos 5」に対し、国内外の外国籍者（Anthropicの従業員を含む）のアクセスを即時停止させた。これを受けAnthropicは該当する全ての顧客のアカウントを無効化する措置を講じた。",
+              "impact": "★重要★ AIモデルの能力が「国家安全保障のリスク」と公式に認定され、兵器級の輸出規制対象となった歴史的転換点。開発者にとっては、特定の高性能モデルが地政学的リスクによって突如として利用不能になる「AIサプライチェーンの脆弱性」が現実化したことを意味する。",
               "date": "06/12",
               "url": "https://www.anthropic.com/news/fable-mythos-access",
               "importance": 5,
-              "fetched_at": "2026-06-14T07:53:50.487714+09:00"
+              "fetched_at": "2026-06-14T16:16:05.383963+09:00"
             },
             {
-              "headline": "ChromeでのWebMCP標準プロポーザル採用とAgentic Web Actuationの始動",
-              "content": "GoogleがChromeのOrigin Trialsにおいて、AIエージェントがWebブラウザを直接操作するための標準規格「WebMCP (Model Context Protocol)」の導入を開始しました。これにより、AIがブラウザ内の要素を認識し、ユーザーに代わって自律的にタスクを実行する「エージェント型Web利用」の基盤が整いつつあります。",
-              "impact": "★重要★ ブラウザが単なる閲覧ツールから「AIエージェントの実行環境」へと進化する歴史的な転換点です。ウェブサイト側もAIエージェントによるアクセスを前提とした設計が必要になり、UXデザインの概念を根本から変える可能性があります。",
+              "headline": "Chromeで「WebMCP」のオリジントライアル開始：AIエージェントによるブラウザ操作の標準化へ",
+              "content": "エージェントによるWeb操作を標準化するためのプロトコル「WebMCP」が、Google Chromeのオリジントライアルとして公開された。AIエージェントがブラウザの機能を安全かつ一貫したAPIを通じて制御・実行できるようにするための標準化提案が含まれている。",
+              "impact": "★重要★ AIエージェントがブラウザを操作する際のアドホックな実装（DOM解析や独自スクリプト等）から、ブラウザが公式に提供するAPIへの移行を促すもの。Web開発者にとっては「AIエージェントによる利用」を前提としたWebサイト設計（Agent-First Design）への対応が急務となる。",
               "date": "06/13",
               "url": "https://www.infoq.com/news/2026/06/webmcp-web-agent-standard-chrome/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-              "importance": 5,
-              "fetched_at": "2026-06-14T07:53:50.487714+09:00"
+              "importance": 4,
+              "fetched_at": "2026-06-14T16:16:05.383963+09:00"
             },
             {
-              "headline": "米国国勢調査局による「ノイズ注入（Noise Infusion）」の禁止と統計データの変化",
-              "content": "米国商務省は、国勢調査局および経済分析局が発行するすべての統計製品において、プライバシー保護手法である「ノイズ注入」の使用を禁止する命令を出しました。これは差分プライバシー（Differential Privacy）の適用を巡る議論に大きな影響を与える決定です。",
-              "impact": "★重要★ データプライバシーと統計的正確性のトレードオフにおける政策的転換です。エンジニアにとっては、秘匿化技術の実装コストやデータ品質の担保手法に再考を迫るものであり、今後のプライバシー保護技術の標準化の行方を左右します。",
+              "headline": "Pyodide 314.0リリース：PEP 783の採択でPython in the Browserが標準パッケージングに対応",
+              "content": "WebAssembly上でPythonを動かすPyodideの最新版314.0がリリース。PEP 783（Emscripten packaging）が正式に採択されたことで、PyPI上のホイールパッケージがWasm/Emscriptenを標準でサポートする道が開かれ、ブラウザ上でのライブラリ導入が劇的に改善された。",
+              "impact": "★重要★ ブラウザ上でのPython実行が、ハック的な手法から「公式に標準化されたエコシステム」へと昇華した。データサイエンスやAIの計算資産を、サーバーレスかつ低レイテンシにブラウザ上で直接動作させるアプリケーション開発が加速する。",
               "date": "06/13",
-              "url": "https://desfontain.es/blog/banning-noise.html",
+              "url": "https://blog.pyodide.org/posts/314-release/",
               "importance": 4,
-              "fetched_at": "2026-06-14T07:53:50.487714+09:00"
+              "fetched_at": "2026-06-14T16:16:05.383963+09:00"
             },
             {
-              "headline": "Bunへの移行によるスループット5倍達成：Node.jsからの脱却事例",
-              "content": "Node.jsをBunに置き換えることで、スループットを5倍に向上させた具体的な事例が報告されました。HTTPサーバーやファイルI/Oを多用するワークロードにおいて、Bunのランタイム性能が実用レベルで顕著な優位性を示しています。",
-              "impact": "★重要★ JavaScriptエコシステムにおいて、長らく標準だったNode.jsからのリプレイスが「現実的な選択肢」かつ「劇的な投資対効果」を持つフェーズに入ったことを示しています。高負荷システムのコスト削減とパフォーマンス改善における重要なベンチマークです。",
-              "date": "06/13",
-              "url": "https://www.reddit.com/r/programming/comments/1u4dwrh/why_we_replaced_nodejs_with_bun_for_5x_throughput/",
-              "importance": 4,
-              "fetched_at": "2026-06-14T07:53:50.487714+09:00"
-            },
-            {
-              "headline": "AIコーディングエージェントにおける「アドバイザー」と「レビュアー」の役割分担",
-              "content": "開発現場において、高性能なAIモデル（Fable 5等）を単なるコード生成（実装）ではなく、プロジェクトの設計思想を維持する「アドバイザー」や、脆弱性を指摘する「レビュアー」として活用する手法が確立されつつあります。CLAUDE.mdを用いたコンテキスト制御などがその核心です。",
-              "impact": "★重要★ AIと人間の協調開発モデルが、単なる「補完」から「組織的な役割分担」へと進化しています。特に大規模プロジェクトにおいて、コンテキストの劣化を防ぎ、コード品質を維持するためのエンジニアリング手法として極めて実用的です。",
-              "date": "06/12",
-              "url": "https://zenn.dev/acntechjp/articles/83f9d7bb898010",
-              "importance": 4,
-              "fetched_at": "2026-06-14T07:53:50.487714+09:00"
-            },
-            {
-              "headline": "AppleによるTrueTypeヒンティング・インタプリタのSwift移行",
-              "content": "Appleがフォントレンダリングの基幹技術であるTrueTypeのヒンティング・インタプリタを、従来のC/C++からSwiftへと移行した詳細を公開しました。これはOSのコアコンポーネントを現代的で安全な言語で書き直す継続的な取り組みの一環です。",
-              "impact": "★重要★ システムプログラミングにおけるメモリ安全性の追求が、フォントレンダリングのような低レイヤーかつ攻撃対象になりやすい領域で結実しています。レガシーコードの安全性向上のためのマイグレーション手法として、極めて高度な事例です。",
-              "date": "06/12",
-              "url": "https://swift.org/blog/migrating-truetype-hinting-to-swift/",
+              "headline": "AWSがValkeyの永続ストレージ対応を発表：ElastiCacheの「キャッシュ以上」の用途が拡大",
+              "content": "AWSは、Redisのオープンソース・フォークであるValkeyをベースとしたElastiCacheにおいて、耐久性の高いストレージオプションを導入した。これにより、インメモリのパフォーマンスを維持しつつ、データの永続性を担保したプライマリデータベースとしての運用が可能になる。",
+              "impact": "★重要★ Redisのライセンス変更後に誕生したValkeyが、クラウドベンダーの強力な支援によりキャッシュの枠を超え、NoSQLデータベース市場でデファクトの地位を確立しつつあることを示している。インフラコストの最適化とアーキテクチャの簡素化に大きく寄与する。",
+              "date": "06/14",
+              "url": "https://www.infoq.com/news/2026/06/elasticache-valkey-durability/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
               "importance": 3,
-              "fetched_at": "2026-06-14T07:53:50.487714+09:00"
+              "fetched_at": "2026-06-14T16:16:05.383963+09:00"
+            },
+            {
+              "headline": "Intel 8087浮動小数点コプロセッサの「69ビット加算器」がリバースエンジニアリングされる",
+              "content": "1980年にリリースされた歴史的チップ、Intel 8087の内部回路が詳細に解析された。指数、仮数、超越関数の計算を支える69ビット幅の巨大な加算器がどのようにシリコン上に実装され、当時の制約下でいかに高速演算を実現していたかが詳らかになった。",
+              "impact": "★重要★ 現代のIEEE 754規格の先駆けとなった設計思想を物理レベルで理解できる貴重な知見。低レベル最適化やハードウェアアクセラレータの設計に携わるエンジニアにとって、コンピューティングの根源的な設計の美学と技術的工夫を学ぶ絶好の教材である。",
+              "date": "06/13",
+              "url": "https://www.righto.com/2026/06/intel-8087-adder-reverse-engineered.html",
+              "importance": 3,
+              "fetched_at": "2026-06-14T16:16:05.383963+09:00"
+            },
+            {
+              "headline": "ReactOSが実ハードウェア上で3DアクセラレーションによるHalf-Life動作を実現",
+              "content": "Windows互換のオープンソースOS「ReactOS」が、実機上でGPUドライバスタックを介した3Dアクセラレーションを達成し、ゲーム『Half-Life』の安定動作に成功した。これはOS開発におけるグラフィックスパイプラインの互換性確保における大きな前進である。",
+              "impact": "★重要★ 特定の商用OS（Windows）に依存しない完全なオープンソースの計算環境の構築が、極めて難易度の高いグラフィックス領域でも進展していることを示す。レガシーソフトウェアの保存や、低レイヤのOS内部構造に興味を持つエンジニアにとって画期的な成果。",
+              "date": "06/13",
+              "url": "https://www.phoronix.com/news/ReactOS-Running-Half-Life",
+              "importance": 3,
+              "fetched_at": "2026-06-14T16:16:05.383963+09:00"
             }
           ]
         }
       ],
       "summary": {
-        "content": "本日は地政学と先端技術の双方向で歴史的な転換点を迎えています。外交面では米イラン和平合意が秒読みとなり中東情勢が激変する一方、米政府がAnthropicの「Mythos級」AIの輸出制限を課したことは、AIが国家安全保障上の最重要戦略物資となったことを鮮明に示しました。経済面では、SpaceXの2兆ドル規模IPOと新語「MANGOS」の誕生が、テスラの枠を超えた新たな巨大テック時代の幕開けを象徴しています。日本は、高市首相が掲げる「重要鉱物の共同備蓄」を通じた経済安保の主導権確保に加え、WebMCPの採用やAIコーディング手法の変容といった開発トレンドの激変に対し、技術的・制度的適応を急ぐ必要があります。"
+        "content": "本日の世界情勢は、米国とイランによる電撃的な和平合意という外交の大転換と、スペースXの史上最大規模IPOに伴う「個人トリリオネア」の誕生という、政治・経済の両面で歴史的な節目を迎えました。その一方で、米政府による最先端AI「Mythos」の輸出規制や北朝鮮の非核化拒否宣言など、高度技術と地政学が直結する「技術安全保障」の緊張が極限まで高まっています。日本にとっては、日英間の強力なパートナーシップ合意という追い風があるものの、NVIDIAのCEOがアジア歴訪で日本を素通りするなど、AI・半導体戦略における国際的なプレゼンス低下への危機感が浮き彫りとなりました。WebMCPの登場などAIエージェントの標準化が進む中、日本は外交的連携を足掛かりに、技術投資の魅力をいかに再構築するかが急務となっています。"
       }
     },
     "week": {
@@ -217,14 +277,14 @@ window.newsData = {
     "LPU (Language Processing Unit)": "大規模言語モデル（LLM）のようなAIの言語処理タスクに特化して設計された新しいタイプのプロセッサです。従来のGPUと比較して、特定の言語処理タスクにおいて高速かつ効率的な処理を目指しています。",
     "MoE (Mixture of Experts)": "大規模なAIモデルのアーキテクチャの一つで、入力データに応じて複数の「専門家（エキスパート）」と呼ばれる小さなモデルの中から最適なものを選び、その部分だけを動かすことで、計算効率を高め、より大規模なモデルを訓練・実行できるようにする技術です。"
   },
-  "updated_at": "2026-06-14 07:53 JST",
+  "updated_at": "2026-06-14 16:16 JST",
   "token_usage": {
     "2026-05": 1444521,
     "2026-05-27": 248362,
     "2026-05-28": 401129,
     "2026-05-29": 263394,
     "2026-05-30": 531636,
-    "2026-06": 1643575,
+    "2026-06": 1704812,
     "2026-06-01": 194207,
     "2026-06-02": 157565,
     "2026-06-03": 140423,
@@ -238,6 +298,6 @@ window.newsData = {
     "2026-06-11": 124315,
     "2026-06-12": 121967,
     "2026-06-13": 105364,
-    "2026-06-14": 44172
+    "2026-06-14": 105409
   }
 };
