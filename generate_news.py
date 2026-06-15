@@ -381,6 +381,67 @@ def load_past_topics(archive_dir, now, hours=24):
                 print(f"アーカイブファイルのロード失敗 ({file_path}): {e}", file=sys.stderr)
     return past_topics, seen_urls
 
+def composite_score(topic: dict) -> int:
+    """importance × 2 + novelty + japan_relevance の合算スコア（最大10）。"""
+    return (
+        int(topic.get("importance", 3)) * 2
+        + int(topic.get("novelty", 3))
+        + int(topic.get("japan_relevance", 3))
+    )
+
+
+def prune_archive(archive_dir: str, now) -> None:
+    """古いアーカイブファイルのトピックを指標ベースで間引く。
+
+    保持ポリシー:
+      直近14日  : 全件保持
+      15〜60日  : composite_score >= 9 (importance>=4 かつ novelty or japan_relevance が高い水準)
+      61日以上  : importance == 5 のみ（歴史的重要記事）
+    """
+    for fname in os.listdir(archive_dir):
+        if not fname.endswith(".json"):
+            continue
+        try:
+            file_date_str = fname.replace(".json", "")
+            file_date = datetime.strptime(file_date_str, "%Y-%m-%d").replace(tzinfo=timezone.utc)
+        except ValueError:
+            continue
+
+        age_days = (now.replace(tzinfo=timezone.utc) - file_date).days
+
+        if age_days <= 14:
+            continue  # 直近14日は手を付けない
+
+        if age_days <= 60:
+            threshold = lambda t: composite_score(t) >= 13
+        else:
+            threshold = lambda t: int(t.get("importance", 0)) == 5
+
+        file_path = os.path.join(archive_dir, fname)
+        try:
+            with open(file_path, encoding="utf-8") as f:
+                data = json.load(f)
+        except Exception as e:
+            print(f"アーカイブ読み込み失敗 ({fname}): {e}", file=sys.stderr)
+            continue
+
+        categories = data.get("periods", {}).get("days", {}).get("categories", [])
+        changed = False
+        for cat in categories:
+            before = len(cat.get("topics", []))
+            cat["topics"] = [t for t in cat.get("topics", []) if threshold(t)]
+            if len(cat["topics"]) != before:
+                changed = True
+
+        if changed:
+            try:
+                with open(file_path, "w", encoding="utf-8") as f:
+                    json.dump(data, f, ensure_ascii=False, indent=2)
+                print(f"アーカイブを間引きました: {fname}")
+            except Exception as e:
+                print(f"アーカイブ書き込み失敗 ({fname}): {e}", file=sys.stderr)
+
+
 def collect_weekly_topics(archive_dir, now):
     """過去7日間のアーカイブから、重要度(importance)が3以上のトピックを収集してテキスト化する(概要は含めず軽量化)。"""
     weekly_topics = []
@@ -902,6 +963,8 @@ def main():
         with open(archive_path, 'w', encoding='utf-8') as f:
             json.dump(final_response, f, ensure_ascii=False, indent=2)
         print(f"アーカイブを保存しました: {archive_path}")
+
+        prune_archive(archive_dir, now)
     except Exception as e:
         print(f"ファイル保存エラー: {e}", file=sys.stderr)
         sys.exit(1)
