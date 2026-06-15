@@ -13,7 +13,9 @@
               "date": "5/31",
               "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPbURTRGdXd0FJdXdDeHdxbHFpdWdiSUZ4eG0tZ1E1UmVOSHpZbnpiNEhweC1HclNuZkt1bmd2RVowVnRvZnliTjktcGNkb3JENmRXTVJqN3lXTWNnWE5zWjV4R0dqU050Z2p2ZnJxb1N1ZTlhci0tUndRbFNPdVctOVFNM2pWcUtNZExrSFV6cjhhV2VLSGtQWTRLbTNxZjdtNFJjVTQzS0YtOXNFQWllVUJrS2dGSkxpTG4w?oc=5",
               "importance": 5,
-              "fetched_at": "2026-06-01T20:56:47.704320+09:00"
+              "fetched_at": "2026-06-01T20:56:47.704320+09:00",
+              "novelty": 3,
+              "japan_relevance": 3
             },
             {
               "headline": "イランと米国が攻撃応酬、中東外交は停滞しクウェートも攻撃受ける",
@@ -22,7 +24,9 @@
               "date": "6/1",
               "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOYmZseGFNR05tMVJiV2tLRjdhdUFTUkwyT3pSdVFYdTJYWDdCZ0tRR2JNU002UEtMVHA1TXhabGhlUlMxUkIyOEh5dTNMR0dIQk1FQmxqUDRhcFZaREtrQkMyci1NS2lycENBOWtqbEpQVV9lX3FGOEJXU19ROEtaS0o0bTg0TGV5NGhtcGhORy12aUo4dzVxUlY2UElhZDFUalVqeWZmbUotQ21jQWxPeE5LZFM3WkNSZjE4bTR6MVhsTWFvRGpIMlpzeGpwTXZVby1Za2k5TQ?oc=5",
               "importance": 5,
-              "fetched_at": "2026-06-01T20:56:47.704320+09:00"
+              "fetched_at": "2026-06-01T20:56:47.704320+09:00",
+              "novelty": 4,
+              "japan_relevance": 2
             },
             {
               "headline": "ロシア、ウクライナのドローンがザポリージャ原発を攻撃と発表",
@@ -31,7 +35,9 @@
               "date": "5/31",
               "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQcm1TQVo2RURrLXBtTVZhTERMTkpTUmQ1U24wUTBseDNJVjE4S1FGeGtpbmYtY0VoWHYtY0lzcUwtd215X01xczA2MV9saHRUajA1eHJWNkVvQ3NxNU1mS0JrVFY0cG01QWtxMXBjU1Axbk9GT2ZybnBxajVKM29SMkIyNTd4RUpXMDQ3OUtuQWp2dXlzdDJ0RFdGc3ZuUUM2am1mZEVSdk9GUVMtQjZoMUtmWUJzUlnSAbcBQVVfeXFMTXRRQlBuT1l4dUF3VjROWnBZZGtpWXZqT2NMVFA1M0N4dVFONzlsRlA5M1hzcFJMRUNxWndXSnpiRWdGa2hoaDZrZDQ1Z0JxaWR3R25VWWpCMEtjMVJlNjc2eWszUWtCSUdYRE9lUC02YWF0ZFpmaXg0S19KQ0h3c3poVkZHdDBpUlZGeE16ZGRTdzZad1NtZXdNd081c3J5VnM2S1lNUnloRmxKYmRReUZUOHFkcjJr?oc=5",
               "importance": 5,
-              "fetched_at": "2026-06-01T20:56:47.704320+09:00"
+              "fetched_at": "2026-06-01T20:56:47.704320+09:00",
+              "novelty": 4,
+              "japan_relevance": 2
             },
             {
               "headline": "日本の日経平均株価がAIブーストで67,000円超え、ソフトバンクが国内最高価値企業に",
@@ -40,7 +46,9 @@
               "date": "6/1",
               "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPLVFGUEFyN0dsSWYyNFdPNE8xTjREeFBKMTBNSi1DaHRnbzlJSzl1cEdOd2RnclU2VVZMdFJpYnFidURJQVVoeFhyVFRDOG9tSElLVDZ3ZXBNVkJZWlNEb1V0cW05cDByR3lPQVNyR3VlbG9sN0lVOVpRWmxJRjF5UzNBSU5OWmoya3lIUmlsLThxeFFoMFlVUk1aV0lpYV9xYVR2ZWM0a1VTZXpQUTI2ZmpST2tIc09GSWM2NmVDQUJrUjRIM1Bn?oc=5",
               "importance": 5,
-              "fetched_at": "2026-06-01T20:56:47.704320+09:00"
+              "fetched_at": "2026-06-01T20:56:47.704320+09:00",
+              "novelty": 5,
+              "japan_relevance": 5
             },
             {
               "headline": "フィリピンとベトナムが関係強化、南シナ海の平和は「交渉不可」と表明",
@@ -49,7 +57,9 @@
               "date": "6/1",
               "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQNkQyTEszZW5tMDhiUks1MzljR2FZX1hZbW1YYkI2alB3ZW1WQWpvUTF4UmplNHBZQXlRVm1FUzc3WW0ybXp4bUp4Tlk1THRGN0sySFBmNW1rODMxTWVHNWhEeUxNWjJBaV9na25CMXNoWXlyYUIwRlAzM0RoMVFYNXMwVFFRYTJ1VVI1Wk42VXlPNV9PemxvRngwSzJTNnVCTnlJdkRFcUVXNVQwdVNUNWpMTzJYc25Sdnc?oc=5",
               "importance": 4,
-              "fetched_at": "2026-06-01T20:56:47.704320+09:00"
+              "fetched_at": "2026-06-01T20:56:47.704320+09:00",
+              "novelty": 3,
+              "japan_relevance": 3
             },
             {
               "headline": "中国が外国企業との取引・技術移転への規制を拡大",
@@ -58,7 +68,9 @@
               "date": "6/1",
               "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOcnVnSjJkT3BMYUY4cklZeEE0eU1seTZianNLbkpBcmFMRWZNM0RldUl5N0MwRWtTYm5wOFREWGRlZDVnRGJyS29PYWZLUkpWZmpiTE5Nb2h6ZUhrcVNIOHhkbW9fU21TSVE3TXAtSkpDcm9mRkV1NFFWakR4YkRuQ0lrYkFqV3A3Ul93TUlvSzdqbUg5UzdPQTF4NTdrTWVBRVZjaGlVR0ZOTEV4MHRxUC01X2kzb2tuUERxXzhxNHo?oc=5",
               "importance": 4,
-              "fetched_at": "2026-06-01T20:56:47.704320+09:00"
+              "fetched_at": "2026-06-01T20:56:47.704320+09:00",
+              "novelty": 3,
+              "japan_relevance": 4
             },
             {
               "headline": "ウクライナの攻撃継続でロシアが燃料不足のリスクに直面",
@@ -67,7 +79,9 @@
               "date": "6/1",
               "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNbjRWZnFRUnJXQ3d6Y2E4bUlNLURud3YyVlNPTldYaGRmMDZCVGtlSGRlVlpIRUx2SnAtVTRXM3QxaFN4a20zSjFQTHFmektPVUliWjBTc3dmVWVEMlhBWWhNN3lmQlFRbWUtX09HRVdjckRpbjg2S1l3bEs3WGl2NDBJQjVQakhkdWUyVUlibkJlTXNPZllvNkxUMzU5NTRSc2pwR2UyNEdkV0Z5cnRFS0o1Vll0dw?oc=5",
               "importance": 4,
-              "fetched_at": "2026-06-01T20:56:47.704320+09:00"
+              "fetched_at": "2026-06-01T20:56:47.704320+09:00",
+              "novelty": 4,
+              "japan_relevance": 2
             }
           ]
         },
@@ -82,7 +96,9 @@
               "date": "Mon, 01 Jun 2026",
               "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQNHRPc1hKaF9fbmY1Q2FQWlUxREExZHpCaUtjd2JHZ3RudGxkcDFZUTZ4RWJiYzFuelR3eTR1MnN6SlRjeUExMzczeXZJdmhpQkpzOHpybkxzeEJqNXFVbUtSNXRxcTNoV19HZjVzRmNCa0xWd2lGZUhaNE8tNDQ4c1UycHJoeDBOdnoyYm1d-w?oc=5",
               "importance": 5,
-              "fetched_at": "2026-06-01T20:56:47.704320+09:00"
+              "fetched_at": "2026-06-01T20:56:47.704320+09:00",
+              "novelty": 4,
+              "japan_relevance": 5
             },
             {
               "headline": "中東情勢の緊迫化が原油市場に混乱、米イラン協議行き詰まりとイスラエル攻勢拡大で原油価格高騰",
@@ -91,7 +107,9 @@
               "date": "Mon, 01 Jun 2026",
               "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQNktxcXVYTnFVQnJnODhmaGRYVkNOMW1CM2xMUVhhTHNsWng5N05maGh4dlFFdG83T3dSWFFQUkd3b0FEZ280Y25wdDUzeFBmU0IwX3RIbDZLVlkxTzU2dzFrLV9iSm9HWUZabUlrT0l4T1JXVU5sX2luaHRRdVZpaU9vaTNDNXN0WkpDMXZRZXdRZDByazh0VVNIR29YWTIzZy16TdIBqgFBVVfeXFMTmhwS0hmUW9oYzhsZkVuR3kwdTRablBqLVgtQ05LcWViY1l0ZjZzT2ZEdGwxWjVrbGFvR1lmZG8yQU1xcVIxQWtYSXRjNEdua0YwVENSZTZ4QU1qMmV1RC1pSUpoTno2eDFhUnJweUhoNWRMOG8tSTJxOHFiSTZsRUNoNUxFcjJjbDNJd1JxRXpWZ19XLURQem41ejM1QldYWWhlUnQ5SHBHdw?oc=5",
               "importance": 5,
-              "fetched_at": "2026-06-01T20:56:47.704320+09:00"
+              "fetched_at": "2026-06-01T20:56:47.704320+09:00",
+              "novelty": 2,
+              "japan_relevance": 4
             },
             {
               "headline": "パウエルFRB議長、政治的介入による中央銀行の信頼性低下を警告",
@@ -100,7 +118,9 @@
               "date": "Mon, 01 Jun 2026",
               "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9JbU1URTVvTzlaUkRHT1o0R3BGT3h6NV91dFNVb3dlUHZkYm9CNWQ0blY2ekxtYVIxbzZPd1UzNXFKbTk2ajl5OGRZVHRBb0J0R2xoMFBnanNzS3FwdjN3OGNxZlBVQQ?oc=5",
               "importance": 5,
-              "fetched_at": "2026-06-01T20:56:47.704320+09:00"
+              "fetched_at": "2026-06-01T20:56:47.704320+09:00",
+              "novelty": 3,
+              "japan_relevance": 3
             },
             {
               "headline": "ソフトバンクGがトヨタを抜き国内時価総額首位に、日経平均は過去最高値更新も長期金利は40年ぶり高水準",
@@ -109,7 +129,9 @@
               "date": "Mon, 01 Jun 2026",
               "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFA4MDk2TEQ1OGVQMmt6YzJVbHRYekE2NjVJNzNIM0lXaVN1WldYU05nSFd2c0sxUTg1Y2pCNjZQZUdreUtKcy01OGdtRDNTWEpBTUVLRVNwcEliWkhNakFQNUV4VGRWNFd0d3BfXw?oc=5",
               "importance": 5,
-              "fetched_at": "2026-06-01T20:56:47.704320+09:00"
+              "fetched_at": "2026-06-01T20:56:47.704320+09:00",
+              "novelty": 5,
+              "japan_relevance": 5
             },
             {
               "headline": "米国の中国バイオテクノロジー依存が国家安全保障上の新たな懸念に、米中デカップリングの動き加速か",
@@ -118,7 +140,9 @@
               "date": "Sun, 31 May 2026",
               "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQVXdrX21CVTFnNFJnUXJ0VklZRDhDcUQ1b2liZWJZaUdxa3Z5WGIxS25zOWpOT2owakViRzQ1V1QxbU5sQmxjN3RnbUVxbXRkbjhBQVlmVmRCeFQwZ2Q3U3BPZ2t6N21YdFY3bVZ3dlNlb2lxZVpzcTljWF9scHVoTWllUnE?oc=5",
               "importance": 5,
-              "fetched_at": "2026-06-01T20:56:47.704320+09:00"
+              "fetched_at": "2026-06-01T20:56:47.704320+09:00",
+              "novelty": 4,
+              "japan_relevance": 2
             },
             {
               "headline": "中国製造業活動は公式・民間調査で評価割れる、世界経済の不確実性増大",
@@ -127,7 +151,9 @@
               "date": "Mon, 01 Jun 2026",
               "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPU2MzS1JSaGZfdnZMaEdVZU5lbDR2c2ZKWENjc0RQNUFNQmJGRHdMTlZRckh3VkRpVDRhNWdSSVVPLWwwNVAyc202QVhTLU15cTYlBmd0MVNqOVVsOGFlYm1yb1pzbUY5czltLUEwNGp3SkR0MDVLSVRqbWZpM3NWZ1JINXV2Skt0MmVxT0ticGxPeWplTzJjc1k5YktGLW9qc2ZsLW9JVDg5VDdkTFU3WngxWWx3YzBtNlB1WGhnMWdwM2pTZU5nY1Y1aGdMZ9IB0wFBVVfeXFMTNZVA4YTQwVFlUdUNxMHp4S2g2RUtFdGhKc0NhT3dsWE9TNE9TbDJRVjUxTUhnd3NDdFMyMl95aS1JblEtc2Z0RjZTNnQ4Rng0NmZUTEh4MkhQSE91TVdFcTRTVEZhbnVON0lHWU0xai1NWlc3X25rZTVqeG5aNTQxbXpYRXRtUXV1b0dSS1hPTEpuNm85YVVLeklDWTJPR1Zndw?oc=5",
               "importance": 4,
-              "fetched_at": "2026-06-01T20:56:47.704320+09:00"
+              "fetched_at": "2026-06-01T20:56:47.704320+09:00",
+              "novelty": 2,
+              "japan_relevance": 4
             },
             {
               "headline": "肺がん治療薬が死亡リスクを34%削減する画期的な成果、日本企業もコロナ予防薬で米国承認取得",
@@ -136,7 +162,9 @@
               "date": "Mon, 01 Jun 2026",
               "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOa19fZGlrLU9WdHJLWEpEYkJxWTk5OWU2TFNjLURmdU1xSXNEWm5vZUV2b0w3WjRXOE5PMjlEMTBJX3FvZ2hPX01iWVZEeXFPVk1LR0RpbXBNTGh1RDhuU3hNOTNIRkR1eE1kVVFlMHp3a3BQaktBRlp4TFJoZldLVUEtYXQwSU5DU2tpTEw3bUxfelU4eDNPNkxObjAxY202SGRfYU9hS1dwUzlFQlhrMg?oc=5",
               "importance": 4,
-              "fetched_at": "2026-06-01T20:56:47.704320+09:00"
+              "fetched_at": "2026-06-01T20:56:47.704320+09:00",
+              "novelty": 4,
+              "japan_relevance": 4
             }
           ]
         },
@@ -151,7 +179,9 @@
               "date": "06/01",
               "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxORTJ1S1lPZ3hXZjlnZHhBWXgyZGJyVDQ3ZmxRYkdmSVo0RmVaeXp1TVZ1eldVajZ4ejcyUWxnTFF4NUExbHNpT3JLSkxraXpLRkVZYzFOV09KdVZjLWVzdzFUZ25mMkZfay1xeF83RHhQV0xpcmlsbFp3ZG1vNTFkeTNNN2tpaWxlVnpsN1ZR?oc=5",
               "importance": 5,
-              "fetched_at": "2026-06-01T20:56:47.704320+09:00"
+              "fetched_at": "2026-06-01T20:56:47.704320+09:00",
+              "novelty": 5,
+              "japan_relevance": 3
             },
             {
               "headline": "CERN、標準模型を超える物理学の存在を示唆する高精度の兆候を発見",
@@ -160,7 +190,9 @@
               "date": "06/01",
               "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPOEdoaWJVc3h3Zl9VNDJXT0tJYXRKcEJkZy0xMXNNOVd2Z0dteGhrRVVxbEpPMVQxQ0NySmNvOG4xR0IwMjR4Mk1WWmM3dHZuUG9rQXZKTkhjSTdWOFp5SEVvblMwMUhEQlBQTjB4b3lQU2tjNGxxcDZuZDdaa2d5S0xQQ2lObnhDVmJrc00yM2ZfbEtyM3FSdTRyNTNnTlNLbVNj?oc=5",
               "importance": 5,
-              "fetched_at": "2026-06-01T20:56:47.704320+09:00"
+              "fetched_at": "2026-06-01T20:56:47.704320+09:00",
+              "novelty": 5,
+              "japan_relevance": 2
             },
             {
               "headline": "研究者らが脳細胞に「Doom」をプレイさせることに成功",
@@ -169,7 +201,9 @@
               "date": "05/31",
               "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1ZYnRINVhCMVJ5STFrWkZOZFVBa3ZuMG01N2RERUFuVWJVQzNWM1Z0eGZ6Tk1zUk1rWkhua2toUzZiMFc1R1pVSEpiZ2ZHT05GWlVZZENFeTRmN042SlBuenhXSVY5cDA?oc=5",
               "importance": 5,
-              "fetched_at": "2026-06-01T20:56:47.704320+09:00"
+              "fetched_at": "2026-06-01T20:56:47.704320+09:00",
+              "novelty": 4,
+              "japan_relevance": 2
             },
             {
               "headline": "中国の物理学者が量子技術でレーザー相互作用を20倍に増強",
@@ -178,7 +212,9 @@
               "date": "05/31",
               "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPdlNRUE5TUUtJNFl6Z1lCb3RONi1yTklCUXFZWXNSNGZKVVVDUEYxNE01aW1TbU9uTi1TOU1PZ2ZzS3M2d0wyZlNrb3JkazNmMHJoYzNXYUZhN0hGYkFNNHM4Uml1UkZqSDhmM3pkMjc1QTVGNDJWOHkwM0pBNzd4c2J0aE5zV3N5a2Y3cE9iTllsUQ?oc=5",
               "importance": 5,
-              "fetched_at": "2026-06-01T20:56:47.704320+09:00"
+              "fetched_at": "2026-06-01T20:56:47.704320+09:00",
+              "novelty": 4,
+              "japan_relevance": 3
             },
             {
               "headline": "JWSTが初期宇宙で最も化学的に原始的な銀河を発見",
@@ -187,7 +223,9 @@
               "date": "05/31",
               "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNQXAtQUZDSUNLbk9XSnBtY0Z5SUdJd1lOZUlTLS1ZUnp2YjllYy1xcmJTemlrWWRONFJDNThqVXktWUJjTzZ1Wk5OV0xvOUd4cmc0TXZqTDNyOVN2X3VsX054aFFhM2NpS2NRQ1hUbGpYNTU4U3c0LXZRWXRIeHdYWDdOWU83TDFnN3AtUUYzSXlZMkV6YXlWYVNrNTUzeE80czh0a3ExUFVYQ0dSUmQ4QTFpbEwyS1hRWUxpWFhBbHpPOEZQb0drcFJabDM5X1pFUUNuS0NaUGl3NGs?oc=5",
               "importance": 5,
-              "fetched_at": "2026-06-01T20:56:47.704320+09:00"
+              "fetched_at": "2026-06-01T20:56:47.704320+09:00",
+              "novelty": 4,
+              "japan_relevance": 2
             },
             {
               "headline": "NvidiaのGrace BlackwellスーパーチップがRTX SparkノートブックでPCに登場",
@@ -196,7 +234,9 @@
               "date": "06/01",
               "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQSDBfZlpEdWxpdWpCYi1BNXdrRjAtYmlSVE82YUVSNXhEQkRpTk5tU19mcDI1R3NrWU85M0V1WUtoeHlPRGNFMnF4YVl0eDBlNlRDd3ZFdmRDcHBtczJXX0otVlUzMkswa0V4allIeVphLS1jWHVFMFlESFE2ZVJxZXFtUDhsLUlScXQyaDAyNEpmeVFpTm05bHpuUHYzRWo4b2w3T1ZydHVDZmliQl9UUm9qVUI?oc=5",
               "importance": 4,
-              "fetched_at": "2026-06-01T20:56:47.704320+09:00"
+              "fetched_at": "2026-06-01T20:56:47.704320+09:00",
+              "novelty": 3,
+              "japan_relevance": 5
             },
             {
               "headline": "Intel Diamond Rapidsがコア数を192に増強、Hyperthreadingは廃止か",
@@ -205,7 +245,9 @@
               "date": "06/01",
               "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQWGtBbndwU2QwbFRvVnJrWVEtLWlLYlRhMTNSTTFhQTNzY0RvZmF0ak5laUxXdTMxNE5LcUxTaEdtU2xzS0tvc1BoVUdxUFpLWlEzbVZhZ1ZNbkF2bXBhLWdyWUFkcnhGR29NTTJZSUlkVFRzMGJNbFFoZGlVSFdmWkREY3BGLTZzRDM4Y2hhakVQUlVmVnlfZ1FxeFUtNWZYRDdfRS1Ec3hOUQ?oc=5",
               "importance": 4,
-              "fetched_at": "2026-06-01T20:56:47.704320+09:00"
+              "fetched_at": "2026-06-01T20:56:47.704320+09:00",
+              "novelty": 3,
+              "japan_relevance": 4
             },
             {
               "headline": "科学者が古典メンデル遺伝学に反する数百の遺伝パターンを発見",
@@ -214,7 +256,9 @@
               "date": "05/30",
               "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPV3M1MWotR2Q5N0ZPVmNxTnF3c3JGejVVMkpNa0NYZ3Fud3lTRWlPbmVpbHkzdURPOVFCUGJPZkdZdl8xNE9rbGFkRVlEYlR0cGR2UlIzTWNCYmtnOFItaVBGZ1drblJXS0p5UzlFeDlhWGx1Sm5LNGFZLUdmNDRHMUZmbFVUVHdncTUxVk1PV0FFTXRpcHJHZV9OVUFnOEduNnlYQ01jWUZZM2UzSHdFdXdOTktUQlpsYVlYVEMtYmxMZUNT?oc=5",
               "importance": 4,
-              "fetched_at": "2026-06-01T20:56:47.704320+09:00"
+              "fetched_at": "2026-06-01T20:56:47.704320+09:00",
+              "novelty": 5,
+              "japan_relevance": 3
             }
           ]
         },
@@ -229,7 +273,9 @@
               "date": "05/31",
               "url": "https://www.promptarmor.com/resources/gpt-for-google-sheets-data-exfiltration",
               "importance": 5,
-              "fetched_at": "2026-06-01T20:56:47.704320+09:00"
+              "fetched_at": "2026-06-01T20:56:47.704320+09:00",
+              "novelty": 4,
+              "japan_relevance": 4
             },
             {
               "headline": "LinuxカーネルのRestartable Sequences（rseq）がロック不要な高並行データ構造を実現",
@@ -238,7 +284,9 @@
               "date": "05/31",
               "url": "https://justine.lol/rseq/",
               "importance": 5,
-              "fetched_at": "2026-06-01T20:56:47.704320+09:00"
+              "fetched_at": "2026-06-01T20:56:47.704320+09:00",
+              "novelty": 2,
+              "japan_relevance": 3
             },
             {
               "headline": "生成AIの「設計による違法性」：人権侵害コストを露呈",
@@ -247,7 +295,9 @@
               "date": "05/31",
               "url": "https://www.amnesty.org/en/documents/pol40/0996/2026/en/",
               "importance": 5,
-              "fetched_at": "2026-06-01T20:56:47.704320+09:00"
+              "fetched_at": "2026-06-01T20:56:47.704320+09:00",
+              "novelty": 3,
+              "japan_relevance": 3
             },
             {
               "headline": "AIエージェントの行動を監視する小型ガードモデル「AgentDoG 1.5」",
@@ -256,7 +306,9 @@
               "date": "06/01",
               "url": "https://dev.to/pueding/agentdog-15-small-inline-guard-models-for-agent-actions-2mh8",
               "importance": 5,
-              "fetched_at": "2026-06-01T20:56:47.704320+09:00"
+              "fetched_at": "2026-06-01T20:56:47.704320+09:00",
+              "novelty": 4,
+              "japan_relevance": 3
             },
             {
               "headline": "末尾スラッシュがAWS API Gateway認証をバイパス、重大な脆弱性",
@@ -265,7 +317,9 @@
               "date": "06/01",
               "url": "https://www.infoq.com/news/2026/06/aws-api-gateway-auth-bypass/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
               "importance": 5,
-              "fetched_at": "2026-06-01T20:56:47.704320+09:00"
+              "fetched_at": "2026-06-01T20:56:47.704320+09:00",
+              "novelty": 4,
+              "japan_relevance": 4
             },
             {
               "headline": "Google Cloudの自動システムがRailwayの本番アカウントを停止、8時間の全プラットフォーム停止を引き起こす",
@@ -274,7 +328,9 @@
               "date": "05/30",
               "url": "https://www.infoq.com/news/2026/05/railway-gcp-account-outage/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
               "importance": 5,
-              "fetched_at": "2026-06-01T20:56:47.704320+09:00"
+              "fetched_at": "2026-06-01T20:56:47.704320+09:00",
+              "novelty": 3,
+              "japan_relevance": 3
             },
             {
               "headline": "Opus 4.8とGPT-5.5で開発サイクルを1日で完結、AIによるレビューとCIで実バグ検出",
@@ -283,7 +339,9 @@
               "date": "05/30",
               "url": "https://zenn.dev/yoshiki_otagaki/articles/c2dfe8efe5c5a3",
               "importance": 5,
-              "fetched_at": "2026-06-01T20:56:47.704320+09:00"
+              "fetched_at": "2026-06-01T20:56:47.704320+09:00",
+              "novelty": 5,
+              "japan_relevance": 4
             },
             {
               "headline": "自動運転アーキテクチャの新しい提案：Tri-Modal BEV VLA Planner",
@@ -292,7 +350,9 @@
               "date": "05/29",
               "url": "https://zenn.dev/tatsuyai713/books/53b0b03395e35f",
               "importance": 5,
-              "fetched_at": "2026-06-01T20:56:47.704320+09:00"
+              "fetched_at": "2026-06-01T20:56:47.704320+09:00",
+              "novelty": 4,
+              "japan_relevance": 5
             }
           ]
         }

@@ -1,4 +1,4 @@
-window.newsData = {
+{
   "periods": {
     "days": {
       "categories": [
@@ -316,4 +316,4 @@ window.newsData = {
     "2026-06-14": 105409,
     "2026-06-15": 84292
   }
-};
+}

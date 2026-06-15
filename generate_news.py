@@ -382,7 +382,7 @@ def load_past_topics(archive_dir, now, hours=24):
     return past_topics, seen_urls
 
 def collect_weekly_topics(archive_dir, now):
-    """過去7日間のアーカイブから、重要度(importance)が4以上のトピックを収集してテキスト化する(概要は含めず軽量化)。"""
+    """過去7日間のアーカイブから、重要度(importance)が3以上のトピックを収集してテキスト化する(概要は含めず軽量化)。"""
     weekly_topics = []
     seen_keys = set()
     for i in range(7):
@@ -405,39 +405,41 @@ def collect_weekly_topics(archive_dir, now):
                             key = f"{headline}|{clean_url(url)}"
                             if key in seen_keys:
                                 continue
-                            
+
                             importance = int(t.get("importance", 3))
-                            if importance >= 4:
+                            if importance >= 3:
                                 seen_keys.add(key)
-                                weekly_topics.append(f"- [{genre_title}] {headline} (重要度: {importance})")
+                                novelty = t.get("novelty", "")
+                                novelty_str = f", 新規性: {novelty}" if novelty else ""
+                                weekly_topics.append(f"- [{genre_title}] {headline} (重要度: {importance}{novelty_str})")
             except Exception as e:
                 pass
-    return "\n".join(weekly_topics[:60])
+    return "\n".join(weekly_topics[:80])
 
 GENRE_MAPPING = {
     "WORLD": {
         "title": "グローバル情勢・マクロ経済",
         "feeds": ["GLOBAL_WORLD", "BBC_WORLD", "REUTERS_WORLD"],
         "system_role": "世界情勢・マクロ経済の第一線で活躍するプロフェッショナル・アナリスト",
-        "prompt_instruction": "真にインパクトのある重要ニュースのみを厳選して抽出してください。ノイズや単なるPRは除外すること（目安: 3〜7件、最大10件）。\n事実関係と、グローバルな社会・経済への影響を論理的に解説してください（日本市場に特段の関連がある場合は付記する）。"
+        "prompt_instruction": "真にインパクトのある重要ニュースのみを厳選して抽出してください。ノイズや単なるPRは除外すること（目安: 5〜10件、最大15件）。\n事実関係と、グローバルな社会・経済への影響を論理的に解説してください（日本市場に特段の関連がある場合は付記する）。"
     },
     "BUSINESS": {
         "title": "ビジネス・経済動向",
         "feeds": ["GLOBAL_BUSINESS", "CNBC_BUSINESS", "JAPAN_BUSINESS"],
         "system_role": "世界情勢・マクロ経済の第一線で活躍するプロフェッショナル・アナリスト",
-        "prompt_instruction": "真にインパクトのある重要ニュースのみを厳選して抽出してください。ノイズや単なるPRは除外すること（目安: 3〜7件、最大10件）。\n事実関係と、グローバルな社会・経済への影響を論理的に解説してください（日本市場に特段の関連がある場合は付記する）。"
+        "prompt_instruction": "真にインパクトのある重要ニュースのみを厳選して抽出してください。ノイズや単なるPRは除外すること（目安: 5〜10件、最大15件）。\n事実関係と、グローバルな社会・経済への影響を論理的に解説してください（日本市場に特段の関連がある場合は付記する）。"
     },
     "TECH_SCIENCE": {
         "title": "テクノロジー・サイエンス",
         "feeds": ["TECHCRUNCH", "THE_REGISTER", "GLOBAL_SCIENCE", "ARS_TECHNICA"],
         "system_role": "先端技術トレンドとサイエンス・ディープテック分野のプロフェッショナル",
-        "prompt_instruction": "技術的ブレイクスルーの核心、科学的発見、ディープテック分野の進展について、真に重要なニュースのみを厳選して抽出してください。ノイズや単なる製品PRは除外すること（目安: 3〜7件、最大10件）。\nなぜそれが面白いのか、技術的・科学的な意義や将来への影響を論理的に解説してください。"
+        "prompt_instruction": "以下の2軸でニュースを選んでください（目安: 5〜12件、最大15件）。\n①技術的ブレイクスルー・重要な科学的発見・ディープテックの進展（重要度重視）。\n②エンジニアや研究者の知的好奇心を刺激するもの：反直感的な知見、技術的なパラドックス、既存の常識を問い直す研究成果など（ネタ・バズりではなく、読んで知識や視点が広がるもの）。\n単なる製品PRや発表イベントの告知は除外すること。各トピックについて、技術的・科学的な意義と将来への影響を論理的に解説してください。"
     },
     "DEVELOPER_TRENDS": {
         "title": "デベロッパートレンド (Hacker News & 海外フォーラム & 国内)",
         "feeds": ["HACKER_NEWS", "LOBSTERS", "REDDIT_PROG", "DEV_TO", "INFOQ", "ZENN"],
         "system_role": "先端技術トレンドとソフトウェア開発のトップティア・エンジニア",
-        "prompt_instruction": "技術的ブレイクスルーの核心や、開発者にとって真に重要なニュースのみを厳選して抽出してください。ノイズや単なる製品PRは除外すること（目安: 3〜7件、最大10件）。\nなぜそれが面白いのか、技術的な意義や将来への影響を論理的に解説してください。"
+        "prompt_instruction": "以下の2軸でニュースを選んでください（目安: 5〜12件、最大15件）。\n①開発者にとって重要な技術動向・ツール・仕様変更・セキュリティ情報（重要度重視）。\n②実務の視点で示唆に富むもの：コミュニティで議論を呼んでいる設計論、反直感的なベンチマーク結果、実際に手を動かしたくなるOSSや技術記事など（バズりネタや単なる面白話は除外すること）。\n各トピックについて、なぜ開発者にとって意味があるのか、技術的な意義や実務への影響を解説してください。"
     }
 }
 
@@ -456,7 +458,10 @@ def generate_topics_for_genre(api_key, call_func, genre, title, news_text, instr
     - topics は **重複禁止（headline と url の重複を禁止）**。
     - 抽出するニュースについて、提供されたテキスト内のURLを一文字も改変・省略せずにそのまま転記すること。
     - 必ず以下のJSONスキーマに従って日本語のみで出力してください。Markdown of json format.
-    - 各ニュースについて、その重要度やインパクトの大きさ（importance）を 1 から 5 の整数値で設定してください（5が最も重要、1が最も低い）。
+    - 各ニュースについて、以下3つの指標をそれぞれ1〜5の整数値で設定してください。
+      - importance: 社会的・経済的・技術的インパクトの大きさ（5が最大）
+      - novelty: 新規性。このテーマが本日初めて報じられた・新展開なら高く、既報の繰り返しや続報なら低く設定（5=完全新規、1=既知の繰り返し）
+      - japan_relevance: 日本市場・日本のエンジニア・日本社会への直接的な関連度（5=直結、1=ほぼ無関係）
 
     JSONスキーマ:
     {{
@@ -467,7 +472,9 @@ def generate_topics_for_genre(api_key, call_func, genre, title, news_text, instr
           "impact": "★重要★ 意義や影響の論理的な解説",
           "date": "ニュースの日付 (例: 10/24 等)",
           "url": "ニュースの元のURL（改変禁止）",
-          "importance": 3
+          "importance": 3,
+          "novelty": 3,
+          "japan_relevance": 3
         }}
       ]
     }}
@@ -766,6 +773,10 @@ def main():
                     t["fetched_at"] = fetched_at_str
                     if "importance" not in t:
                         t["importance"] = 3
+                    if "novelty" not in t:
+                        t["novelty"] = 3
+                    if "japan_relevance" not in t:
+                        t["japan_relevance"] = 3
                     genre_topics.append(t)
                     
                 if gemini_key:

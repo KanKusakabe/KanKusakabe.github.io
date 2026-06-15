@@ -13,7 +13,9 @@
               "date": "05/30",
               "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNLV9uY0htdjk3RFJxUlNTYmRsRWtrRWR5Um9ZcmdPVDZaTUYwbzJqaFN6dy0tWTk3allVdk5TaGpyYzEyRjBrZGhpZ2JKZGpvWGRXWkczdjZmNE9kS3FZRGR1VHVQQUExRHNwSW1lUmwxTXJxQ1F3ZFNidWF0UnN2UV9neEpNd2hnNHo0cE9JQl9PRF8zWnRjdTZlbm5kc1hDbkZqVw?oc=5",
               "importance": 5,
-              "fetched_at": "2026-05-30T16:35:47.938611+09:00"
+              "fetched_at": "2026-05-30T16:35:47.938611+09:00",
+              "novelty": 3,
+              "japan_relevance": 5
             },
             {
               "headline": "イランがクウェート米空軍基地をミサイル攻撃、米国人に負傷者発生。ペンタゴンは報復攻撃の再開を警告",
@@ -22,7 +24,9 @@
               "date": "05/30",
               "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNSzZTdFNEU2ZBNV83YkFtbG9DX3VzdW8xdkUxbFNobTdSdmE1S2N4SzVxemE1VUx6aGZZQVZ1endOWm5GU0xXbURjMVNXYlJxSDM2VXNZvlFoMEI1UUs1WGxRQlFuQkVxQlRYZUxQbnA2azF0Z2kwVWp2RHJzMzY5aUl3Y3N3M2ctYmJPaGVOZ3NDVHZPUHBwd1pLVGRFYkNManV4SDBJN3FETmdKc2JUNi05V00?oc=5",
               "importance": 5,
-              "fetched_at": "2026-05-30T16:35:47.938611+09:00"
+              "fetched_at": "2026-05-30T16:35:47.938611+09:00",
+              "novelty": 4,
+              "japan_relevance": 4
             },
             {
               "headline": "トランプ米政権、北米自由貿易での「域内部品調達率（自動車）」を82%へ引き上げ、うち半分を米国製とする過酷な要求を提示",
@@ -31,7 +35,9 @@
               "date": "05/29",
               "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPRlVKUzlVMWk3R2drSW5iOUZQeURZSVdMbmN5TXZiVndReC1BZ2JockQtbFZLQXVfQ0pyRU1MUGRYMHFReUNaam0wc3FZRjhjckxFYkJfcE1qVzg1U3NOcXJvb29rMXU4b1FlR0dnMVJkNExXeER4S0Jtem5qczA3ZWhHbHhMUk1OQkd6NHhqVEFZOWdDVUtRcW9vUDJhRWVFR2ZvWjR3cTRhSFpVVjU5bzlfUU5aSW0ySkIyc3NWalFac1lMVEN2ODlhU2VLWnNOWWszeFkweThLZw?oc=5",
               "importance": 5,
-              "fetched_at": "2026-05-30T16:35:47.938611+09:00"
+              "fetched_at": "2026-05-30T16:35:47.938611+09:00",
+              "novelty": 4,
+              "japan_relevance": 5
             },
             {
               "headline": "EUがより厳しい「対中通商政策」に合意、北京側は「報復措置」を表明し貿易戦争の危機へ",
@@ -40,7 +46,9 @@
               "date": "05/29",
               "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNV3dWOVpUZldOcWpPTGI4aHlVUkNXdmVnaHN5TmVrNmhPTmNWWDhrM1RiZmtvTzQ3NGZnSklsUW9saWdQN0Jqb2NwTjVUOXJUS2toeFIzc3NhR0FCdXJQN3pnMVhMUHpTMW9Ub3VQc2xfVHIyS1RscDZZei1CeldDam1rbjJjZGhXUE1MS2lMN2FnMGJjMlZ5ellWdlpKWW1zZzRmSVpwZWNDUDU1VGVVdHVkUkJONklsZVdBY0NTUVIwZnQtaTRVVmVUMC1na3FQRHRv0gHTAUFVX3lxTE1ZdUg1dUdFdXpCbEx3Uk96R0hjUGs5d3RtRzdWcnNQQ0tnT1AybXcwY0piMGVYcGY4amw4M3NSZEZIc2ExeVY1azltaW14MW1IY3lZbEdwTEd1Ri1TZnBHVVR3UGFfS1FVNE1kRGVFMDN1YVUwdGc5c0MwSXlBRGlVNkVKM0FCYkFiMWpmMlI2RDdIa1l5WTVzSXhVNGM1WF9ZcnREcFdiMlF1Y0o5bUNxcFhnblZXeTBwemV1Ri05THpjYkxRV2lVblpabzlaN2dSdTg?oc=5",
               "importance": 4,
-              "fetched_at": "2026-05-30T16:35:47.938611+09:00"
+              "fetched_at": "2026-05-30T16:35:47.938611+09:00",
+              "novelty": 2,
+              "japan_relevance": 4
             },
             {
               "headline": "カナダ経済、関税の不確実性から予想外の「テクニカル・リセッション（景気後退）」に突入",
@@ -49,7 +57,9 @@
               "date": "05/29",
               "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPR3FxR1BJTUFCRGMzcm1STDI5cW8xZURFaEk0Q0VLQTV6M1NXWHo4eVc0Yk9SRjg5Mng3VUEzTUp6ellwZGxaT00xR3BmUE8yRklucnJuVWZUTF9UM3pSaHQ4UGF1Y2dOMnMwY1VJN0JUVTZqWnA5YnBSTzVPY25DWXRRSlZqYzlxbmpOaGJHbGdlWUFVR1MzeXU3Y24tZWJnc0ZaNFNjUVIyUkIweU1VbV95eXhoX3dvUHJxdkl3?oc=5",
               "importance": 4,
-              "fetched_at": "2026-05-30T16:35:47.938611+09:00"
+              "fetched_at": "2026-05-30T16:35:47.938611+09:00",
+              "novelty": 4,
+              "japan_relevance": 3
             },
             {
               "headline": "ロシア財政、ウクライナ戦争コストが予想を280億ドル上回り窮地に。ウクライナの「AIドローン」が防衛網を打破",
@@ -58,7 +68,9 @@
               "date": "05/29",
               "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQUVdBcG1oTnQ2MEtUcjMzX2x6UF84VlhaVzMxVFp6R1kzX1ZGUzJ4SGYyY2FlV1VnYnhtMlB2bF9UM1gxZTQ2cWc5RkdsNG5TNzdGQmVXTTFIbWp0SXhHSVliZzJNYzNnc2RwSHNGc0FrbjRHRnR6akxsTDRKQjRTNFpxWHhTWUJDTERVTWF0S0lrMFA0eDdiMXNpcWlIYm9pcHhLaTFtRUxHRTNwc0RBaTdwZG1Rdw?oc=5",
               "importance": 4,
-              "fetched_at": "2026-05-30T16:35:47.938611+09:00"
+              "fetched_at": "2026-05-30T16:35:47.938611+09:00",
+              "novelty": 4,
+              "japan_relevance": 2
             },
             {
               "headline": "インテルと3DGS、インドのオリッサ州に33億ドル規模の次世代半導体基板工場を設立へ",
@@ -67,7 +79,9 @@
               "date": "05/29",
               "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNNDZUNXV4VUJOSTN1VmZHT1BDdldqSGhFQ1NIYmFZRWQzTDcyNHVKeGhGWjE2LTlkODhMc0RoWHBQN0Z6UzlxajNJM0kxVW1pVVFGVjBNeWlwanNKaDA0dDN1dEFSdUtoU1dveHNtNlpobnRLdjh5UXc4S0kxX1VLWnZCd2xIQ0pyc0VWSnEtb2Rrc09fcm95b1NMbnNhWXRCOUVqc3B6WVVGdC1LUmZlZ2hB?oc=5",
               "importance": 4,
-              "fetched_at": "2026-05-30T16:35:47.938611+09:00"
+              "fetched_at": "2026-05-30T16:35:47.938611+09:00",
+              "novelty": 3,
+              "japan_relevance": 3
             },
             {
               "headline": "ロシアがカザフスタンと165億ドルの原子力発電所建設契約を締結、カザフはイラン製濃縮ウランの保管受託も表明",
@@ -76,7 +90,9 @@
               "date": "05/29",
               "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE4zR1BZVkdVYUtzazl6clc2VUtLWjA0QnpRMUkzX1dodlp2NHFyU3o0YzVpZUlhN3RMTktUaE5WNnNpZUNON1BYTzNHM2dUS1lFXzlJ?oc=5",
               "importance": 4,
-              "fetched_at": "2026-05-30T16:35:47.938611+09:00"
+              "fetched_at": "2026-05-30T16:35:47.938611+09:00",
+              "novelty": 5,
+              "japan_relevance": 2
             },
             {
               "headline": "EUがハンガリーへの164億ユーロ（約2.8兆円）の資金凍結を解除、親EUの新首相就任で政策転換を評価",
@@ -85,7 +101,9 @@
               "date": "05/29",
               "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNZzQ5TlFNU2JVdVh5dkhSSXhWODRMdlp3blZtV3NfdDV3azEwQ2VEZFVkaFFEb1dBTXItSi1ldTZaWGhiTzN1N2Y3UExEMVhIY0hrUFc4bnRPczVHVzFtMTc4bnZDemxjaEVwekRrbXhCb0VkaXRtcFJCTnNQQVpZaGl1WjJzWER4UlB1S3dQbFZZT1dDSWtIZVVXY2drR2k5QURMdEdGQ2FTeFo5NXhYNzdlYkd1b0EwaFM0?oc=5",
               "importance": 3,
-              "fetched_at": "2026-05-30T16:35:47.938611+09:00"
+              "fetched_at": "2026-05-30T16:35:47.938611+09:00",
+              "novelty": 4,
+              "japan_relevance": 2
             },
             {
               "headline": "南米ボリビアで「国民的反乱」が勃発、労働者・先住民が全国をロックダウンし大統領は「国が限界」と警告",
@@ -94,7 +112,9 @@
               "date": "05/28",
               "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPUnRJMEpwS0pEMGpIUlBwUzI0LTBXZjlOalRITDdpMDZnSGJmOWZmbHh4d3JrV0hwNWpJZlM3QW1seEtlVGJrUG41dmpiVTBpT05xUV9ZTUQ1NHhXQVBiUkdsY1NGaDZtU1B5N3dmUWRZdHlTTlhHTzF3M3ZTQkFxZXQ5VnpXT1hFZTJJUVhKS09zTnAwVWo1a3lPSllxc2Q5UFBZbk5zcEx5WVk3RTc5SA?oc=5",
               "importance": 3,
-              "fetched_at": "2026-05-30T16:35:47.938611+09:00"
+              "fetched_at": "2026-05-30T16:35:47.938611+09:00",
+              "novelty": 3,
+              "japan_relevance": 4
             }
           ]
         },
@@ -109,7 +129,9 @@
               "date": "05/28",
               "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBlY0ktWXlTWnFucnRFeVdnWWMzMVp1dVhRODEzTDl3Zks4X3ZSQ3Z3aHhMSnkzTkxPOGdCandoUVVSd0VaZTJxY1JJZHgzSVR5dFZibUVfdW1wTExWWG05Y2JKLVZ4cmEzMnc?oc=5",
               "importance": 5,
-              "fetched_at": "2026-05-30T16:35:47.938611+09:00"
+              "fetched_at": "2026-05-30T16:35:47.938611+09:00",
+              "novelty": 4,
+              "japan_relevance": 4
             },
             {
               "headline": "Anthropicが驚異の9650億ドル評価額を達成、新AI「Mythos」公開控えOpenAIを猛追",
@@ -118,7 +140,9 @@
               "date": "05/29",
               "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPeEYweUhONDZuY3lWbG1FUnFITTR2UkI3UFlLY2h6c3ZwYUl2QkFDSEtmSUItVU1tN3RYZ2dpdHRFaC1EZXcyZS0tYU1aVG9ubHNwem1UdUFHTm5Dd3RveTJBbkNzVlA4akp5ZnktM2ZzVFpMYm9hZHM3N08wTEF6YndwRlJySDI0UGk0U0cxeUxvZFFKVVZBaXAtNW5sVXZKdWN2RzRJRjFOQQ?oc=5",
               "importance": 5,
-              "fetched_at": "2026-05-30T16:35:47.938611+09:00"
+              "fetched_at": "2026-05-30T16:35:47.938611+09:00",
+              "novelty": 5,
+              "japan_relevance": 3
             },
             {
               "headline": "日経平均が史上初の6万6000円台へ急騰、世界的なAIデータセンター投資が主導",
@@ -127,7 +151,9 @@
               "date": "05/29",
               "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBqVHdsQkRjenRPY2xnY0VDTjJ2U3RrSXJaTG9IRXF4dGNWZ2hhQzlidzUtVzhYNDNCNXloTWREZWJKa3FsTHpXRlVZQlFQVm56ekZIX1dOeDQ1VXZKOTdIX2F6S0F2bG1EXzlORA?oc=5",
               "importance": 5,
-              "fetched_at": "2026-05-30T16:35:47.938611+09:00"
+              "fetched_at": "2026-05-30T16:35:47.938611+09:00",
+              "novelty": 5,
+              "japan_relevance": 5
             },
             {
               "headline": "デルの決算が爆発的急伸、AIサーバー需要の強さが実証され株価30%超上昇",
@@ -136,7 +162,9 @@
               "date": "05/29",
               "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPcVJqdDdzRnFib0ZkeU1rd1F6WlZrOHF4cTB2MGVoLUhqRlNJNzY1RXY0MHBpcHhNUXBQODVMSlNRd0c5N292QnRTcUZpRkpvR2dVYnVLSm1YalVEUkZ0blV6UllTZTJPaUtlU2VfbDZjWk1ESWYwcGtwRzAzWHV3UjN0dS1Oc1ExNXNLSHVmRmRBQy1xOWFyN3ZaNjFFdDVzYWxEcGN4UTBmdUs1bV9ySnpBaTVRSkdQMkZqcg?oc=5",
               "importance": 4,
-              "fetched_at": "2026-05-30T16:35:47.938611+09:00"
+              "fetched_at": "2026-05-30T16:35:47.938611+09:00",
+              "novelty": 3,
+              "japan_relevance": 2
             },
             {
               "headline": "米SECが企業の「温室効果ガス排出・気候リスク」開示ルール撤回案を提出、政策大転換へ",
@@ -145,7 +173,9 @@
               "date": "05/29",
               "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNUVpaM0NweWJRdjg4N09Td3psRXBDRFdmMWtHSzNCckpNLXcyNmJ3MHlzQ2FBcEtWT1JRWmdWY25NcHNObXBUNlZ0SVAzOVVpbmpVUDBRRGVrSG5xcHVLLW9YcUZES2ZWSHViWkozWTZEM3BVUDBFY3IxU19GZnJjU19NbEY4QlZmcW5RWmJmOEt6WHQ1ODh0Qjd0NGtYcDlBRmc?oc=5",
               "importance": 4,
-              "fetched_at": "2026-05-30T16:35:47.938611+09:00"
+              "fetched_at": "2026-05-30T16:35:47.938611+09:00",
+              "novelty": 4,
+              "japan_relevance": 3
             },
             {
               "headline": "ブルーオリジンの超大型ロケット試験で大爆発、宇宙覇権争いでスペースXが独走か",
@@ -154,7 +184,9 @@
               "date": "05/30",
               "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQSzBtWmh1VlJhQ1h1X25TTzBqSjV0Um9ZOVNBVl8zNTZPTVMyR2dXWHRRY25DN05vd0twTzV6Y2tSclVyc3dOZ2hfRmpSNEJTalNPbWs1WDUtT3N4cXBWZ0RSOHNLSEVaTXBEVHlzZUFadEdEeG13T2RtNUxaUnF1X0JNcms5N0Zta3VFeDhMUFpOZ2FPS2kycWlpWGkwZzB3UElLZm9nQTVTcEt2N3hJa3lVbUhzTUk0TmtXNQ?oc=5",
               "importance": 4,
-              "fetched_at": "2026-05-30T16:35:47.938611+09:00"
+              "fetched_at": "2026-05-30T16:35:47.938611+09:00",
+              "novelty": 4,
+              "japan_relevance": 2
             },
             {
               "headline": "日本の11.7兆円規模の巨額為替介入は「効果1円」に留まる、円安根本解決ならず再び160円近辺へ",
@@ -163,7 +195,9 @@
               "date": "05/28",
               "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFA3dENaWHA1T2ZycjBQamdJcFJCTHp2UHZKLUt6RGdmZW1Qc2x1TGxZN2tJNFltV3V2WjV2MnNva0hLU19yMWxLc3pyTGNhd3VUM21FM1hxTk9sWHJHQ2pnV3RsTTdDYmlNQUhmSQ?oc=5",
               "importance": 4,
-              "fetched_at": "2026-05-30T16:35:47.938611+09:00"
+              "fetched_at": "2026-05-30T16:35:47.938611+09:00",
+              "novelty": 4,
+              "japan_relevance": 5
             },
             {
               "headline": "2025年国勢調査で日本の人口が5年間で309万人減少、横浜や広島など大都市も戦後初の人口減",
@@ -172,7 +206,9 @@
               "date": "05/28",
               "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1UUnZvYjFWejcxRHYwWU1xSGFicXdZUW9XNk52N1hhbXlKdkJzbUN3Qi13VVZJelVtSTZJbWNhZGdhMHBuMFJyeVdiRVpzd0dJZEkxWjlPNXZEVk5VdlZpTDZVY2hHZjFuMVotcw?oc=5",
               "importance": 4,
-              "fetched_at": "2026-05-30T16:35:47.938611+09:00"
+              "fetched_at": "2026-05-30T16:35:47.938611+09:00",
+              "novelty": 4,
+              "japan_relevance": 5
             },
             {
               "headline": "トヨタ新社長、EVセダン開発中止を表明「EVの採算徹底」へ戦略を再編",
@@ -181,7 +217,9 @@
               "date": "05/29",
               "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5KemtrdEJ4Y1NCdnZaUkJQNW9pQ0tyVTlxdFBrTWhrWWw2ZWNhMGFjc1pyc3FERUdIeVJJQ3ZqZ3pobWRzcFFfbmJFNFRMdEw4eVY1c0I4a1Q3aWpUZUl1NE5KQWtmYzFRRTM2NA?oc=5",
               "importance": 4,
-              "fetched_at": "2026-05-30T16:35:47.938611+09:00"
+              "fetched_at": "2026-05-30T16:35:47.938611+09:00",
+              "novelty": 4,
+              "japan_relevance": 5
             },
             {
               "headline": "米宇宙軍、SpaceXに41.6億ドルの極超音速ミサイル追跡衛星ネットワーク構築契約を授与",
@@ -190,7 +228,9 @@
               "date": "05/29",
               "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQc2tWMHlwNmsyNFZHbWZLTlJZSmFQZkpXMnZVZVVqYWNpOE5wVTU0enA1LXR0NS15Ymd4amtnUG1GbEtQT2hZbTQ4RGp5Rk1mNFY5dGZUeENrYVRuNDlnanVjNXZBaXBzV1dyWkJaZlZxc2F1QjNBcG9pZ0V2elRQczNVaw?oc=5",
               "importance": 4,
-              "fetched_at": "2026-05-30T16:35:47.938611+09:00"
+              "fetched_at": "2026-05-30T16:35:47.938611+09:00",
+              "novelty": 3,
+              "japan_relevance": 2
             }
           ]
         },
@@ -205,7 +245,9 @@
               "date": "5/29",
               "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOMnVnaVduS1pTYmdDRi14RjhvVGFxUzJLb0tiQkVROVdtSFd4S1lrTTZDOC1RR00zcTZoa29qeThVZmhyVFlQME5lVFRuS0o2cUw5QUFqTXp5WUJNZUdkc3h0dE1WYnFBQzl6dEk4RHFEWkgwZDVaeEFHdllkTnBDb3NJanRLSHpiUGlqOHNvSGNsMVlxcURMdFJjNm1MLWhBSlFpOGNuX1hzcHZjQ3BJ?oc=5",
               "importance": 5,
-              "fetched_at": "2026-05-30T16:35:47.938611+09:00"
+              "fetched_at": "2026-05-30T16:35:47.938611+09:00",
+              "novelty": 5,
+              "japan_relevance": 3
             },
             {
               "headline": "AIの最大のボトルネックは「メモリ」にあり。新興半導体スタートアップが1億3500万ドルを調達",
@@ -214,7 +256,9 @@
               "date": "5/29",
               "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOSVM5NDFGdDBPVjJBNmlEYmdEU3BOa3ZiUFlpYlNpVEM5TXlONFlKU0M2VEZIU0NQYWtNNjM5TUVTUzBucGNnWUtVVHV2RHlxeW5CUWttbnViTWI3clBrZ3VPcFlWS01XR00zNFpYSVJLUndOcV9SbHVSOTRrSGtld21EcTlXeG9fRTIxWDB1UXhiSkNxeUE3MWhTWks0M1IxRDhicV9UbU5qOUFUX3FIOTF3?oc=5",
               "importance": 5,
-              "fetched_at": "2026-05-30T16:35:47.938611+09:00"
+              "fetched_at": "2026-05-30T16:35:47.938611+09:00",
+              "novelty": 4,
+              "japan_relevance": 3
             },
             {
               "headline": "半導体チップ設計を自律化する「AgentEngineer」の登場と技術的仕組み",
@@ -223,7 +267,9 @@
               "date": "5/29",
               "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5zRGpIbkZ4MjdvelpsNEFwWU9yY3NsUnlaXy16Qk9famZtN25FNUN1endsMmQ1dy04cWVEdGJuY09DNkdLY3cyYVBLSGRWeS1pQUUyZkttOG1rdDFza25penNYUQ?oc=5",
               "importance": 4,
-              "fetched_at": "2026-05-30T16:35:47.938611+09:00"
+              "fetched_at": "2026-05-30T16:35:47.938611+09:00",
+              "novelty": 5,
+              "japan_relevance": 4
             },
             {
               "headline": "Okta、暴走する「自律型AIエージェント」の行動を制限・管理するセキュリティライセンスの策定へ",
@@ -232,7 +278,9 @@
               "date": "5/29",
               "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQY1poQVN3OW14aUh5TmFWcE9BNW9mQmZCZXQwZDQySERyc0RLa2dfbW91VFlNX2xEQm00bWNqWkt3WnFNQTBKdUswWW1XSG5GOHRtcFhLdWVncVhqLV9YZXdfZENGdmlucjE3M0l2TmpOZ0o1aFdkQjZpd05vV1M4SE5kdHhxdWdaN0FnNjFSQUtnbGhZSURfUmJvRVpOV085WVdzeGU1NA?oc=5",
               "importance": 4,
-              "fetched_at": "2026-05-30T16:35:47.938611+09:00"
+              "fetched_at": "2026-05-30T16:35:47.938611+09:00",
+              "novelty": 5,
+              "japan_relevance": 4
             },
             {
               "headline": "ChatGPTがブラウザのコンテンツを盲信し、Webページが攻撃ペイロード化するセキュリティ脆弱性が露呈",
@@ -241,7 +289,9 @@
               "date": "5/29",
               "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOaFk3QWRMaDZROXBwUUp5bmhEallGTzg2S05jaWNDd3RzUDFoQTl3d0dZT0lfU2tmS0hyRXowbVNFUFZ3djB2dVY3R3p5STNwX1h1MVY0cF9HMnpDc090c2lSYjE3S0FVSlZYcDJ6RHRmTkZSRHhtUXNwU05YZWthRlpLODhaYURyc0ZVb0dlZHd1VGNIVDFHb1U3VHlEMEtyN2h4WGhTcDNvcndhSUZyVWJmRXNVNE0?oc=5",
               "importance": 4,
-              "fetched_at": "2026-05-30T16:35:47.938611+09:00"
+              "fetched_at": "2026-05-30T16:35:47.938611+09:00",
+              "novelty": 4,
+              "japan_relevance": 5
             },
             {
               "headline": "QEMU、これまで完全禁止していたAI生成コードのコントリビューション規制緩和を検討開始",
@@ -250,7 +300,9 @@
               "date": "5/29",
               "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNeDR6YUhBR0REcXZZT1FSTWo4WUF2X1cyTzh4TTl2dWZpUklDTGJrQ1BFU1NjSjcwOUI0TUlhYnBmVzYzSTFRUEtGOF9DWkxoUXpsS25hNXlpaFR0TVJubmFGdktCcFNzTGVBWFhOUnpWNHdJTXdibXVMemVmd0RUT0xiR1E0S2FTWEVvWUtmV1dvc0FzSUtR?oc=5",
               "importance": 4,
-              "fetched_at": "2026-05-30T16:35:47.938611+09:00"
+              "fetched_at": "2026-05-30T16:35:47.938611+09:00",
+              "novelty": 3,
+              "japan_relevance": 3
             },
             {
               "headline": "オープンソースGitサービス「Gogs」に未修正の重大なRCE（リモートコード実行）脆弱性、すでに悪用実証コードが流出",
@@ -259,7 +311,9 @@
               "date": "5/29",
               "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNR1NHeGpsQm9MeUY2S1l3WmhjQ0pEaFpaX2tmY2VXa1VhOGE1OUNiZnY2WUxyWnNxUnhqMXRXc0F0bTNMSlFyRi14cHRZdGVCa2lqVjNWVXJuNS1yNHFSU2JERmFHVGh2NUVTdk9hRkpVelVnZFYwWVFpTGtqbUgtUUFzMFZLTUd5aDF4SWZDOVNvU3lTS1RzcDZ3Z1NlYjdyRDJMeUZWbnJmSllFeXRtUHRWLTk?oc=5",
               "importance": 4,
-              "fetched_at": "2026-05-30T16:35:47.938611+09:00"
+              "fetched_at": "2026-05-30T16:35:47.938611+09:00",
+              "novelty": 3,
+              "japan_relevance": 3
             },
             {
               "headline": "AIチップスタートアップGroqが6億5000万ドルの大規模資金調達を検討。LPU市場での地盤強化へ",
@@ -268,7 +322,9 @@
               "date": "5/29",
               "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOTXlKS0xwSGRTYVd5TnF3NnFJMWxtRmFNZFVwR3AxM3QtV0dUWFhxREpNamRmREpHUGJtVlBLbS03OG9iMUJRUHFZWGRpRDE1OWlrX1NGLXVYVGRfYTNWeUI3aEdXS2p6dkQtZlA4Z1h5N1V5VlowenpOSTI0cVRaTDltM0ZHTDZCaUhlUGZHOUNmZmR3NGxmZjM1U2d1SXlTeFlXejVhQkV0c3ZFRjhJLS1B?oc=5",
               "importance": 4,
-              "fetched_at": "2026-05-30T16:35:47.938611+09:00"
+              "fetched_at": "2026-05-30T16:35:47.938611+09:00",
+              "novelty": 3,
+              "japan_relevance": 3
             },
             {
               "headline": "Microsoft、脆弱性を報告したセキュリティ研究者を「刑事告訴」の法的措置で脅迫し激しい非難を浴びる",
@@ -277,7 +333,9 @@
               "date": "5/29",
               "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOTzR4eWYxQURNS0luRXRha2tSWXMzZTkzdVRBZUx5MTVQSHBFTnRrZ0Y1Z1NjWjdlWFBhWk5nN2xCTXcyT05hcmk4eEpsX1lRQlJtSG4xaXkzOTVyY2x2aTNhbjA0d2UxbENQMTVWTEE3ZGJ5TXRPRFBwVFR4ZC1rUDdjSWZybEhwYWxiS2taNTI3SHZ1Y3VDaTJfTVhFUjhZZ0hxXy1GeDl6ZUdSbHZEcjhZanNkc2dsaHZJ?oc=5",
               "importance": 4,
-              "fetched_at": "2026-05-30T16:35:47.938611+09:00"
+              "fetched_at": "2026-05-30T16:35:47.938611+09:00",
+              "novelty": 4,
+              "japan_relevance": 4
             },
             {
               "headline": "「AIなしでの開発は拒否」：エンジニアのAI依存が生む、長期的スキルの空洞化リスク",
@@ -286,7 +344,9 @@
               "date": "5/29",
               "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOalhDZnNPdk91Z0RtN21kUjlzUW0wQTZjblhWYk13VXE3UmpQTkFvUlFoS1FzNUV2NTMwdVI0WHo4ZUl3UlVzLVpPSHA1REJwd0ZhYnBMc3RVMVV6NU5FQTZpaHBBTU0zdU9wRjRHbXQwU1Q1c0QtaEVOZUxKTW5seHhpaU9mckk1enFpNVo0WlhVSGRCNmpzejc1Zm4xeUg0VVQ2d3RuTlNSTDB1TFh4Zw?oc=5",
               "importance": 3,
-              "fetched_at": "2026-05-30T16:35:47.938611+09:00"
+              "fetched_at": "2026-05-30T16:35:47.938611+09:00",
+              "novelty": 3,
+              "japan_relevance": 5
             }
           ]
         },
@@ -301,7 +361,9 @@
               "date": "05/28",
               "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPRFNLZ2l4TTd6dl9xQXZVZVVxc3ZVZG03ZnowaHh2TXFvaWwxV2hFR0hEWXExaEptRTZSR2xzWE1CSUs2RlRBOVJoYkZWd0l5Z0VqTnJrSEZJMnZ4RkpCN1hOY1ljXzVORHBFTUZaXy1mMXF6YWhMOVdHcDZnVVV3czJXbU5zMXU5WkJmSXUydVFiYi0td0NuMVhDaFRWS3FJRGNtag?oc=5",
               "importance": 5,
-              "fetched_at": "2026-05-30T16:35:47.938611+09:00"
+              "fetched_at": "2026-05-30T16:35:47.938611+09:00",
+              "novelty": 3,
+              "japan_relevance": 3
             },
             {
               "headline": "ジェイムズ・ウェッブ宇宙望遠鏡が「宇宙物理学の常識を破る」初期宇宙の超巨大ブラックホールを発見",
@@ -310,7 +372,9 @@
               "date": "05/28",
               "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOampvcURJakgxWWZtcnZ3Sy1JbU4yMFdBWFdHNnRUY3p0UVJHLXZUZFlUanc1eDVIRHZRVjVBdFhzc1ZnZWZieGtBT3BxNUJNOFFMcm9iRnpPekZIbHNzWndyTXpzc0ItdXZLZHlvajBaUGN1U2tkMjdpcHE5dXJkQjE1YWxOVEUzRXlMVW1yTE5nRENteC1VWnFaaHY?oc=5",
               "importance": 5,
-              "fetched_at": "2026-05-30T16:35:47.938611+09:00"
+              "fetched_at": "2026-05-30T16:35:47.938611+09:00",
+              "novelty": 5,
+              "japan_relevance": 2
             },
             {
               "headline": "「雰囲気」でコードを書くAI依存開発者を排除するため、ソースコード内に「データ削除プロンプト」を隠す事例が発生",
@@ -319,7 +383,9 @@
               "date": "05/29",
               "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPUEw2TGR0Qjg4NDdpekQzQlk0N2s2WW82T3d1V2tpclhTS1BxeGJoa1pva0daUVgzdFFtR3Awc18yTGZHS2U1U3hTYmpTbnU4cVFtNFB1UXp1VGVXelUwSTlBS3VyWXp0SUpDYUp2X196ajkwMGxoaDg0ZWY2NlZnZkZOX3pXbGJsOVlEaGRfcUtGd1NGMjBMemt3WklpX1V0RU52U1RhbUw2a2Foa2M4cmxnUVRQRkNaekVBaVVGaWo3ZzlTb1hNZWNJTWdHZkoydGZoVGNn?oc=5",
               "importance": 5,
-              "fetched_at": "2026-05-30T16:35:47.938611+09:00"
+              "fetched_at": "2026-05-30T16:35:47.938611+09:00",
+              "novelty": 4,
+              "japan_relevance": 5
             },
             {
               "headline": "宇宙の微小重力環境を用いた幹細胞育成、がんや難病の新たな治療薬開発へ",
@@ -328,7 +394,9 @@
               "date": "05/28",
               "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNeGpqcUJSbGNkQzM3Nm91STM2SWotNXJ3UVRmb2dnNzIxTExXdjlSc3VIZWtQU1M4QkNuR2ZIbndKYUpzSVktOUxuUTZUbjBBNU9JcDlSR01BSUVjUGNVRC1LMkNXcmp2a0xoUVNVcFNtUHJqemswbmJlU3JiaXEyT2RlYlZ0dV91NEpRMzZqNzNWN0tLQ0MzV3ZNTXYxN1BJOG5pWkRHOWRVdzZfQkU2OFlwcW1iR0FLYzVYTA?oc=5",
               "importance": 4,
-              "fetched_at": "2026-05-30T16:35:47.938611+09:00"
+              "fetched_at": "2026-05-30T16:35:47.938611+09:00",
+              "novelty": 4,
+              "japan_relevance": 3
             },
             {
               "headline": "ハトの磁気受容ナビゲーションの謎を解明、決め手は「腸（Gut）」の関与",
@@ -337,7 +405,9 @@
               "date": "05/29",
               "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQakh3QlNveEM1M2dRRjJIWTYtWjcyd0NzM0NWSWVkSnlOMmJoN1Q5WjliRzdybXlOMlREMGFIM2xjV0tJNTh0TFZyTHFSb0VVMUE5LUEzbng3NjFPOTN3Y21rQTFCQlQ5cm9oSk1qNTBlcHE3WDI5cTF6MEF2cGJZdVJlcw?oc=5",
               "importance": 4,
-              "fetched_at": "2026-05-30T16:35:47.938611+09:00"
+              "fetched_at": "2026-05-30T16:35:47.938611+09:00",
+              "novelty": 5,
+              "japan_relevance": 2
             },
             {
               "headline": "ナマコの切断された付属肢が独立して生き続ける現象が判明、再生医療への応用期待",
@@ -346,7 +416,9 @@
               "date": "05/29",
               "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOQXhPMFdsODRETHlYSjlaSUFqRDE2WlFETXA0QzZGTzZxOTBoNU5yNmZ5cnR6aG5WOXVpWlh1WUI5dFRlVUlpYnlxZmpnZkZEWjFrTncxdW9jaThyLXdWQXNSR1dCblJyUjZiaFlBNFVJTzZia0VHQkNCZll1bF90a0VIdUtyNVY3U1dUUE80d0UyTFU?oc=5",
               "importance": 4,
-              "fetched_at": "2026-05-30T16:35:47.938611+09:00"
+              "fetched_at": "2026-05-30T16:35:47.938611+09:00",
+              "novelty": 4,
+              "japan_relevance": 2
             },
             {
               "headline": "ホヤへの電気パルス刺激で老化が「逆転」、幹細胞リチャージによる寿命延長へ光明",
@@ -355,7 +427,9 @@
               "date": "05/28",
               "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFB1TkdYS3U4ck44OEpmREo5WUhXMVVBdER5RUxHcFZWNE1qcWZv2s1vQnpZWGZ2QUVOLWtiZmtMc2xBZmNrb2pXdGg4VV9hc19xZS1ma3VfSUh5UlBpa1pURk1nTWRjbEtkOW9ja0x0ZURCSld3WTJkamtn?oc=5",
               "importance": 4,
-              "fetched_at": "2026-05-30T16:35:47.938611+09:00"
+              "fetched_at": "2026-05-30T16:35:47.938611+09:00",
+              "novelty": 5,
+              "japan_relevance": 3
             },
             {
               "headline": "脳内や体内の標的分子を極めて高感度に検出する新型MRIセンサーが開発",
@@ -364,7 +438,9 @@
               "date": "05/28",
               "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE50YkNoZ0pFY1Y1RlNhMV84S3RPYTk1cHBTWWJhUEh6dm9ibEo5MEZaOVRaaHl1SFFrdHV1Z044SE5Bbkt5YlZBdHBid0gyb3hvSXJjOHJyRHh5ZVpaam9TZUszRmkybUUzR2VsMkhlTmRmRmk5enc?oc=5",
               "importance": 4,
-              "fetched_at": "2026-05-30T16:35:47.938611+09:00"
+              "fetched_at": "2026-05-30T16:35:47.938611+09:00",
+              "novelty": 4,
+              "japan_relevance": 4
             },
             {
               "headline": "AI家事ロボット学習のため「無料訪問清掃と引き換えにデータ収集」を行うスタートアップが登場",
@@ -373,7 +449,9 @@
               "date": "05/29",
               "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOVEoyT1BCZk1OWWV6S0xpckVvdV9ESXJNM1VmUTZ2V29XRnRteW00S3g0ZmlFRGx6UFBJcjdsa1NaSTAxbGdUU0Zvcm1LUi04bVJpc3EyVE5YaWdhbmZmemtSamRYTHp3S3VuMXJBdXhqY3V2U2dyaU5MY0VvTVdMLWVGbTJkQXhNQkJYemlKb0JobmM0UFZsWFd5TUpZay1OTi04RWFySzR5bDBHcUdr?oc=5",
               "importance": 4,
-              "fetched_at": "2026-05-30T16:35:47.938611+09:00"
+              "fetched_at": "2026-05-30T16:35:47.938611+09:00",
+              "novelty": 4,
+              "japan_relevance": 4
             },
             {
               "headline": "「それは虚偽である」と事前に明示されてもLLMが誤った事実を信じてしまう認知脆弱性",
@@ -382,7 +460,9 @@
               "date": "05/29",
               "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOdHRxdWFwcnRRLUFyNVVHbElYcFhVNmRyNTFNdWdGSGdIRkZYWTgtRk1qR2RlLXpPQklRZkFFcWNBTW5PZ3B0TlBrSGdSbktCWlQtV3VXbDVpSHZsMjVxdHFvSzlJMUU3a1JiNDMtRnItZGJFM0loaldvblg0TWg3VnpuQ2JfOXdNUzU2alo2c3JYTkZLZ0diWVlzZGVkSjRrMEc3VTFwTmJCcVU0SVVuV252hFTUzlOWFZCNkQ1d2Q4TThIUGItNVVnT0htbEJMTjBuRw?oc=5",
               "importance": 4,
-              "fetched_at": "2026-05-30T16:35:47.938611+09:00"
+              "fetched_at": "2026-05-30T16:35:47.938611+09:00",
+              "novelty": 4,
+              "japan_relevance": 5
             }
           ]
         },
@@ -397,7 +477,9 @@
               "date": "05/29",
               "url": "https://zenn.dev/canly/articles/45da96250c7028",
               "importance": 5,
-              "fetched_at": "2026-05-30T16:35:47.938611+09:00"
+              "fetched_at": "2026-05-30T16:35:47.938611+09:00",
+              "novelty": 5,
+              "japan_relevance": 4
             },
             {
               "headline": "コーディングエージェントを標的にしたプロンプトインジェクション「Protestware」の出現",
@@ -406,7 +488,9 @@
               "date": "05/28",
               "url": "https://nesbitt.io/2026/05/28/protestware-for-coding-agents.html",
               "importance": 5,
-              "fetched_at": "2026-05-30T16:35:47.938611+09:00"
+              "fetched_at": "2026-05-30T16:35:47.938611+09:00",
+              "novelty": 5,
+              "japan_relevance": 4
             },
             {
               "headline": "MCP（Model Context Protocol）の実用上の課題と限界に関する検証",
@@ -415,7 +499,9 @@
               "date": "05/29",
               "url": "https://www.quandri.io/engineering-blog/mcp-is-dead",
               "importance": 4,
-              "fetched_at": "2026-05-30T16:35:47.938611+09:00"
+              "fetched_at": "2026-05-30T16:35:47.938611+09:00",
+              "novelty": 3,
+              "japan_relevance": 3
             },
             {
               "headline": "Liquid AIが38兆トークン学習の8B-MoEエッジモデルを発表、ツールコールを高速化",
@@ -424,7 +510,9 @@
               "date": "05/29",
               "url": "https://www.liquid.ai/blog/lfm2-5-8b-a1b",
               "importance": 4,
-              "fetched_at": "2026-05-30T16:35:47.938611+09:00"
+              "fetched_at": "2026-05-30T16:35:47.938611+09:00",
+              "novelty": 5,
+              "japan_relevance": 3
             },
             {
               "headline": "E2Eテスト駆動による「1行の指示で1時間自走する」Claude Codeエージェント運用の実証",
@@ -433,7 +521,9 @@
               "date": "05/28",
               "url": "https://zenn.dev/canly/articles/c7da70a520d1b8",
               "importance": 4,
-              "fetched_at": "2026-05-30T16:35:47.938611+09:00"
+              "fetched_at": "2026-05-30T16:35:47.938611+09:00",
+              "novelty": 4,
+              "japan_relevance": 4
             },
             {
               "headline": "耐久性のあるワークフロー（Durable Workflow）における「SQLiteで十分」という新たなアーキテクチャ論",
@@ -442,7 +532,9 @@
               "date": "05/29",
               "url": "https://obeli.sk/blog/sqlite-is-all-you-need-for-durable-workflows/",
               "importance": 4,
-              "fetched_at": "2026-05-30T16:35:47.938611+09:00"
+              "fetched_at": "2026-05-30T16:35:47.938611+09:00",
+              "novelty": 4,
+              "japan_relevance": 3
             },
             {
               "headline": "RustとWebAssemblyを用いてブラウザ上でOffice文書を完全描画するフルスクラッチOSSプロジェクト「Oxi」",
@@ -451,7 +543,9 @@
               "date": "05/28",
               "url": "https://zenn.dev/ryujiyasuko/articles/8a464ab4382a66",
               "importance": 4,
-              "fetched_at": "2026-05-30T16:35:47.938611+09:00"
+              "fetched_at": "2026-05-30T16:35:47.938611+09:00",
+              "novelty": 4,
+              "japan_relevance": 4
             },
             {
               "headline": "Claude CodeとCodexの2ヶ月併用比較、設定ファイル（settings.json）の育成が生産性の勝敗を分ける",
@@ -460,7 +554,9 @@
               "date": "05/27",
               "url": "https://zenn.dev/playpark/articles/claude-code-vs-codex-comparison",
               "importance": 4,
-              "fetched_at": "2026-05-30T16:35:47.938611+09:00"
+              "fetched_at": "2026-05-30T16:35:47.938611+09:00",
+              "novelty": 3,
+              "japan_relevance": 4
             },
             {
               "headline": "AIコーディングツールの料金体系は「ユーザー月額」から「実質API従量・トークン課金」へシフト",
@@ -469,7 +565,9 @@
               "date": "05/28",
               "url": "https://zenn.dev/tkithrta/articles/0378bc53599fb3",
               "importance": 3,
-              "fetched_at": "2026-05-30T16:35:47.938611+09:00"
+              "fetched_at": "2026-05-30T16:35:47.938611+09:00",
+              "novelty": 3,
+              "japan_relevance": 4
             },
             {
               "headline": "Ink & Switch、一意性と高速性を兼ね備えた可変長整数エンコーディング「bijou64」を開発",
@@ -478,7 +576,9 @@
               "date": "05/29",
               "url": "https://www.inkandswitch.com/tangents/bijou64/",
               "importance": 3,
-              "fetched_at": "2026-05-30T16:35:47.938611+09:00"
+              "fetched_at": "2026-05-30T16:35:47.938611+09:00",
+              "novelty": 4,
+              "japan_relevance": 2
             },
             {
               "headline": "Web APIにおけるJWT localStorage保存の危険性とBFFを用いたCookieセッションへの回帰",
@@ -487,7 +587,9 @@
               "date": "05/27",
               "url": "https://zenn.dev/khale/articles/web-session-jwt-cookie-history",
               "importance": 3,
-              "fetched_at": "2026-05-30T16:35:47.938611+09:00"
+              "fetched_at": "2026-05-30T16:35:47.938611+09:00",
+              "novelty": 2,
+              "japan_relevance": 5
             }
           ]
         }
