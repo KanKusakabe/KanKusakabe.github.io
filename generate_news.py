@@ -633,17 +633,21 @@ def main():
                 json_text = content[content.find('{'):content.rfind('}')+1]
                 prev_data = json.loads(json_text)
                 
-                prev_updated_str = prev_data.get("updated_at")
-                if prev_updated_str:
+                # 週間サマリー・用語解説は、最後に「週次データ自体」を更新した時刻を基準に判定する。
+                # 全体の updated_at は毎回更新されるため基準にできない（1日複数回実行だと永久にスキップされてしまう）。
+                prev_week_updated_str = prev_data.get("periods", {}).get("week", {}).get("updated_at")
+                if prev_week_updated_str:
                     try:
-                        dt_part = prev_updated_str.replace(" JST", "").strip()
+                        dt_part = prev_week_updated_str.replace(" JST", "").strip()
                         prev_updated_dt = datetime.strptime(dt_part, "%Y-%m-%d %H:%M")
                         elapsed_hours = (now.replace(tzinfo=None) - prev_updated_dt).total_seconds() / 3600.0
                         if elapsed_hours < 20.0:
                             should_update_synthesis = False
-                            print(f"前回の更新から {elapsed_hours:.1f} 時間しか経過していないため、週間要約と用語解説の生成をスキップし、前回のデータを引き継ぎます。")
+                            print(f"週間要約の前回更新から {elapsed_hours:.1f} 時間しか経過していないため、週間要約と用語解説の生成をスキップし、前回のデータを引き継ぎます。")
                     except Exception as ex:
-                        print(f"Error parsing prev updated_at: {ex}")
+                        print(f"Error parsing prev week updated_at: {ex}")
+                else:
+                    print("週間要約の更新時刻が見つからないため、今回生成します。")
                 
                 prev_synthesis = {
                     "week": prev_data.get("periods", {}).get("week", {}),
@@ -890,6 +894,8 @@ def main():
             week_data = synthesis_res.get("week", {})
             glossary_data = synthesis_res.get("glossary", {})
             summary_data = synthesis_res.get("summary", {})
+            # 週次データを更新したタイミングを記録（次回の更新判定に使用）
+            week_data["updated_at"] = now.strftime("%Y-%m-%d %H:%M JST")
             
         if gemini_key:
             total_api_usage["prompt_tokens"] += usage.get('promptTokenCount', 0)
