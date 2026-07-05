@@ -48,8 +48,10 @@ FEEDS = {
     "INFOQ": "https://feed.infoq.com/",
     "THE_REGISTER": "https://news.google.com/rss/search?q=site:theregister.com+when:1d&hl=en-US&gl=US&ceid=US:en"
 }
-TOPICS_PER_CATEGORY = 30
+TOPICS_PER_CATEGORY = 50
 DEFAULT_RSS_MAX_ITEMS = 12
+# 日次ビューに何時間ぶんの過去トピックをマージするか（数日ぶりのまとめ見に対応）
+PAST_TOPICS_WINDOW_HOURS = 72
 
 def clean_url(url):
     """Normalize URL by stripping query parameters and fragments, keeping path casing intact."""
@@ -370,7 +372,8 @@ def load_past_topics(archive_dir, now, hours=24):
                                 except ValueError:
                                     pass
                             else:
-                                if hours == 24 and i <= 1:
+                                # fetched_at が無い旧トピックは、日付ベースで窓内なら採用
+                                if i <= (hours // 24):
                                     is_recent = True
                                     
                             if is_recent:
@@ -441,6 +444,35 @@ def prune_archive(archive_dir: str, now) -> None:
                 print(f"アーカイブを間引きました: {fname}")
             except Exception as e:
                 print(f"アーカイブ書き込み失敗 ({fname}): {e}", file=sys.stderr)
+
+
+def build_available_days(archive_dir):
+    """アーカイブディレクトリを走査し、閲覧可能な日付(YYYY-MM-DD)を新しい順で返す。
+
+    トピックが1件も残っていない日は除外する（UIの日別ナビゲーション用マニフェスト）。
+    """
+    days = []
+    if not os.path.isdir(archive_dir):
+        return days
+    for fname in os.listdir(archive_dir):
+        if not fname.endswith(".json"):
+            continue
+        date_str = fname[:-5]
+        try:
+            datetime.strptime(date_str, "%Y-%m-%d")
+        except ValueError:
+            continue
+        try:
+            with open(os.path.join(archive_dir, fname), encoding="utf-8") as f:
+                data = json.load(f)
+        except Exception:
+            continue
+        categories = data.get("periods", {}).get("days", {}).get("categories", [])
+        total = sum(len(cat.get("topics", []) or []) for cat in categories)
+        if total > 0:
+            days.append(date_str)
+    days.sort(reverse=True)
+    return days
 
 
 def collect_weekly_topics(archive_dir, now):
@@ -663,11 +695,11 @@ def main():
         except Exception as e:
             print(f"Previous data could not be loaded or parsed: {e}")
             
-    # アーカイブから過去24時間のトピックをロード
+    # アーカイブから過去72時間（3日分）のトピックをロード
     past_topics = []
     if not args.bootstrap:
-        print("過去24時間のアーカイブを読み込み中...")
-        past_topics, _ = load_past_topics(archive_dir, now, hours=24)
+        print("過去72時間のアーカイブを読み込み中...")
+        past_topics, _ = load_past_topics(archive_dir, now, hours=PAST_TOPICS_WINDOW_HOURS)
         print(f"マージ対象の過去トピック: {len(past_topics)}件")
         
     # 処理済みキャッシュのロード
@@ -967,17 +999,21 @@ def main():
     
     archive_path = os.path.join(archive_dir, f"{now.strftime('%Y-%m-%d')}.json")
     try:
-        with open(output_path, 'w', encoding='utf-8') as f:
-            f.write("window.newsData = ")
-            json.dump(final_response, f, ensure_ascii=False, indent=2)
-            f.write(";\n")
-        print(f"要約ニュースデータを保存しました: {output_path}")
-        
+        # 先に当日アーカイブを保存 → 間引き → 閲覧可能な日付一覧を確定してから news_data.js を書く
         with open(archive_path, 'w', encoding='utf-8') as f:
             json.dump(final_response, f, ensure_ascii=False, indent=2)
         print(f"アーカイブを保存しました: {archive_path}")
 
         prune_archive(archive_dir, now)
+
+        # 日別アーカイブ閲覧UI用に、閲覧可能な日付マニフェストを埋め込む
+        final_response["available_days"] = build_available_days(archive_dir)
+
+        with open(output_path, 'w', encoding='utf-8') as f:
+            f.write("window.newsData = ")
+            json.dump(final_response, f, ensure_ascii=False, indent=2)
+            f.write(";\n")
+        print(f"要約ニュースデータを保存しました: {output_path}")
     except Exception as e:
         print(f"ファイル保存エラー: {e}", file=sys.stderr)
         sys.exit(1)

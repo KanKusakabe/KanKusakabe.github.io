@@ -279,8 +279,14 @@
   <script>
     let newsData = null;
     let activeWordFilter = null;
-    const TOPICS_PER_CATEGORY = 30;
-    const INITIAL_VISIBLE_TOPICS = 4;
+    const TOPICS_PER_CATEGORY = 50;
+    const INITIAL_VISIBLE_TOPICS = 6;
+
+    // --- 日別アーカイブ閲覧の状態 ---
+    let viewData = null;        // 現在表示中の日のデータ（既定は最新=newsData）
+    let availableDays = [];     // 閲覧可能な日付(YYYY-MM-DD)を新しい順で保持
+    let currentDayIndex = 0;    // availableDays 内の表示位置（0 = 最新）
+    const dayCache = {};        // アーカイブJSONのフェッチ結果キャッシュ
 
 
 
@@ -466,7 +472,12 @@
         }
         
         if (!newsData) throw new Error('Data is empty');
-        
+
+        // 日別アーカイブ閲覧の初期化: 最新日を先頭に、閲覧可能な日付一覧を用意
+        viewData = newsData;
+        availableDays = Array.isArray(newsData.available_days) ? newsData.available_days.slice() : [];
+        currentDayIndex = 0;
+
         document.getElementById('update-time').innerText = newsData.updated_at || '未設定';
         
         if (newsData.token_usage) {
@@ -561,11 +572,89 @@
       `;
     }
 
+    // --- 日別アーカイブ・ナビゲーション ---
+    function formatDayLabel(dateStr, isToday) {
+      if (!dateStr) return '';
+      const parts = dateStr.split('-');
+      if (parts.length !== 3) return dateStr;
+      const wd = ['日','月','火','水','木','金','土'];
+      const dObj = new Date(Number(parts[0]), Number(parts[1]) - 1, Number(parts[2]));
+      const w = isNaN(dObj) ? '' : `（${wd[dObj.getDay()]}）`;
+      return `${Number(parts[1])}月${Number(parts[2])}日${w}${isToday ? ' · 今日' : ''}`;
+    }
+
+    function buildDayNavHtml() {
+      // 履歴が無ければ（アーカイブ1日以下）ナビは出さない
+      if (!Array.isArray(availableDays) || availableDays.length <= 1) return '';
+      const dateStr = availableDays[currentDayIndex] || availableDays[0];
+      const isToday = currentDayIndex === 0;
+      const hasNewer = currentDayIndex > 0;                          // 新しい日へ
+      const hasOlder = currentDayIndex < availableDays.length - 1;   // 古い日へ
+      const btn = (enabled, onclick, label) => `
+        <button ${enabled ? `onclick="${onclick}"` : 'disabled'}
+          class="flex items-center gap-1 px-3 py-1.5 rounded-lg text-xs font-bold border transition-colors ${enabled ? 'bg-white text-slate-700 border-slate-200 hover:border-indigo-300 hover:text-indigo-600' : 'bg-slate-50 text-slate-300 border-slate-100 cursor-not-allowed'}">
+          ${label}
+        </button>`;
+      const todayBtn = isToday ? '' : `
+        <button onclick="goToday()" class="px-3 py-1.5 rounded-lg text-xs font-bold border border-indigo-200 bg-indigo-50 text-indigo-600 hover:bg-indigo-100 transition-colors">今日へ戻る</button>`;
+      return `
+        <div class="max-w-4xl mx-auto w-full mb-6">
+          <div class="flex items-center justify-between gap-3 bg-white/80 border border-slate-200 rounded-xl px-4 py-3 shadow-sm">
+            <div class="flex items-center gap-2">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-indigo-500" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" /></svg>
+              <span class="text-sm font-bold text-slate-800 font-outfit">${formatDayLabel(dateStr, isToday)}</span>
+              ${isToday ? '' : `<span class="text-[10px] font-bold text-amber-600 bg-amber-50 border border-amber-200 px-2 py-0.5 rounded-full">アーカイブ</span>`}
+            </div>
+            <div class="flex items-center gap-2">
+              ${todayBtn}
+              ${btn(hasOlder, 'goOlderDay()', '<svg xmlns=\'http://www.w3.org/2000/svg\' class=\'h-3.5 w-3.5\' fill=\'none\' viewBox=\'0 0 24 24\' stroke=\'currentColor\' stroke-width=\'2.5\'><path stroke-linecap=\'round\' stroke-linejoin=\'round\' d=\'M15 19l-7-7 7-7\'/></svg> 前の日')}
+              ${btn(hasNewer, 'goNewerDay()', '次の日 <svg xmlns=\'http://www.w3.org/2000/svg\' class=\'h-3.5 w-3.5\' fill=\'none\' viewBox=\'0 0 24 24\' stroke=\'currentColor\' stroke-width=\'2.5\'><path stroke-linecap=\'round\' stroke-linejoin=\'round\' d=\'M9 5l7 7-7 7\'/></svg>')}
+            </div>
+          </div>
+        </div>`;
+    }
+
+    async function loadDay(index) {
+      if (!Array.isArray(availableDays) || availableDays.length === 0) return;
+      const clamped = Math.max(0, Math.min(index, availableDays.length - 1));
+      if (clamped === 0) {
+        currentDayIndex = 0;
+        viewData = newsData;
+        activeWordFilter = null;
+        renderNews();
+        return;
+      }
+      const dateStr = availableDays[clamped];
+      try {
+        let data = dayCache[dateStr];
+        if (!data) {
+          const res = await fetch(`./archive/${dateStr}.json?t=` + new Date().getTime());
+          if (!res.ok) throw new Error(`archive fetch failed: ${res.status}`);
+          data = await res.json();
+          dayCache[dateStr] = data;
+        }
+        currentDayIndex = clamped;
+        viewData = data;
+        activeWordFilter = null;
+        renderNews();
+        document.getElementById('news-content')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      } catch (err) {
+        console.error(err);
+        alert('この日のアーカイブを読み込めませんでした。');
+      }
+    }
+
+    function goOlderDay() { loadDay(currentDayIndex + 1); }
+    function goNewerDay() { loadDay(currentDayIndex - 1); }
+    function goToday() { loadDay(0); }
+
     function renderNews() {
       updateFilterStatusUI();
       if (!newsData) return;
       
-      const periodDataDays = newsData.periods['days'];
+      // 日別アーカイブ閲覧: viewData が選択中の日のデータ（既定は最新=today）。週次トレンドは常に最新を表示。
+      const activeDayData = viewData || newsData;
+      const periodDataDays = activeDayData.periods['days'];
       const periodDataWeek = newsData.periods['week'];
       
       const newsContent = document.getElementById('news-content');
@@ -778,7 +867,7 @@
           </section>
         `;
 
-        finalHtml += gridHtml + summaryHtml;
+        finalHtml += buildDayNavHtml() + gridHtml + summaryHtml;
       }
 
       newsContent.innerHTML = finalHtml;
