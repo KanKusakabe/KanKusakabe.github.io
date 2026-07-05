@@ -37,6 +37,7 @@ FEEDS = {
     "CNBC_BUSINESS": "https://news.google.com/rss/search?q=site:cnbc.com+when:1d&hl=en-US&gl=US&ceid=US:en",
     "JAPAN_BUSINESS": "https://news.google.com/rss/search?q=site:nikkei.com&hl=ja&gl=JP&ceid=JP:ja",
     "GLOBAL_SCIENCE": "https://news.google.com/rss/headlines/section/topic/SCIENCE?hl=en-US&gl=US&ceid=US:en",
+    "GLOBAL_TECHNOLOGY": "https://news.google.com/rss/headlines/section/topic/TECHNOLOGY?hl=en-US&gl=US&ceid=US:en",
     "ARS_TECHNICA": "https://news.google.com/rss/search?q=site:arstechnica.com+when:1d&hl=en-US&gl=US&ceid=US:en",
     "HACKER_NEWS": "https://hnrss.org/frontpage?points=100",
     "TECHCRUNCH": "https://news.google.com/rss/search?q=site:techcrunch.com+when:1d&hl=en-US&gl=US&ceid=US:en",
@@ -490,9 +491,15 @@ GENRE_MAPPING = {
         "system_role": "世界情勢・マクロ経済の第一線で活躍するプロフェッショナル・アナリスト",
         "prompt_instruction": "真にインパクトのある重要ニュースのみを厳選して抽出してください。ノイズや単なるPRは除外すること（目安: 5〜10件、最大15件）。\n事実関係と、グローバルな社会・経済への影響を論理的に解説してください（日本市場に特段の関連がある場合は付記する）。"
     },
+    "TECHNOLOGY": {
+        "title": "テクノロジー最前線",
+        "feeds": ["GLOBAL_TECHNOLOGY", "TECHCRUNCH", "THE_REGISTER"],
+        "system_role": "先端テクノロジー業界の動向を追うプロフェッショナル・テックアナリスト",
+        "prompt_instruction": "テクノロジー分野のキャッチアップに資する重要ニュースを厳選してください（目安: 6〜12件、最大15件）。\n以下を優先: ①AI・半導体・クラウド・セキュリティ・プラットフォームなど産業構造に影響する動向、②主要テック企業の戦略・製品・M&A・規制、③新技術の実用化や採用トレンド。\n単なる製品PRやガジェットレビュー、噂レベルの話は除外すること。各トピックについて『何が起きたか』と『業界・実務への影響』を簡潔かつ論理的に解説してください。"
+    },
     "TECH_SCIENCE": {
-        "title": "テクノロジー・サイエンス",
-        "feeds": ["TECHCRUNCH", "THE_REGISTER", "GLOBAL_SCIENCE", "ARS_TECHNICA"],
+        "title": "ディープテック・サイエンス",
+        "feeds": ["GLOBAL_SCIENCE", "ARS_TECHNICA"],
         "system_role": "先端技術トレンドとサイエンス・ディープテック分野のプロフェッショナル",
         "prompt_instruction": "以下の2軸でニュースを選んでください（目安: 5〜12件、最大15件）。\n①技術的ブレイクスルー・重要な科学的発見・ディープテックの進展（重要度重視）。\n②エンジニアや研究者の知的好奇心を刺激するもの：反直感的な知見、技術的なパラドックス、既存の常識を問い直す研究成果など（ネタ・バズりではなく、読んで知識や視点が広がるもの）。\n単なる製品PRや発表イベントの告知は除外すること。各トピックについて、技術的・科学的な意義と将来への影響を論理的に解説してください。"
     },
