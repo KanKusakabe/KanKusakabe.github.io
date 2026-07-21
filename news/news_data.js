@@ -7,186 +7,81 @@ window.newsData = {
           "title": "グローバル情勢・マクロ経済",
           "topics": [
             {
-              "headline": "米軍が対イラン報復攻撃を10夜連続で実施、フーシ派によるサウジ封鎖示唆で緊張極まる",
-              "content": "米軍はヨルダンでの米兵死亡を受け、イラン関連施設への空爆を10夜連続で遂行。これに対しイラン支援下のフーシ派はサウジアラビアへの海上封鎖を宣言し、ホルムズ海峡を含むエネルギー供給路への脅威が拡大している。",
-              "impact": "★重要★ 中東における紛争の直接的な拡大を意味し、原油価格のボラティリティ急増と地政学的リスクの恒常化を招く。ホルムズ海峡の緊張は世界経済のインフレ再燃リスクを直撃する。",
-              "date": "7/21",
-              "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPTnl2blBxN3hkcHpRclhTUVh1aEtCSDRKcTBPQXV3UmZFTExfVnExVEcxTW5uZlVRcEQyZDg1MXJ4SXNVUTl6cEdjR2Fla1pRQ1dzSWhoa1dJSlVtell4TXZ2YXNGbFRYRXFsc3hReHJDS0d6V0Q4Yk9KdkRMTEJWVk1OTWR4QWJRVVEtTldRZjBkRGM?oc=5",
-              "importance": 5,
-              "novelty": 4,
-              "japan_relevance": 4,
-              "fetched_at": "2026-07-21T14:40:19.122747+09:00"
-            },
-            {
-              "headline": "トランプ政権、カナダ製品200億ドル相当に50%の追加関税を賦課",
-              "content": "トランプ政権下の米国が、カナダからの輸入製品200億ドル相当に対して50%の関税を課すことを決定。北米自由貿易圏（USMCA）の枠組みを揺るがす強硬な通商政策が打ち出された。",
-              "impact": "★重要★ 北米サプライチェーンの根本的な混乱を招き、保護主義の再燃がグローバル経済を減速させる。日本企業にとっても北米拠点を通じた供給網の見直しを迫られる事態。",
-              "date": "7/20",
-              "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNVWJmZE81SUhjQV9Kc0hseUFwMGlDNml3alZscUFqSjljaUh5LTZRSEFjQXo4Y3JHSTdyNkVqLXFjOGZTQWoxUGY1LVRqQVFtSGx3aWhGWmhxR25LNDU5Nm5SQWFELWRER1dfeXNsdWV5Z05RMWRtTEF2em15T25JYm51SHdCRXNWNDd6YUdhY3dTdw?oc=5",
-              "importance": 5,
-              "novelty": 5,
-              "japan_relevance": 3,
-              "fetched_at": "2026-07-21T14:40:19.122747+09:00"
-            },
-            {
-              "headline": "英国の新首相にアンディ・バーナム氏が就任、10年で7人目の交代劇",
-              "content": "「北部の王」として知られるアンディ・バーナム氏が英国の第7代首相（この10年間で）に就任。生活費支援策を最優先事項として掲げ、分断された国内の結束を図る方針を示した。",
-              "impact": "★重要★ 英国の政治的不安定性が継続する中で、労働党左派寄りの政策へのシフトが予想される。欧州市場における英国の地位再建と経済再建の行方が焦点となる。",
-              "date": "7/20",
-              "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQVVo4WkxDRXpERlFob2ViRWpzaFdTWk9yNVZSRGJxU0w4Q05XekI3aXlBWWtUX2h6WFNUbEthVjJsdHJYcFRKOXpmcmllUjFHZVlvZ3doODE0RHp4S2dseTViOXI3Q2ZDMTU3MDZ2eHNsNzNTVWJmakZCTnM0Q0RXbVJRSVhYTHlWZDhwMFdrU1RHTWs2eEp5YmoyM2RFYUEwYmlnUTRGZWswQUNPLTJ4SnlLcl9qc1p0QmljNmFONVlCdw?oc=5",
-              "importance": 4,
-              "novelty": 5,
-              "japan_relevance": 2,
-              "fetched_at": "2026-07-21T14:40:19.122747+09:00"
-            },
-            {
-              "headline": "ウクライナがドローン400機でモスクワを攻撃、戦火がロシア深部に拡大",
-              "content": "ウクライナ軍が過去最大規模となる400機のドローンを用いた一斉攻撃をロシア首都モスクワに対して実施。物流倉庫などが標的となり、ロシア国内の混乱が深まっている。",
-              "impact": "★重要★ 戦争の「非対称戦」化とロシア本土への打撃能力向上を証明した。ロシア側の報復措置を含め、戦争が新たなエスカレーション段階に入ったことを示唆する。",
-              "date": "7/21",
-              "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNMzdrR0pYOEVCSmQzUko3UnBVYVBYM2NVbE5jc3BxSHotZHkyWWlzUzFaaUttM203WURKRVBIMkFNVGtEZ0dGbk91eFlIdEhya29nR2NyWXVvYldYdjNOSjF5d0Fjc2xPV2o3cWItNVJyZEFlOWxmV2x3V1pLRV91S0kyTWFNMGpwM1hNWGRwaGZQdkxOeFFWUWhja0NJS095Nm90YVpLY1RZaEdHazZacWJyX2hMSlk?oc=5",
-              "importance": 4,
-              "novelty": 4,
-              "japan_relevance": 2,
-              "fetched_at": "2026-07-21T14:40:19.122747+09:00"
-            },
-            {
-              "headline": "南シナ海でフィリピン兵が負傷、中国海警局との衝突激化に米国が非難",
-              "content": "セカンド・トーマス礁付近で、フィリピン軍と中国海警局が激しく衝突し、フィリピン人船員が負傷した。米国は中国の「危険で攻撃的な行為」を非難し、地域の緊張が最高潮に達している。",
-              "impact": "★重要★ 米フィリピン相互防衛条約の発動に繋がりかねない事案。日本のシーレーン（海上交通路）の安全保障に直結し、自衛隊の動向にも影響を与える可能性が高い。",
-              "date": "7/20",
-              "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQdTg1NkVrcVBScXZta2tiVlo1c3d4NzAxV1BwckliWjZHakdzbXlhenV5dWFsXzJyX3VTWFdVVE9iaVotd2YtXzU5LXhKbG0xZFQta0pwMEFwQVA1VndmVktubXZlbW50OE5Ndi1HeHIzQnZYR29paFU2OTdVMGtFekhvb205YVVvZ0RoVF9PZWNlNW43MGk0NEJiRTh3aVFPZmk1VTRZbWNfRGllYk54ZVlJbVVEQVJ3VzNSLVZMVQ?oc=5",
-              "importance": 4,
-              "novelty": 3,
-              "japan_relevance": 5,
-              "fetched_at": "2026-07-21T14:40:19.122747+09:00"
-            },
-            {
-              "headline": "日本政府、中国軍による近海での実弾演習に正式抗議",
-              "content": "中国軍が日本近海の設定海域で実施したライブファイア（実弾射撃）演習に対し、日本政府は重大な懸念を表明し抗議。南シナ海の緊張と連動し、北東アジアの安保環境も悪化している。",
-              "impact": "★重要★ 地政学的リスクの日本への直接的な波及。防衛予算の議論やサプライチェーンのデリスキング（脱中国依存）の加速に直結する出来事。",
-              "date": "7/21",
-              "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPYmIxbjdDQ0txTmw5SzlweXpoNXBFU2pIS1NGU2N0VGwxVlNGV05kU0N2TEtwRnhPU0lqNFJWbmtycFhsR3owd25BTTlheklQVXpkLWFRNk1KRFBlcGpkNV9Nei1yclI2clA4MU5TcTl5TVpjTkxQQ1BGaGJpa2Vnc2tDbWVLSldNQ3Rfa3d2NGFhMHkyVDdfRFBWS0xVN0dwb0lWUjBqenR0VmM4?oc=5",
-              "importance": 4,
-              "novelty": 3,
-              "japan_relevance": 5,
-              "fetched_at": "2026-07-21T14:40:19.122747+09:00"
-            },
-            {
-              "headline": "生成AI大手Anthropic、15億ドルの著作権訴訟和解が承認",
-              "content": "米連邦裁判所は、AIスタートアップのAnthropic社が提示した15億ドル規模の著作権侵害訴訟における和解案を承認した。大規模言語モデルの学習における権利処理の重大な先例となる。",
-              "impact": "★重要★ 生成AI開発に伴うコンプライアンスコストが数千億円規模になることを可視化した。今後のAI産業の収益構造と投資判断、日本の法整備にも多大な影響を与える。",
-              "date": "7/20",
-              "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOa1Ztc1Z3QjhWekJJTmEySVd4OUFoNkxzQWdkeWRqY0lSNkEwT1FEam1MR21fNE1LSlpFcjZvZnJIZmZwS1Rsa3RJM01uWkFLOTNWUzQycGVlcUhYaWcxNENFT1A4Nks2YUQxLXdOaWxpenBCNVVUdFFrYm5NRGdXLWNWeno2OVNkc1VWTDNDWGFnbFhRbUNON1V3Z1ljNGR3d19DUmlMNFJIWXg1UU5n?oc=5",
-              "importance": 3,
-              "novelty": 4,
-              "japan_relevance": 4,
-              "fetched_at": "2026-07-21T14:40:19.122747+09:00"
-            },
-            {
-              "headline": "サムスン電子がロボティクス部門を新設、ヒョンデ出身幹部を戦略責任者に招聘",
-              "content": "サムスン電子は新たなロボティクス部門を創設し、戦略トップにヒョンデ（現代自動車）の元幹部を任命。ロボット工学を次世代の成長エンジンと位置づけ、ハードウェアとソフトの統合を加速させる。",
-              "impact": "★重要★ 製造業・サービス業の自動化におけるグローバル競争の激化。ファナックや安川電機など、日本の強みであるロボット産業に対する強力な競合の出現を意味する。",
-              "date": "7/21",
-              "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOUUZzV0hGcjR4YUpvTFkyVDhjRUE2M0VUWEtvTWhydFpQZDhaRDdaU1RyRmNtR05HZkhjQVVpU25mSTBHbkdWNXdmNjd4eFYxQW55Z08walRTai1aNjB1SGplODZTZVB3aEl2OVdMZ3RZN19Wd0l5dVRYQWV6LUMwaVZWNzhrTGk0RXJXNlF5LW1Pb3ZZal9UZFJuSE9mN3d6VWJpYTZ6Q1Z6NnBId2JXS2V6aHRhenNJcnBtUENJZXBNTmc?oc=5",
-              "importance": 3,
-              "novelty": 5,
-              "japan_relevance": 4,
-              "fetched_at": "2026-07-21T14:40:19.122747+09:00"
-            }
-          ]
-        },
-        {
-          "genre": "BUSINESS",
-          "title": "ビジネス・経済動向",
-          "topics": [
-            {
-              "headline": "中東情勢緊迫化で米ガソリン価格が1ガロン4ドルへ急騰、インフレ再燃の懸念",
-              "content": "米国とイランの間で攻撃が発生したことを受け、米国内のガソリン平均価格が再び1ガロン4ドル台に上昇しました。アナリストは、中東紛争に伴う原油価格の高止まりがインフレ懸念を再び引き起こしていると指摘しています。",
-              "impact": "エネルギー価格の上昇はマクロ経済全体のコストを押し上げ、FRBの金利政策に直接的な影響を与えるリスクがあります。また、地政学リスクの長期化はサプライチェーンの混乱を招き、世界的なスタグフレーション懸念を強める要因となります。",
-              "date": "07/20",
-              "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPdnQwZTRwYkFHa216RUhGUDBkaUVQQW8xeWk2S180OFo0ZUExYXJPcnZGUW5DQ21QSEpJRlQ1M05tcDNYZ2Z1MXRsNGRSbFFXREw1RWFUZGVhNnEtMnFBRlVsOGNvMk9Pd0NFM0hKRlkwWVhXNDRYY0U5bXd2QkZheTRfOUtLYi1kWXlvb3BsellRQQ?oc=5",
-              "importance": 5,
-              "novelty": 4,
-              "japan_relevance": 4,
-              "fetched_at": "2026-07-21T14:40:19.122747+09:00"
-            },
-            {
-              "headline": "トランプ氏、カナダ製品に50%の関税を課す意向表明　貿易差別を主張",
-              "content": "トランプ政権は、カナダによる「貿易差別」を理由に、特定のカナダ製品に対して50%の関税を課す方針を示しました。これはトランプ氏がかつて用いた関税戦略の再来と見られています。",
-              "impact": "USMCA（米・メキシコ・カナダ協定）の枠組みを揺るがす動きであり、北米の供給網に深刻な影響を及ぼします。保護主義の台頭は他国への連鎖的な関税導入を示唆しており、日本企業を含むグローバルサプライチェーンへの波及が懸念されます。",
-              "date": "07/20",
-              "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFAxaGozbjBwLTV5cTRZNnFFYndqaGd0bHBSOFRJX1BIS293aGl0bENNNlYyN0VmcU1UZTUtRVJCOGl6emRIYm81UTluay1rY3QwWThwRkJqQ0t6WDRJazdYMk5MZ3VlOEZmRXlud1g4LXDSAXZBVV95cUxOcGZveXFzemxpQXVjd1E5OUtyN1JzcUNvV1BFbFhLX1h3TTl4TnFYcHIwYmhFZWE5TUlJb2wwNVpfX0Y0WEYxS3BYalN0OFROcUxwckdTd2M3TTZtX3V2U1I0R0N3WXpQRm5BUFg1RWxHSnlNbzVn?oc=5",
-              "importance": 5,
-              "novelty": 5,
-              "japan_relevance": 3,
-              "fetched_at": "2026-07-21T14:40:19.122747+09:00"
-            },
-            {
-              "headline": "歴史的な円安続くも米投資家は「通貨防衛への不信」から円買いを回避",
-              "content": "円が歴史的な安値を更新し続けているにもかかわらず、米国の投資家は日本政府による明確な通貨防衛姿勢が見えないとして、円の買い戻しを控えています。介入の実効性に対する疑念が強まっています。",
-              "impact": "実需以外の投資マネーが円に戻らない状況は、日本国内の物価高を助長し、購買力の流出を招きます。日銀の政策転換や政府の強力なコミットメントがない限り、円安基調が定着するリスクを世界市場が示唆しています。",
-              "date": "07/20",
-              "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9RY00tbDR5QzJ5Tm1CaUQtdWVDT0tBUHJYRkFsOXpnazBUWk9WTmpCWkhMN0pZZkIxSmZPOGhHa2o3azg0bFZmQjhsMXZsMlJfWmtBbU5fZEFsUzJDU24xQkVnWTBJUkJoTGYzaA?oc=5",
-              "importance": 5,
-              "novelty": 3,
-              "japan_relevance": 5,
-              "fetched_at": "2026-07-21T14:40:19.122747+09:00"
-            },
-            {
-              "headline": "JPモルガンのダイモンCEOが警鐘、市場はリスクを過小評価し債券購入を回避",
-              "content": "ジェイミー・ダイモン氏は、現在の市場が地政学や経済的リスクを過小評価していると指摘し、現在の価格水準で株式や米国債を購入することはないと述べました。投資家が見落としている警告が多数あると強調しています。",
-              "impact": "金融界の重鎮による強い悲観論は、機関投資家のセンチメントに多大な影響を与えます。特に米国債の回避姿勢は、長期金利の上昇圧力を生み、グローバルな資産配分のリバランスを加速させる可能性があります。",
-              "date": "07/20",
-              "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOQW1RTzM1TlBIamVkQ2ZOakRUMWh1dU5BdjRyNFNRRURZdFlpd0Rzakx5SXZZOWF5Z1RVX0g0QU1DWnNyNUlyWnVIVzBKaU1CWGtQMnFpcjhtQVRwbC1MeE9DdFBTa0pMMFNjNTBQQk9mVERGdUI3WmtuWjV2b3l5N1owa2c0Z9IBiwFBVV95cUxPeV9ndXc0dXdGQ2ExV2hZUUxOc2UzYmNpblVGbEx0WDRmWmxkY3FqRHhvUTJkWGdzNjN5Z1JuaS1TbG5rdjZ2YVFMMndqNTRFYUk3bnNoWHF2SnV5SUo2QjE0eVlUMkFiMUtYa0o5dWMwOTEtLTlrQndTa09nZ1RkX3VpaXVOV25KTVQ0?oc=5",
-              "importance": 4,
-              "novelty": 3,
-              "japan_relevance": 3,
-              "fetched_at": "2026-07-21T14:40:19.122747+09:00"
-            },
-            {
-              "headline": "コカ・コーラ傘下の乳製品ブランドが米生産停止、不正アクセスによる侵害が原因",
-              "content": "コカ・コーラが展開する40億ドル規模の乳製品ブランドが、不正アクセス被害により米国内の生産を停止しました。サイバー攻撃が食品製造インフラに深刻な打撃を与えた形です。",
-              "impact": "重要インフラである食料供給網へのサイバー攻撃は、市民生活への直接的な脅威となります。企業にとってはセキュリティ対策のコスト増大と、操業停止による巨額の機会損失のリスクを浮き彫りにしました。",
-              "date": "07/20",
-              "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPdGRDZDlBemNaQy01X0NNeEI4Tk54cU80WWtmYkREZE5IUGdhb1ZIelp4WGRMU2hNVGEza1dqUHZ6TklmY0hsNDk5WG9sUjk5a0xnQUs0RWFEemdsZGlQNHFrNTlKVEdsSDF6WWNnbTljczJ6MGw3ODROa1lXQW9LY0pEUWV6S3BEelpVM2xoTG9yVnVKRGRuMFpPX0NsM3Iyc1A2U0hGN3IwYmh3WmtNLXlHYw?oc=5",
-              "importance": 4,
-              "novelty": 5,
-              "japan_relevance": 2,
-              "fetched_at": "2026-07-21T14:40:19.122747+09:00"
-            },
-            {
-              "headline": "中国自動車部品の日本上陸が加速、「ケイレツ」崩しと低価格・AIで進出",
-              "content": "中国の自動車部品メーカーが、圧倒的な低価格を武器に日本の「ケイレツ（系列）」構造を破壊しつつ日本市場への進出を強めています。音声AI大手などのハイテク企業も初の日本進出を果たしました。",
-              "impact": "日本の基幹産業である自動車産業のサプライチェーンが再編を迫られる可能性があります。価格競争力に加え、ソフトウェアやAI分野での中国企業の先行は、日本の製造業に構造的な変化と競争激化を強いることになります。",
+              "headline": "米イラン紛争が激化、戦費は375億ドルに到達。トランプ氏は中間選挙に左右されず続行示唆",
+              "content": "ペンタゴンはイランでの戦争費用がこれまでに375億ドルに達したと発表。一方、トランプ大統領は中間選挙の結果が自身の「イラン戦争計画」に影響を与えることはないと明言し、軍事行動を継続する構えを見せています。また、ブルガリアに対しても米軍機駐留への協力を巡りイランから警告がなされています。",
+              "impact": "★重要★ 中東における大規模な軍事衝突は、原油価格の乱高下を招き、世界的なインフレ再燃のリスクを高めます。莫大な戦費支出は米国の財政赤字を拡大させ、ドル高や米金利への影響も不可避です。日本にとってはエネルギー安全保障に直結する深刻な事態です。",
               "date": "07/21",
-              "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1yMDVXdm5RYVo2OENaMkJTenljX0V6b2ltdGJ6Y0dSUkhVZHdXM001N2YwLXUxSmFXZ29yanNtemtobE1NNG02amlxdzhHTl9yaXJsRkZUSV8xakNzLTBCMUNIMW9CRTM1LWtybQ?oc=5",
-              "importance": 4,
-              "novelty": 4,
-              "japan_relevance": 5,
-              "fetched_at": "2026-07-21T14:40:19.122747+09:00"
+              "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQcGhIUDY1XzFtb1pDNmE1ME9sMjVXRXJPMXBxelpQZlJlcDd5eEIySWxObnlCY1BiR1lNRnVLWEt0M005NTRCcUtWRU5oZmROVmZJMW91aE9nVWNGUmF0V2J0dHZSci1mM2c4NFE4c01pblBucXJfSW5lVWJUeE95VGNjbl9OOFBVQnZsTFBmeDRvMGxIeEpfVWlUbE96SWxXSGNHM1o5aTNzV2c?oc=5",
+              "importance": 5,
+              "novelty": 5,
+              "japan_relevance": 4,
+              "fetched_at": "2026-07-22T07:44:14.732173+09:00"
             },
             {
-              "headline": "中国AIスタートアップ「ムーンショットAI」が新規利用停止、計算資源不足で",
-              "content": "中国の著名なAIスタートアップ、ムーンショットAIが利用者の急増により新規のサービス利用を停止しました。原因は「計算資源（コンピューティングリソース）の深刻な不足」としています。",
-              "impact": "グローバルなAI開発競争において、ハードウェア（GPU等）の確保が最大のボトルネックになっていることを象徴しています。特に制裁下にある中国企業にとっての物理的なリソース制限は、今後のAI市場の勢力図に影響を与えます。",
-              "date": "07/20",
-              "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE4yTDdGZG1PUmZwUXZXWk9ySGEwU2kwQ3g5UzdtU1dIVWZQWG80bU5ySHo1Vk5xb2FBMXNEdzd6SGVRWWtvMktpaE8tQl9uOTlBV1VHbThzaVI4Z1owaTMtV1hyajFtWTVkVnM3Xw?oc=5",
+              "headline": "ウクライナ軍トップが解任、国内抗議活動を受けゼレンスキー大統領が決断",
+              "content": "ゼレンスキー大統領は、数日間にわたる抗議活動と指導部内の亀裂を受け、軍の最高司令官を更迭しました。後任の任命も行われましたが、戦争継続中の軍トップ交代は異例です。一方で、ロシア版Amazon「Wildberries」の倉庫への攻撃など、ロシア経済への打撃を狙った戦術も並行しています。",
+              "impact": "★重要★ 戦時下での軍統制の混乱は、前線の維持に不確実性をもたらします。ロシア側はこれを好機と捉える可能性があり、膠着状態にある戦況が大きく動く転換点となる恐れがあります。欧米の支援姿勢にも影響を及ぼしかねません。",
+              "date": "07/21",
+              "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1aVzlZMko5TG81NEZ2Q3QzZU50OVlZUlBQbWlXQy1jMzlMbFFOT3FyTWQ5ZVJ2bmRYdFVmR1JWSDM4NnV5OXMwYVRsbHZMMjFBbkFfNlFLb1VRUQ?oc=5",
+              "importance": 5,
+              "novelty": 4,
+              "japan_relevance": 2,
+              "fetched_at": "2026-07-22T07:44:14.732173+09:00"
+            },
+            {
+              "headline": "イギリスのバーナム新政権が本格始動、財務大臣にジョン・ヒーリー氏を起用",
+              "content": "就任24時間を迎えたアンディ・バーナム新首相は、財務大臣にジョン・ヒーリー氏を指名するなど、主要閣僚を矢継ぎ早に決定しました。前政権時代の大臣殺害事件という衝撃的なニュースが流れる中での厳しい船出となりましたが、新たな経済政策の打ち出しに注目が集まっています。",
+              "impact": "★重要★ 英国の政権交代は欧州の政治・経済地図を塗り替える可能性があります。特にG7の一員として、対ロシア・中国政策、および日本との経済連携協定（EPA）への継続性が注目されます。財政政策の転換はポンド相場にも影響を与えます。",
+              "date": "07/21",
+              "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9VUVB3dE5OQkVTMWFjeHNYZFN5U2kwQm15ZEg1bnBZcHNTRHQ3dmVWSDBVZzlwQUk0TVY1RFNjMzFzSUJnbXZ1aVRPaEZsTVhmTE9uSTlHTGprZw?oc=5",
+              "importance": 4,
+              "novelty": 5,
+              "japan_relevance": 3,
+              "fetched_at": "2026-07-22T07:44:14.732173+09:00"
+            },
+            {
+              "headline": "フランスがEU初の子ども向けSNS禁止法を可決、15歳未満を対象",
+              "content": "フランス議会は、15歳未満の子どものSNS利用を事実上禁止する法案を承認しました。プラットフォーム企業に対し、厳格な年齢確認と保護者の同意を義務付けるもので、違反には重い罰則が課せられます。薬物ギャングの脅迫から市長を保護する事態も発生しており、治安とネット規制が急務となっています。",
+              "impact": "★重要★ 「テック・ナショナリズム」やデジタル規制の先駆けとして、他のEU諸国や世界各国の規制モデルになる可能性があります。Big Tech企業にとっては収益構造の変更を迫られるリスクであり、広告・マーケティング業界にも波及します。",
+              "date": "07/21",
+              "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNR0VQSkw3UXcyQUoydE5aSmFhZS1Id2liOU9ISGFjUVNuVHRweGhrNUVHMF9zcDQ5bk56TGhVaU1ERDd6YnJ3SF9NLXYyQ3FuMmFoRGtwdV9XRThUTVp0N3kxZmVUbWZqOWZTdERwUFpaYjFiTnVjT200ZTRTbDVLMjB6U25hSkZhU2I2cmtFa2Vnc3JLOEllQUotMlltb0tXdmt2WDM1aGk?oc=5",
+              "importance": 4,
+              "novelty": 5,
+              "japan_relevance": 3,
+              "fetched_at": "2026-07-22T07:44:14.732173+09:00"
+            },
+            {
+              "headline": "アリゾナ州の巨大貯水池がほぼ消失、深刻な水不足が米南西部に波及",
+              "content": "アリゾナ州最大級の貯水池の一つが、干ばつの影響でほぼ消失したことが確認されました。気候変動による水資源の枯渇は、農業生産だけでなく半導体製造などの産業にも重大な脅威を与えています。トランプ政権は並行してカナダへの関税導入を進めるなど、北米経済圏の不協和音も目立っています。",
+              "impact": "★重要★ 水資源の枯渇はサプライチェーンに深刻な影響を及ぼします。特にハイテク産業が集積するエリアでの水不足は、生産コストの増大や事業継続性のリスクに直結します。ESG投資の観点からも、気候変動リスクの現実味を突きつける事象です。",
+              "date": "07/21",
+              "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPNHgzWHBBeGRFZ3R3UWxqaDdwWlE0Xzd1Z05hV3ViQktnQ2dQdmxHaHZBTE42QVJSZWtCLVRyQ1Qxam9fMFpxTHU5RW0tSmJMWC1LOWpUUG5UaHRVWVpLUXNEdXhkT3VOY0tWb1RDcUZDdnV0ZUZwYWRWcnZDaTdzX3BVVm1rdVJ6Mzd6T3JxdkVjcDdWTWxncEdfbFhIWWtC?oc=5",
+              "importance": 4,
+              "novelty": 4,
+              "japan_relevance": 2,
+              "fetched_at": "2026-07-22T07:44:14.732173+09:00"
+            },
+            {
+              "headline": "AI大手Anthropicが特許侵害で提訴、ニューラルネットワーク技術巡り",
+              "content": "AIスタートアップのAnthropic社が、ニューラルネットワーク技術に関する特許を侵害したとして提訴されました。生成AIの急速な普及に伴い、基盤技術の知的財産権を巡る法廷闘争が激化しており、開発コストや参入障壁への影響が懸念されます。",
+              "impact": "★重要★ AI開発における法務リスクが顕在化しており、判決次第では現在のAIモデルの提供自体に支障が出る恐れがあります。日本のAI開発企業やエンジニアにとっても、特許クリアランスの重要性が増すとともに、業界全体のイノベーション速度を左右する事案です。",
+              "date": "07/21",
+              "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQTnlDeHFoNDBpUEtsN3NlR2h3OHY0cHhqUXo5bWRIdmtJT0JyajQwalEwX2I3MnpxUGdMZnJkOVFydy1BSHpzdm5hYmRqbG0wd0pLZXJDVl9sbE5FT0lhTHpSRGtSbDBmR3lhVU9mZDZtMFQzM1czRGt1S0VKMVhlMU8wQ2JOQlNMUUgwbUt1bU5LZzFUMzhWYTBLUGlZQ0F6d1ByNXJtNDUyWmZnTUxvUUw2cGR4U1BXM05B?oc=5",
+              "importance": 3,
+              "novelty": 5,
+              "japan_relevance": 4,
+              "fetched_at": "2026-07-22T07:44:14.732173+09:00"
+            },
+            {
+              "headline": "インドで学生デモが拡大、モディ政権への異例の対抗圧力に",
+              "content": "インドで若者主導の「Cockroach（ゴキブリ）」運動と呼ばれる大規模な学生デモが発生。モディ政権に対する不満が噴出しており、野党勢力に政権批判の隙を与える形となっています。警察との衝突も激化しており、政情不安の火種となっています。",
+              "impact": "★重要★ グローバルサウスのリーダーであるインドの政情不安定化は、海外直接投資（FDI）の減速を招く恐れがあります。また、経済成長の恩恵が若年層に行き届いていない構造的問題を浮き彫りにしており、モディ氏の強力なリーダーシップに陰りが見えるかは注視が必要です。",
+              "date": "07/21",
+              "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPSlRNS2I5V2lGVGM0M0dIcHVZSTBTQWFlZFphVkN1bHZEcDNhNE5CYmF6VHFVMk9Icm94NnpsU3MweWF5d1Y3LTNNeFZqREVBVWdvR240VkNtWkp6RDBYdnU3WTdkZ21LdlBkMEgxcEhnQ3VLeHBOT3VMbzgydC04WDJueUVhUk1kTzdhMExqeVQxV1VSdzRRcWtZZ3VxUVpBWmVDdEdlNFZXUGxKT3BkOUFB?oc=5",
               "importance": 3,
               "novelty": 4,
               "japan_relevance": 3,
-              "fetched_at": "2026-07-21T14:40:19.122747+09:00"
-            },
-            {
-              "headline": "Dynabookがパソコン生産を日本国内へ移管、経済安保への対応を強化",
-              "content": "Dynabookは日本国内でのパソコン生産を開始することを決定しました。これは経済安全保障上のリスクに対応するため、サプライチェーンの国内回帰を図る動きの一環です。",
-              "impact": "地政学リスクの高まりを受け、ハイテク機器の製造拠点を友好的な地域や自国内に戻す「フレンド・ショアリング」の具体例です。日本の製造業の空洞化解消と、セキュリティ上の信頼性確保の両面で大きな意味を持ちます。",
-              "date": "07/20",
-              "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1ILUs2a0F6TzhXZFY1NHk2NUc0NnFaVVExbHZPbkNlZW13RklwQ3NBWUJPVTFZMXM5V05qSUc5SVBlS2pGT0NnUExaMWJMMURHd1Nmb0Q5eVU1SlM4YTR1b3FCbDNvTnZFQldsWQ?oc=5",
-              "importance": 3,
-              "novelty": 4,
-              "japan_relevance": 5,
-              "fetched_at": "2026-07-21T14:40:19.122747+09:00"
+              "fetched_at": "2026-07-22T07:44:14.732173+09:00"
             }
           ]
         },
@@ -195,103 +90,81 @@ window.newsData = {
           "title": "テクノロジー最前線",
           "topics": [
             {
-              "headline": "Anthropic、15億ドル規模の著作権侵害訴訟で歴史的な和解が承認",
-              "content": "AIスタートアップのAnthropicが、著作権侵害を巡る大規模な訴訟において、15億ドル（約2,300億円）という巨額の和解案が裁判所に承認された。これは生成AI企業と権利者の間の紛争において、過去最大級の決着となる。",
-              "impact": "★重要★ 生成AIの学習データと著作権を巡る法的リスクに一つの基準が示された。今後、他社も同様のライセンス料支払いや巨額和解を迫られる可能性が高く、LLM開発のコスト構造と参入障壁が劇的に変化する可能性がある。",
-              "date": "7/21",
-              "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPX0VfZzJwUmpMQmtCVFRmc2p6NHlXdVEyUEMySm5SOExEVUhjMEJTM0lzUkVCZnJRMVBXNndQaGpUUDJ4bUhZRndxb2pJLVdueUVfcXNGVHN4T2RPajF5NmpKWVpoY1BGSjVweEp0bWJBY3l1RE1OMzdqSE5Gcnd0eVdiTkRaTkF1c2tHc1pOaGFac3JBNzZ3?oc=5",
-              "importance": 5,
-              "novelty": 5,
-              "japan_relevance": 3,
-              "fetched_at": "2026-07-21T14:40:19.122747+09:00"
-            },
-            {
-              "headline": "Google、Geminiの効率化に向けた自社製AIチップを開発",
-              "content": "Googleが、自社のAIモデル「Gemini」の処理効率を向上させるために最適化された、新しい独自のAIチップの開発に取り組んでいることが判明した。モデルの実行速度向上とインフラコストの削減を目的としている。",
-              "impact": "★重要★ NVIDIAへの依存度を下げ、自社ハードウェアとソフトウェアの垂直統合を加速させる動き。クラウドベンダーによる独自のシリコン設計競争が激化しており、AIサービスの収益性を左右する重要な戦略となる。",
-              "date": "7/20",
-              "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQLXNRVWtTNGtSaWFOT1JfMDRCenMyZXRybTQ3cVlRbUotRVRtM2NON3hWa1dlaFJGWklVeXBDaTdXc21wU0FfZTAtZEVuRFdENHJuSFhKd1FnTXh1V3BNV0w3NWZtWkNYREpBaXc0ZnZGMU9LdWc5ZjUzT3VhNWloR1VDQjJUdzZqejNvLXdZMDh1SFpWZ1BBTEpxNTl6Z29kdlNVMkRWMExUTk1a?oc=5",
+              "headline": "2035年までにデータセンターの電力消費量が現在の4倍に急増する予測",
+              "content": "AIの普及と計算リソースの需要増大により、2035年までのデータセンターの消費電力が現在の4倍に達するという予測が発表された。",
+              "impact": "AIインフラ構築には電力供給能力が最大のボトルネックとなることを示しており、エネルギー効率化技術や電力網の増強が、テック企業にとって戦略的な優先課題となる。",
+              "date": "07/21",
+              "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQZGhKY0lBTkhWcnY1V2RoeFlTVWc1WXpPbVgwZjh3cDhWM2tnYXdWY3pMZWxiZHlvUlhwYXBVLXlweUtjbFhMcTFua1dibmVZcTFVZ2ZzY3ktZ1FmOXFRcGQ2UVpxRnlRMzRUUkoya1FXc2dGbWNKSy1OSGVhMFpHVEI1STBFNGM2ZHZFN0NhWEE2eGxxTUE?oc=5",
               "importance": 5,
               "novelty": 4,
               "japan_relevance": 4,
-              "fetched_at": "2026-07-21T14:40:19.122747+09:00"
+              "fetched_at": "2026-07-22T07:44:14.732173+09:00"
             },
             {
-              "headline": "米医療インフラを支えるテック企業から大規模なデータ流出。数千の病院に影響",
-              "content": "全米の病院や薬局が利用するITサービス企業がハッキングを受け、重大なデータが盗まれた。患者情報を含む機密データの流出が懸念されており、医療サービスの継続性にも影響が出る可能性がある。",
-              "impact": "★重要★ 特定のプラットフォームへの依存度が高い医療・社会インフラの脆弱性が露呈した。日本においても医療機関のDXが進む中で、一箇所のインシデントが全国的な機能不全を招くリスクに対する警鐘となる。",
-              "date": "7/20",
-              "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPNDQyOWljMVllbFBiZVpzbU0wLWdSNlEzT3R5SkJMUHVrNDI3VnZZVnlabmF0ZjBueWRlWmtwN3VJY2tERmtOMjlORFlYNFBIRWQ4TmFDOGNMZXc0WHZFUkVKZDA5TllYTEtyTHlFZDA1Y0JMWnVwU09YaU1nVldJYk1kOW9QYXZJWWQ2N3FMOGwwZVU4US1qYk9nek5vSWRUdVYtS3RDa0ZPc3ZUNnNwcjVaMjlXYWY3QW5pOW9KM1c0WEUyMnV0TDhJcHRfWEU1bnZhZk9YOC02S2R5?oc=5",
+              "headline": "米国、知的財産侵害を理由に中国製AIモデルへの制裁を示唆",
+              "content": "米国政府は、知的財産（IP）の盗用に関与した中国のAIモデル開発企業に対し、制裁措置を講じる可能性を示唆した。",
+              "impact": "AI競争が米中間の地政学的な経済安全保障問題の中核となっており、技術輸出規制や投資制限が強化されることで、グローバルなAIサプライチェーンが分断されるリスクがある。",
+              "date": "07/21",
+              "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQNzdpU2hKN29tRmlGMUo4NWlqQURVdWJ0Q19YUmRDd3k4V1hpblB6M0RjM3dpY1l3dy13aHMyQ2hfNTBfakZYZzg4MTN6a0F4aTFvWlVWYlJTSnJEQVBWUXZSREpBQ2NKaGw2Vjlfd2dsckJVd2R1b3U1b0hLdHpyTWxpX2dJZ2R6LVlHX3M4SERyb1lTcV9vVmpIRWpVQQ?oc=5",
               "importance": 5,
-              "novelty": 3,
-              "japan_relevance": 3,
-              "fetched_at": "2026-07-21T14:40:19.122747+09:00"
-            },
-            {
-              "headline": "AirbusがAWSから離脱、マルチクラウド・ソブリンクラウド戦略への転換",
-              "content": "航空機大手のAirbusがAWS（Amazon Web Services）の利用を停止し、別の形態へ移行することが明らかになった。データの主権（データ・ソブリンティ）や特定のベンダーへのロックイン回避を重視した動きとされる。",
-              "impact": "★重要★ 大手企業による「クラウド脱出」や、国家・企業が自らのデータを管理するソブリンクラウドの重要性が増している。パブリッククラウド一辺倒だった企業のITインフラ戦略が、再び多様化する兆しと言える。",
-              "date": "7/20",
-              "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQOVV0Y1NaZTZzYlJWeC1FeEZSbHl_ejB1NF9NamZqWkF4cThQYUNpbUF4Y2FXUkFQRTk0ZkI2OGw2X2V1WEpXX3Nhc1F3Sk1YbXlKZUFWYmRnRjU2NTk3aUNuV0hiMUhoSUxUSEp3ZkMyaUU1UmdGQVpfS1RTVS02TUNnMFJzYUN3NGxOSnFQbUo4VnhCRjFIUGVwWW5uQjhqd0tmek1Wc3NGOUN2N19uWl83dFJZVkk?oc=5",
-              "importance": 4,
-              "novelty": 5,
-              "japan_relevance": 3,
-              "fetched_at": "2026-07-21T14:40:19.122747+09:00"
-            },
-            {
-              "headline": "WordPressの深刻な脆弱性を突く攻撃が激化、数百万サイトが危機に",
-              "content": "WordPressのコアに含まれるリモートコード実行（RCE）の脆弱性（CVE-2026-63030）を狙ったハッカーの活動が報告されている。既にパッチは公開されているが、未更新の数百万のウェブサイトが侵害のリスクに晒されている。",
-              "impact": "★重要★ 世界のウェブサイトの多くがWordPressで構築されているため、この脆弱性はインターネット全体のセキュリティに甚大な影響を及ぼす。サプライチェーン攻撃の一種として、企業は即時のアップデートが求められる。",
-              "date": "7/20",
-              "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNZXdjRTBqRkh2ODFFbXYwaTVZRGZzUDZlVUtJV2JlaGh3aW9uQ3hmemMzbkdWUVlmQUdsbTZKV3RqRC12dHQxS01uaGJIYXdlQ0IxcDJlUldySnFPREZnVEpRRWZXazBIcDExLXAyUjEwZjFyZzhoSnhUbm5nT3lGVFJRdDdzOVN0ZlF3Uzl0aTl4UVpaSFBYdmRjOWFLOFIySHhCSTdOX3FycjVYSnl4ZXllRjBzWnB0ZUtQQmdSZ3pKVXh5?oc=5",
-              "importance": 4,
               "novelty": 4,
-              "japan_relevance": 5,
-              "fetched_at": "2026-07-21T14:40:19.122747+09:00"
-            },
-            {
-              "headline": "AIエージェント向け決済インフラのNaturalが3000万ドルを調達。Stripeに対抗",
-              "content": "人間を介さずAIエージェントが自律的に支払いを行うための決済プラットフォームを開発するNaturalが、3000万ドル（約46億円）の資金調達を実施した。将来的なAI経済圏の基盤（金融レイヤー）を構築することを目指している。",
-              "impact": "★重要★ 今後のAIトレンドが「対話」から「実行（AI Agent）」へ移る中で、AI専用の決済プロトコルは必須となる。既存のStripe等の勢力図を塗り替える可能性を秘めた、AIネイティブな金融インフラの誕生である。",
-              "date": "7/20",
-              "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPZEdjQktSZDM5NzRFVlNmU0dhVU55RE5SRUlJVnlLVkRua1JobjJOTlZ3NlAwejV4WXBfTEFLVm5JZnZUTXF0SXVaR2xsTnhuejhOZlFwMmNiT25YZUhpQThBc280RFJveGJZcXpxSzg2ZUtvY2o3aUdWU0tFcDZYTUNMdnVoaUs3UjI5eFUzckxxQ1c2UGh6MEFYVEphalhsRUg2bWRFZlBrWkE?oc=5",
-              "importance": 4,
-              "novelty": 5,
-              "japan_relevance": 3,
-              "fetched_at": "2026-07-21T14:40:19.122747+09:00"
-            },
-            {
-              "headline": "Microsoft 365のカレンダーを「情報の受け渡し場所」にする巧妙なスパイ攻撃が判明",
-              "content": "「HOLLOWGRAPH」と呼ばれる新たなサイバースパイ活動が確認された。攻撃者はMicrosoft 365のカレンダー機能を悪用し、C&Cサーバーとの通信やデータのドロップボックスとして利用することで、従来のセキュリティ検知を回避している。",
-              "impact": "★重要★ 信頼されている正規のクラウドサービス（SaaS）を攻撃インフラとして悪用する手法（LoTL）の高度化。企業のIT部門は、単なるドメイン許可だけでなく、サービス内の不審な挙動を監視する必要性に迫られる。",
-              "date": "7/20",
-              "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPMEN5SU9tSUgxNEtUWDc5eHNHUEtwRDdZS3dDelk1REp3b3J5OHNtbWdvN1ZOLWl4TlZFcG1veGl0SE5LTldEU3U1U2F4UW90WWEwVmNZM1gxdlNUMUNmcWJpQk8zQXBCZGsxNUlIcGxCOXI2SmFTLXQ5QkxPaHU5UXluSzBhNXZKRGdHYlF0ZzB1ZkNlSEw0M0hKMTlXbGhLZkY4MjRGT3g0SXpuYzUwR1QxWlYzMVhhNVhCVnA0b0tIN1E?oc=5",
-              "importance": 4,
-              "novelty": 5,
-              "japan_relevance": 5,
-              "fetched_at": "2026-07-21T14:40:19.122747+09:00"
-            },
-            {
-              "headline": "クラウドサービスの悪意ある利用が「電力網の停止」を招くリスクの指摘",
-              "content": "悪意あるユーザーがクラウドのリソースを大量に、かつ特定の間隔で消費・制御することで、送電網の負荷を不安定化させ、物理的な停電を引き起こす可能性があることが報告された。サイバー攻撃が物理インフラに直結する新領域のリスクである。",
-              "impact": "★重要★ クラウドとスマートグリッドが密結合する未来において、サービス拒否攻撃（DoS）が物理的な破壊行為に転化する。クラウドプロバイダーとエネルギー事業者の連携による、新たな防衛策の策定が必要となる。",
-              "date": "7/20",
-              "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNeTgwUWFRZVAxanNHNEZSZThMbFhCWUtJejUxdHVxSVBRUW53WUpaRHk3Y1ZkQnNUbFBHRlFTOXFzdlVWZV93MHZHd0ZjeWR4TjNhSndsN2RISWI1SXd4b19GNUZlMjI0SHBFeU81SGNyWlNTbjVQMVBKQm5kZXR1RDhJLTg4MGJXMVZxblJFMFpKTm9GaUxIQ28zWm53bjdiYWJ3WDZIUkZXYXRoQmdkSWFR?oc=5",
-              "importance": 4,
-              "novelty": 5,
               "japan_relevance": 4,
-              "fetched_at": "2026-07-21T14:40:19.122747+09:00"
+              "fetched_at": "2026-07-22T07:44:14.732173+09:00"
             },
             {
-              "headline": "トランプ政権のAI担当責任者が辞任、米国のAI規制・戦略への不透明感",
-              "content": "トランプ次期政権においてAI分野を統括すると目されていた「AI czar（AI責任者）」が、就任から間もなく辞任したことが判明した。政権内部の混乱や、AI政策の優先順位の変化が背景にあると見られる。",
-              "impact": "★重要★ 米国のAI政策は世界のテクノロジー規制に大きな影響を与える。責任者の交代により、バイデン政権下のAI大統領令の撤廃や緩和が進むのか、あるいは別の強硬な競争戦略が取られるのか、予測が困難になっている。",
-              "date": "7/20",
-              "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNREtQUjdkT0VVMUc4QVF0QzBNMGZVd0VUZkZGd2dwNjNQcy13RTBRTHQ2ZDNENmF2MEt0UnBVN3VBYW5mWXZIWkVkTkN2UmlSQXN0YlQzbGJkRnYtTEtTZmZsNEM0aEgzclVhNEpOeUdBdEs1R044aFo5WENOdG9vemFOQQ?oc=5",
+              "headline": "Apple、Klarnaと提携しiPhone等の端末リースプログラムを開始",
+              "content": "Appleは、iPhone、Mac、iPadを対象とした独自のリース・トゥ・オウン（買取型リース）プログラムをKlarnaと提携して展開する。",
+              "impact": "高価格帯デバイスの販売が停滞する中、サブスクリプションや分割払いの仕組みを強化することで、消費者への心理的ハードルを下げ、ハードウェアの売上維持とサービス収益の拡大を図る戦略である。",
+              "date": "07/21",
+              "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE55TkdLNWNqWEZKMDBINmR1OFozb3VwWERnY2FoVWFpdzFQUGxZeEVfaHF4dS1hQi1OLVBqSU1nbnZMM3NCRFBoSjBXX0FPQUlfYVN1MHY4Si02clRSTzAtTVVkWGZ4Q1BISlE?oc=5",
+              "importance": 4,
+              "novelty": 4,
+              "japan_relevance": 4,
+              "fetched_at": "2026-07-22T07:44:14.732173+09:00"
+            },
+            {
+              "headline": "AI音楽生成プラットフォームSunoで5,500万人規模のデータ侵害が発生",
+              "content": "音楽生成AIを手掛けるSunoにおいて、5,500万人ものユーザー情報が流出するデータ侵害が確認された。",
+              "impact": "生成AI企業の急速な成長に対してセキュリティ対策が追いついていない現状を浮き彫りにした。個人情報管理が厳格化する中で、AIサービスの社会的信頼性に影響を与える事例である。",
+              "date": "07/21",
+              "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxONG9yYUE1alF3aF9hMC1KYWppQWtoZ1FUd1FOV0d5c3MzV2dCc1RvWUVDcGUzMWM0WmZSNXVIaE9GYTFTLWtmUi13UjlqdjJ3WlB4anllaU9fcUJ3cENvSnpweUNrWGg4ZE92cG9jQ253SDJqWTBZaUVmSFJkU0JORlhxU2p3LTJlN2pyenRUbHBwWFN1a1d2UTBNTXhhU0haeUZsQ1NmMlc?oc=5",
+              "importance": 4,
+              "novelty": 5,
+              "japan_relevance": 3,
+              "fetched_at": "2026-07-22T07:44:14.732173+09:00"
+            },
+            {
+              "headline": "欧州規制当局がAliExpressに対し、違法商品販売を理由に5.5億ユーロの制裁金",
+              "content": "欧州委員会は、規制に違反した粗悪品や違法商品の販売を看過したとして、AliExpressに5.5億ユーロ（約900億円相当）の罰金を科した。",
+              "impact": "デジタルプラットフォームに対する規制の厳格化を示す象徴的出来事であり、グローバルECサイトに対してコンテンツ監視やサプライチェーンの透明性確保を強く求める動きが加速する。",
+              "date": "07/21",
+              "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNU2poY1M1RktGTDJneGdhSEVEa3hwbTl0Mlc5OVkxQldWR09meE9QYThtUjA0eEpMZWY4SXFZRnNHVVN2eGxQTnBGRmNGWVAtVWpNdE9vWC1FRTFDdmFDQVJCTnlrMC1CcHo0T1l6UGFQNVg0WDlXRWcxX0dOUkVFNjlYcGRjalE5bFVxSEpKUzhzUWZnSy1PdnNvOXItbjJuaVVMMWlqQ2ctSlJ2SnlRT1VEWFdvSllOLW5OSmFIdw?oc=5",
+              "importance": 4,
+              "novelty": 5,
+              "japan_relevance": 3,
+              "fetched_at": "2026-07-22T07:44:14.732173+09:00"
+            },
+            {
+              "headline": "Intel、ファウンドリ事業でFortinetとの提携を発表",
+              "content": "Intelは同社のファウンドリ事業において、Fortinetを顧客として獲得した。",
+              "impact": "ファウンドリ市場でのシェア拡大を目指すIntelにとって、自社設計以外の外部顧客を獲得することは、戦略的な事業転換が機能し始めていることを示す重要なマイルストーンである。",
+              "date": "07/21",
+              "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNMVNYM0thUGhpdzZlZUdJQUNwX1hwR2RhRmZ5NmJRWVRYYUtPazhCSHVwSG9CV1I2RTFtUzhYOUZMOHFRaGkzckZKQnduM29GTGRSWE5JZEtWMG1IUTlocXBGeTJPb1ZtelBIeWFvaWZoYkVDMXN0MU5QNHU1dWtZMG16OGFkRzBtbk9aMFZCdFA0V0MtT0xSV0Ffelc4cy1EN2VxblQ3MkxZdE1ackxOaw?oc=5",
               "importance": 4,
               "novelty": 4,
               "japan_relevance": 3,
-              "fetched_at": "2026-07-21T14:40:19.122747+09:00"
+              "fetched_at": "2026-07-22T07:44:14.732173+09:00"
+            },
+            {
+              "headline": "Jack Dorsey氏が、AIエージェント統合型のチーム用チャット「Buzz」を発表",
+              "content": "Jack Dorsey氏が率いる企業が、Slackに対抗するAIエージェントを組み込んだグループチャットプラットフォーム「Buzz」を立ち上げた。",
+              "impact": "コラボレーションツールにおいて、単なるメッセージングからAIによる自律的なワークフロー実行への転換が加速する兆しであり、SlackやTeamsなどの既存シェアへの挑戦となる。",
+              "date": "07/21",
+              "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQbjIySWhGRmxuY2tlZE90Y1haajFERVp3ZV8tTjdEMnNnN3NXaE5GeEVYdm14UUpFR09LejdkRzQ1UmZZN05Hc3N4RWkxcEtpNGpFSlZxWlUwWVVQX19CTVhDX3BFVEI2Y3hERHBqWjJJMGhLZXo1TE9VUlhCaE9iQWN3VTU4SU1FcmF1a0dYdkFjSWJtbk5STGY3TFV0S0NDall2WTg0RUlITUJvYV9scU42d3I4MXhvek03NWp5ZlRQcTAyY0E?oc=5",
+              "importance": 3,
+              "novelty": 5,
+              "japan_relevance": 2,
+              "fetched_at": "2026-07-22T07:44:14.732173+09:00"
             }
           ]
         },
@@ -300,152 +173,256 @@ window.newsData = {
           "title": "ディープテック・サイエンス",
           "topics": [
             {
-              "headline": "地球の海洋における急速な酸素喪失、惑星の不安定化を科学者が警告",
-              "content": "科学者たちは、地球の海洋における酸素レベルが急速に低下しており、これが惑星全体の生態系を不安定化させる可能性があると警告している。水域からの酸素消失は「静かに進行する危機」として捉えられている。",
-              "impact": "海洋の酸素低下は、単なる生態系への打撃に留まらず、炭素循環や気候調整機能に不可欠な生物地球化学的プロセスの崩壊を招く恐れがある。脱酸素化の定量的把握と、それに対する地球規模の環境モニタリング技術の重要性が一段と高まっている。",
-              "date": "7/20",
-              "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQeWZXbTJvS0JFT3IyZmRhU0VtdFNubzY3MHhvRkRnWEp4STF6Ykt4ZXRZdVkwVVgtVVJObHhvaUpwSG5EZVFHSlVSM0NweW1BaTJ5RmFuZzJlU1ZYMmdyWU0tVHV3R1ZDNWdzdERnSExJeUxEbGtFTmhuclpFV2kxYWNteldFOVIydlpUSFlVVHNLZ3ZGcWFzRG5yZ1IzZmRvM2ZRVw?oc=5",
+              "headline": "SpaceXが衛星寿命を延ばすロボットアーム搭載ドローンを打ち上げ",
+              "content": "SpaceXは、ノースロップ・グラマンによる、老朽化した衛星の寿命を延ばすためのドローン「MRV-MEP」のミッションを打ち上げました。このドローンは10フィートのロボットアームを備えており、軌道上で衛星の修理や部品の取り付けを可能にします。",
+              "impact": "軌道上サービス・組立・製造（OSAM）分野における大きな進展です。使い捨て前提だった高額な衛星をメンテナンスし再利用する「宇宙の循環型経済」の基盤となり、スペースデブリの削減や宇宙インフラの経済性向上に大きく寄与します。",
+              "date": "7/21",
+              "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNNTFrVU04V2hLYzJRcDhScFI5bE9BRUljQW42ZElzWS00STNrNzEydE5EQ2xrYkRMcWJNS1VnZFBDSFJCSWpweGdZUkQ4U0xHdVR1UVFKX3VTdFRhS2ZOMmo0TjBzdE1GVnNmS091emdoYzlWSHdwODIzMlRIbDZIT05RNWZLbGkzTERUVS1GbFJpbkhGUGVzRVhtcXVWU0J3SmY1eUp1QVRSeTlDd3p6UUNtOXRONVZQTi1BNnhVR3NmUWY0?oc=5",
               "importance": 5,
               "novelty": 4,
               "japan_relevance": 3,
-              "fetched_at": "2026-07-21T14:40:19.122747+09:00"
+              "fetched_at": "2026-07-22T07:44:14.732173+09:00"
             },
             {
-              "headline": "地球型惑星LHS 1140bにおいて系外惑星初の「大気」を確認か",
-              "content": "ハーバード大学などの研究チームが、地球に似た太陽系外惑星LHS 1140bにおいて大気の痕跡を検出した。これが確定すれば、岩石惑星で大気が発見された初の事例となり、生命居住可能性の議論に大きな進展をもたらす。",
-              "impact": "JWST等の次世代望遠鏡による観測成果であり、地球以外の居住可能世界の探索において歴史的なマイルストーンとなる。大気組成の分析が進めば、宇宙生物学における理論モデルが現実の観測データに基づいて劇的に更新されるだろう。",
-              "date": "7/20",
-              "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNaHhHcG10eEFoc2J1YUFOMk0xenFydV9FVnhlYkJ4VDFrcU82cHVReVBSd18xdnNVc1E5VzhkbUVRWkhyT1FtNFlSVDRteVlIU3EwYWU4WmpCdjM5eWgyaTh2NnlJanFpbng5QlU3TzVPS1JVRkxYN3hfZHVxbkFQREZXaGpNNUltYUp5SGtsNFVSRU5hbnNBSXN0bkFSM0o2MjlITUZVQjI?oc=5",
+              "headline": "Anthropicが15億ドルの著作権和解を承認、AI学習データの法的枠組みに影響",
+              "content": "AIスタートアップのAnthropic社による、著作権のある書籍をAIトレーニングに使用したことに関する15億ドルの和解案が承認されました。350人の著者はこの和解からオプトアウトしましたが、大規模な法的合意に至ったことは、AI業界における先例となります。",
+              "impact": "生成AIのトレーニングデータの合法性に関する、現時点での一つの決着点を示しています。AI企業が著作権者に対して巨額の対価を支払うスキームが定着すれば、将来的なAI開発のコスト構造や、権利保護のあり方に根本的な影響を与えます。",
+              "date": "7/21",
+              "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPeG1ucTZIcWtkb2xKVG1aNHpXZzJBbUtiTXBiNmJaYk9BMTgtMzJ5d2xRdHRiZTB6a1dfR2N5cURHRngtQWVreG5yUWRnUllSSWh2cmRydkF3Yl94Y3R0eFVkVGxIeDFUR2xjUnN6ZV9naUgyczZJdkU0bGxiUGU2VGU1VVM3U1NXcEYwMjFULUx6bXA1XzNOVENRWldnREd0V0tzRnBqZi1aNGhfcEc4R0dheGdZRmc?oc=5",
+              "importance": 5,
+              "novelty": 3,
+              "japan_relevance": 4,
+              "fetched_at": "2026-07-22T07:44:14.732173+09:00"
+            },
+            {
+              "headline": "NASAが21億ドル規模の原子力推進火星ミッションの詳細を公開",
+              "content": "NASAは、原子力を用いた宇宙船（Nuclear Thermal Propulsion）の開発と火星ミッションに21億ドル以上を費やす計画を明らかにしました。従来の化学ロケットよりも高速かつ効率的な移動が可能になり、有人火星探査の実現性を高めます。",
+              "impact": "深宇宙探査のボトルネックである「移動時間」と「積載量」を劇的に改善するディープテックです。原子力の宇宙利用は技術的・安全面での挑戦が多いものの、成功すれば太陽系内の有人探査エリアを飛躍的に拡大させます。",
+              "date": "7/21",
+              "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxORXpjdTJsZ3N5MUhwYnlDUUhwZi0zRTRpaEdWaHFGUGVEZ3laNjEwVi1DVDZlRFpqVzdIQTNJWi1fZ1d1WGR4ZWc2dEgteG9paHB3MUFDSWFhSTVqVEpGMC11RUp3Q2xLUFVoLXBVVHMzVl9hWEsyZi1KbzFUUjA2Q3ZvQ0FDcms?oc=5",
+              "importance": 5,
+              "novelty": 3,
+              "japan_relevance": 3,
+              "fetched_at": "2026-07-22T07:44:14.732173+09:00"
+            },
+            {
+              "headline": "天文学史上初、双子の恒星が共に爆発した「ダブル超新星」の証拠を発見",
+              "content": "科学者たちは、互いの周りを回る2つの巨大な恒星が、両方とも超新星爆発を起こした可能性のある「ツイン・スター・システム」を初めて特定しました。これまで理論上は存在するとされていましたが、観測によって証拠が得られたのは稀です。",
+              "impact": "恒星の進化と死のプロセスに関する既存のモデルに修正を迫る発見です。連星系がどのようにして中性子星やブラックホールの連星へと進化し、最終的に重力波を放出する合体に至るのかを理解するための重要なミッシングリンクとなります。",
+              "date": "7/21",
+              "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQT2VBNUgtNkdsb09XdWVjV2hKOXV6S29LcW92NERyeUpHQ2RGLThJaEdlZmVaOTVjQ2RVNVU5MW80VEJDWGlLdlhhSHlyNmIxSHQyam1ORjQ2SFY1YkE4NEIycHVwaEk5WXNqZkhYUzQ5ZF9zMmUxQm9IWVNHdUlUSjdDS3dqdnBwQkcxdGwyY0MzODIwV2RobEhCYW1FY2M1RWIzUEg1NGlOc3dURXlTS0hqMHQ?oc=5",
+              "importance": 4,
+              "novelty": 5,
+              "japan_relevance": 2,
+              "fetched_at": "2026-07-22T07:44:14.732173+09:00"
+            },
+            {
+              "headline": "天の川銀河は100億年前に「逆転」していた、矮小銀河との衝突が原因",
+              "content": "最新の研究により、約100億年前に天の川銀河が「ソーセージ銀河」と呼ばれる矮小銀河と衝突した際、銀河全体が劇的にフリップ（反転）していたことが明らかになりました。この「宇宙の体操」とも言える現象が、現在の銀河の構造を決定づけました。",
+              "impact": "銀河形成の力学に関する常識を塗り替える知見です。銀河が静かに成長するのではなく、暴力的な衝突と構造の劇的な変化を経て形成されることを示しており、ダークマター分布や銀河の進化シミュレーションの精度向上に繋がります。",
+              "date": "7/21",
+              "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNRXFyVWY4X18wREluUkdsSnh2VXZhMXFOS0ZNNEk5TkJtMXlpOFRxLUdUQlJIOTJFNWs3SEQ3SVF2ckJoRkU0UnRJb0hrOHlHdjN0Mm1yVkZHcm5GMkk3am9Hajkwb2xtWE52cmI0NWhsSHBIZjM4Q293QjhFU3lrR0VsSHFJR01RYU5XMGFxTnlIdTd5X0FYT1FpTUNxS3NJdmV1ZQ?oc=5",
+              "importance": 4,
+              "novelty": 4,
+              "japan_relevance": 2,
+              "fetched_at": "2026-07-22T07:44:14.732173+09:00"
+            },
+            {
+              "headline": "銀河団の磁場を初めて再構築、史上最大の天文マップで解明",
+              "content": "天文学者たちは、記録的な精度を持つ観測マップを用いることで、銀河団の広大な磁場構造を初めて三次元的に再構築することに成功しました。これまでは不可視であり、その全体像を捉えることは困難でした。",
+              "impact": "宇宙における大規模構造の形成に磁場がどのような役割を果たしているかを理解するための突破口です。宇宙線の伝播や銀河の進化に与える磁場の影響を数値化できるようになり、物理学における未解決問題の解決に寄与します。",
+              "date": "7/21",
+              "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQRUFwOVdBWndJTGVzdzdCa0VkUkd0TVM4U2trM3pUS1lkekVINEhMNnVMMy1IRzB5T1l2bEZXSGtsSk5QZFpIZVBQZlJCLVJyTmRkWEUxY01PbHJja2E1OVJKNWFsNHRyc0NGWlVUWk5WVExWN0h2bC1xQUQwSjREdUFEZlRlOFduaWlIbmRuaDlDM3B3V3k1c29MV1dZWVZrR1J6WTZrTG5TM01sTGZwVGloX19TOGFjTGRlZFZGUUFXT0xHS2tMd2hIREVXUQ?oc=5",
+              "importance": 4,
+              "novelty": 5,
+              "japan_relevance": 2,
+              "fetched_at": "2026-07-22T07:44:14.732173+09:00"
+            },
+            {
+              "headline": "米軍関係者向けアプリに中国・ロシア製のコードが混入、サプライチェーンのリスクが露呈",
+              "content": "米軍兵士をターゲットにした複数のモバイルアプリに、中国やロシアのソースコードが含まれていることが判明しました。これらはデータの不正送信やバックドア構築に使用されるリスクがあります。",
+              "impact": "ソフトウェア・サプライチェーンの脆弱性が、国家安全保障に直結することを示しています。エンジニアリングの観点からは、サードパーティ製ライブラリや外部委託コードの検証プロセス（SBOM等）の厳格化が不可避であることを強く警告しています。",
+              "date": "7/21",
+              "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQVlBOMWlvbWZSNlgwNHpVZTc0OXBpR3VwVHg0aEliamIzeVBKYmREZWpKeUVNRTUtdUQxakJ1NFg0bDVSajZKZmNfYkdNeXhKMkU1NVlCTHVsUzdsQ2xhcHQ5MUJ0elNnSjVSM2w2MmVDQXlZNkRwWXlueTlxcXBvaTVEUThtTmlDTDhRTlEtT2F2SHMtNkI2U0QwUnhPd21mTUc2N3BDSU1sS3dlRVJlaWFuNmhQaTcwd3dz?oc=5",
+              "importance": 4,
+              "novelty": 4,
+              "japan_relevance": 4,
+              "fetched_at": "2026-07-22T07:44:14.732173+09:00"
+            },
+            {
+              "headline": "「クラウドの死」が車両の寿命を決める：コネクテッドカーの存続問題",
+              "content": "現代の車両はソフトウェアとクラウドに依存しており、サービス提供側のサーバーが停止したり技術が陳腐化したりすると、車両が物理的に健全であっても機能が制限されるという、新たなパラドックスが生じています。",
+              "impact": "ハードウェアの寿命とソフトウェア・エコシステムの寿命のミスマッチを浮き彫りにしています。エンジニアは「永続的なサポート」と「クラウド依存」の設計トレードオフを再考する必要があり、将来的な法規制や標準化の議論を呼ぶテーマです。",
+              "date": "7/21",
+              "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNZlh5YU0zM2JGRjZhTW9PMzJQYnZ6RXdyemdVcEJqRGRfazZUenRzcUlGdDlKdXdRRjl6WW5kQ2FpVWg5ekxEaWRjYlVhSmJVanpIdHkxQXROclgtMDgwTUswRnpvSEJrWDNQU2RYQ0FWek9IU2dPbDN2RnAxc0xBVDNuUGhLeUtQVGxiYzhnUXpsdUQyLXFB?oc=5",
+              "importance": 3,
+              "novelty": 4,
+              "japan_relevance": 4,
+              "fetched_at": "2026-07-22T07:44:14.732173+09:00"
+            },
+            {
+              "headline": "ハダカデバネズミの女王がフェロモンでライバルの繁殖力を抑制する仕組みを解明",
+              "content": "ハダカデバネズミの社会において、女王は特定の化学信号（フェロモン）を用いることで、他の雌の生殖機能を抑え込んでいることが明らかになりました。この社会的な生体制御は、極めて高度なコロニー維持戦略です。",
+              "impact": "哺乳類における社会的階層と生理学的制御の相互作用を示す驚くべき例です。不老やガンの耐性で知られる本種の特性解明に加え、ホルモン調節やストレスが繁殖力に与える影響についての新たな医学的知見を提供する可能性があります。",
+              "date": "7/21",
+              "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPNk1PUy15ZUZPaUoyZEROai16VXdFYlFhRGdySFBPQlZIc2VKb1FVV1A0Wm9maG4wb0FkSTJlWDhOa1lkRzdVaUVPZWp6bVpidXg2RFpBaE96TnB2eXllM1QwYXEzRXk1azdWc2RpSkpObWFkdVVDQ05zSUFsbU4wQ2JDa0xJcmxTV2s3SjRoSjZzLVJGUllKeG56VVVGYm0xS1hQYmdB?oc=5",
+              "importance": 3,
+              "novelty": 4,
+              "japan_relevance": 1,
+              "fetched_at": "2026-07-22T07:44:14.732173+09:00"
+            }
+          ]
+        },
+        {
+          "genre": "DEVELOPER_TRENDS",
+          "title": "デベロッパートレンド (Hacker News & 海外フォーラム & 国内)",
+          "topics": [
+            {
+              "headline": "AIによる「ループエンジニアリング」の実践：2時間おきに自走する開発ワークフロー",
+              "content": "人間が都度プロンプトを入力するのをやめ、AIエージェントに自走するループを設計させる「ループエンジニアリング」が注目されている。VS Code拡張機能の開発において、AIが2時間おきにテストとドキュメント更新を含むコミットを積み上げ、人間は動作確認と軌道修正のみを行う実践例が報告された。",
+              "impact": "エンジニアの役割が「コードを書く人」から「AIの自律的な開発サイクルを設計・監督する人（Software Factoryの設計者）」へシフトすることを強く示唆している。",
+              "date": "07/21",
+              "url": "https://zenn.dev/green_tea/articles/e39e3726a449c9",
+              "importance": 5,
+              "novelty": 5,
+              "japan_relevance": 5,
+              "fetched_at": "2026-07-22T07:44:14.732173+09:00"
+            },
+            {
+              "headline": "OpenAIとHugging Face、モデル評価環境のセキュリティ侵害事例を共同公表",
+              "content": "AIモデルの評価プロセス中に発生したセキュリティインシデントについて両社が詳細を公開。信頼できないモデルの実行環境における脆弱性が標的となり、対策として分離環境の強化や評価プロトコルの刷新が行われた。",
+              "impact": "AI開発サプライチェーンの脆弱性が浮き彫りになった。開発者にとって、外部モデルやサードパーティ製ツールの安易な導入が重大な侵害に直結するリスクを再認識させるものである。",
+              "date": "07/21",
+              "url": "https://openai.com/index/hugging-face-model-evaluation-security-incident/",
+              "importance": 5,
+              "novelty": 4,
+              "japan_relevance": 3,
+              "fetched_at": "2026-07-22T07:44:14.732173+09:00"
+            },
+            {
+              "headline": "数学界にAIの衝撃：エルデシュ予想をChatGPTが「反例」により覆す",
+              "content": "数学の難問「エルデシュの単一距離予想」に対し、AIが有効な反例を提示したことで数学界が騒然としている。AIが単なる計算機を超え、論理的な証明や高度な推論において人間をアウトパフォームし始めている実例。",
+              "impact": "論理的推論能力の飛躍的向上を証明。将来的にソフトウェアの形式検証や、極めて複雑なアルゴリズムの正当性検証にAIが不可欠な役割を果たす未来を予見させる。",
+              "date": "07/20",
+              "url": "https://xenaproject.wordpress.com/2026/07/20/human-mathematicians-are-being-outcounterexampled/",
               "importance": 5,
               "novelty": 5,
               "japan_relevance": 2,
-              "fetched_at": "2026-07-21T14:40:19.122747+09:00"
+              "fetched_at": "2026-07-22T07:44:14.732173+09:00"
             },
             {
-              "headline": "人工の「土星の環」か。軌道上に10万基の衛星が並ぶ未来への警告",
-              "content": "天文学者たちは、現在1.6万基ある衛星が近い将来10万基に達し、地球の空を埋め尽くす「人工の輪」のようになると警告している。これにより天体観測の妨害や衝突リスクが深刻化する。",
-              "impact": "宇宙の商業化（ニュースペース）がもたらす外部不経済が、科学研究を脅かす段階に入ったことを示唆している。スペースデブリ管理や軌道利用の国際的な法規制・技術的解決策の構築が急務である。",
-              "date": "7/20",
-              "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPODFlOXlSNnpwdG1GaGFMT3NMS1Z5UEdZTXhIeWJwUzI2OVZTdFdvakZCT3ZHT2R1V0VlQkVXMlBxODBMNTNLQ1BjbUpKc2VhOXppZ2Q4cVFnRDBGQUJicDF3N1JjRDVqZVFkRXpVTDB4cWFhVGpaZHpacVRJT3RybHR4TkoyTGhmTjUxX1laTldsdnJ_U3M_U3VwVVBhWGZURDFqNlJFNmRULU12QXp2WFRCWnhiWE5TSEhOczJEWmkwYW5DTTc4RjNVOUs?oc=5",
-              "importance": 5,
-              "novelty": 3,
-              "japan_relevance": 4,
-              "fetched_at": "2026-07-21T14:40:19.122747+09:00"
-            },
-            {
-              "headline": "アルテミスIII：NASA史上、最も複雑な有人月面ミッションへ",
-              "content": "4人の宇宙飛行士、3機の宇宙機、2週間の軌道滞在を含む「アルテミスIII」の計画詳細が明かされた。月軌道上でのドッキングやSpaceXのStarshipを用いた月面着陸など、技術的難易度は過去最高とされる。",
-              "impact": "人類の深宇宙進出に向けた技術検証の集大成。特に月面拠点の構築を見据えた持続可能な宇宙探査モデルの成否を握っており、日本のJAXAも含む国際的な協力体制の真価が問われる。",
-              "date": "7/20",
-              "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPLXFKM2lWNlhla0lpaWpWbkc2ckQ1SDdDLVpqNFVSMjhRNDhLR0NNazRnQW1mNHlLZmtIb2xJRkhjV0dnZmN2Zkwzd0twdmd5SkZuRE1CdWdJQ1JGX1RxWDdwTkR1ZF82M285Ym1URUtXMEpvQXpWang1alF5b1RvZU1IT3ZvLVpJVEdteEJMdVJPWWVpRWEwVUtydURoaUlfcDNpVjk4QlVGdFE2c185Y1M3ZUtRSFkxdk5fcWNLMjhZWmRHSHdGNDRxNFp3bS1FQXdSVjdvRG1sUmstcXBvel9ydw?oc=5",
-              "importance": 5,
-              "novelty": 2,
-              "japan_relevance": 4,
-              "fetched_at": "2026-07-21T14:40:19.122747+09:00"
-            },
-            {
-              "headline": "ニュージャージー州に落下した隕石から「生命の構成要素」を発見",
-              "content": "住宅に衝突した隕石を分析した結果、アミノ酸などの生命の起源に関わる有機化合物が含まれていることが判明した。地球上の生命が宇宙からの物質によってもたらされたという説を補強する科学的根拠となる。",
-              "impact": "サンプルリターン・ミッションを待たずとも、地球に飛来した物質から宇宙化学的な知見が得られることの価値を再認識させた。初期地球の環境シミュレーションや、生命誕生のパズルを解く重要なピースとなる。",
-              "date": "7/20",
-              "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPSE5BNDQtTkNtd3JSRkpvUkxFVHVTYkFxWWgxQWhGMy1yZDZZOGicza25zeWRwTEhkdFFqeEw0ZkJhNmJwQ3VENTRzYUFVWWg0Y1lxSHJQYUtKaVF6TXRLZFBEM0RRSFUtblMyY3Izejh4OVZ3SHVtNy1jSE12VUpqMlFxTlVqRUZIbG9SMk15WE5pS3RSelRsckFzbUl3bEHSAaQBQVVfeXFMT1hVLUpYRjItMVMxUjRkZlNwSnpGWnRyRW9EWGdVcUFDVFduaHN6NlFXQ2xQNmhvRUpMOWtfV1YwbHJMSURiTnRyRmRud25Zc1lJNkQwUS1UX1hJN0NqTHFBbTdfUUhhcmxFQllJX0RhLVJoUlF6VFp6WnpoWXNrLUk2R0tWOWNqWDJOVmd4ZHBXMk9SRm9qTF8zc1dPN3RZSEs1blU?oc=5",
+              "headline": "Laguna S 2.1登場：118B MoEと100万トークンの文脈窓を持つ推論特化モデル",
+              "content": "poolside.aiが118Bパラメータの混合専門家（MoE）モデル Laguna S 2.1をリリース。アクティブパラメータは8Bに抑えつつ、思考モード（thinking mode）を備え、最大100万トークンのコンテキストをサポートする。",
+              "impact": "超長大なコンテキストは大規模なコードベース全体を一度に推論対象にすることを可能にし、AIエージェントによる複雑なソフトウェア設計やリファクタリングの精度を劇的に向上させる可能性がある。",
+              "date": "07/21",
+              "url": "https://poolside.ai/blog/introducing-laguna-s-2-1",
               "importance": 4,
               "novelty": 4,
               "japan_relevance": 2,
-              "fetched_at": "2026-07-21T14:40:19.122747+09:00"
+              "fetched_at": "2026-07-22T07:44:14.732173+09:00"
             },
             {
-              "headline": "米宇宙軍、最大300億ドル規模のロケット打ち上げ発注を計画",
-              "content": "米国宇宙軍（Space Force）が、今後数年間で総額300億ドル（約4.5兆円）に及ぶ大規模なロケット打ち上げサービスの調達を開始した。複数の民間企業の参入を促し、打ち上げ能力の回復力を高める狙いがある。",
-              "impact": "軍事・国家安全保障主導の需要が、SpaceXやBlue Originといった民間宇宙企業の技術革新と価格競争をさらに加速させる。この巨大市場の動向は、日本の宇宙産業戦略や国際共同開発の力学にも大きな影響を与える。",
-              "date": "7/20",
-              "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQdUZMVG9RWlJGQ2F1Q1I3LURaVWQ2a21KSVhiZ1hSbGZjZDFnX1hwMHBEQ1FFc1hJVDhwbzlsU0kzTVlobDdwTWxPS3dnTGlvV2h6blltUV9ucXRpOVZyMnNCQnJ6Vi03Yi13MEFleE9COXZnNVh2LWNaMEhzbGFvY20waThWa0dGNFh6UzdRWHFhaS14dmZtSmhVYldvVXphVXp5cldFZWFZZ3ZXMndTcElR?oc=5",
+              "headline": "DoorDash、EnvoyとValkeyにより150万RPSを実現した高可用プロキシキャッシュ",
+              "content": "DoorDashが既存のキャッシュ基盤をEnvoyプロキシとValkey（Redisフォーク）の組み合わせに移行。ピーク時150万RPSの負荷下で可用性99.99999%を達成したアーキテクチャの詳細を公開した。",
+              "impact": "超大規模トラフィックにおけるインフラ設計のベストプラクティス。Valkeyの採用は、Redisのライセンス変更後のエンタープライズにおける実用的な選択肢として重要な先行事例となる。",
+              "date": "07/20",
+              "url": "https://www.infoq.com/news/2026/07/doordash-entity-cache-proxy/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
               "importance": 4,
               "novelty": 3,
-              "japan_relevance": 3,
-              "fetched_at": "2026-07-21T14:40:19.122747+09:00"
+              "japan_relevance": 2,
+              "fetched_at": "2026-07-22T07:44:14.732173+09:00"
             },
             {
-              "headline": "grepを超えて：文脈理解AIによる高度なコーディング・ハーネスの必要性",
-              "content": "従来の単純な文字列検索（grep）から、AIがコードベース全体の文脈（コンテキスト）を把握して開発を支援する「AIコーディング・ハーネス」への移行が提唱されている。静的解析と大規模言語モデルの融合が鍵となる。",
-              "impact": "エンジニアの生産性を本質的に変えるパラダイムシフト。AIが「単なる補完」から「アーキテクチャの整合性を保つ協働者」へと進化することで、大規模ソフトウェアの保守・開発コストが劇的に低下する可能性がある。",
-              "date": "7/20",
-              "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPNHRWVHVlVmZDczNTejF1R2FIRFphLXg2X0RNaWtmbUkzUk1iam9pZFU0Nk9nQ2c1MlE1QTV5amlaNGtxZkhhR3hvRmN6NEJJRTFUUXJMaUlFbFd2akxjMnZwcHZvOHBoSmlOYUlXd0JYbmZPTnh6T29aVG45dEZtc1F0TXZjSnBZcDlLMTUzZFU1WXVCaktPMQ?oc=5",
+              "headline": "1-bit LLM「Bonsai」活用ガイド：1.15GBで8Bモデルをローカル実行",
+              "content": "Caltech発のスタートアップPrismMLが、学習時から1-bit量子化を前提としたモデル「Bonsai」を発表。8Bクラスのモデルが極小のメモリで動作し、GPUなしのPCでも高速な推論が可能になる。",
+              "impact": "ローカルLLMの敷居を劇的に下げる。プライバシーを重視する開発環境や、インターネット制限のある環境でのAIエージェント活用を普及させるブレイクスルーとなる。",
+              "date": "07/19",
+              "url": "https://zenn.dev/tkou15/articles/bonsai-1bit-llm-guide",
               "importance": 4,
+              "novelty": 5,
+              "japan_relevance": 4,
+              "fetched_at": "2026-07-22T07:44:14.732173+09:00"
+            },
+            {
+              "headline": "React 19「useActionState」によるUX向上の真髄：非同期UIの新しい形",
+              "content": "React 19で導入されたuseActionStateフックは、単なる非同期版useReducerではなく、ユーザーの入力を妨げずに背後で状態を同期する「楽観的UI」や「シームレスな操作感」を実現するための核心機能として位置づけられている。",
+              "impact": "宣言的UIにおける非同期処理の記述が劇的にシンプルになり、標準機能だけでリッチかつストレスのないUXを容易に構築できるようになる。",
+              "date": "07/20",
+              "url": "https://zenn.dev/uhyo/articles/async-react-action-queue",
+              "importance": 4,
+              "novelty": 3,
+              "japan_relevance": 5,
+              "fetched_at": "2026-07-22T07:44:14.732173+09:00"
+            },
+            {
+              "headline": "Jack Dorsey、AIエージェントとGitを統合した分散型ワークスペース「Buzz」を発表",
+              "content": "Block社が主導し、Nostrプロトコルを活用したセルフホスト可能なチームチャット兼Gitホスティング環境。AIエージェントがワークスペースに組み込まれ、開発サイクルを一つのプラットフォームで完結させる。",
+              "impact": "SlackやGitHub、AIアシスタントが分断されている現状を打破しようとする野心的な試み。分散型アイデンティティとAIの融合による新しい開発エコシステムの形を示している。",
+              "date": "07/21",
+              "url": "https://runtimewire.com/article/jack-dorsey-block-buzz-team-chat-ai-agents-git",
+              "importance": 4,
+              "novelty": 4,
+              "japan_relevance": 3,
+              "fetched_at": "2026-07-22T07:44:14.732173+09:00"
+            },
+            {
+              "headline": "AWS、AIエージェント統制のためのオープンソースプラットフォーム「Loom」をリリース",
+              "content": "企業規模でのAIエージェント運用を管理・統制（ガバナンス）するためのリファレンスプラットフォームをAWSが公開。エージェントの権限管理や動作ログ、セキュリティポリシーの適用を統合的に行う。",
+              "impact": "野放図になりがちなAIエージェントの社内活用に対し、エンタープライズレベルでの管理基準を提示。セキュアなAI運用のための標準的な土台となる可能性がある。",
+              "date": "07/20",
+              "url": "https://www.infoq.com/news/2026/07/loom-aws-agent-platform/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+              "importance": 4,
+              "novelty": 4,
+              "japan_relevance": 3,
+              "fetched_at": "2026-07-22T07:44:14.732173+09:00"
+            },
+            {
+              "headline": "仕様と実装の乖離をハッシュで決定的に検出する「artgraph」の登場",
+              "content": "仕様駆動開発（SDD）における課題である「ドキュメントとコードの同期漏れ」を、LLMを使わずにIDとハッシュ値の比較で決定的に検出するCLIツールが開発された。仕様の変更を関数のハッシュ変化で捉え、更新を促す仕組み。",
+              "impact": "AIエージェントによる自動コード生成が増える中、人間が記述した仕様との整合性を確実に担保する「ガードレール」としての役割が期待される。",
+              "date": "07/19",
+              "url": "https://zenn.dev/mrmtsntr/articles/artgraph-spec-code-drift",
+              "importance": 3,
               "novelty": 4,
               "japan_relevance": 5,
-              "fetched_at": "2026-07-21T14:40:19.122747+09:00"
-            },
-            {
-              "headline": "通年化する山火事に対抗する「消防ドローン」の開発が進展",
-              "content": "米国の深刻な山火事被害を受け、24時間体制で消火活動や状況把握を行う専用ドローンの開発が加速している。有人航空機が活動できない夜間や煙の中でも運用可能な自律飛行技術が投入されている。",
-              "impact": "気候変動に伴う災害の激甚化に対し、ロボティクスとAIがどのように社会インフラを補完できるかのショーケースとなる。自律的な経路探索、チームでの連携消火など、マルチエージェントシステムの最先端応用事例である。",
-              "date": "7/20",
-              "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPSkZGcC13X0JwTThMS2ZQc21RY1prdzBaSElTeHhrMjJaTV9RXzBQTGVQczI0aURWYVE2a0RkVnU5bjlLcERtR05tbVctZERNNkFYbVZtWFJPR1pDcGltcndmOXpRbVkyNFR4ZVBEODRMVlcwdXR2b1NJbU80eXQ1emRndFBqdEJGQWdWMWYyUmNUWTFEeEFwMFJENXYzeEdRR0t6QWE0R2duUnRPTEE?oc=5",
-              "importance": 4,
-              "novelty": 3,
-              "japan_relevance": 4,
-              "fetched_at": "2026-07-21T14:40:19.122747+09:00"
-            },
-            {
-              "headline": "宇宙初期の「小さな赤い点」の謎を「青い伴星」が解明か",
-              "content": "JWSTが観測した宇宙初期の謎めいた「小さな赤い点（Little Red Dots）」について、新たに発見された「小さな青い伴星」の存在がその正体を説明できる可能性が浮上した。これは初期の巨大ブラックホールの成長過程に関連している。",
-              "impact": "初期宇宙における銀河形成とブラックホールの進化に関する既存の定説を覆す可能性がある。観測データの解釈における多波長・多天体アプローチの重要性を示しており、宇宙論の基礎理論の精緻化に寄与する。",
-              "date": "7/20",
-              "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOM25pcm9XVmstRWlvOFlqWVpIenN4ckpLOF82NDF5eExQTy05cW0tX1M4ZHRvb21UTnY2RUNlckgzek92VWRXUlNsVnF1MjVLeHpMNjZleHVCbE1GRW9XSGpfTHlwcF82TDBXb0tkQXpqcTRleVpsOTJwTVJ1LUdLQmwzRm55ZE1kQTMzcUNMRFJjM3JJT2NYNzhpczR0SG9lSHFGakdPXzRKSEZGN3JrUklaMnd3OVI1bnUyVHNrcjZwNjVXZS0xTEJuOThjNHNuREwzdlRfS0FPNGw5WEVKcFpSa2NHeHJ2cHN0SQ?oc=5",
-              "importance": 3,
-              "novelty": 5,
-              "japan_relevance": 1,
-              "fetched_at": "2026-07-21T14:40:19.122747+09:00"
-            },
-            {
-              "headline": "F1における機械学習の功罪。アルゴリズムがスポーツの魅力を損なう懸念",
-              "content": "F1レースにおいて機械学習アルゴリズムによる戦略最適化が進んだ結果、レース展開が予測可能になりすぎてしまい、スポーツとしての興奮を奪っているという批判が出ている。エンジニアリングとエンターテインメントの対立が鮮明になっている。",
-              "impact": "AIによる最適化が「遊び」や「不確実性」を排除した結果生じる逆説的な価値低下（効率の罠）を示唆している。これはゲーム理論やビジネス戦略、他の競技スポーツにおけるAI導入のあり方を再考させる重要な示唆を含む。",
-              "date": "7/20",
-              "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQdEJpeEF5ZEZoV0VoZ3ctaVFqWDJjNnFiS1lTRVRjbnJ6ODZIZXNTWUczS2FqSzlCb19HX0g5UmhBVWZtcTRjaDVIbzJMcG9rQUZQZndqbTZxb0N6Zjh3d3ZIQXE4ZlprTEJOVTdEamRjNFhMV1lJQjhwbVZSZC1YNTBZUW9XemlnaXBMTUFEb29SSDQxLVd3SGFvN3RpSVRjYi04RHltUTBFdw?oc=5",
-              "importance": 3,
-              "novelty": 4,
-              "japan_relevance": 3,
-              "fetched_at": "2026-07-21T14:40:19.122747+09:00"
+              "fetched_at": "2026-07-22T07:44:14.732173+09:00"
             }
           ]
         }
       ],
       "summary": {
-        "content": "本日の世界情勢は、地政学的緊張の連鎖と保護主義の激化により、極めて不安定な局面を迎えています。中東での軍事衝突激化に伴うエネルギー価格の上昇と、トランプ政権による対カナダ追加関税の表明は、グローバル・サプライチェーンとインフレ抑制策に甚大な打撃を与えるリスクを孕んでいます。テクノロジー分野では、AIの著作権問題における歴史的和解や自社製チップ開発が加速する一方、医療・電力網などの重要インフラを標的とした高度なサイバー攻撃が深刻化しており、経済安全保障の重要性が一層高まっています。日本は、歴史的な円安への投資家不信や中国製部品の浸透という産業的脅威に対し、生産拠点の国内回帰やサイバー防衛力の強化、さらには宇宙・ディープテック分野での戦略的優位性の確保に向けた、迅速かつ抜本的な構造改革を迫られています。"
+        "content": "本日は地政学的リスクの再燃とAIインフラの物理的限界が浮き彫りになった一日でした。中東やウクライナにおける軍事的・政治的緊張が深まる一方で、データセンターの電力消費急増や深刻な水不足といったリソース制約が、テクノロジー成長の「ハードル」として顕在化しています。日本にとっては、供給網の安全保障とエネルギー政策の再構築が急務となる状況です。"
       }
     },
     "week": {
-      "overview": "この1週間で見えてきたマクロな潮流は、「国家による資源・技術の囲い込み」と「AIの自律化に伴うリスクの深刻化」です。米国の関税政策や中東・欧州の政局不安は、グローバル経済の分断を決定づけつつあります。一方で、AI技術は1-bit LLMによる軽量化や、決済能力を持つエージェント、コーディングの自律化といった「実行フェーズ」に突入しました。これに伴い、著作権訴訟の巨額和解やサンドボックス脱出といった、法的・技術的な新たな防衛ラインの構築が急務となっています。宇宙開発や深宇宙探査も進展していますが、その裏では宇宙軍による大規模な軍事調達が進んでおり、科学と安全保障が不可分な領域に入ったことを示唆しています。",
+      "overview": "この1週間を俯瞰すると、AI技術の熱狂が「社会実装と法的規制」のフェーズへ急速に移行していることが分かります。Anthropicの巨額和解や欧州のSNS規制、中国製AIへの制裁示唆など、ルール形成の動きが加速しました。また、AIが数学の難問を解くなど科学的進展を見せる一方で、その基盤となる電力や水、クラウドの永続性といった物理層の脆弱性が議論の焦点となっています。マクロ的には、デジタル空間の拡大が現実世界の資源・法規と激しく衝突し始めた「物理的制約への回帰」という潮流が見て取れます。",
       "key_trends": [
         {
-          "title": "保護主義の再定義と地政学的エネルギーリスク",
-          "analysis": "カナダへの50%関税やホルムズ海峡を巡る緊張は、従来の自由貿易体制の崩壊を意味します。日本にとっては、北米サプライチェーンの再構築とエネルギー調達ルートの多角化が、単なる経済課題から生存に関わる国家戦略へと格上げされる事態となっています。"
+          "title": "AIインフラの物理的限界とエネルギー危機",
+          "analysis": "データセンターの電力消費が2035年までに4倍になるとの予測や、アリゾナ州の水不足は、AI拡大が資源不足により停滞する可能性を示唆しています。今後は、原子力推進や省電力な1-bit LLMなど、エネルギー効率を極限まで高める技術が地政学的な優位性を左右するでしょう。"
         },
         {
-          "title": "AIエージェント経済圏の台頭とセキュリティリスク",
-          "analysis": "SaaSが「記録」から「実行」へ移行し、AI専用の決済インフラが登場したことで、AIが自律的に経済活動を行う土壌が整いました。しかし、コーディングAIのサンドボックス脱出といった脆弱性は、自律化がもたらす新たな攻撃ベクターを浮き彫りにしており、信頼性の担保が今後の開発の主戦場となるでしょう。"
+          "title": "AIガバナンスの法制化と知財紛争の決着",
+          "analysis": "Anthropicの著作権和解やフランスのSNS禁止法は、テック大手による「やりたい放題」の終焉を意味します。モデル評価のセキュリティ侵害事例の公表も含め、信頼性と持続可能性を重視するルール形成が、今後の市場参入の必須条件となりつつあります。"
         },
         {
-          "title": "LLMの効率化と専門特化へのパラダイムシフト",
-          "analysis": "1-bit LLMのような極端な軽量化技術や、Googleの独自AIチップ開発は、汎用モデルから「特定用途・低コスト」へのシフトを象徴しています。全ての企業が巨大モデルをAPIで叩く時代から、目的に応じた小規模・自社開発モデルを使い分ける時代へと移行しています。"
+          "title": "分散型自律ワークフローへのパラダイムシフト",
+          "analysis": "Jack Dorsey氏の「Buzz」やAIによるループエンジニアリングの台頭は、人間中心の管理からAIエージェントが自走する分散型組織への移行を予感させます。開発プロセスそのものが自動化され、人間の役割は仕様策定と倫理的判断に特化していくことになります。"
         }
       ],
-      "updated_at": "2026-07-21 07:45 JST"
+      "updated_at": "2026-07-22 07:44 JST"
     }
   },
   "glossary": {
-    "オープンウェイトモデル": "AIの重み（学習済みデータ）を公開しているモデルのこと。ソースコードが公開されるオープンソースとは厳密には異なりますが、誰でも自身の環境で動かせるため、利便性と悪用リスクの両面で議論されています。",
-    "1-bit LLM": "AIモデルの数値を1ビット（基本的には-1、0、1の3値など）で表現する手法。従来のモデルに比べてメモリ消費量を劇的に抑えつつ、高い性能を維持できるため、スマホなどの端末内での動作を容易にします。",
-    "AIエージェント": "指示に対してテキストを返すだけでなく、ブラウザの操作、ファイルの編集、決済、コードの実行などを自律的に行うAIシステムのこと。",
-    "サンドボックス脱出": "AIなどが動作するために制限された安全な仮想環境（サンドボックス）から、本来アクセスできないはずの外部システムやOS本体へ侵入・操作してしまう脆弱性や攻撃のこと。",
-    "ホルムズ海峡": "ペルシャ湾とオマーン湾の間にある海峡。世界の石油輸送の要衝であり、ここが閉鎖されると世界のエネルギー価格に甚大な影響を及ぼすため、地政学的に極めて重要です。",
-    "AIラベル表示義務": "AIによって作成・改変された画像や動画などのコンテンツに、それがAIによるものであることを明示する義務。ディープフェイク対策や情報の透明性確保のためにEUなどで法制化が進んでいます。",
-    "スロップ（Slop）": "AIによって大量生成された、中身がなく価値の低い動画や記事などの「ゴミコンテンツ」を指す言葉。スパムのAI版としてプラットフォーム側での対策が求められています。",
-    "アルテミス計画": "NASAが主導する、有人月面着陸と将来の火星探査を目指す国際プロジェクト。単なる着陸だけでなく、月面での持続的な活動拠点の構築を目的としています。"
+    "MoE (Mixture of Experts)": "複数の専門的な小規模ネットワーク（エキスパート）を組み合わせ、処理内容に応じて最適なものを選択して実行するAIの手法。計算資源を節約しつつ大規模な処理を可能にします。",
+    "1-bit LLM": "AIモデルの重みを極限まで簡略化し、通常より大幅に少ないメモリと計算量で動作させる技術。スマートフォンなどのローカル環境での実行に適しています。",
+    "AIエージェント": "単に質問に答えるだけでなく、目標達成のために自ら計画を立て、ツールを使い、外部システムと連携して実行まで行うAIプログラムのこと。",
+    "ループエンジニアリング": "AIがコードを書き、テストし、エラーを修正して再実行するというサイクルを、人間の介入なしに自動で繰り返す開発手法。",
+    "ファウンドリ": "半導体メーカーから設計データを受け取り、実際の半導体チップの製造のみを請け負う工場、またはそのビジネス形態。",
+    "エルデシュ予想": "数学者ポール・エルデシュが提唱した数論に関する未解決問題。今回AIがその反例（正しくないことを証明する例）を提示した可能性が話題となっています。",
+    "サプライチェーン・リスク": "製品の原材料調達から製造、流通に至るまでの過程において、不正なプログラムの混入や供給停止などが発生し、安全保障や事業継続が脅かされる危険性。"
   },
-  "updated_at": "2026-07-21 14:40 JST",
+  "updated_at": "2026-07-22 07:44 JST",
   "token_usage": {
     "2026-05": 1444521,
     "2026-05-27": 248362,
@@ -483,7 +460,7 @@ window.newsData = {
     "2026-06-28": 125973,
     "2026-06-29": 84534,
     "2026-06-30": 114033,
-    "2026-07": 2522868,
+    "2026-07": 2580924,
     "2026-07-01": 118744,
     "2026-07-02": 133542,
     "2026-07-03": 137337,
@@ -504,10 +481,11 @@ window.newsData = {
     "2026-07-18": 108302,
     "2026-07-19": 120307,
     "2026-07-20": 113684,
-    "2026-07-21": 119179
+    "2026-07-21": 119179,
+    "2026-07-22": 58056
   },
   "available_days": [
-    "2026-07-21",
+    "2026-07-22",
     "2026-06-15",
     "2026-06-01",
     "2026-05-30",
