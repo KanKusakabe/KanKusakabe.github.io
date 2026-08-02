@@ -288,7 +288,7 @@ def enforce_topic_limits(llm_response, limit=TOPICS_PER_CATEGORY):
 
     return llm_response
 
-def load_processed_cache(cache_path, now, keep_days=3):
+def load_processed_cache(cache_path, now, keep_days=7):
     """Load processed URLs and Titles from JSON, filtering out older entries."""
     urls = {}
     titles = {}
@@ -709,10 +709,14 @@ def main():
     seen_titles = set()
     if not args.bootstrap:
         print("処理済みキャッシュを読み込み中...")
-        processed_urls_dict, processed_titles_dict = load_processed_cache(cache_path, now)
+        processed_urls_dict, processed_titles_dict = load_processed_cache(cache_path, now, keep_days=7)  # 7日以内のみ保持
         seen_urls = set(processed_urls_dict.keys())
         seen_titles = set(processed_titles_dict.keys())
         print(f"既処理URL: {len(seen_urls)}件, 既処理タイトル: {len(seen_titles)}件")
+        # デバッグ：最も新しいキャッシュエントリを表示
+        if processed_urls_dict:
+            newest = max(processed_urls_dict.items(), key=lambda x: x[1])
+            print(f"  最新のキャッシュエントリ: {newest[1]}")
     else:
         print("Bootstrapモードで実行中（過去の履歴とキャッシュを無視します）")
         
@@ -795,9 +799,18 @@ def main():
     total_news = len(scraped_entries)
     print(f"新規取得完了したユニークニュース総数: {total_news}件")
     
+    # デバッグ：フィード別の取得件数を表示
+    for name in FEEDS:
+        count = len([e for e in scraped_entries if e["feed_name"] == name])
+        if count > 0:
+            print(f"  - {name}: {count}件")
+    
     # 差分実行時で新規ニュースが0件かつ、過去のトピックも無い場合のみエラー終了とする
     if total_news == 0 and len(past_topics) == 0:
         print("新規ニュースが0件で、マージ対象の過去トピックも存在しないため終了します。", file=sys.stderr)
+        print("処理済みキャッシュの件数:", file=sys.stderr)
+        print(f"  - URLs: {len(processed_urls_dict)}件", file=sys.stderr)
+        print(f"  - Titles: {len(processed_titles_dict)}件", file=sys.stderr)
         sys.exit(0)
         
     # キャッシュに登録
