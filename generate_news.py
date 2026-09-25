@@ -569,7 +569,7 @@ def generate_topics_for_genre(api_key, call_func, genre, title, news_text, instr
         {{
           "headline": "具体的なトピック見出し",
           "content": "事実関係の簡潔なまとめ（スクレイピングされた本文内容を反映すること）",
-          "impact": "★重要★ 意義や影響の論理的な解説",
+          "impact": "意義や影響の論理的な解説（「★重要★」などの装飾記号や定型の前置きは付けない）",
           "date": "ニュースの日付 (例: 10/24 等)",
           "url": "ニュースの元のURL（改変禁止）",
           "importance": 3,
@@ -603,7 +603,7 @@ def generate_daily_summary_only(api_key, call_func, headlines_text):
 def generate_synthesis(api_key, call_func, headlines_text):
     prompt = f"""
     あなたはプロフェッショナル・アナリストです。
-    本日および直近1週間の重要ニュースのリストに基づいて、本日の総括サマリー、今週全体のニュース群から見えてくるマクロな潮流（Big Picture）、およびニュース内で使われている専門用語の解説（5〜10個程度）を作成してください。
+    本日および直近1週間の重要ニュースのリストに基づいて、本日の総括サマリー、今週全体のニュース群から見えてくる注目トレンド、およびニュース内で使われている専門用語の解説（5〜10個程度）を作成してください。
 
     【重要ニュースリスト】
     {headlines_text}
@@ -616,7 +616,6 @@ def generate_synthesis(api_key, call_func, headlines_text):
         "content": "本日の世界のビッグトレンドと、日本が注視すべきポイントの総括"
       }},
       "week": {{
-        "overview": "直近1週間のニュース群全体から見えてくる、より大きなマクロトレンドや技術の潮流（Big Picture）に関する総括文章（数段落で深い洞察を記述）",
         "key_trends": [
           {{
             "title": "トレンド見出し（例：AI市場の二極化とエッジ移行）",

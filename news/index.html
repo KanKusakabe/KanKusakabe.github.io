@@ -8,6 +8,40 @@
   <meta name="description" content="マクロ経済動向、日本情勢、各種テクノロジートレンドの解説サマリーです。">
   <meta name="keywords" content="Kan's News, マーケットニュース, テクノロジー, Zenn, Qiita, 日経">
   
+  <script>
+    // --- テーマカラー ---
+    // サイト内のアクセント色はすべて Tailwind の indigo-* クラスで書かれているため、
+    // indigo パレットの中身をテーマごとに差し替えて配色を切り替える。
+    // 試すときは URL に ?theme=indigo のように付ける（未指定なら DEFAULT_THEME）。
+    const THEMES = {
+      // 白基調のモノトーン（アクセントは墨色）
+      white: {
+        accent: {
+          50: '#f5f5f5', 100: '#ebebeb', 200: '#d6d6d6', 300: '#b3b3b3', 400: '#8a8a8a',
+          500: '#555555', 600: '#1f1f1f', 700: '#171717', 800: '#111111', 900: '#1c1c1c', 950: '#0a0a0a',
+        },
+        pageBg: '#ffffff',
+        glow: ['transparent', 'transparent'],
+      },
+      // 従来の紫
+      indigo: {
+        accent: {
+          50: '#eef2ff', 100: '#e0e7ff', 200: '#c7d2fe', 300: '#a5b4fc', 400: '#818cf8',
+          500: '#6366f1', 600: '#4f46e5', 700: '#4338ca', 800: '#3730a3', 900: '#312e81', 950: '#1e1b4b',
+        },
+        pageBg: '#f8fafc',
+        glow: ['rgba(79, 70, 229, 0.12)', 'rgba(168, 85, 247, 0.12)'],
+      },
+    };
+    const DEFAULT_THEME = 'white';
+    const themeName = new URLSearchParams(location.search).get('theme');
+    const THEME = THEMES[themeName] || THEMES[DEFAULT_THEME];
+    const rootStyle = document.documentElement.style;
+    rootStyle.setProperty('--page-bg', THEME.pageBg);
+    rootStyle.setProperty('--glow-1', THEME.glow[0]);
+    rootStyle.setProperty('--glow-2', THEME.glow[1]);
+    rootStyle.setProperty('--accent-rgb', THEME.accent[500].match(/\w\w/g).map(h => parseInt(h, 16)).join(', '));
+  </script>
   <script src="https://cdn.tailwindcss.com"></script>
   <script>
     tailwind.config = {
@@ -15,10 +49,12 @@
       theme: {
         extend: {
           fontFamily: {
-            sans: ['Inter', 'Noto Sans JP', 'sans-serif'],
-            outfit: ['Outfit', 'sans-serif'],
+            // UDEV Gothic 風: 英数字は JetBrains Mono、日本語は BIZ UDGothic
+            sans: ['JetBrains Mono', 'BIZ UDGothic', 'sans-serif'],
+            outfit: ['JetBrains Mono', 'BIZ UDGothic', 'sans-serif'],
           },
           colors: {
+            indigo: THEME.accent,
             brand: {
               50: '#f5f7fa',
               100: '#e4e8f0',
@@ -40,7 +76,7 @@
   
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@300;400;500;700;900&family=Noto+Sans+JP:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700;800&family=BIZ+UDGothic:wght@400;700&display=swap" rel="stylesheet">
 
   <style>
     .tab-transition {
@@ -78,8 +114,8 @@
       pointer-events: none;
       z-index: 0;
       background: 
-        radial-gradient(circle at 10% 10%, rgba(79, 70, 229, 0.12) 0%, transparent 45%),
-        radial-gradient(circle at 90% 80%, rgba(168, 85, 247, 0.12) 0%, transparent 45%);
+        radial-gradient(circle at 10% 10%, var(--glow-1) 0%, transparent 45%),
+        radial-gradient(circle at 90% 80%, var(--glow-2) 0%, transparent 45%);
     }
     /* Hide scrollbars for Chrome, Safari and Opera */
     .no-scrollbar::-webkit-scrollbar {
@@ -102,7 +138,7 @@
     }
     .wordcloud-genre-container span:hover {
       transform: scale(1.12) !important;
-      text-shadow: 0 4px 12px rgba(99, 102, 241, 0.15);
+      text-shadow: 0 4px 12px rgba(var(--accent-rgb), 0.15);
       z-index: 50;
     }
   </style>
@@ -111,18 +147,13 @@
   <!-- Load the generated data -->
   <script src="./news_data.js"></script>
 </head>
-<body class="bg-slate-50 text-slate-900 font-sans min-h-screen flex flex-col antialiased relative overflow-x-hidden">
+<body style="background-color: var(--page-bg);" class="text-slate-900 font-sans min-h-screen flex flex-col antialiased relative overflow-x-hidden">
   <div class="glow-bg"></div>
 
-  <header class="glass-nav z-30 border-b px-4 sm:px-6 lg:px-8 py-4 transition-all">
+  <header class="glass-nav z-30 border-b px-3 sm:px-6 lg:px-8 py-4 transition-all">
     <div class="max-w-[90rem] mx-auto flex items-center justify-between relative z-10">
       <div class="flex items-center gap-3">
         <a href="https://kankusakabe.github.io/Portfolio/ja" class="flex items-center gap-3 group">
-          <div class="flex items-center justify-center w-10 h-10 rounded-xl bg-gradient-to-br from-indigo-500 to-violet-600 text-white shadow-lg shadow-indigo-500/30 group-hover:scale-105 transition-transform duration-300">
-            <svg xmlns="http://www.w3.org/2000/svg" class="h-5.5 w-5.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M21 7.5l-9-5.25L3 7.5m18 0l-9 5.25m9-5.25v9l-9 5.25M3 7.5l9 5.25M3 7.5v9l9 5.25m0-9v9" />
-            </svg>
-          </div>
           <div>
             <h1 class="text-base sm:text-lg font-black text-slate-900 tracking-tight leading-none group-hover:text-indigo-600 transition-colors font-outfit">Kan's News</h1>
             <p class="text-[9px] sm:text-[10px] font-bold text-slate-500 mt-1 uppercase tracking-widest font-outfit">Daily Intelligence Summary</p>
@@ -146,7 +177,7 @@
 
 
 
-  <main class="flex-1 max-w-[90rem] w-full mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-12 relative z-10">
+  <main class="flex-1 max-w-[90rem] w-full mx-auto px-3 sm:px-6 lg:px-8 py-6 sm:py-12 relative z-10">
     
     <div class="mb-8 text-center sm:text-left">
       <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full text-[11px] font-bold bg-indigo-50 border border-indigo-100 text-indigo-600 mb-3 tracking-wider font-outfit uppercase">
@@ -185,8 +216,8 @@
       </div>
     </div>
 
-    <div class="bg-white/80 backdrop-blur-md rounded-2xl border border-slate-200 shadow-xl mb-8">
-      <div class="p-6 sm:p-8">
+    <div class="sm:bg-white/80 sm:backdrop-blur-md sm:rounded-2xl sm:border sm:border-slate-200 sm:shadow-xl mb-8">
+      <div class="sm:p-8">
         
         <div id="loading-state" class="py-20 flex flex-col items-center justify-center gap-4">
           <div class="w-10 h-10 border-4 border-slate-200 border-t-indigo-500 rounded-full animate-spin"></div>
@@ -234,7 +265,7 @@
 
   <!-- Market Overview Charts -->
   <div class="w-full bg-white/60 border-t border-b border-slate-200/80 py-8 relative z-10 backdrop-blur-sm">
-    <div class="max-w-[90rem] mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="max-w-[90rem] mx-auto px-3 sm:px-6 lg:px-8">
       
       <!-- Chart Controls -->
       <div class="flex items-center justify-between mb-4">
@@ -251,7 +282,7 @@
         </div>
       </div>
 
-      <div class="flex overflow-x-auto snap-x snap-mandatory gap-4 pb-4 -mx-4 px-4 no-scrollbar sm:mx-0 sm:px-0 sm:grid sm:grid-cols-2 lg:grid-cols-4 sm:pb-0" id="mini-charts-container">
+      <div class="flex overflow-x-auto snap-x snap-mandatory gap-4 pb-4 -mx-3 px-3 no-scrollbar sm:mx-0 sm:px-0 sm:grid sm:grid-cols-2 lg:grid-cols-4 sm:pb-0" id="mini-charts-container">
         <!-- Charts will be rendered here by JS -->
       </div>
     </div>
@@ -332,7 +363,7 @@
     function getWordColor(word, scale) {
       if (activeWordFilter) {
         if (word === activeWordFilter) {
-          return '#4f46e5'; // Indigo for active
+          return THEME.accent[600]; // アクセント色
         } else {
           return '#cbd5e1'; // Greyed out for others
         }
@@ -368,6 +399,16 @@
       }
     }
 
+    const wordCloudResizeObserver = new ResizeObserver(entries => {
+      entries.forEach(entry => {
+        const el = entry.target;
+        const width = el.clientWidth;
+        if (width > 0 && el._cloudCat && width !== el._cloudWidth) {
+          renderGenreWordCloud(el._cloudCat);
+        }
+      });
+    });
+
     function renderGenreWordCloud(cat) {
       const wordsDiv = document.getElementById(`wordcloud-genre-${cat.genre}`);
       if (!wordsDiv) return;
@@ -401,7 +442,7 @@
         list: list,
         gridSize: 4,
         weightFactor: 1,
-        fontFamily: 'Outfit, Inter, Noto Sans JP, sans-serif',
+        fontFamily: "'JetBrains Mono', 'BIZ UDGothic', sans-serif",
         color: function (word) {
           const count = wordFreqs.find(w => w[0] === word)?.[1] || minF;
           const scale = maxF === minF ? 0.5 : (count - minF) / (maxF - minF);
@@ -412,6 +453,11 @@
         drawOutOfBound: false,
         shuffle: false
       });
+
+      // 描画後に枠の幅が変わったら（Tailwind CDN のスタイル適用でグリッド幅が確定した等）描き直す
+      wordsDiv._cloudCat = cat;
+      wordsDiv._cloudWidth = wordsDiv.clientWidth;
+      wordCloudResizeObserver.observe(wordsDiv);
 
       if (!wordsDiv.dataset.listenerBound) {
         wordsDiv.addEventListener('click', (e) => {
@@ -539,6 +585,11 @@
       return uniqueTopics.slice(0, limit);
     }
 
+    // 生成データの impact 冒頭に付く「★重要★」は全記事共通で情報がないため表示しない
+    function stripImpactPrefix(text) {
+      return (text || '').replace(/^\s*★\s*重要\s*★\s*/, '');
+    }
+
     function renderTopicCard(topic) {
       const dateHtml = topic.date ? `<div class="text-[10px] text-slate-400 font-semibold">${topic.date}</div>` : '';
       const sourceLinkHtml = topic.url 
@@ -564,9 +615,9 @@
           <h5 class="text-sm font-bold text-slate-800 mb-2 leading-relaxed font-sans break-words">${headlineHtml}</h5>
           <div class="space-y-3.5">
             <p class="text-xs sm:text-[13px] leading-relaxed text-slate-600 font-normal font-sans break-words">${parseGlossaryTerms(topic.content)}</p>
-            <div class="bg-indigo-50/50 border-l-2 border-indigo-400 p-3.5 rounded-r-lg">
+            <div class="bg-indigo-50/50 border-l-2 border-indigo-400 px-3 py-2.5 sm:p-3.5 rounded-r-lg">
               <span class="text-[9px] font-bold text-indigo-600 uppercase tracking-widest mb-1.5 block font-outfit">Impact & Implications</span>
-              <p class="text-xs sm:text-[13px] leading-relaxed text-slate-600 font-normal font-sans break-words">${parseGlossaryTerms(topic.impact)}</p>
+              <p class="text-xs sm:text-[13px] leading-relaxed text-slate-600 font-normal font-sans break-words">${parseGlossaryTerms(stripImpactPrefix(topic.impact))}</p>
             </div>
           </div>
         </div>
@@ -600,7 +651,7 @@
         <button onclick="goToday()" class="px-3 py-1.5 rounded-lg text-xs font-bold border border-indigo-200 bg-indigo-50 text-indigo-600 hover:bg-indigo-100 transition-colors">今日へ戻る</button>`;
       return `
         <div class="max-w-4xl mx-auto w-full mb-6">
-          <div class="flex items-center justify-between gap-3 bg-white/80 border border-slate-200 rounded-xl px-4 py-3 shadow-sm">
+          <div class="flex items-center justify-between gap-2 sm:gap-3 bg-white/80 border border-slate-200 rounded-xl px-3 py-2.5 sm:px-4 sm:py-3 shadow-sm">
             <div class="flex items-center gap-2">
               <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-indigo-500" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" /></svg>
               <span class="text-sm font-bold text-slate-800 font-outfit">${formatDayLabel(dateStr, isToday)}</span>
@@ -669,43 +720,30 @@
         let trendsHtml = '';
         periodDataWeek.key_trends.forEach(trend => {
           trendsHtml += `
-            <div class="bg-white/80 border border-slate-200 rounded-xl p-6 shadow-sm hover:shadow-md transition-shadow">
-              <h4 class="text-base font-bold text-slate-800 mb-3 border-l-4 border-indigo-500 pl-3 leading-snug break-words">${parseGlossaryTerms(trend.title)}</h4>
+            <div class="pb-4 last:pb-0 border-b last:border-0 border-slate-200 sm:p-6 sm:last:pb-6 sm:bg-white/80 sm:border sm:last:border sm:rounded-xl sm:shadow-sm sm:hover:shadow-md transition-shadow">
+              <h4 class="text-base font-bold text-slate-800 mb-2 sm:mb-3 sm:border-l-4 sm:border-indigo-500 sm:pl-3 leading-snug break-words">${parseGlossaryTerms(trend.title)}</h4>
               <p class="text-sm text-slate-600 leading-relaxed break-words">${parseGlossaryTerms(trend.analysis)}</p>
             </div>
           `;
         });
 
-        const overviewSection = (periodDataWeek.overview) ? `
-          <section class="bg-gradient-to-r from-indigo-900 to-slate-800 rounded-2xl p-8 sm:p-10 text-white shadow-xl relative overflow-hidden">
-            <div class="absolute top-0 right-0 -mt-10 -mr-10 w-40 h-40 bg-white/10 rounded-full blur-2xl"></div>
-            <div class="relative z-10">
-              <h3 class="text-2xl font-black mb-4 tracking-tight">Trends & Big Picture</h3>
-              <p class="text-[15px] leading-relaxed text-indigo-100 font-medium break-words">${parseGlossaryTerms(periodDataWeek.overview)}</p>
+        // スマホではニュース欄と同じく枠なし・上罫線で区切る（sm以上はカード表示）
+        finalHtml += `
+          <section class="max-w-4xl mx-auto w-full border-t-2 border-slate-800 pt-3 sm:border-0 sm:pt-0 space-y-4">
+            <h3 class="text-lg font-bold text-slate-800 flex items-center gap-2 sm:px-2">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-indigo-500" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" /></svg>
+              注目すべきキートレンド
+            </h3>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-5">
+              ${trendsHtml}
             </div>
           </section>
-        ` : '';
-
-        finalHtml += `
-          <div class="max-w-4xl mx-auto w-full space-y-8">
-            ${overviewSection}
-            
-            <div class="space-y-4">
-              <h3 class="text-lg font-bold text-slate-800 flex items-center gap-2 px-2">
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-indigo-500" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" /></svg>
-                注目すべきキートレンド
-              </h3>
-              <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
-                ${trendsHtml}
-              </div>
-            </div>
-          </div>
         `;
       }
 
       // --- Divider ---
       if (periodDataDays && periodDataWeek) {
-        finalHtml += `<div class="my-16 flex items-center justify-center opacity-30"><div class="w-full h-px bg-slate-300"></div><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-slate-400 px-4 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" /></svg><div class="w-full h-px bg-slate-300"></div></div>`;
+        finalHtml += `<div class="my-10 sm:my-16 flex items-center justify-center opacity-30"><div class="w-full h-px bg-slate-300"></div><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-slate-400 px-4 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" /></svg><div class="w-full h-px bg-slate-300"></div></div>`;
       }
 
       // --- Render Days (Latest News) ---
@@ -749,7 +787,7 @@
             const visibleTopicsHtml = visibleTopics.map(topic => renderTopicCard(topic)).join('');
             const hiddenTopicsHtml = hiddenTopics.length > 0
               ? `
-                <details class="rounded-lg border border-slate-200 bg-slate-50/60 p-3.5">
+                <details class="rounded-lg border border-slate-200 bg-slate-50/60 p-3 sm:p-3.5">
                   <summary class="cursor-pointer list-none flex items-center justify-between text-xs sm:text-sm font-semibold text-slate-600 hover:text-indigo-600 transition-colors">
                     <span>残り${hiddenTopics.length}件を表示</span>
                     <span class="text-[10px] font-bold text-indigo-500">開く</span>
@@ -785,7 +823,7 @@
           }
 
           return `
-            <section class="flex flex-col bg-white/90 border border-slate-200/80 rounded-xl p-5 mb-6 sm:mb-0 h-full">
+            <section class="flex flex-col border-t-2 border-slate-800 pt-3 mb-10 sm:mb-0 sm:bg-white/90 sm:border sm:border-slate-200/80 sm:rounded-xl sm:p-5 h-full">
               <div class="flex items-center gap-2.5 mb-4 pb-3.5 border-b border-slate-100">
                 <span class="p-2 rounded-lg border ${iconColorClass}">
                   ${iconSvg}
@@ -793,8 +831,8 @@
                 <h3 class="text-sm sm:text-base font-bold text-slate-800 font-sans">${cat.title}</h3>
               </div>
               
-              <!-- Genre-specific Word Cloud -->
-              <div id="wordcloud-genre-${cat.genre}" class="wordcloud-genre-container relative w-full h-32 overflow-hidden bg-slate-50/40 rounded-xl border border-slate-200/50 p-2 mb-4 hover:border-slate-300 transition-colors">
+              <!-- Genre-specific Word Cloud（Tailwind CDNのスタイル適用前に描画されても配置が崩れないよう高さはインラインで固定） -->
+              <div id="wordcloud-genre-${cat.genre}" style="height: 8rem;" class="wordcloud-genre-container relative w-full h-32 overflow-hidden bg-slate-50/40 rounded-xl border border-slate-200/50 p-2 mb-4 hover:border-slate-300 transition-colors">
                 <!-- Spans will be rendered here dynamically -->
               </div>
 
@@ -833,7 +871,7 @@
             ? 'flex-1 py-2 text-xs font-bold rounded-lg text-center bg-white text-indigo-600 shadow-sm transition-all uppercase tracking-wider'
             : 'flex-1 py-2 text-xs font-bold rounded-lg text-center text-slate-500 transition-all uppercase tracking-wider';
           const mobileTabsHtml = (hasGeneral && hasTech) ? `
-            <div id="mobile-tabs" class="sm:hidden sticky top-0 z-20 -mx-4 px-4 py-2 mb-4 bg-slate-50/90 backdrop-blur-md">
+            <div id="mobile-tabs" class="sm:hidden sticky top-0 z-20 -mx-3 px-3 py-2 mb-4 bg-white/90 backdrop-blur-md">
               <div class="flex gap-1 p-1 bg-slate-100 border border-slate-200 rounded-xl">
                 <button onclick="switchMobileTab('general')" class="${tabBtnClass('general')}">General News</button>
                 <button onclick="switchMobileTab('tech')" class="${tabBtnClass('tech')}">Tech & Dev</button>
@@ -872,7 +910,7 @@
         }
 
         const summaryHtml = `
-          <section class="mt-8 relative border border-indigo-100 rounded-xl bg-gradient-to-br from-indigo-50/50 to-white text-slate-800 p-6 sm:p-8 shadow-sm overflow-hidden">
+          <section class="mt-8 relative border border-indigo-100 rounded-xl bg-gradient-to-br from-indigo-50/50 to-white text-slate-800 px-4 py-5 sm:p-8 shadow-sm overflow-hidden">
             <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-4 pb-4 border-b border-indigo-100">
               <div class="flex items-center gap-2.5">
                 <span class="p-2 rounded-lg bg-indigo-100 border border-indigo-200 text-indigo-600">
@@ -891,7 +929,8 @@
 
       newsContent.innerHTML = finalHtml;
 
-      // Render genre-specific word clouds
+      // Render genre-specific word clouds（作り直す前の古い要素の監視は解除）
+      wordCloudResizeObserver.disconnect();
       if (periodDataDays && periodDataDays.categories) {
         periodDataDays.categories.forEach(cat => {
           renderGenreWordCloud(cat);
