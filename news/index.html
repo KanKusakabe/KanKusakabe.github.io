@@ -279,6 +279,7 @@
   <script>
     let newsData = null;
     let activeWordFilter = null;
+    let mobileTab = 'general';  // スマホ表示時に選択中のタブ（general / tech）
     const TOPICS_PER_CATEGORY = 50;
     const INITIAL_VISIBLE_TOPICS = 6;
 
@@ -823,11 +824,29 @@
             </div>
           `;
         } else {
+          // スマホでは General / Tech をタブで切り替え（sm以上は両方を縦に表示）
+          const hasGeneral = !!generalHtml.trim();
+          const hasTech = !!techHtml.trim();
+          if (mobileTab === 'general' && !hasGeneral) mobileTab = 'tech';
+          if (mobileTab === 'tech' && !hasTech) mobileTab = 'general';
+          const tabBtnClass = (tab) => mobileTab === tab
+            ? 'flex-1 py-2 text-xs font-bold rounded-lg text-center bg-white text-indigo-600 shadow-sm transition-all uppercase tracking-wider'
+            : 'flex-1 py-2 text-xs font-bold rounded-lg text-center text-slate-500 transition-all uppercase tracking-wider';
+          const mobileTabsHtml = (hasGeneral && hasTech) ? `
+            <div id="mobile-tabs" class="sm:hidden sticky top-0 z-20 -mx-4 px-4 py-2 mb-4 bg-slate-50/90 backdrop-blur-md">
+              <div class="flex gap-1 p-1 bg-slate-100 border border-slate-200 rounded-xl">
+                <button onclick="switchMobileTab('general')" class="${tabBtnClass('general')}">General News</button>
+                <button onclick="switchMobileTab('tech')" class="${tabBtnClass('tech')}">Tech & Dev</button>
+              </div>
+            </div>` : '';
+          const tabVisibility = (tab) => mobileTab === tab ? '' : 'hidden sm:block';
+
           gridHtml = `
-            <div id="swipe-container" class="flex overflow-x-auto snap-x snap-mandatory no-scrollbar sm:block pb-4 sm:pb-0 -mx-4 px-4 sm:mx-0 sm:px-0">
-              
-              ${generalHtml.trim() ? `
-              <div id="swipe-tab-general" class="w-full flex-none snap-start sm:w-auto sm:min-w-0 sm:block shrink-0 sm:mb-8 pr-2 sm:pr-0">
+            ${mobileTabsHtml}
+            <div>
+
+              ${hasGeneral ? `
+              <div id="swipe-tab-general" class="${tabVisibility('general')} sm:mb-8">
                 <div class="hidden sm:flex items-center gap-3 mb-6">
                   <h2 class="text-xl font-bold text-slate-800 font-outfit tracking-wide">General News</h2>
                   <div class="flex-1 h-px bg-slate-200"></div>
@@ -837,8 +856,8 @@
                 </div>
               </div>` : ''}
               
-              ${techHtml.trim() ? `
-              <div id="swipe-tab-tech" class="w-full flex-none snap-start sm:w-auto sm:min-w-0 sm:block shrink-0 pl-2 sm:pl-0">
+              ${hasTech ? `
+              <div id="swipe-tab-tech" class="${tabVisibility('tech')}">
                 <div class="hidden sm:flex items-center gap-3 mb-6">
                   <h2 class="text-xl font-bold text-slate-800 font-outfit tracking-wide">Tech & Dev Trends</h2>
                   <div class="flex-1 h-px bg-slate-200"></div>
@@ -880,38 +899,20 @@
       }
 
       attachGlossaryListeners();
-      
-      setTimeout(() => {
-        const container = document.getElementById('swipe-container');
-        if (container) {
-          container.addEventListener('scroll', () => {
-            const scrollLeft = container.scrollLeft;
-            const width = container.clientWidth;
-            const btnGeneral = document.getElementById('btn-swipe-general');
-            const btnTech = document.getElementById('btn-swipe-tech');
-            
-            if (!btnGeneral || !btnTech) return;
-            
-            if (scrollLeft > width / 3) {
-              btnTech.className = "flex-1 py-2 text-xs font-bold rounded-lg text-center bg-white text-indigo-600 shadow-sm transition-all focus:outline-none uppercase tracking-wider";
-              btnGeneral.className = "flex-1 py-2 text-xs font-bold rounded-lg text-center text-slate-500 hover:text-slate-800 transition-all focus:outline-none uppercase tracking-wider";
-            } else {
-              btnGeneral.className = "flex-1 py-2 text-xs font-bold rounded-lg text-center bg-white text-indigo-600 shadow-sm transition-all focus:outline-none uppercase tracking-wider";
-              btnTech.className = "flex-1 py-2 text-xs font-bold rounded-lg text-center text-slate-500 hover:text-slate-800 transition-all focus:outline-none uppercase tracking-wider";
-            }
-          });
-        }
-      }, 100);
     }
-    
-    function scrollToSwipeTab(tab) {
-      const container = document.getElementById('swipe-container');
-      const target = document.getElementById(`swipe-tab-${tab}`);
-      if (container && target) {
-        container.scrollTo({
-          left: target.offsetLeft - container.offsetLeft,
-          behavior: 'smooth'
-        });
+
+    function switchMobileTab(tab) {
+      if (mobileTab === tab) return;
+      mobileTab = tab;
+      // 非表示だったタブのワードクラウドは幅0で描画されているため再描画する
+      renderNews();
+      // 読み進めた位置で切り替えた場合は、新しいタブの先頭（固定タブの直下）へ戻す
+      const tabs = document.getElementById('mobile-tabs');
+      const content = tabs?.nextElementSibling;
+      if (tabs && content) {
+        const tabsBottom = tabs.getBoundingClientRect().bottom;
+        const contentTop = content.getBoundingClientRect().top;
+        if (contentTop < tabsBottom) window.scrollBy(0, contentTop - tabsBottom);
       }
     }
 
