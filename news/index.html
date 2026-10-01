@@ -146,6 +146,8 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/wordcloud2.js/1.0.2/wordcloud2.min.js"></script>
   <!-- Load the generated data -->
   <script src="./news_data.js"></script>
+  <!-- Papers枠のデータ（ニュースのarchiveとは独立。無くても動作する） -->
+  <script src="./papers/papers_data.js"></script>
 </head>
 <body style="background-color: var(--page-bg);" class="text-slate-900 font-sans min-h-screen flex flex-col antialiased relative overflow-x-hidden">
   <div class="glow-bg"></div>
@@ -837,9 +839,10 @@
 
         const generalHtml = generalCategories.map(renderCategorySection).join('');
         const techHtml = techCategories.map(renderCategorySection).join('');
+        const papersHtml = renderPapersSection();
 
         let gridHtml = '';
-        if (activeWordFilter && !generalHtml.trim() && !techHtml.trim()) {
+        if (activeWordFilter && !generalHtml.trim() && !techHtml.trim() && !papersHtml.trim()) {
           gridHtml = `
             <div class="py-12 flex flex-col items-center justify-center text-center max-w-md mx-auto gap-4 p-6 bg-slate-50 border border-slate-200/60 rounded-2xl my-4">
               <div class="w-12 h-12 rounded-full bg-slate-100 text-slate-400 flex items-center justify-center border border-slate-200">
@@ -857,16 +860,18 @@
           // スマホでは General / Tech をタブで切り替え（sm以上は両方を縦に表示）
           const hasGeneral = !!generalHtml.trim();
           const hasTech = !!techHtml.trim();
-          if (mobileTab === 'general' && !hasGeneral) mobileTab = 'tech';
-          if (mobileTab === 'tech' && !hasTech) mobileTab = 'general';
+          const hasPapers = !!papersHtml.trim();
+          const availableTabs = [hasGeneral && 'general', hasTech && 'tech', hasPapers && 'papers'].filter(Boolean);
+          if (!availableTabs.includes(mobileTab) && availableTabs.length) mobileTab = availableTabs[0];
           const tabBtnClass = (tab) => mobileTab === tab
             ? 'flex-1 py-2 text-xs font-bold rounded-lg text-center bg-white text-indigo-600 shadow-sm transition-all uppercase tracking-wider'
             : 'flex-1 py-2 text-xs font-bold rounded-lg text-center text-slate-500 transition-all uppercase tracking-wider';
-          const mobileTabsHtml = (hasGeneral && hasTech) ? `
+          const mobileTabsHtml = (availableTabs.length > 1) ? `
             <div id="mobile-tabs" class="sm:hidden sticky top-0 z-20 -mx-3 px-3 py-2 mb-4 bg-white/90 backdrop-blur-md">
               <div class="flex gap-1 p-1 bg-slate-100 border border-slate-200 rounded-xl">
-                <button onclick="switchMobileTab('general')" class="${tabBtnClass('general')}">General News</button>
-                <button onclick="switchMobileTab('tech')" class="${tabBtnClass('tech')}">Tech & Dev</button>
+                ${hasGeneral ? `<button onclick="switchMobileTab('general')" class="${tabBtnClass('general')}">General News</button>` : ''}
+                ${hasTech ? `<button onclick="switchMobileTab('tech')" class="${tabBtnClass('tech')}">Tech & Dev</button>` : ''}
+                ${hasPapers ? `<button onclick="switchMobileTab('papers')" class="${tabBtnClass('papers')}">Papers</button>` : ''}
               </div>
             </div>` : '';
           const tabVisibility = (tab) => mobileTab === tab ? '' : 'hidden sm:block';
@@ -896,6 +901,8 @@
                   ${techHtml}
                 </div>
               </div>` : ''}
+
+              ${hasPapers ? papersHtml.replace('id="swipe-tab-papers"', `id="swipe-tab-papers" class="${tabVisibility('papers')}"`) : ''}
               
             </div>
           `;
@@ -930,6 +937,162 @@
       }
 
       attachGlossaryListeners();
+    }
+
+
+    // --- Papers枠（arXiv注目論文 / HF Daily Papers / ラボ発表） ---
+    function esc(text) {
+      return String(text ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+    }
+
+    function paperMatchesFilter(item) {
+      if (!activeWordFilter) return true;
+      const f = activeWordFilter.toLowerCase();
+      return Object.values(item).some(v => typeof v === 'string' && v.toLowerCase().includes(f))
+        || (Array.isArray(item.tags) && item.tags.some(t => String(t).toLowerCase().includes(f)));
+    }
+
+    const EXTERNAL_ICON = `<svg xmlns="http://www.w3.org/2000/svg" class="h-3 w-3 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" /></svg>`;
+
+    function badge(text, cls) {
+      return `<span class="inline-block text-[10px] font-bold px-2 py-0.5 rounded-full border ${cls}">${esc(text)}</span>`;
+    }
+
+    const STAR_LABELS = { sota: 'SOTA更新', new: '新手法', cap: '新能力' };
+
+    function renderArxivCard(p) {
+      const badges = [];
+      (p.star_codes || []).forEach(c => badges.push(badge(STAR_LABELS[c] || c, 'bg-yellow-50 border-yellow-300 text-yellow-800')));
+      if (p.award) badges.push(badge('Award', 'bg-amber-50 border-amber-300 text-amber-700'));
+      (p.venues || []).forEach(v => badges.push(
+        v.includes('(WS)') ? badge(v, 'bg-slate-50 border-slate-200 text-slate-500') : badge(v, 'bg-indigo-50 border-indigo-200 text-indigo-700')
+      ));
+      if (p.talk && !p.workshop) badges.push(badge('Oral/Spotlight', 'bg-emerald-50 border-emerald-200 text-emerald-700'));
+      if (p.hf_upvotes) badges.push(badge(`HF ▲${p.hf_upvotes}`, 'bg-orange-50 border-orange-200 text-orange-700'));
+      (p.signals || []).filter(x => x.startsWith('HN')).forEach(x => badges.push(badge(x, 'bg-orange-50 border-orange-200 text-orange-700')));
+      // ★の数 = 厳格な判定のうち★になった回数（外部シグナルのみの場合は1つ）
+      const starCount = Math.max(1, Math.min(3, p.star_votes || 0));
+      const stars = '★'.repeat(starCount);
+      const tags = (p.tags || []).map(t => `<span class="text-[10px] text-slate-500 bg-slate-100 rounded px-1.5 py-0.5">${esc(t)}</span>`).join('');
+      const authors = (p.authors || []).slice(0, 3).join(', ') + ((p.authors || []).length > 3 ? ' ほか' : '');
+      return `
+        <div class="mb-5 last:mb-0 pb-5 last:pb-0 border-b last:border-0 border-slate-200">
+          <div class="flex items-center justify-between gap-2 mb-2">
+            <div class="flex flex-wrap items-center gap-1.5">${badges.join('')}</div>
+            <span class="text-sm tracking-wider text-yellow-500 flex-shrink-0" title="要チェック（★の数＝判定の一致回数）">${stars}</span>
+          </div>
+          <h5 class="text-sm font-bold text-slate-800 mb-1 leading-relaxed font-sans break-words">
+            <a href="${esc(p.url)}" target="_blank" class="hover:text-indigo-600 transition-colors">${esc(p.headline)}</a>
+          </h5>
+          <p class="text-[10px] text-slate-400 mb-2 break-words">${esc(p.title)}${authors ? ' — ' + esc(authors) : ''}</p>
+          <div class="space-y-3">
+            <p class="text-xs sm:text-[13px] leading-relaxed text-slate-600 break-words">${esc(p.what)}</p>
+            <div class="bg-indigo-50/50 border-l-2 border-indigo-400 px-3 py-2.5 sm:p-3.5 rounded-r-lg">
+              <span class="text-[9px] font-bold text-indigo-600 uppercase tracking-widest mb-1.5 block font-outfit">What it enables</span>
+              <p class="text-xs sm:text-[13px] leading-relaxed text-slate-600 break-words">${esc(p.enables)}</p>
+            </div>
+            <p class="text-xs sm:text-[13px] leading-relaxed text-slate-500 break-words">${esc(p.why_it_matters)}</p>
+          </div>
+          <div class="flex flex-wrap items-center justify-between gap-2 mt-3">
+            <div class="flex flex-wrap gap-1">${tags}</div>
+            <div class="flex items-center gap-3 text-[10px] font-bold text-indigo-600">
+              <a href="${esc(p.url)}" target="_blank" class="inline-flex items-center gap-1 hover:text-indigo-800">arXiv ${EXTERNAL_ICON}</a>
+              <a href="${esc(p.pdf)}" target="_blank" class="inline-flex items-center gap-1 hover:text-indigo-800">PDF ${EXTERNAL_ICON}</a>
+            </div>
+          </div>
+        </div>`;
+    }
+
+    function renderHfCard(h, rank) {
+      const meta = [];
+      meta.push(`▲ ${h.upvotes}`);
+      if (h.github_stars) meta.push(`★ ${Number(h.github_stars).toLocaleString()}`);
+      if (h.org) meta.push(esc(h.org));
+      return `
+        <div class="mb-4 last:mb-0 pb-4 last:pb-0 border-b last:border-0 border-slate-200">
+          <div class="flex items-center gap-2 text-[10px] font-bold text-orange-600 mb-1.5">
+            <span class="text-slate-400">#${rank}</span><span>${meta.join(' · ')}</span>
+          </div>
+          <h5 class="text-[13px] font-bold text-slate-800 mb-1 leading-relaxed break-words">
+            <a href="${esc(h.url)}" target="_blank" class="hover:text-indigo-600 transition-colors">${esc(h.title_ja || h.title)}</a>
+          </h5>
+          ${h.summary_ja ? `<p class="text-xs leading-relaxed text-slate-600 break-words">${esc(h.summary_ja)}</p>` : ''}
+          <div class="flex items-center gap-3 mt-1.5 text-[10px] font-bold text-indigo-600">
+            <a href="${esc(h.arxiv_url)}" target="_blank" class="inline-flex items-center gap-1 hover:text-indigo-800">arXiv ${EXTERNAL_ICON}</a>
+            ${h.github_repo ? `<a href="${esc(h.github_repo)}" target="_blank" class="inline-flex items-center gap-1 hover:text-indigo-800">Code ${EXTERNAL_ICON}</a>` : ''}
+          </div>
+        </div>`;
+    }
+
+    function renderLabCard(l) {
+      const d = new Date(l.published);
+      const dateStr = isNaN(d) ? '' : `${String(d.getMonth() + 1).padStart(2, '0')}/${String(d.getDate()).padStart(2, '0')}`;
+      return `
+        <div class="mb-4 last:mb-0 pb-4 last:pb-0 border-b last:border-0 border-slate-200">
+          <div class="flex items-center gap-2 mb-1.5">
+            ${badge(l.lab, 'bg-teal-50 border-teal-200 text-teal-700')}
+            <span class="text-[10px] text-slate-400 font-semibold">${dateStr}</span>
+          </div>
+          <h5 class="text-[13px] font-bold text-slate-800 mb-1 leading-relaxed break-words">
+            <a href="${esc(l.url)}" target="_blank" class="hover:text-indigo-600 transition-colors">${esc(l.title_ja || l.title)}</a>
+          </h5>
+          ${l.summary_ja ? `<p class="text-xs leading-relaxed text-slate-600 break-words">${esc(l.summary_ja)}</p>` : ''}
+        </div>`;
+    }
+
+    function renderPapersSection() {
+      const data = window.papersData;
+      if (!data || currentDayIndex !== 0) return '';  // 論文は常に最新のみ。過去日のニュース閲覧中は出さない
+      const arxiv = (data.arxiv || []).filter(paperMatchesFilter);
+      const hf = (data.hf || []).filter(paperMatchesFilter);
+      const labs = (data.labs || []).filter(paperMatchesFilter);
+      if (!arxiv.length && !hf.length && !labs.length) return '';
+
+      const panel = (title, sub, accent, body) => `
+        <section class="flex flex-col border-t-2 border-slate-800 pt-3 mb-10 sm:mb-0 sm:bg-white/90 sm:border sm:border-slate-200/80 sm:rounded-xl sm:p-5 h-full">
+          <div class="mb-4 pb-3.5 border-b border-slate-100">
+            <h3 class="text-sm sm:text-base font-bold text-slate-800 font-sans"><span class="${accent}">●</span> ${title}</h3>
+            <p class="text-[10px] text-slate-400 mt-1">${sub}</p>
+          </div>
+          <div class="flex-1">${body}</div>
+        </section>`;
+
+      const moreList = (items, render, visible) => {
+        const head = items.slice(0, visible).map(render).join('');
+        const rest = items.slice(visible);
+        if (!rest.length) return head;
+        return head + `
+          <details class="rounded-lg border border-slate-200 bg-slate-50/60 p-3 sm:p-3.5">
+            <summary class="cursor-pointer list-none flex items-center justify-between text-xs sm:text-sm font-semibold text-slate-600 hover:text-indigo-600 transition-colors">
+              <span>残り${rest.length}件を表示</span><span class="text-[10px] font-bold text-indigo-500">開く</span>
+            </summary>
+            <div class="pt-4 mt-3 border-t border-slate-200">${rest.map(render).join('')}</div>
+          </details>`;
+      };
+
+      const arxivPanel = arxiv.length ? `<div class="xl:col-span-2">${panel(
+        '要チェック論文 (arXiv)', '新着約1,000件から、基準を満たすものだけを抽出（★の数＝判定の一致回数）', 'text-yellow-500',
+        moreList(arxiv, renderArxivCard, 6)
+      )}</div>` : '';
+      const side = [
+        hf.length ? panel('Hugging Face Daily Papers', 'コミュニティの注目順（▲=upvotes / ★=GitHub stars）', 'text-orange-500',
+          moreList(hf, (h) => renderHfCard(h, (data.hf || []).indexOf(h) + 1), 8)) : '',
+        labs.length ? panel('ラボ・企業の発表', '主要ラボの公式ブログを統合（新しい順）', 'text-teal-500',
+          moreList(labs, renderLabCard, 8)) : '',
+      ].filter(Boolean).join('<div class="h-0 sm:h-6"></div>');
+
+      return `
+        <div id="swipe-tab-papers" data-has-papers="1">
+          <div class="hidden sm:flex items-center gap-3 mb-6 sm:mt-8">
+            <h2 class="text-xl font-bold text-slate-800 font-outfit tracking-wide">Papers & Research</h2>
+            <div class="flex-1 h-px bg-slate-200"></div>
+            ${data.updated_at ? `<span class="text-[10px] text-slate-400">更新: ${esc(data.updated_at)}</span>` : ''}
+          </div>
+          <div class="grid grid-cols-1 xl:grid-cols-3 gap-6 sm:gap-8">
+            ${arxivPanel}
+            <div class="${arxivPanel ? '' : 'xl:col-span-3'}">${side}</div>
+          </div>
+        </div>`;
     }
 
     function switchMobileTab(tab) {

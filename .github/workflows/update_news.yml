@@ -2,8 +2,8 @@ name: Daily Market News Update
 
 on:
   schedule:
-    # 日本時間 7:00, 12:00 (UTC 22:00, 03:00) に自動実行
-    - cron: '0 3,22 * * *'
+    # 日本時間 7:00 (UTC 22:00) に1日1回自動実行
+    - cron: '0 22 * * *'
   workflow_dispatch:
     # 手動実行も可能にする設定
 
@@ -35,6 +35,15 @@ jobs:
           TO_EMAIL: ${{ secrets.TO_EMAIL }}
         run: |
           uv run generate_news.py
+
+      - name: 論文・研究動向データの生成
+        # ニュース生成とは独立。失敗してもニュース更新のコミットは続行する
+        continue-on-error: true
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: |
+          uv run generate_papers.py
 
       - name: 生成データのコミットとプッシュ
         env:
