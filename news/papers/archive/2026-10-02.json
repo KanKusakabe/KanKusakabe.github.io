@@ -1,0 +1,1096 @@
+{
+  "date": "2026-10-02",
+  "arxiv": [
+    {
+      "id": "2609.38201",
+      "title": "TomasuLLM: Out-of-Order Speculative Execution for LLM Agents",
+      "url": "https://arxiv.org/abs/2609.38201",
+      "pdf": "https://arxiv.org/pdf/2609.38201",
+      "authors": [
+        "Jiangnan Yu",
+        "Ceyu Xu",
+        "Mengming Li",
+        "Shiyu Huang",
+        "Yiran Xia",
+        "Jian Weng"
+      ],
+      "categories": [
+        "cs.CL",
+        "cs.OS",
+        "cs.SE"
+      ],
+      "venues": [],
+      "award": false,
+      "talk": false,
+      "workshop": false,
+      "comment": "",
+      "hf_upvotes": null,
+      "star_votes": 2,
+      "star_codes": [
+        "new"
+      ],
+      "star_quote": "We present TomasuLLM, a runtime that executes agent tool calls out of trajectory order while preserving task-execution correctness.",
+      "signals": [],
+      "headline": "TomasuLLM：依存関係を追跡しツール呼び出しをアウトオブオーダー実行するLLMエージェント",
+      "what": "TomasuLLMは、コンパイラやテストスイートなどの長時間実行されるツール呼び出しを、シーケンシャルな軌跡順を待たずに並行実行するランタイムです。Copy-on-Writeサンドボックスでの投機的実行、依存関係の追跡、および検証後のコミットという、アウトオブオーダープロセッサに似たメカニズムをエージェントに導入しています。",
+      "enables": "SWE-bench Verifiedで1.31倍、Terminal-Bench 2.0で1.35倍の実行速度向上を達成し、長時間のツール呼び出しによるアイドル時間を大幅に削減しました。4,010件の監査記録において誤ったコミット（False Accepts）はゼロであり、タスク実行の正確性を維持しています。",
+      "why_it_matters": "従来のエージェントは逐次的な実行に縛られ、ツール実行中に計算資源がアイドル状態になる課題がありました。本手法は、OSやアーキテクチャの知見をLLMエージェントの推論ワークフローに適用し、一貫性を保ちつつスループットを向上させる新しいアプローチを提示しています。",
+      "tags": [
+        "LLMエージェント",
+        "投機的実行",
+        "ソフトウェアエンジニアリング"
+      ],
+      "fetched_at": "2026-10-02T00:58:20.966811+09:00"
+    },
+    {
+      "id": "2609.38413",
+      "title": "VidHarness: Evolving Agent Harnesses for Cost-Efficient Long Video Understanding",
+      "url": "https://arxiv.org/abs/2609.38413",
+      "pdf": "https://arxiv.org/pdf/2609.38413",
+      "authors": [
+        "Susan Liang",
+        "Jianmin Wu",
+        "Daxiang Dong"
+      ],
+      "categories": [
+        "cs.CV"
+      ],
+      "venues": [],
+      "award": false,
+      "talk": false,
+      "workshop": false,
+      "comment": "",
+      "hf_upvotes": null,
+      "star_votes": 1,
+      "star_codes": [
+        "sota"
+      ],
+      "star_quote": "VidHarness sets new state-of-the-art results on LongVideoBench, Video-MME, and Video-Holmes",
+      "signals": [],
+      "headline": "VidHarness：MCTSを用いて長時間ビデオ理解のためのエージェント構成を自動進化・最適化",
+      "what": "VidHarnessは、VLMを制御する「Harness」プログラムのデザインを自動化するフレームワークです。モンテカルロ木探索（MCTS）と不確実性を考慮したマルチフィデリティ検証を組み合わせ、フィードバックに基づいて低コストかつ高精度なビデオ観察戦略を反復的に進化させます。",
+      "enables": "LongVideoBenchやVideo-MMEなどのベンチマークでSOTAを記録し、最強の手動設計エージェントを最大11.2ポイント上回りました。また、均一サンプリングと比較して半分以下のフレーム数で、知識集約型のタスクにおいて高い汎化性能を示しています。",
+      "why_it_matters": "従来のビデオエージェントは専門家による手動の試行錯誤で設計されていましたが、VidHarnessはこれを自動化し、予算に応じた最適なサンプリング戦略の構築を可能にしました。計算コストと精度のトレードオフを、進化計算と探索によって最適化する実用的な枠組みです。",
+      "tags": [
+        "ビデオ理解",
+        "LLMエージェント",
+        "MCTS"
+      ],
+      "fetched_at": "2026-10-02T00:58:20.966811+09:00"
+    },
+    {
+      "id": "2609.38484",
+      "title": "RetroGEF: Dynamic Graph Edit Flow for Single-Step Retrosynthesis",
+      "url": "https://arxiv.org/abs/2609.38484",
+      "pdf": "https://arxiv.org/pdf/2609.38484",
+      "authors": [
+        "Xiaozhuang Song",
+        "Xuemin Chen",
+        "Xinjian Zhao",
+        "Yaoyao Xu",
+        "Tianshu Yu"
+      ],
+      "categories": [
+        "cs.LG",
+        "q-bio.QM"
+      ],
+      "venues": [],
+      "award": false,
+      "talk": false,
+      "workshop": false,
+      "comment": "25 pages, 10 figures",
+      "hf_upvotes": null,
+      "star_votes": 1,
+      "star_codes": [
+        "sota"
+      ],
+      "star_quote": "Experiments on representative retrosynthesis benchmarks demonstrate that RetroGEF achieves state-of-the-art performance.",
+      "signals": [],
+      "headline": "RetroGEF：グラフの編集フローをモデル化しサイズ変更も同時に扱う一段階逆合成生成モデル",
+      "what": "RetroGEFは、ターゲット分子から反応物を導き出す一段階逆合成のためのフローベース生成モデルです。分子グラフに対して原子の追加や結合の変更を同じ生成プロセス内で行い、グラフサイズの変動を固定サイズのキャンバスを使わずにモデル化します。",
+      "enables": "規定の編集順序を必要とせず、生成プロセスを通じて複雑な分子変換を学習することで、代表的な逆合成ベンチマークにおいてSOTAの性能を達成しました。",
+      "why_it_matters": "従来のグラフ変換モデルが直面していた「グラフサイズの動的な変更」という課題に対し、連続的なフローを用いた直接的なグラフ編集というアプローチで解決を試みています。創薬や材料設計における合成経路探索の精度向上に寄与します。",
+      "tags": [
+        "逆合成",
+        "グラフ生成モデル",
+        "創薬"
+      ],
+      "fetched_at": "2026-10-02T00:58:20.966811+09:00"
+    },
+    {
+      "id": "2609.38714",
+      "title": "Hard-Region Supervision: #1 on the Waymo Open Dataset 2D Video Panoptic Segmentation Leaderboard",
+      "url": "https://arxiv.org/abs/2609.38714",
+      "pdf": "https://arxiv.org/pdf/2609.38714",
+      "authors": [
+        "Jinghan Yang"
+      ],
+      "categories": [
+        "cs.CV"
+      ],
+      "venues": [],
+      "award": false,
+      "talk": false,
+      "workshop": false,
+      "comment": "",
+      "hf_upvotes": null,
+      "star_votes": 2,
+      "star_codes": [
+        "sota"
+      ],
+      "star_quote": "ranking first on all three metrics. It is 3.6 wSTQ points ahead of the second entry",
+      "signals": [],
+      "headline": "Hard-Region Supervision：困難な領域への補助的学習によりビデオパノプティックセグメンテーションで1位を獲得",
+      "what": "Waymo Open Datasetのコンテストで優勝した本手法は、ベースラインモデル（DVIS++）が間違えやすい「困難な領域（Hard Region）」を特定し、そこに特化した補助的な予測ヘッドと損失関数を導入します。この補助ヘッドは訓練時にのみ使用され、推論時の計算コストやアーキテクチャを変更することなく精度を高めます。",
+      "enables": "WaymoのテストセットにおいてwSTQ 0.3547、mIoU 0.6075を記録し、全指標で1位を獲得しました。ベースラインと比較してwSTQで2.4ポイントの改善、2位のチームに対して3.6ポイントの差をつけています。",
+      "why_it_matters": "自動運転のような複雑なシーンにおけるピクセルレベルの認識精度を、モデルの構造を複雑化させるのではなく、学習プロセスの工夫（困難領域への監視）によって向上させた点が実用的です。",
+      "tags": [
+        "コンピュータビジョン",
+        "セグメンテーション",
+        "自動運転"
+      ],
+      "fetched_at": "2026-10-02T00:58:20.966811+09:00"
+    },
+    {
+      "id": "2609.38812",
+      "title": "Can Terminal Agents Trust Their Own Verification? Diagnosing and Improving Self-Verification",
+      "url": "https://arxiv.org/abs/2609.38812",
+      "pdf": "https://arxiv.org/pdf/2609.38812",
+      "authors": [
+        "Yingfeng Luo",
+        "Shaowei Wei",
+        "Daixin Wang",
+        "Dingyang Lin",
+        "Kaiyan Chang",
+        "Weiqiao Shan"
+      ],
+      "categories": [
+        "cs.CL",
+        "cs.LG"
+      ],
+      "venues": [],
+      "award": false,
+      "talk": false,
+      "workshop": false,
+      "comment": "",
+      "hf_upvotes": null,
+      "star_votes": 1,
+      "star_codes": [
+        "new"
+      ],
+      "star_quote": "we propose Student-Conditioned Verification Distillation (SCVD), which lets the student first produce a candidate solution and distills a stronger teacher's subsequent verification",
+      "signals": [],
+      "headline": "SCVD：ターミナル操作エージェントの自己検証能力を教師モデルから蒸留しエラー修復率を向上",
+      "what": "ターミナルエージェントの自己検証における弱点が「検証の開始」ではなく「エラーの検出と修復」にあることを突き止め、Student-Conditioned Verification Distillation (SCVD)を提案しました。生徒モデルが生成した候補に対し、強力な教師モデルが行う検証と修復のプロセスを蒸留して学習させます。",
+      "enables": "TerminalBench2.1において、ベースラインと比較してPass@1を9.74〜16.85ポイント向上させました。また、従来のフル軌跡蒸留で発生しがちだった、SWE-benchなどの未知ドメインにおける大幅な性能劣化を回避しています。",
+      "why_it_matters": "エージェントが「自分で自分の間違いに気づき、直す」プロセスの信頼性を定量化し、それを効率的に強化する手法を確立しました。自律的なデバッグ能力が求められる対話型エージェントの信頼性向上に寄与します。",
+      "tags": [
+        "LLMエージェント",
+        "知識蒸留",
+        "自己検証"
+      ],
+      "fetched_at": "2026-10-02T00:58:20.966811+09:00"
+    },
+    {
+      "id": "2609.38893",
+      "title": "Learning Continuous Neural Representation of Stochastic Hybrid Systems",
+      "url": "https://arxiv.org/abs/2609.38893",
+      "pdf": "https://arxiv.org/pdf/2609.38893",
+      "authors": [
+        "Sangli Teng",
+        "Hang Liu",
+        "Koushil Sreenath"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.AI",
+        "cs.SY",
+        "eess.SY"
+      ],
+      "venues": [],
+      "award": false,
+      "talk": false,
+      "workshop": false,
+      "comment": "",
+      "hf_upvotes": null,
+      "star_votes": 1,
+      "star_codes": [
+        "new"
+      ],
+      "star_quote": "SHS can be approximated by an SDE in a higher-dimensional latent space where the sample paths are continuous. The key to this result is to encode different branches of the reset kernel",
+      "signals": [],
+      "headline": "確率的ハイブリッドシステムを連続的な潜在空間のSDEとして表現する学習手法",
+      "what": "不連続なジャンプ（リセット）を含む確率的ハイブリッドシステム（SHS）を、高次元の潜在空間における連続的な確率微分方程式（SDE）として近似する手法を提案しました。異なるリセットの分岐を補助変数でエンコードし、トポロジカルな接着（Gluing）を行うことで、確率分布の進化をリセット項なしで記述します。",
+      "enables": "モードのラベル付け、軌跡のセグメンテーション、イベントベースのシミュレーションを必要とせずに、単一の潜在SDEによって複雑なSHSの確率進化を再現することが可能になりました。",
+      "why_it_matters": "物理現象や制御システムに見られる不連続な変化を含む動的システムを、深層学習で扱いやすい連続的な枠組みに変換できる理論的・実践的な進展です。",
+      "tags": [
+        "確率微分方程式",
+        "潜在表現学習",
+        "力学系"
+      ],
+      "fetched_at": "2026-10-02T00:58:20.966811+09:00"
+    },
+    {
+      "id": "2609.39082",
+      "title": "Shared Phase and Retention Control for Efficient Adaptive Spectral Recurrence",
+      "url": "https://arxiv.org/abs/2609.39082",
+      "pdf": "https://arxiv.org/pdf/2609.39082",
+      "authors": [
+        "Wentao Wang",
+        "Hengyu Zhong",
+        "Yunhan Jiang",
+        "Jialiang An",
+        "Meng Lu"
+      ],
+      "categories": [
+        "cs.LG"
+      ],
+      "venues": [],
+      "award": false,
+      "talk": false,
+      "workshop": false,
+      "comment": "",
+      "hf_upvotes": null,
+      "star_votes": 1,
+      "star_codes": [
+        "new"
+      ],
+      "star_quote": "introduce Shared Phase and Retention Control for Efficient Adaptive Spectral Recurrence (SPARC). SPARC employs just two input-dependent scalar signals to coordinate memory",
+      "signals": [],
+      "headline": "SPARC：2つの共有信号でメモリ保持と位相回転を制御する高効率な適応型スペクトルリカレンス",
+      "what": "SPARCは、線形・スペクトルリカレンスモデルにおいて、高次元のメモリ状態をわずか2つの入力依存のスカラー信号（PhaseとRetention）で動的に制御する手法です。各メモリモードに独立した制御を割り当てる代わりに信号を共有することで、制御コストをメモリ容量から切り離しています。",
+      "enables": "Walker-Pタスクで9.09%の相対的リターン向上を達成し、NVIDIA Blackwell GPU上でのスキャン処理を従来のRG-LRUと比較して3.1倍〜4.7倍に加速しました。また、並列連想スキャンとリアルタイム回帰学習（RTRL）の両方をサポートします。",
+      "why_it_matters": "Transformerの定数メモリ推論版として期待されるリカレントモデルにおいて、表現能力（適応性）と計算効率を高いレベルで両立させました。オンライン学習や長い文脈の処理における実用性が大幅に高まっています。",
+      "tags": [
+        "リカレントニューラルネットワーク",
+        "効率的学習",
+        "時系列データ"
+      ],
+      "fetched_at": "2026-10-02T00:58:20.966811+09:00"
+    },
+    {
+      "id": "2609.39116",
+      "title": "GRC-Pose: Generation-Reconstruction Correspondence for Prior-Free 6D Object Pose Tracking",
+      "url": "https://arxiv.org/abs/2609.39116",
+      "pdf": "https://arxiv.org/pdf/2609.39116",
+      "authors": [
+        "Shiyang Liu",
+        "Weiquan Lin",
+        "Luping Xiao",
+        "Jiadong Tang",
+        "Yi Yang",
+        "Yu Gao"
+      ],
+      "categories": [
+        "cs.CV"
+      ],
+      "venues": [],
+      "award": false,
+      "talk": false,
+      "workshop": false,
+      "comment": "39 pages",
+      "hf_upvotes": null,
+      "star_votes": 2,
+      "star_codes": [
+        "sota"
+      ],
+      "star_quote": "GRC-Pose achieves state-of-the-art Average Recall and motion retention on HOT3D, improving the latter by 58% over prior art.",
+      "signals": [],
+      "headline": "GRC-Pose：CADモデルやポーズ注釈なしで未知物体の6Dポーズを追跡する新フレームワーク",
+      "what": "GRC-Poseは、事前知識のない未知物体の6Dポーズ追跡を、生成（SAM3DによるCAD生成）と再構成（世界座標系での証拠）の対応付け問題として定式化する手法です。GeoCorr-Matcherによる不確実性考慮の対応点予測と、後方確率に基づくメモリ管理により、遮蔽や視点変化に強い追跡を実現します。",
+      "enables": "HOT3Dデータセットにおいて、運動保持（Motion Retention）を従来手法から58%改善し、SOTAの平均再現率を達成しました。また、YCBInEOATなどの古典的ベンチマークでも高い競争力を示しています。",
+      "why_it_matters": "特定の物体専用のモデルを事前に用意することなく、ビデオから動的に物体の形状と位置関係を推定できるため、未知の環境で活動するロボットの視覚システムなどに適しています。",
+      "tags": [
+        "6Dポーズ推定",
+        "物体追跡",
+        "コンピュータビジョン"
+      ],
+      "fetched_at": "2026-10-02T00:58:20.966811+09:00"
+    },
+    {
+      "id": "2609.39233",
+      "title": "MultiTable: A Faster Hash Table at any Physical Load Factor up to and Including One",
+      "url": "https://arxiv.org/abs/2609.39233",
+      "pdf": "https://arxiv.org/pdf/2609.39233",
+      "authors": [
+        "Maksym Petkus"
+      ],
+      "categories": [
+        "cs.CR",
+        "cs.DS",
+        "math.CO",
+        "math.PR"
+      ],
+      "venues": [],
+      "award": false,
+      "talk": false,
+      "workshop": false,
+      "comment": "",
+      "hf_upvotes": null,
+      "star_votes": 1,
+      "star_codes": [
+        "new",
+        "sota"
+      ],
+      "star_quote": "a stable hash table both materially faster at equal physical memory and more flexible than the SwissTable in its Rust's hashbrown implementation.",
+      "signals": [],
+      "headline": "MultiTable：Rust標準のhashbrownを超える速度とメモリ効率を実現した新しいハッシュテーブル",
+      "what": "MultiTableは、Rustの標準的なハッシュテーブル実装（SwissTable/hashbrown）を凌駕する性能を目指して開発された新しいデータ構造です。負荷率（Load Factor）が1に近づいても性能低下が緩やかであり、リハッシュなしでの拡張や、バケットサイズなどの詳細なパラメータ調整が可能です。",
+      "enables": "平均的な構成でhashbrownの2.1倍のスループットを達成し、負のルックアップ（存在しないキーの探索）では最大3.2倍の高速化を実現しました。また、同じメモリ使用量で最大22%多くのキーを保持でき、メモリ効率も改善されています。",
+      "why_it_matters": "低レイヤの基本データ構造における性能向上は、あらゆるソフトウェアの基盤を底上げする可能性があります。特に、メモリ制約が厳しくスループットが重視されるシステムプログラミングにおいて、Rustの標準実装に代わる強力な選択肢を提供します。",
+      "tags": [
+        "データ構造",
+        "Rust",
+        "最適化"
+      ],
+      "fetched_at": "2026-10-02T00:58:20.966811+09:00"
+    },
+    {
+      "id": "2609.39338",
+      "title": "Learning Beyond Full Imitation: Task-Preserving Knowledge Distillation",
+      "url": "https://arxiv.org/abs/2609.39338",
+      "pdf": "https://arxiv.org/pdf/2609.39338",
+      "authors": [
+        "Qianfeng Yuan",
+        "Wenbing Tao"
+      ],
+      "categories": [
+        "cs.LG"
+      ],
+      "venues": [],
+      "award": false,
+      "talk": false,
+      "workshop": false,
+      "comment": "",
+      "hf_upvotes": null,
+      "star_votes": 2,
+      "star_codes": [
+        "new"
+      ],
+      "star_quote": "our main result is an exact separation between full imitation and conditional learning.",
+      "signals": [],
+      "headline": "TPKD：正解ラベルへの判別能を損なわずに教師の知識を継承するタスク保存型知識蒸留",
+      "what": "Task-Preserving Knowledge Distillation (TPKD)は、教師モデルの予測確率を完全に模倣するのではなく、生徒がすでに獲得している「正解クラスを他より高く評価する能力」を保護する手法です。ラベルに関する勾配を維持しつつ、不正解クラス間の相対的な関係（Conditional gradient）のみを補正して学習させます。",
+      "enables": "CIFAR-100で88.05%、CLINC150で93.81%の精度に達し、標準的な知識蒸留をそれぞれ0.47、0.35ポイント上回りました。完全な模倣（KL最小化）が必ずしも最適ではないことを理論的・実験的に示しています。",
+      "why_it_matters": "生徒モデルが教師を超え始める際に発生する「過度な模倣による性能低下」を回避できるため、より効率的で高性能なモデル圧縮や知識移転が可能になります。",
+      "tags": [
+        "知識蒸留",
+        "機械学習理論",
+        "モデル圧縮"
+      ],
+      "fetched_at": "2026-10-02T00:58:20.966811+09:00"
+    },
+    {
+      "id": "2609.39658",
+      "title": "Graph Residual Conjugate Diffusion: SNR-Equalized Heat Flow for Graph Signals",
+      "url": "https://arxiv.org/abs/2609.39658",
+      "pdf": "https://arxiv.org/pdf/2609.39658",
+      "authors": [
+        "Jinwei Li",
+        "Daniel Tenbrinck"
+      ],
+      "categories": [
+        "cs.LG"
+      ],
+      "venues": [],
+      "award": false,
+      "talk": false,
+      "workshop": false,
+      "comment": "23 pages, 2 figures",
+      "hf_upvotes": null,
+      "star_votes": 2,
+      "star_codes": [
+        "new",
+        "sota"
+      ],
+      "star_quote": "replaces the shared clock of graph heat diffusion with a mode-dependent clock that gives every graph-Fourier mode the same conditional SNR.",
+      "signals": [],
+      "headline": "GRCD：グラフFourierモードごとにノイズ除去速度を調整するSNR等準化グラフ拡散モデル",
+      "what": "GRCDは、グラフ信号（道路交通量や気象データなど）の拡散モデルにおいて、グラフの周波数モードごとに異なる時間軸（クロック）を適用する手法です。全モードのSN比（SNR）を均一に保ちながら拡散・逆拡散を行うことで、学習とサンプリングの効率を向上させます。",
+      "enables": "METR-LA交通データなどのベンチマークにおいて、既存の最良手法と比較してサンプリング速度を87%短縮しつつ、生成品質の指標（aMMD）を22〜36倍改善しました。わずか4回の関数評価（NFE）で高品質な生成が可能です。",
+      "why_it_matters": "グラフ信号特有の周波数特性（非一様なエネルギー分布）を考慮した拡散プロセスを導入することで、グラフ構造データの生成モデルにおける計算コストと精度のトレードオフを劇的に改善しました。",
+      "tags": [
+        "拡散モデル",
+        "グラフ信号処理",
+        "時系列予測"
+      ],
+      "fetched_at": "2026-10-02T00:58:20.966811+09:00"
+    },
+    {
+      "id": "2609.38926",
+      "title": "PrecipJEPA: JEPA-Regularized Future-State Prediction with Motion-Source Rendering for Precipitation Nowcasting",
+      "url": "https://arxiv.org/abs/2609.38926",
+      "pdf": "https://arxiv.org/pdf/2609.38926",
+      "authors": [
+        "Yufeng Zhu",
+        "Dan Niu",
+        "Qiliang Wu",
+        "Weiwei Huang",
+        "Yixiao Liang",
+        "Yongchao Feng"
+      ],
+      "categories": [
+        "cs.MM",
+        "cs.LG"
+      ],
+      "venues": [],
+      "award": false,
+      "talk": false,
+      "workshop": false,
+      "comment": "5 pages, 3 figures",
+      "hf_upvotes": null,
+      "star_votes": 2,
+      "star_codes": [
+        "sota"
+      ],
+      "star_quote": "PrecipJEPA improves highest-threshold CSI by 118.6% and 35.1%, respectively, over the strongest baselines",
+      "signals": [],
+      "headline": "PrecipJEPA：JEPAによる履歴学習と運動・ソースレンダリングを組み合わせた降水ナウキャスティング",
+      "what": "PrecipJEPAは、レーダーエコーの予測において、マスクされた過去の履歴から特徴を予測するJEPA（Joint-Embedding Predictive Architecture）による補助学習と、将来の運動（動き）とソース（強度変化）を分離して描画するPMSRを組み合わせたモデルです。",
+      "enables": "SEVIRおよびMeteoNetデータセットにおいて、高強度降水の予測指標（CSI）を既存の最強ベースラインに対してそれぞれ118.6%および35.1%改善しました。3時間の予測期間全体にわたって高い精度を維持しています。",
+      "why_it_matters": "単なる予測誤差の最小化だけでなく、履歴情報の自己教師あり学習を組み込むことで、局所的な強雨構造の維持と長期的な動きの予測の両立を実現しました。気象予測の実用的な精度向上に寄与します。",
+      "tags": [
+        "降水予測",
+        "自己教師あり学習",
+        "コンピュータビジョン"
+      ],
+      "fetched_at": "2026-10-02T00:58:20.966811+09:00"
+    },
+    {
+      "id": "2609.39914",
+      "title": "Cluster Attention Neural Operators for Solving Parametric Partial Differential Equations",
+      "url": "https://arxiv.org/abs/2609.39914",
+      "pdf": "https://arxiv.org/pdf/2609.39914",
+      "authors": [
+        "Ming Zhong",
+        "Antonio Colanera",
+        "Gianluigi Rozza",
+        "Zhenya Yan"
+      ],
+      "categories": [
+        "math-ph",
+        "cs.AI",
+        "cs.LG",
+        "math.DS",
+        "math.MP"
+      ],
+      "venues": [],
+      "award": false,
+      "talk": false,
+      "workshop": false,
+      "comment": "30 pages, 9 figures",
+      "hf_upvotes": null,
+      "star_votes": 1,
+      "star_codes": [
+        "new",
+        "sota"
+      ],
+      "star_quote": "reformulates attention via a novel cross-attention mechanism that dynamically clusters queries",
+      "signals": [],
+      "headline": "CANO：フル解像度を維持しつつ計算効率を高めたクラスターアテンション神経演算子",
+      "what": "偏微分方程式（PDE）の解を高速に求めるためのニューラルオペレータにおいて、クエリを動的にクラスター化しつつキーとバリューのフル解像度を維持する新しいクロスアテンション機構（CANO）を提案しました。これにより、計算コストを抑えながら空間情報の損失を防ぎ、グローバルな相互作用を捉えます。",
+      "enables": "Navier-Stokes方程式、翼周りの流れ、塑性変形などの多様なPDEベンチマークでSOTAを達成しました。従来のTransolverなどの手法と比較して、不規則な形状や長期的な時間発展においても低い誤差を維持しています。",
+      "why_it_matters": "物理シミュレーションをディープラーニングで代替する際、精度（空間解像度）と速度（アテンションの計算量）のジレンマを解消する有力なアーキテクチャとなります。",
+      "tags": [
+        "AI for Science",
+        "偏微分方程式",
+        "アテンション"
+      ],
+      "fetched_at": "2026-10-02T00:58:20.966811+09:00"
+    },
+    {
+      "id": "2609.38270",
+      "title": "VirusCascade: Hijacking Collaborative Reflection in LLM-Powered Recommender Agents",
+      "url": "https://arxiv.org/abs/2609.38270",
+      "pdf": "https://arxiv.org/pdf/2609.38270",
+      "authors": [
+        "Yurong Hao",
+        "Wen Zhou",
+        "Guowei Guan",
+        "Tiantong Wu",
+        "Fuyao Zhang",
+        "Wei Yang Bryan Lim"
+      ],
+      "categories": [
+        "cs.CR",
+        "cs.LG",
+        "cs.MA"
+      ],
+      "venues": [
+        "NDSS"
+      ],
+      "award": false,
+      "talk": false,
+      "workshop": false,
+      "comment": "Accepted by NDSS 2027",
+      "hf_upvotes": null,
+      "star_votes": 1,
+      "star_codes": [
+        "sota"
+      ],
+      "star_quote": "VirusCascade consistently achieves state-of-the-art targeted exposure",
+      "signals": [],
+      "headline": "VirusCascade：マルチエージェント推薦システムにおける「対話による攻撃の増幅」の脆弱性を指摘",
+      "what": "LLMを用いた自律エージェント型の推薦システム（LLM-ARS）における脆弱性を分析しました。単一のエージェントに注入された敵対的な「証拠」が、エージェント間の「協調的内省（Collaborative Reflection）」を通じて論理的な嗜好として正当化され、システム全体に伝播する「VirusCascade」攻撃を提案しています。",
+      "enables": "4つの実世界データセットにおいて、ステルス性を保ちつつ特定のアイテムを標的にした露出（E@20）で0.384を達成し、既存の攻撃手法を0.185ポイント上回る強力なプロモーション攻撃が可能であることを示しました。",
+      "why_it_matters": "エージェント間の再帰的な対話が、精度の向上だけでなく「攻撃の自己増幅」という新たなセキュリティリスクを生むことを明らかにし、将来の自律型推薦システムの設計に警鐘を鳴らしています。",
+      "tags": [
+        "推薦システム",
+        "LLMエージェント",
+        "セキュリティ"
+      ],
+      "fetched_at": "2026-10-02T00:58:20.966811+09:00"
+    },
+    {
+      "id": "2609.38349",
+      "title": "MILO: Automated Harness Discovery via Orchestrated Multi-Agent Evolution",
+      "url": "https://arxiv.org/abs/2609.38349",
+      "pdf": "https://arxiv.org/pdf/2609.38349",
+      "authors": [
+        "Prithwish Jana",
+        "Mononito Goswami",
+        "Hao Liu",
+        "Xinyu Li",
+        "Langlin Huang",
+        "Zhehui Huang"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "venues": [],
+      "award": false,
+      "talk": false,
+      "workshop": false,
+      "comment": "",
+      "hf_upvotes": null,
+      "star_votes": 1,
+      "star_codes": [
+        "sota"
+      ],
+      "star_quote": "MILO-discovered harnesses outperform eight state-of-the-art harnesses",
+      "signals": [],
+      "headline": "MILO：マルチエージェント進化アルゴリズムによりエージェントの制御プログラムを自動最適化",
+      "what": "MILOは、LLMエージェントの実行・環境操作を制御する「Harness（ハーネス）」のデザインを、複数のエージェント（島）を協調進化させることで自動発見するフレームワークです。失敗した試行を負の証拠として活用する履歴管理、ハーネス全体を書き換える変異エージェント、およびそれらを統括するオーケストレーターで構成されます。",
+      "enables": "Terminal-Bench 2.1において、公式リーダーボード1位（83.8%）を上回る86.1%の解決率を達成しました。また、数学的未解決問題（Erdős最小オーバーラップなど）において、現在知られている最良の下界を更新することに成功しました。",
+      "why_it_matters": "従来は人間が手動で設計していたエージェントの指示や制御の枠組みを、AI自身がメタ進化的に最適化できることを示しました。特に複雑な長期的タスクや科学的探索におけるエージェントの限界を押し広げます。",
+      "tags": [
+        "LLMエージェント",
+        "進化計算",
+        "自動最適化"
+      ],
+      "fetched_at": "2026-10-02T00:58:20.966811+09:00"
+    },
+    {
+      "id": "2609.38864",
+      "title": "AdaOcc: Adaptive 3D Occupancy Prediction for Embodied Tasks",
+      "url": "https://arxiv.org/abs/2609.38864",
+      "pdf": "https://arxiv.org/pdf/2609.38864",
+      "authors": [
+        "Jinglong Wang",
+        "Yunjie Wang",
+        "Zhiyang Zhang",
+        "Jiawei He",
+        "Ye Yuan",
+        "Bo Qiu"
+      ],
+      "categories": [
+        "cs.CV"
+      ],
+      "venues": [],
+      "award": false,
+      "talk": false,
+      "workshop": false,
+      "comment": "",
+      "hf_upvotes": null,
+      "star_votes": 1,
+      "star_codes": [
+        "sota"
+      ],
+      "star_quote": "achieves a new state-of-the-art on Occ-ScanNet with considerable performance",
+      "signals": [],
+      "headline": "AdaOcc：計算予算やセンサ構成に柔軟に適応するエンボディドAI向け3D占有グリッド予測",
+      "what": "ロボットや自動運転などのエンボディドAI向けに、疎なセマンティックポイントを用いて3D空間の占有状態を予測する手法です。入力センサ（RGBカメラ数、LiDAR、深度マップ）や、計算リソース（クエリ数、デコーダ層数）に合わせて動的にモデルの動作を調整できる適応型アーキテクチャを採用しています。",
+      "enables": "Occ-ScanNetデータセットにおいてSOTAを更新しました。また、予測された点が有効な占有領域内に存在することを保証する「Containment loss」を導入し、軽量なモデルでも高い幾何学的精度を実現しました。",
+      "why_it_matters": "デバイスの計算能力やカメラの故障、視点変更などの実運用上の変化に対して、単一のモデルで柔軟に対応できる実用性の高い3D認識モジュールを提供します。",
+      "tags": [
+        "3D認識",
+        "エンボディドAI",
+        "自動運転"
+      ],
+      "fetched_at": "2026-10-02T00:58:20.966811+09:00"
+    },
+    {
+      "id": "2609.38955",
+      "title": "Loop-Free Inverse Reinforcement Learning via Sequential Value Recovery with Q-Score Matching",
+      "url": "https://arxiv.org/abs/2609.38955",
+      "pdf": "https://arxiv.org/pdf/2609.38955",
+      "authors": [
+        "Yang chen",
+        "Yitan Zhang",
+        "Michael Witbrock",
+        "Shuyue Hu"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "venues": [
+        "NeurIPS"
+      ],
+      "award": false,
+      "talk": false,
+      "workshop": false,
+      "comment": "Accepted to NeurIPS 2026. 20 pages, 7 figures",
+      "hf_upvotes": null,
+      "star_votes": 1,
+      "star_codes": [
+        "new"
+      ],
+      "star_quote": "Loop-Free Inverse Reinforcement Learning (LFIRL), a fully offline algorithm",
+      "signals": [],
+      "headline": "LFIRL：方策最適化のループを排除し拡散モデルを活用した高速・安定な逆強化学習",
+      "what": "逆強化学習（IRL）における「報酬学習と方策最適化の繰り返し」を、拡散モデルを活用することで完全に排除した手法です。拡散方策が持つ「Q関数の行動勾配構造」を利用し、報酬学習を連続的な価値回復（Value Recovery）問題として定式化することで、オフラインで逐次的に報酬を抽出します。",
+      "enables": "MazeやPush-Tなどのベンチマークにおいて、最速のベースラインと比較して2〜3倍の学習速度向上を達成しました。同時に、報酬の推定精度においてもSOTAと同等以上の性能を維持しています。",
+      "why_it_matters": "IRLの最大のボトルネックであった計算負荷と不安定な交互最適化（ループ）を解消した点が革新的です。より大規模で複雑なエキスパートデモンストレーションからの報酬学習を容易にします。",
+      "tags": [
+        "逆強化学習",
+        "拡散モデル",
+        "強化学習"
+      ],
+      "fetched_at": "2026-10-02T00:58:20.966811+09:00"
+    },
+    {
+      "id": "2609.39068",
+      "title": "SparseEngine: Sparse-First Inference Engine",
+      "url": "https://arxiv.org/abs/2609.39068",
+      "pdf": "https://arxiv.org/pdf/2609.39068",
+      "authors": [
+        "Jitai Hao",
+        "Quansheng Gu",
+        "Qiang Huang",
+        "Jun Yu"
+      ],
+      "categories": [
+        "cs.LG"
+      ],
+      "venues": [],
+      "award": false,
+      "talk": false,
+      "workshop": false,
+      "comment": "",
+      "hf_upvotes": null,
+      "star_votes": 1,
+      "star_codes": [
+        "new"
+      ],
+      "star_quote": "SparseEngine, a ground-up, sparse-first inference engine",
+      "signals": [],
+      "headline": "SparseEngine：疎な注意機構を第一級市民として扱う高速なLLM推論エンジン",
+      "what": "長文脈処理でのKVキャッシュ肥大化を解決するため、疎な注意機構（Sparse Attention）をネイティブにサポートする推論エンジンです。各手法がKV表現や計算を制御できる共通インターフェースを備え、Chain Cache（履歴からの再開）やPrefix-Cache Pruning（特定領域の削除）などの高度な管理機能を備えています。",
+      "enables": "vLLMと比較して、同じ並列数で2.5倍以上のデコード速度、KVエビクション適用時には10倍以上のスループット向上を達成しました。15種類の主要なスパース化手法をサポートし、エージェントベンチマークでも2倍以上の高速化を実現しています。",
+      "why_it_matters": "従来は特定の手法に依存していたスパース推論を、汎用的かつ高効率なサービング基盤として実装しました。長文脈を扱うエージェントの実用化におけるメモリと計算のコストを大幅に引き下げます。",
+      "tags": [
+        "LLM推論",
+        "効率化",
+        "KVキャッシュ"
+      ],
+      "fetched_at": "2026-10-02T00:58:20.966811+09:00"
+    },
+    {
+      "id": "2609.39137",
+      "title": "ID Balancing: Stable Training of Extremely Sparse MoE via PID-Based Load Control",
+      "url": "https://arxiv.org/abs/2609.39137",
+      "pdf": "https://arxiv.org/pdf/2609.39137",
+      "authors": [
+        "Peng Jin",
+        "Zihan Qiu",
+        "Zekun Wang",
+        "Bo Zheng",
+        "Yang Xu",
+        "Tian Xie"
+      ],
+      "categories": [
+        "cs.LG"
+      ],
+      "venues": [],
+      "award": false,
+      "talk": false,
+      "workshop": false,
+      "comment": "",
+      "hf_upvotes": null,
+      "star_votes": 1,
+      "star_codes": [
+        "new"
+      ],
+      "star_quote": "Building on this control perspective, we propose ID Balancing, an Integral-Derivative controller.",
+      "signals": [],
+      "headline": "ID Balancing：PID制御の理論に基づき超大規模・超疎なMoEモデルの学習を安定化",
+      "what": "混合エキスパート（MoE）モデルにおけるエキスパート間の負荷不均衡を解消するため、制御理論のPID（比例・積分・微分）コントローラを導入した手法です。従来の補助損失なし手法を積分/比例制御として統合し、誤差の大きさに応じた積分項のスケーリングと、悪化時に作動する微分項により強力なバランス調整を行います。",
+      "enables": "768エキスパート、Top-3ルーティングという極めて疎な設定において、既存の最良手法と比較してエキスパート負荷の最大乖離（MaxVio）を50%以上削減しました。パラメータ数を18.9Bから69.9Bにスケールさせても、不均衡を極めて低く抑えられます。",
+      "why_it_matters": "MoEの疎度を高めると学習が不安定になるというスケーリングの壁を、古典的かつ堅牢な制御理論で解決しました。より巨大で効率的なMoEモデルを安定して訓練するための重要な技術です。",
+      "tags": [
+        "MoE",
+        "LLM",
+        "学習の安定化"
+      ],
+      "fetched_at": "2026-10-02T00:58:20.966811+09:00"
+    },
+    {
+      "id": "2609.39271",
+      "title": "RW-Flow: One-Step Generation on Compact Manifolds via Wasserstein Gradient Flows",
+      "url": "https://arxiv.org/abs/2609.39271",
+      "pdf": "https://arxiv.org/pdf/2609.39271",
+      "authors": [
+        "Ualibyek Nurgulan",
+        "Seungwoo Yoo",
+        "Prin Phunyaphibarn",
+        "Minhyuk Sung"
+      ],
+      "categories": [
+        "cs.LG"
+      ],
+      "venues": [
+        "ICLR"
+      ],
+      "award": false,
+      "talk": false,
+      "workshop": false,
+      "comment": "27 pages, ICLR, 2 figures, 11 tables",
+      "hf_upvotes": null,
+      "star_votes": 1,
+      "star_codes": [
+        "new"
+      ],
+      "star_quote": "we introduce RW-Flow, a theoretically grounded framework for learning one-step generative models on compact manifolds via Wasserstein gradient flows.",
+      "signals": [],
+      "headline": "RW-Flow：Wasserstein勾配流に基づき多様体上のデータを1ステップで生成する新手法",
+      "what": "地球上の座標やタンパク質のねじれ角など、多様体（Manifold）上のデータを生成するための、Wasserstein勾配流に基づいた1ステップ生成モデルです。シンクホーン・ダイバージェンス誘導の速度場がターゲット分布に一致するための必要十分条件を数学的に示し、識別可能なコスト関数を設計する原則を確立しました。",
+      "enables": "地球物理イベントやRNAの構造予測などのベンチマークにおいて、既存の多様体向け1ステップ生成手法をほぼすべての設定で上回る精度を記録しました。拡散モデルのような何百回もの逐次評価を必要とせず、高速なサンプリングが可能です。",
+      "why_it_matters": "非ユークリッド空間における高速生成モデルの理論的基盤を強化し、科学データや地理データにおける実用的な生成モデルの構築を可能にしました。",
+      "tags": [
+        "生成モデル",
+        "多様体学習",
+        "最適輸送"
+      ],
+      "fetched_at": "2026-10-02T00:58:20.966811+09:00"
+    },
+    {
+      "id": "2609.39341",
+      "title": "Understanding as No-Arbitrage: Bounded Dutch Books as a Definition and Training Objective for Language Models",
+      "url": "https://arxiv.org/abs/2609.39341",
+      "pdf": "https://arxiv.org/pdf/2609.39341",
+      "authors": [
+        "Daniel Dragonevskiy"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.LG"
+      ],
+      "venues": [],
+      "award": false,
+      "talk": false,
+      "workshop": false,
+      "comment": "18 pages",
+      "hf_upvotes": null,
+      "star_votes": 1,
+      "star_codes": [
+        "new"
+      ],
+      "star_quote": "We make this question measurable by defining \"understanding\" through the lens of no-arbitrage.",
+      "signals": [],
+      "headline": "Arbitr：論理的整合性を「裁定取引」と捉えて学習しLLMの自己矛盾と過信を抑制するフレームワーク",
+      "what": "LLMの「理解」を、論理的に関連する主張間で矛盾した確率を提示し利益（利益確定）を許さない「ノーアービトラージ」の原則で定義しました。敵対的なトレーダーがモデルの論理的矛盾を検出しペナルティを与える「Arbitr」フレームワークを導入し、次トークン予測の最適化によって生じる不整合を修正します。",
+      "enables": "Qwen2.5やPhi-3.5において、タスクの精度を維持したまま論理的矛盾（搾取可能性）を数桁単位で削減しました。この効果は未学習の論理パターンや異なるモデルファミリーにも転移することを確認しています。",
+      "why_it_matters": "「モデルは確率的にトークンを並べているだけで、内容を理解していない」という批判に対し、論理的整合性を測定・改善可能な客観的指標（Dutch Book）として定式化した点が非常にユニークです。",
+      "tags": [
+        "LLM",
+        "信頼性",
+        "論理推論"
+      ],
+      "fetched_at": "2026-10-02T00:58:20.966811+09:00"
+    },
+    {
+      "id": "2609.40051",
+      "title": "Proximal Balancing for Causal Effect Estimation under Unmeasured Confounding",
+      "url": "https://arxiv.org/abs/2609.40051",
+      "pdf": "https://arxiv.org/pdf/2609.40051",
+      "authors": [
+        "Yonghan Jung"
+      ],
+      "categories": [
+        "stat.ML",
+        "cs.LG",
+        "stat.ME"
+      ],
+      "venues": [],
+      "award": false,
+      "talk": false,
+      "workshop": false,
+      "comment": "50 pages. Code: https://github.com/CausalDataScience/proximal-balancing",
+      "hf_upvotes": null,
+      "star_votes": 1,
+      "star_codes": [
+        "new"
+      ],
+      "star_quote": "To address these challenges, we introduce proximal balancing. It carries the classical idea of covariate balancing to confounders that are observed only through proxies",
+      "signals": [],
+      "headline": "PROBE：未観測の交絡因子をプロキシデータから直接調整し因果効果を推定する新手法",
+      "what": "観測データにない未観測の交絡因子が存在する場合でも、プロキシ（代理）変数を用いて因果効果を推定する手法です。交絡因子の潜在変数を明示的に学習する代わりに、処置群と対照群を比較可能にする「低次元の要約統計量」をプロキシから直接学習する「Proximal Balancing」を提案しています。",
+      "enables": "高次元のプロキシや画像データ、実世界の複雑なデータセットにおいて、逆問題の解法や潜在変数モデルを必要とせずに、バイアスの少ない因果効果推定が可能になりました。",
+      "why_it_matters": "従来のプロキシ手法が抱えていた「逆問題の不安定さ」や「潜在変数モデルの不一致によるバイアス」という課題を回避できるため、医学や政策決定における因果推論の信頼性を高めます。",
+      "tags": [
+        "因果推論",
+        "機械学習",
+        "統計的推定"
+      ],
+      "fetched_at": "2026-10-02T00:58:20.966811+09:00"
+    },
+    {
+      "id": "2609.40127",
+      "title": "Learning Functional Subspaces for Neural Network Compression",
+      "url": "https://arxiv.org/abs/2609.40127",
+      "pdf": "https://arxiv.org/pdf/2609.40127",
+      "authors": [
+        "Massimo Bini",
+        "Anders Christensen",
+        "Stephan Alaniz",
+        "Judah Goldfeder",
+        "Ole Winther",
+        "Yann LeCun"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.CL"
+      ],
+      "venues": [],
+      "award": false,
+      "talk": false,
+      "workshop": false,
+      "comment": "",
+      "hf_upvotes": null,
+      "star_votes": 1,
+      "star_codes": [
+        "sota"
+      ],
+      "star_quote": "At -70% compression, LSP brings Llama-2-7B to 10.9 WikiText-2 perplexity and 42.2% mean zero-shot accuracy, versus 13.3 and 36.0% for the strongest baseline.",
+      "signals": [],
+      "headline": "LSP：ネットワーク全体の誤差伝播を考慮して学習する低ランク重み圧縮手法",
+      "what": "Transformerなどの重み行列を低ランク分解する際、局所的な近似ではなく、ネットワーク全体の出力誤差（KLダイバージェンス）を最小化するように低ランク部分空間をエンドツーエンドで学習する手法です。事前学習済みの重みを固定したまま、直交プロジェクターのみを最適化します。",
+      "enables": "Llama-2-7Bの70%圧縮において、最強のベースラインと比較してWikiText-2の困惑度（Perplexity）を13.3から10.9へ、ゼロショット精度を36.0%から42.2%へ大幅に改善しました。また、KVキャッシュのメモリ消費を最大13.5倍削減可能です。",
+      "why_it_matters": "従来の局所的な圧縮手法が抱えていた、圧縮率を高めると層を追うごとに誤差が蓄積・増幅するという問題を、グローバルな最適化によって解決しました。モバイルデバイスなどでの大規模モデル運用に直結する技術です。",
+      "tags": [
+        "モデル圧縮",
+        "低ランク近似",
+        "Transformer"
+      ],
+      "fetched_at": "2026-10-02T00:58:20.966811+09:00"
+    },
+    {
+      "id": "2609.39679",
+      "title": "SE-ADD: Self-Evolving Audio Deepfake Detection with Mistake-Driven Supervision",
+      "url": "https://arxiv.org/abs/2609.39679",
+      "pdf": "https://arxiv.org/pdf/2609.39679",
+      "authors": [
+        "Rong Wan",
+        "Wei Xie",
+        "Jiaxi Li",
+        "Wenwu Wang",
+        "Lu Yin",
+        "Yiliao Song"
+      ],
+      "categories": [
+        "cs.SD",
+        "cs.LG"
+      ],
+      "venues": [],
+      "award": false,
+      "talk": false,
+      "workshop": false,
+      "comment": "",
+      "hf_upvotes": null,
+      "star_votes": 1,
+      "star_codes": [
+        "sota"
+      ],
+      "star_quote": "reducing the equal error rate (EER) from $36.72\\%$ to $7.52\\%$ for Qwen2-Audio",
+      "signals": [],
+      "headline": "SE-ADD：自らの「間違い」を教師として未知の偽造音声への適応能力を高める自己進化型検出器",
+      "what": "音声ディープフェイク検出（ADD）において、モデル自身の誤分類を「どこを重点的に学習すべきか」のヒントとして活用する自己進化型フレームワークです。誤分類されたサンプルに対して、自己生成したフォレンジック（分析）手がかりを用いた追加の監視（Mistake-Driven Supervision）を行い、LoRAで逐次適応させます。",
+      "enables": "未知の攻撃手法に対する等価誤差率（EER）を、Qwen2-Audioで36.72%から7.52%へ、MOSS-Audioで19.93%から3.97%へと劇的に減少させ、新しい攻撃に対する強力な汎化性能を示しました。",
+      "why_it_matters": "攻撃手法が次々と進化するADD分野において、固定されたデータセットでの学習の限界を、自身の失敗から学ぶというアプローチで突破しようとしています。",
+      "tags": [
+        "ディープフェイク検出",
+        "自己進化学習",
+        "音声AI"
+      ],
+      "fetched_at": "2026-10-02T00:58:20.966811+09:00"
+    },
+    {
+      "id": "2609.40321",
+      "title": "Exponential quantum speedup for $\\mathbb{F}_3^n$-Subset-Sum? Or, rigorous classical algorithms for Binary-Error LWE",
+      "url": "https://arxiv.org/abs/2609.40321",
+      "pdf": "https://arxiv.org/pdf/2609.40321",
+      "authors": [
+        "Robin Kothari",
+        "Tony Metger",
+        "Ryan O'Donnell",
+        "Noah Shutty",
+        "Kewen Wu"
+      ],
+      "categories": [
+        "quant-ph",
+        "cs.CR",
+        "cs.DS"
+      ],
+      "venues": [],
+      "award": false,
+      "talk": false,
+      "workshop": false,
+      "comment": "",
+      "hf_upvotes": null,
+      "star_votes": 1,
+      "star_codes": [
+        "cap",
+        "new"
+      ],
+      "star_quote": "establish a full sample--time tradeoff that interpolates between exponential and polynomial runtime",
+      "signals": [],
+      "headline": "量子加速の可能性：F3上のベクトル部分集合和問題に対する新しい量子・古典アルゴリズム",
+      "what": "有限体F3上のベクトル部分集合和問題（ゼロになる部分集合を見つける問題）の計算量を研究し、より少ない入力ベクトル数で動作する効率的な量子アルゴリズムを提案しました。また、その過程で暗号学的に重要な「バイナリエラーLWE（Learning-with-Errors）」に対する厳密な古典アルゴリズムも確立しました。",
+      "enables": "特定のパラメータ領域（m = εn^2）において、古典的には指数時間が必要とされていた計算を多項式時間で解く量子アルゴリズムの可能性を示し、標数3のケースにおけるサンプル数と計算時間のトレードオフを明らかにしました。",
+      "why_it_matters": "耐量子暗号の安全性評価や、量子コンピュータがどのような問題において指数関数的な優位性（量子超越性）を持ち得るかという、計算機科学の根幹に関わる知見を提供します。",
+      "tags": [
+        "量子コンピューティング",
+        "暗号理論",
+        "アルゴリズム"
+      ],
+      "fetched_at": "2026-10-02T00:58:20.966811+09:00"
+    },
+    {
+      "id": "2609.39045",
+      "title": "RSIGame: Autonomous Agentic Game Development with Recursive Self-improvement",
+      "url": "https://arxiv.org/abs/2609.39045",
+      "pdf": "https://arxiv.org/pdf/2609.39045",
+      "authors": [
+        "Wenyi Wu",
+        "Minghao Fu",
+        "Jieyu You",
+        "Kun Zhou",
+        "Siqi Liu",
+        "Aayush Salvi"
+      ],
+      "categories": [
+        "cs.CL",
+        "cs.GT",
+        "cs.LG",
+        "cs.MA"
+      ],
+      "venues": [],
+      "award": false,
+      "talk": false,
+      "workshop": false,
+      "comment": "",
+      "hf_upvotes": 31,
+      "star_votes": 0,
+      "star_codes": [],
+      "star_quote": "",
+      "signals": [
+        "HF ▲31"
+      ],
+      "headline": "RSIGame：再帰的な自己改善ループによりゲーム開発を自動化するエージェントフレームワーク",
+      "what": "RSIGameは、ゲーム開発を「局所的な試行・診断・改善ループ」と「全体的な品質管理・保存ループ」の2段階で実行するエージェントシステムです。生成されたゲームを実際に動かし、不具合や挙動の不足をエージェント自身が特定・修正し、その成功体験をモデル自身の知識として内部化（学習）します。",
+      "enables": "140種類のゲーム作成タスクにおいて、Qwen3.8-27Bが本手法を用いることでGPT-5.5のワンショット性能を超え、かつ生成トークン数を11分の1に削減することに成功しました。",
+      "why_it_matters": "単なるコード生成にとどまらず、実行と検証、そして学習を繰り返すことで、モデルの規模を超えた開発能力を引き出せることを実証しています。",
+      "tags": [
+        "ゲーム開発",
+        "自己改善",
+        "LLMエージェント"
+      ],
+      "fetched_at": "2026-10-02T00:58:20.966811+09:00"
+    },
+    {
+      "id": "2609.38925",
+      "title": "Prototype-guided Bilateral Alignment Multimodal Federated Learning",
+      "url": "https://arxiv.org/abs/2609.38925",
+      "pdf": "https://arxiv.org/pdf/2609.38925",
+      "authors": [
+        "Tianchi Liao Tianchi_Liao",
+        "Lele Fu",
+        "Sheng Huang",
+        "Qing Hu",
+        "Hong-Ning Dai",
+        "Chuan Chen"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG"
+      ],
+      "venues": [
+        "ICML"
+      ],
+      "award": false,
+      "talk": true,
+      "workshop": false,
+      "comment": "28 pages, 16 figures, ICML 2026 (Spotlight)",
+      "hf_upvotes": null,
+      "star_votes": 0,
+      "star_codes": [],
+      "star_quote": "",
+      "signals": [
+        "Oral等"
+      ],
+      "headline": "MFedPBA：不均衡なマルチモーダルデータと異種モデル間での連合学習を実現する双方向アライメント",
+      "what": "クライアント間でモデル構造が異なり、かつモダリティ（画像、テキスト等）の分布が偏っている実用的な状況に対応したマルチモーダル連合学習フレームワークです。特徴レベルでの対照学習を用いた空間調整と、意思決定レベルでのエントロピー重み付き集約という「双方向アライメント」を採用しています。",
+      "enables": "モデルの不均一性やモダリティの欠損・不均衡がある条件下で、既存のSOTA手法を大幅に上回る頑健な知識共有と高いモデル性能を達成しました。",
+      "why_it_matters": "各クライアントが異なるデバイス（性能の異なるモデル）を持ち、持っているデータの種類もバラバラであるという、現実世界の分散学習における主要な課題を解決する手法です。",
+      "tags": [
+        "連合学習",
+        "マルチモーダル学習",
+        "分散学習"
+      ],
+      "fetched_at": "2026-10-02T00:58:20.966811+09:00"
+    },
+    {
+      "id": "2609.38991",
+      "title": "Anchoring Adversarial Trajectories to Data Manifolds: A Bilevel Transfer Optimization Framework",
+      "url": "https://arxiv.org/abs/2609.38991",
+      "pdf": "https://arxiv.org/pdf/2609.38991",
+      "authors": [
+        "Yaohua Liu",
+        "Yifan Guo",
+        "Jiaxin Gao"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.CR",
+        "cs.CV"
+      ],
+      "venues": [
+        "NeurIPS"
+      ],
+      "award": false,
+      "talk": true,
+      "workshop": false,
+      "comment": "Accepted at NeurIPS 2026 as a Spotlight. 21 pages, 6 figures",
+      "hf_upvotes": null,
+      "star_votes": 0,
+      "star_codes": [],
+      "star_quote": "",
+      "signals": [
+        "Oral等"
+      ],
+      "headline": "MABT：敵対的攻撃の軌跡をデータ多様体へ固定し攻撃の転移性を向上させる最適化手法",
+      "what": "敵対的転移攻撃において、攻撃を生成する際の勾配がデータの本来の構造（データ多様体）から外れることで特定のモデルに過学習する問題を解決する手法です。敵対的軌跡を意味空間のサブスペースに拘束する「多様体アンカー」と、階層構造を高速に解くヘシアンフリーソルバーを導入しました。",
+      "enables": "28種類の攻撃設定において、多様な被害者モデルのアーキテクチャや防御策に対しても、10種類の既存攻撃手法の転移成功率を一貫して向上させることに成功しました。",
+      "why_it_matters": "特定のモデルに対する攻撃が他のモデルにも有効（転移）になりやすくなるため、AIモデルの堅牢性評価やセキュリティ上の脆弱性理解において重要な知見となります。",
+      "tags": [
+        "敵対的攻撃",
+        "転移学習",
+        "セキュリティ"
+      ],
+      "fetched_at": "2026-10-02T00:58:20.966811+09:00"
+    }
+  ]
+}
