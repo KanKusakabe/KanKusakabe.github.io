@@ -59,6 +59,9 @@ HF_STAR_UPVOTES = 30         # 外部シグナル: HFのupvotes下限
 HN_STAR_POINTS = 50          # 外部シグナル: HNのポイント下限
 
 HF_MAX = 30
+HF_DAYS = 7                  # HF Daily Papers: 直近何日分(暦日)の掲載を束ねるか（土日は掲載なし）
+HF_PAGE_SIZE = 100           # APIの1リクエスト上限（超えると400）
+HF_MAX_PAGES = 5             # 1日あたりの最大ページ数
 
 LAB_FEEDS = {
     "OpenAI": "https://openai.com/news/rss.xml",
@@ -68,6 +71,7 @@ LAB_FEEDS = {
     "Apple ML": "https://machinelearning.apple.com/rss.xml",
     "Hugging Face": "https://huggingface.co/blog/feed.xml",
     "The Gradient": "https://thegradient.pub/rss/",
+    "AlphaSignal": "https://alphasignal.ai/feed.xml",
 }
 LAB_MAX_AGE_DAYS = 21
 LAB_MAX = 30
@@ -475,33 +479,49 @@ def analyze_arxiv(api_key, call_func, selected, hf_stats):
 # ---------------------------------------------------------------------------
 # 2. Hugging Face Daily Papers
 # ---------------------------------------------------------------------------
-def fetch_hf_daily(limit):
-    url = f"https://huggingface.co/api/daily_papers?limit={limit}&sort=trending"
-    print(f"HF Daily Papers取得: {url}")
-    resp = requests.get(url, headers=HEADERS, timeout=30)
-    resp.raise_for_status()
-    items = []
-    for d in resp.json():
-        p = d.get("paper", {})
-        pid = p.get("id")
-        if not pid:
-            continue
-        org = d.get("organization") or {}
-        items.append({
-            "id": pid,
-            "title": re.sub(r"\s+", " ", d.get("title") or p.get("title") or "").strip(),
-            "abstract": re.sub(r"\s+", " ", p.get("summary") or "").strip(),
-            "upvotes": p.get("upvotes", 0) or 0,
-            "github_stars": p.get("githubStars", 0) or 0,
-            "github_repo": p.get("githubRepo") or "",
-            "project_page": p.get("projectPage") or "",
-            "comments": d.get("numComments", 0) or 0,
-            "org": org.get("fullname") or org.get("name") or "",
-            "url": f"https://huggingface.co/papers/{pid}",
-            "arxiv_url": f"https://arxiv.org/abs/{pid}",
-        })
-    items.sort(key=lambda x: x["upvotes"], reverse=True)
-    print(f"  {len(items)}件")
+def fetch_hf_daily(days):
+    """直近days日(暦日)の Daily Papers を日付指定で取得し、重複を除いて upvotes 降順で返す。"""
+    today = datetime.now(JST).date()
+    by_id = {}
+    for offset in range(days):
+        date = (today - timedelta(days=offset)).isoformat()
+        # 注意: sort=trending を付けると date が無視されて全期間のトレンドになるため付けない
+        data = []
+        try:
+            for page in range(HF_MAX_PAGES):
+                url = f"https://huggingface.co/api/daily_papers?date={date}&limit={HF_PAGE_SIZE}&p={page}"
+                resp = requests.get(url, headers=HEADERS, timeout=30)
+                resp.raise_for_status()
+                chunk = resp.json()
+                data.extend(chunk)
+                if len(chunk) < HF_PAGE_SIZE:
+                    break
+        except Exception as ex:
+            print(f"HF Daily Papers取得エラー ({date}): {ex}", file=sys.stderr)
+            if not data:
+                continue
+        print(f"HF Daily Papers {date}: {len(data)}件")
+        for d in data:
+            p = d.get("paper", {})
+            pid = p.get("id")
+            if not pid or pid in by_id:  # 新しい日から順に見ているので、先に入ったものを残す
+                continue
+            org = d.get("organization") or {}
+            by_id[pid] = {
+                "id": pid,
+                "title": re.sub(r"\s+", " ", d.get("title") or p.get("title") or "").strip(),
+                "abstract": re.sub(r"\s+", " ", p.get("summary") or "").strip(),
+                "upvotes": p.get("upvotes", 0) or 0,
+                "github_stars": p.get("githubStars", 0) or 0,
+                "github_repo": p.get("githubRepo") or "",
+                "project_page": p.get("projectPage") or "",
+                "comments": d.get("numComments", 0) or 0,
+                "org": org.get("fullname") or org.get("name") or "",
+                "url": f"https://huggingface.co/papers/{pid}",
+                "arxiv_url": f"https://arxiv.org/abs/{pid}",
+            }
+    items = sorted(by_id.values(), key=lambda x: x["upvotes"], reverse=True)
+    print(f"  計{len(items)}件（{days}日分）")
     return items
 
 
@@ -615,12 +635,14 @@ def main():
     fetched_at = now.isoformat()
 
     # --- HF（独立。失敗しても他に影響させない） ---
-    hf_items = []
+    hf_all = []
     try:
-        hf_items = fetch_hf_daily(HF_MAX)
+        hf_all = fetch_hf_daily(HF_DAYS)
     except Exception as ex:
         print(f"HF取得エラー: {ex}", file=sys.stderr)
-    hf_stats = {it["id"]: f"upvotes {it['upvotes']} / GitHub stars {it['github_stars']}" for it in hf_items}
+    # ★の外部シグナルと統計は束ねた全件で判定し、画面に出すのは上位HF_MAX件
+    hf_items = hf_all[:HF_MAX]
+    hf_stats = {it["id"]: f"upvotes {it['upvotes']} / GitHub stars {it['github_stars']}" for it in hf_all}
 
     # --- ラボブログ ---
     print("ラボブログ取得中...")
@@ -653,7 +675,7 @@ def main():
         print(f"  候補 {len(candidates)}件")
         print(f"★判定 第2段階（厳格な再判定 ×{args.votes}回）...")
         stars, failed = judge_stars(api_key, call_func, arxiv_new, list(candidates), args.votes)
-        signals = external_signals(arxiv_new, hf_items, hn_points)
+        signals = external_signals(arxiv_new, hf_all, hn_points)
         star_ids = list(dict.fromkeys(list(stars) + list(signals)))
         print(f"  ★ {len(star_ids)}件（LLM判定 {len(stars)}件 / うち{args.votes}回とも★ "
               f"{sum(1 for v in stars.values() if v['votes'] >= args.votes)}件 / 外部シグナル {len(signals)}件）")
@@ -685,7 +707,7 @@ def main():
                 "talk": p.get("talk", False),
                 "workshop": p.get("workshop", False),
                 "comment": p.get("comment", ""),
-                "hf_upvotes": next((h["upvotes"] for h in hf_items if h["id"] == p["id"]), None),
+                "hf_upvotes": next((h["upvotes"] for h in hf_all if h["id"] == p["id"]), None),
                 "star_votes": st.get("votes", 0),
                 "star_codes": st.get("codes", []),
                 "star_quote": st.get("quote", ""),
