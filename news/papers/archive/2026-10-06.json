@@ -1,0 +1,832 @@
+{
+  "date": "2026-10-06",
+  "arxiv": [
+    {
+      "id": "2610.02478",
+      "title": "Tropical Reinforcement Learning",
+      "url": "https://arxiv.org/abs/2610.02478",
+      "pdf": "https://arxiv.org/pdf/2610.02478",
+      "authors": [
+        "Arip Asadulaev",
+        "Aladin Djuhera",
+        "Karim Salta",
+        "Holger Boche",
+        "Fakhri Karray",
+        "Martin Takac"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "venues": [],
+      "award": false,
+      "talk": false,
+      "workshop": false,
+      "comment": "",
+      "hf_upvotes": null,
+      "star_votes": 2,
+      "star_codes": [
+        "cap",
+        "new"
+      ],
+      "star_quote": "we propose Tropical Reinforcement Learning, which rests on a simple change of algebra",
+      "signals": [],
+      "headline": "Tropical代数を用いた強化学習による言語モデルの推論能力向上",
+      "what": "強化学習の期待リターン計算において、確率の和（期待値）をとる代わりに、トロピカル半環（Tropical semiring）に基づき最大値（max）をとる手法「Tropical Reinforcement Learning」です。これにより、複数の異なるロールアウトから得られた最適なサブステップ（PrefixとSuffix）を結合して学習に利用できます。",
+      "enables": "SokobanやWebShopなどのエージェントタスクにおいて、強力なオンポリシーのベースラインを最大16ポイント上回る性能を達成しました。",
+      "why_it_matters": "従来の和の定式化では学習済みの解を忘却するリスクがありましたが、最大値をとることでモデルが「どの解が有効だったか」を直接学習し、構成的な推論をより正確に扱えるようになります。",
+      "tags": [
+        "LLM",
+        "強化学習",
+        "推論"
+      ],
+      "fetched_at": "2026-10-06T11:07:38.445701+09:00"
+    },
+    {
+      "id": "2610.02593",
+      "title": "Fisher-Guided Submodular Data Selection for Continual Pre-Training of Large Language Models",
+      "url": "https://arxiv.org/abs/2610.02593",
+      "pdf": "https://arxiv.org/pdf/2610.02593",
+      "authors": [
+        "Zhenghao Zhao",
+        "Gaowen Liu",
+        "Zhiling Lan",
+        "Yan Yan"
+      ],
+      "categories": [
+        "cs.LG"
+      ],
+      "venues": [],
+      "award": false,
+      "talk": false,
+      "workshop": false,
+      "comment": "",
+      "hf_upvotes": null,
+      "star_votes": 2,
+      "star_codes": [
+        "sota"
+      ],
+      "star_quote": "1B selected tokens already outperform the replay strategy trained with 10B tokens",
+      "signals": [],
+      "headline": "Fisher情報量を用いたサブモジュラデータ選択による破滅的忘却の抑制",
+      "what": "継続事前学習（Continual Pre-training）において、モデルパラメータの移動をFisher情報量で制御するデータ選択手法です。候補データの勾配を、既存の知識を保持する「アンカー成分」と、新しい知識を獲得する「フロンティア成分」に分解し、サブモジュラ最適化を用いて選択します。",
+      "enables": "TinyLlama-1.1BやLlama-3.1-8Bでの実験において、リプレイ戦略と比較して10分の1のトークン数で、ターゲットドメインの品質向上と既存知識の保持を両立しました。",
+      "why_it_matters": "損失ベースの選択が重要なパラメータ座標をドリフトさせる原因であることを特定し、パラメータ空間の動態を直接考慮した効率的な学習を可能にしました。",
+      "tags": [
+        "LLM",
+        "継続学習",
+        "データ選択"
+      ],
+      "fetched_at": "2026-10-06T11:07:38.445701+09:00"
+    },
+    {
+      "id": "2610.02660",
+      "title": "SpectralCache: Accelerating Diffusion-Based World Models via Spectral Feature Caching",
+      "url": "https://arxiv.org/abs/2610.02660",
+      "pdf": "https://arxiv.org/pdf/2610.02660",
+      "authors": [
+        "Zhendong Mi",
+        "Pu Zhao",
+        "Ziyu Hu",
+        "Xiaodong Yu",
+        "Yanzhi Wang",
+        "Grace Li Zhang"
+      ],
+      "categories": [
+        "cs.CV"
+      ],
+      "venues": [],
+      "award": false,
+      "talk": false,
+      "workshop": false,
+      "comment": "",
+      "hf_upvotes": null,
+      "star_votes": 1,
+      "star_codes": [
+        "sota"
+      ],
+      "star_quote": "SpectralCache achieves 5.22x acceleration while maintaining a WorldScore of 65.90",
+      "signals": [],
+      "headline": "スペクトル特徴量のキャッシュによる拡散世界モデルの推論高速化",
+      "what": "拡散ベースの世界モデルにおいて、デノイジングステップ間で安定している特徴量の特異値部分空間を再利用するトレーニングフリーなフレームワーク「SpectralCache」です。特異値の進化パターンを線形補外で推定し、高コストなバックボーン評価をスキップします。",
+      "enables": "HunyuanWorld-Voyager-13Bにおいて、生成品質を維持したまま5.22倍の推論高速化を実現しました。",
+      "why_it_matters": "従来の特徴量やトークンレベルのキャッシュとは異なり、拡散モデルの特徴量が持つ数学的なスペクトル構造を活用することで、効率と品質を高いレベルで両立させています。",
+      "tags": [
+        "世界モデル",
+        "拡散モデル",
+        "高速化"
+      ],
+      "fetched_at": "2026-10-06T11:07:38.445701+09:00"
+    },
+    {
+      "id": "2610.02700",
+      "title": "Learning from Evolving Errors: Adaptive Iterative Repair for On-Policy Distillation",
+      "url": "https://arxiv.org/abs/2610.02700",
+      "pdf": "https://arxiv.org/pdf/2610.02700",
+      "authors": [
+        "Rui Li",
+        "Liyang He",
+        "Zheng Zhang",
+        "Zhenya Huang",
+        "Linbo Zhu",
+        "Qi Liu"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.CL"
+      ],
+      "venues": [],
+      "award": false,
+      "talk": false,
+      "workshop": false,
+      "comment": "21 pages, 3 figures",
+      "hf_upvotes": null,
+      "star_votes": 1,
+      "star_codes": [
+        "sota"
+      ],
+      "star_quote": "improving over the strongest baseline by up to 3.6 points",
+      "signals": [],
+      "headline": "エラーに対する適応的・反復的修正を学習するオンポリシー蒸留",
+      "what": "失敗した応答に対して、ガイダンス生成器が修正用のヒントを提供し、学生モデルが反復的に再試行するオンポリシー自己蒸留フレームワーク「AIR-OPD」です。結果の正誤だけでなく、エラーから修正へのプロセスを教師モデルが監視し、段階的に重み付けを行います。",
+      "enables": "Qwen3-4B/8Bを用いた数学推論ベンチマークにおいて、最強のベースラインを最大3.6ポイント上回る精度向上を達成しました。",
+      "why_it_matters": "正解へのショートカット（答えありきの学習）を防ぎ、モデルが自らの誤りを動的に修正する能力を直接強化できる点が特徴です。",
+      "tags": [
+        "LLM",
+        "知識蒸留",
+        "数学推論"
+      ],
+      "fetched_at": "2026-10-06T11:07:38.445701+09:00"
+    },
+    {
+      "id": "2610.03388",
+      "title": "KungfuAthleteBot: learning high-dynamic humanoid motion from video with unified robust recovery",
+      "url": "https://arxiv.org/abs/2610.03388",
+      "pdf": "https://arxiv.org/pdf/2610.03388",
+      "authors": [
+        "Zhongxiang Lei",
+        "Lulu Cao",
+        "Xuyang Wang",
+        "Tianyi Qian",
+        "Jinyan Liu",
+        "Xuesong Li"
+      ],
+      "categories": [
+        "cs.RO"
+      ],
+      "venues": [],
+      "award": false,
+      "talk": false,
+      "workshop": false,
+      "comment": "",
+      "hf_upvotes": null,
+      "star_votes": 1,
+      "star_codes": [
+        "cap"
+      ],
+      "star_quote": "KAB learns dynamic skills from video and recovers from arbitrary falls in about 0.7 s",
+      "signals": [],
+      "headline": "ビデオから高ダイナミックな動作を学習し、高速な転倒復帰を実現する人型ロボット制御",
+      "what": "物理的に不整合なビデオデータから人型ロボットの動作を学習するためのフレームワーク「KungfuAthleteBot (KAB)」です。物理ガイド付きの軌道修正や、実行可能な状態へのサンプリング（LKEサンプリング）、外部攪乱と転倒復帰を統合した直接訓練を含みます。",
+      "enables": "実機の人型ロボットにおいて、任意の転倒から約0.7秒で復帰するという、単一ポリシーとしては最高速の復帰能力を実証しました。",
+      "why_it_matters": "単にビデオデータを増やすのではなく、データの不整合を修復し、動作と復帰を統合的に学習させることで、現実的で俊敏なスキル獲得が可能であることを示しました。",
+      "tags": [
+        "ロボット",
+        "強化学習",
+        "人型ロボット"
+      ],
+      "fetched_at": "2026-10-06T11:07:38.445701+09:00"
+    },
+    {
+      "id": "2610.03453",
+      "title": "I2CD: Direct Image-to-Convex Decomposition for Simulation-Ready Collision Geometry",
+      "url": "https://arxiv.org/abs/2610.03453",
+      "pdf": "https://arxiv.org/pdf/2610.03453",
+      "authors": [
+        "Qian Wang",
+        "Liam Merz Hoffmeister",
+        "Brian Scassellati",
+        "Daniel Rakita"
+      ],
+      "categories": [
+        "cs.RO",
+        "cs.CV"
+      ],
+      "venues": [],
+      "award": false,
+      "talk": false,
+      "workshop": false,
+      "comment": "",
+      "hf_upvotes": null,
+      "star_votes": 1,
+      "star_codes": [
+        "sota"
+      ],
+      "star_quote": "I2CD attains the highest volumetric IoU among eight reconstruct-then-decompose",
+      "signals": [],
+      "headline": "画像からシミュレーション用凸形状を直接予測する高速な幾何生成手法",
+      "what": "単一のRGB画像から、物理エンジンで直接利用可能な凸分解（Convex Decomposition）を生成する「I2CD」です。事前学習済みの拡散トランスフォーマーを凍結し、軽量なクロスアテンションヘッドのみを学習させることで、K個の凸多面体のパラメータを直接出力します。",
+      "enables": "既存の再構成・分解パイプラインと比較して6〜37倍高速（約0.5秒）に、物理エンジンに即座にロードできるコンパクトな形状を生成します。",
+      "why_it_matters": "視覚的メッシュを生成してから修正・分解する従来の手法の脆弱性を解消し、エージェントが視覚から即座に物理的な衝突判定モデルを得ることを可能にしました。",
+      "tags": [
+        "ロボット",
+        "3Dビジョン",
+        "物理シミュレーション"
+      ],
+      "fetched_at": "2026-10-06T11:07:38.445701+09:00"
+    },
+    {
+      "id": "2610.03604",
+      "title": "Mastering Atari 2600 Games with Discovered Options",
+      "url": "https://arxiv.org/abs/2610.03604",
+      "pdf": "https://arxiv.org/pdf/2610.03604",
+      "authors": [
+        "Erik M. Lintunen",
+        "Marlos C. Machado"
+      ],
+      "categories": [
+        "cs.LG"
+      ],
+      "venues": [],
+      "award": false,
+      "talk": false,
+      "workshop": false,
+      "comment": "",
+      "hf_upvotes": null,
+      "star_votes": 2,
+      "star_codes": [
+        "new",
+        "sota"
+      ],
+      "star_quote": "Wayfarer achieves state-of-the-art performance among single-stream agents",
+      "signals": [],
+      "headline": "ラプラシアン表現学習を用いたオプション発見による複雑なAtariゲームの攻略",
+      "what": "高次元の観測からラプラシアン表現学習を通じて「オプション（時間的抽象化）」を自動発見し、制御に活用する深層強化学習エージェント「Wayfarer」です。汎用的かつ領域非依存な方法でオプションを発見し、探索とクレジット割り当てを加速します。",
+      "enables": "Montezuma's Revengeなどの長期的な探索と戦略が必要なAtari 2600ゲームにおいて、シングルストリームのエージェントとして最高性能（SOTA）を達成しました。",
+      "why_it_matters": "手動設計の表現に頼らず、高次元ドメインで有効なオプション発見を実現したことで、複雑な環境での強化学習の効率を大幅に改善しました。",
+      "tags": [
+        "強化学習",
+        "Atari",
+        "階層型強化学習"
+      ],
+      "fetched_at": "2026-10-06T11:07:38.445701+09:00"
+    },
+    {
+      "id": "2610.03691",
+      "title": "FlowHMR: Physically Plausible Motion Capture from Video",
+      "url": "https://arxiv.org/abs/2610.03691",
+      "pdf": "https://arxiv.org/pdf/2610.03691",
+      "authors": [
+        "Zhanke Wang",
+        "Chengfeng Zhao",
+        "Qing Shuai",
+        "Jingzhong Lin",
+        "Heng Li",
+        "Zeyu Ling"
+      ],
+      "categories": [
+        "cs.CV"
+      ],
+      "venues": [],
+      "award": false,
+      "talk": false,
+      "workshop": false,
+      "comment": "",
+      "hf_upvotes": null,
+      "star_votes": 2,
+      "star_codes": [
+        "sota"
+      ],
+      "star_quote": "achieves a physical tracking success rate of 82.47%, compared with 62.82% for the strongest baseline, GVHMR.",
+      "signals": [],
+      "headline": "物理的整合性を備えた3D人間動作復元を実現するFlowHMR",
+      "what": "単一のビデオから物理的に妥当な3D動作を復元するための「FlowHMR」です。Flow Matchingモデルで多様な動作候補を生成し、GRPO（Group Relative Policy Optimization）を用いてビデオへの忠実度と、物理コントローラーでの追従性の両方を報酬として事後学習を行います。",
+      "enables": "物理的追従の成功率において、最強のベースライン（62.82%）を大きく上回る82.47%を達成し、ビデオへの忠実度も向上させました。",
+      "why_it_matters": "従来の直接回帰モデルが陥りやすい平均化された解や物理的不整合を、強化学習的なアプローチによって解決し、高品質なモーションキャプチャを可能にしました。",
+      "tags": [
+        "コンピュータビジョン",
+        "動作生成",
+        "Flow Matching"
+      ],
+      "fetched_at": "2026-10-06T11:07:38.445701+09:00"
+    },
+    {
+      "id": "2610.03716",
+      "title": "MoSE3: Learning World-Space SE(3) at Every Pixel",
+      "url": "https://arxiv.org/abs/2610.03716",
+      "pdf": "https://arxiv.org/pdf/2610.03716",
+      "authors": [
+        "Jiahuan Cheng",
+        "Zhiyi Li",
+        "Tian Xia",
+        "Ruojin Cai",
+        "Yilun Du",
+        "Qianqian Wang"
+      ],
+      "categories": [
+        "cs.CV"
+      ],
+      "venues": [],
+      "award": false,
+      "talk": false,
+      "workshop": false,
+      "comment": "",
+      "hf_upvotes": null,
+      "star_votes": 2,
+      "star_codes": [
+        "new"
+      ],
+      "star_quote": "the first feed-forward model that predicts dense SE(3) motion from monocular RGB video",
+      "signals": [],
+      "headline": "ピクセル単位の6自由度剛体運動を予測するMoSE3",
+      "what": "単一のRGBビデオから、各ピクセルにおけるワールド空間での完全な6自由度（SE(3)）剛体変換を予測するフィードフォワードモデルです。ピクセル単位の3D点追跡と剛体埋め込みを学習し、それらを微分可能な変換フィッティングによって統合します。",
+      "enables": "剛体および関節を持つオブジェクトのベンチマークにおいて、ピクセル・パーツ・オブジェクトレベルの全域で最高レベルの推定精度を達成しました。",
+      "why_it_matters": "従来の3自由度の点追跡とは異なり、回転やグループ化を含む豊かなシーンの動きを捉えることができ、複雑な相互作用を伴う動的シーンの理解を深めます。",
+      "tags": [
+        "コンピュータビジョン",
+        "動作推定",
+        "SE(3)"
+      ],
+      "fetched_at": "2026-10-06T11:07:38.445701+09:00"
+    },
+    {
+      "id": "2610.03562",
+      "title": "A Secure dToF LiDAR SoC with Dual-Domain Fingerprinting and Event-Driven AFE Circuit Achieving Sensor-Level Attack Resilience",
+      "url": "https://arxiv.org/abs/2610.03562",
+      "pdf": "https://arxiv.org/pdf/2610.03562",
+      "authors": [
+        "Risa Nonaka",
+        "Ryoya Matsuno",
+        "Shota Nagai",
+        "Satomi Miyagi",
+        "Yuki Hayakawa",
+        "Ryo Suzuki"
+      ],
+      "categories": [
+        "cs.CR",
+        "cs.AR"
+      ],
+      "venues": [],
+      "award": false,
+      "talk": false,
+      "workshop": false,
+      "comment": "",
+      "hf_upvotes": null,
+      "star_votes": 1,
+      "star_codes": [
+        "cap",
+        "new"
+      ],
+      "star_quote": "presents the first dToF LiDAR system-on-chip (SoC) with integrated sensor-level hardware security",
+      "signals": [],
+      "headline": "スプーフィング攻撃耐性を備えた安全なdToF LiDAR SoC",
+      "what": "ランダム化されたレーザーパルスの時間間隔と振幅比を認証に用いる「デュアルドメイン・フィンガープリント（DDF）」を統合したdToF LiDAR用SoCです。イベント駆動型のアナログフロントエンド（AFE）を採用し、必要なタイミングのみADCを動作させます。",
+      "enables": "スプーフィング攻撃下で、従来手法では0%だったポイントクラウドの保護率を73%まで向上させ、AFE電力を60%削減しました。",
+      "why_it_matters": "LiDARに対する物理的な偽装攻撃（歩行者の消去など）をセンサーチップレベルのハードウェアセキュリティで防ぐ、初の統合的な解決策を提示しました。",
+      "tags": [
+        "LiDAR",
+        "ハードウェアセキュリティ",
+        "自動運転"
+      ],
+      "fetched_at": "2026-10-06T11:07:38.445701+09:00"
+    },
+    {
+      "id": "2610.02826",
+      "title": "Scaling Trajectories for Complex Tasks through Recursive Self-Rewrite",
+      "url": "https://arxiv.org/abs/2610.02826",
+      "pdf": "https://arxiv.org/pdf/2610.02826",
+      "authors": [
+        "Zongxia Li",
+        "Yucheng Shi",
+        "Zhongzhi Li",
+        "Junyao Yang",
+        "Ruhan Wang",
+        "Chengsong Huang"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "venues": [],
+      "award": false,
+      "talk": false,
+      "workshop": false,
+      "comment": "",
+      "hf_upvotes": 83,
+      "star_votes": 0,
+      "star_codes": [],
+      "star_quote": "",
+      "signals": [
+        "HF ▲83"
+      ],
+      "headline": "多様な環境での経験を汎用的な学習データへ再構築するRecursive Self-Rewrite",
+      "what": "複数の特殊な環境（ハーネス）で得られた成功軌跡を、プランナー・批評家・実行器を用いて、汎用的な環境で利用可能なトレーニング軌跡に再構築するフレームワーク「RSR」です。一貫した手順（ランブック）を抽出し、サンドボックスでの実行を通じて再帰的に修正します。",
+      "enables": "Terminal-Bench 2でのPass@3を57.0%から74.2%に引き上げるなど、既存のSFTを上回る性能向上を達成しました。",
+      "why_it_matters": "モデルが特定のツールや環境に依存せずに、多様な成功体験から汎用的な能力を「自己書き換え」を通じて獲得できることを示しました。",
+      "tags": [
+        "LLM",
+        "自己改善",
+        "エージェント"
+      ],
+      "fetched_at": "2026-10-06T11:07:38.445701+09:00"
+    },
+    {
+      "id": "2610.03391",
+      "title": "Native Action-Prior Learning from Videos for World Action Models",
+      "url": "https://arxiv.org/abs/2610.03391",
+      "pdf": "https://arxiv.org/pdf/2610.03391",
+      "authors": [
+        "Zhaochong An",
+        "Fei Zhang",
+        "Menglin Jia",
+        "Duncan Frost",
+        "Zijian Zhou",
+        "Yikai Wang"
+      ],
+      "categories": [
+        "cs.CV",
+        "cs.RO"
+      ],
+      "venues": [],
+      "award": false,
+      "talk": false,
+      "workshop": false,
+      "comment": "",
+      "hf_upvotes": 76,
+      "star_votes": 0,
+      "star_codes": [],
+      "star_quote": "",
+      "signals": [
+        "HF ▲76"
+      ],
+      "headline": "行動ラベルのないビデオから直接行動ポリシーを事前学習するNAVA-WAM",
+      "what": "ロボットの行動ラベルがないビデオデータから、視覚的ダイナミクスのFlow Matchingを通じて行動ポリシーを直接事前学習する手法「NAVA-WAM」です。第2段階として、少量の行動ラベル付きデータを用いて、ビデオと行動の同時デノイジングによる事後学習を行います。",
+      "enables": "分布外（OOD）の設定において従来手法を上回る性能を示し、実機ロボットへの高い汎用性と行動ラベル効率を実証しました。",
+      "why_it_matters": "潜在行動の推定や中間表現を介さず、ビデオから直接行動のプライアを学習することで、大規模なインターネットビデオをロボット制御に直接活用する道を開きました。",
+      "tags": [
+        "ロボット",
+        "世界モデル",
+        "Flow Matching"
+      ],
+      "fetched_at": "2026-10-06T11:07:38.445701+09:00"
+    },
+    {
+      "id": "2610.02508",
+      "title": "World Action Modeling with Progressive Visual Planning",
+      "url": "https://arxiv.org/abs/2610.02508",
+      "pdf": "https://arxiv.org/pdf/2610.02508",
+      "authors": [
+        "Fei Zhang",
+        "Zhaochong An",
+        "Duncan Frost",
+        "Yikai Wang",
+        "Pengfei Liu",
+        "Ya Zhang"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CV",
+        "cs.RO"
+      ],
+      "venues": [],
+      "award": false,
+      "talk": false,
+      "workshop": false,
+      "comment": "Project Page: https://sii-ferenas.github.io/ProWAM-page",
+      "hf_upvotes": 74,
+      "star_votes": 0,
+      "star_codes": [],
+      "star_quote": "",
+      "signals": [
+        "HF ▲74"
+      ],
+      "headline": "疎な視覚サブゴールを用いた段階的計画による世界行動モデル",
+      "what": "将来のビデオを全フレーム生成する代わりに、重要な視覚的サブゴールを順序立てて予測し、それを指標として行動を生成する「ProWAM」です。サブゴール予測は行動ラベルのない大規模ビデオから学習可能で、推論時にはサブゴール特徴量をキャッシュして効率化します。",
+      "enables": "シミュレーション環境において、最強のベースラインに対し最大35.9%の相対的な利得を達成し、未知のシーンでの実機実験でも70.0%の成功率を記録しました。",
+      "why_it_matters": "長期的な計画が必要なタスクにおいて、密なビデオ生成の非効率性と単一フレーム予測の情報の少なさを、疎なサブゴールという形式で解決しました。",
+      "tags": [
+        "ロボット",
+        "世界モデル",
+        "視覚計画"
+      ],
+      "fetched_at": "2026-10-06T11:07:38.445701+09:00"
+    },
+    {
+      "id": "2610.02381",
+      "title": "Latent-MOPD: Latent Multi-Teacher On-Policy Distillation",
+      "url": "https://arxiv.org/abs/2610.02381",
+      "pdf": "https://arxiv.org/pdf/2610.02381",
+      "authors": [
+        "Zhengyu Fang",
+        "Seoyeon Hong",
+        "Jie Yang",
+        "Muyang Li",
+        "Koyoshi Shindo",
+        "Brandon Joseph Lwowski"
+      ],
+      "categories": [
+        "cs.LG"
+      ],
+      "venues": [],
+      "award": false,
+      "talk": false,
+      "workshop": false,
+      "comment": "",
+      "hf_upvotes": 54,
+      "star_votes": 0,
+      "star_codes": [],
+      "star_quote": "",
+      "signals": [
+        "HF ▲54"
+      ],
+      "headline": "内部表現レベルで複数の専門家教師から学習するオンポリシー蒸留",
+      "what": "出力トークンだけでなく、中間層の隠れ状態（Representation）も用いて複数の専門家教師から学生モデルへ知識を転移する「Latent-MOPD」です。ドメインごとに隠れ状態の重みを調整し、出力分布への監督へ段階的に移行するルーティング手法を採用しています。",
+      "enables": "数学、コード、論理の9つのベンチマークにおいて、トークンのみの蒸留や単一教師の性能を上回り、教師モデルの最高値すら超える性能を示しました。",
+      "why_it_matters": "異なるアーキテクチャを持つ教師からも知識を統合できることを示し、モデル内部の表現レベルでの協調学習を可能にしました。",
+      "tags": [
+        "LLM",
+        "知識蒸留",
+        "マルチタスク"
+      ],
+      "fetched_at": "2026-10-06T11:07:38.445701+09:00"
+    },
+    {
+      "id": "2610.03574",
+      "title": "HyperBrowseComp: A Multilingual and Multimodal Stress Test for Web-Browsing Agents",
+      "url": "https://arxiv.org/abs/2610.03574",
+      "pdf": "https://arxiv.org/pdf/2610.03574",
+      "authors": [
+        "Alham Fikri Aji",
+        "Faiz Rizki Ramadhan",
+        "Zayd M. K. Zuhri",
+        "Seung Hun Eddie Han",
+        "Ryandito Diandaru",
+        "Qinrong Cui"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG"
+      ],
+      "venues": [],
+      "award": false,
+      "talk": false,
+      "workshop": false,
+      "comment": "",
+      "hf_upvotes": 51,
+      "star_votes": 0,
+      "star_codes": [],
+      "star_quote": "",
+      "signals": [
+        "HF ▲51"
+      ],
+      "headline": "Webブラウジングエージェントのための多言語・マルチモーダルな高難易度テスト",
+      "what": "13言語にわたる423件の人間による検証済み質問で構成される、ブラウジングエージェント用ベンチマーク「HyperBrowseComp」です。ビデオ、スキャン文書、地図などの多様なソースから、多段階の推論を必要とする回答を探し出す設定になっています。",
+      "enables": "モデルが持つパラメータ知識だけで回答できないようフィルタリングされており、現在のエージェントモデルや検索エンジンの限界を測定できます。",
+      "why_it_matters": "既存のブラウジング評価よりも実世界の探索タスクに近く、多言語環境下での情報の発見と統合能力を厳密に評価できるベンチマークを提供しました。",
+      "tags": [
+        "エージェント",
+        "多言語",
+        "ベンチマーク"
+      ],
+      "fetched_at": "2026-10-06T11:07:38.445701+09:00"
+    },
+    {
+      "id": "2610.03665",
+      "title": "Pivot-SD: Efficient Self-Distillation for Masked Diffusion Language Models",
+      "url": "https://arxiv.org/abs/2610.03665",
+      "pdf": "https://arxiv.org/pdf/2610.03665",
+      "authors": [
+        "Seo Hyun Kim",
+        "Sunwoo Hong",
+        "Younwoo Choi",
+        "Chen-Hao Chao",
+        "Se-Young Yun",
+        "Rahul G. Krishnan"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.CL"
+      ],
+      "venues": [],
+      "award": false,
+      "talk": false,
+      "workshop": false,
+      "comment": "",
+      "hf_upvotes": 50,
+      "star_votes": 0,
+      "star_codes": [],
+      "star_quote": "",
+      "signals": [
+        "HF ▲50"
+      ],
+      "headline": "情報の不確実性を大幅に減らす「ピボット」に絞った自己蒸留手法",
+      "what": "マスク型拡散言語モデル（dLMs）において、回答の方向性を決定づける重要なトークン（ピボット）を選択的に学習する「Pivot-SD」です。情報利得を指標としてピボットを特定し、成功例からは学習、失敗例からは対照的に学習を避ける手法をとります。",
+      "enables": "LLaDA-8B-Instructにおいて、全系列を学習するSFTや強化学習ベースラインを上回る効率で、数学やコードの性能を向上させました。",
+      "why_it_matters": "拡散モデルにおける「どのステップやトークンが結果に影響を与えたか」というクレジット割り当て問題を、情報理論的なアプローチで解決しました。",
+      "tags": [
+        "LLM",
+        "拡散モデル",
+        "自己蒸留"
+      ],
+      "fetched_at": "2026-10-06T11:07:38.445701+09:00"
+    },
+    {
+      "id": "2610.02304",
+      "title": "SimuVerity: Benchmarking Agents for Engineering-Grade Simulink Model Generation",
+      "url": "https://arxiv.org/abs/2610.02304",
+      "pdf": "https://arxiv.org/pdf/2610.02304",
+      "authors": [
+        "Ruiqi Zhang",
+        "Jiahao Wang",
+        "Mingxuan Li",
+        "Haichen Luo",
+        "Chaoting Wang",
+        "Guoyu Mou"
+      ],
+      "categories": [
+        "cs.SE",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "venues": [],
+      "award": false,
+      "talk": false,
+      "workshop": false,
+      "comment": "",
+      "hf_upvotes": 46,
+      "star_votes": 0,
+      "star_codes": [],
+      "star_quote": "",
+      "signals": [
+        "HF ▲46"
+      ],
+      "headline": "エンジニアリング要件への適合性を評価するSimulinkモデル生成ベンチマーク",
+      "what": "単なるコンパイルの可否や構造の類似性ではなく、エンジニアリング要件を満足するかを評価する101個のタスクからなる「SimuVerity」です。6つの次元（精度、動的応答、制御の整合性など）で階層的に評価を行います。",
+      "enables": "最新のAIエージェントを評価したところ、総合スコアが最大でも42.86に留まり、物理的な動作要件を満たすことの難しさを浮き彫りにしました。",
+      "why_it_matters": "工業製品の開発に不可欠なSimulinkモデル生成において、実務レベルの品質と信頼性を測定するための体系的な基準を確立しました。",
+      "tags": [
+        "ソフトウェア工学",
+        "エージェント",
+        "Simulink"
+      ],
+      "fetched_at": "2026-10-06T11:07:38.445701+09:00"
+    },
+    {
+      "id": "2610.02298",
+      "title": "EditHero: A Benchmark for Long-Horizon Part-Level 3D Editing and Vibe Modeling",
+      "url": "https://arxiv.org/abs/2610.02298",
+      "pdf": "https://arxiv.org/pdf/2610.02298",
+      "authors": [
+        "Ruihan Yu",
+        "Yu-Ju Tsai",
+        "Muyao Niu",
+        "Runyi Li",
+        "Lian Fu",
+        "Hanqing Liu"
+      ],
+      "categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.GR"
+      ],
+      "venues": [],
+      "award": false,
+      "talk": false,
+      "workshop": false,
+      "comment": "",
+      "hf_upvotes": 45,
+      "star_votes": 0,
+      "star_codes": [],
+      "star_quote": "",
+      "signals": [
+        "HF ▲45"
+      ],
+      "headline": "3Dアセットの反復的なパーツ編集を評価するベンチマーク「EditHero」",
+      "what": "一連の自然言語指示に従って、3Dモデルの幾何とテクスチャをパーツ単位で逐次的に編集していく能力を測るベンチマークです。指示に従って変更した部分以外が不当に変更されていないかを厳密にチェックします。",
+      "enables": "非エージェント的な全体再生成手法よりも、LLM/VLMを用いたボトムアップなコード書き換え手法の方が、元の形状を維持しつつ正確に編集できることを明らかにしました。",
+      "why_it_matters": "単発の編集ではなく、実際の制作フローに近い「長期にわたる反復的な修正」という、より実用的な視点での3D編集評価を可能にしました。",
+      "tags": [
+        "3Dビジョン",
+        "ベンチマーク",
+        "LLM"
+      ],
+      "fetched_at": "2026-10-06T11:07:38.445701+09:00"
+    },
+    {
+      "id": "2610.03632",
+      "title": "World Embedding Benchmark",
+      "url": "https://arxiv.org/abs/2610.03632",
+      "pdf": "https://arxiv.org/pdf/2610.03632",
+      "authors": [
+        "Yiqi Liu",
+        "Ruifeng Yuan",
+        "Yang Wang",
+        "Long Li",
+        "Fengyu Cai",
+        "Hou Pong Chan"
+      ],
+      "categories": [
+        "cs.CV",
+        "cs.CL"
+      ],
+      "venues": [],
+      "award": false,
+      "talk": false,
+      "workshop": false,
+      "comment": "",
+      "hf_upvotes": 41,
+      "star_votes": 0,
+      "star_codes": [],
+      "star_quote": "",
+      "signals": [
+        "HF ▲41"
+      ],
+      "headline": "ビデオ表現が物理情報をどの程度保持しているかを測定するベンチマーク",
+      "what": "流体力学、剛体力学、光学など80の物理シミュレーションファミリーからなる「World Embedding Benchmark」です。ビデオ埋め込みからの物理量回帰、クロスモーダル検索、ペア分類の3つのタスクを通じて物理的情報の保持度を評価します。",
+      "enables": "物理情報の「検索（Alignment）」と「復元（Recoverability）」にはトレードオフがあることを明らかにし、RAG（検索拡張生成）による動画生成の品質向上を実証しました。",
+      "why_it_matters": "世界モデルや動画生成モデルが「物理法則を理解しているか」を定量的に評価し、改善するための基盤を提供しました。",
+      "tags": [
+        "世界モデル",
+        "ベンチマーク",
+        "物理シミュレーション"
+      ],
+      "fetched_at": "2026-10-06T11:07:38.445701+09:00"
+    },
+    {
+      "id": "2610.03367",
+      "title": "Multilingual GSM-Symbolic: What determines capability transfer across languages?",
+      "url": "https://arxiv.org/abs/2610.03367",
+      "pdf": "https://arxiv.org/pdf/2610.03367",
+      "authors": [
+        "Kenneth Enevoldsen",
+        "Riley Herchert",
+        "Sofie Mosegaard",
+        "Dan Saattrup Smart",
+        "Simon Enni",
+        "Isaac Chung"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "venues": [],
+      "award": false,
+      "talk": false,
+      "workshop": false,
+      "comment": "",
+      "hf_upvotes": 40,
+      "star_votes": 0,
+      "star_codes": [],
+      "star_quote": "",
+      "signals": [
+        "HF ▲40"
+      ],
+      "headline": "言語間での能力移転を規定する要因を明らかにした多言語数学データセット",
+      "what": "シンボリックなテンプレートを用いて数百万通りのバリエーションを生成可能な、15言語・3万ペアの数学問題データセット「Multilingual GSM-Symbolic」です。言語間の性能差を規定する要因（モデルサイズ、リソース量、類型論的距離など）を定量的・統合的に分析します。",
+      "enables": "言語間の性能差の92%を説明可能なフレームワークを構築し、未学習の言語における性能を数パーセントの誤差で予測することを可能にしました。",
+      "why_it_matters": "低リソース言語においてモデルサイズや推論能力がどのように性能差を埋めるかを数式化し、効率的な多言語展開の指針を提供しました。",
+      "tags": [
+        "LLM",
+        "多言語",
+        "数学推論"
+      ],
+      "fetched_at": "2026-10-06T11:07:38.445701+09:00"
+    },
+    {
+      "id": "2610.03195",
+      "title": "Source Preference in the Wild: How LLM Agents Favor Items by Source, and How to Reduce It",
+      "url": "https://arxiv.org/abs/2610.03195",
+      "pdf": "https://arxiv.org/pdf/2610.03195",
+      "authors": [
+        "Jonghyun Song",
+        "Haewon Park",
+        "Jeonghoon Shim",
+        "Woojung Song",
+        "Yohan Jo"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "venues": [],
+      "award": false,
+      "talk": false,
+      "workshop": false,
+      "comment": "",
+      "hf_upvotes": 34,
+      "star_votes": 0,
+      "star_codes": [],
+      "star_quote": "",
+      "signals": [
+        "HF ▲34"
+      ],
+      "headline": "LLMエージェントが情報の「提供元」に抱くバイアスの特定と軽減",
+      "what": "LLMエージェントが検索結果から商品やホテルを選ぶ際、特定のサイト（ソース）を過度に優先するバイアスがあるかを調査した研究です。情報の欠落や、訓練時のショートカット学習が原因であることを特定し、対策を提案しています。",
+      "enables": "ソース名を隠したり、不足情報を提供したりすることで、品質の低い選択肢をソースの知名度だけで選んでしまう傾向を大幅に軽減できることを示しました。",
+      "why_it_matters": "エージェントがユーザーの代理として意思決定を行う際、特定のプラットフォームを不当に優遇しない、公平な推薦を実現するための重要な知見です。",
+      "tags": [
+        "LLMエージェント",
+        "バイアス",
+        "検索"
+      ],
+      "fetched_at": "2026-10-06T11:07:38.445701+09:00"
+    }
+  ]
+}
