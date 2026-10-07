@@ -1,0 +1,1050 @@
+{
+  "date": "2026-10-07",
+  "arxiv": [
+    {
+      "id": "2610.04093",
+      "title": "Beyond Masked Sparsity: SNACK Enables Truly Sparse Neural Networks on GPU",
+      "url": "https://arxiv.org/abs/2610.04093",
+      "pdf": "https://arxiv.org/pdf/2610.04093",
+      "authors": [
+        "Jafar Badour",
+        "Maurice van Keulen",
+        "Elena Mocanu"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.DC"
+      ],
+      "venues": [],
+      "award": false,
+      "talk": false,
+      "workshop": false,
+      "comment": "",
+      "hf_upvotes": null,
+      "star_votes": 2,
+      "star_codes": [
+        "new"
+      ],
+      "star_quote": "We propose SNACK, a truly sparse GPU layer that stores and computes only non-zero connections.",
+      "signals": [],
+      "headline": "GPU上の疎行列演算を最適化しGPT-2のメモリ消費を40%削減するSNACKフレームワーク",
+      "what": "疎なニューラルネットワークをGPU上で効率的に扱うためのSNACKフレームワークと、カスタムCOO形式のSpMM（Sparse Matrix-Matrix Multiplication）カーネルであるSNACK-COOを提案しています。既存のマスクを用いた疑似的な疎行列ではなく、非ゼロ要素のみを保存・計算する真の疎行列パラダイムをPyTorch APIを通じて提供します。",
+      "enables": "90%のスパース性において、従来の密なレイヤーと比較して学習を3.7倍、推論を2倍に高速化し、メモリ使用量を72%削減します。GPT-2の学習ではピークメモリを最大40%削減し、99%のスパース性で推論レイテンシを4.8倍高速化しました。",
+      "why_it_matters": "理論的な疎計算のメリットをGPUの実効速度に変換することに成功しており、巨大化するモデルの学習・推論コストをハードウェアレベルで抑制する実用的な手段となります。",
+      "tags": [
+        "GPU最適化",
+        "疎ニューラルネットワーク",
+        "効率的学習"
+      ],
+      "fetched_at": "2026-10-07T10:15:57.945897+09:00"
+    },
+    {
+      "id": "2610.04281",
+      "title": "OctMesh: A Unified Octree-Hierarchical Framework for Lossless Triangle Mesh Compression",
+      "url": "https://arxiv.org/abs/2610.04281",
+      "pdf": "https://arxiv.org/pdf/2610.04281",
+      "authors": [
+        "Shiyu Feng",
+        "Xihua Sheng",
+        "Lingyu Zhu",
+        "Chunyang Fu",
+        "Shiqi Wang"
+      ],
+      "categories": [
+        "cs.CV",
+        "cs.GR"
+      ],
+      "venues": [],
+      "award": false,
+      "talk": false,
+      "workshop": false,
+      "comment": "",
+      "hf_upvotes": null,
+      "star_votes": 1,
+      "star_codes": [
+        "new"
+      ],
+      "star_quote": "We propose OctMesh, a learned framework that codes geometry and connectivity on a shared octree hierarchy.",
+      "signals": [],
+      "headline": "八分木構造を利用してジオメトリとトポロジーを統合圧縮する3Dメッシュ圧縮手法OctMesh",
+      "what": "頂点位置と接続情報の両方を共通の八分木（Octree）階層上で符号化する、学習ベースの可逆3Dメッシュ圧縮フレームワークです。接続情報の変化パターンを4つのカテゴリに分類し、ニューラルネットワークを用いた予測器と算術符号を組み合わせて効率的に圧縮します。",
+      "enables": "MPEG V-DMCのテストシーケンスにおいて、既存のV-Meshよりも12.8%低いビットレート（平均7.033 bits per face）で可逆圧縮を達成しました。また、9段階のプログレッシブな詳細化表示もサポートしています。",
+      "why_it_matters": "点群だけでなくメッシュの接続構造までを階層的にモデル化することで、データサイズを抑えつつ精細な3D資産の配信や保存が可能になります。",
+      "tags": [
+        "3D圧縮",
+        "八分木",
+        "コンピュータグラフィックス"
+      ],
+      "fetched_at": "2026-10-07T10:15:57.945897+09:00"
+    },
+    {
+      "id": "2610.04351",
+      "title": "LoCoSplat: Real-Time Feed-Forward 3D Gaussian Splatting with Minimal 3D Reasoning",
+      "url": "https://arxiv.org/abs/2610.04351",
+      "pdf": "https://arxiv.org/pdf/2610.04351",
+      "authors": [
+        "Sinan Wang",
+        "Jinjin He",
+        "Yuchen Sun",
+        "Duowen Chen",
+        "Shenyifan Lu",
+        "Bo Zhu"
+      ],
+      "categories": [
+        "cs.CV",
+        "cs.GR"
+      ],
+      "venues": [],
+      "award": false,
+      "talk": false,
+      "workshop": false,
+      "comment": "",
+      "hf_upvotes": null,
+      "star_votes": 2,
+      "star_codes": [
+        "sota"
+      ],
+      "star_quote": "On RealEstate10K, LoCoSplat outperforms every prior feed-forward method on PSNR, SSIM, and LPIPS at 6, 12, and 24 views",
+      "signals": [],
+      "headline": "3D推論を局所平均化で簡略化し推論速度を4.2倍に高めたLoCoSplat",
+      "what": "3D Gaussian Splatting（3DGS）において、重い3Dネットワークを介さずに、点群の周囲から局所的な特徴をグリッドに集約（splat）して読み出すことでスケールや回転などを予測する手法です。全エンコーダを単一のfp16 CUDAグラフとして実行可能なほど軽量に設計されています。",
+      "enables": "従来最高速の手法と比較して4.2倍高速、6.7倍少ないメモリで推論可能です。RealEstate10Kデータセットにおいて、VolSplatなどの既存手法をPSNR等の精度指標で上回りました。",
+      "why_it_matters": "フィードフォワード型の3D生成において、複雑な3D推論を局所的な処理に置き換えることで、実時間かつ低リソースなシーン再構成を実現しています。",
+      "tags": [
+        "3D Gaussian Splatting",
+        "リアルタイムレンダリング",
+        "コンピュータビジョン"
+      ],
+      "fetched_at": "2026-10-07T10:15:57.945897+09:00"
+    },
+    {
+      "id": "2610.04426",
+      "title": "UnAct: Gradient-Free Unlearning via Targeted Activation Intervention",
+      "url": "https://arxiv.org/abs/2610.04426",
+      "pdf": "https://arxiv.org/pdf/2610.04426",
+      "authors": [
+        "Saeed Abdul Muizz",
+        "Aayat Rafiq",
+        "Iqra Altaf Gillani",
+        "Janibul Bashir"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.CV"
+      ],
+      "venues": [],
+      "award": false,
+      "talk": false,
+      "workshop": false,
+      "comment": "",
+      "hf_upvotes": null,
+      "star_votes": 1,
+      "star_codes": [
+        "cap"
+      ],
+      "star_quote": "UnAct, a gradient-free class-unlearning method that needs only forward passes over the forget images.",
+      "signals": [],
+      "headline": "勾配計算不要で少数のデータから特定クラスを忘却させる手法UnAct",
+      "what": "学習済みモデルから特定データを消去するマシンアンラーニング（Machine Unlearning）において、忘却対象の画像に対する順伝播のみを利用する手法です。モデル後半のユニットの活性化応答に基づき、強い応答を示す接続を減衰させることで、再学習や勾配計算なしで忘却を実行します。",
+      "enables": "CIFAR-10においてわずか5枚の忘却対象画像のみで、再学習に近い精度を維持しつつ忘却を達成しました。従来のSSD等の手法が少数のデータではモデルが崩壊するのに対し、高い保持精度（Retain Accuracy）を維持しています。",
+      "why_it_matters": "プライバシー保護や不適切なデータの削除要求に対し、計算コストを抑えつつ極めて少ないデータから柔軟に対応できる実務的な解を提供します。",
+      "tags": [
+        "マシンアンラーニング",
+        "勾配フリー",
+        "プライバシー"
+      ],
+      "fetched_at": "2026-10-07T10:15:57.945897+09:00"
+    },
+    {
+      "id": "2610.04457",
+      "title": "RPFQ-ViT: Rotated Phase-Frame Quantization for Extremely Low-Bit Weights in Vision Transformers",
+      "url": "https://arxiv.org/abs/2610.04457",
+      "pdf": "https://arxiv.org/pdf/2610.04457",
+      "authors": [
+        "Mengyuan Fan",
+        "Bokai Huang",
+        "JiaMing Pan",
+        "Xiaokun Yuan",
+        "Peizhuang Cong",
+        "Zhewen Tan"
+      ],
+      "categories": [
+        "cs.CV"
+      ],
+      "venues": [],
+      "award": false,
+      "talk": false,
+      "workshop": false,
+      "comment": "",
+      "hf_upvotes": null,
+      "star_votes": 2,
+      "star_codes": [
+        "new",
+        "sota"
+      ],
+      "star_quote": "On ImageNet-1K, RPFQ-ViT-B/16 reaches 79.33% Top-1 / 94.48% Top-5 under W2/A4",
+      "signals": [],
+      "headline": "2ビット重みでも高精度を維持しiOS/Android上で高速動作するRPFQ-ViT",
+      "what": "Vision Transformer（ViT）向けの極低ビット量子化手法で、チャネルをペアにして2次元平面（位相平面）上で量子化するRotated Phase-Frame Quantizationを提案しています。学習可能な回転と位相アンカーを用いることで、重みの方向情報を保持しつつ圧縮します。",
+      "enables": "2ビット重みのRPFQ-ViT-B/16でImageNet-1KのTop-1精度79.33%を達成しました。実デバイス（iOS/Android）上での展開では、FP32モデルと比較してサイズを5.4〜7.1倍削減し、推論速度を1.4〜1.6倍高速化しています。",
+      "why_it_matters": "計算資源の限られたモバイル端末において、ViTのような大規模モデルを高精度かつ効率的に動作させるための重要なブレークスルーです。",
+      "tags": [
+        "モデル量子化",
+        "Vision Transformer",
+        "エッジAI"
+      ],
+      "fetched_at": "2026-10-07T10:15:57.945897+09:00"
+    },
+    {
+      "id": "2610.04572",
+      "title": "Only Project Once: Projection-Adaptive Loss for Exact Constraint Satisfaction",
+      "url": "https://arxiv.org/abs/2610.04572",
+      "pdf": "https://arxiv.org/pdf/2610.04572",
+      "authors": [
+        "Tim Aebersold",
+        "Soheyl Massoudi",
+        "Mark Fuge"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.AI",
+        "cs.CE"
+      ],
+      "venues": [],
+      "award": false,
+      "talk": false,
+      "workshop": false,
+      "comment": "",
+      "hf_upvotes": null,
+      "star_votes": 2,
+      "star_codes": [
+        "new"
+      ],
+      "star_quote": "contrary to common practice, a single detached projection step suffices in training. We accomplish this with a Projection-Adaptive Loss (PAL)",
+      "signals": [],
+      "headline": "単一の射影ステップのみで厳密な制約を満足させる学習手法PAL",
+      "what": "物理制約などの厳密な条件を満たすニューラルネットワーク学習において、従来の多段階の反復計算（unroll）を必要とせず、単一の detached projection ステップと制約違反に基づく適応的な重み付け損失（PAL）を組み合わせる手法です。",
+      "enables": "複雑な非線形制約においてもほぼ完璧な実行可能性を維持しつつ、従来手法のDC3と比較して学習を2.5倍高速化しました。また、制約評価にニューラルサロゲートが必要なメモリ消費の激しい設定でも学習可能です。",
+      "why_it_matters": "計算コストを劇的に抑えながら物理的・数学的制約を厳密に守る必要があるエンジニアリング分野の深層学習応用を加速させます。",
+      "tags": [
+        "制約付き最適化",
+        "物理情報深層学習",
+        "学習アルゴリズム"
+      ],
+      "fetched_at": "2026-10-07T10:15:57.945897+09:00"
+    },
+    {
+      "id": "2610.04781",
+      "title": "Super-Resolution in The Right Latent Space: A Frozen Vision-Foundation Substrate",
+      "url": "https://arxiv.org/abs/2610.04781",
+      "pdf": "https://arxiv.org/pdf/2610.04781",
+      "authors": [
+        "Wanzhou Lei",
+        "Cuifeng Sheng",
+        "Yanjin He",
+        "Maohua Li",
+        "Hua Yuan",
+        "Per-Olof Persson"
+      ],
+      "categories": [
+        "cs.CV"
+      ],
+      "venues": [],
+      "award": false,
+      "talk": false,
+      "workshop": false,
+      "comment": "",
+      "hf_upvotes": null,
+      "star_votes": 2,
+      "star_codes": [
+        "sota"
+      ],
+      "star_quote": "RAESR, attains the best fidelity--perception trade-off among state-of-the-art adversarial and diffusion-based restorers on RealSR, DRealSR, LSDIR and DIV2K-Val",
+      "signals": [],
+      "headline": "凍結されたDINOv3の潜在空間を利用し劣化画像を鮮明化するRAESR",
+      "what": "リアル世界の超解像（SR）において、凍結されたDINOv3-Lの潜在空間を復元の土台として採用する手法です。この空間は、劣化画像と高品質画像が近くに配置される性質と、セマンティック情報を保持する階層構造を持っており、単一パスのデコーダで高品質な画像を生成します。",
+      "enables": "RealSR等のベンチマークにおいて、既存の拡散モデルや敵対的生成ネットワークベースの手法を上回る忠実度と知覚品質のトレードオフを達成しました。H20 GPUで512x512の画像を37msで処理可能です。",
+      "why_it_matters": "超解像をピクセル空間や単純なVAE空間ではなく、事前に学習された強力な視覚基盤モデルの潜在空間で解くことの有効性を示しています。",
+      "tags": [
+        "超解像",
+        "基盤モデル",
+        "画像処理"
+      ],
+      "fetched_at": "2026-10-07T10:15:57.945897+09:00"
+    },
+    {
+      "id": "2610.04963",
+      "title": "MAGIC: Topology-Aware Analytic Graph Few-Shot Class-Incremental Learning",
+      "url": "https://arxiv.org/abs/2610.04963",
+      "pdf": "https://arxiv.org/pdf/2610.04963",
+      "authors": [
+        "Junlin Chen",
+        "Yuhan Wang",
+        "Xuefei Wang",
+        "Xiao Wang",
+        "Ruijie Wang",
+        "Jianxin Li"
+      ],
+      "categories": [
+        "cs.LG"
+      ],
+      "venues": [],
+      "award": false,
+      "talk": false,
+      "workshop": false,
+      "comment": "",
+      "hf_upvotes": null,
+      "star_votes": 1,
+      "star_codes": [
+        "sota"
+      ],
+      "star_quote": "MAGIC improves Mean Accuracy and Final Accuracy by 5.48 percentage points and 9.33 percentage points on average",
+      "signals": [],
+      "headline": "トポロジーを考慮した解析的アプローチでグラフの少数事例増分学習を実現するMAGIC",
+      "what": "新しいクラスのノードが少数のみ追加され続けるグラフ学習において、凍結された表現バックボーンと閉形式（解析的）な継続学習を組み合わせたフレームワークです。トポロジー的な事前知識の注入と、表現のドリフトを抑える蒸留アルゴリズムにより、過学習と忘却を抑制します。",
+      "enables": "5-shotの設定において、既存の最高性能なベースラインと比較して平均精度を5.48ポイント向上させ、精度の低下（Performance Drop）を10.78ポイント改善しました。また、学習時間も大幅に短縮されています。",
+      "why_it_matters": "データの追加が頻繁かつ少量である実世界のグラフデータにおいて、再学習のコストを抑えつつ継続的に精度を維持する手法として有用です。",
+      "tags": [
+        "グラフニューラルネットワーク",
+        "継続学習",
+        "少数事例学習"
+      ],
+      "fetched_at": "2026-10-07T10:15:57.945897+09:00"
+    },
+    {
+      "id": "2610.05115",
+      "title": "PCLM: Small-target localization with frozen CLIP via prototype contrast and local magnification",
+      "url": "https://arxiv.org/abs/2610.05115",
+      "pdf": "https://arxiv.org/pdf/2610.05115",
+      "authors": [
+        "Zhipeng Ye",
+        "Feng Jiang",
+        "Qiufeng Wang",
+        "Hao Li"
+      ],
+      "categories": [
+        "cs.CV"
+      ],
+      "venues": [],
+      "award": false,
+      "talk": false,
+      "workshop": false,
+      "comment": "",
+      "hf_upvotes": null,
+      "star_votes": 2,
+      "star_codes": [
+        "sota"
+      ],
+      "star_quote": "PCLM achieves higher mean pixel AP than every evaluated text-conditioned localization baseline on each dataset under our evaluation protocol.",
+      "signals": [],
+      "headline": "凍結CLIPとプロトタイプ対比を用いて微小対象物を高精度に特定するPCLM",
+      "what": "凍結されたCLIPエンコーダを利用した、サポート画像に基づく物体局在化手法です。サポート画像から抽出した前景・背景のプロトタイプ（特徴の代表）を対比させることで識別方向を定め、クエリ画像を拡大して走査する「局所拡大」を組み合わせて微小な物体を検出します。",
+      "enables": "VOCやCOCO等の微小ターゲットを含むクエリにおいて、テキスト条件ベースの既存手法を5.63〜13.23ポイント上回る平均ピクセル精度（pixel AP）を達成しました。拡大処理を効率化しつつ精度を向上させています。",
+      "why_it_matters": "画像内のごく一部しか占めない物体に対し、CLIPの強力な表現能力を活かしつつ、背景とのコントラストを明示的に扱うことで検出精度を高めています。",
+      "tags": [
+        "物体局在化",
+        "CLIP",
+        "ゼロショット学習"
+      ],
+      "fetched_at": "2026-10-07T10:15:57.945897+09:00"
+    },
+    {
+      "id": "2610.05163",
+      "title": "Blocking at the Boundary: Auditing Long-Horizon Agents against Staged Prompt Injection",
+      "url": "https://arxiv.org/abs/2610.05163",
+      "pdf": "https://arxiv.org/pdf/2610.05163",
+      "authors": [
+        "Jingkai Liu",
+        "Yufei Han",
+        "Xiaoting Lyu",
+        "Wei Wang",
+        "Ting Yu"
+      ],
+      "categories": [
+        "cs.CR",
+        "cs.AI"
+      ],
+      "venues": [],
+      "award": false,
+      "talk": false,
+      "workshop": false,
+      "comment": "29 pages, 10 figures, 20 tables. Code and data: https://anonymous.4open.science/r/audit-artifact-E593",
+      "hf_upvotes": null,
+      "star_votes": 1,
+      "star_codes": [
+        "cap"
+      ],
+      "star_quote": "The confirmed attacks span eight workflow scenarios, seven attack goals, and six injection surfaces, showing that production agents are vulnerable to context-aware, multi-step injection over long horizons.",
+      "signals": [],
+      "headline": "長期実行エージェントへのプロンプト注入攻撃を検知・遮断するPAA監査システム",
+      "what": "外部ツールやコンテンツを扱うAIエージェントに対する「段階的プロンプト注入（Staged Prompt Injection）」を防御するための監査手法です。実行前の各アクションに対し、その根拠となる情報のソースを追跡し、攻撃者が到達可能なソースからの不当な指示がないかを検証するPath-Aligned Attribution (PAA)を提案しています。",
+      "enables": "Claude 3.5 Sonnetをバックエンドとしたテストにおいて、誤検知率を6〜8%に抑えつつ、86%の攻撃を遮断することに成功しました。これは既存のARGUS等の手法（遮断率44〜47%）を大幅に上回る性能です。",
+      "why_it_matters": "AIエージェントが自律的にツールを操作する際のリスクを低減し、実用的なセキュリティ境界（ガードレール）を構築するための重要な知見です。",
+      "tags": [
+        "AIセキュリティ",
+        "LLMエージェント",
+        "プロンプト注入"
+      ],
+      "fetched_at": "2026-10-07T10:15:57.945897+09:00"
+    },
+    {
+      "id": "2610.05219",
+      "title": "Safe Context Switching for Agents in the Wild: Mitigating Subspace Interference via Orthogonal Adaptation",
+      "url": "https://arxiv.org/abs/2610.05219",
+      "pdf": "https://arxiv.org/pdf/2610.05219",
+      "authors": [
+        "Akash Das",
+        "Ishan Roy"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "venues": [
+        "ICLR (WS)"
+      ],
+      "award": false,
+      "talk": false,
+      "workshop": true,
+      "comment": "",
+      "hf_upvotes": null,
+      "star_votes": 1,
+      "star_codes": [
+        "new"
+      ],
+      "star_quote": "By explicitly estimating the null space of the alignment manifold and constraining reasoning updates to its orthogonal complement, AURA enables models to improve logical reasoning without compromising safety.",
+      "signals": [],
+      "headline": "論理的推論の学習による安全性の低下を幾何学的正則化で防ぐAURA",
+      "what": "LLMにおいて、論理的推論（数学やコード生成）のファインチューニングを行うと、安全性のためのアライメントが損なわれる「Reasoning Drift」現象を幾何学的に分析しています。推論学習の更新を安全性の多様体の直交補空間に制限する正則化フレームワークAURAを提案しました。",
+      "enables": "標準的な手法で推論学習を行った際の安全性の低下（約23.3%）を、AURAを用いることでほぼ回復させつつ、推論能力の向上を両立できることを実証しました。",
+      "why_it_matters": "推論能力を高める学習と安全性を保つ学習が互いに干渉し合うという本質的な課題を、モデルの潜在空間の幾何学的な性質を利用して解決しています。",
+      "tags": [
+        "LLMアライメント",
+        "AI安全性",
+        "ファインチューニング"
+      ],
+      "fetched_at": "2026-10-07T10:15:57.945897+09:00"
+    },
+    {
+      "id": "2610.05879",
+      "title": "Learning to Learn a Language",
+      "url": "https://arxiv.org/abs/2610.05879",
+      "pdf": "https://arxiv.org/pdf/2610.05879",
+      "authors": [
+        "Lennart Carstens-Behrens",
+        "Holger Fr\\\"ohlich"
+      ],
+      "categories": [
+        "cs.CL",
+        "cs.LG"
+      ],
+      "venues": [],
+      "award": false,
+      "talk": false,
+      "workshop": false,
+      "comment": "15 pages, 6 figures, 5 tables, Code: https://github.com/cbl/prior-fitted-language-model, weights: https://huggingface.co/lennartcb/pflm1",
+      "hf_upvotes": 3,
+      "star_votes": 2,
+      "star_codes": [
+        "new"
+      ],
+      "star_quote": "We present the Prior-Fitted Language Model (PFLM), a 300M-parameter byte-level transformer pretrained only on samples from a synthetic non-linguistic prior.",
+      "signals": [],
+      "headline": "自然言語を一切見ずに「言語を学習する方法」を習得した3億パラメータモデルPFLM",
+      "what": "単一の自然言語も含まない、純粋に合成された構造化データのみで事前学習されたバイトレベルTransformerモデルです。回帰的な因果構造モデルから生成されたデータを学習することで、文脈の「言語規則」を推論して次の文字を予測する能力を鍛えています。",
+      "enables": "Wikipediaのテキストに対して、100万バイトのコンテキストを与えると0.9〜2.4 bits per byteという高い圧縮率を達成しました。また、未学習のはずの数値計算やソースコードの圧縮においても既存ツールを凌駕する性能を示しました。",
+      "why_it_matters": "「言語そのものを学ぶ」のではなく「言語の統計的構造を学ぶ方法」を学習するという新しい事前学習パラダイムを提示しています。",
+      "tags": [
+        "言語モデル",
+        "事前学習",
+        "メタ学習"
+      ],
+      "fetched_at": "2026-10-07T10:15:57.945897+09:00"
+    },
+    {
+      "id": "2610.06540",
+      "title": "WaveGSSM: Graph Wave State Space Models for Propagating Spatio-Temporal Patterns",
+      "url": "https://arxiv.org/abs/2610.06540",
+      "pdf": "https://arxiv.org/pdf/2610.06540",
+      "authors": [
+        "Junyou Zhu",
+        "Fenying Cai",
+        "Ping Xiong",
+        "Christian Nauck",
+        "Langzhou He",
+        "Chao Gao"
+      ],
+      "categories": [
+        "cs.LG"
+      ],
+      "venues": [],
+      "award": false,
+      "talk": false,
+      "workshop": false,
+      "comment": "",
+      "hf_upvotes": null,
+      "star_votes": 2,
+      "star_codes": [
+        "sota"
+      ],
+      "star_quote": "reduces the geopotential RMSE by 20.2% on average for 1- to 5-day weather forecasts",
+      "signals": [],
+      "headline": "空間的なパターン伝播を2次状態空間モデルで表現するWaveGSSM",
+      "what": "時空間グラフデータ（気象など）において、現在の状態だけでなく「変化率」を保持する2次グラフ状態空間モデルです。ノードごとに連動する2つの潜在状態を管理し、グラフ上の波動（Wave）のような伝播現象を直接モデル化します。",
+      "enables": "4つのベンチマークと全球気象予測において最高性能を達成しました。特に1〜5日間の気象予測では、従来のモデルと比較してジオポテンシャル高度のRMSEを平均20.2%削減し、大規模な大気パターンをより正確に捉えました。",
+      "why_it_matters": "単に時刻ごとのスナップショットを繋ぐのではなく、物理的な「動き」を状態空間に組み込むことで、複雑な時系列パターンの予測精度を向上させています。",
+      "tags": [
+        "状態空間モデル",
+        "時空間予測",
+        "気象予測"
+      ],
+      "fetched_at": "2026-10-07T10:15:57.945897+09:00"
+    },
+    {
+      "id": "2610.06672",
+      "title": "VideoTapestry: Query-Adaptive Memory Refinement for Multi-Agent Long-Video Understanding",
+      "url": "https://arxiv.org/abs/2610.06672",
+      "pdf": "https://arxiv.org/pdf/2610.06672",
+      "authors": [
+        "Yucheng Liu",
+        "Yufei Yin",
+        "Mingxiao Feng",
+        "Jiajun Deng",
+        "Wengang Zhou",
+        "Houqiang Li"
+      ],
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "venues": [],
+      "award": false,
+      "talk": false,
+      "workshop": false,
+      "comment": "",
+      "hf_upvotes": null,
+      "star_votes": 2,
+      "star_codes": [
+        "sota"
+      ],
+      "star_quote": "achieves absolute accuracy gains of 17.2%, 14.9%, 9.8%, and 7.0% on LVBench",
+      "signals": [],
+      "headline": "階層型メモリをクエリに応じて動的に洗練する長時間ビデオ理解フレームワークVideoTapestry",
+      "what": "長時間のビデオ理解のための、トレーニング不要なマルチエージェントフレームワークです。ビデオを「全体物語」「イベント」「詳細な関係性」の3階層メモリとして構築し、クエリ（質問）に応じてそれぞれの階層を専門とするエージェントがメモリを詳細化・再構成します。",
+      "enables": "LVBenchやLongVideoBench等のベンチマークにおいて、GPT-4o（GPT-5.5相当設定）を最大17.2%上回る精度を達成し、SOTAを記録しました。質問に関係する部分のみを階層的に掘り下げて推論に反映します。",
+      "why_it_matters": "全ての情報を一律に処理するのではなく、クエリ駆動で必要な詳細度を選択的に取得することで、長尺動画の情報を効率的かつ正確に抽出できます。",
+      "tags": [
+        "ビデオ理解",
+        "マルチエージェント",
+        "長文コンテキスト"
+      ],
+      "fetched_at": "2026-10-07T10:15:57.945897+09:00"
+    },
+    {
+      "id": "2610.06804",
+      "title": "Sharpen Without Search: On-Policy Distillation of Sequence-Level Power Distribution",
+      "url": "https://arxiv.org/abs/2610.06804",
+      "pdf": "https://arxiv.org/pdf/2610.06804",
+      "authors": [
+        "Erfan Baghaei Potraghloo",
+        "Seyedarmin Azizi",
+        "Arya Fayyazi",
+        "Saeid Shokoufa",
+        "Mehdi Kamal",
+        "Souvik Kundu"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "venues": [],
+      "award": false,
+      "talk": false,
+      "workshop": false,
+      "comment": "",
+      "hf_upvotes": 1,
+      "star_votes": 2,
+      "star_codes": [
+        "sota"
+      ],
+      "star_quote": "Training raises single-generation accuracy by up to 23.0 points on MATH500",
+      "signals": [],
+      "headline": "探索を行わずに「もっともらしい回答」への集中を1回の推論で実現するOPPD",
+      "what": "言語モデルが「正しいが確率が低い」回答を選んでしまうのを防ぐため、推論結果を尖らせる（sharpening）手法を学習に組み込む「オンポリシー累乗蒸留（OPPD）」を提案しています。逐次モンテカルロ法で生成された候補を教師モデルで重み付けし、その分布を生徒モデルに蒸留します。",
+      "enables": "MATH500で23.0ポイント、GSM8Kで27.3ポイントの大幅な精度向上を達成しました。従来の「64個生成して選ぶ」手法を、単一の生成だけで上回る性能を引き出します。また、GRPOなどの強化学習手法とも補完的です。",
+      "why_it_matters": "推論時の計算コスト（生成回数）を増やすことなく、モデル自身の持つ潜在的な推論能力を単一回答の精度として凝縮させる革新的なアプローチです。",
+      "tags": [
+        "LLM推論",
+        "知識蒸留",
+        "数学的推論"
+      ],
+      "fetched_at": "2026-10-07T10:15:57.945897+09:00"
+    },
+    {
+      "id": "2610.05107",
+      "title": "SearchJev: A Fast and Calibrated System-1 Model for Search Agents",
+      "url": "https://arxiv.org/abs/2610.05107",
+      "pdf": "https://arxiv.org/pdf/2610.05107",
+      "authors": [
+        "Congfeng Cao",
+        "Lipeng Zuo",
+        "Konstantinos Papakostas",
+        "Qiwei Xu",
+        "Songwei Xu",
+        "Lun Zhou"
+      ],
+      "categories": [
+        "cs.IR",
+        "cs.CL"
+      ],
+      "venues": [],
+      "award": false,
+      "talk": false,
+      "workshop": false,
+      "comment": "",
+      "hf_upvotes": 14,
+      "star_votes": 2,
+      "star_codes": [
+        "new"
+      ],
+      "star_quote": "a fast and calibrated System-1 model that separates search decisions from System-2",
+      "signals": [],
+      "headline": "エージェントの検索判断をSystem-1モデルで高速化・信頼化するSearchJev",
+      "what": "検索エージェントが頻繁に行う「検索結果の関連性判断」や「情報の十分性確認」を、重い自己回帰生成ではなく直接スコアリングで行う高速なSystem-1モデルです。不確実な教師データから確率を学習し自信度を補正するSLCD法を導入しています。",
+      "enables": "同サイズのQwen2.5（自己回帰）と比較して5.2〜5.3倍高速に判断を下し、キャリブレーション誤差を41〜74%削減しました。エージェント全体の検索時間を3.7〜4.7倍高速化し、正解率も45%から54%へ向上させています。",
+      "why_it_matters": "思考（System-2）と直感的な判断（System-1）を分離することで、AIエージェントの動作を劇的に高速化し、かつ不確実性への信頼性を高める設計指針となります。",
+      "tags": [
+        "AIエージェント",
+        "情報検索",
+        "モデル高速化"
+      ],
+      "fetched_at": "2026-10-07T10:15:57.945897+09:00"
+    },
+    {
+      "id": "2610.05939",
+      "title": "Structural Foundations of Nonlinear Systems with Unknown Inputs: The UID-Induced Normal Form and Minimal-Sensing Structure-from-Motion",
+      "url": "https://arxiv.org/abs/2610.05939",
+      "pdf": "https://arxiv.org/pdf/2610.05939",
+      "authors": [
+        "Agostino Martinelli"
+      ],
+      "categories": [
+        "math.OC",
+        "cs.CV",
+        "cs.RO"
+      ],
+      "venues": [],
+      "award": false,
+      "talk": false,
+      "workshop": false,
+      "comment": "",
+      "hf_upvotes": null,
+      "star_votes": 2,
+      "star_codes": [
+        "cap",
+        "new"
+      ],
+      "star_quote": "establishes the first general structural solution to the problem of state estimation",
+      "signals": [],
+      "headline": "未知の入力駆動下での非線形システムの状態推定を実現するUID誘導標準形",
+      "what": "入力が不明な非線形システムにおいて、状態を推定するための構造的解法を提示しています。未知入力を、観測可能な動特性から分離された成分と、動特性に影響を与える成分に分解する「UID誘導標準形」という等価な表現形式を導出しました。",
+      "enables": "3つの特徴点と1軸のジャイロスコープのみという最小構成のセンサ情報から、カメラの3次元的な動きと構造を推定（Structure-from-Motion）することを可能にし、実データでその有効性を検証しました。",
+      "why_it_matters": "制御理論における長年の課題であった未知入力下の状態推定に対し、モデルや統計的仮定に依存しない普遍的な数学的枠組みを提供しています。",
+      "tags": [
+        "制御理論",
+        "状態推定",
+        "コンピュータビジョン"
+      ],
+      "fetched_at": "2026-10-07T10:15:57.945897+09:00"
+    },
+    {
+      "id": "2610.06348",
+      "title": "IGA-KAN: Isogeometric Analysis with Physics-Informed Closed-Form Kolmogorov-Arnold Networks for Forward and Inverse PDEs",
+      "url": "https://arxiv.org/abs/2610.06348",
+      "pdf": "https://arxiv.org/pdf/2610.06348",
+      "authors": [
+        "Sima Naraghi",
+        "Kourosh Parand",
+        "Amirhossein Sadr",
+        "Dara Rahmati"
+      ],
+      "categories": [
+        "math.NA",
+        "cs.LG",
+        "cs.NA"
+      ],
+      "venues": [],
+      "award": false,
+      "talk": false,
+      "workshop": false,
+      "comment": "29 pages, 14 figures, 9 tables. Code and notebooks: https://github.com/Sima-Naraghi/iga-kan",
+      "hf_upvotes": null,
+      "star_votes": 2,
+      "star_codes": [
+        "new"
+      ],
+      "star_quote": "uses local Kolmogorov-Arnold networks, fitted in closed form, to improve the IGA",
+      "signals": [],
+      "headline": "アイソジオメトリック解析とKANを融合し物理シミュレーションを格段に高精度化するIGA-KAN",
+      "what": "正確な形状表現が可能なアイソジオメトリック解析（IGA）に、Kolmogorov-Arnold Network (KAN)を組み合わせたハイブリッド手法です。IGAで得られた解の残差を、閉形式の局所的なKANモデルで補正し、基底関数で滑らかに結合します。",
+      "enables": "標準的なIGAと比較して、誤差をL2ノルムで4.2〜90倍、H1ノルムで4.1〜220倍削減しました。また、スクラッチから学習したKANと比較して最大6万倍も高い精度を達成し、逆問題においても非常に高い復元精度を示しました。",
+      "why_it_matters": "深層学習と古典的な数値解析を「置き換え」ではなく「補完」の関係で統合し、学習の不安定さを排除したまま圧倒的な精度向上を実現しています。",
+      "tags": [
+        "数値解析",
+        "Kolmogorov-Arnold Network",
+        "科学計算"
+      ],
+      "fetched_at": "2026-10-07T10:15:57.945897+09:00"
+    },
+    {
+      "id": "2610.04226",
+      "title": "PaLoRA: Paced Low-Rank Adaptation for Continual Learning",
+      "url": "https://arxiv.org/abs/2610.04226",
+      "pdf": "https://arxiv.org/pdf/2610.04226",
+      "authors": [
+        "Yuxuan Li",
+        "Fanhu Zeng",
+        "Hao Tang"
+      ],
+      "categories": [
+        "cs.LG"
+      ],
+      "venues": [],
+      "award": false,
+      "talk": false,
+      "workshop": false,
+      "comment": "",
+      "hf_upvotes": 5,
+      "star_votes": 1,
+      "star_codes": [
+        "new"
+      ],
+      "star_quote": "Under an anisotropic leakage model, we derive a pacing law $s^*=\\sqrt{R/c}$ that characterizes the optimal scaling of gradient steps",
+      "signals": [],
+      "headline": "タスクの蓄積に応じた適応的な更新制限で忘却を抑える継続学習手法PaLoRA",
+      "what": "LoRAを用いた継続学習において、過去のタスク知識への「リーク（漏れ）」を数学的に分析し、タスクの蓄積（有効ランクの増大）に合わせて学習のペース（勾配更新の大きさ）を適応的に制限する「Paced Low-Rank Adaptation（PaLoRA）」を提案しています。",
+      "enables": "50タスクに及ぶ長期的なImageNet-A/Rベンチマークにおいて、既存手法を4%上回る精度を達成しました。タスク数が増えるほど深刻化する「知識のリーク」を効果的に抑制します。",
+      "why_it_matters": "継続学習における安定性と可塑性のトレードオフに対し、理論的な裏付けに基づいた適応的なスケーリング則を導入した点が画期的です。",
+      "tags": [
+        "継続学習",
+        "LoRA",
+        "転移学習"
+      ],
+      "fetched_at": "2026-10-07T10:15:57.945897+09:00"
+    },
+    {
+      "id": "2610.04313",
+      "title": "MOIRA: Mass-Oriented Indexing with Ragged Attention for Long-Context Decoding",
+      "url": "https://arxiv.org/abs/2610.04313",
+      "pdf": "https://arxiv.org/pdf/2610.04313",
+      "authors": [
+        "Dich Nhat Minh Nguyen",
+        "Tran Dang Duong Nguyen"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "venues": [],
+      "award": false,
+      "talk": false,
+      "workshop": false,
+      "comment": "",
+      "hf_upvotes": null,
+      "star_votes": 1,
+      "star_codes": [
+        "new"
+      ],
+      "star_quote": "A new kernel, self-planning attention, lets each thread block derive its own share of the work from the list lengths",
+      "signals": [],
+      "headline": "層やヘッドごとに必要なKVキャッシュを適応的に選択し高速化するMOIRA",
+      "what": "LLMの長文コンテキスト推論において、アテンションの寄与度（mass）に応じて層やアテンションヘッドごとにKVキャッシュの読み込み量を動的に調整するスパースデコーディング手法です。各スレッドブロックが自律的に作業を計画し、CUDAグラフ内で完結する新しいカーネルを実装しています。",
+      "enables": "H200上での128kコンテキスト推論において、従来の密なFlashAttention-3（FA3）と同等の精度を保ちつつ、推論速度（TPOT）を2.2〜2.5倍高速化し、高負荷時のスループットを51%向上させました。",
+      "why_it_matters": "コンテキスト全体を読み込む必要がないという性質を、ソフトウェア・ハードウェアの両面から最適化し、長文推論の実用的なコスト削減に貢献します。",
+      "tags": [
+        "LLM高速化",
+        "アテンション",
+        "推論エンジン"
+      ],
+      "fetched_at": "2026-10-07T10:15:57.945897+09:00"
+    },
+    {
+      "id": "2610.04875",
+      "title": "SpecFold: Folding Multi-Branch Redundancy for Faster Speculative Decoding in Diffusion Language Models",
+      "url": "https://arxiv.org/abs/2610.04875",
+      "pdf": "https://arxiv.org/pdf/2610.04875",
+      "authors": [
+        "Chung-En Ho",
+        "Weiyu Sun",
+        "Cheng-Jhih Shih",
+        "He Li",
+        "Yong Liu",
+        "Yingyan Celine Lin"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.LG"
+      ],
+      "venues": [],
+      "award": false,
+      "talk": false,
+      "workshop": false,
+      "comment": "",
+      "hf_upvotes": null,
+      "star_votes": 1,
+      "star_codes": [
+        "new"
+      ],
+      "star_quote": "We propose SpecFold, an algorithm-system co-design that exploits this multi-branch redundancy to reduce the cost of multi-branch speculative verification.",
+      "signals": [],
+      "headline": "複数のドラフトブランチ間の計算冗長性を排除し拡散言語モデルを高速化するSpecFold",
+      "what": "拡散言語モデル（DLLM）の投機的デコーディングにおいて、複数のドラフトブランチが親ノードから多くのトークンを引き継ぐ点に着目し、共通部分の計算を「折り畳む（Folding）」手法です。残差接続のゲート制御と専用のTritonカーネルにより、冗長な計算をスキップします。",
+      "enables": "既存の加速手法Spiffyと比較して最大1.64倍、通常のデコーディングと比較して最大1.99倍のスループットを達成しました。既存のキャッシュ手法とも直交し、併用が可能です。",
+      "why_it_matters": "拡散モデルベースのテキスト生成において、モデルの重みを変更することなく、システム側の最適化によって実効速度を大幅に向上させることができます。",
+      "tags": [
+        "拡散モデル",
+        "投機的デコーディング",
+        "モデル高速化"
+      ],
+      "fetched_at": "2026-10-07T10:15:57.945897+09:00"
+    },
+    {
+      "id": "2610.05431",
+      "title": "PharmAgent: Constraint-Aware Search with Frozen Language Models for Molecular Optimization",
+      "url": "https://arxiv.org/abs/2610.05431",
+      "pdf": "https://arxiv.org/pdf/2610.05431",
+      "authors": [
+        "Nihui Shao",
+        "Guanxing Chen",
+        "Jilong Shi",
+        "Zhengyang Bai",
+        "Haohuai He",
+        "Zhenchao Tang"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "venues": [],
+      "award": false,
+      "talk": false,
+      "workshop": false,
+      "comment": "37 pages, 15 figures",
+      "hf_upvotes": null,
+      "star_votes": 1,
+      "star_codes": [
+        "sota"
+      ],
+      "star_quote": "it achieves a property-adjusted AUC of 0.7076, improving over the strongest online baseline, ExLLM, by 53.8%.",
+      "signals": [],
+      "headline": "凍結されたLLMと適応的な制約制御で分子構造を最適化するPharmAgent",
+      "what": "創薬における分子最適化を、LLMをエージェントとして用いて解決する手法です。制約違反の履歴を「圧力」として蓄積するラグランジュ制御器と、過去の成功事例を再利用するリプレイ機構を組み合わせ、凍結されたLLMでも厳密な制約を満たした最適化を可能にします。",
+      "enables": "ターゲット特性の最適化において、既存手法のMOLLEOを37.3%上回るAUCを達成し、制約を伴う設定でもExLLMを53.8%上回る最高性能を記録しました。",
+      "why_it_matters": "化学的な知識を持つLLMに、数値的な制約制御の枠組みを組み合わせることで、専門性の高い創薬プロセスを自動化・効率化できることを示しています。",
+      "tags": [
+        "創薬",
+        "LLMエージェント",
+        "制約付き最適化"
+      ],
+      "fetched_at": "2026-10-07T10:15:57.945897+09:00"
+    },
+    {
+      "id": "2610.05538",
+      "title": "LiFT: Loop Flow Transformers",
+      "url": "https://arxiv.org/abs/2610.05538",
+      "pdf": "https://arxiv.org/pdf/2610.05538",
+      "authors": [
+        "Mohammad Mahdi Derakhshani",
+        "Pedro M. P. Curvo",
+        "Gertjan J. Burghouts",
+        "Jan-Willem van de Meent",
+        "Cees G. M. Snoek"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "venues": [],
+      "award": false,
+      "talk": false,
+      "workshop": false,
+      "comment": "",
+      "hf_upvotes": 5,
+      "star_votes": 1,
+      "star_codes": [
+        "new"
+      ],
+      "star_quote": "We introduce Loop Flow Transformers (LiFT), a family of looped generative models that scales computation",
+      "signals": [],
+      "headline": "同一の層を繰り返し適用することでパラメータ数を抑えて高性能化するLiFT",
+      "what": "共通のDiffusion Transformer (DiT) コアを再帰的に適用するループ型の生成モデルです。学習時に各ステップのターゲットを連続的な深さ座標でインデックス化することで、推論時には学習時よりも多くの回数ループを回して精度を高めることができます。",
+      "enables": "ImageNet (256x256) において、従来のDiT-XL/2と比較してパラメータ数を60%、学習計算量を32%、推論計算量を52%削減しながら、FIDスコアを3.34ポイント改善しました。",
+      "why_it_matters": "モデルを巨大化させるのではなく、同じ回路を繰り返すことで「計算量」を増やして性能を稼ぐという、リソース効率に優れた新しいアーキテクチャの方向性を示しています。",
+      "tags": [
+        "画像生成",
+        "拡散モデル",
+        "モデル圧縮"
+      ],
+      "fetched_at": "2026-10-07T10:15:57.945897+09:00"
+    },
+    {
+      "id": "2610.06331",
+      "title": "DexForge: High-Fidelity Physics-Informed Dexterous Retargeting",
+      "url": "https://arxiv.org/abs/2610.06331",
+      "pdf": "https://arxiv.org/pdf/2610.06331",
+      "authors": [
+        "Meizhong Wang",
+        "Kun Cao",
+        "Ruiqi Ni",
+        "Lihua Xie",
+        "Yiguang Hong"
+      ],
+      "categories": [
+        "cs.RO"
+      ],
+      "venues": [],
+      "award": false,
+      "talk": false,
+      "workshop": false,
+      "comment": "",
+      "hf_upvotes": null,
+      "star_votes": 1,
+      "star_codes": [
+        "sota"
+      ],
+      "star_quote": "show success-rate gains of approximately 35-53 percentage points over the baseline",
+      "signals": [],
+      "headline": "物理ベースの微分可能シミュレータを用いて人間の動作をロボットに転写するDexForge",
+      "what": "人間のビデオから抽出した手の動きや物体操作を、ロボットの軌道に高精度に変換するフレームワークです。球体ガウス関数を用いた衝突判定を含む微分可能シミュレータを構築し、接触と力の両面からロボットの動作を最適化します。",
+      "enables": "7種類のロボットハンドを用いた実験において、既存のベースラインより成功率を35〜53ポイント向上させ、物体の位置・姿勢の追従誤差を大幅に削減しました。現実のロボットへの適用も実証されています。",
+      "why_it_matters": "人間のデモンストレーションという豊富なデータソースを、物理的な制約を保ったままロボット学習に効率的に活用するための強力なツールとなります。",
+      "tags": [
+        "ロボット制御",
+        "物理シミュレーション",
+        "模倣学習"
+      ],
+      "fetched_at": "2026-10-07T10:15:57.945897+09:00"
+    },
+    {
+      "id": "2610.05608",
+      "title": "Kandinsky 6.0 Video: Foundation Models for Synchronized Video and Audio Generation",
+      "url": "https://arxiv.org/abs/2610.05608",
+      "pdf": "https://arxiv.org/pdf/2610.05608",
+      "authors": [
+        "Team Kandinsky",
+        "Julia Agafonova",
+        "Bulat Akhmatov",
+        "Mikhail Aksyutin",
+        "Grigorii Alekseenko",
+        "Anastasia Aliaskina"
+      ],
+      "categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.LG",
+        "cs.MM"
+      ],
+      "venues": [],
+      "award": false,
+      "talk": false,
+      "workshop": false,
+      "comment": "Technical report on the open-source T2AV model. GitHub: https://github.com/kandinskylab/kandinsky-6",
+      "hf_upvotes": 113,
+      "star_votes": 0,
+      "star_codes": [],
+      "star_quote": "",
+      "signals": [
+        "HF ▲113"
+      ],
+      "headline": "映像と44kHz音声が同期した5秒間の動画を生成する基盤モデルKandinsky 6.0 Video",
+      "what": "テキストや画像から音声付き動画を生成する拡散基盤モデルです。29BパラメータのProモデルと3BのLiteモデルがあり、映像ストリームと音声ストリームを双方向のクロスアテンションで結合するCrossDiTアーキテクチャにより、リップシンクを含む高度な同期を実現しています。",
+      "enables": "フルHD解像度の5秒間の動画と高品質音声を生成可能です。人間による評価において、先行モデルのKandinsky 5.0を明確に上回り、既存の最先端モデルとも比肩する音声・映像品質を達成しました。",
+      "why_it_matters": "映像と音声を別々に生成するのではなく、一つのモデル内で緊密に連携させることで、より自然で没入感のあるコンテンツ生成が可能になります。",
+      "tags": [
+        "動画生成",
+        "マルチモーダル生成",
+        "拡散モデル"
+      ],
+      "fetched_at": "2026-10-07T10:15:57.945897+09:00"
+    },
+    {
+      "id": "2610.04198",
+      "title": "ALoDLM: Adaptively Looped Diffusion Language Models",
+      "url": "https://arxiv.org/abs/2610.04198",
+      "pdf": "https://arxiv.org/pdf/2610.04198",
+      "authors": [
+        "Liancheng Fang",
+        "Zhuowei Li",
+        "Youngeun Kim",
+        "Tianchen Zhao",
+        "Rajat Koner",
+        "Jiaye Wu"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG"
+      ],
+      "venues": [],
+      "award": false,
+      "talk": false,
+      "workshop": false,
+      "comment": "",
+      "hf_upvotes": 55,
+      "star_votes": 0,
+      "star_codes": [],
+      "star_quote": "",
+      "signals": [
+        "HF ▲55"
+      ],
+      "headline": "トークンごとの難易度に合わせて計算量を適応的に配分するALoDLM",
+      "what": "拡散言語モデル（DLM）において、すべての位置に一律の計算を適用するのではなく、トークンの予測難易度に応じて再帰的な計算回数を変化させる手法です。準備ができたトークンは離散コンテキストとしてフィードバックし、未確定のものはさらに潜在状態で洗練を続けます。",
+      "enables": "1.7Bおよび8Bスケールの11個のベンチマークにおいて、同サイズの自己回帰モデルおよび既存の拡散モデルの平均スコアを上回りました。拡散モデルの利点である並列デコードを維持しつつ、高い品質を実現しています。",
+      "why_it_matters": "「予測が難しい単語にはより多くの計算資源を割く」という直感的なアプローチを拡散モデルに導入し、自己回帰モデルとの性能差を埋めることに成功しています。",
+      "tags": [
+        "拡散言語モデル",
+        "並列デコード",
+        "適応的計算"
+      ],
+      "fetched_at": "2026-10-07T10:15:57.945897+09:00"
+    },
+    {
+      "id": "2610.06056",
+      "title": "ROT: Rotating Hidden States towards Contextual Vectors for Hallucination Mitigation in LVLMs",
+      "url": "https://arxiv.org/abs/2610.06056",
+      "pdf": "https://arxiv.org/pdf/2610.06056",
+      "authors": [
+        "Yijing Du",
+        "Xiangcheng Zhan",
+        "Shuo Yang"
+      ],
+      "categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.CL"
+      ],
+      "venues": [
+        "EMNLP"
+      ],
+      "award": false,
+      "talk": true,
+      "workshop": false,
+      "comment": "Accepted in EMNLP 2026 Oral",
+      "hf_upvotes": null,
+      "star_votes": 0,
+      "star_codes": [],
+      "star_quote": "",
+      "signals": [
+        "Oral等"
+      ],
+      "headline": "中間層の隠れ状態を回転させてマルチモーダルな文脈に引き戻し幻覚を抑制するROT",
+      "what": "視覚と言語を扱うLVLMにおける物体の幻覚（存在しないものを記述する現象）を抑制する手法です。幻覚が起きる際、隠れ状態が文脈から幾何学的に逸脱していることを発見し、それを正しい文脈の平面へ回転（Rotation）させて補正します。",
+      "enables": "追加の学習なしで、複数のモデルアーキテクチャやスケールにおいて一貫して幻覚の発生率を減少させ、根拠に基づいた（grounded）生成を改善しました。",
+      "why_it_matters": "アテンションの重みなどの間接的な制御ではなく、モデル内部のベクトル表現を直接幾何学的に操作することで、効率的かつ効果的に信頼性を向上させています。",
+      "tags": [
+        "LVLM",
+        "幻覚抑制",
+        "幾何学的解釈"
+      ],
+      "fetched_at": "2026-10-07T10:15:57.945897+09:00"
+    }
+  ]
+}
