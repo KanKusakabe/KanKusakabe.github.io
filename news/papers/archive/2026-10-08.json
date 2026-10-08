@@ -1,0 +1,708 @@
+{
+  "date": "2026-10-08",
+  "arxiv": [
+    {
+      "id": "2610.07324",
+      "title": "Scale-Invariant Training for Time Series Foundation Models",
+      "url": "https://arxiv.org/abs/2610.07324",
+      "pdf": "https://arxiv.org/pdf/2610.07324",
+      "authors": [
+        "Ignacy Stepka",
+        "Willa Potosnak",
+        "Kin G. Olivares",
+        "Artur Dubrawski"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "venues": [],
+      "award": false,
+      "talk": false,
+      "workshop": false,
+      "comment": "",
+      "hf_upvotes": null,
+      "star_votes": 2,
+      "star_codes": [
+        "new",
+        "sota"
+      ],
+      "star_quote": "ScaleIn lowers MASE in all 24 architecture-benchmark comparisons",
+      "signals": [],
+      "headline": "時系列基盤モデルの学習におけるスケーリング由来のバイアスを解消するScaleIn",
+      "what": "時系列データの値の大きさが損失関数の勾配に与える影響を理論的に解明し、スケーリング後のターゲットで損失を計算する手法を提案しています。既存のReVINなどの手法（ScaleCon）では、データのスケールが暗黙的に重みとして働き、学習が不安定になることを指摘しています。",
+      "enables": "既存のTSFMアーキテクチャにおいてMASEを平均18.8%から21.9%改善し、監視付き予測においても20設定中16設定で精度が向上しました。1行のコード変更で既存のパイプラインに導入可能です。",
+      "why_it_matters": "モデルやドメインを問わず、時系列データのスケール不変性を数学的に保証し、モデル学習を安定化させる標準的な手法としての普及が期待されます。",
+      "tags": [
+        "時系列予測",
+        "基盤モデル",
+        "正規化"
+      ],
+      "fetched_at": "2026-10-08T10:37:31.663524+09:00"
+    },
+    {
+      "id": "2610.07609",
+      "title": "PhysLDM: Latent Diffusion for High-Fidelity Deformable Simulation",
+      "url": "https://arxiv.org/abs/2610.07609",
+      "pdf": "https://arxiv.org/pdf/2610.07609",
+      "authors": [
+        "Yu Zhang",
+        "Xudong Xu",
+        "Xingang Pan"
+      ],
+      "categories": [
+        "cs.CV",
+        "cs.GR"
+      ],
+      "venues": [],
+      "award": false,
+      "talk": false,
+      "workshop": false,
+      "comment": "",
+      "hf_upvotes": null,
+      "star_votes": 2,
+      "star_codes": [
+        "cap",
+        "new"
+      ],
+      "star_quote": "PhysLDM is the first high-fidelity spatiotemporal autoencoder",
+      "signals": [],
+      "headline": "高解像度3Dメッシュの複雑な変形シミュレーションを実現する潜在拡散モデルPhysLDM",
+      "what": "3Dメッシュの物理シミュレーションのための時空間VAEと潜在拡散モデル（LDM）を組み合わせたフレームワークです。決定論的な回帰ではなく拡散モデルを用いることで、カオス的な変形挙動の分布を物理的に妥当な形で生成します。",
+      "enables": "最大78倍のトークン圧縮を実現しながら、2.48mm精度の再構成が可能になり、未知のデータセットに対してもゼロショットで一般化します。微分可能なため、逆問題の解決や設計最適化にも応用できます。",
+      "why_it_matters": "計算コストの高い高解像度物理シミュレーションを潜在空間で効率化しつつ、回帰モデルが陥りやすい「非物理的な平均値」への収束を回避しています。",
+      "tags": [
+        "物理シミュレーション",
+        "拡散モデル",
+        "コンピュータグラフィックス"
+      ],
+      "fetched_at": "2026-10-08T10:37:31.663524+09:00"
+    },
+    {
+      "id": "2610.07659",
+      "title": "DLoop: Looped Speculative Decoding",
+      "url": "https://arxiv.org/abs/2610.07659",
+      "pdf": "https://arxiv.org/pdf/2610.07659",
+      "authors": [
+        "Geonmo Gu",
+        "Byeongho Heo",
+        "HeeJae Jun",
+        "Yoohoon Kang",
+        "Sangmin Lee",
+        "Sangdoo Yun"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "venues": [],
+      "award": false,
+      "talk": false,
+      "workshop": false,
+      "comment": "22 pages",
+      "hf_upvotes": null,
+      "star_votes": 1,
+      "star_codes": [
+        "new"
+      ],
+      "star_quote": "We propose DLoop, a looped form of speculative decoding",
+      "signals": [],
+      "headline": "ドラフト段階を適応的にループさせ検証回数を減らす投機的デコード手法DLoop",
+      "what": "LLMの投機的デコードにおいて、ドラフトモデルが確信を持っている間は検証を挟まずにドラフト生成を継続する手法です。ループを意識した学習により、未検証の隠れ状態を参照してもドラフトの信頼性が維持されるように設計されています。",
+      "enables": "EAGLE-3やDFlashなどの既存手法に対して、生成の正確性を保ったまま処理速度を5%から41%向上させました。ターゲットモデルによる検証回数を効果的に削減します。",
+      "why_it_matters": "ターゲットモデルの計算負荷が支配的な投機的デコードにおいて、ドラフトモデルの柔軟な反復利用が推論加速の新たな鍵となることを示しています。",
+      "tags": [
+        "LLM",
+        "推論加速",
+        "投機的デコード"
+      ],
+      "fetched_at": "2026-10-08T10:37:31.663524+09:00"
+    },
+    {
+      "id": "2610.08750",
+      "title": "Neural Petri flows for chemical reactions",
+      "url": "https://arxiv.org/abs/2610.08750",
+      "pdf": "https://arxiv.org/pdf/2610.08750",
+      "authors": [
+        "Jose Eduardo Escrig Molina",
+        "Daniel Probst"
+      ],
+      "categories": [
+        "cs.LG",
+        "physics.chem-ph",
+        "q-bio.QM"
+      ],
+      "venues": [],
+      "award": false,
+      "talk": false,
+      "workshop": false,
+      "comment": "30 pages, 3 figures, 19 tables",
+      "hf_upvotes": null,
+      "star_votes": 1,
+      "star_codes": [
+        "new",
+        "sota"
+      ],
+      "star_quote": "EC numbers of ECREACT are predicted at the third level for 90.2% of reactions, 5.6 points ahead of the best published method.",
+      "signals": [],
+      "headline": "ペトリネットの構造を制約として組み込み化学反応の物理法則を遵守するNeural Petri flows",
+      "what": "化学反応を記述するペトリネットの動態を学習するアーキテクチャで、原子の原子価予算や非負性などの保存則をハードウェア的に制約として組み込んでいます。学習可能なのは反応速度（Rate law）のみであり、他のセマンティクスはパラメータなしのレイヤーとして固定されています。",
+      "enables": "学習なしでもRXNMapperを超える88.8%の精度でアトムマッピングを行い、EC番号の予測では既存の最高精度を5.6ポイント上回りました。生成される全ての予測がフィルタなしで有効な分子構造となることが保証されます。",
+      "why_it_matters": "ニューラルネットワークに物理的な整合性を強制することで、少量のデータでも高い汎化性能と信頼性を持つ化学AIが構築可能であることを示しています。",
+      "tags": [
+        "AI創薬",
+        "ペトリネット",
+        "物理制約学習"
+      ],
+      "fetched_at": "2026-10-08T10:37:31.663524+09:00"
+    },
+    {
+      "id": "2610.07290",
+      "title": "A Single-Loop, Constant-Batch First-Order Penalty Method for Stochastic Bilevel Optimization",
+      "url": "https://arxiv.org/abs/2610.07290",
+      "pdf": "https://arxiv.org/pdf/2610.07290",
+      "authors": [
+        "Xingyu Chen",
+        "Ming Yang",
+        "Quanqi Hu",
+        "Tianbao Yang"
+      ],
+      "categories": [
+        "math.OC",
+        "cs.LG"
+      ],
+      "venues": [],
+      "award": false,
+      "talk": false,
+      "workshop": false,
+      "comment": "",
+      "hf_upvotes": null,
+      "star_votes": 2,
+      "star_codes": [
+        "new"
+      ],
+      "star_quote": "this is the first work to match the best-known convergence rate for fully first-order SBO methods using a single loop and a constant batch size.",
+      "signals": [],
+      "headline": "非凸な強凸2段階最適化問題をシングルループかつ定数バッチサイズで解くSICO法",
+      "what": "2次微分を必要としない1次形式のペトリメソッドで、下位問題とペナルティ問題の更新を同期させる手法を提案しています。指数移動平均を用いて勾配推定値を安定化させることで、理論的な収束性を保証しています。",
+      "enables": "定数バッチサイズでサンプル複雑度 $O(\\epsilon^{-6})$ または $O(\\epsilon^{-4})$ を達成し、大規模なバッチ処理や多重ループなしでの収束を可能にしました。既存手法の課題であった大きなペナルティ値による不安定さを克服しています。",
+      "why_it_matters": "計算資源が限られた環境でも効率的に実行可能な、完全に1次のみの確率的2段階最適化手法を確立した理論的成果です。",
+      "tags": [
+        "最適化アルゴリズム",
+        "機械学習理論",
+        "2段階最適化"
+      ],
+      "fetched_at": "2026-10-08T10:37:31.663524+09:00"
+    },
+    {
+      "id": "2610.06963",
+      "title": "WavePrune: One period is often enough for RoPE",
+      "url": "https://arxiv.org/abs/2610.06963",
+      "pdf": "https://arxiv.org/pdf/2610.06963",
+      "authors": [
+        "Guancheng Du",
+        "Luotian Huang",
+        "Shaowen Wang",
+        "Si Li",
+        "Kaifeng Lyu"
+      ],
+      "categories": [
+        "cs.CL",
+        "cs.SD"
+      ],
+      "venues": [],
+      "award": false,
+      "talk": false,
+      "workshop": false,
+      "comment": "",
+      "hf_upvotes": null,
+      "star_votes": 1,
+      "star_codes": [
+        "new"
+      ],
+      "star_quote": "Together, these results show that RoPE's periodic structure, widely regarded as essential, is largely redundant beyond the first rotation period.",
+      "signals": [],
+      "headline": "RoPEの周期性を排除しロングコンテキスト性能と速度を向上させるWavePrune",
+      "what": "回転位置埋め込み（RoPE）において、各チャネルの回転を最初の1周期分のみに制限する手法です。特定の周期ごとに発生する位置エイリアシング（位置の混同）がアテンションマップに与える悪影響を取り除きます。",
+      "enables": "Qwen3-8BなどでHELMETスコアを35.7から40.0に改善し、FlashAttention-2比でプリフィル時1.15倍、デコード時1.24倍の高速化を達成しました。追加のチューニングなしで既存モデルに適用可能です。",
+      "why_it_matters": "RoPEの「周期性」が長距離依存性の学習において実は冗長であり、むしろノイズとなっていたことを明らかにした重要な発見です。",
+      "tags": [
+        "LLM",
+        "長文コンテキスト",
+        "RoPE"
+      ],
+      "fetched_at": "2026-10-08T10:37:31.663524+09:00"
+    },
+    {
+      "id": "2610.08448",
+      "title": "Rethinking Cross-Tokenizer On-Policy Distillation: From Alignment Coverage to Supervision Reliability",
+      "url": "https://arxiv.org/abs/2610.08448",
+      "pdf": "https://arxiv.org/pdf/2610.08448",
+      "authors": [
+        "Bingxi Hou",
+        "Guochao Jiang",
+        "Guofeng Quan",
+        "Weiqing Li",
+        "Wenfeng Feng",
+        "Guohua Liu"
+      ],
+      "categories": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "venues": [],
+      "award": false,
+      "talk": false,
+      "workshop": false,
+      "comment": "",
+      "hf_upvotes": 153,
+      "star_votes": 0,
+      "star_codes": [],
+      "star_quote": "",
+      "signals": [
+        "HF ▲153"
+      ],
+      "headline": "異なるトークナイザ間の蒸留においてアラインメントの「網羅性」より「信頼性」を優先する手法",
+      "what": "生徒と教師モデルのトークナイザが異なる場合のOn-Policy Distillation（OPD）における最適な教師信号を調査しています。語彙が厳密に一致する箇所のみに蒸留を制限する手法と、全範囲をカバーしようとする手法を比較分析しています。",
+      "enables": "厳密に一致した位置でのトップ16語彙に制限した逆KLを用いることで、全語彙を用いた場合と同等の精度を保ちつつ既存のベースラインを上回りました。不正確なアラインメントによる負の影響を回避できます。",
+      "why_it_matters": "知識蒸留において単に情報の網羅性を高めるのではなく、不確実な信号を排除する「 supervision reliability」の重要性を提唱しています。",
+      "tags": [
+        "LLM",
+        "知識蒸留",
+        "トークナイザ"
+      ],
+      "fetched_at": "2026-10-08T10:37:31.663524+09:00"
+    },
+    {
+      "id": "2610.07767",
+      "title": "TRACE: Rollout-Guided Quantization-Aware Training for FP4 Reinforcement Learning of MoE Language Models",
+      "url": "https://arxiv.org/abs/2610.07767",
+      "pdf": "https://arxiv.org/pdf/2610.07767",
+      "authors": [
+        "Xin Wang",
+        "Hao Yu",
+        "Zhengyang Zhuge",
+        "Bochao Mao",
+        "Zheng Li",
+        "Junda Feng"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.CL"
+      ],
+      "venues": [],
+      "award": false,
+      "talk": false,
+      "workshop": false,
+      "comment": "",
+      "hf_upvotes": 74,
+      "star_votes": 0,
+      "star_codes": [],
+      "star_quote": "",
+      "signals": [
+        "HF ▲74"
+      ],
+      "headline": "FP4量子化を用いたMoEモデルの強化学習を安定化・加速するTRACE",
+      "what": "FP4精度での重み・活性化・KVキャッシュ量子化を用いた、Mixture-of-Experts (MoE) モデル向けの強化学習フレームワークです。ロールアウト時の量子化結果を学習時の丸め処理に反映させるRollout-guided QATを導入しています。",
+      "enables": "BF16を用いたロールアウトと同等の性能を維持しつつ、最大5.4倍の高速化を達成しました。推論だけでなく学習過程全体でのメモリおよび計算コストを大幅に削減します。",
+      "why_it_matters": "大規模言語モデルの事後学習（RLHF等）における計算資源の制約を緩和し、超低精度での実用的な学習パイプラインを提供します。",
+      "tags": [
+        "量子化",
+        "強化学習",
+        "MoE"
+      ],
+      "fetched_at": "2026-10-08T10:37:31.663524+09:00"
+    },
+    {
+      "id": "2610.07753",
+      "title": "From Evidence to Action: How Tool-Using Agents Fail",
+      "url": "https://arxiv.org/abs/2610.07753",
+      "pdf": "https://arxiv.org/pdf/2610.07753",
+      "authors": [
+        "Hongzhan Lin",
+        "Shidong Cao",
+        "Ziyang Luo",
+        "Wenhao Chai",
+        "Mong-Li Lee",
+        "Wynne Hsu"
+      ],
+      "categories": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "venues": [],
+      "award": false,
+      "talk": false,
+      "workshop": false,
+      "comment": "36 pages. Project page: https://safeact.github.io",
+      "hf_upvotes": 34,
+      "star_votes": 0,
+      "star_codes": [],
+      "star_quote": "",
+      "signals": [
+        "HF ▲34"
+      ],
+      "headline": "ツール利用エージェントが「証拠に基づいた行動」に失敗する要因を特定するSafeActBench",
+      "what": "エージェントが行動を決定する前に必要な証拠を確立できているかを評価するベンチマークと、そのプロセスを追跡するEvidence Ledgerを提案しています。静的な判断から動的な複数ステップのワークフローまでを5段階で評価します。",
+      "enables": "エージェントが「実行自体はできるが、必要な証拠が集まる前に動き出してしまう」といった失敗のパターンを詳細に特定できます。656個のケースを通じて10種類のモデル構成の脆弱性を明らかにしました。",
+      "why_it_matters": "エージェントの評価において、最終的な結果だけでなく、意思決定プロセスの論理的整合性を検証することの重要性を強調しています。",
+      "tags": [
+        "AIエージェント",
+        "信頼性評価",
+        "ベンチマーク"
+      ],
+      "fetched_at": "2026-10-08T10:37:31.663524+09:00"
+    },
+    {
+      "id": "2610.08144",
+      "title": "Navier-Stokes lost in translation: Why Lean verification of AI autoformalisation does not guarantee correct natural language proofs",
+      "url": "https://arxiv.org/abs/2610.08144",
+      "pdf": "https://arxiv.org/pdf/2610.08144",
+      "authors": [
+        "Alexander Bastounis",
+        "Fabian Circelli",
+        "Anders C. Hansen"
+      ],
+      "categories": [
+        "math.AP",
+        "cs.AI",
+        "math.LO"
+      ],
+      "venues": [],
+      "award": false,
+      "talk": false,
+      "workshop": false,
+      "comment": "25 pages, 4 Figures",
+      "hf_upvotes": null,
+      "star_votes": 0,
+      "star_codes": [],
+      "star_quote": "",
+      "signals": [
+        "HN 248pt"
+      ],
+      "headline": "AIによる形式手法変換（Lean）の検証が自然言語の証明の正しさを保証しない問題の指摘",
+      "what": "OpenAIが発表したNavier-Stokes方程式に関する証明を例に、自然言語からLeanなどの形式言語への自動変換における意味的忠実性の欠如を分析しています。数学的記述の曖昧さ解消はHalting problem（停止問題）よりも計算困難であることを理論的に示しています。",
+      "enables": "形式検証エンジンがパスしても、その基礎となる自然言語の論理構造と乖離している「誤翻訳」の具体例を多数提示しました。AIによる証明の正当性評価に警鐘を鳴らしています。",
+      "why_it_matters": "形式手法による検証が数学的真理の最終回答と見なされがちな現状に対し、自動変換プロセスの限界とリスクを明確にしました。",
+      "tags": [
+        "数学的推論",
+        "形式手法",
+        "AI安全性"
+      ],
+      "fetched_at": "2026-10-08T10:37:31.663524+09:00"
+    },
+    {
+      "id": "2610.07131",
+      "title": "The Implicit Bias of Hyperbolic Representation Learning for Multiclass Data: A Busemann Risk Perspective",
+      "url": "https://arxiv.org/abs/2610.07131",
+      "pdf": "https://arxiv.org/pdf/2610.07131",
+      "authors": [
+        "Xingrun Li",
+        "Sho Kuno",
+        "Yusuke Mukuta",
+        "Xin Yang",
+        "Tatsuya Harada"
+      ],
+      "categories": [
+        "cs.LG"
+      ],
+      "venues": [
+        "NeurIPS"
+      ],
+      "award": false,
+      "talk": true,
+      "workshop": false,
+      "comment": "Accepted at NeurIPS 2026 as a Spotlight",
+      "hf_upvotes": null,
+      "star_votes": 0,
+      "star_codes": [],
+      "star_quote": "",
+      "signals": [
+        "Oral等"
+      ],
+      "headline": "双曲空間における多クラス分類学習の暗黙的バイアスと境界収束性の解明",
+      "what": "双曲空間を用いた表現学習において、リーマン勾配フローがどのように境界付近で挙動するかをBusemann関数を用いて理論解析しています。特に「境界飽和（Boundary saturation）」と「境界付近のクラスタリング」という現象を数学的に定式化しています。",
+      "enables": "ドリフト係数の符号によって、埋め込みが理想境界に向かうか内部に留まるかの二分性が証明されました。これにより、ハイパーボリック学習における最適なプロトタイプ配置や学習の収束予測が可能になります。",
+      "why_it_matters": "階層構造の表現に優れた双曲幾何学を用いたディープラーニングにおいて、学習ダイナミクスの理論的基盤を強化する成果です。",
+      "tags": [
+        "機械学習理論",
+        "双曲幾何学",
+        "表現学習"
+      ],
+      "fetched_at": "2026-10-08T10:37:31.663524+09:00"
+    },
+    {
+      "id": "2610.07340",
+      "title": "CausalBind: Causal Modeling and Learning for Protein-Molecule Virtual Screening",
+      "url": "https://arxiv.org/abs/2610.07340",
+      "pdf": "https://arxiv.org/pdf/2610.07340",
+      "authors": [
+        "Loka Li",
+        "Jin Tian",
+        "Kun Zhang"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "venues": [
+        "NeurIPS"
+      ],
+      "award": false,
+      "talk": true,
+      "workshop": false,
+      "comment": "NeurIPS 2026 (Oral)",
+      "hf_upvotes": null,
+      "star_votes": 0,
+      "star_codes": [],
+      "star_quote": "",
+      "signals": [
+        "Oral等"
+      ],
+      "headline": "タンパク質と分子の疎な相互作用パターンを因果モデルで抽出するCausalBind",
+      "what": "バーチャルスクリーニングにおいて、全体的な構造ではなく特定の局所的・疎な相互作用（水素結合など）に着目した因果モデルです。Heckman型の選択モデルと構造的疎性制約を用いて、ノイズに強い潜在概念を特定します。",
+      "enables": "DUD-EやLIT-PCBAベンチマークにおいて、既存の検索ベース手法を一貫して上回り、特に学習データとは異なる標的や骨格（OOD）に対する一般化性能が向上しました。",
+      "why_it_matters": "ドラッグディスカバリーにおける表現学習を、単なる相関ではなく物理的根拠に近い因果関係として捉え直すアプローチを提案しています。",
+      "tags": [
+        "AI創薬",
+        "因果推論",
+        "表現学習"
+      ],
+      "fetched_at": "2026-10-08T10:37:31.663524+09:00"
+    },
+    {
+      "id": "2610.07390",
+      "title": "AeroBuoy: A Drone Deployable, 3D Printed, Autonomous Robotic Buoy for Environmental Inspection in Remote and Hazardous River Systems",
+      "url": "https://arxiv.org/abs/2610.07390",
+      "pdf": "https://arxiv.org/pdf/2610.07390",
+      "authors": [
+        "Reuben O'Brien",
+        "Angus Lynch",
+        "Minas Liarokapis"
+      ],
+      "categories": [
+        "cs.RO",
+        "cs.SY",
+        "eess.SY"
+      ],
+      "venues": [
+        "IROS"
+      ],
+      "award": true,
+      "talk": false,
+      "workshop": false,
+      "comment": "7 pages. Accepted version. Published in the 2025 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS). Winner of the IROS 2025 Best Paper Award on Safety, Security, and Rescue Robotics in memory of Motohiro Kisoi. Reuben O'Brien and Angus Lynch contributed equally",
+      "hf_upvotes": null,
+      "star_votes": 0,
+      "star_codes": [],
+      "star_quote": "",
+      "signals": [
+        "受賞"
+      ],
+      "headline": "ドローンで展開可能な3Dプリント製・自律型河川調査用ブイAeroBuoy",
+      "what": "人が立ち入れない遠隔地や危険な河川にドローンで投下・回収できる自律型ロボットブイです。GPSと磁力計を使用して川の流れを利用しながら自律操舵し、水温や酸素濃度、水深などを計測します。",
+      "enables": "建設現場の流出汚染や気候変動の影響を、従来は困難だったアクセス不能な地点から安全かつ低コストで収集可能にしました。自己復元機能を持ち、転倒しても継続稼働できます。",
+      "why_it_matters": "3Dプリンティングと民生用コンポーネントを組み合わせることで、過酷な環境での環境モニタリングをスケールさせる実用的なハードウェア・エコシステムを提示しています。",
+      "tags": [
+        "ロボティクス",
+        "環境モニタリング",
+        "ドローン"
+      ],
+      "fetched_at": "2026-10-08T10:37:31.663524+09:00"
+    },
+    {
+      "id": "2610.07398",
+      "title": "An Autonomous, 3D Printed, Waterjet-Powered, Open-Source Robotic Trimaran for Environmental Inspection and Monitoring",
+      "url": "https://arxiv.org/abs/2610.07398",
+      "pdf": "https://arxiv.org/pdf/2610.07398",
+      "authors": [
+        "Reuben O'Brien",
+        "Martin Lambrechtse-Reid",
+        "Minas Liarokapis"
+      ],
+      "categories": [
+        "cs.RO",
+        "cs.SY",
+        "eess.SY"
+      ],
+      "venues": [
+        "IROS"
+      ],
+      "award": true,
+      "talk": false,
+      "workshop": false,
+      "comment": "8 pages. Accepted version. Published in the 2024 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS). Finalist for the IROS 2024 Best Application Paper Award",
+      "hf_upvotes": null,
+      "star_votes": 0,
+      "star_codes": [],
+      "star_quote": "",
+      "signals": [
+        "受賞"
+      ],
+      "headline": "低コストで再現可能な水噴射推進式・自律型調査用ロボット三胴船",
+      "what": "3Dプリンティングとオフザシェルフ部品を活用した、オープンソースの自律型三胴船（トリマラン）プラットフォームです。プロペラではなくウォータージェット推進を採用しており、岩の多い浅瀬や複雑な水域でも障害物を回避しながら動作します。",
+      "enables": "600ドルから1,500ドルの低予算で、水深計測（バスメトリ）や水質テストが可能なロボットを構築できます。最大2m/sの速度で、重量5kg未満と取り回しにも優れています。",
+      "why_it_matters": "高価な調査船を必要とせず、誰でも再現可能な形式で水環境調査の民主化を促進するオープンな設計を提供しています。",
+      "tags": [
+        "ロボティクス",
+        "オープンソース",
+        "水環境調査"
+      ],
+      "fetched_at": "2026-10-08T10:37:31.663524+09:00"
+    },
+    {
+      "id": "2610.07766",
+      "title": "OTel: Open Telco AI Datasets, Benchmarks, and Models",
+      "url": "https://arxiv.org/abs/2610.07766",
+      "pdf": "https://arxiv.org/pdf/2610.07766",
+      "authors": [
+        "Farbod Tavakkoli",
+        "Gregory Diamos",
+        "Kenneth Church",
+        "David Kanter",
+        "Mark Austin",
+        "Imtiaz Karim"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "venues": [
+        "NeurIPS"
+      ],
+      "award": false,
+      "talk": true,
+      "workshop": false,
+      "comment": "Accepted to NeurIPS 2026, ED Track, Spotlight",
+      "hf_upvotes": null,
+      "star_votes": 0,
+      "star_codes": [],
+      "star_quote": "",
+      "signals": [
+        "Oral等"
+      ],
+      "headline": "通信業界向けAI開発を加速するオープンなデータセットとモデル群OTel",
+      "what": "通信ドメインに特化した検索、再ランキング、インストラクションチューニング用のデータセットおよび、それらで学習済みの17個の言語モデルを含む30個のベースラインリソースです。学習レシピから評価用パーティションまで一貫して公開されています。",
+      "enables": "通信特化の検索においてNDCG@10で93.1%、言語モデルの正解率で87.8%を達成しました。既に1600万回以上のダウンロードを記録しており、業界標準のベースラインとして機能しています。",
+      "why_it_matters": "汎用モデルでは対応が難しい専門性の高い通信分野において、再現可能なデータとモデルを提供することで、特定の産業ドメインにおけるLLM活用を加速させます。",
+      "tags": [
+        "ドメイン特化LLM",
+        "オープンデータセット",
+        "通信技術"
+      ],
+      "fetched_at": "2026-10-08T10:37:31.663524+09:00"
+    },
+    {
+      "id": "2610.07916",
+      "title": "Can We Model the Artifacts Explicitly? Disentangle Artifacts via Pairwise Edit Relations for Image Manipulation Localization",
+      "url": "https://arxiv.org/abs/2610.07916",
+      "pdf": "https://arxiv.org/pdf/2610.07916",
+      "authors": [
+        "Xuekang Zhu",
+        "Kaiwen Feng",
+        "Ruifeng Wang",
+        "Xiwen Wang",
+        "Xiaochen Ma",
+        "Bo Du"
+      ],
+      "categories": [
+        "cs.CV"
+      ],
+      "venues": [
+        "NeurIPS"
+      ],
+      "award": false,
+      "talk": true,
+      "workshop": false,
+      "comment": "NeurIPS 2026 (Oral)",
+      "hf_upvotes": null,
+      "star_votes": 0,
+      "star_codes": [],
+      "star_quote": "",
+      "signals": [
+        "Oral等"
+      ],
+      "headline": "画像編集の「痕跡」を明示的に抽出して改ざん箇所を特定するPALパラダイム",
+      "what": "画像改ざん特定（IML）を潜在変数問題として再定義し、編集によって生じるアーティファクト（痕跡）を明示的に学習する二段階の学習手法です。ペア学習を通じて編集前後の関係から痕跡を分離・抽出します。",
+      "enables": "多様な既存のIMLモデルに適用可能で、一貫した精度向上を達成しました。また、新たに4.5万件の編集グループデータセット「EditGroup-45K」を提供し、高精度な痕跡の識別を可能にしました。",
+      "why_it_matters": "改ざんマスクを直接予測する従来の手法に対し、編集プロセスの本質である「痕跡」に着目することで、より根拠に基づいた高精度な検知を実現しています。",
+      "tags": [
+        "画像フォレンジック",
+        "特徴量分離",
+        "不正検知"
+      ],
+      "fetched_at": "2026-10-08T10:37:31.663524+09:00"
+    },
+    {
+      "id": "2610.07204",
+      "title": "SPEAR: Five Principles for Interactive Human-Agent Alignment",
+      "url": "https://arxiv.org/abs/2610.07204",
+      "pdf": "https://arxiv.org/pdf/2610.07204",
+      "authors": [
+        "Tao Long",
+        "Lydia B. Chilton"
+      ],
+      "categories": [
+        "cs.HC",
+        "cs.AI",
+        "cs.MA"
+      ],
+      "venues": [],
+      "award": true,
+      "talk": false,
+      "workshop": false,
+      "comment": "3 pages. Best Talk Award at the ACM Conference on Human-AI Complementarity and Alignment (HCOMP 2026)",
+      "hf_upvotes": null,
+      "star_votes": 0,
+      "star_codes": [],
+      "star_quote": "",
+      "signals": [
+        "受賞"
+      ],
+      "headline": "人間とエージェントの長期的な協調を実現する5つの柱「SPEAR」の提唱",
+      "what": "AIアライメントを「学習・デプロイ」の固定的なプロセスではなく、運用中の「継続的なインタラクションデザイン」と捉え直すポジションペーパーです。Specification、Process、Evaluation、Adaptation、Recalibrationの5つの要素を軸としています。",
+      "enables": "エージェントがいつ行動し、いつ人間に問いかけるべきか、またユーザーがどのようにエージェントへの信頼を調整すべきかといった、実運用上のフレームワークを提供します。",
+      "why_it_matters": "静的なベンチマーク評価を超えて、社会的な文脈や長期的な利用シーンにおける人間とAIの望ましい共生関係を設計するための指針となります。",
+      "tags": [
+        "AIアライメント",
+        "人間とAIの相互作用",
+        "インタラクションデザイン"
+      ],
+      "fetched_at": "2026-10-08T10:37:31.663524+09:00"
+    },
+    {
+      "id": "2610.07761",
+      "title": "Contrastive Learning for Aspect Representation towards Explainable Recommendation",
+      "url": "https://arxiv.org/abs/2610.07761",
+      "pdf": "https://arxiv.org/pdf/2610.07761",
+      "authors": [
+        "Emrul Hasan",
+        "Chen Ding"
+      ],
+      "categories": [
+        "cs.IR",
+        "cs.AI"
+      ],
+      "venues": [],
+      "award": true,
+      "talk": false,
+      "workshop": false,
+      "comment": "8 pages. Published in WI-IAT 2025. Best Student Paper Award",
+      "hf_upvotes": null,
+      "star_votes": 0,
+      "star_codes": [],
+      "star_quote": "",
+      "signals": [
+        "受賞"
+      ],
+      "headline": "レビューの観点を考慮した対照学習で推薦の精度と説明性を向上させるCLARER",
+      "what": "ユーザーの評価値（レーティング）とテキストレビューから抽出した「アスペクト（観点）」情報を統合する推薦モデルです。Transformerエンコーダと対照学習を用いて、ユーザーが重視するアスペクトを効果的に表現学習に取り入れます。",
+      "enables": "3つのベンチマークデータセットにおいて、推薦精度と説明文生成の両面で既存手法を上回る性能を達成しました。単なる推薦だけでなく、なぜその商品が選ばれたかの言語的説明を高品質に生成します。",
+      "why_it_matters": "ユーザーの好みを単一の数値ベクトルではなく、多角的な観点として捉えることで、より納得感の高いパーソナライズ推薦が可能になります。",
+      "tags": [
+        "推薦システム",
+        "説明可能なAI",
+        "対照学習"
+      ],
+      "fetched_at": "2026-10-08T10:37:31.663524+09:00"
+    }
+  ]
+}
