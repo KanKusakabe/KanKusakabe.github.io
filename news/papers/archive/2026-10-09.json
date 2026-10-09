@@ -1,0 +1,872 @@
+{
+  "date": "2026-10-09",
+  "arxiv": [
+    {
+      "id": "2610.09108",
+      "title": "Convex-Concave Reinforcement Learning",
+      "url": "https://arxiv.org/abs/2610.09108",
+      "pdf": "https://arxiv.org/pdf/2610.09108",
+      "authors": [
+        "Shripad V. Deshmukh",
+        "Yaswanth Chittepu",
+        "Dhawal Gupta",
+        "Philip Thomas",
+        "Scott Niekum"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "venues": [],
+      "award": false,
+      "talk": false,
+      "workshop": false,
+      "comment": "37 pages, 5 figures. Code: https://github.com/UMass-SCALAR-Lab/Convex-Concave-RL",
+      "hf_upvotes": null,
+      "star_votes": 1,
+      "star_codes": [
+        "new"
+      ],
+      "star_quote": "the exact per-iteration objective, computable via per-decision importance sampling (PDIS), is a difference-of-convex-constrained difference-of-convex (DC-constrained DC) program.",
+      "signals": [],
+      "headline": "強化学習の目的関数をDC計画法として定式化し収束性と性能を向上させるCCRL",
+      "what": "強化学習の非凸な報酬最大化問題を、log-density-ratio座標系を用いて差凸関数（DC-constrained DC）プログラムとして再定義する手法です。この構造を利用し、逐次凸計画法（SCP）を用いて各反復のプログラムを解くConvex-Concave Reinforcement Learning (CCRL)を提案しています。",
+      "enables": "TRPOやPPOなどの既存手法を特殊なケースとして包含しつつ、多段階の意思決定を結合するk軸の導入が可能になりました。ヘルスケア領域のタスクにおいて、調整済みのPPOよりも高速に収束し、学習曲線下の面積（AUC）を11.3%向上させています。",
+      "why_it_matters": "従来は代理関数の最適化で回避されていた強化学習の非凸性を、最適化理論の枠組みで構造的に扱うことで、理論的保証と実用的なパフォーマンスの両立を図っています。",
+      "tags": [
+        "強化学習",
+        "数理最適化"
+      ],
+      "fetched_at": "2026-10-09T10:49:11.717329+09:00"
+    },
+    {
+      "id": "2610.09139",
+      "title": "Breaking the Space Barrier and its Application to Language Model Inference",
+      "url": "https://arxiv.org/abs/2610.09139",
+      "pdf": "https://arxiv.org/pdf/2610.09139",
+      "authors": [
+        "Arip Asadulaev"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CC"
+      ],
+      "venues": [],
+      "award": false,
+      "talk": false,
+      "workshop": false,
+      "comment": "",
+      "hf_upvotes": null,
+      "star_votes": 2,
+      "star_codes": [
+        "cap"
+      ],
+      "star_quote": "text the format forces is written without running the model, the mask is recomputed on the GPU without any table, recursive formats use a small stack, every output stays valid under a token limit, and independent fields are decoded in parallel and verified.",
+      "signals": [],
+      "headline": "構造化出力の制約を非常に少ないメモリで高速に処理する推論エンジン技術",
+      "what": "JSONやツール呼び出しなどの構造化出力を強制するオートマトンの特性を計算量理論の観点から解析し、Savitchの定理を下回るO(log2 n / log log n)の空間計算量で到達可能性を判定する手法を提案しています。これを実装し、GPU上でマスクを再計算するメモリ効率の高い推論エンジンを構築しました。",
+      "enables": "Qwen3.5を用いたスキーマ抽出において、標準的なセットアップに対し1.2〜1.3倍の高速化を実現し、グラマー保持に必要なメモリを最大1.5GBから3MBへ削減しました。また、1つのサーバーで16個のグラマーを同時に保持することが可能になり、ツール呼び出しエージェントの完了速度が2.5倍に向上しました。",
+      "why_it_matters": "LLMの構造化出力におけるメモリ制約と計算コストのトレードオフを解消し、リソースの限られた環境でも複雑な制約付き推論を効率化できます。",
+      "tags": [
+        "LLM推論",
+        "計算複雑性理論"
+      ],
+      "fetched_at": "2026-10-09T10:49:11.717329+09:00"
+    },
+    {
+      "id": "2610.10266",
+      "title": "LoomSC: Scalable Deep Subspace Clustering with Projector Factorization and Exact Spectral Reduction",
+      "url": "https://arxiv.org/abs/2610.10266",
+      "pdf": "https://arxiv.org/pdf/2610.10266",
+      "authors": [
+        "Nairouz Mrabah",
+        "Youssef Melki",
+        "Mohamed Bouguessa",
+        "Riadh Ksantini",
+        "Shakeeb Murtaza",
+        "Tehseen Zia"
+      ],
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "venues": [],
+      "award": false,
+      "talk": false,
+      "workshop": false,
+      "comment": "19 pages, 7 figures, 5 tables; includes appendices",
+      "hf_upvotes": null,
+      "star_votes": 1,
+      "star_codes": [
+        "sota"
+      ],
+      "star_quote": "LoomSC ranks first or second in all 15 dataset-metric comparisons against 9 state-of-the-art baselines. Its mean accuracy exceeds the highest baseline mean by 6.66 percentage points.",
+      "signals": [],
+      "headline": "射影行列の分解により大規模データへ線形計算量で対応する部分空間クラスタリングLoomSC",
+      "what": "高密度な自己表現行列やスペクトラルクラスタリングのボトルネックを解消するため、射影行列の因数分解（projector factorization）と厳密なスペクトル削減を行うフレームワークです。サンプル数に対して線形な時間・空間計算量を維持しつつ、交互プロクリュステス（Alternating Procrustes）更新により直交性を保ちます。",
+      "enables": "5つのベンチマークにおいて既存の最先端9手法を上回る精度を達成し、平均精度が次点のモデルを6.66ポイント上回りました。合成データを用いた実験では、50万サンプルという大規模データにおいても99.8%以上の精度を維持しながらスケールすることが確認されています。",
+      "why_it_matters": "従来は計算コストの面で困難だった大規模データに対する高精度な部分空間クラスタリングを、数学的な最適化の工夫により実用レベルに引き上げました。",
+      "tags": [
+        "クラスタリング",
+        "機械学習"
+      ],
+      "fetched_at": "2026-10-09T10:49:11.717329+09:00"
+    },
+    {
+      "id": "2610.10311",
+      "title": "Fault-tolerant foundation models",
+      "url": "https://arxiv.org/abs/2610.10311",
+      "pdf": "https://arxiv.org/pdf/2610.10311",
+      "authors": [
+        "Trevor McCourt",
+        "Ila R. Fiete",
+        "Isaac L. Chuang"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.AI",
+        "cs.AR"
+      ],
+      "venues": [],
+      "award": false,
+      "talk": false,
+      "workshop": false,
+      "comment": "",
+      "hf_upvotes": null,
+      "star_votes": 2,
+      "star_codes": [
+        "new"
+      ],
+      "star_quote": "Modified neural scaling laws inferred from 40,000 GPU-hours of training runs on simulated faulty digital hardware quantify this trend and suggest that models learn to compute within \"good\" error-correcting codes",
+      "signals": [],
+      "headline": "計算エラーを許容するように訓練された大規模言語モデルの耐故障性と省電力化の可能性",
+      "what": "ハードウェアの信頼性を下げる代わりに省電力化を図る際、LLMが計算エラーを許容できるように訓練可能であることを示した研究です。4万GPU時間のシミュレーションを通じて、モデルの規模が大きくなるほどエラーに対する耐性（resilience）が向上するという神経スケーリング則を導出しました。",
+      "enables": "LLMが学習を通じて「良好な誤り訂正符号」内で計算することを学習している可能性を示唆し、将来的に低エネルギーで動作する不安定なハードウェア上でのAI推論という道筋を提示しています。",
+      "why_it_matters": "モデル自体の耐故障性を形式的に証明できれば、エネルギー効率と引き換えに信頼性を犠牲にする次世代チップでの大規模AI運用が可能になります。",
+      "tags": [
+        "LLM",
+        "ハードウェア"
+      ],
+      "fetched_at": "2026-10-09T10:49:11.717329+09:00"
+    },
+    {
+      "id": "2610.10391",
+      "title": "MOTIP2: Spatial Priors for End-to-End Multi-Object Tracking",
+      "url": "https://arxiv.org/abs/2610.10391",
+      "pdf": "https://arxiv.org/pdf/2610.10391",
+      "authors": [
+        "Beno\\^it Roussel",
+        "Damien Bouet",
+        "Liming Chen",
+        "Pierre Perrault"
+      ],
+      "categories": [
+        "cs.CV"
+      ],
+      "venues": [],
+      "award": false,
+      "talk": false,
+      "workshop": false,
+      "comment": "Accepted at BMVC 2026. 27 pages (14 pages main paper, appendix and references), 6 figures, 10 tables",
+      "hf_upvotes": null,
+      "star_votes": 2,
+      "star_codes": [
+        "sota"
+      ],
+      "star_quote": "Trained without extra data, its main model, MOTIP2-L, sets a new state of the art",
+      "signals": [],
+      "headline": "空間的な制約を明示的に組み込み物体追跡のIDスイッチを抑制するMOTIP2",
+      "what": "End-to-Endの多物体追跡（MOT）において、データ、損失関数、表現の3段階で空間的プライア（Spatial Priors）を導入する手法です。具体的には、空間的な重なりを考慮したIDスイッチのバイアス、距離に応じたペナルティ、およびトークンへのフレーム位置情報の付与（Spatial Anchor）を行っています。",
+      "enables": "DanceTrackで73.4 HOTA、SportsMOTで76.0 HOTAという新記録を達成しました。また、軽量モデルのMOTIP2-Sは、従来モデルの3倍以上の速度で同等の精度を実現しています。",
+      "why_it_matters": "End-to-Endモデルが陥りやすかった「画面の端から端へのIDの飛び」といった空間的に不自然なエラーを、後処理なしでモデル内部の構造により解決しています。",
+      "tags": [
+        "コンピュータビジョン",
+        "物体追跡"
+      ],
+      "fetched_at": "2026-10-09T10:49:11.717329+09:00"
+    },
+    {
+      "id": "2610.10437",
+      "title": "Q-Learning with Scalar Adjoint Matching",
+      "url": "https://arxiv.org/abs/2610.10437",
+      "pdf": "https://arxiv.org/pdf/2610.10437",
+      "authors": [
+        "Yonghoon Dong",
+        "Minsung Yoon",
+        "Jaehyuk Kim",
+        "Jungwoo Park",
+        "Changyeon Kim",
+        "Jinwoo Shin"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.AI",
+        "cs.RO"
+      ],
+      "venues": [],
+      "award": false,
+      "talk": false,
+      "workshop": false,
+      "comment": "",
+      "hf_upvotes": 17,
+      "star_votes": 2,
+      "star_codes": [
+        "sota"
+      ],
+      "star_quote": "SQAM's gains concentrate on the four hardest OGBench domains, where its success rate exceeds that of the strongest baseline in each domain by 18 to 35 percentage points.",
+      "signals": [],
+      "headline": "フローポリシーの微調整を効率化するスカラー随伴マッチングを用いたQ学習",
+      "what": "デモンストレーションを超えた性能向上を目指すフローポリシー（Flow Policies）のオフポリシー強化学習手法です。ステップごとのベクトル-ヤコビアン積を計算する代わりに、ヤコビアンが対角成分に集中するという発見に基づき、計算コストの低い「スカラー随伴（Scalar Adjoint）」を導出しました。",
+      "enables": "OGBenchの最難関ドメインにおいて、最強のベースラインを18〜35ポイント上回る成功率を達成しました。実機の双腕ロボットを用いた実験でも、教師あり学習による微調整を全タスクで上回る改善を確認しています。",
+      "why_it_matters": "表現力の高いフローベースのモデルに対し、計算負荷を抑えつつ価値関数の情報を効率的に逆伝播させることで、実用的なロボット制御への適用を容易にしました。",
+      "tags": [
+        "ロボティクス",
+        "強化学習"
+      ],
+      "fetched_at": "2026-10-09T10:49:11.717329+09:00"
+    },
+    {
+      "id": "2610.10453",
+      "title": "RFPO: Rectified Flow Policy Optimization for Embodied Control",
+      "url": "https://arxiv.org/abs/2610.10453",
+      "pdf": "https://arxiv.org/pdf/2610.10453",
+      "authors": [
+        "Ting Huang",
+        "Lisiyu Pan",
+        "Haoyu Wang",
+        "Zeyu Zhang",
+        "Siyuan Qian",
+        "Yanjun Li"
+      ],
+      "categories": [
+        "cs.RO"
+      ],
+      "venues": [],
+      "award": false,
+      "talk": false,
+      "workshop": false,
+      "comment": "",
+      "hf_upvotes": null,
+      "star_votes": 2,
+      "star_codes": [
+        "cap"
+      ],
+      "star_quote": "RFPO consistently preserves full-step control performance under one-step execution, with one-step returns remaining within 2.4% of their corresponding 64-step values",
+      "signals": [],
+      "headline": "フローベースのロボット制御を1ステップの推論に高速化するRFPO",
+      "what": "反復的なODE積分を必要とするフローベースのポリシーを、精度を落とさずに少数ステップ（1ステップ）で実行可能にする最適化フレームワークです。オンラインのReflowによる輸送経路の整流化と、教師モデル（PPOコントローラ）による補完的なアクション空間の監督を組み合わせています。",
+      "enables": "Unitree Go2ロボットにおいて、64ステップ実行時の報酬の98.5%を維持したまま、推論レイテンシを4.39msから0.08msへ54.9倍高速化しました。実機での安定した1ステップ歩行を実現しています。",
+      "why_it_matters": "高精度だが計算コストが高いフローモデルを、モバイルロボットのハードウェア上でリアルタイム動作可能な速度まで軽量化することに成功しました。",
+      "tags": [
+        "ロボティクス",
+        "モデル圧縮"
+      ],
+      "fetched_at": "2026-10-09T10:49:11.717329+09:00"
+    },
+    {
+      "id": "2610.10459",
+      "title": "NeuralBES: A Differentiable, Control-Aware Emulator for Scalable Building Energy Modeling",
+      "url": "https://arxiv.org/abs/2610.10459",
+      "pdf": "https://arxiv.org/pdf/2610.10459",
+      "authors": [
+        "Ting-Yu Dai",
+        "Takuya Kurihana",
+        "Wing Yee Au",
+        "Hon Yung Wong"
+      ],
+      "categories": [
+        "cs.LG"
+      ],
+      "venues": [],
+      "award": false,
+      "talk": false,
+      "workshop": false,
+      "comment": "",
+      "hf_upvotes": null,
+      "star_votes": 1,
+      "star_codes": [
+        "cap",
+        "new"
+      ],
+      "star_quote": "NeuralBES (Building Energy Simulation), a differentiable emulator that resolves this tradeoff by parameterizing a resistance--capacitance (RC) based thermal model",
+      "signals": [],
+      "headline": "物理構造とニューラルネットワークを統合した建物エネルギーエミュレータNeuralBES",
+      "what": "建物の熱モデル（RCモデル）を微分可能なニューラルエンコーダでパラメータ化するエミュレーション手法です。建物のメタデータを物理的に制約された熱容量や熱貫流率にマッピングし、対数空間での並列スキャンを用いて線形漸化式として解くことで、物理的な整合性と計算効率を両立しています。",
+      "enables": "物理的に矛盾のない予測を保証しつつ、トランスフォーマーやRNNベースのモデルと比較して10分の1以下のパラメータ数で、最強のベースラインと同等の精度（誤差4 MAPE以内）を達成しました。物理的に妥当なベースラインとの比較では、誤差を半分以下に削減しています。",
+      "why_it_matters": "高精度な物理シミュレータの正確さと、データ駆動型モデルのスケーラビリティを統合し、大規模かつ多様な建物群のエネルギー予測を可能にします。",
+      "tags": [
+        "スマートグリッド",
+        "ディープラーニング"
+      ],
+      "fetched_at": "2026-10-09T10:49:11.717329+09:00"
+    },
+    {
+      "id": "2610.10351",
+      "title": "Measurement-Efficient Differentiable Quantum Architecture Search for Combinatorial Optimization",
+      "url": "https://arxiv.org/abs/2610.10351",
+      "pdf": "https://arxiv.org/pdf/2610.10351",
+      "authors": [
+        "Lukas Thei{\\ss}inger",
+        "Thore Gerlach",
+        "Christian Bauckhage"
+      ],
+      "categories": [
+        "quant-ph",
+        "cs.LG"
+      ],
+      "venues": [],
+      "award": false,
+      "talk": false,
+      "workshop": false,
+      "comment": "6 pages, 2 figures. Accepted at the 2026 IEEE 2nd International Conference on Quantum Artificial Intelligence (QAI). Code and data: https://github.com/Newida/ME-DQAS",
+      "hf_upvotes": null,
+      "star_votes": 1,
+      "star_codes": [
+        "new"
+      ],
+      "star_quote": "We derive the proposed measurement reduction scheme theoretically and validate it experimentally on 3-SAT and MaxCut benchmark problems.",
+      "signals": [],
+      "headline": "組み合わせ最適化における量子回路探索の測定コストを約40%削減するDQAS手法",
+      "what": "微分可能量子アーキテクチャ探索（DQAS）において、ハードウェア実行のボトルネックとなる回路測定回数を削減する手法です。一般的な回転ゲートのパラメータ化と組み合わせ最適化問題のクラスに対し、最適化目標を変えずに勾配測定コストを削減する理論的枠組みを導出しました。",
+      "enables": "3-SATおよびMaxCutのベンチマーク問題において、古典的な後処理のオーバーヘッドをほとんど増やすことなく、勾配測定のコストを約39〜41%削減することに成功しました。",
+      "why_it_matters": "量子ハードウェアの利用コストが高い現状において、自動化された回路設計（NAS）の実用性を高める重要な一歩となります。",
+      "tags": [
+        "量子コンピューティング",
+        "アーキテクチャ探索"
+      ],
+      "fetched_at": "2026-10-09T10:49:11.717329+09:00"
+    },
+    {
+      "id": "2610.09032",
+      "title": "Shape-Bayes: Bayesian Inference of Structured Shapes under Visual Ambiguity",
+      "url": "https://arxiv.org/abs/2610.09032",
+      "pdf": "https://arxiv.org/pdf/2610.09032",
+      "authors": [
+        "Mani Kumar Tellamekala",
+        "Tosh Brown",
+        "Michel Valstar"
+      ],
+      "categories": [
+        "cs.CV"
+      ],
+      "venues": [],
+      "award": false,
+      "talk": false,
+      "workshop": false,
+      "comment": "",
+      "hf_upvotes": null,
+      "star_votes": 1,
+      "star_codes": [
+        "sota"
+      ],
+      "star_quote": "Shape-Bayes achieves an absolute improvement of up to ~34% IDR over state-of-the-art deterministic models.",
+      "signals": [],
+      "headline": "視覚的曖昧さや閉塞に強いベイズ推論を用いた構造化形状復元Shape-Bayes",
+      "what": "形状復元を決定論的な回帰ではなくベイズ推論として捉え、不確実性を考慮した視覚認識と幾何学的なプライアを結合するフレームワークです。ノイズの多いランドマーク予測と、PCA形状多様体上の適応的プライアを微分可能なベイズソルバーで統合し、閉形式で事後分布を計算します。",
+      "enables": "激しい閉塞がある状況下で、従来の決定論的モデルと比較してIDR（不整合率）を最大34%改善し、相対誤差を12.5%削減しました。また、信頼性の高い不確実性の境界を出力することが可能です。",
+      "why_it_matters": "顔の形状復元のような厳密な解剖学的制約があるタスクにおいて、視覚情報の欠損を幾何学的な知識で補完する堅牢なアプローチを提供します。",
+      "tags": [
+        "コンピュータビジョン",
+        "ベイズ推論"
+      ],
+      "fetched_at": "2026-10-09T10:49:11.717329+09:00"
+    },
+    {
+      "id": "2610.09118",
+      "title": "TopoCurve: Geometry-Aware Topology Reasoning via B\\'ezier Curves in Autonomous Driving",
+      "url": "https://arxiv.org/abs/2610.09118",
+      "pdf": "https://arxiv.org/pdf/2610.09118",
+      "authors": [
+        "Mihai Bogdan Deaconu",
+        "Laura Dio\\c{s}an"
+      ],
+      "categories": [
+        "cs.CV"
+      ],
+      "venues": [
+        "NeurIPS"
+      ],
+      "award": false,
+      "talk": false,
+      "workshop": false,
+      "comment": "Accepted at NeurIPS 2026 (main track). 15 pages, 4 figures",
+      "hf_upvotes": null,
+      "star_votes": 1,
+      "star_codes": [
+        "sota"
+      ],
+      "star_quote": "outperforms all existing approaches on endpoint detection (56.8 vs. 52.6 on DET_p).",
+      "signals": [],
+      "headline": "ベジェ曲線を用いた幾何学的な3Dレーン・トポロジー推論モデルTopoCurve",
+      "what": "自動運転における3Dレーンの検出とトポロジー推論を、3次ベジェ曲線という幾何学的なパラメータ表現に基づいて行う建築です。レーンを連続的な曲線としてモデル化し、端点の距離や接線方向の整合性をフーリエ特徴量として符号化してトポロジー予測に利用します。",
+      "enables": "OpenLane-V2ベンチマークにおいて、後処理なしのEnd-to-Endカメラ限定手法として最高の50.6 OLSを達成しました。特に端点検出の精度（DET_p）において、従来手法を大きく上回る56.8を記録しています。",
+      "why_it_matters": "従来の離散的なポリライン表現の欠点であった滑らかさの欠如や方向情報の曖昧さを、ベジェ曲線による連続的な幾何表現で解決し、推論精度を向上させました。",
+      "tags": [
+        "自動運転",
+        "コンピュータビジョン"
+      ],
+      "fetched_at": "2026-10-09T10:49:11.717329+09:00"
+    },
+    {
+      "id": "2610.09346",
+      "title": "OnlineQAT: On-Policy Distillation for Ultra-Low-Bit Large Language Models",
+      "url": "https://arxiv.org/abs/2610.09346",
+      "pdf": "https://arxiv.org/pdf/2610.09346",
+      "authors": [
+        "Wenjun Wang",
+        "Heng Li",
+        "Yanggan Gu",
+        "Hongxia Yang"
+      ],
+      "categories": [
+        "cs.CL",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "venues": [],
+      "award": false,
+      "talk": false,
+      "workshop": false,
+      "comment": "",
+      "hf_upvotes": null,
+      "star_votes": 1,
+      "star_codes": [
+        "sota"
+      ],
+      "star_quote": "OnlineQAT obtains the best average among the compared quantized methods: 57.28 at W3A16 and 32.52 at W2A16",
+      "signals": [],
+      "headline": "量子化LLMの精度低下を自身の生成応答を用いた蒸留で回復するOnlineQAT",
+      "what": "4ビット未満の超低ビット量子化LLM向けに、2段階のトレーニングを行うフレームワークです。まずブロック単位の量子化訓練（QAT）を行い、次にモデル自身が生成した応答に対して教師モデルから蒸留信号（reverse-KL）を受け取る「オンポリシー蒸留（OPD）」を適用します。",
+      "enables": "Qwen3-1.7Bにおいて、3ビット（W3A16）で57.28、2ビット（W2A16）で32.52という平均スコアを達成し、既存のReasoningQATなどの手法を上回る精度回復を実現しました。",
+      "why_it_matters": "量子化モデルが推論時に直面する独自の分布（自身が生成したコンテキスト）上で学習することで、従来の固定データを用いたオフライン学習よりも効果的に量子化誤差を補正できます。",
+      "tags": [
+        "LLM",
+        "モデル量子化"
+      ],
+      "fetched_at": "2026-10-09T10:49:11.717329+09:00"
+    },
+    {
+      "id": "2610.10507",
+      "title": "RECAST: Learning to Compute the Right Context through Adaptive Evidence Routing",
+      "url": "https://arxiv.org/abs/2610.10507",
+      "pdf": "https://arxiv.org/pdf/2610.10507",
+      "authors": [
+        "Yilun Hao",
+        "Krishna Sayana",
+        "Isabella Ye",
+        "James S Ren",
+        "Sukhdeep Sodhi",
+        "Craig Boutilier"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "venues": [],
+      "award": false,
+      "talk": false,
+      "workshop": false,
+      "comment": "35 pages, 2 figures, 13 tables",
+      "hf_upvotes": null,
+      "star_votes": 1,
+      "star_codes": [
+        "new"
+      ],
+      "star_quote": "formulates evidence construction as a sequential decision process over heterogeneous retrieval and computation operations",
+      "signals": [],
+      "headline": "複数の情報源から必要な証拠を動的に計算・合成して回答するRECAST",
+      "what": "単一の検索結果では不十分な複雑なタスクに対し、検索・フィルタリング・集計などの操作を「証拠構築プロセス」として学習させるフレームワークです。RouterLMが証拠の不足を判断し、必要に応じてCompilerLMがコードを実行してデータを処理し、最終的にAnswerLMが回答を生成します。",
+      "enables": "6つのベンチマークファミリーにおいて平均成功率75.6%を達成し、最強のベースラインを15.9%上回りました。また、未学習のベンチマークにおいても平均15.0%の精度向上を示し、高いゼロショット汎化性能を実証しました。",
+      "why_it_matters": "従来のRAG（検索拡張生成）が苦手としていた、情報の集約や計算が必要な「導出型」の証拠構築を、エージェント的な意思決定プロセスとして解決しています。",
+      "tags": [
+        "LLM",
+        "RAG"
+      ],
+      "fetched_at": "2026-10-09T10:49:11.717329+09:00"
+    },
+    {
+      "id": "2610.10528",
+      "title": "Long-WAM: Scaling the Context of World-Action Models",
+      "url": "https://arxiv.org/abs/2610.10528",
+      "pdf": "https://arxiv.org/pdf/2610.10528",
+      "authors": [
+        "Wei Huang",
+        "Bohan Zhang",
+        "Chenzhi Liu",
+        "Isabella Liu",
+        "Shuai Yang",
+        "Weian Mao"
+      ],
+      "categories": [
+        "cs.RO",
+        "cs.AI",
+        "cs.CV"
+      ],
+      "venues": [],
+      "award": false,
+      "talk": false,
+      "workshop": false,
+      "comment": "",
+      "hf_upvotes": 89,
+      "star_votes": 1,
+      "star_codes": [
+        "cap"
+      ],
+      "star_quote": "95% success on dynamic cup stacking, where Pi0.5 and Fast-WAM succeed in none of 20 trials",
+      "signals": [
+        "HF ▲89"
+      ],
+      "headline": "長期の視覚履歴を効率的に活用しロボット制御を向上させるLong-WAM",
+      "what": "リアルタイム制御の制約下で、ロボットの長い視覚履歴（コンテキスト）を扱うための世界・行動モデル（World-Action Model）です。自己回帰的な（AR）事前学習が長期履歴の活用に不可欠であることを示し、ストリーミング・エンコーディングと非同期実行により低遅延での推論を実現しました。",
+      "enables": "RoboCasa GR-1において、履歴を19.2秒に増やすことで成功率を63.3%から78.7%に向上させました。実機のUnitree G1等において、既存手法が全敗した動的なカップ積みタスクで95%の成功率を達成し、RTX 5090上で約107msの推論速度を維持しています。",
+      "why_it_matters": "視覚履歴の長さが動作の安定性と成功率に直結することを示し、リアルタイム性が求められる複雑な物理操作における長期コンテキストの重要性を確立しました。",
+      "tags": [
+        "ロボティクス",
+        "世界モデル"
+      ],
+      "fetched_at": "2026-10-09T10:49:11.717329+09:00"
+    },
+    {
+      "id": "2610.10054",
+      "title": "Transition Path Sampling Using Koopman Operators and Exit-Time Optimal Control",
+      "url": "https://arxiv.org/abs/2610.10054",
+      "pdf": "https://arxiv.org/pdf/2610.10054",
+      "authors": [
+        "Boya Hou",
+        "Shane Wang",
+        "Siddharth Ambekar",
+        "Maxim Raginsky",
+        "Olgica Milenkovic"
+      ],
+      "categories": [
+        "eess.SY",
+        "cs.LG",
+        "cs.SY",
+        "stat.ML"
+      ],
+      "venues": [],
+      "award": false,
+      "talk": false,
+      "workshop": false,
+      "comment": "30 pages, 6 figures",
+      "hf_upvotes": null,
+      "star_votes": 1,
+      "star_codes": [
+        "new"
+      ],
+      "star_quote": "we propose a new approach for the problem based on Koopman operators",
+      "signals": [],
+      "headline": "クープマン作用素を用いて稀な状態遷移を効率的にサンプリングするTPS手法",
+      "what": "分子力学などの動的システムにおける稀な状態遷移サンプリング（TPS）を、クープマン作用素と脱出時間最適制御として定式化する手法です。クープマン作用素の固有関数から遷移確率（committor関数）を推定し、目標状態に到達するまでの時間を最小化する制御器をRKHS上で閉形式で導出します。",
+      "enables": "アラニン・ジペプチドのシミュレーションにおいて、ターゲット到達率を0%から93%（1ps以内）へと向上させました。最適制御器の構築を、単一の等式制約付き二次計画法（KKTシステム）を解くことに帰着させています。",
+      "why_it_matters": "シミュレーションを繰り返す従来の機械学習手法に比べ、計算コストを抑えつつ理論的裏付けのある制御器を構築でき、複雑な系の解析を加速させます。",
+      "tags": [
+        "動力学",
+        "最適制御"
+      ],
+      "fetched_at": "2026-10-09T10:49:11.717329+09:00"
+    },
+    {
+      "id": "2610.09823",
+      "title": "UltraText Bench: A Comprehensive Bilingual Benchmark for Evaluating Visual Text Rendering in Image Generation",
+      "url": "https://arxiv.org/abs/2610.09823",
+      "pdf": "https://arxiv.org/pdf/2610.09823",
+      "authors": [
+        "Deyuan Liu",
+        "Yihao Hu",
+        "Jingxuan Zhang",
+        "Xingying Li",
+        "Jun Xie",
+        "Jiacheng Liu"
+      ],
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "venues": [],
+      "award": false,
+      "talk": false,
+      "workshop": false,
+      "comment": "",
+      "hf_upvotes": 65,
+      "star_votes": 0,
+      "star_codes": [],
+      "star_quote": "",
+      "signals": [
+        "HF ▲65"
+      ],
+      "headline": "画像生成モデルの密なテキスト描画能力を多言語で評価するUltraText Bench",
+      "what": "画像内に多数のテキスト領域を含む「密な視覚テキスト」の生成能力を評価する、日英バイリンガルのベンチマークです。24のシーンカテゴリ、3段階の難易度からなる432個のプロンプトを含み、VLM（Q-Judger）を用いて忠実度、鮮明度、空間品質、シーン品質を多角的に測定します。",
+      "enables": "最新モデルでも難易度が上がると性能が大幅に低下することを明らかにしました。例えば、Qwen-Image-2512の英語スコアは、低難易度の86.50から高難易度の42.86まで低下することが確認されました。",
+      "why_it_matters": "短文のレンダリングが向上する中、現実のポスターや看板のような複雑なテキスト配置に対する生成モデルの限界と特性を定量化するための新たな基準を提供します。",
+      "tags": [
+        "画像生成",
+        "ベンチマーク"
+      ],
+      "fetched_at": "2026-10-09T10:49:11.717329+09:00"
+    },
+    {
+      "id": "2610.10524",
+      "title": "GRACE: Generation-aware latent compression for efficient video generation",
+      "url": "https://arxiv.org/abs/2610.10524",
+      "pdf": "https://arxiv.org/pdf/2610.10524",
+      "authors": [
+        "Jiyoung Kim",
+        "Paul Hyunbin Cho",
+        "Jisu Nam",
+        "Donghoon Lee",
+        "Hyunsung Go",
+        "Yeonkyeong Lee"
+      ],
+      "categories": [
+        "cs.CV"
+      ],
+      "venues": [],
+      "award": false,
+      "talk": false,
+      "workshop": false,
+      "comment": "Project page : https://cvlab-kaist.github.io/GRACE/, 43 pages, 24 figures",
+      "hf_upvotes": 64,
+      "star_votes": 0,
+      "star_codes": [],
+      "star_quote": "",
+      "signals": [
+        "HF ▲64"
+      ],
+      "headline": "学習済みDiTとの互換性を保ちつつビデオ生成を11倍高速化するGRACE",
+      "what": "学習済みのビデオDiffusion Transformer (DiT) の潜在空間を維持しながら、ビデオオートエンコーダを圧縮する2段階フレームワークです。エンコーダの潜在空間の一部を凍結して互換性を保ち、圧縮で失われる情報を残差として学習し、DiTの特徴空間でアライメントを行うことで生成品質を維持します。",
+      "enables": "Wan2.1-I2V-14Bモデルにおいて、トークン数を8分の1に削減し、推論レイテンシを11.1倍（480p解像度で）高速化しました。この大幅な圧縮後も、VBenchにおいて圧縮前と同等の生成品質を維持しています。",
+      "why_it_matters": "既存の高品質な学習済みモデルをゼロから再学習することなく、大幅に軽量化・高速化できるため、高解像度ビデオ生成の効率的なデプロイを可能にします。",
+      "tags": [
+        "動画生成",
+        "モデル圧縮"
+      ],
+      "fetched_at": "2026-10-09T10:49:11.717329+09:00"
+    },
+    {
+      "id": "2610.10429",
+      "title": "SGF+: Decoupling Gradient Flows for Autoregressive Video Generation",
+      "url": "https://arxiv.org/abs/2610.10429",
+      "pdf": "https://arxiv.org/pdf/2610.10429",
+      "authors": [
+        "Zihan Su",
+        "Junhao Zhuang",
+        "Yaowei Li",
+        "Siwen Lu",
+        "Haoran Li",
+        "Lingen Li"
+      ],
+      "categories": [
+        "cs.CV"
+      ],
+      "venues": [],
+      "award": false,
+      "talk": false,
+      "workshop": false,
+      "comment": "",
+      "hf_upvotes": 51,
+      "star_votes": 0,
+      "star_codes": [],
+      "star_quote": "",
+      "signals": [
+        "HF ▲51"
+      ],
+      "headline": "自己回帰型ビデオ生成の品質と一貫性を向上させる勾配デカップリング手法SGF+",
+      "what": "自己回帰ビデオ生成において、「現在のフレームのノイズ除去」と「将来のためのコンテキスト書き込み」のパラメータを分離する手法（Self Gradient Forcing Plus）です。これら2つの役割の勾配が負の相関（逆向きの更新）を持つという発見に基づき、役割固有のパラメータを割り当てることで最適化を効率化します。",
+      "enables": "5秒の動画で学習したモデルを用いて、追加のビデオデータや長い訓練期間なしで、最大24時間にわたる連続的なビデオ生成を可能にしました。既存手法と比較して視覚的品質と長期の一貫性が向上しています。",
+      "why_it_matters": "単一のパラメータに複数の役割を負わせる従来の設計が学習を阻害していたことを特定し、モデルの構造的工夫だけで長時間の動画生成を実現できることを示しました。",
+      "tags": [
+        "動画生成",
+        "自己回帰モデル"
+      ],
+      "fetched_at": "2026-10-09T10:49:11.717329+09:00"
+    },
+    {
+      "id": "2610.10539",
+      "title": "Tetris3D: 3D Scene Generation With Objects That Fit Together",
+      "url": "https://arxiv.org/abs/2610.10539",
+      "pdf": "https://arxiv.org/pdf/2610.10539",
+      "authors": [
+        "Jaeyeong Kim",
+        "Jinhyuk Jang",
+        "Jongmin Lee",
+        "Kyehong Park",
+        "Seungryong Kim"
+      ],
+      "categories": [
+        "cs.CV"
+      ],
+      "venues": [],
+      "award": false,
+      "talk": false,
+      "workshop": false,
+      "comment": "Project page: https://cvlab-kaist.github.io/Tetris3D/",
+      "hf_upvotes": 35,
+      "star_votes": 0,
+      "star_codes": [],
+      "star_quote": "",
+      "signals": [
+        "HF ▲35"
+      ],
+      "headline": "隣接する物体間の物理的・幾何学的整合性を考慮した3Dシーン生成Tetris3D",
+      "what": "単一画像から、物体同士が物理的に噛み合う（fit together）ような整合性のある3Dシーンを復元するフレームワークです。各物体の生成を周囲の物体の幾何学的な物理関係で条件付け、さらに120万シーンを含む物理シミュレーションデータセット「ComOb」を構築して学習に利用しています。",
+      "enables": "物体が重なり合ったり隠れたりしている複雑なシーンにおいても、物理的に安定し、かつ幾何学的に妥当な物体の形状とポーズを復元できます。既存手法を上回る生成品質と物理的安定性を達成しました。",
+      "why_it_matters": "個別の物体を独立して生成するのではなく、シーン全体としての「収まり」を陽に扱うことで、より現実に即した3D空間の再構成が可能になります。",
+      "tags": [
+        "3D復元",
+        "コンピュータビジョン"
+      ],
+      "fetched_at": "2026-10-09T10:49:11.717329+09:00"
+    },
+    {
+      "id": "2610.10444",
+      "title": "RunningTab: Direct Workspace Interaction with Environment-Side Tabs",
+      "url": "https://arxiv.org/abs/2610.10444",
+      "pdf": "https://arxiv.org/pdf/2610.10444",
+      "authors": [
+        "Jinheon Baek",
+        "Soyeong Jeong",
+        "Yumin Choi",
+        "Dongsu Han",
+        "Sung Ju Hwang"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "venues": [],
+      "award": false,
+      "talk": false,
+      "workshop": false,
+      "comment": "",
+      "hf_upvotes": 34,
+      "star_votes": 0,
+      "star_codes": [],
+      "star_quote": "",
+      "signals": [
+        "HF ▲34"
+      ],
+      "headline": "LLMエージェントの作業履歴と未読ファイルを管理しタスク完遂を支援するRunningTab",
+      "what": "LLMエージェントがファイル群を直接操作して成果物を作る際、コンテキスト窓から溢れがちな作業状況を環境側で記録するフレームワークです。「未完了の要件」「既読ファイルからの抜粋」「リストアップされたが未読の候補」をタブとして管理し、エージェントが終了しようとする際にチェックを行います。",
+      "enables": "3つのLLMを用いたベンチマークにおいて、モデル内部で記録を保持する手法を安定して上回るパフォーマンスを示しました。エージェントが必要な情報を見落とさず、すべての要件を解決してから回答する確率が高まります。",
+      "why_it_matters": "長文や多数のファイルを扱う実務的なタスクにおいて、エージェントの短期記憶の限界を「環境側の補助記憶」で補完する、実用的なワークフローの設計指針となります。",
+      "tags": [
+        "LLMエージェント",
+        "RAG"
+      ],
+      "fetched_at": "2026-10-09T10:49:11.717329+09:00"
+    },
+    {
+      "id": "2610.10114",
+      "title": "Mechanics of Long-Context Hybrid Models Part 1.1: From Hybrid Attention to Hybrid Position",
+      "url": "https://arxiv.org/abs/2610.10114",
+      "pdf": "https://arxiv.org/pdf/2610.10114",
+      "authors": [
+        "Xiaoran Liu",
+        "Ziwei He",
+        "Xipeng Qiu"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "venues": [],
+      "award": false,
+      "talk": false,
+      "workshop": false,
+      "comment": "60 pages, 36 figures, 25 tables, under review",
+      "hf_upvotes": 30,
+      "star_votes": 0,
+      "star_codes": [],
+      "star_quote": "",
+      "signals": [
+        "HF ▲30"
+      ],
+      "headline": "ハイブリッド型LLMにおける注意機構の組み合わせとコンテキスト長の関係性を解明",
+      "what": "フルアテンションとスライディングウィンドウ（SWA）または線形アテンション（LA）を組み合わせたハイブリッドモデルの挙動を解析した研究です。SWAは長さの補外に、LAは継続事前学習によるコンテキスト拡張に強いという「シーソー効果」を発見し、その原因が位置バイアスの違いにあることを特定しました。",
+      "enables": "LAハイブリッドにおいて「Sliding-Window Linear Attention」を提案し、64kのコンテキスト長において性能を維持したまま、学習なしで16倍の長さへの補外（extrapolation）を実現しました。",
+      "why_it_matters": "効率的なロングコンテキスト対応のために急速に普及しているハイブリッドモデルの設計指針を理論と実験の両面から提供しています。",
+      "tags": [
+        "LLM",
+        "トランスフォーマー"
+      ],
+      "fetched_at": "2026-10-09T10:49:11.717329+09:00"
+    },
+    {
+      "id": "2610.09327",
+      "title": "MCFR: A Mask-Guided Coarse-to-Fine Regression Framework for Robust Multi-Variant Board-to-Board Connector Assembly",
+      "url": "https://arxiv.org/abs/2610.09327",
+      "pdf": "https://arxiv.org/pdf/2610.09327",
+      "authors": [
+        "Guanghui Shen",
+        "Song Wang",
+        "Dan Wu"
+      ],
+      "categories": [
+        "cs.RO"
+      ],
+      "venues": [
+        "IROS"
+      ],
+      "award": true,
+      "talk": false,
+      "workshop": false,
+      "comment": "8 pages, 7 figures, 1 table. Accepted for presentation at the 2026 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2026). Finalist for the IROS Best Paper Award for Industrial Robotics Research for Applications",
+      "hf_upvotes": null,
+      "star_votes": 0,
+      "star_codes": [],
+      "star_quote": "",
+      "signals": [
+        "受賞"
+      ],
+      "headline": "基板コネクタの自動組み立て精度を高めるマスク誘導型 coarse-to-fine 回帰 MCFR",
+      "what": "電子機器製造における多品種の基板対基板（BTB）コネクタの自動挿入のためのフレームワークです。物体認識マスクをプライアとして導入し、さらに明示的な光度補正（photometric refinement）を行うことで、背景の干渉を抑えつつ高精度な位置合わせを行います。",
+      "enables": "実際のスマートフォンの組み立てタスクにおいて、平均99.25%という高い実機挿入成功率を達成しました。背景の変化やコネクタの外観バリエーションに対しても堅牢な動作が確認されています。",
+      "why_it_matters": "製品のバリエーションが多く、背景のノイズが多い実際の製造現場において、高い汎用性と信頼性を持つ自動組み立てを実現する実用的な手法です。",
+      "tags": [
+        "ロボティクス",
+        "コンピュータビジョン"
+      ],
+      "fetched_at": "2026-10-09T10:49:11.717329+09:00"
+    },
+    {
+      "id": "2610.10227",
+      "title": "From Prompts to Trees: Effective LLM-Guided Tree Generation for Few-Shot Tabular Classification",
+      "url": "https://arxiv.org/abs/2610.10227",
+      "pdf": "https://arxiv.org/pdf/2610.10227",
+      "authors": [
+        "Yue Qiu",
+        "Zekang Du",
+        "Yiqun Diao",
+        "Bingsheng He",
+        "Qinbin Li"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.AI",
+        "cs.CL"
+      ],
+      "venues": [
+        "EMNLP"
+      ],
+      "award": false,
+      "talk": true,
+      "workshop": false,
+      "comment": "Accepted to EMNLP 2026 Main as an oral presentation. Code available: https://github.com/yueqiu0/LLMTree",
+      "hf_upvotes": null,
+      "star_votes": 0,
+      "star_codes": [],
+      "star_quote": "",
+      "signals": [
+        "Oral等"
+      ],
+      "headline": "LLMの知識を解釈可能な決定木に蒸留し少数データでの表形式分類を改善する手法",
+      "what": "LLMが持つ世界知識を決定木に蒸留することで、少数の学習データ（Few-shot）でも高精度かつ解釈可能な表形式データ分類を実現するフレームワークです。LLMに決定木を直接生成させるのではなく、まずルールを生成させ、それを木構造に整理する3段階のパラダイムを提案しています。",
+      "enables": "複数の現実世界のデータセットにおいて、既存のベースラインよりも大幅に低いプロンプトコストで、高い分類精度と透明性を両立しました。特にデータが少ない環境での決定木の弱点をLLMの知識で補完しています。",
+      "why_it_matters": "LLMの高い推論コストとブラックボックス性を、決定木の高速性と解釈可能性で置き換えることで、実運用に適したAIモデルの構築を可能にします。",
+      "tags": [
+        "LLM",
+        "機械学習"
+      ],
+      "fetched_at": "2026-10-09T10:49:11.717329+09:00"
+    }
+  ]
+}
