@@ -1,0 +1,762 @@
+{
+  "date": "2026-10-13",
+  "arxiv": [
+    {
+      "id": "2610.13015",
+      "title": "Generalized Proximal Policy Optimization: Unifying LLM RL Algorithms from the Perspective of Divergence",
+      "url": "https://arxiv.org/abs/2610.13015",
+      "pdf": "https://arxiv.org/pdf/2610.13015",
+      "authors": [
+        "Zhicheng Cai",
+        "Xinyuan Guo",
+        "Hanlin Wu",
+        "Weinan Dai",
+        "Yuyan Zhou",
+        "Wei-Ying Ma"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "venues": [],
+      "award": false,
+      "talk": false,
+      "workshop": false,
+      "comment": "",
+      "hf_upvotes": null,
+      "star_votes": 2,
+      "star_codes": [
+        "new",
+        "sota"
+      ],
+      "star_quote": "The best-performing GPPO instantiation surpasses standard GRPO by up to 50% and 14% on math and coding, delivering SOTA performance.",
+      "signals": [],
+      "headline": "f-divergenceの視点でLLMの強化学習を統一するGPPOフレームワークの提案",
+      "what": "PPOにおけるクリッピングが探索を阻害する問題を解決するため、f-divergenceの信頼領域理論に基づき強化学習アルゴリズムを統一したGeneralized Proximal Policy Optimization (GPPO)です。異なるf-divergenceがもたらす幾何学的特性と、従来のモンテカルロ法より高精度な推論トポロジーを組み合わせた二次元の設計空間を定義しています。",
+      "enables": "数学とコーディングのベンチマークにおいて標準的なGRPOを最大50%上回る性能を達成し、DAPOやDPPOといった既存のPPO変種を特殊なケースとして包含することに成功しました。",
+      "why_it_matters": "ヒューリスティックな修正に頼っていたLLMの強化学習に対し、数学的に裏付けられた統一的な設計指針を提供し、効率的な探索と学習の安定化を両立させています。",
+      "tags": [
+        "LLM",
+        "強化学習",
+        "PPO"
+      ],
+      "fetched_at": "2026-10-13T11:54:46.349295+09:00"
+    },
+    {
+      "id": "2610.13020",
+      "title": "Trajectory-Aware Policy Optimization: Closing the State Distribution Gap in Long-Horizon LLM RL",
+      "url": "https://arxiv.org/abs/2610.13020",
+      "pdf": "https://arxiv.org/pdf/2610.13020",
+      "authors": [
+        "Zhicheng Cai",
+        "Weinan Dai",
+        "Yuyan Zhou",
+        "Wei-Ying Ma",
+        "Ya-Qin Zhang",
+        "Hao Zhou"
+      ],
+      "categories": [
+        "cs.LG"
+      ],
+      "venues": [],
+      "award": false,
+      "talk": false,
+      "workshop": false,
+      "comment": "",
+      "hf_upvotes": null,
+      "star_votes": 2,
+      "star_codes": [
+        "new",
+        "sota"
+      ],
+      "star_quote": "TAPO significantly surpasses existing LLM RL algorithms across eight competition-level benchmarks, achieving up to 48% and 12% improvement over GRPO",
+      "signals": [],
+      "headline": "長期間の推論における状態分布のズレを補正するTAPOによるLLM強化学習の安定化",
+      "what": "長期間の自己回帰生成におけるローカルな誤差が軌跡全体で蓄積する問題に対し、オフポリシーの方策勾配から理論的に導出した状態分布補正を導入したTrajectory-Aware Policy Optimization (TAPO)です。幾何平均エスティメータによる分散低減と、系列長に応じた動的なクリッピングを組み合わせています。",
+      "enables": "数学的推論でGRPOと比較して最大48%の向上を達成し、長期間のタスクにおける学習の不安定性や崩壊を大幅に抑制しました。",
+      "why_it_matters": "従来のトークン単位や系列単位の制御では見落とされていた「軌跡誘発的な分布のズレ」を明示的に補正することで、複雑な推論タスクの学習効率を高めています。",
+      "tags": [
+        "LLM",
+        "強化学習",
+        "推論"
+      ],
+      "fetched_at": "2026-10-13T11:54:46.349295+09:00"
+    },
+    {
+      "id": "2610.13117",
+      "title": "Forward Dynamics Models",
+      "url": "https://arxiv.org/abs/2610.13117",
+      "pdf": "https://arxiv.org/pdf/2610.13117",
+      "authors": [
+        "Zipei Ma",
+        "Junzhe Jiang",
+        "Jiahui Zhang",
+        "Juntong Zhang",
+        "Chun Gu",
+        "Bozhou Zhang"
+      ],
+      "categories": [
+        "cs.RO"
+      ],
+      "venues": [],
+      "award": false,
+      "talk": false,
+      "workshop": false,
+      "comment": "Project page: https://logosroboticsgroup.github.io/FDM/",
+      "hf_upvotes": null,
+      "star_votes": 1,
+      "star_codes": [
+        "sota"
+      ],
+      "star_quote": "achieving a state-of-the-art 99.4% average success rate on LIBERO and absolute gains of up to 13% over VLA and WAM methods on real-world tasks.",
+      "signals": [],
+      "headline": "将来状態の予測を方策学習の教師信号として活用するロボット制御モデルFDM",
+      "what": "アクション予測と将来の空間状態予測を結合し、アクション特徴量を条件として将来予測を行うForward Dynamics Models (FDM)です。推論時には将来予測の生成ステップをスキップしつつ、学習時には正解の将来状態をアクション学習の教師信号として利用する構造を持ちます。",
+      "enables": "LIBEROベンチマークで99.4%という最高水準の成功率を記録し、推論コストを抑えながら従来のVLAやWAMを最大13%上回る性能を実機ロボットで示しました。",
+      "why_it_matters": "将来予測の誤差がアクションに伝播するのを防ぎつつ、視覚的フィードバックを方策の質向上に直接結びつける「action-to-future」パラダイムを確立しました。",
+      "tags": [
+        "ロボティクス",
+        "VLA",
+        "世界モデル"
+      ],
+      "fetched_at": "2026-10-13T11:54:46.349295+09:00"
+    },
+    {
+      "id": "2610.13232",
+      "title": "FPD-Drive: Future Policy Distillation for End-to-End Autonomous Driving",
+      "url": "https://arxiv.org/abs/2610.13232",
+      "pdf": "https://arxiv.org/pdf/2610.13232",
+      "authors": [
+        "Li-Heng Chen",
+        "Qifeng Chen",
+        "Chengwei Wu",
+        "Yingjie Zhang",
+        "Sheng Yang",
+        "Hongbo Fu"
+      ],
+      "categories": [
+        "cs.CV"
+      ],
+      "venues": [],
+      "award": false,
+      "talk": false,
+      "workshop": false,
+      "comment": "",
+      "hf_upvotes": null,
+      "star_votes": 2,
+      "star_codes": [
+        "sota"
+      ],
+      "star_quote": "achieving SOTA performance among the compared methods on both benchmarks. Zero-shot closed-loop evaluation on HUGSIM further yields an HD-Score of 45.1",
+      "signals": [],
+      "headline": "将来の知識を蒸留して自動運転方策の安全性と多様性を向上させるFPD-Drive",
+      "what": "記録された将来の観測データにアクセスできる教師モデルから、多様で高品質な軌跡ターゲットを生徒モデルへ移転する「Future-Privileged Multi-Target Distillation」を採用したエンドツーエンドのプランナーです。安全候補と不安全候補のランキングエラーを修正するSafety-Aware Score Correctionも導入されています。",
+      "enables": "NAVSIMベンチマークにおいてPDMSスコア95.5を達成し、単一の走行ログのみに基づく学習に比べて、代替的な有効行動の学習と安全性の選択精度が向上しました。",
+      "why_it_matters": "特権的な将来情報を用いて学習時の監視信号を拡張することで、推論時に将来予測を行わずに高度な判断が可能な軽量な方策を実現しています。",
+      "tags": [
+        "自動運転",
+        "蒸留",
+        "エンドツーエンド学習"
+      ],
+      "fetched_at": "2026-10-13T11:54:46.349295+09:00"
+    },
+    {
+      "id": "2610.13317",
+      "title": "SBNO : Schr\\\"odinger Bridge Neural Operator for the Forward and Inverse Problems under Missing Information",
+      "url": "https://arxiv.org/abs/2610.13317",
+      "pdf": "https://arxiv.org/pdf/2610.13317",
+      "authors": [
+        "Jaehyeon Park",
+        "Inhyeok Jeong",
+        "Noseong Park"
+      ],
+      "categories": [
+        "cs.LG"
+      ],
+      "venues": [
+        "NeurIPS"
+      ],
+      "award": false,
+      "talk": false,
+      "workshop": false,
+      "comment": "NeurIPS 2026",
+      "hf_upvotes": null,
+      "star_votes": 2,
+      "star_codes": [
+        "new"
+      ],
+      "star_quote": "We introduce SBNO, an equation-free paired-data diffusion bridge matching framework that learns conditional operators for both forward and inverse PDE problems",
+      "signals": [],
+      "headline": "不完全な観測データから物理現象を再構成するシュレディンガー橋ニューラルオペレータ",
+      "what": "偏微分方程式（PDE）の順問題および逆問題を解くための、方程式を必要としない拡散ブリッジマッチングフレームワークSBNOです。シュレディンガー橋を用いて入力と解のペアを時間依存のドリフトとして学習し、スパースな観測データからの確定的再構成を可能にします。",
+      "enables": "わずか5%の観測データでも高い精度を維持しつつ、従来のガイド付き拡散モデルと比較して実行速度を9.7倍以上に高速化し、メモリ消費量を4.3分の1以下に削減しました。",
+      "why_it_matters": "物理法則が未知、あるいは観測が極めて限定的な実用環境下において、高速かつ軽量に物理現象のシミュレーションとパラメータ推定を行える点に意義があります。",
+      "tags": [
+        "ニューラルオペレータ",
+        "拡散モデル",
+        "科学計算"
+      ],
+      "fetched_at": "2026-10-13T11:54:46.349295+09:00"
+    },
+    {
+      "id": "2610.13325",
+      "title": "Taking Tokenization off the Host for Agentic LLM Serving",
+      "url": "https://arxiv.org/abs/2610.13325",
+      "pdf": "https://arxiv.org/pdf/2610.13325",
+      "authors": [
+        "Mohammad Siavashi",
+        "Pascal Schwinte",
+        "Ali Banaei",
+        "Gerald Q. Maguire Jr.",
+        "Marco Chiesa",
+        "Dejan Kosti\\'c"
+      ],
+      "categories": [
+        "cs.DC",
+        "cs.CL",
+        "cs.LG",
+        "cs.PF"
+      ],
+      "venues": [],
+      "award": false,
+      "talk": false,
+      "workshop": false,
+      "comment": "",
+      "hf_upvotes": null,
+      "star_votes": 2,
+      "star_codes": [
+        "cap",
+        "sota"
+      ],
+      "star_quote": "We present GraphTok, a GPU tokenizer that runs the entire encoding pipeline, from pre-tokenization through byte-pair encoding (BPE) merging to token-ID assembly",
+      "signals": [],
+      "headline": "GPU上でトークナイゼーションを完結させLLM推論の初期遅延を削減するGraphTok",
+      "what": "プレトークナイゼーションからBPEマージまでの一連の処理を、単一のCUDAグラフとしてGPU上で実行する高速トークナイザです。CPUとGPUのデータ転送やCPU側の処理負荷を排除し、既存のvLLMやNVIDIA Dynamoに統合可能な設計となっています。",
+      "enables": "Llama 3において最速のCPUトークナイザより4.7〜6.0倍高速に動作し、長いコンテキストを扱うエージェント用途でTTFT（最初のトークン生成までの時間）を2倍以上改善しました。",
+      "why_it_matters": "プレフィックスキャッシュにより無視できるようになったプリフィル段階において、新たなボトルネックとなっていたCPUトークナイゼーションの問題を解消し、システム全体のキャパシティを大幅に向上させます。",
+      "tags": [
+        "LLM",
+        "GPU計算",
+        "推論最適化"
+      ],
+      "fetched_at": "2026-10-13T11:54:46.349295+09:00"
+    },
+    {
+      "id": "2610.12657",
+      "title": "Kronecker Product Attention: Memory-Efficient KV Compression via Structured Factorization",
+      "url": "https://arxiv.org/abs/2610.12657",
+      "pdf": "https://arxiv.org/pdf/2610.12657",
+      "authors": [
+        "Bahareh Nikpour",
+        "Hossein Rajabzadeh",
+        "Maryam Dialameh",
+        "Vahid Partovi Nia",
+        "Parsa Omidi"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "venues": [],
+      "award": false,
+      "talk": false,
+      "workshop": false,
+      "comment": "",
+      "hf_upvotes": null,
+      "star_votes": 1,
+      "star_codes": [
+        "new"
+      ],
+      "star_quote": "KPA matches or exceeds TPA, MHA, MQA, GQA, and MLA across four model scales",
+      "signals": [],
+      "headline": "クロネッカー積を用いてKVキャッシュを10倍圧縮するKronecker Product Attention",
+      "what": "キー（Key）とバリュー（Value）のアクティベーションを、トークンに依存する小型行列のクロネッカー積の和として表現するアテンション機構です。構造化された回転位置エンコーディング（RoPE）を適用することで、RoPEの相対位置特性を維持しながら圧縮を行うことができます。",
+      "enables": "KVキャッシュを最大10倍圧縮しながら、MHA、GQA、MLAなどの既存手法と同等以上の精度を複数のベンチマークで達成しました。",
+      "why_it_matters": "表現力を犠牲にすることなくKVキャッシュの増大を抑制でき、メモリ制約の厳しい環境での長文生成の効率化に寄与します。",
+      "tags": [
+        "LLM",
+        "アテンション機構",
+        "KVキャッシュ"
+      ],
+      "fetched_at": "2026-10-13T11:54:46.349295+09:00"
+    },
+    {
+      "id": "2610.12848",
+      "title": "Reinforcement Learning via Fixed-point Flow Matching",
+      "url": "https://arxiv.org/abs/2610.12848",
+      "pdf": "https://arxiv.org/pdf/2610.12848",
+      "authors": [
+        "Denis Blessing",
+        "Onur Celik",
+        "Gerhard Neumann"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.RO"
+      ],
+      "venues": [],
+      "award": false,
+      "talk": false,
+      "workshop": false,
+      "comment": "",
+      "hf_upvotes": null,
+      "star_votes": 1,
+      "star_codes": [
+        "new"
+      ],
+      "star_quote": "propose fixed-point flow matching (FFM), a data-free procedure for training",
+      "signals": [],
+      "headline": "不動点反復により教師データなしでフローベースの方策を学習するFFM",
+      "what": "最大エントロピー強化学習におけるフロー方策の学習を、データ不要の不動点反復として定式化するFixed-point Flow Matching (FFM)です。クリティックのアクション勾配を回帰ターゲットとして利用し、フロー・マッチング形式で方策を更新します。",
+      "enables": "オフラインからオンラインへのファインチューニングを効果的に行い、学習データがない状態からでも表現力の高い多峰性の分布を持つ方策を効率的に学習可能です。",
+      "why_it_matters": "オンライン強化学習においてフローベースの方策を直接学習・調整するための理論的な手法を確立し、複雑な行動分布の表現を可能にしました。",
+      "tags": [
+        "強化学習",
+        "フロー・マッチング",
+        "生成モデル"
+      ],
+      "fetched_at": "2026-10-13T11:54:46.349295+09:00"
+    },
+    {
+      "id": "2610.13257",
+      "title": "CAST: Credit Alignment for Cross-Tokenizer On-Policy Distillation",
+      "url": "https://arxiv.org/abs/2610.13257",
+      "pdf": "https://arxiv.org/pdf/2610.13257",
+      "authors": [
+        "Jingru Yang",
+        "Jinhang Wu",
+        "Minjing Shi",
+        "Shengfeng He",
+        "Xuyan Li",
+        "Man Tan"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.CL"
+      ],
+      "venues": [],
+      "award": false,
+      "talk": false,
+      "workshop": false,
+      "comment": "22 pages, 8 figures, 11 tables",
+      "hf_upvotes": null,
+      "star_votes": 1,
+      "star_codes": [
+        "new"
+      ],
+      "star_quote": "propose CAST (Chunk-aware credit Assignment with Selective Token Anchoring)",
+      "signals": [],
+      "headline": "異なるトークナイザ間の蒸留において学習信号の割り当てを最適化するCAST",
+      "what": "教師と生徒のトークナイザが異なる場合の強化学習ベースの蒸留において、テキストチャンク単位の報酬をトークン単位の更新に分配する手法です。予測の不確実性に基づいて報酬を重み付けし、対応する教師信号がない箇所には初期方策へのアンカー制約を課します。",
+      "enables": "QwenからLlamaへの蒸留において数学やコードのベンチマークで最大2.45ポイントの精度向上を実現し、トークナイザの壁を越えた知識移転を効率化しました。",
+      "why_it_matters": "既存のオンポリシー蒸留における「報酬の割当問題」を解消し、より高性能なモデルから異なる構造を持つ軽量モデルへの効率的な知識移転を可能にします。",
+      "tags": [
+        "LLM",
+        "知識蒸留",
+        "トークナイゼーション"
+      ],
+      "fetched_at": "2026-10-13T11:54:46.349295+09:00"
+    },
+    {
+      "id": "2610.12572",
+      "title": "DiffusionART: Efficient, Stable and Scalable Reinforcement of Diffusion Models",
+      "url": "https://arxiv.org/abs/2610.12572",
+      "pdf": "https://arxiv.org/pdf/2610.12572",
+      "authors": [
+        "Zhenglin Wan",
+        "Jiayu Chen",
+        "Zhengfeiyang Zhang",
+        "Pengfei Zhou",
+        "Wangbo Zhao",
+        "Fangyuan Kong"
+      ],
+      "categories": [
+        "cs.LG"
+      ],
+      "venues": [],
+      "award": false,
+      "talk": false,
+      "workshop": false,
+      "comment": "Project page: https://vanzll.github.io/diffusionart-project/ ; Code: https://github.com/vanzll/DiffusionART",
+      "hf_upvotes": 231,
+      "star_votes": 0,
+      "star_codes": [],
+      "star_quote": "",
+      "signals": [
+        "HF ▲231"
+      ],
+      "headline": "画像・動画生成拡散モデルの強化学習を劇的に高速化するDiffusionART",
+      "what": "報酬信号を共通の改善方向に集約することで学習の不安定さを解消するAggregation-First Reward Tiltingを導入した手法です。信頼領域を用いたドリフト補正により、従来のEMA（指数移動平均）によるチューニングなしで安定した学習を実現します。",
+      "enables": "HunyuanVideo-13Bの強化学習において、既存手法（Flow-GRPO等）と比較して約12倍少ないGPU時間で、より高い平均報酬を達成しました。",
+      "why_it_matters": "微分不可能な報酬関数にも対応し、膨大な計算コストがかかっていた拡散モデルの強化学習によるアライメントを、実用的な時間で完了できるようにしました。",
+      "tags": [
+        "拡散モデル",
+        "強化学習",
+        "動画生成"
+      ],
+      "fetched_at": "2026-10-13T11:54:46.349295+09:00"
+    },
+    {
+      "id": "2610.13527",
+      "title": "S-Space: Exploring Spatial Workspace in Multimodal Language Models",
+      "url": "https://arxiv.org/abs/2610.13527",
+      "pdf": "https://arxiv.org/pdf/2610.13527",
+      "authors": [
+        "Zhiyuan Shi",
+        "Xiang Li",
+        "Xingzhuo Guo",
+        "Shangchen Miao",
+        "Weiliang Chen",
+        "Qiyu Dai"
+      ],
+      "categories": [
+        "cs.CV",
+        "cs.CL",
+        "cs.LG"
+      ],
+      "venues": [],
+      "award": false,
+      "talk": false,
+      "workshop": false,
+      "comment": "Project Page: https://mirros.ai/blog/s-space",
+      "hf_upvotes": 202,
+      "star_votes": 0,
+      "star_codes": [],
+      "star_quote": "",
+      "signals": [
+        "HF ▲202"
+      ],
+      "headline": "マルチモーダルLLMの内部に存在する空間認識用の潜在空間「S-Space」の発見",
+      "what": "MLLM内部のオブジェクトトークンの表現が、水平・垂直・距離の連続座標をエンコードしている線形部分空間（S-Space）を特定しました。この空間は、質問の有無に関わらず、知覚された物体の位置情報を保持する内部ワークスペースとして機能しています。",
+      "enables": "MLLMが物体位置を正確に認識できている一方で、視点変更に伴う空間変換などの計算処理に失敗しているという、推論エラーの根本原因を切り分ける診断が可能になりました。",
+      "why_it_matters": "MLLMの空間推論メカニズムを解明し、言語訓練からどのように物理的な方向概念が創発するか、また知覚と計算のどちらがボトルネックであるかを明らかにしました。",
+      "tags": [
+        "マルチモーダルLLM",
+        "空間推論",
+        "メカニズム解析"
+      ],
+      "fetched_at": "2026-10-13T11:54:46.349295+09:00"
+    },
+    {
+      "id": "2610.12772",
+      "title": "Reflex: Visually Grounded Reactive Humanoid Control",
+      "url": "https://arxiv.org/abs/2610.12772",
+      "pdf": "https://arxiv.org/pdf/2610.12772",
+      "authors": [
+        "Taoyang Jia",
+        "Weikai Huang",
+        "Linxin Song",
+        "Jared Darlington",
+        "Jieyu Zhao",
+        "Yue Wang"
+      ],
+      "categories": [
+        "cs.RO"
+      ],
+      "venues": [],
+      "award": false,
+      "talk": false,
+      "workshop": false,
+      "comment": "12 pages, 5 figures",
+      "hf_upvotes": 132,
+      "star_votes": 0,
+      "star_codes": [],
+      "star_quote": "",
+      "signals": [
+        "HF ▲132"
+      ],
+      "headline": "飛んでくる物体に全身で反応するヒューマノイド制御フレームワークReflex",
+      "what": "飛んでくる箱をキャッチするような、1秒以内の素早い反応が求められるタスクのための三段階学習フレームワークです。強化学習による全身制御、遅延観測からの物体力学推論、そして一人称視点映像からの力学表現の復元を段階的に学習させます。",
+      "enables": "実機のUnitree G1ヒューマノイドを用い、人間が投げた箱を最大65%の成功率でキャッチすることに成功しました。",
+      "why_it_matters": "視覚情報の時間履歴を活用し、知覚と全身のリアクティブな制御を切り離して学習させることで、複雑な実環境での動的なタスクへの対応を可能にしました。",
+      "tags": [
+        "ロボティクス",
+        "ヒューマノイド",
+        "強化学習"
+      ],
+      "fetched_at": "2026-10-13T11:54:46.349295+09:00"
+    },
+    {
+      "id": "2610.12611",
+      "title": "SoftwareGym: Scaling Computer-Use Agent Training with Diverse Synthesized Software Environments",
+      "url": "https://arxiv.org/abs/2610.12611",
+      "pdf": "https://arxiv.org/pdf/2610.12611",
+      "authors": [
+        "Tian Jin",
+        "Wenhao Wang",
+        "Jing Kang",
+        "Haoting Shi",
+        "Rui Ye",
+        "Yijun Lu"
+      ],
+      "categories": [
+        "cs.MA",
+        "cs.SE"
+      ],
+      "venues": [],
+      "award": false,
+      "talk": false,
+      "workshop": false,
+      "comment": "26 pages, 11 figures, including appendices",
+      "hf_upvotes": 85,
+      "star_votes": 0,
+      "star_codes": [],
+      "star_quote": "",
+      "signals": [
+        "HF ▲85"
+      ],
+      "headline": "多様なソフトウェア環境を自動合成しPC操作エージェントを訓練するSoftwareGym",
+      "what": "多種多様なGUIインターフェースと動作可能な機能を備えたソフトウェア環境を自動で合成するパイプラインです。生成された環境を用いて収集された軌跡データを用いて、コンピュータ操作エージェント（CUA）を訓練します。",
+      "enables": "182種類のアプリケーションを合成し、OSWorldベンチマークにおけるエージェントの成功率（Pass@3）を41.39%から56.97%へ向上させました。",
+      "why_it_matters": "手動での構築が困難だった多様なソフトウェア環境をスケーラブルに供給することで、特定アプリへの過学習を防ぎ、エージェントの汎用性を高めることができます。",
+      "tags": [
+        "AIエージェント",
+        "GUI操作",
+        "合成データ"
+      ],
+      "fetched_at": "2026-10-13T11:54:46.349295+09:00"
+    },
+    {
+      "id": "2610.13021",
+      "title": "EmbodiedCLBench: Evaluating Continual Learning for Self-Evolving Embodied Agents",
+      "url": "https://arxiv.org/abs/2610.13021",
+      "pdf": "https://arxiv.org/pdf/2610.13021",
+      "authors": [
+        "Jie Huang",
+        "Yanan Chen",
+        "Ruixun Liu",
+        "Kaichen He",
+        "Xinyi He",
+        "Rui Huang"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.CV"
+      ],
+      "venues": [],
+      "award": false,
+      "talk": false,
+      "workshop": false,
+      "comment": "",
+      "hf_upvotes": 63,
+      "star_votes": 0,
+      "star_codes": [],
+      "star_quote": "",
+      "signals": [
+        "HF ▲63"
+      ],
+      "headline": "自己進化するエージェントの継続学習能力を評価するEmbodiedCLBench",
+      "what": "基本タスクで習得したスキルを組み合わせて複雑な未知のタスクを解く「構成的汎化」に焦点を当てた、身体性エージェント向けの継続学習ベンチマークです。エージェントが過去の経験を蓄積し、新しいタスクへ転移させる能力を測定します。",
+      "enables": "現在のエージェントが基本タスクから有益な経験を得られる一方で、経験の量に応じた性能のスケーリングや、複雑なタスクでの情報抽出に課題があることを明らかにしました。",
+      "why_it_matters": "非身体的な設定に限定されていた継続学習の研究を身体性環境へ拡張し、自己進化するエージェント開発のための評価基盤を提供しました。",
+      "tags": [
+        "身体性AI",
+        "継続学習",
+        "ベンチマーク"
+      ],
+      "fetched_at": "2026-10-13T11:54:46.349295+09:00"
+    },
+    {
+      "id": "2610.13395",
+      "title": "ProgramGym: Scaling Training Environments for Long-Horizon Program Reproduction Agents",
+      "url": "https://arxiv.org/abs/2610.13395",
+      "pdf": "https://arxiv.org/pdf/2610.13395",
+      "authors": [
+        "Chengyi Yang",
+        "Renxu Bao",
+        "Jue Hou",
+        "Zongpei Teng",
+        "Ziheng Wang",
+        "Yujie Lin"
+      ],
+      "categories": [
+        "cs.SE",
+        "cs.AI",
+        "cs.CL"
+      ],
+      "venues": [],
+      "award": false,
+      "talk": false,
+      "workshop": false,
+      "comment": "",
+      "hf_upvotes": 49,
+      "star_votes": 0,
+      "star_codes": [],
+      "star_quote": "",
+      "signals": [
+        "HF ▲49"
+      ],
+      "headline": "プログラムの設計から実装までを一貫して訓練する環境ProgramGym",
+      "what": "リポジトリから検証可能な実行環境を自動構築するProgram-Envと、分析・実装・レビューの役割を分離したProgram-Agentからなるフレームワークです。ゼロからのプログラム開発という長期間のタスクにおけるエージェントの能力を強化します。",
+      "enables": "1,648個の多言語環境を構築し、Qwen3.8-27Bのプログラム再現性能を34.87%から最大56.25%まで引き上げ、一部のフラグシップモデルを凌駕する性能を達成しました。",
+      "why_it_matters": "単なるバグ修正ではなく、要件からシステム全体を構築するエンジニアリング能力を、検証可能な形でスケーラブルに学習させる環境を実現しました。",
+      "tags": [
+        "AIエージェント",
+        "ソフトウェア開発",
+        "コード生成"
+      ],
+      "fetched_at": "2026-10-13T11:54:46.349295+09:00"
+    },
+    {
+      "id": "2610.13113",
+      "title": "Continually Post-training Small Models via Synthetic Self-distillation",
+      "url": "https://arxiv.org/abs/2610.13113",
+      "pdf": "https://arxiv.org/pdf/2610.13113",
+      "authors": [
+        "Woosung Koh",
+        "Hyunsoo Lee",
+        "Kyungjae Lee",
+        "Haeju Park",
+        "Dahyun Lee",
+        "Dasol Hwang"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "venues": [],
+      "award": false,
+      "talk": false,
+      "workshop": false,
+      "comment": "",
+      "hf_upvotes": 41,
+      "star_votes": 0,
+      "star_codes": [],
+      "star_quote": "",
+      "signals": [
+        "HF ▲41"
+      ],
+      "headline": "同一ファミリーの少し大きなモデルを利用して小型モデルの継続学習を支援するSynthSelf",
+      "what": "小型モデルが新しい知識を学ぶ際の「忘却」と「分布のズレ」を防ぐため、同一ファミリーのわずかに大きなモデルを教師役として、生徒の分布に近い高品質な書き換えデータ（合成自己蒸留）を生成する手法です。",
+      "enables": "インコンテキスト学習能力が低い小規模モデル（例：Llama-3-8Bなど）においても、14種類のベンチマークで既存の蒸留手法を上回る継続学習性能を示しました。",
+      "why_it_matters": "デバイス上での利用が想定される小型モデルにおいて、元の能力を損なわずに新しい知識を追加し続けるための現実的なアプローチを提示しています。",
+      "tags": [
+        "LLM",
+        "継続学習",
+        "モデル圧縮"
+      ],
+      "fetched_at": "2026-10-13T11:54:46.349295+09:00"
+    },
+    {
+      "id": "2610.12984",
+      "title": "Work2Skill: Capturing Human GUI Experience for Reusable Agent Skill Induction",
+      "url": "https://arxiv.org/abs/2610.12984",
+      "pdf": "https://arxiv.org/pdf/2610.12984",
+      "authors": [
+        "Yuqi Huang",
+        "Hui Li",
+        "Yifei Cao",
+        "Zikun Cai",
+        "Tianci Xie",
+        "Yangfan Gao"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.HC"
+      ],
+      "venues": [],
+      "award": false,
+      "talk": false,
+      "workshop": false,
+      "comment": "",
+      "hf_upvotes": 39,
+      "star_votes": 0,
+      "star_codes": [],
+      "star_quote": "",
+      "signals": [
+        "HF ▲39"
+      ],
+      "headline": "人間のGUI操作デモから再利用可能なスキルを抽出するWork2Skill",
+      "what": "人間のデスクトップ操作を記録し、アクションの依存関係や完了条件を含む「再利用可能なスキル」として抽出するフレームワークです。アクセシビリティツリーやキーボード入力を同期させたデータセットWorkDemo-350を活用します。",
+      "enables": "OSWorldなどのベンチマークにおいて、スキルなしのベースラインと比較して最大10.54ポイントのスコア向上を達成し、未知のソフトウェア操作への適応能力を改善しました。",
+      "why_it_matters": "人間の暗黙的なドメイン知識を形式知（スキル）として抽出・蓄積することで、複雑なワークフローをエージェントが効率的に実行できるようにします。",
+      "tags": [
+        "AIエージェント",
+        "GUI操作",
+        "スキル学習"
+      ],
+      "fetched_at": "2026-10-13T11:54:46.349295+09:00"
+    },
+    {
+      "id": "2610.13912",
+      "title": "RSI-Anything: Unlocking Recursive Self-Improvement with World Models",
+      "url": "https://arxiv.org/abs/2610.13912",
+      "pdf": "https://arxiv.org/pdf/2610.13912",
+      "authors": [
+        "Taoyong Cui",
+        "Pinxian Zeng",
+        "Wanghan Xu",
+        "Hao Xiao",
+        "Shuhan Xue",
+        "Qiang Gao"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "venues": [],
+      "award": false,
+      "talk": false,
+      "workshop": false,
+      "comment": "Code: https://github.com/Gen-Verse/RSI-Anything",
+      "hf_upvotes": 30,
+      "star_votes": 0,
+      "star_codes": [],
+      "star_quote": "",
+      "signals": [
+        "HF ▲30"
+      ],
+      "headline": "世界モデルを活用して自律的に性能を改善し続けるRSI-Anything",
+      "what": "予測可能な世界モデルを用いて、行動選択と学習データの選択をガイドする自己改善（RSI）フレームワークです。観測されたフィードバックに基づき、方策と世界モデルの両方を適応させ、互換性チェックを経てシステムを更新します。",
+      "enables": "コード修正やGUI操作、実験計画などの多様なドメインで性能を向上させ、例えば実験計画ではベイズ最適化を大幅に上回る96.15%の収率予測を達成しました。",
+      "why_it_matters": "外部からの教師信号が乏しい環境でも、世界モデルによる予測と検証のループを回すことで、モデルが自律的に進化し続ける汎用的な枠組みを実証しました。",
+      "tags": [
+        "自己改善",
+        "世界モデル",
+        "AIエージェント"
+      ],
+      "fetched_at": "2026-10-13T11:54:46.349295+09:00"
+    },
+    {
+      "id": "2610.12586",
+      "title": "Realism VS Accuracy: Event Sequence Forecasting from a Generative Modeling Perspective",
+      "url": "https://arxiv.org/abs/2610.12586",
+      "pdf": "https://arxiv.org/pdf/2610.12586",
+      "authors": [
+        "Dmitry Osin",
+        "Egor Surkov",
+        "Petr Mokrov",
+        "Igor Udovichenko",
+        "Ivan Karpukhin",
+        "Evgeny Burnaev"
+      ],
+      "categories": [
+        "cs.LG"
+      ],
+      "venues": [
+        "NeurIPS"
+      ],
+      "award": false,
+      "talk": true,
+      "workshop": false,
+      "comment": "Spotlight at the NeurIPS 2026 Track on Evaluations and Datasets. Code: https://github.com/xaosina/event-sequence-forecasting",
+      "hf_upvotes": null,
+      "star_votes": 0,
+      "star_codes": [],
+      "star_quote": "",
+      "signals": [
+        "Oral等"
+      ],
+      "headline": "イベントシーケンス予測における予測精度と分布のリアリズムのトレードオフを提唱",
+      "what": "金融や医療における不均質なイベント列の予測を条件付き生成問題として捉え、予測精度と生成データのリアリズム（分布の妥当性）の両面から評価した研究です。精度の高いモデルが必ずしも現実的なデータを生成しないというトレードオフを指摘しています。",
+      "enables": "精度とリアリズムを両立させる手法として、拡散モデルからのサンプルを統合するWasserstein BaryBoosterを提案し、新たな最先端の予測性能を達成しました。",
+      "why_it_matters": "単なる統計的予測精度の追求だけでなく、生成データの現実味という新しい評価軸を導入し、時系列データ生成の新たなベンチマークを確立しました。",
+      "tags": [
+        "時系列予測",
+        "拡散モデル",
+        "生成モデル"
+      ],
+      "fetched_at": "2026-10-13T11:54:46.349295+09:00"
+    }
+  ]
+}
