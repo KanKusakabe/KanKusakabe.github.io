@@ -205,17 +205,6 @@
               "fetched_at": "2026-09-30T09:52:23.554674+09:00"
             },
             {
-              "headline": "米最高裁、第三国への移民強制送還の再開を容認する判断",
-              "content": "米連邦最高裁判所は、トランプ政権の政策を支持する形で、移民を出身国以外の安全な第三国へ強制送還することを認める判断を下した。",
-              "impact": "米国の移民・入国管理政策における重大な転換点であり、国際的な人道的議論を呼ぶことは必至。労働力市場や米国内の治安維持、ひいては選挙情勢にも大きな影響を及ぼす。",
-              "date": "9/29",
-              "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQL-1ERC14bXJ6YXd2cmtUMzZlVHBEZ1Z2Wi02VjNyVmJCTjI2ekpHRWtXTlVSSDFyaEgxVGE3bDdfSk9TQ1FkcWJ0MTlqM0hwSWtjR3lrblFNN2ZFRzRQa3lqeXZPcjJWODBQLW91Wi0wbTNpUFV5TmpoTDFuWUZyRVA3dlJpcTFoQ1U3cERjbDBIODFYRTllUEZ0ZlhqWGpyekE?oc=5",
-              "importance": 4,
-              "novelty": 3,
-              "japan_relevance": 1,
-              "fetched_at": "2026-09-30T09:52:23.554674+09:00"
-            },
-            {
               "headline": "AI学習を巡る著作権訴訟、Thomson Reutersが控訴審でも勝訴",
               "content": "米国の控訴裁判所は、AIモデルの学習におけるデータの使用を巡る訴訟で、Thomson Reuters側の著作権保護の主張を認めた。AI開発企業による無断データ利用を制約する判断が維持された。",
               "impact": "AI開発に必要な「学習データ」の取り扱いに関する重要な法的判例。高品質なデータを保有するコンテンツホルダーの権利が強まる一方で、AI開発企業にはコスト増大や法的リスクの不透明感をもたらす。日本のAI開発環境や著作権法議論にも影響を与えるニュースである。",
@@ -467,39 +456,6 @@
               "novelty": 3,
               "japan_relevance": 5,
               "fetched_at": "2026-09-30T09:52:23.554674+09:00"
-            },
-            {
-              "headline": "フランス、Googleへの制裁金をEU予算に充てるよう提案",
-              "content": "フランス政府は、EUがGoogleに科した巨額の制裁金を、加盟国のEU予算拠出金の削減に充てるべきだと提案した。",
-              "impact": "テック企業への規制が財政政策と直接結びつく新しいフェーズ。EU内での財政負担の不均衡解消に向けた議論を加速させ、巨大IT企業に対する「課税」に近い効果をもたらす可能性がある。",
-              "date": "09/29",
-              "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPaXY4RnZOZEM1OVBTQmRuMFg4MVROTjhCTllFVjlHRkZZZ1Q3WmlMWWxaRnRteXZGUFZBdXNoR2hxendIajFQU29JY1ZlNElqMVpTZnd6aDVkdml5OU0tWktVaExQRDBxN3FmQ19OMnBuazhaQXItQTVBZmtDSHZ1TU1BdTVWZDRGT2VFTm1aWndaeDNPM05PRDRod3ZSbWtiWUxXdDNFcmlzX0ZNTmt1cklaUEF6SmFYblJKT1pn?oc=5",
-              "importance": 3,
-              "novelty": 4,
-              "japan_relevance": 2,
-              "fetched_at": "2026-09-29T18:15:00.855580+09:00"
-            },
-            {
-              "headline": "スイス国民投票、厳格な「中立性」強化案を否決",
-              "content": "右派政党が主導した、中立性をより厳格に解釈し国際的な制裁への参加を制限しようとする案が、スイスの国民投票で否決された。これにより、EUなどとの協調路線が維持される形となった。",
-              "impact": "ロシア制裁など国際的な包囲網からスイスが離脱することを回避した。欧州の安全保障枠組みにおける中立国の役割と国際協調のバランスを維持する重要な政治的決定である。",
-              "date": "9/27",
-              "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQSEVGVGszN3k0V3U5cWJMSDhtU3Vfbk5TUmxENHJzVGJhZkd0Zkpya21INWZTempMMzBrWExIRXBXRzVTVXdPdHZ2M3ZDbUp3dmdZZFRSbE1UTkVpdXBUYTJMMXB5MlJlclM3Sk04alQ3V3FINkZUZHJEekdZMUs0RWFGM0ZrOGV5SDV2NmFKZ0V1WDFpYTBBR0ZtcnhBVFB3ellNTFU0ek4wTGI4dTBVa1BwRkU5Zmtsemo2b2kxWdIBxAFBVV95cUxPYjdRaGFKamZSVHM2VUlHQ0VEd1FLcHBQS3E4MDNxcG5xem5lYW9oaXBFenNzMTBCTkVqZm9pOVVPOVJudkNCX3ppdEgyX0s0ODNrTE5QQlJhTkhxX1dhbmo4V0FmSV9SXzA5VGZyX3o0bG1LS2JUcFNHTm9GbzJSY1E1bjg0bmtyTEgzcEJrclE1OGF0Y3NjZktQQm80ejY0Tm84cFgyZFJiYnZ1RnVieFNZWlVvUXdCcmNDQ2RNTmtfUmw2?oc=5",
-              "importance": 3,
-              "novelty": 4,
-              "japan_relevance": 2,
-              "fetched_at": "2026-09-28T18:05:42.674613+09:00"
-            },
-            {
-              "headline": "セルビアのブチッチ大統領が辞任、首相就任へ向けた政治的再編へ",
-              "content": "セルビアのブチッチ大統領が辞任を表明し、早期選挙を通じて首相職を目指す方針を示した。強権的な指導力を持つ同氏の転身は、国内政治のさらなる実権掌握を狙ったものと見られる。",
-              "impact": "バルカン半島の安定において鍵を握るセルビアの政治体制が流動化する。ロシアや中国との関係が深い指導者であるため、今後のEU加盟交渉や周辺国との緊張関係にも影響を及ぼす。",
-              "date": "9/28",
-              "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOa0VYLUk5aFBhcl81NjZxZFlRVzNoMXNacDlZOGhkTVVwRkY0TDE4ekpnSVFKMnNTT09SM3pqUWctTDF1cEhycm93V0MxWUdhTmcwbGxoZUg5RU9rVnBVX01rNm4zQkUtZlc3d0xkV1FZM3loUzZLcjNZVmhZZmV4XzRUVkxoMm9INmlfYWNyYkVKU1RXUHVKMEV5a3d1Qmc?oc=5",
-              "importance": 3,
-              "novelty": 5,
-              "japan_relevance": 1,
-              "fetched_at": "2026-09-28T18:05:42.674613+09:00"
             },
             {
               "headline": "UBSに対し海外銀行が買収・合併への関心を表明",
@@ -913,28 +869,6 @@
               "novelty": 4,
               "japan_relevance": 3,
               "fetched_at": "2026-09-28T09:06:46.274234+09:00"
-            },
-            {
-              "headline": "英国のバーナム首相、EU離脱の「弊害」を指摘し関係強化を提案",
-              "content": "英国のバーナム首相は、EU離脱が英国経済にもたらした損害を認め、欧州連合との関係を再構築するための提案を行う意向を示しました。「利益よりも害が多かった」との認識を示しています。",
-              "impact": "ブレグジット後の英国の対外政策の大きな転換点となる可能性があります。貿易障壁の緩和や安全保障協力を通じて欧州との再接近を図ることで、サプライチェーンの安定化や経済成長の回復を目指す動きとして注目されます。",
-              "date": "9/29",
-              "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9ERUMzSkpEMEQ5Z3NDaV95SF9JamZTZG1GVlNxRV8xT2ZlNmZHVkZCU0ZpUEJlc1VKR2xJcTRSMHBTV05HcjN5RVA4clBuUG1rTEhtd3FKYURiY29mUE9RQ1RYR2tKQzNJOXpQbw?oc=5",
-              "importance": 3,
-              "novelty": 4,
-              "japan_relevance": 2,
-              "fetched_at": "2026-09-30T09:52:23.554674+09:00"
-            },
-            {
-              "headline": "ディズニーが数百人規模の追加レイオフ、テック・企業部門を削減",
-              "content": "ウォルト・ディズニー社は、複数の部門にわたり数百人の従業員を解雇したことが報じられました。新任のジョシュ・ダマロ氏の下でのコスト削減策の一環で、特にコーポレート部門や技術職が対象となっています。",
-              "impact": "メディア・エンターテインメント業界における再編とコスト意識の強化を象徴しています。動画配信事業の収益化や広告市場の不透明感から、テック系職種を含むリストラが続いていることは、労働市場の変調を示唆しています。",
-              "date": "9/29",
-              "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBRaHFKM25oUEhJTEV0cUNjNC00WGs0MlpGRVB4YTNGRjJzQ0d6LWVnYWYwWHRDTXUwNGs3dy1KX1JmWkFkR0hmNVhLTDVNSl84RWZUb3o0WmllMFRsWnNNNElpeWtWdXhEdGV5TUUwRETSAXZBVV95cUxNMkVSWkJLOE5jcmktbHN2T2lLMTVFQXZPU1BabnhISldha1hQdDJpY3hwZmhIM2ctdlVCTE55S0N3U1ZGb1RnSDN1ZEF1a211cGliQURXVDFLVmtITjRIRzgzajRaN243dzRvLUpJZXFmWWV6YjdB?oc=5",
-              "importance": 3,
-              "novelty": 3,
-              "japan_relevance": 3,
-              "fetched_at": "2026-09-30T09:52:23.554674+09:00"
             },
             {
               "headline": "ファナック、AI時代を見据え米国シフトを鮮明に　部品網の懸念も",
@@ -1460,17 +1394,6 @@
               "fetched_at": "2026-09-30T18:07:48.704790+09:00"
             },
             {
-              "headline": "オランダ警察、大手企業への攻撃に関与した「ShinyHunters」ハッカーを逮捕",
-              "content": "著名なハッカー集団「ShinyHunters」の一員とされ、複数の大手企業への不正アクセスや、さらには殺害計画にも関与した疑いのあるセキュリティ専門家が逮捕された。",
-              "impact": "技術に精通した「内部のプロ」が犯罪に加担するリスクを浮き彫りにした。企業にとっては外部からの攻撃だけでなく、特権アカウントを持つ技術スタッフのガバナンスと監視がいかに重要であるかを再認識させる事件である。",
-              "date": "09/29",
-              "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPUUk5Vmt6dUlDUXVVY1N0N05NTTNaVzV5SG56OVJIZ3k3UTZmSmltd08ybHhyU0xybkVpNWhwOGhMVE5oT0lHMlg2OTB5bm11c0g1Q0YxSzRXMk5BOGxQLTFxSTdIZHBxWG9HeVg1S2NFM3ZvWjZpVVc3U2RYSzl1U2hNX2dvT0pTY3lIR0FIUGpZNi1neVgySndHSVppSFV5QXVqWWxETTNMRXdBd2RQX1Z1SQ?oc=5",
-              "importance": 3,
-              "novelty": 3,
-              "japan_relevance": 3,
-              "fetched_at": "2026-09-30T18:07:48.704790+09:00"
-            },
-            {
               "headline": "NVIDIA主導の「暴走AIエージェント防止」枠組みにOpenAIが不参加、業界の亀裂鮮明に",
               "content": "NVIDIAが主導する、不適切なAIエージェントを抑制するための業界全体での取り組みに、OpenAIが参加を見送ったことが明らかになりました。AIの安全性を巡る標準化プロセスにおいて、主要企業間の足並みの乱れが目立っています。",
               "impact": "AIセーフティのルール作りが「共同歩調」から「プラットフォーム間の競争」に変質していることを示しています。ガバナンスの欠如は規制当局の介入を招く恐れがあります。",
@@ -1873,28 +1796,6 @@
               "fetched_at": "2026-09-30T18:07:48.704790+09:00"
             },
             {
-              "headline": "重力そのものが「薬」になる可能性：宇宙医学の新展開",
-              "content": "重力環境が人体に与える影響を逆手に取り、重力そのものを治療法として活用する研究が報じられた。微小重力や人工重力が、将来の医療において新たな選択肢となる可能性を示唆している。",
-              "impact": "長期の宇宙滞在で懸念される筋肉や骨の衰退を防ぐだけでなく、地上においても物理的な刺激をベースとした新たなリハビリテーションや治療法の開発に繋がる革新的な視点である。",
-              "date": "9/29",
-              "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPNDVDQ19qWFM5ZUV1N2lYTmJjcDR3NlB1SXUzVDU1M3VxbjlmVFFRazBlQjJDZUVmNURDSGpQQlVsTTY0YzJBLWY3d3I1ZUh2akRVejdzcWhtMWpxQXphNEpRRjQ0UnRUczBHN0RNMlpIc2dkT0M2V3hfc1p3VVZRdEtzS2M1TzZIVThmaDJ2VFlrdXg5Nkt1cEFQV0o4QlFtVFZZ?oc=5",
-              "importance": 3,
-              "novelty": 4,
-              "japan_relevance": 2,
-              "fetched_at": "2026-09-30T18:07:48.704790+09:00"
-            },
-            {
-              "headline": "冷戦時代の米軍スパイ衛星が軌道上で謎の爆発",
-              "content": "運用を終えていた冷戦時代の米軍スパイ衛星が地球周回軌道上で爆発し、破片が飛散した。爆発の原因は現在のところ不明であり、他の衛星への衝突リスクが懸念されている。",
-              "impact": "「ケスラーシンドローム」への懸念を再燃させる事象であり、古い宇宙資産の安全な処理（デオービット）の重要性を改めて突きつけている。宇宙の持続可能性と安全保障に直結する問題である。",
-              "date": "9/28",
-              "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOeEx6Rl9HQ2J3MjRQd0xhQ2tfaVJSbFRuOE9SdXF2RTk1SlM2UVdyaXpiNHNjU0FSa3FMWjdKM25UZ3p2Y3FaUGE4RmphWl9rSG42Z21HZlRFNmZ3b3FqTWdNRGJaYkZ2cXUxTUVkNl9mTzkzZ2J1WndmbGdQS25CakIxM05jWURsVzByVXh3bTcxOUVMQVpnMEJ4VjlzdnZJSHlsaEhrY0RJM1FKcjZ5ZEJZZzZtZXdUclFEYkE0Q0dNQUpaTW9zTGpFaFdCRHp3SDdv?oc=5",
-              "importance": 3,
-              "novelty": 4,
-              "japan_relevance": 2,
-              "fetched_at": "2026-09-30T18:07:48.704790+09:00"
-            },
-            {
               "headline": "ショウジョウバエは幼少期の食事を「記憶」し、寿命に影響する",
               "content": "ショウジョウバエの幼虫期の食生活が、成虫になってからの記憶や寿命に長期的な影響を与えることが研究で明らかになった。エピジェネティクス的なメカニズムが示唆されている。",
               "impact": "初期の栄養環境が個体の生涯にわたる健康や寿命を決定づける仕組みの解明は、アンチエイジングや疾患予防、さらにはヒトの健康維持における食事の重要性を再定義する基礎科学的な知見となる。",
@@ -1904,83 +1805,6 @@
               "novelty": 4,
               "japan_relevance": 3,
               "fetched_at": "2026-09-30T18:07:48.704790+09:00"
-            },
-            {
-              "headline": "初期の地球に似た「冷たい溶岩惑星」が発見される",
-              "content": "天文学者が、地表が溶岩に覆われつつも比較的温度が低い、初期の地球の状態を彷彿とさせる系外惑星を発見しました。TESS衛星のデータ分析による成果です。",
-              "impact": "地球がどのようにしてドロドロの溶岩状態から固体の地殻を持ち、生命を育む惑星へと進化したのかを解明するための「生きている教科書」となります。惑星形成論の検証において極めて重要な観測対象です。",
-              "date": "9/29",
-              "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPcHFuTVZNalEtRU0yXzdwMlpoSzBENjdTUWFQMVkzYXdjMm95WUhRa2xEWmtZUGlYQVRyZ1pjc0prdEwzQmFqSndZOG9pQUFOX0lwaFNPNXV1OEF3bnFyV3VaRTdncFNRcVZxSlk1RHdGZnBhNnNwM2ZpRlA1Sm1sVXNENnYyX3QzRTlWM1NuYmRiRXU3MlhVb3MzNGhHN3dQWnZuNzltS2J4TjlNSVBXcEF3?oc=5",
-              "importance": 3,
-              "novelty": 4,
-              "japan_relevance": 2,
-              "fetched_at": "2026-09-30T09:52:23.554674+09:00"
-            },
-            {
-              "headline": "オクラホマ州の巨大クレーターの年代特定が修正、大量絶滅の時期と一致",
-              "content": "地下に埋没していたクレーターの年代測定をやり直したところ、従来説より1億年新しく、地球規模の大量絶滅が発生した時期と重なることが判明しました。",
-              "impact": "地球史における衝突イベントと生物相の崩壊の因果関係を再定義する発見です。一つの発見が地質学的タイムスケールの常識を覆し、当時の生態系への物理的な影響を科学的に裏付ける重要なピースとなります。",
-              "date": "9/29",
-              "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQNE1NYnBMVVByWElTSkxUcnBmZ0p0bmZfcC1vUVZMYmxmQnNQRWtXX3kxaFFxajU0eE5jbndqRkFINGx6ZnBxLWh5cDJ0QkVsYWRjREx3ODNMTmlKcGx3MURNQlhYbVl2SFpfRm9mUU5NSDNwVTQ4ZHNneXNzNXh6YlAxc0FlaEMxSXlPNFZjenlRanB6RzFiQm14RVF3MF9EZjAwZWpsSGxicVFnT0l6c05EeWNBNTNGMHV5YnUwdVZ6VUdxZlFYNW1B?oc=5",
-              "importance": 3,
-              "novelty": 4,
-              "japan_relevance": 1,
-              "fetched_at": "2026-09-30T09:52:23.554674+09:00"
-            },
-            {
-              "headline": "製薬業界による戦略的特許蓄積「パテント・シックセット」の経済的弊害",
-              "content": "大手製薬会社が競合他社の参入を阻止し、薬価を高く維持するために、単一の医薬品に対して数百もの周辺特許を取得する実態が報告されている。これがジェネリック薬品の普及を妨げている。",
-              "impact": "バイオテクノロジーのイノベーションが独占によって阻害されるリスクを示唆している。知財保護と医療の公共性のバランス、および将来の創薬エコシステムの設計に一石を投じる。",
-              "date": "9/28",
-              "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPa09qUzJXbXJKb3p0SmlEeUFuWU5obTBsVUNmSTBqZmlvNllzZTZqd2NYY0tNT0lGYklvMkdtNklDTmc3bkZQcjRlNm1wTU4xVFhXWVVPZFhZcmtlMnZ6dHZZUHZpdDYyX3dKOEI3dzlJQ3c4U2M0U3JnRXBEa2VheE1MQWtyR25aRnJsdHRYYlZ3dDM1eGZCckQ3OHpDS2xGR0dQTQ?oc=5",
-              "importance": 3,
-              "novelty": 3,
-              "japan_relevance": 3,
-              "fetched_at": "2026-09-29T18:15:00.855580+09:00"
-            },
-            {
-              "headline": "民間機によるNASA望遠鏡救済ミッションが失敗、大気圏再突入へ",
-              "content": "軌道上で寿命が尽きつつあるNASAの観測装置を救うため派遣された民間宇宙船が、技術的な課題によりミッションを完遂できず地球に落下した。軌道上サービス（OSAM）の難易度が改めて浮き彫りになった。",
-              "impact": "軌道上の高価値な資産を保守・延長するビジネスモデルの課題を露呈させた。将来のスペースデブリ除去や衛星保守産業の技術的リスク評価に影響を与える。",
-              "date": "9/25",
-              "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPMlB0azM0d01WWmlDSm1jeVpxRld1LTVUem9tT29GT0ttZjlhclEySFRFZWFYVHdzNTg2LVJfUEdYRGtJSGkxeUdZNkQ1M0tQX09LOVl5Ujl3NDF3NXBNYVcxbnNSVUcwUG43dHhodzhpTnB3WTgwa1BMbHZLTmVwSHNsaVltSnBMQ1VzU2Zaa3RMRDA?oc=5",
-              "importance": 3,
-              "novelty": 4,
-              "japan_relevance": 2,
-              "fetched_at": "2026-09-29T18:15:00.855580+09:00"
-            },
-            {
-              "headline": "金星の過酷な酸性環境は複雑な化学反応に対し「寛容」である可能性",
-              "content": "金星の大気は強酸性で生命や複雑な化学反応を拒むと考えられてきたが、最新の研究では特定の条件下でアミノ酸などが安定して存在できる可能性が示された。これまでの金星環境に対する常識を覆す発見である。",
-              "impact": "アストロバイオロジー（宇宙生物学）における探査対象を広げる知見であり、火星だけでなく金星における生命の兆候探査の重要性を再認識させる。惑星形成論や大気化学のモデル修正を迫るものだ。",
-              "date": "9/28",
-              "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOTXlBYkZ5UGo5UVN0dFpUT0VmLVBsN28yMHZWNG9VNUNMUDlhdGxJOWtEZmtyTlFKd3d6OXdyNnhuNi1tYVQzWEU5ZFZNZ0U3VDVOZV9nMVVka3poNFE0NXlLUi15TXRKZjJ5NzlsdUJhYzRrby02c2xXQ3kzenA1THRjVUZpZnQ1dDEwdElDb2ljOGQ3QmVHV240UmRESmY4LXdTaGxMNjdKT3M?oc=5",
-              "importance": 3,
-              "novelty": 4,
-              "japan_relevance": 1,
-              "fetched_at": "2026-09-29T10:20:46.094369+09:00"
-            },
-            {
-              "headline": "国際宇宙ステーションの大型ロボットアームが動作停止、NASAが復旧に向け調査",
-              "content": "ISSの基幹インフラである大型ロボットアームが機能を停止した。輸送機の移動や船外活動の支援に不可欠な装備であり、現在NASAのチームがトラブルシューティングを行っている。",
-              "impact": "老朽化が進むISSの維持管理の難しさを改めて浮き彫りにした。民間宇宙ステーションへの移行や、宇宙空間でのロボティクス修理・メンテナンス技術の重要性がさらに高まっている。",
-              "date": "9/28",
-              "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOVWd5UkUxaTlMei1zUlQ3RFU5YmVyRGlGTGI3S0Rua0ZsRUk3em80VTZKM2drRnVmRjVBNUtqSnBhQnNHSzNhSDF2LUtmdXlMZUJNcGZxX1JfQkhvc2g0alZxWU16dV9SdTZJMG1UYzhCOS1nR1FDWXhTVU44cG0tbHJSTVdSNW9hbkM2QnJBSVludVFtS0JpZElxNUpQUWVHQ1BySXdMdzFEdHh4YUYxNmJxcjRtdw?oc=5",
-              "importance": 3,
-              "novelty": 3,
-              "japan_relevance": 3,
-              "fetched_at": "2026-09-29T10:20:46.094369+09:00"
-            },
-            {
-              "headline": "1840年代に発生した「謎の宇宙天気現象」の正体を現代の科学者が解明",
-              "content": "約180年前に記録された異常な磁気嵐と宇宙天気現象のメカニズムが、最新の太陽物理学モデルと歴史データの再分析によって解明された。太陽の活動周期における特異なエネルギー放出が原因だったとされる。",
-              "impact": "過去の極端な宇宙天気事象を理解することで、将来的な大規模太陽嵐（カリンントン・イベント級）の予測精度を高めることができる。現代の電子機器・電力網への被害を最小化するための重要な知見だ。",
-              "date": "9/28",
-              "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOOEVnaV9oYmdOaEIzamdSY2RqdEtJWnhhdk5QUm5rVTl5UUVXRjhyaFVrdWhuVlBWWlpKYWNEb3o0M05mcERNRS1icWw3NGpWaWJJT3NqRWZ3ekRQR19fMndKczNrT2xnQm83ZTdqQnl2WlE4WW5DckwtcUlGdDM0RnpXUHVHUHVUQlJqRm9R?oc=5",
-              "importance": 3,
-              "novelty": 4,
-              "japan_relevance": 2,
-              "fetched_at": "2026-09-29T10:20:46.094369+09:00"
             },
             {
               "headline": "2011年の東日本大震災による津波がイトヨの急速な交雑とゲノム浄化を誘発",
@@ -2014,28 +1838,6 @@
               "novelty": 4,
               "japan_relevance": 3,
               "fetched_at": "2026-09-28T09:06:46.274234+09:00"
-            },
-            {
-              "headline": "ジェイムズ・ウェッブ宇宙望遠鏡が捉えた過去最大級の星形成領域画像",
-              "content": "ジェイムズ・ウェッブ宇宙望遠鏡が、塵の中に隠れた記録破りの星々を含む巨大な星形成領域のパノラマ画像を公開した。",
-              "impact": "星の誕生と進化の初期段階をこれまでにない詳細さで可視化することで、銀河系の星形成効率や化学進化モデルの制約を大幅に強化する。赤外線観測による宇宙論研究の質的向上を示している。",
-              "date": "09/27",
-              "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxOREVJVHJKM3dvWkJZNjJEcVp1UmNINTNUQU9OOS15cERxVGtpZFNPX1I5NS03Ujk1MThTbHRseDBsVVlObmJ4ZGFLbG83RWxaeEpTTXB1VmRNdm9sTllaSi1jbHk2QVg4cW5rV0lvZzVfWDdsMGk5Y19UakFwTy1EQjdDZmxhbDZ4MkhsLVNyRWstMWZLbGhrNlg0bktLaVVOZFVOZTJFODdxejBSOGNMcV9tVnkzSUZwNEsyQmdDZi04N19EUkpwWU1FUktqYzlkUGJxQnRZV19mcGFIY21qSGdPUjZwbTJKdWZKY3h1YXdGVENRbXV0UW1iUG9iRU94S2c?oc=5",
-              "importance": 3,
-              "novelty": 4,
-              "japan_relevance": 2,
-              "fetched_at": "2026-09-28T09:06:46.274234+09:00"
-            },
-            {
-              "headline": "「バイオニック・リーディング」の速読効果を科学的テストで検証",
-              "content": "単語の冒頭数文字を強調（太字化）することで読書スピードを向上させると主張する「バイオニック・リーディング」について、科学者が実証実験を行った。結果として、期待されたほどの顕著な速度向上は確認されなかったことが報告されている。",
-              "impact": "認知科学の観点から情報の視覚処理プロセスを再検討する機会を提供する。広く信じられている技術的ライフハックをエビデンスベースで評価することの重要性を示しており、将来的な視覚支援技術のデザインに影響を与える。",
-              "date": "9/27",
-              "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5BUW5NNXViazNhbGFRc3p0RGdCWjFsYUxPbkR0U25KWVFVZjFHUEgyN3RFd01hQ3FRSFYtTW92bDd4SzJ2OW8zSS0wbW9zOHJvQWJwaUJyVDRndTdMbHF3aGFyQlRtZVluNFM0?oc=5",
-              "importance": 2,
-              "novelty": 3,
-              "japan_relevance": 3,
-              "fetched_at": "2026-09-28T18:05:42.674613+09:00"
             }
           ]
         },
@@ -2363,17 +2165,6 @@
               "fetched_at": "2026-09-28T09:06:46.274234+09:00"
             },
             {
-              "headline": "Go言語における「ゼロ成長スタック」：スタック割り当て最適化による10%のCPU改善",
-              "content": "Goのスタック割り当てを最適化することで、不要なヒープへのエスケープを減らし、実業務のワークロードで10%のCPU負荷を削減する手法が紹介されました。メモリ管理の微細な調整が全体のパフォーマンスに与える影響を実証しています。",
-              "impact": "高トラフィックなマイクロサービスを運用するエンジニアにとって、言語レベルの最適化がいかにコスト削減に直結するかを示しています。Goの内部構造を理解し、割り当てパターンを設計することで、インフラコストの最適化が可能になります。",
-              "date": "09/29",
-              "url": "https://www.reddit.com/r/programming/comments/1wtnwfs/zerogrowth_stack_real_gains_how_stack_allocation/",
-              "importance": 3,
-              "novelty": 3,
-              "japan_relevance": 3,
-              "fetched_at": "2026-09-30T09:52:23.554674+09:00"
-            },
-            {
               "headline": "AIエージェントのトークン消費を抑える運用の知恵：キャッシュの仕組みとセッション管理",
               "content": "Claude CodeやCodexなどのAIツールを長時間使用する際、自動的なコンテキスト要約（compact）によってトークン消費が急増する問題を分析しています。プロンプトキャッシュの挙動を実測し、消費を抑えるためのセッション切り替え目安を提示しています。",
               "impact": "AI駆動開発が定着する中、APIコストや利用制限の管理は実務上の課題です。技術的な内部構造（キャッシュ）を理解した上で運用ルールを設けることで、エンジニアの生産性を維持しつつコスト効率を最大化する知見を提供します。",
@@ -2393,17 +2184,6 @@
               "importance": 3,
               "novelty": 4,
               "japan_relevance": 3,
-              "fetched_at": "2026-09-30T09:52:23.554674+09:00"
-            },
-            {
-              "headline": "スタッフエンジニアに求められる「仕事を創出する（Inventing Work）」能力の重要性",
-              "content": "プラットフォームチームやシニア層において、プロダクトマネージャーに依存せず、プラットフォームの価値を高める仕事を自ら発明し、ロードマップを構築する手法が議論されています。エンジニアリング主導の組織におけるリーダーシップの在り方を定義しています。",
-              "impact": "技術力だけでなく、組織やビジネスにおける技術的負債やボトルネックを特定し、プロジェクト化する能力は、キャリアアップを目指すエンジニアにとって不可欠な示唆です。自律的なチーム運営の理想像を提示しています。",
-              "date": "09/28",
-              "url": "https://sujithjay.com/inventing-work",
-              "importance": 3,
-              "novelty": 2,
-              "japan_relevance": 4,
               "fetched_at": "2026-09-30T09:52:23.554674+09:00"
             },
             {
@@ -2438,17 +2218,6 @@
               "novelty": 4,
               "japan_relevance": 4,
               "fetched_at": "2026-09-29T10:20:46.094369+09:00"
-            },
-            {
-              "headline": "ASP.NET Coreにおける冪等な決済APIの設計手法",
-              "content": "支払処理などのミュータブルな操作において、リトライによる二重決済を防ぐための冪等性（Idempotency）パターンの実装例が公開された。リクエストIDの検証と永続化レイヤーでの整合性チェックを組み合わせた実践的な手法。",
-              "impact": "API設計の基本だが、決済や外部連携などの障害復旧において極めて重要。タイムアウト後のリトライを安全に処理するための具体的なコード実装例は、バックエンドエンジニアにとって即座に実務に活かせる知見である。",
-              "date": "09/28",
-              "url": "https://dev.to/developerimranahmed/designing-an-idempotent-payment-api-in-aspnet-core-1g3k",
-              "importance": 3,
-              "novelty": 2,
-              "japan_relevance": 3,
-              "fetched_at": "2026-09-28T18:05:42.674613+09:00"
             },
             {
               "headline": "Claude Codeの「effort」設定の技術的意義と調整方法",
