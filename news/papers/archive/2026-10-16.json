@@ -1,0 +1,893 @@
+{
+  "date": "2026-10-16",
+  "arxiv": [
+    {
+      "id": "2610.19033",
+      "title": "How Many Ranks Does a Token Need? A Noise-Floor Squelch for Rank-One LoRA Experts",
+      "url": "https://arxiv.org/abs/2610.19033",
+      "pdf": "https://arxiv.org/pdf/2610.19033",
+      "authors": [
+        "Mei Okonkwo",
+        "Owen Castellanos",
+        "Ingrid Solberg",
+        "Yusuf Demirel"
+      ],
+      "categories": [
+        "cs.LG"
+      ],
+      "venues": [],
+      "award": false,
+      "talk": false,
+      "workshop": false,
+      "comment": "preprint",
+      "hf_upvotes": null,
+      "star_votes": 2,
+      "star_codes": [
+        "new"
+      ],
+      "star_quote": "introduce SQUELCH, a router-free mixture of rank-one experts",
+      "signals": [],
+      "headline": "LoRAエキスパートの最適なランク数を動的に決定するノイズ除去手法SQUELCHの提案",
+      "what": "LoRAの各成分に対するトークンの応答をガウスノイズと見なし、Steinの推定量を用いてトークンごとに最適なソフト閾値を決定する手法です。さらにValue Gram行列を用いた修正ステップにより、冗長な成分を抑制し相補的な成分を活性化させます。",
+      "enables": "追加の学習パラメータなしで、LLaMA-3.1-8B等においてLoRAを2.2～3.2ポイント上回り、平均8.6個のコンポーネント活性化で従来のMoE手法を凌駕しました。",
+      "why_it_matters": "固定のランク数や学習済みルーターを必要とせず、数学的なリスク一貫性に基づいて推論効率と精度の両立を実現しています。",
+      "tags": [
+        "LoRA",
+        "MoE",
+        "推論最適化"
+      ],
+      "fetched_at": "2026-10-16T09:08:52.557938+09:00"
+    },
+    {
+      "id": "2610.19305",
+      "title": "Data-free Multistep Diffusion Distillation",
+      "url": "https://arxiv.org/abs/2610.19305",
+      "pdf": "https://arxiv.org/pdf/2610.19305",
+      "authors": [
+        "Ngoc Duy Tran",
+        "Kien Do",
+        "Duc Thanh Nguyen",
+        "Truyen Tran"
+      ],
+      "categories": [
+        "cs.CV"
+      ],
+      "venues": [],
+      "award": false,
+      "talk": false,
+      "workshop": false,
+      "comment": "22 pages, 14 figures, 10 tables",
+      "hf_upvotes": null,
+      "star_votes": 1,
+      "star_codes": [
+        "new"
+      ],
+      "star_quote": "propose Progressive Multistep Data-free Distillation (PMDD)",
+      "signals": [],
+      "headline": "データフリーかつ複数ステップ対応の蒸留手法PMDDによる拡散モデルの高速化",
+      "what": "各推論ステップ数に対応する専用の適応ネットワークを割り当てつつ、先行ステップの生成を保護するunforget lossを組み合わせたPMDDを提案しています。単一モデルで複数の推論予算をサポートし、最適化のバイアスを低減します。",
+      "enables": "ImageNet 64x64で2ステップ時にFID 1.99を達成し、教師モデル（512ステップ）を上回る品質を、既存手法の約4〜5倍低い計算コストで実現しました。",
+      "why_it_matters": "学習データを必要とせず、高品質なマルチステップ生成と計算効率を同時に達成できる実用的な蒸留フレームワークです。",
+      "tags": [
+        "拡散モデル",
+        "モデル蒸留",
+        "画像生成"
+      ],
+      "fetched_at": "2026-10-16T09:08:52.557938+09:00"
+    },
+    {
+      "id": "2610.19364",
+      "title": "Dynamic Graph World Modelling: Learning Future Dynamics from Temporal Context",
+      "url": "https://arxiv.org/abs/2610.19364",
+      "pdf": "https://arxiv.org/pdf/2610.19364",
+      "authors": [
+        "Bo Li",
+        "Yue Yang",
+        "Yujin Huang",
+        "Siao Liu",
+        "David Lemphers",
+        "Sara E Rodriguez Gomez"
+      ],
+      "categories": [
+        "cs.LG"
+      ],
+      "venues": [],
+      "award": false,
+      "talk": false,
+      "workshop": false,
+      "comment": "",
+      "hf_upvotes": null,
+      "star_votes": 1,
+      "star_codes": [
+        "new"
+      ],
+      "star_quote": "propose Dynamic Graph World Modelling (DyG-WM), the first framework",
+      "signals": [],
+      "headline": "時間的コンテキストから将来のグラフ状態を予測する動的グラフ世界モデルDyG-WM",
+      "what": "履歴のノード・関係の軌跡を要約するエンコーダーと、構造変化を捉えるパスシグネチャエンコーダーを備えたフレームワークです。生グラフを再構成せずにターゲットの埋め込み表現を直接予測する目的関数を採用しています。",
+      "enables": "12のリンク予測と2つのノード分類データセットにおいて、構造の経時変化を捉えることで高精度な将来予測が可能になりました。",
+      "why_it_matters": "ノードと関係の進化を分離・統合して学習する初の世界モデルであり、スパースな将来の観測データに対しても頑健な学習を実現しています。",
+      "tags": [
+        "グラフニューラルネットワーク",
+        "世界モデル",
+        "時系列予測"
+      ],
+      "fetched_at": "2026-10-16T09:08:52.557938+09:00"
+    },
+    {
+      "id": "2610.19625",
+      "title": "DAGFormer: Global Topology Prediction for Transformer Cross-Layer Connections",
+      "url": "https://arxiv.org/abs/2610.19625",
+      "pdf": "https://arxiv.org/pdf/2610.19625",
+      "authors": [
+        "Xiaocong Yang",
+        "Yuren Hao",
+        "ChengXiang Zhai"
+      ],
+      "categories": [
+        "cs.CL",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "venues": [],
+      "award": false,
+      "talk": false,
+      "workshop": false,
+      "comment": "",
+      "hf_upvotes": null,
+      "star_votes": 2,
+      "star_codes": [
+        "new",
+        "sota"
+      ],
+      "star_quote": "propose DAGFormer, a Transformer language model whose cross-layer connections",
+      "signals": [],
+      "headline": "Transformerの層間接続を動的に最適化し学習効率を向上させるDAGFormer",
+      "what": "トポロジー予測器を同時に学習し、標準的な残差接続を超えて、入力トークンに基づいた最適な層間接続を動的に計画するアーキテクチャです。モデル全体のルーティングを一括で決定する点が特徴です。",
+      "enables": "1Bパラメータモデルにおいて、従来のTransformerが10Bトークン学習して到達する精度を5Bトークンの学習で上回り、WikiText-2のPerplexityを最大25%改善しました。",
+      "why_it_matters": "層間の情報の流れを最適化することで、既存のルーティング手法よりも高いデータ効率と性能、および構造的プルーニングへの耐性を獲得しています。",
+      "tags": [
+        "Transformer",
+        "アーキテクチャ",
+        "LLM"
+      ],
+      "fetched_at": "2026-10-16T09:08:52.557938+09:00"
+    },
+    {
+      "id": "2610.19942",
+      "title": "MorphingNet: Symbolic Regression Where the Network Is the Formula",
+      "url": "https://arxiv.org/abs/2610.19942",
+      "pdf": "https://arxiv.org/pdf/2610.19942",
+      "authors": [
+        "Jincheng Gao",
+        "Jiahe Yi",
+        "Shuo Sun"
+      ],
+      "categories": [
+        "cs.LG"
+      ],
+      "venues": [],
+      "award": false,
+      "talk": false,
+      "workshop": false,
+      "comment": "15 pages, 1 figure, 9 tables",
+      "hf_upvotes": null,
+      "star_votes": 2,
+      "star_codes": [
+        "new",
+        "sota"
+      ],
+      "star_quote": "introduce MorphingNet, a network for symbolic regression (SR)",
+      "signals": [],
+      "headline": "ネットワーク自体が数式として機能し連続最適化が可能な記号回帰手法MorphingNet",
+      "what": "関数の形式を学習可能なパラメータとし、指数関数や正弦波などに連続的に変化できるユニットで構成されたネットワークです。学習プロセス全体が連続最適化問題として処理され、最終的に簡潔な数式へと変換されます。",
+      "enables": "SRBenchでSOTAを達成し、大規模データにおいて最強の探索ベース手法よりも最大100倍高速に動作し、生成元の数式を正確に復元しました。",
+      "why_it_matters": "離散的な数式探索をGPUフレンドリーな密な線形代数に置き換えることで、科学的発見におけるスケーラビリティの問題を解決しています。",
+      "tags": [
+        "記号回帰",
+        "科学的機械学習",
+        "GPU加速"
+      ],
+      "fetched_at": "2026-10-16T09:08:52.557938+09:00"
+    },
+    {
+      "id": "2610.20331",
+      "title": "Are We Overthinking One-Step Generation?",
+      "url": "https://arxiv.org/abs/2610.20331",
+      "pdf": "https://arxiv.org/pdf/2610.20331",
+      "authors": [
+        "Woobin Park",
+        "Jaeyeon Kim",
+        "Yilun Du",
+        "Sitan Chen",
+        "Bohyung Han"
+      ],
+      "categories": [
+        "cs.LG"
+      ],
+      "venues": [],
+      "award": false,
+      "talk": false,
+      "workshop": false,
+      "comment": "",
+      "hf_upvotes": null,
+      "star_votes": 1,
+      "star_codes": [
+        "new"
+      ],
+      "star_quote": "introduce Priming Models, a simple two-stage framework",
+      "signals": [],
+      "headline": "再構成学習と特徴量空間の分布調整によるシンプルで高速な1ステップ画像生成モデル",
+      "what": "Priming Modelsと呼ばれる2段階の学習フレームワークで、まず固定ノイズレベルでの再構成（デノイジング）を学習し、その後に特徴量空間での分布学習を行います。複雑な蒸留手法を必要としません。",
+      "enables": "ImageNet 256x256において、既存手法の約1/10の計算コストで、1ステップ生成モデルとして最高水準のFID 1.19を達成しました。",
+      "why_it_matters": "1ステップ生成における学習の難しさが、単純な再構成学習の先行実施だけで解消できることを示し、学習効率のパレート限界を更新しました。",
+      "tags": [
+        "画像生成",
+        "1ステップ生成",
+        "拡散モデル"
+      ],
+      "fetched_at": "2026-10-16T09:08:52.557938+09:00"
+    },
+    {
+      "id": "2610.20375",
+      "title": "Hypothesis Selection via Weighted Medians",
+      "url": "https://arxiv.org/abs/2610.20375",
+      "pdf": "https://arxiv.org/pdf/2610.20375",
+      "authors": [
+        "Liang-Yu Zou"
+      ],
+      "categories": [
+        "cs.DS",
+        "cs.LG"
+      ],
+      "venues": [],
+      "award": false,
+      "talk": false,
+      "workshop": false,
+      "comment": "",
+      "hf_upvotes": null,
+      "star_votes": 2,
+      "star_codes": [
+        "sota"
+      ],
+      "star_quote": "The running time improves the dependence on the failure probability from polynomial to logarithmic",
+      "signals": [],
+      "headline": "重み付き中央値を利用し対数的な失敗確率で最適な仮説を選択する高速アルゴリズム",
+      "what": "複数の分布候補からターゲット分布に最も近いものを選択する問題に対し、重み付き中央値を用いた新しいアルゴリズムを提案しています。サンプル複雑度と近似因子の両方で最適性を備えています。",
+      "enables": "実行時間の失敗確率への依存度を多項式から対数（log(1/δ)）へと改善し、状態空間のサイズに対して効率的な計算を可能にしました。",
+      "why_it_matters": "理論的な計算量上限を達成しつつ、先行研究で未解決だった計算効率の問題を解消したアルゴリズム理論上の進展です。",
+      "tags": [
+        "アルゴリズム理論",
+        "分布推定",
+        "統計的学習理論"
+      ],
+      "fetched_at": "2026-10-16T09:08:52.557938+09:00"
+    },
+    {
+      "id": "2610.20400",
+      "title": "HRTF Upsampling and Personalization via Neural Operators",
+      "url": "https://arxiv.org/abs/2610.20400",
+      "pdf": "https://arxiv.org/pdf/2610.20400",
+      "authors": [
+        "Meenakshi Krishnan",
+        "You Zhang",
+        "Ramani Duraiswami",
+        "C. Phillip Brown"
+      ],
+      "categories": [
+        "cs.SD",
+        "cs.LG"
+      ],
+      "venues": [],
+      "award": false,
+      "talk": false,
+      "workshop": false,
+      "comment": "",
+      "hf_upvotes": null,
+      "star_votes": 1,
+      "star_codes": [
+        "sota"
+      ],
+      "star_quote": "18% lower LSD and 43% lower ILD error than the strongest baseline at 100 measurements",
+      "signals": [],
+      "headline": "ニューラルオペレーターを用いて少数の測定からHRTFを高速・高精度に復元するSPARO",
+      "what": "まばらな空間方向の測定値を連続的なHRTFフィールドに写像するニューラルオペレーター手法です。測定値を球面潜在モードに投影し、Transformerで処理した後に任意の方向でデコードします。",
+      "enables": "既存手法と比較してLSDを18%、ILD誤差を43%削減しつつ、ニューラルフィールドベースの手法よりも15〜373倍高速な復元を実現しました。",
+      "why_it_matters": "個人の耳の形状等に依存するHRTFのパーソナライズにおいて、極めて少ない測定負担で高品質なバイノーラルオーディオを提供可能にします。",
+      "tags": [
+        "音声信号処理",
+        "ニューラルオペレーター",
+        "パーソナライゼーション"
+      ],
+      "fetched_at": "2026-10-16T09:08:52.557938+09:00"
+    },
+    {
+      "id": "2610.19201",
+      "title": "Into the LidarVerse: A Real-Time Unified LiDAR World Model Across Tasks and Sensors",
+      "url": "https://arxiv.org/abs/2610.19201",
+      "pdf": "https://arxiv.org/pdf/2610.19201",
+      "authors": [
+        "Henry Che",
+        "Xuanchi Ren",
+        "Sanja Fidler",
+        "Shenlong Wang",
+        "Laura Leal-Taix\\'e",
+        "Shengyu Huang"
+      ],
+      "categories": [
+        "cs.CV",
+        "cs.RO"
+      ],
+      "venues": [],
+      "award": false,
+      "talk": false,
+      "workshop": false,
+      "comment": "31 pages, 17 figures. Project page: https://research.nvidia.com/labs/sil/projects/lidarverse",
+      "hf_upvotes": null,
+      "star_votes": 1,
+      "star_codes": [
+        "sota"
+      ],
+      "star_quote": "LidarVerse achieves state-of-the-art performance on most reported metrics across all three evaluation protocols",
+      "signals": [],
+      "headline": "LiDARシミュレーションと予測を統合したリアルタイム世界モデルLidarVerse",
+      "what": "LiDARシーケンスを共通の潜在空間にマップするユニバーサルトークナイザーを用いた生成フレームワークです。単一のモデルで、新規シーン生成、ポイントクラウド予測、既存シーンの再シミュレーションの3タスクを統合しています。",
+      "enables": "H100 GPU 1枚で11 FPSのリアルタイム動作を実現し、32/64/128ビームの異なるセンサー構成や未知の走査パターンに対しても高い汎用性を示しました。",
+      "why_it_matters": "再構成ベースの幾何学的整合性と、生成ベースの多様性を一つのモデルで両立させ、自律走行システム等のクローズドループ評価に貢献します。",
+      "tags": [
+        "自動運転",
+        "LiDAR",
+        "世界モデル"
+      ],
+      "fetched_at": "2026-10-16T09:08:52.557938+09:00"
+    },
+    {
+      "id": "2610.19408",
+      "title": "ForkGRPO: Efficient Exploration and Fine-Grained Credit Assignment for Diffusion Language Models",
+      "url": "https://arxiv.org/abs/2610.19408",
+      "pdf": "https://arxiv.org/pdf/2610.19408",
+      "authors": [
+        "Zhaoyan Jia",
+        "Chengwei Zhou",
+        "Gourav Datta",
+        "Massoud Pedram"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "venues": [],
+      "award": false,
+      "talk": false,
+      "workshop": false,
+      "comment": "20 pages, 5 figures. The first two authors contributed equally",
+      "hf_upvotes": null,
+      "star_votes": 1,
+      "star_codes": [
+        "new"
+      ],
+      "star_quote": "ForkGRPO, an RL framework that couples efficient exploration with fine-grained segment-level credit assignment.",
+      "signals": [],
+      "headline": "拡散言語モデルの推論能力を高める効率的な探索と報酬割り当て手法ForkGRPO",
+      "what": "高エントロピーな中間状態から複数の継続をサンプリングするForking戦略を用いた強化学習フレームワークです。セグメントレベルでの報酬割り当てと、共有プレフィックスの再利用により効率化を図っています。",
+      "enables": "既存のGRPO手法と比較して、生成トークン数を最大27.8%削減しながら、数学や推論のベンチマークで最大1.2ポイントの精度向上を達成しました。",
+      "why_it_matters": "拡散モデルベースのLLMにおいて課題であった探索の停滞と報酬の細粒度化を解決し、学習速度と性能の両立を可能にしました。",
+      "tags": [
+        "強化学習",
+        "拡散モデル",
+        "推論"
+      ],
+      "fetched_at": "2026-10-16T09:08:52.557938+09:00"
+    },
+    {
+      "id": "2610.20107",
+      "title": "Why Generate a Click? Plug-in Decision Heads for Web Agents",
+      "url": "https://arxiv.org/abs/2610.20107",
+      "pdf": "https://arxiv.org/pdf/2610.20107",
+      "authors": [
+        "Chengguang Gan",
+        "Yunhao Liang",
+        "Hanjun Wei",
+        "Qinghao Zhang",
+        "Zhixi Cai",
+        "Shiwen Ni"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "venues": [],
+      "award": false,
+      "talk": false,
+      "workshop": false,
+      "comment": "",
+      "hf_upvotes": null,
+      "star_votes": 1,
+      "star_codes": [
+        "cap"
+      ],
+      "star_quote": "Plug-in decision heads on a frozen generator predict the action type, pool the visual tokens inside each numbered box to pick the target",
+      "signals": [],
+      "headline": "Webエージェントの行動決定をトークン生成から分離するPlug-in Decision Heads",
+      "what": "VLMの隠れ状態を直接利用して行動タイプやクリック対象を選択する軽量なヘッドを追加する手法です。確信度が高い場合はヘッドが即座に決定し、低い場合のみ通常のテキスト生成にフォールバックするカスケード構造を持ちます。",
+      "enables": "WebArenaでの成功率を最大1.3%向上させつつ、生成トークン数を半分以下に削減しました。また、フリーズされたモデルに適用することで元の性能劣化を防いでいます。",
+      "why_it_matters": "Webブラウジングのような構造的選択肢が多いタスクにおいて、冗長なテキスト生成を省略し、効率的かつ高精度なエージェント運用を可能にします。",
+      "tags": [
+        "Webエージェント",
+        "VLM",
+        "推論加速"
+      ],
+      "fetched_at": "2026-10-16T09:08:52.557938+09:00"
+    },
+    {
+      "id": "2610.20586",
+      "title": "Continuum Attention",
+      "url": "https://arxiv.org/abs/2610.20586",
+      "pdf": "https://arxiv.org/pdf/2610.20586",
+      "authors": [
+        "Afshin Khadangi"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "venues": [],
+      "award": false,
+      "talk": false,
+      "workshop": false,
+      "comment": "",
+      "hf_upvotes": 7,
+      "star_votes": 1,
+      "star_codes": [
+        "new"
+      ],
+      "star_quote": "replaces discrete key and value lookup with integration over a continuous, piecewise linear memory curve.",
+      "signals": [],
+      "headline": "離散的なアテンションを連続的な積分に置き換えるContinuum Attention",
+      "what": "キーと値のルックアップを区分線形なメモリ曲線上の積分に置き換える新しいアテンション演算子です。クエリが曲線上の指数的な関連性密度を誘発し、閉形式の指数モーメントから正確な正規化アテンションを計算します。",
+      "enables": "標準的なSoftmaxやFocal Attentionと比較して、検証データの負の対数尤度を0.02〜0.048 nats/byte低減し、すべての比較で優れた性能を示しました。",
+      "why_it_matters": "Transformerのデコーダー構造を維持したまま、離散的なトークン単位の制約を超えたより柔軟な情報の表現と利用を可能にする基礎的な提案です。",
+      "tags": [
+        "Transformer",
+        "アテンション",
+        "言語モデル"
+      ],
+      "fetched_at": "2026-10-16T09:08:52.557938+09:00"
+    },
+    {
+      "id": "2610.20590",
+      "title": "Feed-Forward Multi-View Feature Coding for 3D Gaussian Splatting",
+      "url": "https://arxiv.org/abs/2610.20590",
+      "pdf": "https://arxiv.org/pdf/2610.20590",
+      "authors": [
+        "Seungmi Choi",
+        "Ji-Hyoun Choi",
+        "Suhyun Jo",
+        "Tae-Gwon Park",
+        "Hui Yong Kim"
+      ],
+      "categories": [
+        "cs.CV"
+      ],
+      "venues": [],
+      "award": false,
+      "talk": false,
+      "workshop": false,
+      "comment": "",
+      "hf_upvotes": null,
+      "star_votes": 1,
+      "star_codes": [
+        "sota"
+      ],
+      "star_quote": "MFGS achieves 99.76-99.86% bitrate savings over the generate-then-compress pipeline",
+      "signals": [],
+      "headline": "3D Gaussian Splattingの幾何と外観を統合的に圧縮するフィードフォワード符号化",
+      "what": "入力画像から抽出した多視点特徴を直接コンパクトなビットストリームに符号化し、受信側でGaussian属性を予測するMFGSフレームワークです。幾何と外観の冗長性を同時に活用するレート歪み学習を導入しています。",
+      "enables": "既存の圧縮パイプラインと比較して、同等以上の品質で99.76%以上のビットレート削減を達成し、処理速度を約12倍高速化しました。",
+      "why_it_matters": "微分不可能な操作を排除したエンドツーエンド学習により、3Dシーンの超効率的な配信とレンダリング予算に応じた動的な品質調整を可能にしました。",
+      "tags": [
+        "3D Gaussian Splatting",
+        "データ圧縮",
+        "3D復元"
+      ],
+      "fetched_at": "2026-10-16T09:08:52.557938+09:00"
+    },
+    {
+      "id": "2610.19139",
+      "title": "Online Tokenization with Optimal Delay in Linear Time",
+      "url": "https://arxiv.org/abs/2610.19139",
+      "pdf": "https://arxiv.org/pdf/2610.19139",
+      "authors": [
+        "Mina Dalirrooyfard",
+        "Christopher Ye"
+      ],
+      "categories": [
+        "cs.DS",
+        "cs.LG"
+      ],
+      "venues": [],
+      "award": false,
+      "talk": false,
+      "workshop": false,
+      "comment": "58 pages, 9 figures, 6 tables",
+      "hf_upvotes": null,
+      "star_votes": 1,
+      "star_codes": [
+        "new",
+        "sota"
+      ],
+      "star_quote": "We give a near-linear time algorithm with optimal delay (up to constant factors).",
+      "signals": [],
+      "headline": "理論的に最適な遅延と線形時間計算を実現するオンラインBPEトークナイザー",
+      "what": "BPEトークン化をストリーミング入力に対してリアルタイムで実行するオンラインアルゴリズムです。「遅延（delay）」という概念を定式化し、最適な遅延を保ちながら入力サイズに依存しない一定のメモリ使用量を実現しました。",
+      "enables": "OpenAIのtiktokenと比較して、最初のトークン出力までのレイテンシを7.9～34.8倍改善し、スループットも2.4～7.0倍向上させました。",
+      "why_it_matters": "LLMの推論においてボトルネックとなり得る前処理を、理論的な裏付けを持ちつつ劇的に高速化・省メモリ化する実用的な成果です。",
+      "tags": [
+        "トークナイゼーション",
+        "LLM",
+        "ストリーミングアルゴリズム"
+      ],
+      "fetched_at": "2026-10-16T09:08:52.557938+09:00"
+    },
+    {
+      "id": "2610.20571",
+      "title": "Any Time, Any Space: A World-State-Centric Framework for Agentic Video Generation",
+      "url": "https://arxiv.org/abs/2610.20571",
+      "pdf": "https://arxiv.org/pdf/2610.20571",
+      "authors": [
+        "Weijie Wang",
+        "Haomin Zhang",
+        "Ye Li",
+        "Akide Liu",
+        "Zeyu Zhang",
+        "Haoyu Zhao"
+      ],
+      "categories": [
+        "cs.CV"
+      ],
+      "venues": [],
+      "award": false,
+      "talk": false,
+      "workshop": false,
+      "comment": "Project page: https://lhmd.top/atas/, Code: https://github.com/ziplab/ATAS",
+      "hf_upvotes": 323,
+      "star_votes": 0,
+      "star_codes": [],
+      "star_quote": "",
+      "signals": [
+        "HF ▲323"
+      ],
+      "headline": "シーンとイベントのメモリ管理により長尺動画の整合性を保つATASフレームワーク",
+      "what": "脚本をロケーション、カメラ、イベント時間の参照を含むショット要求に変換し、シーンメモリ（静的幾何）とイベントメモリ（動的観測）を利用して生成を制御するフレームワークです。生成後にメモリを更新・登録する仕組みを持ちます。",
+      "enables": "既存の4つの動画生成モデルすべてにおいて、ショット間の一貫性指標を大幅に改善し、ターゲット画像の空間的な再訪問精度において最高スコアを達成しました。",
+      "why_it_matters": "プロンプトの受け渡しだけでは不十分だった長尺動画における「同じ場所への戻り」や「過去の出来事の再現」を、明示的なメモリ機構で解決しました。",
+      "tags": [
+        "動画生成",
+        "一貫性",
+        "エージェント"
+      ],
+      "fetched_at": "2026-10-16T09:08:52.557938+09:00"
+    },
+    {
+      "id": "2610.20584",
+      "title": "Player-1: Learning to Play from Synthetic Experience",
+      "url": "https://arxiv.org/abs/2610.20584",
+      "pdf": "https://arxiv.org/pdf/2610.20584",
+      "authors": [
+        "Mingyu Ouyang",
+        "Yiran Wang",
+        "Siyuan Hu",
+        "Xingyilang Yin",
+        "Huiqiang Sun",
+        "Guangzhi Wang"
+      ],
+      "categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.HC"
+      ],
+      "venues": [],
+      "award": false,
+      "talk": false,
+      "workshop": false,
+      "comment": "Project Page: https://player-1-project.github.io/ and code: https://github.com/TencentARC/Player-1",
+      "hf_upvotes": 256,
+      "star_votes": 0,
+      "star_codes": [],
+      "star_quote": "",
+      "signals": [
+        "HF ▲256"
+      ],
+      "headline": "合成環境を用いた強化学習によりゲーム操作能力を獲得するPlayer-1",
+      "what": "人間によるデモンストレーションを超えて、検証可能な報酬を備えた16種類の合成環境（Player-1-Gym）でモデルを強化学習させるフレームワークです。相対移動や複合アクションを含む拡張された操作空間を扱います。",
+      "enables": "MineDojo-300において、教師あり学習のみのモデルから成功率を最大27.8ポイント向上させ、既存の最強ベースラインを大幅に上回る38.33%を記録しました。",
+      "why_it_matters": "デモデータの不足という問題を、多様なゲーム要素を抽象化した合成環境でのRLによって解決し、汎用的なデジタル制御能力の獲得経路を示しました。",
+      "tags": [
+        "コンピュータ操作エージェント",
+        "強化学習",
+        "VLM"
+      ],
+      "fetched_at": "2026-10-16T09:08:52.557938+09:00"
+    },
+    {
+      "id": "2610.20344",
+      "title": "Doc2Harness: Benchmarking LLMs on Long-Horizon Harness Engineering of Coding Agents",
+      "url": "https://arxiv.org/abs/2610.20344",
+      "pdf": "https://arxiv.org/pdf/2610.20344",
+      "authors": [
+        "Yuyao Ge",
+        "Shenghua Liu",
+        "Peizhong Gao",
+        "Chendi Ge",
+        "Chenxu Liu",
+        "Yiwei Wang"
+      ],
+      "categories": [
+        "cs.SE",
+        "cs.AI"
+      ],
+      "venues": [],
+      "award": false,
+      "talk": false,
+      "workshop": false,
+      "comment": "17 pages, 5 figures, 4 tables",
+      "hf_upvotes": 93,
+      "star_votes": 0,
+      "star_codes": [],
+      "star_quote": "",
+      "signals": [
+        "HF ▲93"
+      ],
+      "headline": "コーディングエージェントの実行環境構築能力を測定する新ベンチマークDoc2Harness",
+      "what": "ドキュメントとスケルトンから、実際のテストをパスする完全な実行環境（ハーネス）を構築する能力を評価する2段階のベンチマークです。構築された環境は隔離されたコンテナ内で実際に動作チェックされます。",
+      "enables": "最新のGPT-4クラスのモデルでも約半数のテストケースで失敗すること、特にモジュール間の機能分割において失敗が集中することを明らかにしました。",
+      "why_it_matters": "単なるコード生成ではなく、エージェントを支えるインフラ（ハーネス）を自律的に構築するという、より高度で長期的なエンジニアリング能力を定量化できます。",
+      "tags": [
+        "ソフトウェアエンジニアリング",
+        "エージェント",
+        "ベンチマーク"
+      ],
+      "fetched_at": "2026-10-16T09:08:52.557938+09:00"
+    },
+    {
+      "id": "2610.19789",
+      "title": "More Methods, Better Agents? A Reality Check on Self-Distillation in Agentic Reinforcement Learning",
+      "url": "https://arxiv.org/abs/2610.19789",
+      "pdf": "https://arxiv.org/pdf/2610.19789",
+      "authors": [
+        "Linhao Zhong",
+        "Bozhen Fang",
+        "Xuehao Wang",
+        "Duochao Shi",
+        "Zekai Luo",
+        "Guangming Yao"
+      ],
+      "categories": [
+        "cs.CL",
+        "cs.LG"
+      ],
+      "venues": [],
+      "award": false,
+      "talk": false,
+      "workshop": false,
+      "comment": "",
+      "hf_upvotes": 72,
+      "star_votes": 0,
+      "star_codes": [],
+      "star_quote": "",
+      "signals": [
+        "HF ▲72"
+      ],
+      "headline": "エージェントRLにおける自己蒸留手法の安定性と実用性を検証するReality Check",
+      "what": "10種類の代表的な自己蒸留手法を、GRPOをベースラインとして4つのタスクと3つのモデルサイズで統一環境にて評価した調査研究です。計132回のトレーニング、12,000時間以上のGPU計算を用いて比較を行いました。",
+      "enables": "多くの手法がGRPOに対して一貫した優位性を示せないこと、最終性能が高くても学習が不安定なケースがあること、計算コストが性能に直結しないことなどを特定しました。",
+      "why_it_matters": "乱立する手法に対して公平な比較基準を提供し、実用的なエージェント学習において何が本当に有効で安定しているかを明確にしました。",
+      "tags": [
+        "強化学習",
+        "エージェント",
+        "自己蒸留"
+      ],
+      "fetched_at": "2026-10-16T09:08:52.557938+09:00"
+    },
+    {
+      "id": "2610.20572",
+      "title": "Recovering Reliable Supervision via Critique-Guided On-Policy Distillation",
+      "url": "https://arxiv.org/abs/2610.20572",
+      "pdf": "https://arxiv.org/pdf/2610.20572",
+      "authors": [
+        "Kaixiang Zhao",
+        "Tianrun Yu",
+        "Shangzhe Li",
+        "Yuxiao Yang",
+        "Amanda Hughes",
+        "Weitong Zhang"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "venues": [],
+      "award": false,
+      "talk": false,
+      "workshop": false,
+      "comment": "21 pages. Code: https://github.com/kzhao5/CriticOPD",
+      "hf_upvotes": 70,
+      "star_votes": 0,
+      "star_codes": [],
+      "star_quote": "",
+      "signals": [
+        "HF ▲70"
+      ],
+      "headline": "間違いを認識し修正を促すことで教師モデルの回復力を高めるCriticOPD",
+      "what": "学生モデルの誤ったロールアウトを教師モデルが批判（Critique）し、それを踏まえて学生が再執筆するプロセスを学習に取り入れるオンポリシー蒸留手法です。教師モデルが学生のミスに引きずられる問題を解決します。",
+      "enables": "Qwen3を学生とした実験で、数学的推論ベンチマーク全般、特に難易度の高いコンペティションレベルの問題で性能を向上させました。",
+      "why_it_matters": "教師モデルが「間違いを認識できても、そこから正解に導くことが難しい」という弱点を克服し、より信頼性の高い教師信号を学生に提供できます。",
+      "tags": [
+        "モデル蒸留",
+        "推論",
+        "LLM"
+      ],
+      "fetched_at": "2026-10-16T09:08:52.557938+09:00"
+    },
+    {
+      "id": "2610.19975",
+      "title": "LatentLoop: Scaling Looped MoE Models with Asymmetric Compute Allocation",
+      "url": "https://arxiv.org/abs/2610.19975",
+      "pdf": "https://arxiv.org/pdf/2610.19975",
+      "authors": [
+        "Zefeng He",
+        "Yunkai Chai",
+        "Xiaoyang Chen",
+        "Tong Zhu",
+        "Zongliang Wu",
+        "Yun Luo"
+      ],
+      "categories": [
+        "cs.LG"
+      ],
+      "venues": [],
+      "award": false,
+      "talk": false,
+      "workshop": false,
+      "comment": "24 pages, 8 figures",
+      "hf_upvotes": 64,
+      "star_votes": 0,
+      "star_codes": [],
+      "star_quote": "",
+      "signals": [
+        "HF ▲64"
+      ],
+      "headline": "非対称な計算資源割り当てによりLooped MoEの効率を最大化するLatentLoop",
+      "what": "同じブロックを2回通るループ型MoEにおいて、1回目の訪問でシーケンスを圧縮し、2回目で全解像度を保持する非対称な設計を提案しています。浮いた計算資源をモデルの隠れ層サイズの拡大に再配分します。",
+      "enables": "1.3B～7Bの構成において、通常のMoEと比較して19.0%、既存のループ型と比較して7.9%の計算コスト削減を達成しつつ、検証ロスを低減しました。",
+      "why_it_matters": "パラメータ共有を行いつつ、各ループの役割に応じた最適な計算配分を行うことで、限られたリソース下でのモデル性能を底上げする手法です。",
+      "tags": [
+        "MoE",
+        "アーキテクチャ",
+        "効率化"
+      ],
+      "fetched_at": "2026-10-16T09:08:52.557938+09:00"
+    },
+    {
+      "id": "2610.20399",
+      "title": "Cortex: Consolidating Context into Parametric Memory",
+      "url": "https://arxiv.org/abs/2610.20399",
+      "pdf": "https://arxiv.org/pdf/2610.20399",
+      "authors": [
+        "Jintian Zhang",
+        "Feng He",
+        "Xinnian Liang",
+        "Ziwen Xu",
+        "Haoming Xu",
+        "Haojing Huang"
+      ],
+      "categories": [
+        "cs.CL",
+        "cs.AI",
+        "cs.CV",
+        "cs.LG",
+        "cs.MA"
+      ],
+      "venues": [],
+      "award": false,
+      "talk": false,
+      "workshop": false,
+      "comment": "Technical report",
+      "hf_upvotes": 62,
+      "star_votes": 0,
+      "star_codes": [],
+      "star_quote": "",
+      "signals": [
+        "HF ▲62"
+      ],
+      "headline": "コンテキスト情報を低ランク更新でパラメータメモリへ統合するCortex",
+      "what": "外部コンテキストから得られる知識を、将来のクエリを予測・生成して蒸留することで、FFNの低ランク更新や構造的更新としてモデル内部に取り込む手法です。生物学的な「記憶の固定化（Consolidation）」に着想を得ています。",
+      "enables": "14Bモデルでの50回の連続的な知識編集において、元の性能を99.8%維持したまま、コンテキスト由来の性能向上を88.9%保持することに成功しました。",
+      "why_it_matters": "コンテキストウィンドウを消費し続けることなく、知識を効率的にモデルの重みに永続化させ、かつ忘却を最小限に抑えることが可能です。",
+      "tags": [
+        "知識編集",
+        "メモリ管理",
+        "LLM"
+      ],
+      "fetched_at": "2026-10-16T09:08:52.557938+09:00"
+    },
+    {
+      "id": "2610.19820",
+      "title": "ActionOPD: Distilling Decisions, Not Tokens",
+      "url": "https://arxiv.org/abs/2610.19820",
+      "pdf": "https://arxiv.org/pdf/2610.19820",
+      "authors": [
+        "Huining Yuan",
+        "Xiangmin Yi",
+        "Zelai Xu",
+        "Zixu Wang",
+        "Xinlei Chen",
+        "Xiao-Ping Zhang"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "venues": [],
+      "award": false,
+      "talk": false,
+      "workshop": false,
+      "comment": "",
+      "hf_upvotes": 53,
+      "star_votes": 0,
+      "star_codes": [],
+      "star_quote": "",
+      "signals": [
+        "HF ▲53"
+      ],
+      "headline": "トークンではなく行動レベルの合致を最適化するエージェント蒸留手法ActionOPD",
+      "what": "学生が生成した状態において教師モデルからアクションをサンプリングし、その意味的な一致度を報酬として学習するオンポリシー蒸留手法です。教師のトークン確率や思考プロセスへのアクセスを必要としません。",
+      "enables": "Qwen3を用いたツール利用タスクにおいて、未知のデータセットに対して平均3.3〜6.9ポイントの精度向上を達成しました。",
+      "why_it_matters": "教師と学生でトークナイザーやモデル構造が異なっても適用可能であり、エージェントの「意思決定」の本質を効率的に小規模モデルへ移植できます。",
+      "tags": [
+        "モデル蒸留",
+        "エージェント",
+        "ツール利用"
+      ],
+      "fetched_at": "2026-10-16T09:08:52.557938+09:00"
+    },
+    {
+      "id": "2610.19366",
+      "title": "Seeing, Maintaining, and Learning: The Evolution of Multimodal Agent Memory",
+      "url": "https://arxiv.org/abs/2610.19366",
+      "pdf": "https://arxiv.org/pdf/2610.19366",
+      "authors": [
+        "Minghao Guo",
+        "Qingyue Jiao",
+        "Xiujin Liu",
+        "Jianhong Pang",
+        "Ruimeng Yang",
+        "Naihao Xu"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.RO"
+      ],
+      "venues": [],
+      "award": false,
+      "talk": false,
+      "workshop": false,
+      "comment": "",
+      "hf_upvotes": 45,
+      "star_votes": 0,
+      "star_codes": [],
+      "star_quote": "",
+      "signals": [
+        "HF ▲45"
+      ],
+      "headline": "マルチモーダルエージェントのメモリ進化に関する包括的分析フレームワークの提示",
+      "what": "情報の形成・表現（Axis I）とメモリ管理の適応レベル（Axis II）の2軸でメモリ機構を分類するフレームワークです。静的、動的、そして自己進化的なメモリ管理への進化を定義しています。",
+      "enables": "既存の多様なメモリ設計パターンを整理し、抽象化と忠実度のバランス、時間的な有効性の維持、根拠に基づいたメモリ使用などの設計原則を導出しました。",
+      "why_it_matters": "長期的なタスクや生涯学習を行う次世代エージェントにおいて、どのようにメモリを構築・進化させるべきかの設計指針となります。",
+      "tags": [
+        "マルチモーダルエージェント",
+        "メモリ機構",
+        "サーベイ"
+      ],
+      "fetched_at": "2026-10-16T09:08:52.557938+09:00"
+    }
+  ]
+}
