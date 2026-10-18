@@ -51,11 +51,11 @@ export const metadata = {
     images: ["https://kankusakabe.github.io/Portfolio/image/KanKusakabe.png"],
   },
   social: {
-    instagram: "https://www.instagram.com/hci_kan/",
+    instagram: "https://www.instagram.com/kusakabekanv5",
     facebook: "https://www.facebook.com/profile.php?id=100075413030238",
     linkedin: "https://www.linkedin.com/in/kan-kusakabe-a83589239/",
     github: "https://github.com/KanKusakabe",
-    twitter: "https://x.com/HCI_kan",
+    twitter: "https://x.com/kusakabekanv5",
     email: "mailto:kusakabe.kan.v5@elms.hokudai.ac.jp",
   },
 };
