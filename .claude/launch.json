@@ -3,8 +3,8 @@
   "configurations": [
     {
       "name": "news-preview",
-      "runtimeExecutable": "python3",
-      "runtimeArgs": ["-m", "http.server", "8123", "--directory", "news"],
+      "runtimeExecutable": "/usr/bin/python3",
+      "runtimeArgs": ["-m", "http.server", "8123", "--directory", "/Users/kusakabe/Documents/Projects/portfolio/news"],
       "port": 8123
     }
   ]
