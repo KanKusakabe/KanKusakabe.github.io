@@ -98,6 +98,8 @@
 .a-green-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 60px; position: relative; }
 .a-sec-title { font-family: var(--a-display); font-weight: 400; font-size: 36px; line-height: 1.15; color: inherit; margin: 0 0 26px; }
 .a-green .a-sec-title { color: var(--a-mustard); }
+/* Education の下に続ける Work Experience */
+.a-sec-title-next { margin-top: 52px; }
 .a-timeline { list-style: none; position: relative; margin: 0; padding: 0; }
 .a-timeline::before { content: ""; position: absolute; left: 7px; top: 10px; bottom: 10px; width: 1px; background: currentColor; opacity: .5; }
 .a-timeline li { position: relative; display: grid; grid-template-columns: 150px 1fr; gap: 20px; padding-left: 34px; margin-bottom: 22px; }

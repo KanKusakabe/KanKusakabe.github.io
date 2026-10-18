@@ -77,6 +77,12 @@ export default function HomePage({ common, projects, samplePublications, lang })
           <div className="a-reveal">
             <h3 className="a-sec-title">{sections.education}</h3>
             <Timeline items={a.education} yearKey="years" />
+            {a.experience?.length > 0 && (
+              <>
+                <h3 className="a-sec-title a-sec-title-next">{sections.experience}</h3>
+                <Timeline items={a.experience} yearKey="years" />
+              </>
+            )}
           </div>
           <div className="a-skills a-reveal">
             <h3 className="a-sec-title">{sections.skills}</h3>
