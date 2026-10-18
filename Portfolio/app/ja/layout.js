@@ -1,10 +1,6 @@
 // app/ja/layout.js
 
-import dynamic from "next/dynamic";
-import { Geist, Geist_Mono } from "next/font/google";
 import "@/app/globals.css";
-import Footer from "@/app/components/Footer";
-import common from "@/public/ja/common.json";
 
 // Next.js Metadata（日本語ページ用）
 export const metadata = {
@@ -53,14 +49,6 @@ export const metadata = {
       "日下部完（モバイルインタラクション、ジェスチャ認識、インタラクティブデザイン）のX(twitter)アカウント",
     creator: "@HCI_kan",
     images: ["https://kankusakabe.github.io/Portfolio/image/KanKusakabe.png"],
-  },
-  social: {
-    instagram: "https://www.instagram.com/kusakabekanv5",
-    facebook: "https://www.facebook.com/profile.php?id=100075413030238",
-    linkedin: "https://www.linkedin.com/in/kan-kusakabe-a83589239/",
-    github: "https://github.com/KanKusakabe",
-    twitter: "https://x.com/kusakabekanv5",
-    email: "mailto:kusakabe.kan.v5@elms.hokudai.ac.jp",
   },
 };
 

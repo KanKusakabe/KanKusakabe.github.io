@@ -1,11 +1,6 @@
 // app/layout.js
-import { Geist, Geist_Mono } from "next/font/google";
 import "@/app/globals.css";
-import ClientHeader from "@/app/components/ClientHeader";
-import Footer from "@/app/components/Footer";
-import common from "@/public/en/common.json";
 import ConditionalHeader from "@/app/components/ConditionalHeader";
-import Script from "next/script";
 
 // Next.js Metadata（app/layout.js または各ページに設定）
 export const metadata = {
@@ -49,14 +44,6 @@ export const metadata = {
       "PhD research on mobile interaction, gesture recognition, and innovative interactive designs by Kan Kusakabe.",
     creator: "@HCI_kan",
     images: ["https://kankusakabe.github.io/Portfolio/image/KanKusakabe.png"],
-  },
-  social: {
-    instagram: "https://www.instagram.com/kusakabekanv5",
-    facebook: "https://www.facebook.com/profile.php?id=100075413030238",
-    linkedin: "https://www.linkedin.com/in/kan-kusakabe-a83589239/",
-    github: "https://github.com/KanKusakabe",
-    twitter: "https://x.com/kusakabekanv5",
-    email: "mailto:kusakabe.kan.v5@elms.hokudai.ac.jp",
   },
 };
 
