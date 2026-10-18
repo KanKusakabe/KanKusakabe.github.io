@@ -1,7 +1,7 @@
 // app/works/[id]/page.js
 import projects from "@/public/en/works.json";
+import projectsJa from "@/public/ja/works.json";
 import commons from "@/public/en/common.json";
-import Link from "next/link";
 import ProjectPage from "@/app/components/ProjectPage";
 
 export function generateStaticParams() {
@@ -11,5 +11,7 @@ export function generateStaticParams() {
 }
 
 export default function Page({ params }) {
-  return <ProjectPage params={params} projects={projects} commons={commons} />;
+  return (
+    <ProjectPage params={params} projects={projects} commons={commons} otherProjects={projectsJa} otherBase="/ja" />
+  );
 }

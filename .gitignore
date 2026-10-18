@@ -7,3 +7,7 @@ Portfolio/node_modules/
 Portfolio/.next/
 Portfolio/out/
 Portfolio/.env
+
+# local design work (mockups) and preview config
+Portfolio/idea/
+Portfolio/.claude/

@@ -1,7 +1,5 @@
 // app/ja/layout.js
 
-import "@/app/globals.css";
-
 // Next.js Metadata（日本語ページ用）
 export const metadata = {
   verifications: {
@@ -52,17 +50,7 @@ export const metadata = {
   },
 };
 
-export default function RootLayout({ children }) {
-  return (
-    <div className="flex flex-col ">
-      <div className="flex flex-col lg:flex-row">
-        <div className="flex-row py-[2rem] lg:py-[0rem]">
-          <main className="flex-1 mt-[4rem]  sm:mt-[6rem] lg:mt-[4.5rem]">
-            {children}
-          </main>
-          {/* <Footer /> */}
-        </div>
-      </div>
-    </div>
-  );
+// ルートの <html lang="en"> は変えられないので、日本語ページはここで lang を指定する
+export default function JaLayout({ children }) {
+  return <div lang="ja">{children}</div>;
 }

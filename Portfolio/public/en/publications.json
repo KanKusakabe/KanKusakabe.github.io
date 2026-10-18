@@ -7,7 +7,9 @@
     "url": "[link](https://www.wiss.org/WISS2025/downloads/proceedings.pdf)",
     "type": "peer",
     "nation": "ja",
-    "date": "20251203"
+    "date": "20251203",
+    "category": "domestic",
+    "venue": "WISS 2025"
   },
   {
     "title": "Proposal and Evaluation of a Redirection Method based on Unperceived Thresholds for Relieving Physical Constraints in Seated Positions (in Japanese).",
@@ -17,15 +19,19 @@
     "url": "[link](https://www.wiss.org/WISS2025/downloads/proceedings.pdf)",
     "type": "peer",
     "nation": "ja",
-    "date": "20251203"
+    "date": "20251203",
+    "category": "domestic",
+    "venue": "WISS 2025"
   },
   {
-    "title": "BeMyARm: The Assitive Technology for Camera Aiming for the blind and Low-Vision People(in Japanese). ",
+    "title": "BeMyARm: The Assistive Technology for Camera Aiming for the blind and Low-Vision People (in Japanese). ",
     "authors": "***Kan Kusakabe***, Yuki Abe, Daisuke Sakamoto.",
-    "year": 2023,
+    "year": 2025,
     "publisher": "The 33rd Workshop on Interactive Systems and Software (WISS’25), Japan Society for Software Science and Technology, Demonstration. December 2025.",
     "url": "[link](https://www.wiss.org/WISS2025Proceedings/)",
-    "date": "20231220"
+    "date": "20251203",
+    "category": "other",
+    "venue": "WISS 2025 · Demo"
   },
   {
     "title": "BodSockets: Enabling Back-of-Device Interaction on Smartphones with Socket-based Interface",
@@ -36,18 +42,23 @@
     "url": "[DOI](https://doi.org/10.20729/0002006344)",
     "type": "peer",
     "nation": "ja",
-    "date": "20251215"
+    "date": "20251215",
+    "category": "journal",
+    "venue": "IPSJ Journal 66(12)"
   },
   {
     "title": "Understanding Usability of VR Pointing Methods with a Handheld-style HMD for Onsite Exhibitions",
     "authors": "Yuki Abe*, ***Kan Kusakabe****, Myungguen Choi*, Daisuke Sakamoto, Tetsuo Ono. *Joint first authors.",
     "year": 2025,
     "abstract": "Handheld-style head-mounted displays (HMDs) are becoming increasingly popular as a convenient option for onsite exhibitions. However, they lack established practices for basic interactions, particularly pointing methods. Through our formative study involving practitioners, we discovered that controllers and hand gestures are the primary pointing methods being utilized. Building upon these findings, we conducted a usability study to explore seven different pointing methods, incorporating insights from the formative study and current virtual reality (VR) practices. The results showed that while controllers remain a viable option, hand gestures are not recommended. Notably, dwell time-based methods, which are not fast and are not commonly recognized by practitioners, demonstrate high usability and user confidence, particularly for inexperienced VR users.We recommend the use of dwell-based methods for onsite exhibition contexts. This research provides insights for the adoption of handheld-style HMDs, laying the groundwork for improving user interaction in exhibition environments, thereby potentially enhancing visitor experiences.",
-    "publisher": "ACM CHI Conference on Human Factors in Computing Systems (CHI 2025), ACM, 2025. **Hornable Mention Award (5%)**.",
+    "publisher": "ACM CHI Conference on Human Factors in Computing Systems (CHI 2025), ACM, 2025. **Honorable Mention Award (5%)**.",
     "url": "[DOI](https://doi.org/10.1145/3706598.3713874)",
     "type": "peer",
     "nation": "en",
-    "date": "20250430"
+    "date": "20250430",
+    "category": "intl",
+    "venue": "ACM CHI 2025",
+    "award": "Honorable Mention · Top 5%"
   },
   {
     "title": "RingSense: Exploring User-defined Gestures for Phone Ring Holders",
@@ -58,7 +69,9 @@
     "url": "[DOI](https://doi.org/10.20729/0002000028)",
     "type": "journal",
     "nation": "ja",
-    "date": "20250215"
+    "date": "20250215",
+    "category": "journal",
+    "venue": "IPSJ Journal 66(2)"
   },
   {
     "title": "Design and Implementation of a Phone-Ring-Type Device for Back-of-Device Gesture Interaction (in Japanese). ",
@@ -68,7 +81,10 @@
     "url": "[link](https://www.wiss.org/WISS2022Proceedings/data/02.pdf)",
     "type": "peer",
     "nation": "ja",
-    "date": "20221215"
+    "date": "20221215",
+    "category": "domestic",
+    "venue": "WISS 2022 · Long",
+    "award": "Acceptance rate 12.5%"
   },
   {
     "title": "Game-2-X: A System Connecting Different Types of Gameplay (in Japanese). ",
@@ -76,14 +92,18 @@
     "year": 2023,
     "publisher": "The 31st Workshop on Interactive Systems and Software (WISS’23), Japan Society for Software Science and Technology, Demonstration. December 2023.",
     "url": "[link](https://www.wiss.org/WISS2023Proceedings/data/1-A03.pdf)",
-    "date": "20231220"
+    "date": "20231220",
+    "category": "other",
+    "venue": "WISS 2023 · Demo"
   },
   {
     "title": "Exploratory Study of Hand Gesture Interaction for Stepless Adjustment Interfaces (in Japanese).  ",
     "authors": "***Kan Kusakabe***, Myungguen Choi, Daisuke Sakamoto, Tetsuo Ono.",
-    "year": 2023,
+    "year": 2022,
     "publisher": "Information Processing Society of Japan, 2022-HCI-197(25), 1-8, March 2022.",
     "url": "[link](http://id.nii.ac.jp/1001/00217337/)",
-    "date": "20220318"
+    "date": "20220318",
+    "category": "other",
+    "venue": "IPSJ SIG-HCI 197"
   }
 ]

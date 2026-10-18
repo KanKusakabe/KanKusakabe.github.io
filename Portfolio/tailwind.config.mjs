@@ -10,6 +10,17 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        // design A palette
+        forest: { DEFAULT: "#2f4b35", deep: "#243a29" },
+        cream: "#f5eddf",
+        tangerine: "#ef6a3a",
+        rust: "#c96b3c",
+        mustard: "#f6ae1c",
+        ink: "#151515",
+      },
+      fontFamily: {
+        display: ["var(--font-gloock)", "var(--font-plex-jp)", "Georgia", "serif"],
+        sans: ["var(--font-plex)", "var(--font-plex-jp)", "system-ui", "sans-serif"],
       },
     },
   },

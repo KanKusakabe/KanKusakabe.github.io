@@ -13,5 +13,193 @@
     "Invited Talk at [Public Lecture / Yokohama City MICE Next-Generation Development Initiative: CHI 2025 Symposium](https://sigchi.jp/symposium/chi2025_symposium/) (Apr 26, 2025)",
     "Oral presentation at CHI 2025 titled ''[Understanding Usability of VR Pointing Methods with a Handheld-style HMD for Onsite Exhibitions](https://kankusakabe.github.io/Portfolio/ja/works/handheld-styleHMD)'' (Apr 30, 2025)"
   ],
-  "cv": "CV-en.pdf"
+  "cv": "CV-en.pdf",
+  "design_a": {
+    "hero": {
+      "headline": "KAN KUSAKABE"
+    },
+    "hello": {
+      "title": "Hello,\nI’m Kan !",
+      "cv_label": "Download CV"
+    },
+    "education": [
+      {
+        "years": "2024-now",
+        "school": "Hokkaido University",
+        "detail": "PhD, Computer Science · Advisor: Daisuke Sakamoto"
+      },
+      {
+        "years": "2022-2024",
+        "school": "Hokkaido University",
+        "detail": "Master of Computer Science"
+      },
+      {
+        "years": "2020-2022",
+        "school": "Hokkaido University",
+        "detail": "Bachelor of Computer Science"
+      },
+      {
+        "years": "2015-2020",
+        "school": "NIT (KOSEN), Gifu College",
+        "detail": "Associate Degree of Engineering"
+      }
+    ],
+    "highlights": [
+      {
+        "year": "2025",
+        "title": "CHI 2025 Honorable Mention",
+        "detail": "Top 5% of accepted papers · VR pointing with handheld HMDs"
+      },
+      {
+        "year": "2025",
+        "title": "WISS 2025 Sponsor Award",
+        "detail": "2 papers, 1 demo and 1 invited talk accepted"
+      },
+      {
+        "year": "2024",
+        "title": "EXEX Doctoral Fellowship",
+        "detail": "Hokkaido University · 2024–2027"
+      },
+      {
+        "year": "2024",
+        "title": "Featured on TV",
+        "detail": "“EXIT no Hakken Hokkaido!”"
+      }
+    ],
+    "topics": [
+      {
+        "title": "Mobile Interaction"
+      },
+      {
+        "title": "Gesture Design"
+      },
+      {
+        "title": "VR / XR"
+      }
+    ],
+    "talks": [
+      {
+        "icon": "mic",
+        "label": "CHI 2025\nSymposium",
+        "url": "https://sigchi.jp/symposium/chi2025_symposium/"
+      },
+      {
+        "icon": "screen",
+        "label": "FIT 2025\nTop Conf.",
+        "url": "https://www.gakkai-web.net/fit/program_web/data/html/event/TCS6-1.html"
+      },
+      {
+        "icon": "vr",
+        "label": "NoMaps 2025\nVR exhibit",
+        "url": "https://shinsetsu.hokkaido.jp/creation-gallery/creators-week-2025"
+      }
+    ],
+    "publication_groups": [
+      {
+        "key": "intl",
+        "title": "International Conference",
+        "note": "Peer-reviewed"
+      },
+      {
+        "key": "journal",
+        "title": "Journal",
+        "note": "Peer-reviewed"
+      },
+      {
+        "key": "domestic",
+        "title": "Domestic Conference",
+        "note": "Peer-reviewed"
+      },
+      {
+        "key": "other",
+        "title": "Other",
+        "note": "Non-peer-reviewed · Demos · Talks"
+      }
+    ],
+    "skills": {
+      "languages": [
+        {
+          "abbr": "Py",
+          "name": "Python"
+        },
+        {
+          "abbr": "C#",
+          "name": "C#"
+        },
+        {
+          "abbr": "Sw",
+          "name": "Swift"
+        },
+        {
+          "abbr": "Kt",
+          "name": "Kotlin"
+        },
+        {
+          "abbr": "JS",
+          "name": "JavaScript"
+        },
+        {
+          "abbr": "C",
+          "name": "C"
+        },
+        {
+          "abbr": "Dt",
+          "name": "Dart"
+        },
+        {
+          "abbr": "Ar",
+          "name": "Arduino"
+        }
+      ],
+      "tools": [
+        "PyTorch",
+        "TensorFlow",
+        "Unity",
+        "Flutter",
+        "React / Next.js",
+        "Fusion 360",
+        "Figma",
+        "Adobe CC"
+      ],
+      "chips": [
+        "Rapid Prototyping",
+        "3D Printing",
+        "Mobile Apps",
+        "Machine Learning"
+      ]
+    },
+    "sections": {
+      "education": "Education",
+      "skills": "Technical skills",
+      "languages": "Languages",
+      "tools": "Frameworks & tools",
+      "highlights": "Highlights",
+      "topics": "Keywords",
+      "talks": "Talks & Exhibits",
+      "work": "Selected\nWorks",
+      "publications": "Publications",
+      "contact": "Contact"
+    },
+    "nav": {
+      "about": "About me",
+      "resume": "Resume",
+      "research": "Research",
+      "papers": "Papers",
+      "contact": "Get in touch!",
+      "scroll": "Scroll down"
+    },
+    "footer": {
+      "cta_outline": "LET’S TALK",
+      "cta": "Get in touch!",
+      "copyright": "© 2026 Kan Kusakabe · Hokkaido University"
+    },
+    "project": {
+      "back": "Selected Works",
+      "abstract": "Abstract",
+      "videos": "Videos",
+      "pdf": "PDF",
+      "open_pdf": "Open PDF",
+      "publications": "Publications"
+    }
+  }
 }

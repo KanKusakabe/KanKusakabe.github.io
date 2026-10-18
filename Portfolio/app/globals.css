@@ -4,66 +4,24 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
-  --foreground: #0a0a0a;
+  --background: #f5eddf;
+  --foreground: #151515;
 }
 
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-plex), var(--font-plex-jp), system-ui, sans-serif;
+  line-height: 1.6;
+}
+
+/* 和文は IBM Plex Sans JP を優先（中の英字も Plex JP の字形で揃える）。
+   要素ごとに当てると見出しの Gloock を上書きするので、ラッパーに当てて継承させる */
+[lang="ja"] {
+  font-family: var(--font-plex-jp), var(--font-plex), system-ui, sans-serif;
 }
 
 html {
   scroll-behavior: smooth;
 }
 
-.header-link-style {
-  @apply mr-8 font-bold text-lg lg:text-2xl;
-  word-break: keep-all;
-}
-
-.header-link-style:hover {
-  @apply underline;
-}
-
-/* Use Tailwind utilities as intended in the comment:
-   max-w-6xl mx-auto px-4 py-4 */
-.all-content {
-  @apply mx-auto px-[5rem] py-[2rem];
-}
-
-.header {
-  @apply mx-auto px-[4rem] py-[2rem];
-}
-
-/* Header内のテキストに対して改行の挙動を変更 */
-header h1,
-header p {
-  word-break: keep-all;
-}
-
-.common-section {
-  @apply px-[5rem] mt-[5rem];
-  /* width: 90%; */
-}
-
-@screen sm {
-  .all-content {
-    /* @apply mx-auto px-[5rem] py-[2rem]; */
-  }
-  .common-section {
-  }
-}
-
-.common-section h2 {
-  @apply text-2xl font-bold mb-6;
-}
-
-.common-section h3 {
-  @apply text-xl font-semibold mb-4;
-}
-
-.common-section p {
-  @apply text-base leading-normal;
-}
