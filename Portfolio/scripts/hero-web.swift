@@ -1,9 +1,12 @@
 // hero-web.swift — site-ready header images: wide (16:10 max) crop of a photo + its hand-made cutout.
 // Called by scripts/make-hero.sh; see there for the full workflow.
-// usage: hero-web <original photo> <cut.png> <output dir> <name>
+// usage: hero-web <original photo> <cut.png> <output dir> <name> [<bg.png>]
+//   bg.png   the photo with the person removed (transparent where the person was); same canvas size.
+//            Without it, the background layer is the original photo (person included).
 // Writes, for widths 1200 and 2000 (or the source width if smaller):
-//   <name>-bg-<w>.png / .jpg   original photo (person included)
+//   <name>-bg-<w>.png          background layer, with alpha
 //   <name>-cut-<w>.png         person only, with alpha
+// Face detection always runs on the original photo.
 // and prints a JSON line with the face / hair positions (fractions of the crop, top-left origin).
 // The PNGs are lossless intermediates that make-hero.sh converts to WebP with cwebp.
 // (macOS's own AVIF encoder output decodes as transparent in Chromium, so it is not used.)
@@ -15,7 +18,7 @@ import ImageIO
 import Vision
 
 let a = CommandLine.arguments
-guard a.count == 5 else { fatalError("usage: hero-web <original> <cut> <outdir> <name>") }
+guard a.count == 5 || a.count == 6 else { fatalError("usage: hero-web <original> <cut> <outdir> <name> [<bg>]") }
 let outDir = URL(fileURLWithPath: a[3]), name = a[4]
 let srgb = CGColorSpace(name: CGColorSpace.sRGB)!
 let ctx = CIContext(options: [.workingColorSpace: srgb])
@@ -25,7 +28,9 @@ func load(_ path: String) -> CIImage {
   return raw.transformed(by: CGAffineTransform(translationX: -raw.extent.minX, y: -raw.extent.minY))
 }
 let original = load(a[1]), cutLayer = load(a[2])
+let bgLayer = a.count == 6 ? load(a[5]) : original
 guard cutLayer.extent.size == original.extent.size else { fatalError("cutout size differs from original") }
+guard bgLayer.extent.size == original.extent.size else { fatalError("background size differs from original") }
 let W = original.extent.width, H = original.extent.height
 
 let faceReq = VNDetectFaceRectanglesRequest()
@@ -64,9 +69,8 @@ for target in [1200.0, 2000.0] {
       .cropped(to: outRect)
   }
   let w = Int(target)
-  let bg = prepared(original), cut = prepared(cutLayer)
+  let bg = prepared(bgLayer), cut = prepared(cutLayer)
   try write(bg, "\(name)-bg-\(w).png", "public.png", quality: nil)
-  try write(bg, "\(name)-bg-\(w).jpg", "public.jpeg", quality: 0.8)
   try write(cut, "\(name)-cut-\(w).png", "public.png", quality: nil)
 }
 

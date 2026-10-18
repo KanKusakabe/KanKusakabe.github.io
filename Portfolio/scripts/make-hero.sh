@@ -8,7 +8,9 @@
 # For each id, the source folder must contain:
 #   <id>.jpg / .png            the original photo
 #   arrange/<id>_cut.png       the person cut out by hand (same canvas size as the photo)
-# The script writes WebP (1200 / 2000px) plus JPEG / PNG fallbacks (1200px) to public/image/hero/,
+#   arrange/<id>_bg.png        optional: the photo with the person removed (transparent there).
+#                              Used as the background layer; without it, the original photo is used.
+# The script writes WebP (1200 / 2000px) plus PNG fallbacks (1200px) to public/image/hero/,
 # and rewrites public/hero-photos.json with the measured face / hair positions, in the order given.
 #
 # Needs: swiftc (Xcode), cwebp (brew install webp), node
@@ -34,13 +36,17 @@ for id in $ids; do
   (( ${#photo} )) || { echo "missing original photo: $src/$id.jpg or .png" >&2; exit 1 }
   [[ -f $cut ]] || { echo "missing cutout: $cut" >&2; exit 1 }
 
-  meta+=("$("$tmp/hero-web" "$photo[1]" "$cut" "$tmp" "$id")")
+  bg=$src/arrange/${id}_bg.png
+  bgarg=()
+  [[ -f $bg ]] && bgarg=("$bg")
+
+  meta+=("$("$tmp/hero-web" "$photo[1]" "$cut" "$tmp" "$id" $bgarg)")
   for w in 1200 2000; do
     cwebp -quiet -q 78 -m 6 "$tmp/$id-bg-$w.png" -o "$out/$id-bg-$w.webp"
     cwebp -quiet -q 80 -alpha_q 100 -exact -m 6 "$tmp/$id-cut-$w.png" -o "$out/$id-cut-$w.webp"
   done
   # fallbacks for browsers without WebP
-  cp "$tmp/$id-bg-1200.jpg" "$out/$id-bg-1200.jpg"
+  cp "$tmp/$id-bg-1200.png" "$out/$id-bg-1200.png"
   cp "$tmp/$id-cut-1200.png" "$out/$id-cut-1200.png"
   echo "built $id"
 done

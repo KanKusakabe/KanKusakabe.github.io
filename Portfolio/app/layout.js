@@ -1,14 +1,14 @@
 // app/layout.js
 import "@/app/globals.css";
 import "@/app/design-a.css";
-import { Gloock, IBM_Plex_Sans, IBM_Plex_Sans_JP } from "next/font/google";
+import { Anton, IBM_Plex_Sans, IBM_Plex_Sans_JP } from "next/font/google";
 
-// 見出し: Gloock / 本文: IBM Plex Sans（英語）・IBM Plex Sans JP（日本語）
+// 見出し: Anton / 本文: IBM Plex Sans（英語）・IBM Plex Sans JP（日本語）
 // Plex は英日が同じ設計なので、日本語の中に英字が混ざっても揃って見える
-const gloock = Gloock({
+const anton = Anton({
   weight: "400",
   subsets: ["latin"],
-  variable: "--font-gloock",
+  variable: "--font-anton",
   display: "swap",
 });
 const plexSans = IBM_Plex_Sans({
@@ -74,7 +74,7 @@ export default function RootLayout({ children }) {
   return (
     <html
       lang="en"
-      className={`${gloock.variable} ${plexSans.variable} ${plexSansJp.variable}`}
+      className={`${anton.variable} ${plexSans.variable} ${plexSansJp.variable}`}
       // 下の script が描画前に "js" クラスを足すので、その差分は警告しない
       suppressHydrationWarning
     >

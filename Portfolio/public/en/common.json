@@ -7,7 +7,7 @@
   "name": "Kan Kusakabe",
   "affiliation": "Hokkaido University \n\n PhD of Computer Science",
   "publication_title": "Publications",
-  "introduction": "Hi, I'm Kan Kusakabe, a third‑year PhD student in Information Science at Hokkaido University. My work centers on interactive mobile interfaces (accessory‑style designs, advanced sensing, and gesture input) and Accesibility Technology. By combining machine learning with rapid prototyping and 3D printing, I create solutions that seamlessly blend digital and physical experiences. I'm open to research collaborations, internships, and career opportunities—feel free to get in touch!",
+  "introduction": "I'm Kan Kusakabe, a third‑year PhD student in Information Science at Hokkaido University. My work centers on interactive mobile interfaces (accessory‑style designs, advanced sensing, and gesture input) and Accesibility Technology. By combining machine learning with rapid prototyping and 3D printing, I create solutions that seamlessly blend digital and physical experiences. I'm open to research collaborations, internships, and career opportunities—feel free to get in touch!",
   "news_title": "News",
   "news": [
     "Invited Talk at [Public Lecture / Yokohama City MICE Next-Generation Development Initiative: CHI 2025 Symposium](https://sigchi.jp/symposium/chi2025_symposium/) (Apr 26, 2025)",
@@ -104,28 +104,6 @@
         "icon": "vr",
         "label": "NoMaps 2025\nVR exhibit",
         "url": "https://shinsetsu.hokkaido.jp/creation-gallery/creators-week-2025"
-      }
-    ],
-    "publication_groups": [
-      {
-        "key": "intl",
-        "title": "International Conference",
-        "note": "Peer-reviewed"
-      },
-      {
-        "key": "journal",
-        "title": "Journal",
-        "note": "Peer-reviewed"
-      },
-      {
-        "key": "domestic",
-        "title": "Domestic Conference",
-        "note": "Peer-reviewed"
-      },
-      {
-        "key": "other",
-        "title": "Other",
-        "note": "Non-peer-reviewed · Demos · Talks"
       }
     ],
     "skills": {

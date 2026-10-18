@@ -1,5 +1,5 @@
 // app/components/a/ContactCard.jsx
-// 連絡先のカード（メール・CV・GitHub・X・Instagram・LinkedIn）。ヘッダーの写真に重ねて置く。
+// 連絡先のカード。メールと CV は1行ずつ、SNS（GitHub・X・Instagram・LinkedIn）は2列。ヘッダーの写真に重ねて置く。
 import contact from "@/public/contact.json";
 import { DownloadIcon, GithubIcon, InstagramIcon, LinkedInIcon, MailIcon, XIcon } from "./icons";
 
@@ -10,7 +10,7 @@ export default function ContactCard({ title, cvLabel, cvHref }) {
       <h3>{title}</h3>
       <ul>
         <li className="wide"><MailIcon /><a href={contact.mail}>{email}</a></li>
-        <li>
+        <li className="wide">
           <DownloadIcon />
           <a href={cvHref} target="_blank" rel="noopener noreferrer">{cvLabel}</a>
         </li>

@@ -19,7 +19,7 @@ export default {
         ink: "#151515",
       },
       fontFamily: {
-        display: ["var(--font-gloock)", "var(--font-plex-jp)", "Georgia", "serif"],
+        display: ["var(--font-anton)", "var(--font-plex-jp)", "Impact", "sans-serif"],
         sans: ["var(--font-plex)", "var(--font-plex-jp)", "system-ui", "sans-serif"],
       },
     },

@@ -111,28 +111,6 @@
         "url": "https://shinsetsu.hokkaido.jp/creation-gallery/creators-week-2025"
       }
     ],
-    "publication_groups": [
-      {
-        "key": "intl",
-        "title": "International Conference",
-        "note": "査読あり"
-      },
-      {
-        "key": "journal",
-        "title": "Journal",
-        "note": "査読あり"
-      },
-      {
-        "key": "domestic",
-        "title": "Domestic Conference",
-        "note": "査読あり"
-      },
-      {
-        "key": "other",
-        "title": "Other",
-        "note": "査読なし・デモ・発表"
-      }
-    ],
     "skills": {
       "languages": [
         {

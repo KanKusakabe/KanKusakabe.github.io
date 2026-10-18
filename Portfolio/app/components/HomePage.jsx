@@ -38,14 +38,8 @@ export default function HomePage({ common, projects, samplePublications, lang })
   const isJa = lang.startsWith("ja");
   const prefix = isJa ? "/ja" : "";
 
-  const groups = a.publication_groups
-    .map((g) => ({
-      ...g,
-      items: samplePublications
-        .filter((p) => p.category === g.key)
-        .sort((x, y) => pubKey(y).localeCompare(pubKey(x))),
-    }))
-    .filter((g) => g.items.length > 0);
+  // 種類（国際会議・論文誌など）で分けず、すべて新しい順に並べる
+  const pubs = [...samplePublications].sort((x, y) => pubKey(y).localeCompare(pubKey(x)));
 
   return (
     <div className="a-page">
@@ -165,31 +159,23 @@ export default function HomePage({ common, projects, samplePublications, lang })
       <section className="a-pubs" id="publications">
         <div className="a-wrap">
           <h3 className="a-sec-title a-reveal">{sections.publications}</h3>
-          {groups.map((g) => (
-            <div className="a-pub-group" key={g.key}>
-              <h4 className="a-grp a-reveal">
-                {g.title}
-                <small>{g.note} · {g.items.length}</small>
-              </h4>
-              <ul className="a-pub-list">
-                {g.items.map((p, i) => (
-                  <li className="a-reveal" key={i}>
-                    <span className="yr">{pubYear(p)}</span>
-                    <div>
-                      <div className="t"><CustomMarkdown>{p.title}</CustomMarkdown></div>
-                      <div className="au"><CustomMarkdown>{p.authors}</CustomMarkdown></div>
-                      <div className="pubr">
-                        <CustomMarkdown>{p.publisher}</CustomMarkdown>{" "}
-                        {p.url && <CustomMarkdown>{p.url}</CustomMarkdown>}
-                      </div>
-                      {p.award && <span className="a-award">{p.award}</span>}
-                    </div>
-                    <span className="v">{p.venue}</span>
-                  </li>
-                ))}
-              </ul>
-            </div>
-          ))}
+          <ul className="a-pub-list">
+            {pubs.map((p, i) => (
+              <li className="a-reveal" key={i}>
+                <span className="yr">{pubYear(p)}</span>
+                <div>
+                  <div className="t"><CustomMarkdown>{p.title}</CustomMarkdown></div>
+                  <div className="au"><CustomMarkdown>{p.authors}</CustomMarkdown></div>
+                  <div className="pubr">
+                    <CustomMarkdown>{p.publisher}</CustomMarkdown>{" "}
+                    {p.url && <CustomMarkdown>{p.url}</CustomMarkdown>}
+                  </div>
+                  {p.award && <span className="a-award">{p.award}</span>}
+                </div>
+                <span className="v">{p.venue}</span>
+              </li>
+            ))}
+          </ul>
         </div>
       </section>
 
