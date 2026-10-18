@@ -31,7 +31,7 @@ function Layer({ basePath, id, kind, className }) {
   );
 }
 
-export default function Hero({ a, basePath }) {
+export default function Hero({ a, basePath, children }) {
   const mediaRef = useRef(null);
   // サーバーでは1枚目を描き、読み込み後にランダムで選び直す（選ぶまでは写真を隠す）
   const [index, setIndex] = useState(null);
@@ -70,8 +70,9 @@ export default function Hero({ a, basePath }) {
 
   return (
     <header className="a-hero">
-      {/* 写真の幅はサイトの中身の幅（--a-content）まで。狭い画面では画面幅いっぱい */}
-      <div className="a-hero-frame">
+      {/* 写真の幅はサイトの中身の幅（--a-content）まで。狭い画面では画面幅いっぱい。
+          data-side: 重ねるカード（children）を人物と反対側の下隅に置く */}
+      <div className="a-hero-frame" data-side={photo.fx > 0.6 ? "left" : "right"}>
         <div
           ref={mediaRef}
           className={`a-hero-media${index === null ? " is-pending" : ""}`}
@@ -82,6 +83,7 @@ export default function Hero({ a, basePath }) {
           <h1 className="a-hero-name">{hero.headline}</h1>
           <Layer basePath={basePath} id={photo.id} kind="cut" className="a-layer a-layer-cut" />
         </div>
+        {children}
       </div>
 
       {/* 写真の枠（overflow: hidden）の外に置き、次のセクションにまたがって見えるようにする */}

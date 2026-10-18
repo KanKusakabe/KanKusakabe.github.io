@@ -74,14 +74,15 @@
 .a-scroll:hover { transform: translate(-50%, 56%); }
 
 /* ---------- hello ---------- */
-.a-hello { padding: 120px 0 0; position: relative; }
-/* 見出し｜本文 を横に並べ、Contact カードは本文の列の下（右寄せ）に置く */
+.a-hello { padding: 120px 0 110px; position: relative; }
+/* 見出し｜本文 を横に並べる */
 .a-hello-grid { display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 7fr); gap: 32px 56px; align-items: start; }
 .a-hello h2 { font-family: var(--a-display); font-weight: 400; font-size: clamp(56px, 7.4vw, 96px); line-height: 1.02; margin: 0; }
 .a-lead { font-size: 15px; padding-top: 12px; }
-/* カードは下の緑のブロックに半分かかる位置（下に 75px 空ける。緑は上に 150px 食い込む） */
-.a-contact { grid-column: 2; justify-self: end; width: min(520px, 100%); margin: 16px 0 75px;
-  position: relative; z-index: 3; background: #000; color: #fff; padding: 22px 26px 22px; }
+/* Contact カード: ヘッダーの写真の下隅（人物と反対側）に重ね、下端は次のセクションに少しはみ出す */
+.a-contact { position: absolute; z-index: 6; right: var(--a-gutter); bottom: -36px; width: min(440px, 40%);
+  background: rgba(0,0,0,.86); -webkit-backdrop-filter: blur(6px); backdrop-filter: blur(6px); color: #fff; padding: 20px 24px 18px; }
+.a-hero-frame[data-side="left"] .a-contact { right: auto; left: var(--a-gutter); }
 .a-contact h3 { font-family: var(--a-display); font-weight: 400; font-size: 30px; margin: 0 0 8px; }
 .a-contact ul { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); column-gap: 20px; }
 .a-contact li.wide { grid-column: 1 / -1; }
@@ -91,9 +92,8 @@
 .a-contact svg.is-stroke { fill: none; stroke: #fff; stroke-width: 2.2; stroke-linecap: round; stroke-linejoin: round; }
 
 /* ---------- green block ---------- */
-.a-green { background: var(--a-green); color: var(--a-cream); margin-top: -150px; padding: 210px 0 120px; position: relative; overflow: hidden; }
-/* 緑のブロックは上の Contact カードに 150px 重なるので、その下から始める */
-.a-outline-word { position: absolute; right: var(--a-edge); top: 170px; font-family: var(--a-display); font-size: clamp(70px, 10vw, 128px); line-height: .82; text-align: right; pointer-events: none; }
+.a-green { background: var(--a-green); color: var(--a-cream); padding: 110px 0 120px; position: relative; overflow: hidden; }
+.a-outline-word { position: absolute; right: var(--a-edge); top: 40px; font-family: var(--a-display); font-size: clamp(70px, 10vw, 128px); line-height: .82; text-align: right; pointer-events: none; }
 .a-outline-word span { display: block; color: transparent; -webkit-text-stroke: 1.4px var(--a-mustard); opacity: .9; }
 .a-green-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 60px; position: relative; }
 .a-sec-title { font-family: var(--a-display); font-weight: 400; font-size: 36px; line-height: 1.15; color: inherit; margin: 0 0 26px; }
@@ -218,7 +218,7 @@
 @media (max-width: 1100px) {
   .a-cards.cols-5 { grid-template-columns: repeat(3, 1fr); }
 }
-/* Hello: 狭い画面では見出し・本文・カードを縦に積む */
+/* Hello: 狭い画面では見出しと本文を縦に積む */
 @media (max-width: 760px) {
   /* スマホではナビを追従させない */
   .a-topbar { position: relative; }
@@ -227,16 +227,21 @@
   .a-proj-body { padding-top: 52px; }
   .a-page [id] { scroll-margin-top: 0; }
   .a-hero-frame { margin: 0; }
-  .a-hello { padding-top: 76px; }
+  /* 写真は画面幅いっぱいなので、カードは左右の余白の内側に収める（900px の指定より強くする） */
+  .a-hero-frame[data-side] .a-contact { margin: 20px var(--a-gutter) 0; }
+  .a-hello { padding: 76px 0 80px; }
   .a-hello-grid { grid-template-columns: minmax(0, 1fr); gap: 20px; }
   .a-lead { padding-top: 0; }
-  .a-contact { grid-column: auto; justify-self: stretch; width: 100%; margin-top: 16px; }
 }
 @media (max-width: 900px) {
   .a-nav ul li.a-nav-link { display: none; }
   .a-green-grid, .a-duo { grid-template-columns: minmax(0, 1fr); }
+  /* 写真に重ねると人物と被るので、Contact カードは写真のすぐ下（緑の帯の中）に置く */
+  .a-hero { padding-bottom: 56px; }
+  /* 761〜900px は写真自体がサイト共通の端に揃っているので、カードは写真と同じ幅 */
+  .a-contact { position: static; width: auto; margin: 20px 0 0; background: #000; }
   /* 1列のときは RESUME を Education の上に流し込み、見出しと重ならないようにする */
-  .a-green { padding-top: 170px; }
+  .a-green { padding-top: 64px; }
   .a-outline-word { position: static; margin: 0 var(--a-edge) 28px 0; }
   .a-skills { padding-top: 20px; }
   .a-yellow { margin-top: -40px; }

@@ -1,6 +1,5 @@
 // app/components/HomePage.jsx
 // トップページ（デザインA: Retro Résumé）。文言はすべて public/{en,ja}/common.json の design_a から読む。
-import contact from "@/public/contact.json";
 import Link from "next/link";
 import Image from "next/image";
 import nextConfig from "@/next.config.mjs";
@@ -9,7 +8,8 @@ import Hero, { Lines } from "@/app/components/a/Hero";
 import RevealObserver from "@/app/components/a/RevealObserver";
 import Topbar from "@/app/components/a/Topbar";
 import Footer from "@/app/components/a/Footer";
-import { DownloadIcon, GithubIcon, LinkedInIcon, MailIcon, TalkIcon, XIcon } from "@/app/components/a/icons";
+import ContactCard from "@/app/components/a/ContactCard";
+import { TalkIcon } from "@/app/components/a/icons";
 
 // 新しい順に並べるための表示年と並び替えキー
 const pubYear = (p) => (p.date ? p.date.slice(0, 4) : String(p.year));
@@ -37,7 +37,6 @@ export default function HomePage({ common, projects, samplePublications, lang })
   const { sections } = a;
   const isJa = lang.startsWith("ja");
   const prefix = isJa ? "/ja" : "";
-  const email = contact.mail.replace(/^mailto:/, "");
 
   const groups = a.publication_groups
     .map((g) => ({
@@ -52,10 +51,12 @@ export default function HomePage({ common, projects, samplePublications, lang })
     <div className="a-page">
       <RevealObserver />
       <Topbar nav={a.nav} isJa={isJa} homeHref={isJa ? "/ja" : "/"} enHref="/" jaHref="/ja" />
-      <Hero a={a} basePath={BASE_PATH} />
+      <Hero a={a} basePath={BASE_PATH}>
+        <ContactCard title={sections.contact} cvLabel={a.hello.cv_label} cvHref={`${BASE_PATH}/${common.cv}`} />
+      </Hero>
 
       {/* ================= Hello ================= */}
-      {/* 見出しと本文を横に並べ（狭い画面では縦に積む）、その下に Contact カード */}
+      {/* 見出しと本文を横に並べる（狭い画面では縦に積む）。Contact カードはヘッダーの写真に重ねている */}
       <section className="a-hello" id="profile">
         <div className="a-wrap a-hello-grid">
           <h2 className="a-reveal">
@@ -63,28 +64,6 @@ export default function HomePage({ common, projects, samplePublications, lang })
           </h2>
           <div className="a-lead a-reveal">
             <CustomMarkdown>{common.introduction}</CustomMarkdown>
-          </div>
-          <div className="a-contact a-reveal" id="contact">
-            <h3>{sections.contact}</h3>
-            <ul>
-              <li className="wide"><MailIcon /><a href={contact.mail}>{email}</a></li>
-              <li>
-                <DownloadIcon />
-                <a href={`${BASE_PATH}/${common.cv}`} target="_blank" rel="noopener noreferrer">{a.hello.cv_label}</a>
-              </li>
-              <li>
-                <GithubIcon />
-                <a href={contact.github} target="_blank" rel="noopener noreferrer">/KanKusakabe</a>
-              </li>
-              <li>
-                <XIcon />
-                <a href={contact.xacount} target="_blank" rel="noopener noreferrer">@kusakabekanv5</a>
-              </li>
-              <li>
-                <LinkedInIcon />
-                <a href={contact.linkedin} target="_blank" rel="noopener noreferrer">/kan-kusakabe</a>
-              </li>
-            </ul>
           </div>
         </div>
       </section>
