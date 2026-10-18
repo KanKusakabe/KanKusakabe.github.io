@@ -7,7 +7,7 @@
   "name": "Kan Kusakabe",
   "affiliation": "Hokkaido University \n\n PhD of Computer Science",
   "publication_title": "Publications",
-  "introduction": "Hi, I'm Kan Kusakabe, a third‑year PhD student in Information Science at Hokkaido University and an HCI researcher. My work centers on interactive mobile interfaces (accessory‑style designs, advanced sensing, and gesture input). By combining machine learning with rapid prototyping and 3D printing, I create solutions that seamlessly blend digital and physical experiences. I'm open to research collaborations, internships, and career opportunities—feel free to get in touch!",
+  "introduction": "Hi, I'm Kan Kusakabe, a third‑year PhD student in Information Science at Hokkaido University. My work centers on interactive mobile interfaces (accessory‑style designs, advanced sensing, and gesture input) and Accesibility Technology. By combining machine learning with rapid prototyping and 3D printing, I create solutions that seamlessly blend digital and physical experiences. I'm open to research collaborations, internships, and career opportunities—feel free to get in touch!",
   "news_title": "News",
   "news": [
     "Invited Talk at [Public Lecture / Yokohama City MICE Next-Generation Development Initiative: CHI 2025 Symposium](https://sigchi.jp/symposium/chi2025_symposium/) (Apr 26, 2025)",
@@ -48,12 +48,12 @@
       {
         "years": "2026",
         "title": "Singapore Management University",
-        "detail": "Visiting Researcher · Mar–Oct 2026 · Host: Kotaro Hara"
+        "detail": "Visiting Researcher · Mar–Oct 2026"
       },
       {
         "years": "2024-2025",
         "title": "LY Corporation",
-        "detail": "Research Intern · Jul 2024–Mar 2025 · Mentor: Kaori Ikematsu"
+        "detail": "Research Intern · Jul 2024–Mar 2025"
       }
     ],
     "highlights": [
@@ -200,7 +200,6 @@
       "resume": "Resume",
       "research": "Research",
       "papers": "Papers",
-      "contact": "Get in touch!",
       "scroll": "Scroll down"
     },
     "footer": {

@@ -33,11 +33,9 @@
 .a-nav { display: flex; align-items: center; justify-content: space-between; gap: 16px; padding: 22px 0; position: relative; z-index: 10; }
 .a-logo { display: flex; align-items: center; font-family: var(--a-display); font-size: 22px; white-space: nowrap; }
 .a-nav ul { display: flex; gap: 30px; list-style: none; align-items: center; font-size: 14px; font-weight: 500; margin: 0; padding: 0; }
-.a-nav li > a:not(.a-btn):hover { text-decoration: underline; text-underline-offset: 4px; }
+.a-nav li > a:hover { text-decoration: underline; text-underline-offset: 4px; }
 .a-lang { display: inline-flex; gap: 6px; opacity: .85; }
 .a-lang a[aria-current="page"] { color: var(--a-mustard); }
-.a-btn { background: var(--a-mustard); color: var(--a-ink) !important; border-radius: 999px; padding: 8px 18px; font-weight: 600; font-size: 13px; display: inline-block; transition: transform .2s; white-space: nowrap; }
-.a-btn:hover { transform: translateY(-2px); }
 
 /* ---------- hero: 背景つきの写真 → 名前 → 切り抜いた人物 ---------- */
 .a-hero { position: relative; background: var(--a-green); color: var(--a-cream); }

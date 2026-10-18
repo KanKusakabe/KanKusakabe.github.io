@@ -23,7 +23,6 @@ export default function Topbar({ nav, isJa, anchorBase = "", homeHref, enHref, j
               <span aria-hidden="true">/</span>
               <Link href={jaHref} aria-current={isJa ? "page" : undefined}>JA</Link>
             </li>
-            <li><a className="a-btn" href={to("contact")}>{nav.contact}</a></li>
           </ul>
         </nav>
       </div>

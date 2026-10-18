@@ -1,7 +1,7 @@
 // app/components/a/ContactCard.jsx
-// 連絡先のカード（メール・CV・GitHub・X・LinkedIn）。ヘッダーの写真に重ねて置く。
+// 連絡先のカード（メール・CV・GitHub・X・Instagram・LinkedIn）。ヘッダーの写真に重ねて置く。
 import contact from "@/public/contact.json";
-import { DownloadIcon, GithubIcon, LinkedInIcon, MailIcon, XIcon } from "./icons";
+import { DownloadIcon, GithubIcon, InstagramIcon, LinkedInIcon, MailIcon, XIcon } from "./icons";
 
 export default function ContactCard({ title, cvLabel, cvHref }) {
   const email = contact.mail.replace(/^mailto:/, "");
@@ -21,6 +21,10 @@ export default function ContactCard({ title, cvLabel, cvHref }) {
         <li>
           <XIcon />
           <a href={contact.xacount} target="_blank" rel="noopener noreferrer">@kusakabekanv5</a>
+        </li>
+        <li>
+          <InstagramIcon />
+          <a href={contact.instagram} target="_blank" rel="noopener noreferrer">@kusakabekanv5</a>
         </li>
         <li>
           <LinkedInIcon />
