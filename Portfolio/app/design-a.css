@@ -146,6 +146,18 @@
   transform-origin: var(--face-x) 100%;
   transform: translateX(var(--cut-dx)) scale(var(--cut-scale));
 }
+/* 写真を表示したら、ずれのない位置から現在のずれまで3秒かけて動かす。
+   動きは指数関数的な減衰（1 - e^(-5t)）：最初は速く、だんだん遅くなって収束する。
+   linear() 非対応のブラウザ向けに、近い形の cubic-bezier を先に書いておく */
+.a-hero-media:not(.is-pending) .a-layer-cut {
+  animation: a-cut-slide 3s cubic-bezier(0.1, 0.7, 0.3, 1);
+  animation-timing-function: linear(0.0, 0.27, 0.468, 0.613, 0.718, 0.796, 0.852, 0.894, 0.924, 0.946, 0.963, 0.974, 0.983, 0.989, 0.994, 0.998, 1.0);
+}
+@keyframes a-cut-slide {
+  from {
+    transform: translateX(0) scale(var(--cut-scale));
+  }
+}
 /* ランダムで写真を選ぶまでは隠す（JS が無いときは1枚目をそのまま見せる） */
 .js .a-hero-media.is-pending .a-layer {
   opacity: 0;
@@ -860,6 +872,9 @@
 }
 
 @media (prefers-reduced-motion: reduce) {
+  .a-hero-media .a-layer-cut {
+    animation: none;
+  }
   .a-reveal {
     transition: none;
   }
