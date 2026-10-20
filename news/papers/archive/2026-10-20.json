@@ -1,0 +1,518 @@
+{
+  "date": "2026-10-20",
+  "arxiv": [
+    {
+      "id": "2610.23125",
+      "title": "Reliability-Consistent Appearance Modeling for RGB-Infrared Multi-Object Tracking",
+      "url": "https://arxiv.org/abs/2610.23125",
+      "pdf": "https://arxiv.org/pdf/2610.23125",
+      "authors": [
+        "Bingyang Wang",
+        "Jiazuo Yu",
+        "Lu Zhang",
+        "Lihe Zhang",
+        "Huchuan Lu",
+        "You He"
+      ],
+      "categories": [
+        "cs.CV"
+      ],
+      "venues": [],
+      "award": false,
+      "talk": false,
+      "workshop": false,
+      "comment": "10 pages, 6 figures. Submitted to IEEE Transactions on Multimedia",
+      "hf_upvotes": null,
+      "star_votes": 2,
+      "star_codes": [
+        "sota"
+      ],
+      "star_quote": "RCA-MOT sets new SOTA results on VT-MOT and UniRTL, improving the previous best HOTA by 5.402/6.075 points and IDF1 by 11.549/12.789 points, respectively",
+      "signals": [],
+      "headline": "RGB・赤外線マルチオブジェクトトラッキングにおける信頼性ベースの外観モデリング手法RCA-MOT",
+      "what": "RGBと赤外線のモダリティを統合せず、個別および融合したアイデンティティ表現を保持する信頼性一貫型外観モデリングフレームワークです。学習不要の推定器により各ブランチの信頼性を算出し、候補のキャリブレーションや外観メモリの更新強度を動的に制御します。",
+      "enables": "VT-MOTおよびUniRTLデータセットにおいて、HOTAを5.402/6.075ポイント、IDF1を11.549/12.789ポイント改善し、新たなState-of-the-art（SOTA）を達成しました。",
+      "why_it_matters": "従来のモダリティを圧縮する手法と異なり、一方が劣化しても信頼性の高い情報を選択的に利用できるため、信頼性の低い証拠による関連付けの歪みやメモリ汚染を防げます。",
+      "tags": [
+        "コンピュータビジョン",
+        "マルチオブジェクトトラッキング",
+        "マルチモーダル学習"
+      ],
+      "fetched_at": "2026-10-20T09:57:49.145508+09:00"
+    },
+    {
+      "id": "2610.23203",
+      "title": "SimpleVLN: Towards Simple and Frontier Vision-Language Navigation",
+      "url": "https://arxiv.org/abs/2610.23203",
+      "pdf": "https://arxiv.org/pdf/2610.23203",
+      "authors": [
+        "Lingyi Hong",
+        "Weiren Cai",
+        "Jiayu Chen",
+        "Xinyu Zhou",
+        "Bailin He",
+        "Yunfei Guo"
+      ],
+      "categories": [
+        "cs.RO"
+      ],
+      "venues": [],
+      "award": false,
+      "talk": false,
+      "workshop": false,
+      "comment": "homepage: https://simplevln.github.io/",
+      "hf_upvotes": null,
+      "star_votes": 1,
+      "star_codes": [
+        "sota"
+      ],
+      "star_quote": "SimpleVLN achieves 76.7% and 80.1% success rates on the R2R-CE and RxR-CE splits, respectively, substantially outperforming existing methods.",
+      "signals": [],
+      "headline": "タスク特化設計なしでマルチモーダルLLMの視覚言語ナビゲーション能力を引き出すSimpleVLN",
+      "what": "マルチモーダルLLM（MLLM）の構造を維持したまま、固定予算のグローバル・ローカルメモリとアクションチャンクを活用するナビゲーションフレームワークです。模倣学習、DAgger、強化学習を組み合わせたプログレッシブな最適化パイプラインにより、ネイティブなMLLMの能力を最大化します。",
+      "enables": "R2R-CEで76.7%、RxR-CEで80.1%の成功率を記録し、既存手法を大幅に上回る性能を多様なMLLMバックボーンで実証しました。",
+      "why_it_matters": "複雑なタスク固有アーキテクチャを追加することなく、データの構成と学習プロセスの工夫だけで高度なナビゲーションが可能であることを示しています。",
+      "tags": [
+        "ロボティクス",
+        "MLLM",
+        "視覚言語ナビゲーション"
+      ],
+      "fetched_at": "2026-10-20T09:57:49.145508+09:00"
+    },
+    {
+      "id": "2610.23344",
+      "title": "Language Models Learn to Improve Language Models",
+      "url": "https://arxiv.org/abs/2610.23344",
+      "pdf": "https://arxiv.org/pdf/2610.23344",
+      "authors": [
+        "Minhua Lin",
+        "Zijun Wang",
+        "Zewen Liu",
+        "Zhaotian Weng",
+        "Bing He",
+        "Zhan Shi"
+      ],
+      "categories": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "venues": [],
+      "award": false,
+      "talk": false,
+      "workshop": false,
+      "comment": "",
+      "hf_upvotes": null,
+      "star_votes": 2,
+      "star_codes": [
+        "cap",
+        "sota"
+      ],
+      "star_quote": "LM2LM enables Qwen3.8-27B to outperform GPT-6-sol, even when GPT-6-sol is given 300 real experimental records in context",
+      "signals": [],
+      "headline": "実環境のフィードバックから言語モデル改善案の生成を強化学習で訓練するLM2LM",
+      "what": "LLMの性能を向上させる提案を生成するためのRLフレームワークで、Research World Model（RWM）を報酬モデルとして使用します。実際の実験記録に基づいてRWMが報酬を予測し、定期的に実機検証の結果をフィードバックすることで報酬の信頼性を維持します。",
+      "enables": "Qwen3.8-27Bをベースにしたモデルが、データ生成コストを33%抑えつつ、コンテキスト内に300件の実験記録を持つGPT-6-solを上回る性能を示しました。",
+      "why_it_matters": "AI研究の自動化において、高コストな実トレーニングを代替する効率的かつ信頼性の高いセルフリサーチサイクルを可能にします。",
+      "tags": [
+        "LLM",
+        "強化学習",
+        "AI自動化"
+      ],
+      "fetched_at": "2026-10-20T09:57:49.145508+09:00"
+    },
+    {
+      "id": "2610.22435",
+      "title": "TRACE: Transformer Residual Activation Codebook Encoding for Communication-efficient Distributed Edge Inference",
+      "url": "https://arxiv.org/abs/2610.22435",
+      "pdf": "https://arxiv.org/pdf/2610.22435",
+      "authors": [
+        "Muhammad Azlan Qazi",
+        "Alexandros Iosifidis",
+        "Qi Zhang"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.AI",
+        "cs.DC"
+      ],
+      "venues": [],
+      "award": false,
+      "talk": false,
+      "workshop": false,
+      "comment": "",
+      "hf_upvotes": null,
+      "star_votes": 1,
+      "star_codes": [
+        "sota"
+      ],
+      "star_quote": "Trace achieves up to 1.89% higher accuracy and up to 1.27x end-to-end inference speedup",
+      "signals": [],
+      "headline": "分散エッジ推論の通信ボトルネックを解消する残差アクティベーションのコードブック符号化技術TRACE",
+      "what": "Transformer層の残差部分にベクトル量子化（VQ）を導入し、Key/Value表現をあらかじめコードブック化してインデックスで転送する手法です。受信側は計算を待たずにテーブル参照でKVを復元できるため、通信と計算のオーバーラップが可能になります。",
+      "enables": "ViT-Baseなどの実験において、既存のVQ手法より最大1.89%高い精度と1.27倍の推論高速化を達成し、非圧縮時と比較して通信量を最大22,624倍削減しました。",
+      "why_it_matters": "通信帯域が限られるエッジデバイス間での分散推論において、通信と計算の直列的な依存関係を解消し、リアルタイム性を向上させます。",
+      "tags": [
+        "分散推論",
+        "Transformer",
+        "エッジコンピューティング"
+      ],
+      "fetched_at": "2026-10-20T09:57:49.145508+09:00"
+    },
+    {
+      "id": "2610.22439",
+      "title": "Sparse Autoencoders Can Induce Local Geometry for Mitigating Catastrophic Forgetting",
+      "url": "https://arxiv.org/abs/2610.22439",
+      "pdf": "https://arxiv.org/pdf/2610.22439",
+      "authors": [
+        "Kamil Faber",
+        "Katarzyna Filus",
+        "{\\L}ukasz Pawela"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "venues": [],
+      "award": false,
+      "talk": false,
+      "workshop": false,
+      "comment": "",
+      "hf_upvotes": null,
+      "star_votes": 1,
+      "star_codes": [
+        "sota"
+      ],
+      "star_quote": "accuracy gains of 12.15, 4.79, and 3.22 percentage points over the strongest conventional baseline",
+      "signals": [],
+      "headline": "疎な自己符号化器を用いて表現のドリフトを制約し破滅的忘却を抑制する手法SAGA",
+      "what": "タスク境界ごとに訓練されたSparse Autoencoder（SAE）から、表現のドリフトに対する局所的な低ランク制約を生成する継続学習手法です。エンコーダのヤコビアンから得られる特異ベクトルを用いて、過去の情報を損なう表現変化のみをペナルティ化します。",
+      "enables": "ViT-B/16を用いたベンチマークで、CIFAR-100において12.15ポイント、ImageNet-Rにおいて3.22ポイントの精度向上を達成し、忘却を最小限に抑えました。",
+      "why_it_matters": "可塑性を維持しつつ、どの方向の表現変化を抑制すべきかという課題に対し、SAEによる幾何学的な制約が有効であることを示しました。",
+      "tags": [
+        "継続学習",
+        "Sparse Autoencoder",
+        "深層学習"
+      ],
+      "fetched_at": "2026-10-20T09:57:49.145508+09:00"
+    },
+    {
+      "id": "2610.23239",
+      "title": "Response-Informed Value Estimation for Cost-Aware Multi-Turn LLM Routing",
+      "url": "https://arxiv.org/abs/2610.23239",
+      "pdf": "https://arxiv.org/pdf/2610.23239",
+      "authors": [
+        "Haotian Yan",
+        "Jiaqi Liu",
+        "Bingyi Jing",
+        "Tianjun Yao"
+      ],
+      "categories": [
+        "cs.LG"
+      ],
+      "venues": [],
+      "award": false,
+      "talk": false,
+      "workshop": false,
+      "comment": "",
+      "hf_upvotes": null,
+      "star_votes": 1,
+      "star_codes": [
+        "new"
+      ],
+      "star_quote": "Conditioning on the response turns response-induced return variation from residual noise into an observed covariate",
+      "signals": [],
+      "headline": "マルチターンLLMルーティングのコスト効率を向上させる応答情報活用型価値推定RIVET",
+      "what": "推論時には利用できない「生成された応答」の情報を、訓練時のみ活用してモデルの価値を推定するルーティング手法です。共有表現の上に、デプロイ用のルーティング推定器と、応答を観測して分散を抑制する応答情報推定器の2つを共同で学習させます。",
+      "enables": "MINTベンチマークにおいて、最強のベースラインよりも少ないコスト（74.7%減）で、より多くのタスクを解決することが可能になりました。",
+      "why_it_matters": "事後的な結果しか得られないマルチターン環境において、中間ステップの応答を共変量として利用することで、推定精度の向上とコスト最適化を両立しています。",
+      "tags": [
+        "LLMルーティング",
+        "価値推定",
+        "コスト最適化"
+      ],
+      "fetched_at": "2026-10-20T09:57:49.145508+09:00"
+    },
+    {
+      "id": "2610.23826",
+      "title": "Self-Building Labs",
+      "url": "https://arxiv.org/abs/2610.23826",
+      "pdf": "https://arxiv.org/pdf/2610.23826",
+      "authors": [
+        "Jiaru Bai",
+        "Yuchi Zhao",
+        "Han Hao",
+        "Miroslav Bogdanovic",
+        "Yang Cao",
+        "Varinia Bernales"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.MA",
+        "cs.RO"
+      ],
+      "venues": [],
+      "award": false,
+      "talk": false,
+      "workshop": false,
+      "comment": "",
+      "hf_upvotes": null,
+      "star_votes": 1,
+      "star_codes": [
+        "cap"
+      ],
+      "star_quote": "designs, configures, and operates its own laboratory setup given a high-level scientific goal.",
+      "signals": [],
+      "headline": "科学的目標から実験環境の構成・ロボット操作までを自律的に設計・実行するSelf-building Labs",
+      "what": "高レベルな科学的目標が与えられると、ラボのレイアウト、デジタルツイン、ロボットのスキル、実験ワークフローを自律的に構築するエージェントシステムです。既存の固定的な自動化ラボと異なり、空き部屋からでも必要な機能をゼロから構築することを目指します。",
+      "enables": "量子ドット合成実験などの実世界タスクにおいて、複数のロボットが協力してラボを構築・運用できることを実証しました。",
+      "why_it_matters": "研究者が装置のプログラミングや物理的な設定に費やす時間を削減し、科学的発見の自動化をより柔軟かつスケーラブルにします。",
+      "tags": [
+        "AIエージェント",
+        "ロボティクス",
+        "科学的発見"
+      ],
+      "fetched_at": "2026-10-20T09:57:49.145508+09:00"
+    },
+    {
+      "id": "2610.23479",
+      "title": "HexaShell: A Thin Harness for Exploring the Limits of VLM Agents as Robot Coding Agents",
+      "url": "https://arxiv.org/abs/2610.23479",
+      "pdf": "https://arxiv.org/pdf/2610.23479",
+      "authors": [
+        "Hongcheng Gao",
+        "Alex Zhou",
+        "Jay Zhu",
+        "Zelin Zheng",
+        "Shijia Ge",
+        "Xiping Li"
+      ],
+      "categories": [
+        "cs.RO"
+      ],
+      "venues": [],
+      "award": false,
+      "talk": false,
+      "workshop": false,
+      "comment": "Code: https://github.com/HexaFuture/HexaShell",
+      "hf_upvotes": 284,
+      "star_votes": 0,
+      "star_codes": [],
+      "star_quote": "",
+      "signals": [
+        "HF ▲284"
+      ],
+      "headline": "コード生成VLMエージェントによるロボット操作の限界を探索する軽量フレームワークHexaShell",
+      "what": "VLMエージェントがプログラムを生成・修正してロボットを制御するシステムで、失敗ログの分析から「ツール」と呼ばれる小規模なコードを作成し蓄積します。三角測量などの幾何学的な計算をツールに含めることで、観測から物体の位置関係を正確に把握します。",
+      "enables": "RoboDojoの42タスクで成功率39.7%を達成し、新たなSOTAを記録しました。特に押し操作では92.5%の高い成功率を示しましたが、精密な挿入タスクなどは8.3%に留まるという限界も示されました。",
+      "why_it_matters": "推論能力ではなく物理的な接触制御がVLMエージェントのボトルネックであることを特定し、今後の課題を明確にしています。",
+      "tags": [
+        "ロボティクス",
+        "VLMエージェント",
+        "コード生成"
+      ],
+      "fetched_at": "2026-10-20T09:57:49.145508+09:00"
+    },
+    {
+      "id": "2610.22471",
+      "title": "Has GPT-6-Astra Achieved Embodied Intelligence?",
+      "url": "https://arxiv.org/abs/2610.22471",
+      "pdf": "https://arxiv.org/pdf/2610.22471",
+      "authors": [
+        "SenseNova",
+        "Joint Research Team",
+        ":",
+        "Zhongang Cai",
+        "Ziang Cao",
+        "Tailai Chen"
+      ],
+      "categories": [
+        "cs.RO",
+        "cs.CV",
+        "cs.LG",
+        "cs.MM"
+      ],
+      "venues": [],
+      "award": false,
+      "talk": false,
+      "workshop": false,
+      "comment": "Homepage: https://sensenova.ai/has-gpt-6-astra-achieved-embodied-intelligence",
+      "hf_upvotes": 236,
+      "star_votes": 0,
+      "star_codes": [],
+      "star_quote": "",
+      "signals": [
+        "HF ▲236"
+      ],
+      "headline": "GPT-6-Astraによる汎用的な身体知能の可能性と実用化への課題の評価",
+      "what": "GPT-6-Astraを、人型ロボット、多指ハンド、移動プラットフォームなど12の広範なベンチマークで評価した技術報告書です。In-context learning（ICL）を用いた操作能力や、高レベル推論器（System 2）と低レベル制御器（System 1）の連携の有効性を分析しています。",
+      "enables": "身体化されたタスクにおいて前例のないパフォーマンスを達成し、タスク特化型モデルを構築する従来のパラダイムを打破する能力を示しました。",
+      "why_it_matters": "GPT-6-Astraが身体的知能の閾値を超えつつあることを示唆する一方で、実世界デプロイにおけるデータ収集コストや実時間制約などの未解決な課題を提示しています。",
+      "tags": [
+        "身体知能",
+        "ロボティクス",
+        "GPT-6-Astra"
+      ],
+      "fetched_at": "2026-10-20T09:57:49.145508+09:00"
+    },
+    {
+      "id": "2610.23121",
+      "title": "Scene-Designer: Learning Design Intelligence for Agentic 3D Scene Generation",
+      "url": "https://arxiv.org/abs/2610.23121",
+      "pdf": "https://arxiv.org/pdf/2610.23121",
+      "authors": [
+        "Xuanyu Liu",
+        "Hongyan Feng",
+        "Miao Pan",
+        "Sunlai Chen",
+        "Lizhou Liang",
+        "Bing Sun"
+      ],
+      "categories": [
+        "cs.CV"
+      ],
+      "venues": [],
+      "award": false,
+      "talk": false,
+      "workshop": false,
+      "comment": "",
+      "hf_upvotes": 49,
+      "star_votes": 0,
+      "star_codes": [],
+      "star_quote": "",
+      "signals": [
+        "HF ▲49"
+      ],
+      "headline": "設計と批評の相互学習により高品質な3Dシーンを生成するエージェントScene-Designer",
+      "what": "3D室内シーンの設計（Observation-Thought-Action）と批評（Observation-Thought-Critic）を学ぶエージェントフレームワークです。批判モデルのガイドを用いたGRPO（Scene-GRPO）により、物理的妥当性や機能性を備えたレイアウト生成を最適化します。",
+      "enables": "物理的整合性、機能的正しさ、レイアウトのコヒーレンスにおいて、汎用的なモデルを大幅に上回る性能を実現しました。",
+      "why_it_matters": "単なる静的なシーンの学習ではなく、設計プロセスと批評プロセスの相互作用によって、ドメイン特化型の「設計インテリジェンス」を獲得できることを示しました。",
+      "tags": [
+        "3Dシーン生成",
+        "AIエージェント",
+        "強化学習"
+      ],
+      "fetched_at": "2026-10-20T09:57:49.145508+09:00"
+    },
+    {
+      "id": "2610.23181",
+      "title": "Tree-Aware Posterior Distillation for Long-Horizon Agentic Reinforcement Learning",
+      "url": "https://arxiv.org/abs/2610.23181",
+      "pdf": "https://arxiv.org/pdf/2610.23181",
+      "authors": [
+        "Heming Zou",
+        "Qi Wang",
+        "Yixiu Mao",
+        "Yun Qu",
+        "Yuyi Guo",
+        "Zeyuan Liu"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.AI",
+        "cs.CL"
+      ],
+      "venues": [],
+      "award": false,
+      "talk": false,
+      "workshop": false,
+      "comment": "",
+      "hf_upvotes": 32,
+      "star_votes": 0,
+      "star_codes": [],
+      "star_quote": "",
+      "signals": [
+        "HF ▲32"
+      ],
+      "headline": "長期間の対話タスクにおける疎な報酬課題を解決するTree-Aware Posterior Distillation",
+      "what": "価値ネットワークを使用せずに、対話のターンごとにツリー状の継続パターンを生成し、最終報酬を各ターンに割り当てる強化学習フレームワークTreeOPSDです。固定されたターゲット分布に対する自己蒸留を行うことで、ポリシーのドリフトを抑制しながら学習を進めます。",
+      "enables": "Qwen3-30Bにおいて、Deep Research設定での平均精度をGRPOと比較して4.97ポイント向上させるなど、長期間の推論タスクで高い性能を示しました。",
+      "why_it_matters": "学習の複雑さを増大させる批判モデル（Critic）やステップレベルのアノテーションなしに、長期スパンのクレジット割り当てと安定した学習を可能にします。",
+      "tags": [
+        "強化学習",
+        "LLM",
+        "クレジット割り当て"
+      ],
+      "fetched_at": "2026-10-20T09:57:49.145508+09:00"
+    },
+    {
+      "id": "2610.22992",
+      "title": "GOLD: Geometric Optimized Latent Diffusion for Structure-Aware RNA Inverse Folding",
+      "url": "https://arxiv.org/abs/2610.22992",
+      "pdf": "https://arxiv.org/pdf/2610.22992",
+      "authors": [
+        "Qi Si",
+        "Xuyang Liu",
+        "Penglei Wang",
+        "Shuo Su",
+        "Limei Han",
+        "Mengzhu Li"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "venues": [
+        "NeurIPS"
+      ],
+      "award": false,
+      "talk": true,
+      "workshop": false,
+      "comment": "Accept as a Spotlight Paper in NeurIPS 2026",
+      "hf_upvotes": null,
+      "star_votes": 0,
+      "star_codes": [],
+      "star_quote": "",
+      "signals": [
+        "Oral等"
+      ],
+      "headline": "RNA配列と3D構造を統一潜在空間で共拡散させる構造特化型生成モデルGOLD",
+      "what": "RNAの離散配列と連続的なサイドチェーンの幾何形状を、GeoVAEを用いて単一の滑らかな潜在マニフォールドに投影する生成モデルです。サンプリング時に物理的制約から計算された勾配を用いてフィードバックを行う、勾配誘導型サンプリング機構を備えています。",
+      "enables": "配列の回復率、二次構造の妥当性、および3D折り畳み性能の指標において、従来手法を凌駕するState-of-the-artの性能を達成しました。",
+      "why_it_matters": "1次元配列だけでなく、構造安定性に不可欠な3次元のサイドチェーン形状を同時に最適化することで、より実用的なRNA設計を可能にします。",
+      "tags": [
+        "バイオインフォマティクス",
+        "拡散モデル",
+        "RNA設計"
+      ],
+      "fetched_at": "2026-10-20T09:57:49.145508+09:00"
+    },
+    {
+      "id": "2610.23157",
+      "title": "Cross-Centaur: Modeling Individual Decision-Making Across Psychological Tasks with Language Models",
+      "url": "https://arxiv.org/abs/2610.23157",
+      "pdf": "https://arxiv.org/pdf/2610.23157",
+      "authors": [
+        "Hikaru Asano",
+        "Hidezo Suganuma",
+        "Ryutaro Mori",
+        "Yukino Baba"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "venues": [
+        "EMNLP"
+      ],
+      "award": false,
+      "talk": true,
+      "workshop": false,
+      "comment": "Accepted to EMNLP 2026 (Main Conference, Oral Presentation)",
+      "hf_upvotes": null,
+      "star_votes": 0,
+      "star_codes": [],
+      "star_quote": "",
+      "signals": [
+        "Oral等"
+      ],
+      "headline": "心理学タスクを通じて個人の意思決定特性を学習・予測するLLM、Cross-Centaur",
+      "what": "複数の心理学実験にまたがる個人の行動データを集めたCross-Psych-101データセットで学習したLLMモデルです。特定の参加者の過去のタスク行動から、未知のタスクにおけるその個人の行動を予測します。",
+      "enables": "既存のLLMやCentaurモデルを上回り、タスク間を跨いで個人の行動傾向（行動バイアスなど）を予測することに成功しました。",
+      "why_it_matters": "集団平均的な傾向だけでなく、個人の行動の一貫性をモデル化できることを示しており、人間の意思決定の計算モデルとしてのLLMの可能性を広げます。",
+      "tags": [
+        "行動心理学",
+        "LLM",
+        "意思決定モデル"
+      ],
+      "fetched_at": "2026-10-20T09:57:49.145508+09:00"
+    }
+  ]
+}
