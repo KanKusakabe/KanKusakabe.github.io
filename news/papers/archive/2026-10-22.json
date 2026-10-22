@@ -1,0 +1,1254 @@
+{
+  "date": "2026-10-22",
+  "arxiv": [
+    {
+      "id": "2610.27078",
+      "title": "LEAF: LUT-aware Efficient Attention on FPGAs",
+      "url": "https://arxiv.org/abs/2610.27078",
+      "pdf": "https://arxiv.org/pdf/2610.27078",
+      "authors": [
+        "Arianna Cox",
+        "Chang Sun",
+        "Lauri Laatu",
+        "Benedikt Maier",
+        "Aadeesh Sharma",
+        "Leo Rozanov"
+      ],
+      "categories": [
+        "cs.LG",
+        "hep-ex"
+      ],
+      "venues": [],
+      "award": false,
+      "talk": false,
+      "workshop": false,
+      "comment": "Accepted for the 9th Workshop on Machine Learning and the Physical Sciences (ML4PS 2026)",
+      "hf_upvotes": null,
+      "star_votes": 2,
+      "star_codes": [
+        "sota"
+      ],
+      "star_quote": "improves accuracy by 1.8 percentage points while using 2.9 times fewer LUTs than the previous state-of-the-art",
+      "signals": [],
+      "headline": "FPGAネイティブなLUTベース学習による超低遅延Transformer「LEAF」",
+      "what": "FPGAのルックアップテーブル（LUT）を考慮した学習を行う、ナノ秒スケールの推論を実現するTransformer層およびLinformer層です。Attentionブロックの行列ベクトル演算を数式形式で残しつつ、射影層やFFN層をハードウェア親和性の高い形式に変換します。",
+      "enables": "ジェットタギングのベンチマークにおいて、既存のサブマイクロ秒Transformerと比較してLUT使用量を2.9倍削減しながら、精度を1.8ポイント向上させました。64粒子のLinformer構成で35nsの推論速度を達成しています。",
+      "why_it_matters": "CERNのようなリアルタイムシステムが要求するサブマイクロ秒の制約を満たしつつ、FPGAに収まるサイズで高い表現力を維持できるため、物理実験やエッジデバイスでのLLM応用を加速させます。",
+      "tags": [
+        "FPGA",
+        "エッジ推論",
+        "Transformer"
+      ],
+      "fetched_at": "2026-10-22T09:29:47.616054+09:00"
+    },
+    {
+      "id": "2610.27815",
+      "title": "ProVe: Proposer-Verifier Decoding",
+      "url": "https://arxiv.org/abs/2610.27815",
+      "pdf": "https://arxiv.org/pdf/2610.27815",
+      "authors": [
+        "Ziqi Jin",
+        "Weiwen Xu",
+        "Jiaxi Li",
+        "Yujie Zhong",
+        "Qi She",
+        "Aixin Sun"
+      ],
+      "categories": [
+        "cs.CL",
+        "cs.LG"
+      ],
+      "venues": [],
+      "award": false,
+      "talk": false,
+      "workshop": false,
+      "comment": "",
+      "hf_upvotes": null,
+      "star_votes": 1,
+      "star_codes": [
+        "sota"
+      ],
+      "star_quote": "ProVe-lossless reaches 2.5x average AR throughput without training a separate draft head.",
+      "signals": [],
+      "headline": "大規模モデルが自身でブロック予測し検証する効率的な推論手法「ProVe」",
+      "what": "標準的な自己回帰（AR）モデルをファインチューニングし、1回のフォワードパスで将来のトークンブロックを予測する「Proposer」として動作させ、別のパスで検証を行う手法です。検証器には小型モデルまたはProposer自身を利用できます。",
+      "enables": "32Bモデルを用いたProVe-lossless設定で、精度の低下なしに平均2.5倍のスループット向上を達成しました。小型の3B検証器を用いた場合、わずかな精度低下で2.7倍の高速化が可能です。",
+      "why_it_matters": "投機的デコーディング（Speculative Decoding）におけるドラフトモデルの役割を大規模モデルに持たせることで、別途ドラフト用のヘッドを学習させる手間を省きつつ、高い推論効率を実現します。",
+      "tags": [
+        "推論加速",
+        "LLM",
+        "投機的デコーディング"
+      ],
+      "fetched_at": "2026-10-22T09:29:47.616054+09:00"
+    },
+    {
+      "id": "2610.28555",
+      "title": "Learning Computational Structure for Sample-Efficient Prediction",
+      "url": "https://arxiv.org/abs/2610.28555",
+      "pdf": "https://arxiv.org/pdf/2610.28555",
+      "authors": [
+        "Hangyu Zhou",
+        "Constantine Dovrolis",
+        "Stephen Mussmann"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "venues": [],
+      "award": false,
+      "talk": false,
+      "workshop": false,
+      "comment": "36 pages",
+      "hf_upvotes": null,
+      "star_votes": 2,
+      "star_codes": [
+        "new"
+      ],
+      "star_quote": "we introduce Learned Wiring (LeWi): each neuron has a learned low-dimensional embedding, only nearby neurons connect",
+      "signals": [],
+      "headline": "神経回路の空間組織に着想を得て結合と重みを同時学習する「Learned Wiring」",
+      "what": "各ニューロンに低次元の埋め込みを学習させ、近傍のニューロン間のみを接続する「Learned Wiring (LeWi)」を提案しています。高次元データの統計的学習において、隠れた計算構造を効率的に捉えるための手法です。",
+      "enables": "32種類の計算グラフを用いたベンチマークにおいて、密なネットワーク（Dense Network）と比較して学習曲線下面積を27%削減し、高いサンプル効率を実現しました。また、17のワールドモデル予測タスクのうち16でベースラインを上回っています。",
+      "why_it_matters": "次元の呪いを克服するために疎な組成構造を利用しており、物理的な制御やナビゲーションなど、構造的な依存関係が重要なドメインでの効率的な学習に寄与します。",
+      "tags": [
+        "機械学習",
+        "サンプル効率",
+        "アーキテクチャ"
+      ],
+      "fetched_at": "2026-10-22T09:29:47.616054+09:00"
+    },
+    {
+      "id": "2610.28559",
+      "title": "Large Flow Language Models",
+      "url": "https://arxiv.org/abs/2610.28559",
+      "pdf": "https://arxiv.org/pdf/2610.28559",
+      "authors": [
+        "Arnav Chavan",
+        "Chanhyuk Lee",
+        "Udbhav Bamba",
+        "Jaehoon Yoo",
+        "Seunghoon Hong",
+        "Aditi Raghunathan"
+      ],
+      "categories": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "venues": [],
+      "award": false,
+      "talk": false,
+      "workshop": false,
+      "comment": "Code available at: https://github.com/lafa-gh/large-flow-lms",
+      "hf_upvotes": 10,
+      "star_votes": 1,
+      "star_codes": [
+        "sota"
+      ],
+      "star_quote": "This yields 2.54x the throughput of an AR model at comparable quality, outperforming multi-token prediction",
+      "signals": [],
+      "headline": "連続フローを言語モデルに適用し高速な並列生成を実現する「Lafa」",
+      "what": "8Bパラメータ規模にスケーリングされた、ブロック単位のフローベース言語モデルです。因果的アテンションを持つプレフィックスと、各ブロック内の双方向かつ非同期なフローを組み合わせた設計を採用しています。",
+      "enables": "30Bトークン未満の学習データで、自己回帰（AR）モデルと同等以上の性能を達成しつつ、ARモデルの2.54倍のスループットを実現しました。マルチトークン予測（MTP）や離散拡散モデルを上回る性能を示しています。",
+      "why_it_matters": "離散拡散モデルでは困難だった数十億パラメータ規模での言語モデリングを効率的に実現し、並列生成と自己投機的デコーディングの両立を可能にしました。",
+      "tags": [
+        "言語モデル",
+        "並列生成",
+        "Flow Matching"
+      ],
+      "fetched_at": "2026-10-22T09:29:47.616054+09:00"
+    },
+    {
+      "id": "2610.28586",
+      "title": "Capable Teacher, Myopic Scorer: Reward-Free Teacher Repair for Agentic On-Policy Distillation",
+      "url": "https://arxiv.org/abs/2610.28586",
+      "pdf": "https://arxiv.org/pdf/2610.28586",
+      "authors": [
+        "Shu Zhao",
+        "Tan Yu"
+      ],
+      "categories": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "venues": [],
+      "award": false,
+      "talk": false,
+      "workshop": false,
+      "comment": "17 pages, 5 figures, 13 tables. Project page: https://tree-shu-zhao.github.io/r2s/",
+      "hf_upvotes": null,
+      "star_votes": 2,
+      "star_codes": [
+        "sota"
+      ],
+      "star_quote": "R2S outperforms three state-of-the-art agentic-OPD methods in all twelve teacher-student-environment cells, by 12.8 success points on average",
+      "signals": [],
+      "headline": "次トークンスコアの近視眼性を解消する蒸留手法「Rollout-to-Scorer Distillation」",
+      "what": "エージェントのオンポリシー蒸留において、教師モデルが将来を予測せずに各トークンを評価してしまう「ロールアウト・スコアラー・ギャップ」を解消する手法です。不一致が生じる状態で教師による「やり直し」を行い、その結果に基づいて教師をファインチューニングします。",
+      "enables": "3つの環境と複数のモデルを用いた評価において、既存の最先端（SOTA）手法を全ての条件で上回り、平均12.8ポイントの成功率向上を達成しました。報酬設計が困難なタスクでも動作します。",
+      "why_it_matters": "教師モデルの評価と実際の行動の乖離を埋めることで、長期的な推論が必要なエージェントタスクにおいて学生モデルがより安定した行動を選択できるようになります。",
+      "tags": [
+        "LLMエージェント",
+        "知識蒸留",
+        "強化学習"
+      ],
+      "fetched_at": "2026-10-22T09:29:47.616054+09:00"
+    },
+    {
+      "id": "2610.28610",
+      "title": "InterWebCoder: Learning Interactive Webpage Generation from Executable Tests via Reinforcement Learning",
+      "url": "https://arxiv.org/abs/2610.28610",
+      "pdf": "https://arxiv.org/pdf/2610.28610",
+      "authors": [
+        "Jingyu Xiao",
+        "Dasen Dai",
+        "Yuxuan Wan",
+        "Jen-tse Huang",
+        "Yintong Huo",
+        "Hongyu Zhang"
+      ],
+      "categories": [
+        "cs.SE"
+      ],
+      "venues": [],
+      "award": false,
+      "talk": false,
+      "workshop": false,
+      "comment": "",
+      "hf_upvotes": null,
+      "star_votes": 2,
+      "star_codes": [
+        "sota"
+      ],
+      "star_quote": "InterWebCoder achieves final scores of 48.54 and 48.42 with a 9B backbone, outperforming 30B-level models and Gemini-3.7-Flash",
+      "signals": [],
+      "headline": "実行可能なテストを用いて対話型Webページ生成を強化する「InterWebCoder」",
+      "what": "実世界のインタラクション軌跡を記録し、自己完結型のコードとテストスクリプトを合成するフレームワークです。テスト通過率と視覚的類似度に基づくポリシー最適化（GRPO）を組み合わせ、実行ベースのフィードバックから学習します。",
+      "enables": "9BモデルでGemini-3.7-Flashを上回るスコアを達成し、Claude-Sonnet-5に匹敵する性能を示しました。従来のマルチモーダルLLMによる検証と比較して、報酬計算のレイテンシを97%以上削減しています。",
+      "why_it_matters": "Webエージェントによる検証を、高速で再現可能な実行テストに置き換えることで、コード生成の精度向上と学習プロセスの大幅な加速を同時に実現しました。",
+      "tags": [
+        "コード生成",
+        "Web開発",
+        "強化学習"
+      ],
+      "fetched_at": "2026-10-22T09:29:47.616054+09:00"
+    },
+    {
+      "id": "2610.28623",
+      "title": "Planning under Noise with Neural Operators",
+      "url": "https://arxiv.org/abs/2610.28623",
+      "pdf": "https://arxiv.org/pdf/2610.28623",
+      "authors": [
+        "Michael Chen",
+        "Hong Chul Nam",
+        "Xi Deng",
+        "Anima Anandkumar"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.RO"
+      ],
+      "venues": [],
+      "award": false,
+      "talk": false,
+      "workshop": false,
+      "comment": "",
+      "hf_upvotes": null,
+      "star_votes": 2,
+      "star_codes": [
+        "new",
+        "sota"
+      ],
+      "star_quote": "We introduce Planning Under Noise (PUN), a neural operator that learns noise-aware value fields for planning in unseen geometries.",
+      "signals": [],
+      "headline": "不確実な環境下での経路計画を高速化するニューラルオペレータ「PUN」",
+      "what": "制御ノイズがある環境での確率的最適制御において、境界条件にNeumann条件とDirichlet条件を組み合わせたPDE（偏微分方程式）を解く手法です。モンテカルロ・ソルバーの結果を学習することで、未知の幾何形状に対する価値場（Value Field）を推定します。",
+      "enables": "4Dの再計画ベンチマークにおいて、他のプランナーより3.29倍から32.15倍高速でありながら、ノイズの多い設定で10.7%から60.6%の相対的な成功率向上を達成しました。",
+      "why_it_matters": "高次元かつノイズの多い実世界でのナビゲーションにおいて、膨大なサンプリングを必要とする従来の確率的計画法の計算コストを大幅に削減できます。",
+      "tags": [
+        "ロボティクス",
+        "経路計画",
+        "ニューラルオペレータ"
+      ],
+      "fetched_at": "2026-10-22T09:29:47.616054+09:00"
+    },
+    {
+      "id": "2610.28626",
+      "title": "UniWALM: Unified World Action Language Model for Embodied Robot Control",
+      "url": "https://arxiv.org/abs/2610.28626",
+      "pdf": "https://arxiv.org/pdf/2610.28626",
+      "authors": [
+        "Rahul Sajnani",
+        "Diego Romeres",
+        "Mingyuan Zhang",
+        "Kai Gao",
+        "Carl Qi",
+        "Baichuan Huang"
+      ],
+      "categories": [
+        "cs.RO",
+        "cs.AI",
+        "cs.CV"
+      ],
+      "venues": [],
+      "award": false,
+      "talk": false,
+      "workshop": false,
+      "comment": "Preprint: 25 pages",
+      "hf_upvotes": null,
+      "star_votes": 2,
+      "star_codes": [
+        "cap",
+        "new"
+      ],
+      "star_quote": "UniWALM, a unified world-action-language model that learns video, action, and language in a single shared representation",
+      "signals": [],
+      "headline": "動画・行動・言語を共通表現で統合学習するロボット制御モデル「UniWALM」",
+      "what": "複数のモダリティを同期的にデノイジングする単一のバックボーンを用いたモデルです。言語を「メモリ」として自己ループさせることで、外部のプランナーなしで長期的な依存関係を伴うタスクを処理します。",
+      "enables": "実世界のアイテム探索タスクにおいて、テキストメモリの生成により成功率を11.1%から61.1%へと大幅に向上させました。これは既存のVLA（Vision-Language-Action）モデルを凌駕する数値です。",
+      "why_it_matters": "推論、視覚、行動を別々のコンポーネントとして組み合わせるのではなく、単一のトランスフォーマー内で統合的に扱うことで、記憶が必要な複雑な操作タスクの効率を高めています。",
+      "tags": [
+        "ロボット制御",
+        "VLA",
+        "マルチモーダル"
+      ],
+      "fetched_at": "2026-10-22T09:29:47.616054+09:00"
+    },
+    {
+      "id": "2610.26938",
+      "title": "GRaSP: Latency-Aware Optimization for Geo-Distributed Retrieval-Augmented Generation",
+      "url": "https://arxiv.org/abs/2610.26938",
+      "pdf": "https://arxiv.org/pdf/2610.26938",
+      "authors": [
+        "Hardik Ruparel",
+        "Raj Kumar Pandey",
+        "Pramod Kumar"
+      ],
+      "categories": [
+        "cs.IR",
+        "cs.AI",
+        "cs.CL"
+      ],
+      "venues": [
+        "SIGIR"
+      ],
+      "award": false,
+      "talk": false,
+      "workshop": false,
+      "comment": "Accepted at the 4th International ACM SIGIR Conference on Information Retrieval in the Asia Pacific (SIGIR-AP 2026)",
+      "hf_upvotes": null,
+      "star_votes": 1,
+      "star_codes": [
+        "new"
+      ],
+      "star_quote": "We formalize the Geo-RAG Selection Problem (GRaSP), a drop-in re-scoring layer that decays relevance by latency and adds an optional cost penalty",
+      "signals": [],
+      "headline": "地理分散型RAGにおいてレイテンシとコストを最適化する再スコアリング層「GRaSP」",
+      "what": "地理的に分散したサーバー環境において、検索の質だけでなくWANのレイテンシや転送料金を考慮してドキュメントを選択する手法です。検索結果の適合度をレイテンシで減衰させる欲張りアルゴリズムを用います。",
+      "enables": "エンドツーエンドのQAタスクにおいて、適合度のみを優先する場合と比較して、回答精度（EM）の低下をわずか0.062に抑えつつ、コンテキスト取得のレイテンシを43%削減しました。",
+      "why_it_matters": "データ所在地やネットワークコストが制約となる実用的なRAGシステムにおいて、追加学習なしで導入でき、パフォーマンスのPareto最適化を可能にします。",
+      "tags": [
+        "RAG",
+        "分散システム",
+        "最適化"
+      ],
+      "fetched_at": "2026-10-22T09:29:47.616054+09:00"
+    },
+    {
+      "id": "2610.28053",
+      "title": "Slots Are Not Speakers: Training-Free Speaker Linking for Frozen Streaming Diarizers",
+      "url": "https://arxiv.org/abs/2610.28053",
+      "pdf": "https://arxiv.org/pdf/2610.28053",
+      "authors": [
+        "Aditya Srinivas Menon",
+        "Kumarmanas Nethil",
+        "Kavya Manohar"
+      ],
+      "categories": [
+        "cs.SD",
+        "cs.AI"
+      ],
+      "venues": [],
+      "award": false,
+      "talk": false,
+      "workshop": false,
+      "comment": "Submitted to ICASSP 2027",
+      "hf_upvotes": null,
+      "star_votes": 2,
+      "star_codes": [
+        "cap"
+      ],
+      "star_quote": "allows a frozen streaming diarizer to track more speakers than it has output slots.",
+      "signals": [],
+      "headline": "学習不要で動作し、出力スロット数以上の話者を追跡可能にする「Speaker Linking」",
+      "what": "固定されたスロット数を持つストリーミング型話者分離（Diarization）モデルのための後処理手法です。スロット内での話者交代を検出し、外部のスピーカーエンコーダーとマッチングすることで、スロット数を超える話者を特定します。",
+      "enables": "4スロットのモデルにおいて、スロット数を超える話者が登場する場合のDER（Diarization Error Rate）を36.8%から22.6%へと劇的に改善しました。また、23人の話者が参加する法廷でのcpWERを82.7%から24.4%に低減しました。",
+      "why_it_matters": "モデル自体を再学習することなく、実環境の多人数会議やストリーミング配信における話者追跡性能を大幅に拡張できる実用性の高い手法です。",
+      "tags": [
+        "音声処理",
+        "話者分離",
+        "ストリーミング"
+      ],
+      "fetched_at": "2026-10-22T09:29:47.616054+09:00"
+    },
+    {
+      "id": "2610.26904",
+      "title": "Pareto-Optimal RTL Code Generation via Multi-Objective Reinforcement Learning with Large Language Models",
+      "url": "https://arxiv.org/abs/2610.26904",
+      "pdf": "https://arxiv.org/pdf/2610.26904",
+      "authors": [
+        "Koki Takeshita",
+        "Kenji Uebayashi",
+        "Hikaru Tomonari",
+        "Masaya Tsunokake",
+        "Koichiro Yawata",
+        "Tatsuya Sasaki"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "venues": [],
+      "award": false,
+      "talk": false,
+      "workshop": false,
+      "comment": "Accepted at COLM 2026",
+      "hf_upvotes": null,
+      "star_votes": 1,
+      "star_codes": [
+        "new"
+      ],
+      "star_quote": "propose a learning method for LLM-based circuit generation that optimizes, not the quality of a single circuit, but the quality and diversity of the entire circuit set",
+      "signals": [],
+      "headline": "多目的強化学習により電力・遅延・面積が最適なRTL回路を生成する「MORL-LLM」",
+      "what": "ハードウェア設計（RTL）生成において、電力（Power）、性能（Performance）、面積（Area）のトレードオフ（PPA）を最適化する手法です。Hypervolume Contribution（HVC）に基づく報酬関数を用い、多様なPareto最適解を生成するよう学習します。",
+      "enables": "PPA最適化を行わないベースラインと比較して、相対的なハイパーボリューム（指標）を13.3ポイント向上させ、単一目的の強化学習よりも多様で高品質な回路セットの生成に成功しました。",
+      "why_it_matters": "設計要件に応じて「低電力重視」や「低遅延重視」といった異なる最適化が必要な実務において、AIが設計者に複数の選択肢を提示できる利点があります。",
+      "tags": [
+        "LLM",
+        "ハードウェア設計",
+        "強化学習"
+      ],
+      "fetched_at": "2026-10-22T09:29:47.616054+09:00"
+    },
+    {
+      "id": "2610.26909",
+      "title": "Uncertainty Gates the Gradient: Adaptive Updates for Generalized Few-Shot 3D Segmentation",
+      "url": "https://arxiv.org/abs/2610.26909",
+      "pdf": "https://arxiv.org/pdf/2610.26909",
+      "authors": [
+        "Yifei Zhao",
+        "Fanyu Zhao",
+        "Shengtang Wu",
+        "Han Zhang",
+        "Ruike Cao",
+        "Yinsheng Li"
+      ],
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "venues": [],
+      "award": false,
+      "talk": false,
+      "workshop": false,
+      "comment": "",
+      "hf_upvotes": null,
+      "star_votes": 1,
+      "star_codes": [
+        "sota"
+      ],
+      "star_quote": "On ScanNet200 and ScanNet++ (1-/5-shot), UGA sets new state of the art with an average +3.08 HM IoU over the strongest prior baseline.",
+      "signals": [],
+      "headline": "不確実性を利用して勾配更新を制御するFew-shot 3Dセグメンテーション「UGA」",
+      "what": "少量のサンプルから3D点群のセグメンテーションを行う際、サンプルの信頼度（不確実性）を推定し、勾配の更新をゲート制御する手法です。信頼性の低いサンプルがモデルの最適化軌跡を乱すのを防ぎます。",
+      "enables": "ScanNet200およびScanNet++のベンチマークにおいて、最強のベースラインと比較して平均3.08ポイントのHM IoU向上を達成し、新しい状態（SOTA）を記録しました。",
+      "why_it_matters": "オクルージョンやノイズが多い3Dデータにおいて、低品質なアノテーションから誤った幾何パターンを学習してしまうリスクを軽減し、ロバストな概念学習を可能にします。",
+      "tags": [
+        "3Dビジョン",
+        "Few-shot学習",
+        "セグメンテーション"
+      ],
+      "fetched_at": "2026-10-22T09:29:47.616054+09:00"
+    },
+    {
+      "id": "2610.27119",
+      "title": "PORA: Learning When More Reasoning Pays Off for LLM Agents",
+      "url": "https://arxiv.org/abs/2610.27119",
+      "pdf": "https://arxiv.org/pdf/2610.27119",
+      "authors": [
+        "Bo Yan",
+        "Qi Zhang",
+        "Zhen Tan",
+        "Tianlong Chen",
+        "Song Wang"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "venues": [],
+      "award": false,
+      "talk": false,
+      "workshop": false,
+      "comment": "",
+      "hf_upvotes": null,
+      "star_votes": 1,
+      "star_codes": [
+        "sota"
+      ],
+      "star_quote": "On BFCL memory, it exceeds the strongest existing method by 17.4--32.9 percentage points.",
+      "signals": [],
+      "headline": "予算に応じて「思考の深さ」を適応的に選択するLLMエージェント「PORA」",
+      "what": "タスクの実行中に「短時間の思考（Short Reasoning）」と「長時間の思考（Long Reasoning）」のどちらが効果的かを判断するコントローラーです。過去の試行から長期的な価値を見積もり、残りの予算と照らし合わせて選択を行います。",
+      "enables": "計算予算を節約しながら、コードや数学のタスクにおいて、常に長時間思考する設定と同等以上の性能を達成しました。特に数学ではモデルへのリクエスト数を31.2%削減しつつ精度を維持しています。",
+      "why_it_matters": "推論コストやAPI制限がある中で、エージェントが効率的にタスクを完了させるための「思考の資源配分」という重要な課題に対処しています。",
+      "tags": [
+        "LLMエージェント",
+        "推論最適化",
+        "計算資源"
+      ],
+      "fetched_at": "2026-10-22T09:29:47.616054+09:00"
+    },
+    {
+      "id": "2610.27146",
+      "title": "PRIMFLOW: Learning Trajectory Primitives for Few-Step Distillation",
+      "url": "https://arxiv.org/abs/2610.27146",
+      "pdf": "https://arxiv.org/pdf/2610.27146",
+      "authors": [
+        "Hongyi Fang",
+        "Benjia Zhou"
+      ],
+      "categories": [
+        "cs.CV"
+      ],
+      "venues": [],
+      "award": false,
+      "talk": false,
+      "workshop": false,
+      "comment": "",
+      "hf_upvotes": null,
+      "star_votes": 1,
+      "star_codes": [
+        "sota"
+      ],
+      "star_quote": "achieves a T-FID of 20.92 and an HPSv2 score of 28.35 at one NFE, improving both metrics over a trajectory-distillation baseline.",
+      "signals": [],
+      "headline": "連続的な軌跡プリミティブを学習し、1ステップでの画像生成を強化する「PRIMFLOW」",
+      "what": "教師モデルのサンプリング軌跡に沿った累積変位を「軌跡プリミティブ」として学習する蒸留手法です。固定された時間刻みに依存せず、局所的な速度情報から大域的な更新を直接学習します。",
+      "enables": "大規模なText-to-Image生成において、わずか1回のネットワーク評価（NFE）でT-FID 20.92を達成し、従来の軌跡蒸留ベースラインを上回る画質と忠実度を実現しました。",
+      "why_it_matters": "拡散モデルの推論を極限まで高速化（1ステップ化）しつつ、従来の離散的な予測手法よりも高い精度で教師モデルの挙動を再現できる点が重要です。",
+      "tags": [
+        "画像生成",
+        "拡散モデル",
+        "モデル蒸留"
+      ],
+      "fetched_at": "2026-10-22T09:29:47.616054+09:00"
+    },
+    {
+      "id": "2610.27159",
+      "title": "Learned Control Variates for Rare Grid-Outage Estimation at Electric Vehicle Charging Stations",
+      "url": "https://arxiv.org/abs/2610.27159",
+      "pdf": "https://arxiv.org/pdf/2610.27159",
+      "authors": [
+        "Sulyman Iyanda",
+        "Mansur Arief"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CE",
+        "cs.SY",
+        "eess.SY",
+        "stat.ML"
+      ],
+      "venues": [],
+      "award": false,
+      "talk": false,
+      "workshop": false,
+      "comment": "",
+      "hf_upvotes": null,
+      "star_votes": 1,
+      "star_codes": [
+        "new"
+      ],
+      "star_quote": "we propose a control variate (CV) built from a learned classifier of the outage, trained on cheap observable features such as temperature and load forecasts.",
+      "signals": [],
+      "headline": "EV充電による電力網の稀な停電リスクを推定する学習型制御変量法",
+      "what": "電気自動車（EV）の急速充電が電力網に負荷をかける際、発生確率の極めて低い大規模停電（レアイベント）を推定する手法です。機械学習モデルを「制御変量（Control Variates）」として利用し、モンテカルロ・シミュレーションの分散を削減します。",
+      "enables": "インドネシアのSurabaya市の電力網シミュレーションにおいて、シミュレーション回数を増やすことなく、従来のモンテカルロ法と比較して停電日数の推定誤差を3分の1に削減し、分散の約60%を除去しました。",
+      "why_it_matters": "計算コストの高い電力シミュレーターを用いながら、10年に1度といった稀なリスクを精度良く評価できるため、高信頼なインフラ設計に寄与します。",
+      "tags": [
+        "スマートグリッド",
+        "リスク評価",
+        "機械学習"
+      ],
+      "fetched_at": "2026-10-22T09:29:47.616054+09:00"
+    },
+    {
+      "id": "2610.27200",
+      "title": "Preference-Aware Pareto Steering for Multi-Task Speech LLMs",
+      "url": "https://arxiv.org/abs/2610.27200",
+      "pdf": "https://arxiv.org/pdf/2610.27200",
+      "authors": [
+        "Liuyuan Jiang",
+        "Vishal Sunder",
+        "Samuel Thomas",
+        "Brian Kingsbury",
+        "Jeff Kuo",
+        "Lisha Chen"
+      ],
+      "categories": [
+        "cs.CL",
+        "cs.SD"
+      ],
+      "venues": [],
+      "award": false,
+      "talk": false,
+      "workshop": false,
+      "comment": "",
+      "hf_upvotes": null,
+      "star_votes": 1,
+      "star_codes": [
+        "sota"
+      ],
+      "star_quote": "increases endpoint-inclusive normalized hypervolume by 17.8% over fixed loss weighting.",
+      "signals": [],
+      "headline": "音声LLMの多タスク性能を動的に調整するPareto最適化学習「EA-SURF」",
+      "what": "音声認識、翻訳、タイムスタンプ予測など、複数のタスクを同時に学習する音声LLMにおいて、学習中に損失の重みを適応的に変化させる手法です。ユーザーが望む特定のタスク優先度（Preference）にモデルを誘導します。",
+      "enables": "固定された重みで学習する場合と比較して、全タスクの性能バランスを示す正規化ハイパーボリュームを17.8%向上させ、指定した優先度通りの性能分布を達成しました。",
+      "why_it_matters": "一つのモデルで複数の機能を担う音声モデルにおいて、デプロイ先の要件（例：翻訳精度を重視したい）に合わせた最適なチューニングを自動化できます。",
+      "tags": [
+        "音声LLM",
+        "多目的最適化",
+        "マルチタスク"
+      ],
+      "fetched_at": "2026-10-22T09:29:47.616054+09:00"
+    },
+    {
+      "id": "2610.27290",
+      "title": "TEX: Test-Time Scaling Testing Agents via Execution-based Cross-Validation",
+      "url": "https://arxiv.org/abs/2610.27290",
+      "pdf": "https://arxiv.org/pdf/2610.27290",
+      "authors": [
+        "Akash Gokul",
+        "Srijan Bansal",
+        "Yingbo Zhou",
+        "Semih Yavuz"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.LG"
+      ],
+      "venues": [],
+      "award": false,
+      "talk": false,
+      "workshop": false,
+      "comment": "",
+      "hf_upvotes": null,
+      "star_votes": 1,
+      "star_codes": [
+        "sota"
+      ],
+      "star_quote": "On SWT-Bench Verified, TEX achieves 86.4%, establishing a new state-of-the-art and improving +9.0% over single-agent baselines.",
+      "signals": [],
+      "headline": "エージェント間の相互実行検証によりコード修正精度を高める「TEX」",
+      "what": "複数のエージェントがテストケースとコード修正（パッチ）を並列生成し、お互いの出力をクロス実行して検証するフレームワークです。実行結果のフィードバック行列を用いて、エージェントが自身の解を洗練させます。",
+      "enables": "ソフトウェア修正ベンチマークであるSWE-bench Verifiedにおいて、86.4%という新たなSOTAを達成し、単一エージェントのベースラインから9.0%の精度向上を記録しました。",
+      "why_it_matters": "単に多くの候補を生成するだけでなく、実行ベースの客観的なフィードバックを共有・活用することで、長期間のタスクにおける推論の信頼性を高めることができます。",
+      "tags": [
+        "LLMエージェント",
+        "コード生成",
+        "自己修正"
+      ],
+      "fetched_at": "2026-10-22T09:29:47.616054+09:00"
+    },
+    {
+      "id": "2610.27558",
+      "title": "AnchorRM: Parallel Intra-Batch State Reconstruction with Anchor-Based Residual Memory for Temporal Graph Neural Networks",
+      "url": "https://arxiv.org/abs/2610.27558",
+      "pdf": "https://arxiv.org/pdf/2610.27558",
+      "authors": [
+        "Haroon Gharwi",
+        "Kai Shu",
+        "Yue Dai"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "venues": [],
+      "award": false,
+      "talk": false,
+      "workshop": false,
+      "comment": "",
+      "hf_upvotes": null,
+      "star_votes": 1,
+      "star_codes": [
+        "new"
+      ],
+      "star_quote": "we propose AnchorRM, an anchor-based residual memory mechanism that reconstructs event-specific intra-batch node states without executing sequential recurrent updates.",
+      "signals": [],
+      "headline": "バッチ内のノード状態を並列に再構築し高速化する動的グラフ学習「AnchorRM」",
+      "what": "時間とともに変化するグラフ（Temporal Graph）の学習において、逐次的なメモリ更新を回避する手法です。バッチ開始時の状態を固定「アンカー」とし、バッチ内の履歴から残差を計算して各イベントの個別状態を並列に推定します。",
+      "enables": "動的グラフの学習において、平均6.16倍（最大10.05倍）の高速化と、最大40倍のバッチサイズのスケーリングを達成しました。これにより、予測精度を維持したまま学習効率を大幅に向上させました。",
+      "why_it_matters": "メモリベースの動的グラフ学習におけるボトルネックであった「逐次処理による依存関係」を解消し、GPUの並列演算能力を最大限に活用可能にしました。",
+      "tags": [
+        "グラフニューラルネットワーク",
+        "高速化",
+        "動的グラフ"
+      ],
+      "fetched_at": "2026-10-22T09:29:47.616054+09:00"
+    },
+    {
+      "id": "2610.27812",
+      "title": "SliMOO: Interpretable Multi-Objective Evolutionary Search for LLM Depth Pruning",
+      "url": "https://arxiv.org/abs/2610.27812",
+      "pdf": "https://arxiv.org/pdf/2610.27812",
+      "authors": [
+        "Guanchen Li",
+        "Yixing Xu",
+        "Xuanwu Yin",
+        "Dong Li",
+        "Emad Barsoum"
+      ],
+      "categories": [
+        "cs.LG"
+      ],
+      "venues": [],
+      "award": false,
+      "talk": false,
+      "workshop": false,
+      "comment": "",
+      "hf_upvotes": null,
+      "star_votes": 1,
+      "star_codes": [
+        "sota"
+      ],
+      "star_quote": "Llama-3.1-70B at 25% sparsity, it improves the math-domain average from 24.33% to 34.40% and the code-domain average from 35.03% to 39.14%.",
+      "signals": [],
+      "headline": "多目的進化アルゴリズムを用いたLLMの解釈可能な層削除「SliMOO」",
+      "what": "LLMの深さを削減（ pruning）する際、タスクごとに重要な層が異なる性質を利用するフレームワークです。層の寄与度を事前にマップ化し、NSGA-IIアルゴリズムを用いて複数のタスク性能を維持するPareto最適な削除パターンを探索します。",
+      "enables": "Llama-3.1-70Bを25%疎にした場合、従来の単純な手法と比較して数学ドメインの平均スコアを24.33%から34.40%へ、コードドメインを35.03%から39.14%へと大幅に改善しました。",
+      "why_it_matters": "単純なランキングによる層削除では特定のベンチマーク性能が損なわれやすいという課題を、多目的最適化によって解決し、汎用性を保ったままの軽量化を可能にします。",
+      "tags": [
+        "モデル軽量化",
+        "LLM",
+        "進化計算"
+      ],
+      "fetched_at": "2026-10-22T09:29:47.616054+09:00"
+    },
+    {
+      "id": "2610.28355",
+      "title": "Beyond the Point Mass: Acceptance-Derived Weights and Distributional Losses for Speculative Decoding",
+      "url": "https://arxiv.org/abs/2610.28355",
+      "pdf": "https://arxiv.org/pdf/2610.28355",
+      "authors": [
+        "Tianyu Wu",
+        "Zhuohan Wang",
+        "Jonathan Geuter",
+        "Yu Yao",
+        "Weifan Jiang",
+        "Chengxi Zhang"
+      ],
+      "categories": [
+        "cs.LG"
+      ],
+      "venues": [],
+      "award": false,
+      "talk": false,
+      "workshop": false,
+      "comment": "Code: https://github.com/Lucas-TY/D-PAL-SpecForge",
+      "hf_upvotes": null,
+      "star_votes": 1,
+      "star_codes": [
+        "new"
+      ],
+      "star_quote": "We derive D-PAL (Dynamic Position-wise Acceptance Loss) from the exact expected accepted length, using this overlap as the acceptance signal.",
+      "signals": [],
+      "headline": "受理率の数理モデルから導出した投機的デコーディングの最適損失「D-PAL」",
+      "what": "投機的デコーディングにおけるドラフトモデルの学習手法を改善したものです。ターゲットモデルの分布との「重なり（Overlap）」に基づいて、各トークン位置の重み付けと、ログ受理率（Log Acceptance）に基づく損失関数を導入します。",
+      "enables": "Qwen3-4Bをターゲットとした評価において、既存手法のD-PACEを上回る平均受理長とスループットを達成しました。また、Rényiダイバージェンスを用いた損失が受理率の向上に有効であることを示しました。",
+      "why_it_matters": "ターゲットモデルの分布を点推定ではなく分布として捉えることで、拒絶サンプリングの理論に合致したより効率的なドラフトモデルの学習が可能になります。",
+      "tags": [
+        "推論加速",
+        "LLM",
+        "投機的デコーディング"
+      ],
+      "fetched_at": "2026-10-22T09:29:47.616054+09:00"
+    },
+    {
+      "id": "2610.27678",
+      "title": "PhonoBridge: Error-Aware Phoneme-Mediated EMG-to-Text Reconstruction",
+      "url": "https://arxiv.org/abs/2610.27678",
+      "pdf": "https://arxiv.org/pdf/2610.27678",
+      "authors": [
+        "Wen Qiu",
+        "Jiacheng Zhang",
+        "Xuanda Chen",
+        "Siqi Cai",
+        "Haizhou Li"
+      ],
+      "categories": [
+        "cs.SD",
+        "cs.CL",
+        "cs.HC"
+      ],
+      "venues": [],
+      "award": false,
+      "talk": false,
+      "workshop": false,
+      "comment": "",
+      "hf_upvotes": null,
+      "star_votes": 1,
+      "star_codes": [
+        "sota"
+      ],
+      "star_quote": "PhonoBridge achieves 24.77% WER, outperforming the previously reported best of 28.27% on the same test split.",
+      "signals": [],
+      "headline": "音素を媒介としLLMで誤りを補正する筋電位からの発話復元「PhonoBridge」",
+      "what": "喉の表面の筋電位（EMG）から「声を出さない会話」をテキスト化する技術です。EMGを直接テキストにするのではなく、一旦「音素」に変換し、その音素列に含まれる誤りをLLMが文脈から補正して最終的なテキストを生成します。",
+      "enables": "オープンデータセットにおいて、単語誤り率（WER）を従来の28.27%から24.77%へと改善し、最高精度を更新しました。音素列への人工的なノイズ付加による学習（EPGA）が効果を発揮しています。",
+      "why_it_matters": "音声データとEMGデータのペアが少ないという課題を、音素を介することで大量のテキストデータを利用可能にし、かつフロントエンドの認識ミスに強いシステムの構築に成功しました。",
+      "tags": [
+        "ヒューマンコンピュータインタラクション",
+        "音声認識",
+        "LLM"
+      ],
+      "fetched_at": "2026-10-22T09:29:47.616054+09:00"
+    },
+    {
+      "id": "2610.27999",
+      "title": "Matrix-Game 4.0: Harnessing Video Models for Real-Time Playable Game Worlds",
+      "url": "https://arxiv.org/abs/2610.27999",
+      "pdf": "https://arxiv.org/pdf/2610.27999",
+      "authors": [
+        "Jihai Zhang",
+        "Runjia Qian",
+        "Kaiqin Kong",
+        "Biao Jiang",
+        "Puyi Wang",
+        "Siru Chen"
+      ],
+      "categories": [
+        "cs.CV",
+        "cs.GR"
+      ],
+      "venues": [],
+      "award": false,
+      "talk": false,
+      "workshop": false,
+      "comment": "Project page, videos, code and models: https://matrix-game-v4-0.github.io/page/",
+      "hf_upvotes": 181,
+      "star_votes": 0,
+      "star_codes": [],
+      "star_quote": "",
+      "signals": [
+        "HF ▲181"
+      ],
+      "headline": "軽量エンジンと動画生成モデルによるリアルタイム操作可能な世界「Matrix-Game 4.0」",
+      "what": "ゲームの状態管理を行う軽量エンジンと、その出力を高品質な映像に変換する動画生成モデルを分離したシステムです。自然言語による指示でシーンやルールを動的に変更でき、RTX 5090単体での動作を実現しています。",
+      "enables": "480pの解像度において、60FPSの安定したゲームプレイと112msの低遅延を実現しました。1ステップのデノイジング設定では最大83FPSのスループットに達します。",
+      "why_it_matters": "生成AIによる「プレイ可能な世界」の構築において、計算コストと遅延の壁を克服し、実用的なフレームレートでのインタラクティブな体験を可能にした点が画期的です。",
+      "tags": [
+        "動画生成",
+        "ゲーム開発",
+        "リアルタイム推論"
+      ],
+      "fetched_at": "2026-10-22T09:29:47.616054+09:00"
+    },
+    {
+      "id": "2610.27628",
+      "title": "PAR: Progress-Aligned Recurrence for Length Generalization in State Tracking",
+      "url": "https://arxiv.org/abs/2610.27628",
+      "pdf": "https://arxiv.org/pdf/2610.27628",
+      "authors": [
+        "Pan Wang",
+        "Yihao Hu",
+        "Guangyuan Dong",
+        "Yitong Lin",
+        "Hang Wang",
+        "Zimi Liu"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "venues": [],
+      "award": false,
+      "talk": false,
+      "workshop": false,
+      "comment": "",
+      "hf_upvotes": 147,
+      "star_votes": 0,
+      "star_codes": [],
+      "star_quote": "",
+      "signals": [
+        "HF ▲147"
+      ],
+      "headline": "学習時の16倍の長さまで汎化する状態追跡の再帰学習法「PAR」",
+      "what": "ループ型言語モデルにおいて、特定のステップ $k$ での出力が最初の $k$ 回の操作結果と一致するように学習し、再帰状態のノルムを一定に保つ手法です。これにより、学習時より遥かに長いステップの実行を可能にします。",
+      "enables": "最大32手の移動を学習したQwen2.5-0.5Bモデルにおいて、512手（学習時の16倍）の移動後の状態を95.5%の精度で追跡することに成功しました。これは既存手法の55.7%を大きく上回ります。",
+      "why_it_matters": "Chain-of-Thoughtなどの手法が学習データより長い推論で失敗しやすい問題を、進行状況の明示的な整列と状態のスケーリングによって解決し、計算の「深さ」による汎化能力を向上させました。",
+      "tags": [
+        "LLM",
+        "汎化",
+        "状態追跡"
+      ],
+      "fetched_at": "2026-10-22T09:29:47.616054+09:00"
+    },
+    {
+      "id": "2610.28354",
+      "title": "S-Agent 2.0: Spatial Reasoning with a General Coding Agent",
+      "url": "https://arxiv.org/abs/2610.28354",
+      "pdf": "https://arxiv.org/pdf/2610.28354",
+      "authors": [
+        "Rui Gong",
+        "Ruoyu Wang",
+        "Yalun Dai",
+        "Hao Li",
+        "Sidi Yang",
+        "Qihao Zhao"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CV"
+      ],
+      "venues": [],
+      "award": false,
+      "talk": false,
+      "workshop": false,
+      "comment": "",
+      "hf_upvotes": 91,
+      "star_votes": 0,
+      "star_codes": [],
+      "star_quote": "",
+      "signals": [
+        "HF ▲91"
+      ],
+      "headline": "コーディングエージェントに空間認知ツールを統合した「S-Agent 2.0」",
+      "what": "汎用的なコーディングエージェント（Qwen等）に、3D知覚ツールキットを装備させた空間推論エージェントです。取得した証拠を永続的な「シーンメモリ」に保存し、自然な空間言語で解釈するループを構築します。",
+      "enables": "空間推論ベンチマークMMSI-Benchにおいて、ツールなしのモデルから13.9ポイント、専用システムであるSpatialClawから3.9ポイントの性能向上を達成しました。Gemini-3.8-Flashとの組み合わせでも高い性能を示しています。",
+      "why_it_matters": "モデル単体での3D理解の限界を、外部ツールとコード実行による「証拠の解釈ループ」で補完することで、複雑な実世界情報の処理能力を大幅に拡張しました。",
+      "tags": [
+        "LLMエージェント",
+        "空間推論",
+        "VLM"
+      ],
+      "fetched_at": "2026-10-22T09:29:47.616054+09:00"
+    },
+    {
+      "id": "2610.28578",
+      "title": "Sage-A1.5: From Long-Horizon Execution to Scientific Exploration with Capability Composition",
+      "url": "https://arxiv.org/abs/2610.28578",
+      "pdf": "https://arxiv.org/pdf/2610.28578",
+      "authors": [
+        "Wenjie Lou",
+        "Tianshuo Peng",
+        "Shiyang Feng",
+        "Shengji Tang",
+        "Runmin Ma",
+        "Ruizhe Chen"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "venues": [],
+      "award": false,
+      "talk": false,
+      "workshop": false,
+      "comment": "Token-plan for Sage-A1.5: https://discovery.intern-ai.org.cn/token-plan/home?tabIndex=0 model checkpoints: https://huggingface.co/InternScience/Sage-A1.5",
+      "hf_upvotes": 63,
+      "star_votes": 0,
+      "star_codes": [],
+      "star_quote": "",
+      "signals": [
+        "HF ▲63"
+      ],
+      "headline": "適応的な役割分担と自己検証を行う35B規模の科学探査エージェント「Sage-A1.5」",
+      "what": "長期間のタスク解決のために、タスクの委譲、並列コラボレーション、戦略の自己修正を行う混合エキスパート（MoE）モデルです。単一の回答生成を超え、証拠の検証や科学的な探索を目的とした設計がなされています。",
+      "enables": "複数のサブエージェントが独立した文脈で並列に作業することで、干渉を抑えつつ複雑なタスクを効率的に遂行できます。科学的な問いに対して、検査可能な研究成果物を作成することが可能です。",
+      "why_it_matters": "AIエージェントの役割を「命令の実行」から「自律的な科学的発見のパートナー」へと拡張し、長時間の推論が必要な高度な研究タスクへの道を開きました。",
+      "tags": [
+        "LLMエージェント",
+        "科学探査",
+        "コラボレーション"
+      ],
+      "fetched_at": "2026-10-22T09:29:47.616054+09:00"
+    },
+    {
+      "id": "2610.28630",
+      "title": "SolarRenderer: Few-Step Generative Reference Rendering",
+      "url": "https://arxiv.org/abs/2610.28630",
+      "pdf": "https://arxiv.org/pdf/2610.28630",
+      "authors": [
+        "Guian Fang",
+        "Shengju Qian",
+        "Dongyue Lu",
+        "Junchao Huang",
+        "Lutao Jiang",
+        "Xin Wang"
+      ],
+      "categories": [
+        "cs.CV"
+      ],
+      "venues": [],
+      "award": false,
+      "talk": false,
+      "workshop": false,
+      "comment": "Technical Report; 28 pages, 17 figures, 10 tables; Project page at https://enderfga.cn/SolarRenderer Code at https://github.com/Enderfga/SolarRenderer",
+      "hf_upvotes": 46,
+      "star_votes": 0,
+      "star_codes": [],
+      "star_quote": "",
+      "signals": [
+        "HF ▲46"
+      ],
+      "headline": "わずか4ステップで構造から高精細動画を生成する「SolarRenderer」",
+      "what": "ゲームエンジン等の粗い構造情報を、高品質なビデオに変換する構造条件付きレンダラーです。33B規模のバックボーンに軽量なLoRAを適用し、参照パスを活用することでポーズや点群などの多様な表現に対応します。",
+      "enables": "従来の50ステップ必要なサンプリングと比較して12.3倍高速な4ステップでの描画を実現しました。768p解像度のビデオにおいて、ストリーミング再生が可能なリアルタイム性能を達成しています。",
+      "why_it_matters": "特定のエンジンに依存せず、かつ11種類の未知の構造表現（スケルトンや図面等）に対しても汎化する高い制御性能を持ち、動画生成の柔軟性と速度を両立させています。",
+      "tags": [
+        "動画生成",
+        "レンダリング",
+        "LoRA"
+      ],
+      "fetched_at": "2026-10-22T09:29:47.616054+09:00"
+    },
+    {
+      "id": "2610.28594",
+      "title": "Learning the 4D World through Point Trajectory Forecasting",
+      "url": "https://arxiv.org/abs/2610.28594",
+      "pdf": "https://arxiv.org/pdf/2610.28594",
+      "authors": [
+        "Byungwoo Jeon",
+        "Sunghwan Hong",
+        "Dohyeon Kim",
+        "Jonghoon Lee",
+        "Jungwoo Park",
+        "Inhee Lee"
+      ],
+      "categories": [
+        "cs.CV"
+      ],
+      "venues": [],
+      "award": false,
+      "talk": false,
+      "workshop": false,
+      "comment": "43 pages; 14 figures",
+      "hf_upvotes": 41,
+      "star_votes": 0,
+      "star_codes": [],
+      "star_quote": "",
+      "signals": [
+        "HF ▲41"
+      ],
+      "headline": "点軌跡の予測を通じて4次元世界を理解するワールドモデル「VPM」",
+      "what": "マルチビューの動画履歴と指示を入力とし、将来の映像と「特定の点の3D軌跡」を同時に予測するモデルです。動画生成と同時に物理的な点の動きを学習させることで、3D空間における一貫性を担保します。",
+      "enables": "ロボット操作タスクにおいて、動画のみを学習したモデルと比較して、操作の成功率と3D動作の正確性が向上しました。シミュレーションと実環境の両方で高い汎化性能を示しています。",
+      "why_it_matters": "見た目の変化（ビデオ生成）を物理的な動き（軌跡）に紐付けることで、より物理的に正しく一貫した「世界の理解」をモデルに獲得させることができ、高度なロボット制御に寄与します。",
+      "tags": [
+        "ワールドモデル",
+        "ロボティクス",
+        "コンピュータビジョン"
+      ],
+      "fetched_at": "2026-10-22T09:29:47.616054+09:00"
+    },
+    {
+      "id": "2610.27719",
+      "title": "Push-Pull Attentional Anchoring for Diffusion Concept Erasure",
+      "url": "https://arxiv.org/abs/2610.27719",
+      "pdf": "https://arxiv.org/pdf/2610.27719",
+      "authors": [
+        "Nattanat Chatthee",
+        "Tagon Sompong",
+        "Ekapol Chuangsuwanich",
+        "Supasorn Suwajanakorn"
+      ],
+      "categories": [
+        "cs.CV"
+      ],
+      "venues": [
+        "ECCV"
+      ],
+      "award": false,
+      "talk": true,
+      "workshop": false,
+      "comment": "Accepted to ECCV 2026 (Spotlight)",
+      "hf_upvotes": null,
+      "star_votes": 0,
+      "star_codes": [],
+      "star_quote": "",
+      "signals": [
+        "Oral等"
+      ],
+      "headline": "特定の概念のみを副作用なく削除する拡散モデル学習法「PPAA」",
+      "what": "クロスアテンション空間において、特定の概念（著作権物、ヌード、芸術家スタイルなど）を押し出す一方、他の概念のセマンティックドリフト（意味の変質）を抑えるためにコサイン類似度で係留（アンカリング）する手法です。",
+      "enables": "Stable Diffusion v1.4やFLUXにおいて、ターゲット以外の画質や内容を損なうことなく、特定の有名人やスタイルの生成を効果的に抑制できることを実験で示しました。",
+      "why_it_matters": "従来の概念削除手法では無関係な画像生成の質も低下する「過剰な削除」が課題でしたが、本手法は適応的な閾値を用いることで安全かつ高品質なモデルの修正を可能にします。",
+      "tags": [
+        "拡散モデル",
+        "AIの安全性",
+        "著作権保護"
+      ],
+      "fetched_at": "2026-10-22T09:29:47.616054+09:00"
+    },
+    {
+      "id": "2610.28018",
+      "title": "P$^3$-VLM: A Point-based Alternative for Grounded 3D Vision-Language Models",
+      "url": "https://arxiv.org/abs/2610.28018",
+      "pdf": "https://arxiv.org/pdf/2610.28018",
+      "authors": [
+        "Anna-Maria Halacheva",
+        "Jan-Nico Zaech",
+        "Sombit Dey",
+        "Luc Van Gool",
+        "Danda Pani Paudel"
+      ],
+      "categories": [
+        "cs.CV"
+      ],
+      "venues": [
+        "NeurIPS"
+      ],
+      "award": false,
+      "talk": true,
+      "workshop": false,
+      "comment": "NeurIPS 2026, Spotlight",
+      "hf_upvotes": null,
+      "star_votes": 0,
+      "star_codes": [],
+      "star_quote": "",
+      "signals": [
+        "Oral等"
+      ],
+      "headline": "バウンディングボックスの「カンニング」を排除した3D視覚モデル「P3-VLM」",
+      "what": "従来の3D視覚言語モデル（VLM）がバウンディングボックス座標からカテゴリを推測してしまう問題を指摘し、代わりに「点（Point）」をプロンプトとして使用する手法です。3つの経路（位置、タスク、コンテキスト）を持つ新しいアーキテクチャを提案しています。",
+      "enables": "位置指定付きのキャプション生成において、52.1%というSOTAの精度を達成しました。また、ボックス座標がない状況での推論能力が向上し、未知の環境への汎化性能も改善しました。",
+      "why_it_matters": "モデルが視覚情報を使わずに座標だけで回答するショートカット学習を防ぐことで、真の視覚空間推論能力を向上させるための重要な指針を提示しています。",
+      "tags": [
+        "3Dビジョン",
+        "VLM",
+        "シーン理解"
+      ],
+      "fetched_at": "2026-10-22T09:29:47.616054+09:00"
+    },
+    {
+      "id": "2610.28479",
+      "title": "Claims of emergence in AI should be grounded in information decomposition",
+      "url": "https://arxiv.org/abs/2610.28479",
+      "pdf": "https://arxiv.org/pdf/2610.28479",
+      "authors": [
+        "Christoph Riedl",
+        "Fernando E. Rosas"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.HC",
+        "cs.IT",
+        "cs.LG",
+        "cs.MA",
+        "math.IT"
+      ],
+      "venues": [
+        "NeurIPS"
+      ],
+      "award": false,
+      "talk": true,
+      "workshop": false,
+      "comment": "NeurIPS Spotlight Paper",
+      "hf_upvotes": null,
+      "star_votes": 0,
+      "star_codes": [],
+      "star_quote": "",
+      "signals": [
+        "Oral等"
+      ],
+      "headline": "AIの「創発」を情報量分解の理論で厳密に定義・評価する枠組み",
+      "what": "AIシステムや人間とAIのチームにおいて「創発（Emergence）」や「相乗効果」と呼ばれる現象を、情報量分解（Information Decomposition）を用いて形式化する議論です。個々の構成要素からは得られない「相乗的情報量」の有無を判断基準とします。",
+      "enables": "アテンションヘッド、自律エージェント、人間とAIのペアなど、異なるスケールのシステムにおける創発の主張を、偽証可能な理論的基準に基づいて比較・検証することを可能にします。",
+      "why_it_matters": "これまで曖昧に使われてきた「創発」という言葉に数学的な根拠を与えることで、マルチエージェント系やモデル内部の機能の進化を、客観的に評価・ disputesできるようになります。",
+      "tags": [
+        "AI理論",
+        "情報理論",
+        "マルチエージェント"
+      ],
+      "fetched_at": "2026-10-22T09:29:47.616054+09:00"
+    },
+    {
+      "id": "2610.28480",
+      "title": "SuperMimic: Scaling Humanoid Whole-Body Control with One Differentiable World Model",
+      "url": "https://arxiv.org/abs/2610.28480",
+      "pdf": "https://arxiv.org/pdf/2610.28480",
+      "authors": [
+        "Qiayuan Liao",
+        "Yiyang Shao",
+        "Junfeng Long",
+        "Kevin Zakka",
+        "Roberto Horowitz",
+        "Pieter Abbeel"
+      ],
+      "categories": [
+        "cs.RO"
+      ],
+      "venues": [
+        "CoRL"
+      ],
+      "award": false,
+      "talk": true,
+      "workshop": false,
+      "comment": "Accepted at CoRL 2026 (Oral). Project website: https://supermimic.github.io",
+      "hf_upvotes": null,
+      "star_votes": 0,
+      "star_codes": [],
+      "star_quote": "",
+      "signals": [
+        "Oral等"
+      ],
+      "headline": "微分可能なワールドモデルにより人型ロボット制御の学習を1000倍高速化",
+      "what": "人型ロボットの全身制御（Whole-Body Control）を、シミュレーターのダイナミクスを学習した「微分可能なワールドモデル」上でのバックプロパゲーションを通じて学習する手法です。強化学習の試行錯誤を減らし、解析的な勾配を利用します。",
+      "enables": "1台のGPUで3時間の学習を行うだけで、128台のGPUで7日間学習した最先端の強化学習ベースラインを上回る性能を達成しました。GPU時間にして1000倍以上の計算資源削減に成功しています。",
+      "why_it_matters": "膨大な計算資源が障壁となっていたヒューマノイドの制御学習を劇的に効率化し、物理環境へのスムーズな移行（Sim-to-Real）と複雑な動作の獲得を容易にします。",
+      "tags": [
+        "ロボティクス",
+        "ワールドモデル",
+        "高速学習"
+      ],
+      "fetched_at": "2026-10-22T09:29:47.616054+09:00"
+    },
+    {
+      "id": "2610.28615",
+      "title": "KoalaGS: Complexity-Aware Continuous Level of Detail for Gaussian Splatting",
+      "url": "https://arxiv.org/abs/2610.28615",
+      "pdf": "https://arxiv.org/pdf/2610.28615",
+      "authors": [
+        "Radu Beche",
+        "Raoul de Charette"
+      ],
+      "categories": [
+        "cs.CV"
+      ],
+      "venues": [
+        "NeurIPS"
+      ],
+      "award": false,
+      "talk": true,
+      "workshop": false,
+      "comment": "NeurIPS 2026 (Spotlight). Project page https://rdbch.github.io/koalags",
+      "hf_upvotes": null,
+      "star_votes": 0,
+      "star_codes": [],
+      "star_quote": "",
+      "signals": [
+        "Oral等"
+      ],
+      "headline": "計算予算に応じた詳細度を連続的に制御する3Dガウススプラッティング「KoalaGS」",
+      "what": "3D Gaussian Splattingにおいて、画像の複雑度を事前知識として利用し、リソースの削減時に優先的に残すべき点を決定する手法です。計算予算の変化に応じて、画質が滑らかに劣化（連続的なLoD）するように設計されています。",
+      "enables": "予算が削減された低容量の推論においても、シーンの構造を維持しながら高い品質を保つことが可能です。また、プログレッシブなストリーミング配信において滑らかな遷移を実現しました。",
+      "why_it_matters": "モバイルデバイスや低スペックな環境での3D描画において、一つの学習済みデータから端末の性能に合わせた最適なレンダリングを動的に提供できる点が実用的です。",
+      "tags": [
+        "3Dビジョン",
+        "Gaussian Splatting",
+        "最適化"
+      ],
+      "fetched_at": "2026-10-22T09:29:47.616054+09:00"
+    }
+  ]
+}

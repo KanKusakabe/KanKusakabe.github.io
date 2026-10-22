@@ -172,17 +172,6 @@
               "fetched_at": "2026-10-05T09:31:59.448026+09:00"
             },
             {
-              "headline": "フランスで教育抗議活動が激化、約900校の学校が閉鎖",
-              "content": "フランス全土で教育環境への不満を背景とした学生・教職員の抗議活動が暴徒化し、政府は900近い学校の閉鎖を余儀なくされた。社会的不安が急速に拡大している。",
-              "impact": "マクロン政権の統治能力が試されており、ユーロ圏の政治的安定性に懸念を投じる。住宅市場やコスト高に対する不満が他国へ波及する懸念もあり、欧州経済全体の消費心理を冷え込ませる可能性がある。",
-              "date": "10/06",
-              "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNcVgxMUdwSXhTZzFhUmJOYW1rZmRQRV93cDhacEdyRE9vLXZDYkYxTjJSWi1yZkZpTW5hLVBjSkJXaEstbXJjOTBNdFBWZ2RwX21rUUNKb3VVT2x2Z04xSmlXTVNDcnNQQ3IyYXVTVHptalNZOWZuTmR6MmYyZ01NcUh5XzZubVRnTnI2bnI2N3NXaEtxUzljQXNSX1VyX3p5a1pmSzkxaHVPVWdXZnc?oc=5",
-              "importance": 3,
-              "novelty": 4,
-              "japan_relevance": 2,
-              "fetched_at": "2026-10-07T10:15:03.711556+09:00"
-            },
-            {
               "headline": "NVIDIA支援のLambdaが40億ドルの資金調達、AIクラウド市場でIPOへ",
               "content": "AI特化型クラウドを提供するLambdaが、IPOを視野に40億ドルの資金調達を目指している。NVIDIAがバックアップしており、AIインフラの普及を牽引する存在として注目されている。",
               "impact": "テック市場における資金調達の大型化と、AI関連スタートアップの出口戦略（IPO）の活発化を示唆する。投資家にとってはAIブームの次のフェーズを見極める重要な指標となる。日本の投資家やDXを推進するIT企業にとっても重要な競合・パートナー動向。",
@@ -1024,17 +1013,6 @@
               "novelty": 4,
               "japan_relevance": 5,
               "fetched_at": "2026-10-06T11:06:24.287404+09:00"
-            },
-            {
-              "headline": "古代DNA解析が特定した人類の南北アメリカ到達時期",
-              "content": "最新の古代DNA証拠により、先住民族の祖先が最終氷河期の最も寒冷な時期にアメリカ大陸に到達した時期が絞り込まれた。従来の考古学的発見を遺伝学的な側面から補強・修正する成果である。",
-              "impact": "人類の移動史と適応能力の理解を深める。気候変動がいかに人類の分布を変えたかという歴史的知見を提供し、現代の遺伝的多様性の成り立ちを解明する基礎となる。",
-              "date": "10/05",
-              "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE4yTEh0RHNFdm9TSGRxN1dULV81clFvZHp3YjVJSFVWZEt5UzZzT2x3OENTelJCUERKUU04X3VPMzlDYnpiUFdNWXRUNVoyeU9VTjlsS29wM3N3YVVZaVNRbzUyRTNORG5KYW5RVE1rU1BYWGl2azJRNjVn?oc=5",
-              "importance": 3,
-              "novelty": 4,
-              "japan_relevance": 1,
-              "fetched_at": "2026-10-06T11:06:24.287404+09:00"
             }
           ]
         },
@@ -1239,39 +1217,6 @@
               "novelty": 4,
               "japan_relevance": 5,
               "fetched_at": "2026-10-07T10:15:03.711556+09:00"
-            },
-            {
-              "headline": "マイクロベンチマークの鉄則：300ms実行のススメ",
-              "content": "ベンチマークを正確な測定ではなく「正しい判断のための直感」と定義し、入力サイズを調整して約300ms動作させるべきという技術的知見の紹介。",
-              "impact": "開発者が日常的に行うパフォーマンス最適化において、計測コストと信頼性のバランスを取るための実践的なプラクティスを提供している。",
-              "date": "10/05",
-              "url": "https://matklad.github.io/2026/10/05/benchmark-milliseconds.html",
-              "importance": 3,
-              "novelty": 3,
-              "japan_relevance": 3,
-              "fetched_at": "2026-10-07T10:15:03.711556+09:00"
-            },
-            {
-              "headline": "Gleam v1.19.0公開。Erlangコード生成系を刷新し、ソース出力を廃止",
-              "content": "Erlang VM (BEAM) 向けの型安全言語Gleamが最新版をリリースしました。コードジェネレータが完全に書き直され、従来のようにErlangソースコードを出力する設計から、より直接的で効率的な新フォーマットへと移行しました。",
-              "impact": "BEAMエコシステムにおけるコンパイルパフォーマンスと運用体験の向上に寄与します。Elixirに続く有力なBEAM言語として、型安全性を重視するエンタープライズ領域での採用を後押しする技術的進展です。",
-              "date": "10/05",
-              "url": "https://gleam.run/news/gleam-doesnt-compile-to-erlang-source-anymore/",
-              "importance": 3,
-              "novelty": 4,
-              "japan_relevance": 2,
-              "fetched_at": "2026-10-06T11:06:24.287404+09:00"
-            },
-            {
-              "headline": "State of Devs 2026調査結果。開発者の疲弊が顕著な傾向に",
-              "content": "最新の開発者意識調査によると、キャリアや健康に関する回答で「疲弊（exhaustion）」が最も一般的な感情として現れました。技術の急速な進化とそれに伴う学習コスト、業務負荷が要因と見られます。",
-              "impact": "技術トレンドだけでなく、エンジニアのメンタルヘルスや持続可能な労働環境の構築が組織の生産性に直結することを警告しています。マネジメント層にとって、AI導入による効率化と開発者の負荷のバランスを見直す指標となります。",
-              "date": "10/05",
-              "url": "https://www.reddit.com/r/programming/comments/1wyo5ne/state_of_devs_2026_survey_results_developers_are/",
-              "importance": 3,
-              "novelty": 3,
-              "japan_relevance": 3,
-              "fetched_at": "2026-10-06T11:06:24.287404+09:00"
             }
           ]
         }
