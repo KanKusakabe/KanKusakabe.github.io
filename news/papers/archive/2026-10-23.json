@@ -1,0 +1,320 @@
+{
+  "date": "2026-10-23",
+  "arxiv": [
+    {
+      "id": "2610.28771",
+      "title": "Motion Equivariant Convolutional LSTM: When Motion Becomes a Gauge Symmetry",
+      "url": "https://arxiv.org/abs/2610.28771",
+      "pdf": "https://arxiv.org/pdf/2610.28771",
+      "authors": [
+        "Vahid Hosseinzadeh",
+        "T. Anderson Keller",
+        "Michael Puthawala"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.CV"
+      ],
+      "venues": [],
+      "award": false,
+      "talk": false,
+      "workshop": false,
+      "comment": "Code: https://github.com/VahidHosseinzadeh/MELSTM",
+      "hf_upvotes": null,
+      "star_votes": 2,
+      "star_codes": [
+        "new"
+      ],
+      "star_quote": "motion becomes a gauge symmetry: a global symmetry made local in time.",
+      "signals": [],
+      "headline": "物体の動きをゲージ対称性として扱う動作等変性Convolutional LSTM「MELSTM」の開発",
+      "what": "シーケンシャルデータ内の「動き」を、空間的な位置のみを変えるゲージ対称性（Gauge Symmetry）と定義し、速度を推定するゲージ場を組み込んだMELSTMを提案しています。Flow equivariantモデルの速度列挙アプローチを拡張し、時間とともに変化する速度の推定を可能にしています。",
+      "enables": "従来のConvolutional LSTMやFlow equivariantモデルを上回る精度を実現し、未学習の動きに対しても高い汎化性能を示します。また、パラメータ数を維持したまま、Flow equivariantモデルと比較して状態量を大幅に削減することに成功しました。",
+      "why_it_matters": "標準的なRNNでは入力の動きにメモリが追従できない課題がありましたが、この手法は物理的な対称性をアーキテクチャに組み込むことで、カメラのパンや物体の移動を含む動画像処理の効率を抜本的に向上させます。",
+      "tags": [
+        "コンピュータビジョン",
+        "等変性ニューラルネットワーク",
+        "動画予測"
+      ],
+      "fetched_at": "2026-10-23T09:27:55.712658+09:00"
+    },
+    {
+      "id": "2610.29102",
+      "title": "Diffusion Posterior Sampling with Uncertain Forward Models",
+      "url": "https://arxiv.org/abs/2610.29102",
+      "pdf": "https://arxiv.org/pdf/2610.29102",
+      "authors": [
+        "Wentao Shangguan",
+        "Vivek K Goyal"
+      ],
+      "categories": [
+        "cs.CV"
+      ],
+      "venues": [],
+      "award": false,
+      "talk": false,
+      "workshop": false,
+      "comment": "",
+      "hf_upvotes": null,
+      "star_votes": 2,
+      "star_codes": [
+        "cap",
+        "new"
+      ],
+      "star_quote": "introduce an uncertainty-aware likelihood (UAL), a Gaussian approximation to the marginal likelihood",
+      "signals": [],
+      "headline": "不確実な順方向モデルに対応する不確実性考慮型尤度「UAL」による拡散事後サンプリングの改善",
+      "what": "ボケカーネルや検出器の応答といった順方向モデル（Forward Model）のパラメータに含まれる不確実性を、周辺尤度のガウス近似を通じてモデリングするUncertainty-Aware Likelihood (UAL)を提案しています。このUALは、事前学習済みの拡散モデルやサンプリングスケジュールを変更することなく、既存のサンプラーに統合可能です。",
+      "enables": "ガウスデブラーリングにおいて幾何平均MSEを9%から20%削減し、動作デブラーリングではBlindDPSなどの既存手法を6.2dBから6.4dB上回るアンサンブル平均PSNRを達成しました。パラメータの誤差が再構成結果に吸収される問題を抑制し、逆問題の解法精度を向上させます。",
+      "why_it_matters": "従来の拡散事後サンプリングは順方向モデルが正確であることを前提としていましたが、実世界の不完全な観測条件下でも高精度な信号再構成を可能にする実用的なフレームワークを提供します。",
+      "tags": [
+        "拡散モデル",
+        "逆問題",
+        "画像再構成"
+      ],
+      "fetched_at": "2026-10-23T09:27:55.712658+09:00"
+    },
+    {
+      "id": "2610.29378",
+      "title": "Right On Q: Recovering Reasoning under Quantization via Self-Generated Trajectories",
+      "url": "https://arxiv.org/abs/2610.29378",
+      "pdf": "https://arxiv.org/pdf/2610.29378",
+      "authors": [
+        "Boyuan Zheng",
+        "Jing Xiong",
+        "Chenwei Wu",
+        "Hui Shen",
+        "Zesen Zhao",
+        "Hei Ting Una Chan"
+      ],
+      "categories": [
+        "cs.CL",
+        "cs.LG"
+      ],
+      "venues": [],
+      "award": false,
+      "talk": false,
+      "workshop": false,
+      "comment": "19 pages, 6 figures, 9 tables",
+      "hf_upvotes": null,
+      "star_votes": 1,
+      "star_codes": [
+        "sota"
+      ],
+      "star_quote": "At 2 bits, it outperforms every baseline on every benchmark at every model size",
+      "signals": [],
+      "headline": "自己生成軌跡とDynamic KLを用いた量子化LLMの推論能力回復手法「OnQ」",
+      "what": "量子化LLM（Student）が生成した独自のプレフィックスに対して教師モデル（Teacher）が指導を行うオンポリシー蒸留と、トークンの過少・過剰予測を補正するDynamic KLを組み合わせた低ビット量子化復旧パイプラインです。従来の固定応答による教師あり学習で発生していた、系列長が伸びるほど推論の乖離が大きくなる問題を解決します。",
+      "enables": "Qwen3の各サイズにおいて、2ビットおよび3ビット量子化で最高精度を達成し、特に長文推論ベンチマークで顕著な改善が見られました。8Bモデルの2ビット量子化では、最強のベースラインを10.26ポイント上回り、応答の短縮や繰り返しエラーの削減も実現しています。",
+      "why_it_matters": "モデル圧縮時に発生する「推論能力の喪失」を、推論プロセスそのものを学習に組み込むことで克服しており、リソース制約の厳しい環境での高性能LLMのデプロイを加速させます。",
+      "tags": [
+        "LLM",
+        "モデル量子化",
+        "知識蒸留"
+      ],
+      "fetched_at": "2026-10-23T09:27:55.712658+09:00"
+    },
+    {
+      "id": "2610.28821",
+      "title": "Register Anything Model for Generalizable and Robust Point Cloud Registration",
+      "url": "https://arxiv.org/abs/2610.28821",
+      "pdf": "https://arxiv.org/pdf/2610.28821",
+      "authors": [
+        "Zheng Qin",
+        "Junhua Xi",
+        "Yan Huang",
+        "Jiahong Lai",
+        "Anwen Huang",
+        "Qiong Li"
+      ],
+      "categories": [
+        "cs.CV"
+      ],
+      "venues": [
+        "NeurIPS"
+      ],
+      "award": false,
+      "talk": false,
+      "workshop": false,
+      "comment": "Accepted by NeurIPS 2026. Code and models are available at https://github.com/qinzheng93/RegisterAnything",
+      "hf_upvotes": null,
+      "star_votes": 1,
+      "star_codes": [
+        "sota"
+      ],
+      "star_quote": "Extensive experiments on 12 benchmarks demonstrate state-of-the-art performance",
+      "signals": [],
+      "headline": "幾何学的正規化により多様な環境に対応する汎用的3D点群レジストレーションモデル「RAM」",
+      "what": "屋内、屋外、オブジェクトなどの異なるドメインの3D点群を統合的に扱うRegister Anything Model (RAM)を提案しています。シーンのスケールやノイズの差異を吸収する幾何学的正規化（Geometry-aware normalization）と、局所的な幾何学的整合性をモデル化する効率的なGeometric Transformerを階層的に組み合わせています。",
+      "enables": "12のベンチマークにおいて最先端のインライア率とレジストレーションリコールを達成しました。単一ドメインで学習した既存モデルよりも高い汎化性能を示し、未知のドメインに対してもロバストな6自由度変換の推定が可能です。",
+      "why_it_matters": "ドメインごとに個別のモデル設計やハイパーパラメータ調整が必要だった従来の課題を解消し、センサーや環境を選ばない汎用的な3D認識基盤としての活用が期待されます。",
+      "tags": [
+        "3Dコンピュータビジョン",
+        "点群レジストレーション",
+        "幾何学習"
+      ],
+      "fetched_at": "2026-10-23T09:27:55.712658+09:00"
+    },
+    {
+      "id": "2610.29147",
+      "title": "VERDICT: Multi-Agent Parallel Modular Verification",
+      "url": "https://arxiv.org/abs/2610.29147",
+      "pdf": "https://arxiv.org/pdf/2610.29147",
+      "authors": [
+        "Tengjie Lin",
+        "Zhongyi Wang",
+        "Haokun Li",
+        "Jianwei Yin",
+        "Mingshuai Chen"
+      ],
+      "categories": [
+        "cs.SE",
+        "cs.LO"
+      ],
+      "venues": [
+        "ICSE"
+      ],
+      "award": false,
+      "talk": false,
+      "workshop": false,
+      "comment": "Accepted at ICSE 2027",
+      "hf_upvotes": null,
+      "star_votes": 1,
+      "star_codes": [
+        "cap"
+      ],
+      "star_quote": "first approach that scales to the complete 20,000-line X.509 parser",
+      "signals": [],
+      "headline": "LLMを用いた並列的・双方向的な大規模プログラム形式検証フレームワーク「VERDICT」",
+      "what": "大規模ソフトウェアの形式検証におけるボトムアップな制約（関数の呼び出し先を先に検証する必要性）を解消するマルチエージェントフレームワークです。各関数に割り当てられたエージェントが仮定に基づき並列に仕様合成を行い、矛盾が生じた場合はコールグラフの上下方向に修正を伝播させる双方向の対立解消メカニズムを備えています。",
+      "enables": "既存手法では数日かけても検証できなかった2万行規模のX.509パーサーに対し、わずか数時間でほぼすべての実行時エラーの可能性を排除することに成功しました。従来よりも高品質な仕様を短時間で合成可能です。",
+      "why_it_matters": "依存関係による並列化の限界を突破し、大規模で複雑なシステムの形式検証を実用的な時間内に完了させる道を開きました。",
+      "tags": [
+        "ソフトウェア工学",
+        "形式検証",
+        "マルチエージェント"
+      ],
+      "fetched_at": "2026-10-23T09:27:55.712658+09:00"
+    },
+    {
+      "id": "2610.29997",
+      "title": "DONIC: Generalist Dexterous Bimanual Tracking Control from Human Demonstrations",
+      "url": "https://arxiv.org/abs/2610.29997",
+      "pdf": "https://arxiv.org/pdf/2610.29997",
+      "authors": [
+        "Mingze Sun",
+        "Ziang Cao",
+        "Yuan Fei",
+        "Qiankuan Tao",
+        "Zihan Wang",
+        "Tianqi Liu"
+      ],
+      "categories": [
+        "cs.RO",
+        "cs.CV"
+      ],
+      "venues": [],
+      "award": false,
+      "talk": false,
+      "workshop": false,
+      "comment": "",
+      "hf_upvotes": 124,
+      "star_votes": 0,
+      "star_codes": [],
+      "star_quote": "",
+      "signals": [
+        "HF ▲124"
+      ],
+      "headline": "多様な人間動作から学習する汎用型双腕器用操作トラッキング制御「DONIC」",
+      "what": "人間によるデモンストレーションデータとPPO、行動クローニングを組み合わせた、双腕の器用な操作のための汎用トラッキングコントローラです。229種類のオブジェクトを含む新しいデータセット「BiHOI」を構築し、物体中心の報酬設計と軌跡内でのメリットを正確に評価するClip-Centered Advantagesを導入しています。",
+      "enables": "学習済みのオブジェクトの未知の軌跡で86.79%、未学習のオブジェクトで57.32%の成功率を達成し、既存のベースラインを45ポイント以上上回りました。単一のチェックポイントで、多様なロボットリファレンスに対する協調制御が可能です。",
+      "why_it_matters": "片手操作に限定されていた既存手法に対し、接触が複雑な双腕操作において高い汎用性とロバスト性を示した点が重要であり、ロボットによる複雑な作業の自動化に寄与します。",
+      "tags": [
+        "ロボティクス",
+        "強化学習",
+        "器用な操作"
+      ],
+      "fetched_at": "2026-10-23T09:27:55.712658+09:00"
+    },
+    {
+      "id": "2610.29989",
+      "title": "Looking Ahead: Modeling Future Evolution in Autoregressive Video Generation",
+      "url": "https://arxiv.org/abs/2610.29989",
+      "pdf": "https://arxiv.org/pdf/2610.29989",
+      "authors": [
+        "Ruopeng Gao",
+        "Yukun Huang",
+        "Jiarui Hu",
+        "Shuai Wang",
+        "Wenbo Hu",
+        "Ying Shan"
+      ],
+      "categories": [
+        "cs.CV"
+      ],
+      "venues": [],
+      "award": false,
+      "talk": false,
+      "workshop": false,
+      "comment": "Project page: https://hellorpg.github.io/looking-ahead/",
+      "hf_upvotes": 112,
+      "star_votes": 0,
+      "star_codes": [],
+      "star_quote": "",
+      "signals": [
+        "HF ▲112"
+      ],
+      "headline": "未来チャンク予測（FCP）の導入による自己回帰ビデオ生成モデルの物理的妥当性の向上",
+      "what": "自己回帰的な動画拡散モデルにおいて、近接するフレーム間の視覚的な連続性のみに頼ることを防ぐため、中間コンテキストなしに遠い未来のフレームを予測する補助目的関数「Future Chunk Prediction (FCP)」を提案しています。追加の事前学習済みエンコーダを必要とせず、既存のデノイジング学習と同時に最適化します。",
+      "enables": "標準的な自己回帰学習よりも少ない計算予算で、物理的な妥当性が高い動画生成を実現しました。可視化により、FCPがモデル内により構造化された表現空間を形成することが示唆されています。",
+      "why_it_matters": "生成された動画の各フレームが「もっともらしく見える」だけでなく、シーン全体の時間的進化や物理現象をより正確に捉えるワールドモデルの構築に貢献します。",
+      "tags": [
+        "動画生成",
+        "拡散モデル",
+        "自己回帰モデル"
+      ],
+      "fetched_at": "2026-10-23T09:27:55.712658+09:00"
+    },
+    {
+      "id": "2610.28698",
+      "title": "Scaling in Games: Continued Pre-Training For Embodied Agents In Diverse Virtual Worlds",
+      "url": "https://arxiv.org/abs/2610.28698",
+      "pdf": "https://arxiv.org/pdf/2610.28698",
+      "authors": [
+        "Kuan Zhang",
+        "Yukun Chen",
+        "Zhihao Yang",
+        "Yue Su",
+        "Xiangnan Wu",
+        "Zirong Chen"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CV",
+        "cs.LG"
+      ],
+      "venues": [],
+      "award": false,
+      "talk": false,
+      "workshop": false,
+      "comment": "Project page: https://gamescaling.github.io ; Model: https://huggingface.co/THUSI-Lab/GameScaling",
+      "hf_upvotes": 48,
+      "star_votes": 0,
+      "star_codes": [],
+      "star_quote": "",
+      "signals": [
+        "HF ▲48"
+      ],
+      "headline": "仮想世界におけるエンボディドAIの継続事前学習：データ・モデルサイズ・多様性のスケーリング法則",
+      "what": "Minecraftなどの仮想環境において、データ量、多様性、モデルサイズ（0.8Bから27B）の3つの軸がエージェントの性能と汎化に与える影響を120通りの構成で調査した研究です。追加の事前学習（Continued Pre-training）の効果を多角的に検証しています。",
+      "enables": "検証損失と各パラメータの関係を示すスケーリング法則を明らかにし、3D世界において専門モデルやフロンティアモデルに匹敵する性能を達成しました。データ量の増加は一貫して性能を向上させますが、特定ドメインでの学習は遠いドメインへの汎化を低下させる傾向も確認されました。",
+      "why_it_matters": "物理世界とは異なる法則を持つ多様な仮想世界において、汎用エージェントを構築するための最適なリソース配分と、現在の模倣学習ベースのアプローチの限界を提示しています。",
+      "tags": [
+        "エンボディドAI",
+        "スケーリング法則",
+        "エージェント"
+      ],
+      "fetched_at": "2026-10-23T09:27:55.712658+09:00"
+    }
+  ]
+}
