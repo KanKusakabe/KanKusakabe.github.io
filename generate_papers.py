@@ -54,6 +54,7 @@ ARXIV_DISPLAY_MAX = 60
 STAR_STAGE1_BATCH = 100      # 候補抽出: 1バッチの論文数（冒頭+末尾のみを送る）
 STAR_STAGE2_BATCH = 90       # 厳格な再判定: 1バッチの論文数（全文アブストラクト）
 STAR_VOTES = 2               # 再判定の実行回数
+STAR2_VOTES = 2              # ★★（革命的）判定の実行回数。全回で選ばれた論文だけを★★にする
 STAR_QUOTE_MIN = 8           # 根拠の引用の最小長（短すぎる引用は無効）
 HF_STAR_UPVOTES = 30         # 外部シグナル: HFのupvotes下限
 HN_STAR_POINTS = 50          # 外部シグナル: HNのポイント下限
@@ -275,6 +276,8 @@ STAR_CODES_STAGE2 = {
     "cap": "これまで不可能だった能力・タスクの実現を明言している。単なる精度・速度の向上は不可",
 }
 STAR_LABELS = {"sota": "SOTA更新", "new": "新手法", "cap": "新能力"}
+# ★★の資格: 「新手法」または「新能力」を満たした★のみ。SOTA更新だけの論文は★★にしない
+STAR2_ELIGIBLE_CODES = {"new", "cap"}
 
 
 def _norm(text):
@@ -392,6 +395,53 @@ def judge_stars(api_key, call_func, papers, candidate_ids, votes):
         entry["votes"] = len(entry.pop("runs"))
     failed = {i for bi, batch in enumerate(batches) if bi not in judged_batches for i in batch}
     return stars, failed
+
+
+def judge_revolutionary(api_key, call_func, papers, candidate_ids, votes):
+    """第3段階: ★の中から「革命的」なものだけを、さらに厳しく選ぶ（★★）。votes回とも選ばれたidの集合を返す。
+    判定に失敗した回があれば、その論文は★★にしない（★のまま）。"""
+    ids = list(candidate_ids)
+    if not ids:
+        return set()
+    listing = "\n\n".join(f"[{i}] {papers[i]['title']}\n{papers[i]['abstract']}" for i in ids)
+    prompt = f"""あなたは最難関会議の厳格な領域チェア（AI・コンピュータサイエンス）です。以下は既に「要チェック（★）」と判定された論文{len(ids)}件です。このうち、分野の方向性そのものを変えうる「革命的」な論文だけを選んでください。
+
+【★★の条件（すべて満たすこと）】
+- これまでの前提や常識を覆す、または新しい研究分野・新しいパラダイムを切り開く内容である。
+- 後続研究の大半が引用・依拠するような基盤的な貢献である（トランスフォーマー、拡散モデル、RLHF級の転換点を基準にする）。
+- その主張が、アブストラクトに具体的な根拠（実験結果・理論的証明）として明記されている。
+
+【★★にしないもの】
+- ベンチマークのSOTA更新、数ポイントの精度向上、高速化・効率化、スケールアップ。
+- 既存手法の改良・組み合わせ・応用、新しいデータセットやベンチマークの提案、分析・サーベイ。
+- 「初めて」「新しい」と書かれているだけで、影響範囲が限定的なもの。
+
+【ルール】
+- ★★はきわめて稀にする。通常、1日に該当なし（0件）で、あっても1件程度。{len(ids)}件すべて該当しないことも普通。迷うものは外す。
+- アブストラクトに明記された内容だけで判定する。推測や期待で判定しない。
+- 選んだ論文は、根拠の文をアブストラクトの原文のまま（改変・翻訳せず）80文字以内で引用する。
+- IDは改変しない。
+
+【論文リスト】
+{listing}
+
+次のJSONのみで出力してください。該当なしなら空配列。
+{{"revolutionary": [{{"id": "2609.12345", "q": "原文からの引用"}}]}}"""
+
+    def one(_):
+        res, _ = call_func(api_key, prompt)
+        return res
+
+    with concurrent.futures.ThreadPoolExecutor(max_workers=votes) as executor:
+        results = list(executor.map(one, range(votes)))
+    if any(r is None for r in results):
+        return set()
+    picked = None
+    for res in results:
+        ok = {str(f.get("id", "")) for f in res.get("revolutionary", [])
+              if str(f.get("id", "")) in papers and _quote_is_verbatim(f.get("q", ""), papers[str(f.get("id", ""))]["abstract"])}
+        picked = ok if picked is None else picked & ok
+    return picked or set()
 
 
 def fetch_hn_arxiv_points(days=14, min_points=HN_STAR_POINTS):
@@ -599,8 +649,8 @@ def load_recent_arxiv_archive(archive_dir, now, days):
 
 
 def rank_key(p):
-    # ★の確度順: 判定の一致回数 → 外部シグナルの数 → 満たした基準の数 → 新しさ
-    return (p.get("star_votes", 0), len(p.get("signals", [])), len(p.get("star_codes", [])), p.get("fetched_at", ""))
+    # ★の確度順: ★★(革命的)→判定の一致回数 → 外部シグナルの数 → 満たした基準の数 → 新しさ
+    return (p.get("star_level", 1), p.get("star_votes", 0), len(p.get("signals", [])), len(p.get("star_codes", [])), p.get("fetched_at", ""))
 
 
 def main():
@@ -675,6 +725,12 @@ def main():
         print(f"  候補 {len(candidates)}件")
         print(f"★判定 第2段階（厳格な再判定 ×{args.votes}回）...")
         stars, failed = judge_stars(api_key, call_func, arxiv_new, list(candidates), args.votes)
+        # 第3段階: 全回の再判定で★になり、かつ新手法/新能力の論文だけを対象に、革命的なものを★★にする
+        eligible = [pid for pid, st in stars.items()
+                    if st["votes"] >= args.votes and STAR2_ELIGIBLE_CODES & set(st["codes"])]
+        print(f"★★判定（革命的・候補{len(eligible)}件 ×{STAR2_VOTES}回）...")
+        revolutionary = judge_revolutionary(api_key, call_func, arxiv_new, eligible, STAR2_VOTES)
+        print(f"  ★★ {len(revolutionary)}件")
         signals = external_signals(arxiv_new, hf_all, hn_points)
         star_ids = list(dict.fromkeys(list(stars) + list(signals)))
         print(f"  ★ {len(star_ids)}件（LLM判定 {len(stars)}件 / うち{args.votes}回とも★ "
@@ -683,7 +739,7 @@ def main():
         if args.dry_run:
             for pid in star_ids:
                 st = stars.get(pid, {})
-                print(f"  ★{st.get('votes', 0)} {st.get('codes', [])} {signals.get(pid, [])} {arxiv_new[pid]['title'][:70]}")
+                print(f"  {'★★' if pid in revolutionary else '★'} {st.get('codes', [])} {signals.get(pid, [])} {arxiv_new[pid]['title'][:70]}")
             print(f"使用トークン 入力{USAGE['in']:,} 出力{USAGE['out']:,} 思考{USAGE['think']:,} / 概算 ${estimated_cost_usd():.3f}")
             return
 
@@ -709,6 +765,7 @@ def main():
                 "comment": p.get("comment", ""),
                 "hf_upvotes": next((h["upvotes"] for h in hf_all if h["id"] == p["id"]), None),
                 "star_votes": st.get("votes", 0),
+                "star_level": 2 if p["id"] in revolutionary else 1,
                 "star_codes": st.get("codes", []),
                 "star_quote": st.get("quote", ""),
                 "signals": signals.get(p["id"], []),
@@ -728,11 +785,18 @@ def main():
     day_data = load_json(day_path, {})
     merged_today = {p["id"]: p for p in day_data.get("arxiv", [])}
     merged_today.update({p["id"]: p for p in new_arxiv_results})
-    save_json(day_path, {"date": now.strftime("%Y-%m-%d"), "arxiv": list(merged_today.values())})
 
     # --- HF / ラボの日本語要約 ---
     add_japanese_summaries(api_key, call_func, hf_items, "abstract", "Hugging Face Daily Papers の論文")
     add_japanese_summaries(api_key, call_func, lab_items, "summary", "AI/テック企業・研究機関の公式ブログ記事")
+
+    # アーカイブには当日のHF順位・ラボ記事も残す（過去日を画面から参照するため）
+    save_json(day_path, {
+        "date": now.strftime("%Y-%m-%d"),
+        "arxiv": list(merged_today.values()),
+        "hf": hf_items,
+        "labs": lab_items,
+    })
 
     # --- 表示用データ ---
     recent = load_recent_arxiv_archive(archive_dir, now, ARXIV_KEEP_DAYS)
