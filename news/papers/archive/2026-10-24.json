@@ -1,0 +1,512 @@
+{
+  "date": "2026-10-24",
+  "arxiv": [
+    {
+      "id": "2610.30206",
+      "title": "MoEZip: Routing-Aware KV Cache Compression for Sparse Mixture-of-Experts LLMs",
+      "url": "https://arxiv.org/abs/2610.30206",
+      "pdf": "https://arxiv.org/pdf/2610.30206",
+      "authors": [
+        "Minsang Kim",
+        "Seungjun Baek"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "venues": [
+        "NeurIPS"
+      ],
+      "award": false,
+      "talk": false,
+      "workshop": false,
+      "comment": "Annual Conference on Neural Information Processing Systems (NeurIPS) 2026, Accepted",
+      "hf_upvotes": null,
+      "star_votes": 2,
+      "star_codes": [
+        "sota"
+      ],
+      "star_quote": "MoEZip improves over the SoTA baseline by +24 and +20 points on average on LongBench and RULER",
+      "signals": [],
+      "headline": "MoEモデル特有のExpert選択への影響を考慮したKVキャッシュ圧縮手法MoEZipの提案",
+      "what": "Sparse Mixture-of-Experts (MoE)において、KVキャッシュの削減がExpertのルーティング選択に与える影響を評価し、Fisher情報量行列に基づいた重要度スコアリングを行う手法です。Attentionの重みとルーティングの感度を組み合わせた、MoEアーキテクチャに最適化されたコンテキスト保持戦略を採用しています。",
+      "enables": "10%という極端なキャッシュ保持率において、LongBenchとRULERベンチマークで従来手法を平均で24点および20点上回り、スコアをそれぞれ2.3倍と4.9倍に改善しました。",
+      "why_it_matters": "従来のLLM圧縮手法では見落とされていた、MoE特有の「キャッシュ削減による推論中のルーティング変化」という品質劣化要因を解決し、長文コンテキスト推論の効率化を実現しています。",
+      "tags": [
+        "LLM",
+        "MoE",
+        "KVキャッシュ圧縮"
+      ],
+      "fetched_at": "2026-10-24T09:22:43.206231+09:00"
+    },
+    {
+      "id": "2610.30920",
+      "title": "DConstrain: Compiling Context-Parameterized Transitions for Diffusion Language Model Constrained Decoding",
+      "url": "https://arxiv.org/abs/2610.30920",
+      "pdf": "https://arxiv.org/pdf/2610.30920",
+      "authors": [
+        "Shidong Cao",
+        "Jing Ma",
+        "Wenhao Chai",
+        "Yuchen Tian",
+        "Lun Du",
+        "Da Zheng"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "venues": [],
+      "award": false,
+      "talk": false,
+      "workshop": false,
+      "comment": "39 pages, 6 figures, 12 tables",
+      "hf_upvotes": null,
+      "star_votes": 2,
+      "star_codes": [
+        "cap",
+        "new"
+      ],
+      "star_quote": "DConstrain compiles 100% of BFCL schemas under arbitrary property orders",
+      "signals": [],
+      "headline": "拡散言語モデルの制約付きデコーディングを高速化するコンパイルフレームワークDConstrain",
+      "what": "拡散言語モデル（DLM）向けに、スキーマをコンテキストパラメータ化された遷移プログラムとしてコンパイルする手法です。実行時の状態管理をシンボリックに処理し、トークンの影響に応じたグルーピングを行うことで、モデルのフォワードパスと並行して効率的なグラフ構築を可能にします。",
+      "enables": "任意のプロパティ順序において、BFCLベンチマークのデコーディング遅延を6.65倍から46.26倍削減し、DiffusionGemmaの精度を37.27%から81.56%へと大幅に向上させました。",
+      "why_it_matters": "DLMの並列デコーディングと複雑な文法制約を両立させる際の計算コストを劇的に抑え、構造化出力の実行可能性を実務レベルに引き上げました。",
+      "tags": [
+        "拡散モデル",
+        "制約付き生成",
+        "LLM"
+      ],
+      "fetched_at": "2026-10-24T09:22:43.206231+09:00"
+    },
+    {
+      "id": "2610.30951",
+      "title": "OpenAttention: One Percent Is Enough with Tail Proxies",
+      "url": "https://arxiv.org/abs/2610.30951",
+      "pdf": "https://arxiv.org/pdf/2610.30951",
+      "authors": [
+        "Hyunwoo Yu",
+        "Jongbeom Lee",
+        "Hyunbin Kim",
+        "Sungjun Park",
+        "Jaemin Choi",
+        "Jincheol Yang"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "venues": [],
+      "award": false,
+      "talk": false,
+      "workshop": false,
+      "comment": "27 pages. Project page: https://hyunwoo137.github.io/OpenAttention/ ; Code: https://github.com/hyunwoo137/OpenAttention",
+      "hf_upvotes": null,
+      "star_votes": 2,
+      "star_codes": [
+        "cap",
+        "sota"
+      ],
+      "star_quote": "OpenAttention retains 99% of dense accuracy at a 1% read.",
+      "signals": [],
+      "headline": "わずか1%のKVキャッシュ読み込みで高精度なAttentionを実現するOpenAttention",
+      "what": "Sparse Attentionにおいて、読み込まれない残りのデータ（Tail）を単一の代表トークン（Tail Proxy）に集約して計算に含める手法です。Query-Geometry Clustering（QGC）を用いた効率的なキーの圧縮と、推定誤差に基づくErrorGateによるクラスタ選択を組み合わせたパイプラインを構成しています。",
+      "enables": "Llama-3.1-8Bを用いたRULER-32Kにおいて、1%の読み込み率でDense Attentionの99%の精度を維持し、推論ステージを10倍高速化しました。",
+      "why_it_matters": "従来手法が5%以下の読み込み率で精度崩壊していた課題を解決し、非常に低いリソースで長いコンテキストを扱うための新たな理論的基盤と実装を提供しています。",
+      "tags": [
+        "LLM",
+        "Sparse Attention",
+        "推論加速"
+      ],
+      "fetched_at": "2026-10-24T09:22:43.206231+09:00"
+    },
+    {
+      "id": "2610.31108",
+      "title": "DRAFT: Decoding and Reconstructing 3D Room Layouts from fMRI and Camera Trajectories",
+      "url": "https://arxiv.org/abs/2610.31108",
+      "pdf": "https://arxiv.org/pdf/2610.31108",
+      "authors": [
+        "Chi-Wei Lee",
+        "An-Kai Chen",
+        "Cheng-Han Chiang",
+        "Yi-Chun Chang",
+        "Po-Chih Kuo"
+      ],
+      "categories": [
+        "cs.CV",
+        "cs.LG"
+      ],
+      "venues": [],
+      "award": false,
+      "talk": false,
+      "workshop": false,
+      "comment": "42 pages, 7 figures, 18 tables",
+      "hf_upvotes": null,
+      "star_votes": 2,
+      "star_codes": [
+        "cap"
+      ],
+      "star_quote": "reconstructing 3D layouts of held-out scenes using only the known camera trajectories and the fMRI signals",
+      "signals": [],
+      "headline": "fMRI信号とカメラの軌跡のみから未知の部屋の3Dレイアウトを再構成するDRAFT",
+      "what": "視覚的なフレーム情報を使わず、移動中のカメラ軌跡と初期視覚野のfMRI信号のみから室内の3D幾何形状を復元するデコーダーです。急速な視覚変化と低速なfMRI信号のタイムラグを解消するため、ニューラルコードとカメラ移動由来の幾何情報を融合するアプローチをとっています。",
+      "enables": "未知の10のシーンにおいて、レイアウトの相関係数（layout r）0.480を達成し、既存の7つのfMRIデコーダーやカメラパスのみの手法を上回る精度を実現しました。",
+      "why_it_matters": "人間が見ている空間のメトリックな幾何情報を脳活動から復元する試みであり、視覚再構成技術を静止画から3D空間へと拡張する第一歩となります。",
+      "tags": [
+        "fMRI",
+        "3D再構成",
+        "コンピュータビジョン"
+      ],
+      "fetched_at": "2026-10-24T09:22:43.206231+09:00"
+    },
+    {
+      "id": "2610.31309",
+      "title": "Extreme Compression of Per-Layer Embeddings via Cross-Layer Latent Vector Quantization",
+      "url": "https://arxiv.org/abs/2610.31309",
+      "pdf": "https://arxiv.org/pdf/2610.31309",
+      "authors": [
+        "Jiacheng Liu",
+        "Yaxin Luo",
+        "Xiaohan Zhao",
+        "Peng Sun",
+        "Xinyi Shang",
+        "Jiacheng Cui"
+      ],
+      "categories": [
+        "cs.LG"
+      ],
+      "venues": [],
+      "award": false,
+      "talk": false,
+      "workshop": false,
+      "comment": "Code at https://github.com/VILA-Lab/optic",
+      "hf_upvotes": null,
+      "star_votes": 1,
+      "star_codes": [
+        "new"
+      ],
+      "star_quote": "stores one quantized code tuple per token and decodes it at every layer with a layer-specific affine decoder.",
+      "signals": [],
+      "headline": "層ごとの埋め込みベクトルを層横断的な潜在量子化で1000倍以上に圧縮するOPTIC",
+      "what": "Transformerの各層に埋め込みを持つPer-Layer Embeddings (PLE)に対し、トークンごとに共有されたインデックスコードと層固有のアフィンデコーダーを用いる圧縮手法です。従来のベクトル単位の量子化ではなく、出力パスに適合するようにコードとデコーダーを最適化します。",
+      "enables": "Gemma 4 E4Bモデルにおいて、100倍の圧縮率で性能の97.8%を維持し、最大1,002倍の圧縮時でも84.1%の性能を保持しつつ、GPUメモリ消費を29.7%削減しました。",
+      "why_it_matters": "モデルの大規模化に伴い増大する埋め込みパラメータのメモリ負担を、推論速度をほぼ損なわずに（遅延0.40%未満）極限まで削減できる実用的な圧縮技術です。",
+      "tags": [
+        "モデル圧縮",
+        "量子化",
+        "Transformer"
+      ],
+      "fetched_at": "2026-10-24T09:22:43.206231+09:00"
+    },
+    {
+      "id": "2610.31544",
+      "title": "Same Luck, Different Choice: Twin-World Credit Assignment for Agentic Reinforcement Learning",
+      "url": "https://arxiv.org/abs/2610.31544",
+      "pdf": "https://arxiv.org/pdf/2610.31544",
+      "authors": [
+        "Zeropy Surio",
+        "Tobias Engel",
+        "Mei-Lin Chou",
+        "Anika Raman",
+        "Samuel Okafor"
+      ],
+      "categories": [
+        "cs.LG"
+      ],
+      "venues": [],
+      "award": false,
+      "talk": false,
+      "workshop": false,
+      "comment": "",
+      "hf_upvotes": null,
+      "star_votes": 2,
+      "star_codes": [
+        "new"
+      ],
+      "star_quote": "rolls out counterfactual twins that inherit the factual episode's downstream noise",
+      "signals": [],
+      "headline": "ツインワールドの対照試行により強化学習の報酬割当を効率化するTWICE",
+      "what": "Agentic RLにおいて、同じサンプリングノイズを保持したまま異なる行動を選択する「ツインワールド」を構築し、その結果の差分からアドバンテージを推定する手法です。Gumbelノイズをターンごとに固定することで、決定論的な環境下でのカウンターファクチュアルな評価を実現します。",
+      "enables": "Qwen2.5-3B/7Bを用いた質問回答タスクでGRPOのスコアを最大5.3ポイント向上させ、VinePPOと比較して補助トークン数を68%削減することに成功しました。",
+      "why_it_matters": "サンプリングノイズによる「運」の要素を排除して純粋な意思決定の寄与（クレジット）を評価できるため、高いサンプル効率での強化学習が可能になります。",
+      "tags": [
+        "強化学習",
+        "LLM",
+        "クレジット割り当て"
+      ],
+      "fetched_at": "2026-10-24T09:22:43.206231+09:00"
+    },
+    {
+      "id": "2610.31639",
+      "title": "Causal Chain of Thought: Mitigating Attention Leakage via Context Isolation",
+      "url": "https://arxiv.org/abs/2610.31639",
+      "pdf": "https://arxiv.org/pdf/2610.31639",
+      "authors": [
+        "Gabriele Dominici",
+        "Teague McMillan",
+        "Fazl Barez",
+        "Marc Langheinrich",
+        "Martin Gjoreski"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "venues": [],
+      "award": false,
+      "talk": false,
+      "workshop": false,
+      "comment": "",
+      "hf_upvotes": null,
+      "star_votes": 1,
+      "star_codes": [
+        "new"
+      ],
+      "star_quote": "decomposing problems into a directed acyclic graph of atomic sub-questions, evaluating each node in an isolated context",
+      "signals": [],
+      "headline": "文脈を隔離した構造的推論によりChain of Thoughtの忠実性を高めるCausalCoT",
+      "what": "問題を原子的なサブ質問の有向非巡回グラフ（DAG）に分解し、各ノードをその親ノードの情報のみを含む独立した文脈で評価する推論フレームワークです。これにより、モデルが将来の正解を直接参照して後付けの説明を生成する「Attention Leakage」を防ぎます。",
+      "enables": "推論性能を維持したまま、中間ステップの因果的感度（説明の忠実性）を最強のベースラインと比較して平均で12ポイント向上させました。",
+      "why_it_matters": "CoTが単なる「それらしい説明」になっている問題を解決し、推論プロセスに因果的な透明性を持たせることで、モデルの判断根拠をより信頼できるものにします。",
+      "tags": [
+        "LLM",
+        "Chain of Thought",
+        "因果推論"
+      ],
+      "fetched_at": "2026-10-24T09:22:43.206231+09:00"
+    },
+    {
+      "id": "2610.30218",
+      "title": "JANUS: Agentic Cross-Language Fuzzing Harness Generation for Android Native Libraries",
+      "url": "https://arxiv.org/abs/2610.30218",
+      "pdf": "https://arxiv.org/pdf/2610.30218",
+      "authors": [
+        "Xiangyu Zhang",
+        "Yucheng Su",
+        "Lingling Fan",
+        "Yinan Li",
+        "Sen Chen"
+      ],
+      "categories": [
+        "cs.SE",
+        "cs.CR"
+      ],
+      "venues": [],
+      "award": false,
+      "talk": false,
+      "workshop": false,
+      "comment": "Harness Generation, Android Native Libraries, LLM Agent",
+      "hf_upvotes": null,
+      "star_votes": 1,
+      "star_codes": [
+        "cap"
+      ],
+      "star_quote": "JANUS, the first agentic approach to synthesizing cross-language JNI-aware fuzzing harnesses",
+      "signals": [],
+      "headline": "Androidネイティブライブラリのファジング用ハーネスを自動生成するエージェントJANUS",
+      "what": "Java/KotlinとC/C++を繋ぐJNI境界を越えて、クローズドソースなネイティブライブラリの依存関係を解析し、ファジングに必要なハーネスを自動合成するエージェント手法です。明示的・暗示的な呼び出し依存関係を反復的に解決し、複雑な複合オブジェクトをボトムアップで組み立てます。",
+      "enables": "実世界の44のアプリに対し、既存ツールと比較して5.9倍以上の有効なハーネスを生成し、XiaomiやSamsungなどのデバイスで6つの未知の脆弱性を発見しました。",
+      "why_it_matters": "解析が困難だったJNI経由のメモリエラーやセキュリティ脆弱性を、AIエージェントによる自律的なワークフローで効率的に発見できる道を開きました。",
+      "tags": [
+        "セキュリティ",
+        "Android",
+        "AIエージェント"
+      ],
+      "fetched_at": "2026-10-24T09:22:43.206231+09:00"
+    },
+    {
+      "id": "2610.30277",
+      "title": "Breaking the high-degree barrier in Lehmer's problem with a human-AI discovery loop",
+      "url": "https://arxiv.org/abs/2610.30277",
+      "pdf": "https://arxiv.org/pdf/2610.30277",
+      "authors": [
+        "Yuri Chervonyi",
+        "Sergei Gukov",
+        "Thang Luong"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "venues": [],
+      "award": false,
+      "talk": false,
+      "workshop": false,
+      "comment": "36 pages, 6 figures, 7 tables",
+      "hf_upvotes": null,
+      "star_votes": 1,
+      "star_codes": [
+        "cap"
+      ],
+      "star_quote": "our approach improves upon six previously published values and holds 99.6% of all best known records.",
+      "signals": [],
+      "headline": "人間とAIの発見ループにより数学上の難問「レーマーの問題」の記録を大幅に更新",
+      "what": "数学の未解決問題であるレーマーの問題に対し、AIエージェントによる数値ソルバーのプロトタイピングと大規模な分散探索、人間による仮説検証を組み合わせたアプローチです。一般化ボイド（Generalized Boyd）アルゴリズムという5パラメータの構成法を導出しました。",
+      "enables": "次数2000までの全ての偶数次数において、既存の最良記録の99.6%を保持し、6つの既報値を改善する最小マラー測度を持つ多項式の構築に成功しました。",
+      "why_it_matters": "AIが単なる計算機ではなく、人間と協力して新しい数学的アルゴリズムや構築法を創出できることを示しており、高難度な数学探求の新たな手法を提示しています。",
+      "tags": [
+        "AI for Science",
+        "数学",
+        "LLM"
+      ],
+      "fetched_at": "2026-10-24T09:22:43.206231+09:00"
+    },
+    {
+      "id": "2610.31329",
+      "title": "WeVisOne-VL: Unified Visual Perception from Objects to Pixels",
+      "url": "https://arxiv.org/abs/2610.31329",
+      "pdf": "https://arxiv.org/pdf/2610.31329",
+      "authors": [
+        "Tianming Liang",
+        "Junyi Pan",
+        "Yuxi Li",
+        "Canmiao Fu",
+        "Zhipeng Huang",
+        "Chong Sun"
+      ],
+      "categories": [
+        "cs.CV"
+      ],
+      "venues": [],
+      "award": false,
+      "talk": false,
+      "workshop": false,
+      "comment": "",
+      "hf_upvotes": 221,
+      "star_votes": 0,
+      "star_codes": [],
+      "star_quote": "",
+      "signals": [
+        "HF ▲221"
+      ],
+      "headline": "物体検出からセグメンテーションまでを統一トークン予測で実現するWeVisOne-VL",
+      "what": "構造化されたNext-token Predictionを通じて、物体レベル（検出）とピクセルレベル（セグメンテーション）の視覚認識を統合したVLMです。軽量なピクセルデコーダーを専用トークンで統合し、点・ボックス・マスク・アルファマットなど、あらゆる粒度の位置特定をサポートします。",
+      "enables": "30以上のベンチマークで物体・ピクセル両レベルのタスクにおいて最先端の性能を達成しつつ、対象が存在しないクエリに対する頑健な拒絶応答も実現しました。",
+      "why_it_matters": "一つのモデルでOCRからマット生成まで多様なタスクを高精度にこなせるため、実用的なビジョンシステムの統合を簡素化できます。",
+      "tags": [
+        "VLM",
+        "物体検出",
+        "セグメンテーション"
+      ],
+      "fetched_at": "2026-10-24T09:22:43.206231+09:00"
+    },
+    {
+      "id": "2610.30926",
+      "title": "Making MLLM Latents Matter: Factor-Aware Predictive Learning for Cinematic Video Generation",
+      "url": "https://arxiv.org/abs/2610.30926",
+      "pdf": "https://arxiv.org/pdf/2610.30926",
+      "authors": [
+        "Songlin Yang",
+        "Zhe Wang",
+        "Xiaotong Zhao",
+        "Xi Wang",
+        "Ran Zhang",
+        "Shuai Li"
+      ],
+      "categories": [
+        "cs.CV"
+      ],
+      "venues": [],
+      "award": false,
+      "talk": false,
+      "workshop": false,
+      "comment": "",
+      "hf_upvotes": 163,
+      "star_votes": 0,
+      "star_codes": [],
+      "star_quote": "",
+      "signals": [
+        "HF ▲163"
+      ],
+      "headline": "映画的なビデオ生成に向けた要因分離制御とMLLM潜在表現の活用手法FAPL",
+      "what": "マルチモーダルLLM（MLLM）の潜在表現をビデオ生成Diffusion Transformer（DiT）で効果的に利用するための学習手法です。MLLMの潜在表現への接地、特定の要因（キャラ、カメラ等）の変更と維持を学習するFactor-span replacement、テキストのみからの時間的推論の3段階で構成されます。",
+      "enables": "スパースな入力からのビデオ生成や要因別の編集タスクにおいて、既存手法を一貫して上回る時間的制御と要因の整合性を実現しました。",
+      "why_it_matters": "MLLMが持つ高度な理解力をビデオ生成に直接「作用」させるための学習信号を定義し、より意図に沿った映画的な動画作成を可能にします。",
+      "tags": [
+        "ビデオ生成",
+        "MLLM",
+        "拡散モデル"
+      ],
+      "fetched_at": "2026-10-24T09:22:43.206231+09:00"
+    },
+    {
+      "id": "2610.30181",
+      "title": "Deep Search in Real-World Web Environments",
+      "url": "https://arxiv.org/abs/2610.30181",
+      "pdf": "https://arxiv.org/pdf/2610.30181",
+      "authors": [
+        "Xiaomin Yu",
+        "Hongliang Chen",
+        "Zhe Huang",
+        "Shilin Yan",
+        "Shao-Rong Su",
+        "Xuqiao Ma"
+      ],
+      "categories": [
+        "cs.IR",
+        "cs.MM",
+        "cs.SE"
+      ],
+      "venues": [],
+      "award": false,
+      "talk": false,
+      "workshop": false,
+      "comment": "",
+      "hf_upvotes": 151,
+      "star_votes": 0,
+      "star_codes": [],
+      "star_quote": "",
+      "signals": [
+        "HF ▲151"
+      ],
+      "headline": "リアルなWeb環境での多段階リサーチ能力を評価するベンチマークOpenDS-World",
+      "what": "静的な検索ではなく、動的なブラウザ操作、多様なファイル形式の処理、複数ソースからの証拠統合を必要とする、ライブなWeb上でのエンドツーエンドな調査タスク（OpenDS）を定義しました。200の難解なタスクを含むOpenDS-Worldベンチマークを提供します。",
+      "enables": "12の最先端モデルを評価した結果、最高精度は39.0%に留まり、長期間の探索管理やツール調整における大きな課題があることが浮き彫りになりました。",
+      "why_it_matters": "これまでの検索・回答タスクよりも遥かに実務に近い、自律的なエージェントのWebリサーチ能力を客観的に測定できるプラットフォームとなります。",
+      "tags": [
+        "AIエージェント",
+        "ベンチマーク",
+        "Web探索"
+      ],
+      "fetched_at": "2026-10-24T09:22:43.206231+09:00"
+    },
+    {
+      "id": "2610.30949",
+      "title": "IQuest-Q1: Advancing Foundation Capabilities for Agentic CLI Systems",
+      "url": "https://arxiv.org/abs/2610.30949",
+      "pdf": "https://arxiv.org/pdf/2610.30949",
+      "authors": [
+        "A. Jian Yang",
+        "An Huang",
+        "Bo Dan",
+        "Chen Mu",
+        "Chengran Yang",
+        "Chuan Shi"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "venues": [],
+      "award": false,
+      "talk": false,
+      "workshop": false,
+      "comment": "IQuest Report",
+      "hf_upvotes": 54,
+      "star_votes": 0,
+      "star_codes": [],
+      "star_quote": "",
+      "signals": [
+        "HF ▲54"
+      ],
+      "headline": "エージェント・コーディング能力に特化した320BパラメータのMoE基盤モデルIQuest-Q1",
+      "what": "320Bの総パラメータ（活性15B）を持つSparse MoEモデルで、Stable SplitNormやmuPを用いた安定した事前学習と、ドメイン特化型RLやモデルマージを組み合わせた事後学習で構築されています。CLIシステムやコーディングタスクでのエージェント性能を重視しています。",
+      "enables": "複数の学習ステージとカリキュラムを通じて、コーディングと汎用タスクの両方で高い能力を持つオープンソースモデルとして開発されました。",
+      "why_it_matters": "大規模なMoEモデルの安定した学習手法と、エージェントとしての実用的な能力を向上させるための包括的なトレーニングパイプラインを提示しています。",
+      "tags": [
+        "LLM",
+        "MoE",
+        "コーディング"
+      ],
+      "fetched_at": "2026-10-24T09:22:43.206231+09:00"
+    }
+  ]
+}
