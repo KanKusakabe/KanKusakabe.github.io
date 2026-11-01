@@ -1334,28 +1334,6 @@
               "fetched_at": "2026-10-14T09:56:29.369117+09:00"
             },
             {
-              "headline": "テスラ、新型Roadsterにロケット技術「コールドガススラスター」を転用検討",
-              "content": "テスラが新型Roadsterの開発において、50年前のスタント技術やロケットに使われるコールドガススラスターを応用しようとしています。空力特性や加速性能を極限まで高めるため、自動車の枠を超えたエンジニアリングを導入する狙いです。",
-              "impact": "電気自動車の性能向上が限界に近づく中、航空宇宙工学を民生車両に統合するというパラダイムシフトを試みています。法規制や安全性の課題はあるものの、移動体の動力源と制御に関する既存の概念を問い直す野心的な取り組みです。",
-              "date": "10/16",
-              "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQcTl1cVVFZ3NHRFE0VXFLRVdmSE9YTGFaNjFuV19MbEo1b1JicVpIcWlQV19heW9ETGxqcHpNMDVseGRpdnNpUjNJa3hGdHozOWFxWXJCM0V3LWtaQ1Ytd1FUN2tTNExnVndtX2dBNzlnZmlZWUd3N0dYRnFZVkhocGJSYmxhUVB2ekZJS0hxMzVvVk9zeTB0NDl1OUJyQmVrNW1OVFVsdnNjYUE4LWF2aw?oc=5",
-              "importance": 3,
-              "novelty": 3,
-              "japan_relevance": 2,
-              "fetched_at": "2026-10-17T09:11:53.192776+09:00"
-            },
-            {
-              "headline": "「幽霊銀河」の3つ子、ダークマターの正体を絞り込む観測結果を提供",
-              "content": "星の密度が極めて低い3つの「幽霊銀河（Ghostly Galaxies）」の観測により、ダークマターの分布とその性質に関する新たな洞察が得られた。現在のダークマターモデルとの不整合が注目されている。",
-              "impact": "宇宙の約85%を占めるダークマターの物理的性質を解明するための貴重なデータポイントとなる。標準宇宙モデルの修正が必要か、あるいは未知の物理法則が存在するのかを判断する材料となる。",
-              "date": "10/14",
-              "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQdUNWQURmZk5VZEVUakRfTE1TdV9SRjh2UDVnYmg1YlZoUnNoZnU2VEcwSnZXSTJZZE5LWDNNM3RSSFpxWFF6WmpRWFNJUkc5aHhtZEdtbHhaZHk3cHdzcWxoSU13MXdGa05IZmR1ak5hTm5KbWhVdk5FbklIcDRaWEdHV0hocWhuTFo1azB3X2hqejFQQnJPSGJRa2RoU0J4WEhRLWstTXRzQQ?oc=5",
-              "importance": 3,
-              "novelty": 4,
-              "japan_relevance": 1,
-              "fetched_at": "2026-10-15T09:19:46.263092+09:00"
-            },
-            {
               "headline": "高速ビデオ解析が明らかにしたミツバチの刺針による「毒液ポンプ」のメカニズム",
               "content": "ミツバチが毒を注入する際の刺針の微細な動きをハイスピードカメラで捉え、物理的なポンピング機構を詳細に解明しました。この生体構造は非常に効率的な液体輸送システムとして機能しています。",
               "impact": "バイオミメティクス（生体模倣）の観点から、医療用の無痛・高効率なマイクロインジェクション装置や、微小な流体を制御するチップ、産業用ポンプの新しい設計指針としての応用が期待されます。",
@@ -1604,17 +1582,6 @@
               "fetched_at": "2026-10-14T09:56:29.369117+09:00"
             },
             {
-              "headline": "Ubuntu 26.10 'Stonking Stingray' が正式リリース",
-              "content": "Ubuntuの最新バージョン26.10がリリースされました。26.04 LTSをベースに、セキュリティ、パフォーマンス、ハードウェアサポートをさらに強化し、将来のデスクトップ・サーバー環境を見据えた新機能が導入されています。",
-              "impact": "開発環境やサーバーインフラの標準であるUbuntuの更新は、全世界のエンジニアに影響します。最新のハードウェア最適化やセキュリティ強化の恩恵を享受するための重要なアップデート基盤となります。",
-              "date": "10/16",
-              "url": "https://lists.ubuntu.com/archives/ubuntu-announce/2026-October/000330.html",
-              "importance": 3,
-              "novelty": 3,
-              "japan_relevance": 3,
-              "fetched_at": "2026-10-17T09:11:53.192776+09:00"
-            },
-            {
               "headline": "AWS AIサービスにおけるOpenTelemetry自動計装の範囲と境界の検証",
               "content": "Amazon BedrockやSageMaker AIを利用したシステムにおいて、OpenTelemetryを用いた分散トレーシングがどこまで自動で機能するかを詳細に検証した記事です。Runtime API、SageMakerエンドポイント、Bedrock AgentCoreといったサービスごとに、トレースが途切れる箇所や手動計装が必要な範囲を明らかにしています。",
               "impact": "AIシステムを本番運用する上で不可欠な「観測性（Observability）」をAWS環境でどう担保するかについての具体的なガイドラインとなります。トラブルシューティングの効率に直結します。",
@@ -1635,17 +1602,6 @@
               "novelty": 3,
               "japan_relevance": 5,
               "fetched_at": "2026-10-15T09:19:46.263092+09:00"
-            },
-            {
-              "headline": "Gentoo開発者がuv-buildの使用停止を要請、Pythonエコシステムの依存性問題",
-              "content": "Gentoo Linuxのメンテナが、Pythonのビルドバックエンドとしてuv-buildを採用しないよう開発者に呼びかけている。特定のビルドツールへの切り替えが、他のディストリビューションやエコシステムにおいて依存関係の解決を困難にし、パッケージングの柔軟性を損なっているという指摘である。",
-              "impact": "Pythonのパッケージ管理がuvなどの高速なツールによって近代化される一方で、既存のOSレベルのパッケージマネージャとの摩擦が生じている。ライブラリ作者にとって、どのビルドバックエンドを選択すべきか、互換性と革新のバランスを考える上で重要な議論である。",
-              "date": "10/13",
-              "url": "https://blogs.gentoo.org/mgorny/2026/10/12/a-plea-not-to-use-uv-build/",
-              "importance": 3,
-              "novelty": 4,
-              "japan_relevance": 2,
-              "fetched_at": "2026-10-14T09:56:29.369117+09:00"
             },
             {
               "headline": "Python 3.6から3.15までの速度比較ベンチマーク、継続的な性能向上の軌跡",
