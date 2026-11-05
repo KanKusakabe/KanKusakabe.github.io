@@ -40,6 +40,9 @@ export default function Hero({ a, basePath, children }) {
   const photo = photos[index ?? 0];
   // シルエットのマスクに使う切り抜き画像（人物の <img> が実際に読み込んだもの）
   const [silSrc, setSilSrc] = useState(null);
+  // 選んだ写真の背景・切り抜き・シルエットが読み込み終わるまで false（その間は写真を隠す）
+  const [ready, setReady] = useState(false);
+  const silOk = silSrc && silSrc.includes(`/${photo.id}-cut-`);
 
   useEffect(() => {
     // ?photo=kan03 のように指定すると、その写真に固定（確認用）
@@ -82,6 +85,41 @@ export default function Hero({ a, basePath, children }) {
     };
   }, [photo]);
 
+  // 写真を選び直したら、新しい写真の画像がそろうまで隠す。
+  // 背景と切り抜きが別々のタイミングで出たり、前の写真が一瞬見えたりするのを防ぐ。
+  // 読み込みが長引いても3秒で見せる
+  useEffect(() => {
+    if (index === null) return;
+    setReady(false);
+    const el = mediaRef.current;
+    let cancelled = false;
+    const loaded = (img) =>
+      new Promise((resolve) => {
+        const check = () => {
+          if (img.complete && img.currentSrc.includes(`/${photo.id}-`)) {
+            img.decode().then(resolve, resolve);
+            return true;
+          }
+          return false;
+        };
+        if (check()) return;
+        const onDone = () => check() && cleanup();
+        const onError = () => { cleanup(); resolve(); };
+        const cleanup = () => {
+          img.removeEventListener("load", onDone);
+          img.removeEventListener("error", onError);
+        };
+        img.addEventListener("load", onDone);
+        img.addEventListener("error", onError);
+      });
+    const imgs = [...el.querySelectorAll(".a-layer-bg, .a-layer-cut")];
+    const timeout = new Promise((resolve) => setTimeout(resolve, 3000));
+    Promise.race([Promise.all(imgs.map(loaded)), timeout]).then(() => {
+      if (!cancelled) setReady(true);
+    });
+    return () => { cancelled = true; };
+  }, [index, photo]);
+
   const { hero, nav } = a;
 
   return (
@@ -91,11 +129,11 @@ export default function Hero({ a, basePath, children }) {
       <div className="a-hero-frame" data-side={photo.fx > 0.6 ? "left" : "right"}>
         <div
           ref={mediaRef}
-          className={`a-hero-media${index === null ? " is-pending" : ""}`}
+          className={`a-hero-media${ready && silOk ? "" : " is-pending"}`}
           style={{ "--hair": photo.hair }}
         >
           <Layer basePath={basePath} id={photo.id} kind="bg" className="a-layer a-layer-bg" />
-          {silSrc && <div className="a-layer a-layer-sil" style={{ "--sil": `url("${silSrc}")` }} />}
+          {silOk && <div className="a-layer a-layer-sil" style={{ "--sil": `url("${silSrc}")` }} />}
           <div className="a-hero-shade" />
           <h1 className="a-hero-name">{hero.headline}</h1>
           <Layer basePath={basePath} id={photo.id} kind="cut" className="a-layer a-layer-cut" />
