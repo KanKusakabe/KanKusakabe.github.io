@@ -324,17 +324,6 @@
               "novelty": 5,
               "japan_relevance": 3,
               "fetched_at": "2026-10-23T09:26:59.382150+09:00"
-            },
-            {
-              "headline": "テスラ、AI支出の抑制により予想外のプラスキャッシュフローを達成",
-              "content": "テスラが発表した決算では、市場の予想に反してポジティブなキャッシュフローを記録しました。これはAI関連の支出が当初の計画を下回ったことが主因とされています。",
-              "impact": "テスラの財務健全性が確認されたことは株価に好材料ですが、AI支出の抑制が将来の自動運転技術やロボット開発の遅れにつながる懸念も内包しています。日本の自動車産業にとっては、テスラの投資戦略の変化は競争環境を占う重要な指標です。",
-              "date": "10/21",
-              "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNS3hNUU9fZGR5WUQ1NElPSE9qdjdWSmtWSmVodXRzWENUMzFnVDZVYUlvckprUGFOSXljOE5DSVJOTWw1b1FlTTkwV0NJY0NyWEd5bFdGUDJrZVBqNWNFMHR6TUFMVERfenZyNTgwQmFJSU9OR3dKdl9EY1ZiS2doUlhjbmYyUEI0c2c4NGhQX3VxOHNCQ185V05xdUVkMTQtZVJHbTYybUV1U0NWQmFfZlN6enNtR2poWnpvOFBaQmo1TU9yd0xn?oc=5",
-              "importance": 3,
-              "novelty": 3,
-              "japan_relevance": 3,
-              "fetched_at": "2026-10-22T09:28:42.753860+09:00"
             }
           ]
         },
@@ -1400,28 +1389,6 @@
               "fetched_at": "2026-10-23T09:26:59.382150+09:00"
             },
             {
-              "headline": "地球と火星は全く異なるプロセスで形成された可能性",
-              "content": "最新の同位体分析により、地球と火星を構成する「材料物質」の起源が大きく異なることが判明した。従来考えられていたよりも太陽系形成期の物質分布は複雑であったことが示唆されている。",
-              "impact": "惑星科学の定説である「原始惑星系円盤内での均質な混合」に疑問を投げかける。地球がなぜ生命を宿す特異な環境を得たのかを解明する上で、極めて重要な知見である。",
-              "date": "10/22",
-              "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNMnh5VFlScVZGYUZiSVBQYzJoMkpiRFJBVnBKbDl6dkpzUkR2ekttMmFUemlkNmIwVldwYXJsT2loeHlRa1dkVnZSQUhzVVRDaXB0eE1haFhkTWVRVk1HTWVpTTVtZl9PQ25PUHVvRk81emF3V0tZTFlSVlpOQ19uYVJWVzA5MHlm?oc=5",
-              "importance": 3,
-              "novelty": 4,
-              "japan_relevance": 2,
-              "fetched_at": "2026-10-23T09:26:59.382150+09:00"
-            },
-            {
-              "headline": "NASAが科学ミッション選定プロセスを抜本改革、「Faster to Science」を掲げる",
-              "content": "NASAは、科学ミッションの選定と実行を加速させるための新しい競争モデルを発表した。従来の長期にわたる準備期間を短縮し、最新の技術トレンドを迅速に宇宙探査に取り入れることを目的としている。",
-              "impact": "宇宙開発におけるアジャイルなアプローチの導入。研究者やベンチャー企業にとってチャンスが広がる一方で、失敗を許容しつつ成果を最大化するマネジメントへの変革が求められる。",
-              "date": "10/22",
-              "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBqbW9GM2ZLQ1c3RFc3dS1nR201cllSQnd0bUwyMlFIbE5HcTNoYlN5cV9VeXY2SXNKQmxPRE9zdk8teEZkQVFXeURCTHNUZ2k1Xzd4UEU1Y0ctSUk2bDFkTkJuX0lxQUpKMUlHbUJkUW9SQjNuSG1mMQ?oc=5",
-              "importance": 3,
-              "novelty": 4,
-              "japan_relevance": 2,
-              "fetched_at": "2026-10-23T09:26:59.382150+09:00"
-            },
-            {
               "headline": "天文学における「緑色の星」を初めて発見、白色矮星の特殊な性質を解明",
               "content": "天文学者が史上初めて「緑色」を帯びた白色矮星を発見しました。本来、星の色は温度に依存し、緑色は見かけ上現れにくいとされてきましたが、特定のスペクトル特性によりこの現象が生じていることが確認されました。",
               "impact": "恒星の進化過程や光の放射メカニズムに関するこれまでの常識を覆す発見です。天体の分光分析における新たな指標となり、未知の天体現象の特定に寄与する可能性があります。",
@@ -1453,39 +1420,6 @@
               "novelty": 4,
               "japan_relevance": 3,
               "fetched_at": "2026-10-21T09:25:27.192202+09:00"
-            },
-            {
-              "headline": "火星の巨大峡谷は現在も地質学的に活動中である証拠",
-              "content": "火星にある広大な峡谷が、現在も地殻活動（テクトニクス）を続けていることが最新の観測データで示唆されました。火星が死んだ惑星ではなく、依然として内部エネルギーを保持している可能性を強めています。",
-              "impact": "将来の火星移住や探査における基地建設の安全性評価に直接影響を与えます。火星の熱進化モデルを書き換える必要があり、地質学的・惑星科学的に極めて重要な発見です。",
-              "date": "10/20",
-              "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5fT0U4VUhUOC1uUlZUeUdQY1NnZnFuY1oxUzBUQlpVM0dsTXhQdlZFTEtKVnpNMUZiNjBrTjYtT1hIV0JOMzZLZElWWmxLQ3R1cTBQZ003RzE4UjFHcjBVcGUyWkhLQldSNG5zazVKM3ZNcjNwcHF3eHQwbw?oc=5",
-              "importance": 3,
-              "novelty": 3,
-              "japan_relevance": 2,
-              "fetched_at": "2026-10-21T09:25:27.192202+09:00"
-            },
-            {
-              "headline": "緑色に輝く「ゾンビ星」の発見、恒星進化の既存モデルに疑問を投げかける",
-              "content": "天文学者が、不気味な緑色の光を放つ初の「ゾンビ星（白色矮星の変種）」を特定した。この色は、星の内部で酸素とネオンが特定の条件下で燃焼していることに起因するという。",
-              "impact": "恒星の死のプロセスの多様性を示し、従来の「星は冷えて暗くなる」という単純なシナリオを修正する発見。宇宙の化学組成の進化プロセスを理解するための新たな知見を提供する。",
-              "date": "10/18",
-              "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOTzBzQ1RueGlNX1ZZN0czeDdnOFkzX2hQeWhYNU1haTVlUUJEdlJCaUNCN0R5U0wtVlRQTnlfaXpFaDM3NEUtQ29SOGk2NE5iQ2ZTeE9kSFpiZHNRWTZfeVVSU0tXdlZpNHh6QWVuZG9YU1MxNDdUYUY0c2ZtOFg3c202MjVGbnBJcDhfek9NU3ZZWkdwVldvUXM3RmtQMGc?oc=5",
-              "importance": 3,
-              "novelty": 5,
-              "japan_relevance": 1,
-              "fetched_at": "2026-10-20T09:56:55.242601+09:00"
-            },
-            {
-              "headline": "「地球には7つではなく6つの大陸しか存在しない」地質学的新説の提唱",
-              "content": "従来の地理学的定義を覆し、地質学的な構造解析に基づくと、地球の大陸は実質的に6つであるとする科学的研究成果が発表された。",
-              "impact": "プレートテクトニクスや大陸地殻の形成過程に関する基礎科学的な議論を呼び起こす。教科書的な常識を問い直すものであり、資源探査や地震学などの応用分野における理論的背景にも影響を及ぼす可能性がある。",
-              "date": "10/19",
-              "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5CMHBpTnltZ3BNbjhtRkZCWXI4a3l5cF9LWWFEazU2V1VKT3ItQmxZazZoOC1TTnA3RkZzWjV5cEpHTFBTZW1PenpEMjVGUHFNS1oyYm9NR2lvM2JlVWVqMlBpRE1UNVpGQ0F4NmFR?oc=5",
-              "importance": 2,
-              "novelty": 5,
-              "japan_relevance": 1,
-              "fetched_at": "2026-10-20T09:56:55.242601+09:00"
             }
           ]
         },
@@ -1824,17 +1758,6 @@
               "fetched_at": "2026-10-23T09:26:59.382150+09:00"
             },
             {
-              "headline": "新言語「Tov」の「Rustより速い」というベンチマークに不正の疑い、コミュニティが検証",
-              "content": "Rustを凌駕する性能を謳う新しいプログラミング言語「Tov」のベンチマークが、意図的に特定の条件で有利になるよう操作されていたことがRedditの検証により明らかになった。最適化を無効化したRustとの比較や、Tovに有利な特殊なデータセットの使用などが指摘されている。",
-              "impact": "言語の選定において、公式発表のベンチマーク数値を鵜呑みにすることの危険性を改めて示している。実務家は独自のワークロードでの検証や、言語の成熟度・コミュニティの透明性をより重視すべきであるという教訓を含む。",
-              "date": "10/22",
-              "url": "https://www.reddit.com/r/programming/comments/1xcaveo/debunking_faster_than_rust_malicious_benchmarks/",
-              "importance": 3,
-              "novelty": 4,
-              "japan_relevance": 2,
-              "fetched_at": "2026-10-23T09:26:59.382150+09:00"
-            },
-            {
               "headline": "KMPデスクトップがAIエージェント操作においてAndroidエミュレータより遥かに高速との検証",
               "content": "Kotlin Multiplatform (KMP) のデスクトップ版を利用することで、AIエージェントにアプリを操作させる際のオーバーヘッドを劇的に削減できるという検証結果が公開された。Androidエミュレータ経由と比較して7〜9倍、UI描写をスキップすれば最大1000倍の高速化が可能とされる。",
               "impact": "AIエージェントによるテスト自動化やRPAのようなシナリオにおいて、エミュレーション層を排除したネイティブ実行が劇的なコスト削減と効率化に繋がることを示している。今後のAI駆動型QAや自動操作ツールの設計において重要な示唆となる。",
@@ -1855,17 +1778,6 @@
               "novelty": 4,
               "japan_relevance": 5,
               "fetched_at": "2026-10-22T09:28:42.753860+09:00"
-            },
-            {
-              "headline": "Torネットワークの約10%に相当する333個の悪意ある出口ノードが排除される",
-              "content": "SSH接続を傍受し未暗号化データを収集していた大規模な攻撃キャンペーンが特定された。攻撃者はEburyペイロードを使用し、Torの全出口ノードの約1割を制御下に置いていたが、調査の結果これらは全て削除された。",
-              "impact": "プライバシーを重視する開発者やジャーナリストが利用するTorの健全性を損なう深刻な事例。サプライチェーンやインフラの侵害がいかに広範囲かつ静かに進行するかを示す教訓であり、通信の多層的な暗号化の重要性を再認識させる。",
-              "date": "10/20",
-              "url": "https://kaba.cx/posts/20261020_Tor/",
-              "importance": 3,
-              "novelty": 4,
-              "japan_relevance": 2,
-              "fetched_at": "2026-10-21T09:25:27.192202+09:00"
             },
             {
               "headline": "ESLint+PrettierからRust製のOxlint+Oxfmtへ。モノレポでの移行検証レポート",
@@ -1921,17 +1833,6 @@
               "novelty": 4,
               "japan_relevance": 3,
               "fetched_at": "2026-10-20T09:56:55.242601+09:00"
-            },
-            {
-              "headline": "V8エンジンのArray.prototype.fillを最大約7倍高速化、国内エンジニアが貢献",
-              "content": "Chromium(V8)の配列操作メソッドにおいて、Smi(31/63bit整数)とdouble向けのパスを最適化し、最大7倍の高速化を達成した。Fast path実装の詳細はChromiumのレビューを通じ公開されている。",
-              "impact": "ブラウザ全体のパフォーマンス、特に大量の配列データを扱うWebアプリケーションの速度向上に寄与する。コアなエンジン部分への国内エンジニアによる深い技術的貢献は、後に続く開発者に大きなインスピレーションを与える。",
-              "date": "10/20",
-              "url": "https://zenn.dev/dinii/articles/5b8edc7856c25b",
-              "importance": 2,
-              "novelty": 4,
-              "japan_relevance": 4,
-              "fetched_at": "2026-10-21T09:25:27.192202+09:00"
             }
           ]
         }
