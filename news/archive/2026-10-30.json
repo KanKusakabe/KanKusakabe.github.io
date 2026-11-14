@@ -227,28 +227,6 @@
               "fetched_at": "2026-10-28T10:01:38.136958+09:00"
             },
             {
-              "headline": "スーダンでの飢餓リスクを警告、内戦激化で数千万人が危機に",
-              "content": "欧米諸国は、内戦が続くスーダンにおいて壊滅的な飢餓のリスクがあると警告を発した。人道支援の受け入れを強く求めている。",
-              "impact": "アフリカ最大級の難民危機が発生する恐れがあり、周辺諸国や欧州への移民流入を加速させる可能性がある。地域の安定が損なわれることで、紅海周辺の物流や地政学的リスクにも波及する恐れがある。",
-              "date": "10/27",
-              "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1leUwzQk1hNjlWNjdGWkwwamVMQlJZTjZTTmF2eFRxQWU5QmpRaFpRWHR6eHZ3NHFabjZkLVpxMWZ6eWZVME4tS1JqZUJnMXhiS3NUdEJWaS10SzQ?oc=5",
-              "importance": 4,
-              "novelty": 3,
-              "japan_relevance": 1,
-              "fetched_at": "2026-10-28T10:01:38.136958+09:00"
-            },
-            {
-              "headline": "英ヒーリー財務相、エネルギー価格上昇に対抗する新予算案を発表",
-              "content": "英国のジョン・ヒーリー財務相が予算案を公表。光熱費高騰に苦しむ世帯への「休息（Breathing Space）」を掲げる一方で、厳しい財政状況下での舵取りを迫られている。一部では不十分との批判も上がっている。",
-              "impact": "主要G7諸国の財政政策は、インフレ抑制と景気刺激のトレードオフを示しており、欧州の金利動向やポンド相場に影響を与える。欧州経済の停滞は日本の輸出企業にとっても負の要因となる。",
-              "date": "10/28",
-              "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNVzNEMUZVaDJlZW9WTkxYLUZhOUp3M0Y1SE4xSXpjR1RWT3k2Q2Y0VTAwMkNieUZCaVV5cWlYRU1wb1hFSWFYdVF6UVVMVW10cDU3LS00LXd1dXRVWmYxNVpTamlvZC04azF3X1NCWi1QZ2ZWaUZkOU1jRG56NzRha1Vn?oc=5",
-              "importance": 3,
-              "novelty": 4,
-              "japan_relevance": 2,
-              "fetched_at": "2026-10-29T10:38:23.719277+09:00"
-            },
-            {
               "headline": "スペインの高速鉄道事故で少なくとも68人が死亡、多数が負傷",
               "content": "スペインで発生した高速鉄道の脱線事故により、少なくとも68人が死亡した。当局は原因の究明を急いでいるが、近年の欧州における鉄道事故の中でも最悪の被害規模となっている。",
               "impact": "公共交通インフラへの信頼性に重大な疑義を生じさせる。欧州全体での鉄道網の安全性見直しや、インフラ投資計画の変更、観光産業への短期的影響が懸念される。",
@@ -811,17 +789,6 @@
               "fetched_at": "2026-10-30T10:40:40.862889+09:00"
             },
             {
-              "headline": "Reddit、トラフィック減少に対抗し「ログイン必須」体験への移行を発表",
-              "content": "検索エンジン経由のトラフィック減少を受け、Redditはユーザー体験をログイン前提のものへと刷新する。データの価値を高め、AI学習用データとしての資産保護を強化する狙い。",
-              "impact": "オープンなWeb情報の「ログインの壁（Wall）」が更に高まる。企業にとっては、AIモデルの学習元データの入手がより困難かつ高価になる傾向が加速していることを示している。",
-              "date": "10/29",
-              "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQR3R1SnVRQ1pmNnBkWkNISGdWSGktQ3lEdmtUSEJ1RzRqbGpFOTh3MEQtMS1XUlcwR2hxM0s1OXhoWmRuTFpCTGFuYzdsU3dZeHlXdzR4UVljbGltOEl2X0R1ZzJQWHhlUEhiTTc5OUFOLV81N24yT1F3a3FGS0lfVGVzWnpCMjlsdVFaSFR0ckQyelVFTHVFTkxfamhUU1FteExsSHVIRzltZ0xvVzhEb1dHam1nLXNI?oc=5",
-              "importance": 3,
-              "novelty": 4,
-              "japan_relevance": 2,
-              "fetched_at": "2026-10-30T10:40:40.862889+09:00"
-            },
-            {
               "headline": "GitHub、サービス安定性向上のため400万コアの演算リソースを追加",
               "content": "エンジニアのライフラインであるGitHubは、急増する負荷に対応しサービスのダウンタイムを最小化するため、インフラに400万コアの追加リソースを投入することを決定しました。",
               "impact": "AI駆動開発（GitHub Copilot等）の普及により、プラットフォーム側の負荷が激増している現状を物語っています。大規模なクラウドサービスの安定性維持に向けた、未曾有のインフラ投資競争が加速しています。",
@@ -852,17 +819,6 @@
               "importance": 3,
               "novelty": 5,
               "japan_relevance": 4,
-              "fetched_at": "2026-10-29T10:38:23.719277+09:00"
-            },
-            {
-              "headline": "セキュリティ企業Upwindが4億ドル調達、Datadogによる買収提案を拒否",
-              "content": "クラウドセキュリティスタートアップのUpwindが、4億ドルの大規模資金調達を完了しました。同社はDatadogからの買収オファーを蹴り、独立した成長路線を選択しています。",
-              "impact": "クラウドセキュリティ分野の戦略的重要性が増しており、有望なスタートアップは大手による買収よりも、自らプラットフォーム化することを目指す傾向が強まっています。市場の健全な競争が続くことが予想されます。",
-              "date": "10/28",
-              "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOTl9CSENzOGw2a0dXM0xzWnM1RWY2RUpjelY5TndOTmp1VTd3aklseGNnZnRiOXZ6SDdxT21ZemdHRTBQOHRDdWszUnc4cVJrX2NQMEM5U1Jld3JXanJBdV9HVEV1dEtRVG9fdG9NVUJFOUpCQkxzOXNtSG5LSDBDSlNzamxvTHZLNzJ2MnhyMUNVWHRCTmxSY2kyVnJmRUdTb21HcUJB?oc=5",
-              "importance": 3,
-              "novelty": 4,
-              "japan_relevance": 2,
               "fetched_at": "2026-10-29T10:38:23.719277+09:00"
             },
             {
@@ -1136,17 +1092,6 @@
               "fetched_at": "2026-10-30T10:40:40.862889+09:00"
             },
             {
-              "headline": "デニソワ人の「独特な容姿」がタンパク質解析と頭蓋骨研究で明らかに",
-              "content": "これまで謎の多かった絶滅人類デニソワ人について、最新のタンパク質分析と骨の形態学的解析により、その「独特な」顔立ちが解明された。ネアンデルタール人とも現生人類とも異なる特徴を持つことが示された。",
-              "impact": "古人類学におけるDNA解析に次ぐ第2の革命としての「プロテオミクス（タンパク質解析）」の有効性を実証した。人類進化の複雑な系統樹を解き明かすための強力なツールとなる。",
-              "date": "10/28",
-              "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPeUFVeHYyUEt3X0hzcW5aOXlOTHIxLWU0MnBnSnhCZDgxcUppbmZsYzVvdnZPZ0VCdHdmSEpxQTBuTXoyLV9PWV9PWGZ1bVNPVGUwRmw5NU5ZT0c0ZTVKSms3TG41NnlWbUpad2Q5dVBRTS00WFRyVEVuZXREVXNfWmFINHF3NDAzU1QxWHJid1RlcmtX?oc=5",
-              "importance": 3,
-              "novelty": 4,
-              "japan_relevance": 2,
-              "fetched_at": "2026-10-29T10:38:23.719277+09:00"
-            },
-            {
               "headline": "宇宙スタートアップが「無断で」太陽光反射試験を実施、天文学界に衝撃",
               "content": "夜間に宇宙から地上を照らす「Sunlight-as-a-Service」を構想する米スタートアップが、天文学界への事前告知なしに反射試験を行った。天体観測への悪影響を懸念する科学者から批判が噴出している。",
               "impact": "宇宙空間の商業利用におけるガバナンスと、科学的研究保護の衝突を浮き彫りにした。今後、低軌道衛星の急増に伴う「光の公害」に対する国際的な法的規制の議論を加速させるだろう。",
@@ -1169,17 +1114,6 @@
               "fetched_at": "2026-10-28T10:01:38.136958+09:00"
             },
             {
-              "headline": "溶岩惑星の雲が天文学の常識を覆す：ジェイムズ・ウェッブ宇宙望遠鏡による発見",
-              "content": "極高温の溶岩惑星において、大気が維持され「巨大な日除け」のような雲が存在することが確認された。これまでこのような過酷な環境では大気は剥ぎ取られると考えられていた。",
-              "impact": "惑星の居住可能性や大気保持の条件に関する理論を修正するものである。太陽系外惑星の多様な環境下における化学プロセスや熱力学の理解を大きく前進させる。",
-              "date": "10/26",
-              "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9tZTlVbloyVDN2Sjd4QmwtaEtyRG1KekRqRVI4ckhzTzZXenpTTzlBd1VnOVNERjk2a0dPSW9xUC1nSkw3MldVVG1RSzJzczk1WUtrWGppVXkxV2Fwd29PcGdRMDJFMVBwUEx3ZE0wLUR1V0U?oc=5",
-              "importance": 3,
-              "novelty": 4,
-              "japan_relevance": 2,
-              "fetched_at": "2026-10-28T10:01:38.136958+09:00"
-            },
-            {
               "headline": "三畳紀後期の中国から「初の海洋進出を果たした両生類」の化石を発見",
               "content": "完全な海洋生活に適応したと考えられる最古の原始的な両生類の化石が中国で発見された。これまでの定説を覆し、脊椎動物の進化の過程で、両生類が海という環境に独自に進出していたことを示している。",
               "impact": "進化生物学における重要なミッシングリンクを埋める発見である。生物の陸上進出と、その後の海洋への再進出という、適応進化の柔軟性を物語る学術的意義が高い。",
@@ -1188,17 +1122,6 @@
               "importance": 3,
               "novelty": 5,
               "japan_relevance": 2,
-              "fetched_at": "2026-10-28T10:01:38.136958+09:00"
-            },
-            {
-              "headline": "『利己的な遺伝子』出版50周年、現代生物学の視点によるアップデートの必要性",
-              "content": "リチャード・ドーキンスの歴史的著作『利己的な遺伝子』の出版から50年を迎え、Nature誌が最新のゲノム科学の知見に基づいた理論のアップデートを提唱。エピジェネティクスや複雑な遺伝ネットワークの重要性が強調されている。",
-              "impact": "生命科学の基本パラダイムを見直す知的な議論である。単一遺伝子中心主義から、より複雑な適応システムとしての生命理解へのシフトは、今後の医学やバイオテクノロジーの指針にも影響する。",
-              "date": "10/26",
-              "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE11RXk4OTREbkh5MS1aSHdwZ2R5dlNiclF3VnZ6OXFFSDc4Mi1WLWlzUlNDS0huX2lJcktIRVFpMHZVN0hRTE5PaGdfeWZSV3FMbWdPQm84SENkRzRqOXhZ?oc=5",
-              "importance": 3,
-              "novelty": 3,
-              "japan_relevance": 3,
               "fetched_at": "2026-10-28T10:01:38.136958+09:00"
             }
           ]
@@ -1527,17 +1450,6 @@
               "fetched_at": "2026-10-29T10:38:23.719277+09:00"
             },
             {
-              "headline": "Local-First アーキテクチャの定義を整理する3つの視点",
-              "content": "急速に広まる「Local-First」という概念が、「データの所有権」「オフライン動作」「速度・応答性」という3つの異なる意味で混同されている問題を指摘し、その設計上の本質を整理する議論が注目されています。",
-              "impact": "分散システムやモダンなWebフロントエンド開発において、サーバー中心からクライアント中心へのパラダイムシフトが進行中です。設計の一貫性を保つための共通言語の確立は、今後のアプリケーションアーキテクチャの策定に寄与します。",
-              "date": "10/28",
-              "url": "https://www.reddit.com/r/programming/comments/1xi3p7g/localfirst_means_three_different_things/",
-              "importance": 3,
-              "novelty": 3,
-              "japan_relevance": 3,
-              "fetched_at": "2026-10-29T10:38:23.719277+09:00"
-            },
-            {
               "headline": "Rust エコシステム向けの高速・安全な tar パーサー「tar-codec」",
               "content": "Astral（uvの開発元）は、従来の Rust 製 tar 実装よりも 2 倍高速で、セキュリティ上のリスク（パスの差異など）を低減した「tar-codec」を公開した。uv の 0.131 以降でソース配布物の解析に使用されている。",
               "impact": "Rust 製ツールの高速化が、標準的なファイルフォーマットの解析という基礎レイヤーの最適化によって支えられていることを示している。セキュリティと速度の両立を求めるシステムプログラミングにおいて、ライブラリ選択の新たな基準となる。",
@@ -1547,17 +1459,6 @@
               "novelty": 4,
               "japan_relevance": 3,
               "fetched_at": "2026-10-28T10:01:38.136958+09:00"
-            },
-            {
-              "headline": "AlpineBSD：NetBSDカーネルとAlpine Linuxのユーザー空間を融合させた新OS",
-              "content": "NetBSDのカーネルにAlpine Linuxのユーザー空間を組み合わせ、AIによって生成されたソフトウェアを極力排除する（No LLM output）という独自のポリシーを持つ新しいオペレーティングシステム「AlpineBSD」が開発されています。",
-              "impact": "ソフトウェアの信頼性を「人間による記述」に求める新しい哲学的アプローチです。AI生成コードが一般化する中で、高信頼性や検証可能性を重視するシステム開発において、OSレベルからの差別化を図る実験的な試みとして注目されます。",
-              "date": "10/28",
-              "url": "https://wiki.alpinebsd.org",
-              "importance": 2,
-              "novelty": 5,
-              "japan_relevance": 2,
-              "fetched_at": "2026-10-29T10:38:23.719277+09:00"
             }
           ]
         }
