@@ -238,28 +238,6 @@
               "fetched_at": "2026-10-29T10:38:23.719277+09:00"
             },
             {
-              "headline": "ポーランド憲法裁判所長官解任で政治危機、ドゥダ大統領が外遊を急遽中止",
-              "content": "ポーランドで憲法裁判所の最高裁判事が解任されたことを受け、ドゥダ大統領がアフリカ訪問を途中で切り上げ帰国。トゥスク首相派との対立が激化し、国内の政治的緊張が最高潮に達している。",
-              "impact": "NATOとEUの東方守備の要であるポーランドの政治的不安定化は、対ロシア戦略に重大な亀裂をもたらす懸念がある。司法の独立を巡る内部対立は、EU全体の団結力を削ぐことになりかねない。",
-              "date": "10/30",
-              "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPc2p4TC1POGdvdHlLdGMyVVl1Nmw5dHhWdEZkS0FCZVBMazc3dzdQaElfeXBIcGRNV1NxZTRENXBKSHJRTkZnb2ZkelBMd0VlQjJHYkE3MFFCbGwtTFhfOEQwbHJYSDJlMGZSd2ttNm16ejVQTzg2SHBrOHZCZGk0ZVR4dUp5b0lZMWpkRU1NLTFzWDRHUl9RdDRLNmFyTW9tVXhLYmZOeGdBTFFlRl9UM3Q3SElzdw?oc=5",
-              "importance": 3,
-              "novelty": 4,
-              "japan_relevance": 1,
-              "fetched_at": "2026-10-31T10:26:55.085002+09:00"
-            },
-            {
-              "headline": "英ヒーリー財務相、エネルギー価格上昇に対抗する新予算案を発表",
-              "content": "英国のジョン・ヒーリー財務相が予算案を公表。光熱費高騰に苦しむ世帯への「休息（Breathing Space）」を掲げる一方で、厳しい財政状況下での舵取りを迫られている。一部では不十分との批判も上がっている。",
-              "impact": "主要G7諸国の財政政策は、インフレ抑制と景気刺激のトレードオフを示しており、欧州の金利動向やポンド相場に影響を与える。欧州経済の停滞は日本の輸出企業にとっても負の要因となる。",
-              "date": "10/28",
-              "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNVzNEMUZVaDJlZW9WTkxYLUZhOUp3M0Y1SE4xSXpjR1RWT3k2Q2Y0VTAwMkNieUZCaVV5cWlYRU1wb1hFSWFYdVF6UVVMVW10cDU3LS00LXd1dXRVWmYxNVpTamlvZC04azF3X1NCWi1QZ2ZWaUZkOU1jRG56NzRha1Vn?oc=5",
-              "importance": 3,
-              "novelty": 4,
-              "japan_relevance": 2,
-              "fetched_at": "2026-10-29T10:38:23.719277+09:00"
-            },
-            {
               "headline": "スペインの高速鉄道事故で少なくとも68人が死亡、多数が負傷",
               "content": "スペインで発生した高速鉄道の脱線事故により、少なくとも68人が死亡した。当局は原因の究明を急いでいるが、近年の欧州における鉄道事故の中でも最悪の被害規模となっている。",
               "impact": "公共交通インフラへの信頼性に重大な疑義を生じさせる。欧州全体での鉄道網の安全性見直しや、インフラ投資計画の変更、観光産業への短期的影響が懸念される。",
@@ -800,17 +778,6 @@
               "fetched_at": "2026-10-31T10:26:55.085002+09:00"
             },
             {
-              "headline": "Accenture、採用選考にAIエージェントを導入し候補者をスクリーニング",
-              "content": "Accentureが求人応募者の一次選別プロセスにAIエージェントを本格導入したことが分かった。膨大な応募書類から要件に合致する候補者を自動的に抽出する。",
-              "impact": "採用業務の効率化を極限まで進める一方で、アルゴリズムによる偏見（バイアス）のリスクや、候補者が「AIに最適化された履歴書」を作成するいたちごっこの発生が懸念される。HRテック領域におけるAI活用の先行事例として、他企業のベンチマークとなるだろう。",
-              "date": "10/30",
-              "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPR1ZrRjFLVDVrekVuN3R2MUVXRFdVR2xmYVZuYW5FYVpLdnFjekFtbm1FYzc0SldxSGlpbWhvZkkxdDFMdTJnM0psSEJMdEZrMGhIM0RSMmVKZ25tWUktendySEllRmdwajdrYlNsVF90SHJhaXVPV1FPNHRKQXRJTVhZdHloZ0JHaG1pVFZlNEdBVjEyZnJteGVFS2V1T1NNZXZFa3R1anNwYlE?oc=5",
-              "importance": 3,
-              "novelty": 3,
-              "japan_relevance": 3,
-              "fetched_at": "2026-10-31T10:26:55.085002+09:00"
-            },
-            {
               "headline": "1,300万台以上のChrome拡張機能に不正、検索クエリを乗っ取り",
               "content": "公式ストア外で配布され、1,300万以上のインストール実績を持つ複数のChrome拡張機能が、ユーザーの検索結果を不正にリダイレクトしていたことが判明した。",
               "impact": "ブラウザ拡張機能を通じたサプライチェーン攻撃のリスクを再確認。企業においては、管理下にある端末のブラウザ設定および拡張機能の制限・監視を徹底する実務上の必要性が高まっている。",
@@ -819,17 +786,6 @@
               "importance": 3,
               "novelty": 4,
               "japan_relevance": 4,
-              "fetched_at": "2026-10-30T10:40:40.862889+09:00"
-            },
-            {
-              "headline": "Reddit、トラフィック減少に対抗し「ログイン必須」体験への移行を発表",
-              "content": "検索エンジン経由のトラフィック減少を受け、Redditはユーザー体験をログイン前提のものへと刷新する。データの価値を高め、AI学習用データとしての資産保護を強化する狙い。",
-              "impact": "オープンなWeb情報の「ログインの壁（Wall）」が更に高まる。企業にとっては、AIモデルの学習元データの入手がより困難かつ高価になる傾向が加速していることを示している。",
-              "date": "10/29",
-              "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQR3R1SnVRQ1pmNnBkWkNISGdWSGktQ3lEdmtUSEJ1RzRqbGpFOTh3MEQtMS1XUlcwR2hxM0s1OXhoWmRuTFpCTGFuYzdsU3dZeHlXdzR4UVljbGltOEl2X0R1ZzJQWHhlUEhiTTc5OUFOLV81N24yT1F3a3FGS0lfVGVzWnpCMjlsdVFaSFR0ckQyelVFTHVFTkxfamhUU1FteExsSHVIRzltZ0xvVzhEb1dHam1nLXNI?oc=5",
-              "importance": 3,
-              "novelty": 4,
-              "japan_relevance": 2,
               "fetched_at": "2026-10-30T10:40:40.862889+09:00"
             },
             {
@@ -863,17 +819,6 @@
               "importance": 3,
               "novelty": 5,
               "japan_relevance": 4,
-              "fetched_at": "2026-10-29T10:38:23.719277+09:00"
-            },
-            {
-              "headline": "セキュリティ企業Upwindが4億ドル調達、Datadogによる買収提案を拒否",
-              "content": "クラウドセキュリティスタートアップのUpwindが、4億ドルの大規模資金調達を完了しました。同社はDatadogからの買収オファーを蹴り、独立した成長路線を選択しています。",
-              "impact": "クラウドセキュリティ分野の戦略的重要性が増しており、有望なスタートアップは大手による買収よりも、自らプラットフォーム化することを目指す傾向が強まっています。市場の健全な競争が続くことが予想されます。",
-              "date": "10/28",
-              "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOTl9CSENzOGw2a0dXM0xzWnM1RWY2RUpjelY5TndOTmp1VTd3aklseGNnZnRiOXZ6SDdxT21ZemdHRTBQOHRDdWszUnc4cVJrX2NQMEM5U1Jld3JXanJBdV9HVEV1dEtRVG9fdG9NVUJFOUpCQkxzOXNtSG5LSDBDSlNzamxvTHZLNzJ2MnhyMUNVWHRCTmxSY2kyVnJmRUdTb21HcUJB?oc=5",
-              "importance": 3,
-              "novelty": 4,
-              "japan_relevance": 2,
               "fetched_at": "2026-10-29T10:38:23.719277+09:00"
             }
           ]
@@ -1136,17 +1081,6 @@
               "fetched_at": "2026-10-29T10:38:23.719277+09:00"
             },
             {
-              "headline": "巨大なワシが人類の祖先を狩っていた、進化に影響を与えた捕食者の存在",
-              "content": "かつて空を支配していた巨大なワシが、人類の子供を獲物としていたことが研究で明らかになりました。この捕食圧が霊長類や初期人類の進化、特に警戒心や社会性の形成に寄与した可能性があります。",
-              "impact": "生物学・人類学における知的好奇心を刺激する知見です。捕食者と被食者の関係が単なる生存競争を超え、認知能力や社会構造の進化を促したという進化論的パラドックスを提示しています。",
-              "date": "10/30",
-              "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNZ0tONzJQaGhCSW5TaU9uY2VaMmVuUV8zSFR0NW9aWVN2SkNycW1SU1NhZVVsY2tWdFBmYkJYZC1qX2ROZ0VzdmpWNUpyend6OEIwNHdXVlp0RUZDY2JQenBLX1ZkQmMyXzZtZnNSalZVcEZhSExxZmxIcFFmcy1KOWZjVEYtaDlyYThIRUprUDRUNnAxVGtFLW5wTWVCWUFLNHhZbWx2MFpwVEVvdWVjak9mTHVDYm5oQXNsUV80X2pTSkpRX3pSRVRhMkFGRzJh?oc=5",
-              "importance": 3,
-              "novelty": 4,
-              "japan_relevance": 1,
-              "fetched_at": "2026-10-31T10:26:55.085002+09:00"
-            },
-            {
               "headline": "富士フイルム、磁気テープ生産を5倍に増強。AI時代のアーカイブ需要増",
               "content": "AIの学習用データなどの爆発的な増加に伴い、安価で長期保存に適した磁気テープの需要が急増しています。富士フイルムはこれに対応するため生産能力を大幅に増強します。",
               "impact": "最新のAI技術を支えるのが、古典的とも言える磁気テープ技術であるという技術的パラドックスを示しています。日本の素材・ストレージ技術が世界のAIインフラの「最後の砦」として再評価されています。",
@@ -1178,17 +1112,6 @@
               "novelty": 5,
               "japan_relevance": 2,
               "fetched_at": "2026-10-30T10:40:40.862889+09:00"
-            },
-            {
-              "headline": "デニソワ人の「独特な容姿」がタンパク質解析と頭蓋骨研究で明らかに",
-              "content": "これまで謎の多かった絶滅人類デニソワ人について、最新のタンパク質分析と骨の形態学的解析により、その「独特な」顔立ちが解明された。ネアンデルタール人とも現生人類とも異なる特徴を持つことが示された。",
-              "impact": "古人類学におけるDNA解析に次ぐ第2の革命としての「プロテオミクス（タンパク質解析）」の有効性を実証した。人類進化の複雑な系統樹を解き明かすための強力なツールとなる。",
-              "date": "10/28",
-              "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPeUFVeHYyUEt3X0hzcW5aOXlOTHIxLWU0MnBnSnhCZDgxcUppbmZsYzVvdnZPZ0VCdHdmSEpxQTBuTXoyLV9PWV9PWGZ1bVNPVGUwRmw5NU5ZT0c0ZTVKSms3TG41NnlWbUpad2Q5dVBRTS00WFRyVEVuZXREVXNfWmFINHF3NDAzU1QxWHJid1RlcmtX?oc=5",
-              "importance": 3,
-              "novelty": 4,
-              "japan_relevance": 2,
-              "fetched_at": "2026-10-29T10:38:23.719277+09:00"
             },
             {
               "headline": "宇宙スタートアップが「無断で」太陽光反射試験を実施、天文学界に衝撃",
@@ -1535,28 +1458,6 @@
               "importance": 3,
               "novelty": 4,
               "japan_relevance": 3,
-              "fetched_at": "2026-10-29T10:38:23.719277+09:00"
-            },
-            {
-              "headline": "Local-First アーキテクチャの定義を整理する3つの視点",
-              "content": "急速に広まる「Local-First」という概念が、「データの所有権」「オフライン動作」「速度・応答性」という3つの異なる意味で混同されている問題を指摘し、その設計上の本質を整理する議論が注目されています。",
-              "impact": "分散システムやモダンなWebフロントエンド開発において、サーバー中心からクライアント中心へのパラダイムシフトが進行中です。設計の一貫性を保つための共通言語の確立は、今後のアプリケーションアーキテクチャの策定に寄与します。",
-              "date": "10/28",
-              "url": "https://www.reddit.com/r/programming/comments/1xi3p7g/localfirst_means_three_different_things/",
-              "importance": 3,
-              "novelty": 3,
-              "japan_relevance": 3,
-              "fetched_at": "2026-10-29T10:38:23.719277+09:00"
-            },
-            {
-              "headline": "AlpineBSD：NetBSDカーネルとAlpine Linuxのユーザー空間を融合させた新OS",
-              "content": "NetBSDのカーネルにAlpine Linuxのユーザー空間を組み合わせ、AIによって生成されたソフトウェアを極力排除する（No LLM output）という独自のポリシーを持つ新しいオペレーティングシステム「AlpineBSD」が開発されています。",
-              "impact": "ソフトウェアの信頼性を「人間による記述」に求める新しい哲学的アプローチです。AI生成コードが一般化する中で、高信頼性や検証可能性を重視するシステム開発において、OSレベルからの差別化を図る実験的な試みとして注目されます。",
-              "date": "10/28",
-              "url": "https://wiki.alpinebsd.org",
-              "importance": 2,
-              "novelty": 5,
-              "japan_relevance": 2,
               "fetched_at": "2026-10-29T10:38:23.719277+09:00"
             }
           ]
