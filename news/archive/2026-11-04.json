@@ -115,39 +115,6 @@
               "novelty": 5,
               "japan_relevance": 4,
               "fetched_at": "2026-11-04T10:58:30.426461+09:00"
-            },
-            {
-              "headline": "Meta、150億ドルの巨額社債発行で資金調達：資本還元とAI投資を加速",
-              "content": "Meta（旧Facebook）は5本立てで合計150億ドルの米国債販売を行い、資金を調達した。調達資金は資本支出の拡大や自社株買い、債務の借り換えに充てられる見通し。大型のテック企業による安定した資金調達力が示された格好だ。",
-              "impact": "金利が高止まりする環境下での巨額発行は、同社のキャッシュフローに対する信頼の証左である。調達された資金がメタバースやAIインフラへの投資に回ることで、関連するハードウェア・ソフトウェア産業への波及効果が期待される。米国の資本市場の厚みを示すとともに、他テック企業の資金調達戦略にも影響を与える。",
-              "date": "11/03",
-              "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOZ0dOQjhPM1A5WmJrZFlkRV9MeFZLNHJZakRnUzQwa0ZpY1J2eXVuZmJ6QkQ3TXpZY3Q0VW9tWlJ1S0tQU25YbHZqS3QwUEFnZmlFcjJMZ2t3V19QX2ttXzNMTFNHS3BsWU9qOFFJamd6R2ttQVE3bnM0MGRlNUJpTzY0WXNzMnlMSS1fRDJzWVpoYUhreERlblhKMA?oc=5",
-              "importance": 3,
-              "novelty": 3,
-              "japan_relevance": 2,
-              "fetched_at": "2026-11-04T10:58:30.426461+09:00"
-            },
-            {
-              "headline": "国連の西サハラ平和維持任務が35年で終了、米露の対立が背景に",
-              "content": "国連の西サハラ派遣団（MINURSO）の任務が、米国とロシアの対立によるデッドロックを経て35年の歴史に幕を閉じた。国連総長が正式に発表し、アフリカ北西部での長期的な平和維持枠組みが崩壊した形となる。",
-              "impact": "国際社会における多国間主義の機能不全を象徴する出来事。地域紛争の再燃リスクが高まるとともに、国連主導の国際秩序がさらに弱体化することを意味し、地政学的な分断を加速させる要因となる。",
-              "date": "11/01",
-              "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQVjMzNTMwSWprQVp3aTBMUThUbmFLcldfYVE1LTdxTE8wRWpuXzU0YkNod2o5T09pSWxpSG9RcHpPVGNvdmpCZ2Y3WUVaWjYyNjNUemZ6M1FBb0IxWkRid3lrRk16VnBPa0FMWTh1QTU4NUh1X1RoZlF5THpLYjk5bTQ1R3d5T2NUOTF5MEl2Vk9VVTJRcnlTVzRXQ0tXekxLUDJWM2FTdXRsZw?oc=5",
-              "importance": 3,
-              "novelty": 5,
-              "japan_relevance": 1,
-              "fetched_at": "2026-11-02T10:20:20.871520+09:00"
-            },
-            {
-              "headline": "ブルガリア初の女性大統領誕生、ヨトヴァ氏が当選確実",
-              "content": "ブルガリアの大統領選挙決選投票で、暫定職を務めていたヨトヴァ氏がリードを広げ、同国初の公選による女性大統領となる見通し。バルカン半島における政治的安定と多様性の進展を示す象徴的な選挙結果となった。",
-              "impact": "EU内でのブルガリアの政治的統合を強化する一歩となる。女性の政治参画が進む欧州の潮流を裏付けるものであり、域内の協力体制に新たな視点をもたらす可能性がある。",
-              "date": "11/01",
-              "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPSUpHTEVONW0yRVJoVzhBci1rTVpaUXZwR2JmTUFwYy1zSzdpa0lsdTMyVGV3WnNoUmJoVkkxcWZJQTJzN3NSby1MSF96TGFNcUhERjZlekhTZDhSdXpjbEF5Qm9XZWdfV1hEUENLM1d6dUx1cU5HTE55MWFaZ0dMN1VLRHprT2FZTlVTOTQtVWdFS3BmQjgzSHE1S2xFd2V1UlhLeXE2ZHFGalN2R0J2dw?oc=5",
-              "importance": 3,
-              "novelty": 4,
-              "japan_relevance": 1,
-              "fetched_at": "2026-11-02T10:20:20.871520+09:00"
             }
           ]
         },
@@ -415,17 +382,6 @@
               "fetched_at": "2026-11-02T10:20:20.871520+09:00"
             },
             {
-              "headline": "AI推論スタートアップ「Fal」、需要急増で評価額160億ドルへ倍増",
-              "content": "AI推論インフラを提供するスタートアップのFalが、わずかな期間で評価額を160億ドルに倍増させました。AIモデルの学習よりも、実際の利用（推論）コストと速度への需要が急増していることが背景にあります。",
-              "impact": "AI市場の投資対象が「モデル開発」から、それを効率的に動かす「推論インフラ」へと移っていることを示しています。開発者向けプラットフォームの覇権争いが激化しています。",
-              "date": "11/03",
-              "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOdWd5b2VORXY1RFp6RkZraVNkdWw3d3BwTDF2ZWNoU1k2MUFqOGNUSlp6amxEZUFCYXA5Wkw0RVpKeWtOMWRzNlRtVFdCbE9YbFp4YWdmT3BlemFOQXZ2ZmNRZGZDUWRJLXBQcmhyM0ZrSkM4bk11eXN5QnZtQ2dlT3A1WVNLVm5sOHBmTUxyYlNSdlVaNmppT244Wk5IZFZucll6ZHNfWVI?oc=5",
-              "importance": 3,
-              "novelty": 4,
-              "japan_relevance": 2,
-              "fetched_at": "2026-11-04T10:58:30.426461+09:00"
-            },
-            {
               "headline": "VMware移行ツールのオープンソース代替版が登場、Broadcomのライセンス変更に対抗",
               "content": "Broadcomによる買収後のライセンス体系変更を受け、仮想化基盤の移行を支援するツールをオープンソースで再構築する動きが出ています。非公開化された公式ツールの機能を代替することを目的としています。",
               "impact": "ベンダーロックインに対するコミュニティの反発が、具体的な代替ソフトウェアの開発を促進しています。企業のマルチクラウド・脱VMware戦略を後押しする重要なツールとなる可能性があります。",
@@ -434,17 +390,6 @@
               "importance": 3,
               "novelty": 4,
               "japan_relevance": 4,
-              "fetched_at": "2026-11-04T10:58:30.426461+09:00"
-            },
-            {
-              "headline": "Apple、出会い系アプリと「AIコンパニオン」を18歳以上に制限",
-              "content": "Appleは、App Storeのガイドラインを更新し、マッチングアプリや、恋愛的な対話が可能なAIチャットボット（AIコンパニオン）の利用対象を18歳以上に厳格化しました。",
-              "impact": "AIエージェントの倫理的・社会的リスクに対するプラットフォーマーの姿勢が明確になりました。青少年保護を目的としたこの制限は、今後AIキャラクター市場に大きな影響を与えます。",
-              "date": "11/03",
-              "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPRllpdmJRcjJ2OVhjQnI1dVVqdW9mZW5IYm5VX2J1QmhQSHRlTGsyUkJIVDZweWp6dmZ6WnVWUGJubUhUc2F6dGpmVGdyVXVsUWpZLVVyUDRKbXYtc0tBQk5senJkSFI5SS1yV2dJY0FFallfVjRsM2dvN3NXYnBfek5tZmVhSUotcUVjMUF5dW9SRktDYmVPZkwtSWVFS2lY?oc=5",
-              "importance": 3,
-              "novelty": 3,
-              "japan_relevance": 3,
               "fetched_at": "2026-11-04T10:58:30.426461+09:00"
             },
             {
@@ -641,17 +586,6 @@
               "fetched_at": "2026-11-02T10:20:20.871520+09:00"
             },
             {
-              "headline": "ドローン攻撃対策としてロシアが地下データセンターの構築を加速",
-              "content": "ウクライナによるドローン攻撃に対抗するため、ロシアがデータセンターを地下化する計画を急いでいることが判明した。物理的な防衛策がインフラ設計の優先事項となっている。",
-              "impact": "物理的攻撃がITインフラに与える脆弱性を浮き彫りにした。サイバーセキュリティだけでなく、物理的な位置情報や構造に依存する「ハイブリッド防衛」の重要性が増している。",
-              "date": "11/03",
-              "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQOHQtN1hNSlg1TG85VERPcW85Y2dUUlJSZjdpYjRta1NfTmJUMVhyc2pncUV3SGdPVHE1bDlUTndpNUlYb1dvclBESktXc3VUUFVmMzExbkp4UUFaVlFrUWMyNTVyekpTTU15dnhaTEM5ZE8wZ290UUZudVlfUXJNU00yX2VJb0lIbi1NbWR0OVZPZlFSaUtpajBiNTN0OGVWcU81MVFHWTFOME4tTGNtLXotTQ?oc=5",
-              "importance": 3,
-              "novelty": 4,
-              "japan_relevance": 2,
-              "fetched_at": "2026-11-04T10:58:30.426461+09:00"
-            },
-            {
               "headline": "車内インテリアにおける「物理ボタン」の復活と収納重視への回帰",
               "content": "近年の過剰なタッチスクリーン化への反動として、自動車メーカーが物理的なボタンやスイッチの有用性を再評価し、再び採用する動きが強まっている。",
               "impact": "ヒューマン・マシン・インターフェース（HMI）において、視覚的アピールよりも運転中のブラインド操作や認知負荷の低減が重要視され始めたことを示すパラダイムシフト。",
@@ -671,17 +605,6 @@
               "importance": 3,
               "novelty": 5,
               "japan_relevance": 2,
-              "fetched_at": "2026-11-02T10:20:20.871520+09:00"
-            },
-            {
-              "headline": "果実食に特化した新種の恐竜「インフェルノガルス」の発見",
-              "content": "「地獄の鶏」とも称される外見を持つ、果実を食べることに適化した新種の恐竜の化石が発見された。クチバシの構造から、特定の植物の種子や果実を効率よく摂取していたことが示唆されている。",
-              "impact": "恐竜の多様性と生態学的ニッチの分化に関する新たな知見を提供する。被子植物の進化と恐竜の食性の相互進化（共進化）を解明する上で、生物学的に極めて重要なミッシングリンクを埋める発見である。",
-              "date": "10/31",
-              "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5NaUQzNzJvU1Z5WFFSbC11MGxDZlF5RnBObDZjamcyWFA4UUVzUmFBLXI3NGRFeEt1elM5NHdISF9HRV9aVVc3ZmRQaEQ4Wll4eXVzOTV5VE1DT2EyU1NiVE1HQWdmYi04SnhwUU5DZU92alNCNEtUMGRyRGd6UQ?oc=5",
-              "importance": 3,
-              "novelty": 5,
-              "japan_relevance": 1,
               "fetched_at": "2026-11-02T10:20:20.871520+09:00"
             }
           ]
@@ -963,17 +886,6 @@
               "importance": 3,
               "novelty": 4,
               "japan_relevance": 3,
-              "fetched_at": "2026-11-03T12:21:20.686165+09:00"
-            },
-            {
-              "headline": "Cloudflare が DNS 構築パイプラインのメモリ使用量を 85% 削減",
-              "content": "Cloudflare は、増大する DNS レコード変更イベントに対応するため、Zone Builder の設計を見直しました。イベント駆動型のターゲットビルドを導入することで、DNS 伝播の遅延を半減させ、メモリ消費量を従来の 15% にまで抑えることに成功しました。",
-              "impact": "トラフィックの増大に対して、単純なリソース増強ではなくアルゴリズムとパイプラインの設計変更で対応した好例です。大規模分散システムのボトルネック解消に関する具体的かつ高度な知見を提供しています。",
-              "date": "11/02",
-              "url": "https://blog.cloudflare.com/dns-targeted-zone-builds/",
-              "importance": 3,
-              "novelty": 3,
-              "japan_relevance": 2,
               "fetched_at": "2026-11-03T12:21:20.686165+09:00"
             },
             {
