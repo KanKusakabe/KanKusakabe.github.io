@@ -1,5 +1,5 @@
 window.papersData = {
-  "updated_at": "2026-11-21 12:01 JST",
+  "updated_at": "2026-11-22 10:58 JST",
   "arxiv": [
     {
       "id": "2611.26450",
@@ -353,199 +353,6 @@ window.papersData = {
         "組み込み"
       ],
       "fetched_at": "2026-11-20T11:53:34.599390+09:00"
-    },
-    {
-      "id": "2611.22124",
-      "title": "FrameSeg3D: Learned Local Frames for Segmenting Small Parts on High-Resolution 3D Scans",
-      "url": "https://arxiv.org/abs/2611.22124",
-      "pdf": "https://arxiv.org/pdf/2611.22124",
-      "authors": [
-        "Xinwen Zhang",
-        "Tongyan Wang",
-        "Huawei Lin"
-      ],
-      "categories": [
-        "cs.CV",
-        "cs.GR"
-      ],
-      "venues": [],
-      "award": false,
-      "talk": false,
-      "workshop": false,
-      "comment": "31 pages, 6 figures, 16 tables",
-      "hf_upvotes": null,
-      "star_votes": 2,
-      "star_level": 1,
-      "star_codes": [
-        "sota"
-      ],
-      "star_quote": "outperforms state-of-the-art methods on hand scans (mean Dice 0.970 on nails)",
-      "signals": [],
-      "headline": "高解像度3Dスキャン上の微小部位を、局所座標系の予測により高精度にセグメンテーションする手法",
-      "what": "手のスキャンにおける爪や口腔スキャンにおける歯など、微小な部位のセグメンテーションのために、まず部位の中心と向き（局所フレーム）を予測し、その視点から高解像度で再描画して処理するFrameSeg3Dを提案しています。スキャン全体を一度に処理する際の解像度不足や視点の歪みの問題を回避します。",
-      "enables": "爪のセグメンテーションでmean Dice 0.970、歯のセグメンテーションでIoU 96.5を達成し、既存のSOTA手法を上回る精度を実現しました。",
-      "why_it_matters": "計算資源の制約による解像度の低下を防ぎ、部位の向きやスケールを正規化することで、少数のラベルデータからでも高精度な学習が可能になります。",
-      "tags": [
-        "3Dビジョン",
-        "セグメンテーション",
-        "医療画像処理"
-      ],
-      "fetched_at": "2026-11-19T11:58:57.640797+09:00"
-    },
-    {
-      "id": "2611.22231",
-      "title": "From Temperature-Limited to Battery-Limited Legged Locomotion",
-      "url": "https://arxiv.org/abs/2611.22231",
-      "pdf": "https://arxiv.org/pdf/2611.22231",
-      "authors": [
-        "Rapha\\\"el S\\'egas",
-        "Bal\\'azs Opra",
-        "L\\'eo Ghafari",
-        "Thomas Stewart"
-      ],
-      "categories": [
-        "cs.RO",
-        "cs.LG",
-        "cs.SY",
-        "eess.SY"
-      ],
-      "venues": [],
-      "award": false,
-      "talk": false,
-      "workshop": false,
-      "comment": "9 pages, 7 figures, 2 tables. Supplementary video in the ancillary files. Dataset: https://doi.org/10.5281/zenodo.24274994",
-      "hf_upvotes": null,
-      "star_votes": 2,
-      "star_level": 1,
-      "star_codes": [
-        "cap"
-      ],
-      "star_quote": "turns sustained locomotion from temperature-limited to battery-limited",
-      "signals": [],
-      "headline": "モータの熱制約を考慮した強化学習により、脚式ロボットの歩行時間をバッテリー限界まで延長",
-      "what": "モータの温度を直接観測せず、トルクと関節速度から推定される熱モデル（13ノードのRCネットワーク）に基づき、将来の収束温度（漸近線）を報酬関数に組み込む強化学習手法です。ロボットが過熱する前に熱を分散させる歩容を学習させます。",
-      "enables": "Unitree Go2において、熱による停止（シャットダウン）を回避し、走行距離を1.1km（19分）から10.0km（174分、バッテリー枯渇まで）へと大幅に延長しました。",
-      "why_it_matters": "脚式ロボットの実運用におけるボトルネックがバッテリー容量ではなく、モータの熱であることを指摘し、それを制御層で解決する実用的なアプローチを提示しています。",
-      "tags": [
-        "ロボティクス",
-        "強化学習",
-        "システム制御"
-      ],
-      "fetched_at": "2026-11-19T11:58:57.640797+09:00"
-    },
-    {
-      "id": "2611.22355",
-      "title": "SandBAR: A Band-Asymmetric Architecture for Underwater Image Restoration with Removable Frequency Scaffolding",
-      "url": "https://arxiv.org/abs/2611.22355",
-      "pdf": "https://arxiv.org/pdf/2611.22355",
-      "authors": [
-        "Yanzi Liu",
-        "Haoran Hou",
-        "Jiachi Tong",
-        "Shen Chen",
-        "Shuang Chen"
-      ],
-      "categories": [
-        "cs.CV"
-      ],
-      "venues": [],
-      "award": false,
-      "talk": false,
-      "workshop": false,
-      "comment": "Accepted to WACV 2027. Camera-ready version. 9 pages, 6 figures",
-      "hf_upvotes": null,
-      "star_votes": 2,
-      "star_level": 1,
-      "star_codes": [
-        "sota"
-      ],
-      "star_quote": "establishes a new three-domain mean state of the art on the benchmark family",
-      "signals": [],
-      "headline": "周波数特性の非対称性を利用した水中画像復元アーキテクチャSandBAR",
-      "what": "水中画像の劣化が低周波（色かぶり）と高周波（局所的なボケ）で異なる性質を持つことに着目した、帯域非対称（Band-Asymmetric）な復元アーキテクチャです。SPARKモジュールにより、低周波には広範な色の修正を、高周波には軽量な詳細復元を並列に適用します。",
-      "enables": "主要な3つの水中画像ベンチマーク（EUVP, LSUI, UIEB）において、既存手法を約1.0 dB上回る新たなSOTAを達成しました。",
-      "why_it_matters": "水中特有の光学現象を物理的な特性に合わせてモデル化しており、推論時の計算負荷を増やすことなく高い復元性能を実現しています。",
-      "tags": [
-        "画像復元",
-        "水中画像処理",
-        "コンピュータビジョン"
-      ],
-      "fetched_at": "2026-11-19T11:58:57.640797+09:00"
-    },
-    {
-      "id": "2611.22737",
-      "title": "Proximal Targets: Training Looped Refiners on Problems with Many Correct Answers",
-      "url": "https://arxiv.org/abs/2611.22737",
-      "pdf": "https://arxiv.org/pdf/2611.22737",
-      "authors": [
-        "Syed Affan Daimi"
-      ],
-      "categories": [
-        "cs.AI",
-        "cs.LG"
-      ],
-      "venues": [],
-      "award": false,
-      "talk": false,
-      "workshop": false,
-      "comment": "",
-      "hf_upvotes": null,
-      "star_votes": 2,
-      "star_level": 1,
-      "star_codes": [
-        "new"
-      ],
-      "star_quote": "propose the proximal target: train each pass toward the correct answer nearest to its own input",
-      "signals": [],
-      "headline": "正解が複数存在する問題において、入出力間の距離に基づく学習により推論を収束させる手法",
-      "what": "数独やグラフ彩色など、正解が複数ある反復型の推論モデル（Looped Refiner）のためのProximal Target学習法です。出力を特定の固定された一正解に近づけるのではなく、現在の入力に最も近い正解をターゲットに設定することで、平均化による不正解状態への陥りを防ぎます。",
-      "enables": "数独において、標準的な学習では2.5%だった正解率を98.8%まで向上させ、10,000以上の正解がある疎な問題でも高い性能を示しました。",
-      "why_it_matters": "反復的な推論モデルにおいて「多義性」が学習を不安定化させるという理論的課題を解決し、推論の収束性を保証する新しい枠組みを提供します。",
-      "tags": [
-        "AI",
-        "推論",
-        "強化学習"
-      ],
-      "fetched_at": "2026-11-19T11:58:57.640797+09:00"
-    },
-    {
-      "id": "2611.22955",
-      "title": "ResoLUT: Distilling Residual Networks into Lookup-Table Networks",
-      "url": "https://arxiv.org/abs/2611.22955",
-      "pdf": "https://arxiv.org/pdf/2611.22955",
-      "authors": [
-        "Katarzyna Fojcik",
-        "Aidas Mikalauskas",
-        "Matthias Kampa",
-        "Renaldas Zioma",
-        "Jogundas Armaitis"
-      ],
-      "categories": [
-        "cs.LG"
-      ],
-      "venues": [],
-      "award": false,
-      "talk": false,
-      "workshop": false,
-      "comment": "",
-      "hf_upvotes": null,
-      "star_votes": 2,
-      "star_level": 1,
-      "star_codes": [
-        "sota"
-      ],
-      "star_quote": "best results of logic and lookup-table networks on CIFAR-10 and CIFAR-100",
-      "signals": [],
-      "headline": "ResNetをルックアップテーブルの木に蒸留し、FPGAでの超高速推論を実現するResoLUT",
-      "what": "学習済みのResNetを、多ビットの残差接続（residual stream）を維持したまま、ルックアップテーブル（LUT）の木構造へと層ごとに蒸留する手法です。論理ネットワークでありながら、ディープな階層構造と数値精度を両立させます。",
-      "enables": "CIFAR-100で78.87%の精度を達成し、FPGA実装において毎秒18万9千枚という極めて高いスループットを記録しました。",
-      "why_it_matters": "論理回路ベースのネットワークにおいて課題だった深層化と精度の両立を実現し、エッジデバイスやFPGAでのAI実装の可能性を広げました。",
-      "tags": [
-        "モデル圧縮",
-        "FPGA",
-        "コンピュータビジョン"
-      ],
-      "fetched_at": "2026-11-19T11:58:57.640797+09:00"
     },
     {
       "id": "2611.25235",
@@ -1453,511 +1260,6 @@ window.papersData = {
       "fetched_at": "2026-11-20T11:53:34.599390+09:00"
     },
     {
-      "id": "2611.21880",
-      "title": "Cancellation-Free Constrained SquareCB for Safe Controller Selection",
-      "url": "https://arxiv.org/abs/2611.21880",
-      "pdf": "https://arxiv.org/pdf/2611.21880",
-      "authors": [
-        "Kartik Pandit",
-        "Sourav Ganguly",
-        "Arnob Ghosh"
-      ],
-      "categories": [
-        "cs.LG",
-        "cs.AI",
-        "stat.ML"
-      ],
-      "venues": [],
-      "award": false,
-      "talk": false,
-      "workshop": false,
-      "comment": "",
-      "hf_upvotes": null,
-      "star_votes": 1,
-      "star_level": 1,
-      "star_codes": [
-        "sota"
-      ],
-      "star_quote": "the violation is 6 to 9 times lower than that of primal-dual and virtual-queue baselines",
-      "signals": [],
-      "headline": "制約付きコンテキスチュアルバンディットにおける予算超過を抑制する安全なコントローラ選択手法",
-      "what": "予算制約付きのコンテキスチュアルバンディットにおいて、SquareCBアルゴリズムに推定コストに基づく整流化された重みを導入する手法です。既存のラグランジュ乗数法とは異なり、各ラウンドで推定コストが予算を超えた場合のみ、予算内に戻すための最小限の修正を行います。",
-      "enables": "ドローンやビル管理の制御において、既存のベースラインと比較して違反を6〜9倍低減しつつ、同等以上の累積報酬（regret）を維持できます。",
-      "why_it_matters": "従来のラグランジュ乗数法では累積的な違反が許容される傾向にありましたが、本手法は各ステップでの安全性が求められる実システムの制御において、より高い安全性を提供します。",
-      "tags": [
-        "強化学習",
-        "オンライン学習",
-        "制御理論"
-      ],
-      "fetched_at": "2026-11-19T11:58:57.640797+09:00"
-    },
-    {
-      "id": "2611.21917",
-      "title": "Lost in a Few Heads: Diagnosing and Repairing Block Selection in Sparse Attention",
-      "url": "https://arxiv.org/abs/2611.21917",
-      "pdf": "https://arxiv.org/pdf/2611.21917",
-      "authors": [
-        "Wenhe Zhang",
-        "Boxing Chen"
-      ],
-      "categories": [
-        "cs.LG"
-      ],
-      "venues": [],
-      "award": false,
-      "talk": false,
-      "workshop": false,
-      "comment": "25 pages, 8 figures, 20 tables. Code: https://github.com/zhangwenhe1007/blind-attention-heads",
-      "hf_upvotes": null,
-      "star_votes": 1,
-      "star_level": 1,
-      "star_codes": [
-        "cap"
-      ],
-      "star_quote": "lifts multi-key retrieval accuracy from 54.1 to 97.5%, level with full attention",
-      "signals": [],
-      "headline": "Sparse Attentionにおける特定の「盲目なヘッド」の特定と修正による長文読解能力の回復",
-      "what": "Sparse Attentionモデルが長文コンテキストの検索精度を落とす原因を、情報の希釈を引き起こす特定の「盲目なヘッド（blind heads）」にあると突き止めた診断・修復手法です。これらのヘッドを特定し、そこだけFull Attentionに戻す、あるいは4-bitのスカラーを用いることで精度を改善します。",
-      "enables": "MiniCPM4.1-8Bにおいて、マルチキー検索精度を54.1%からFull Attentionと同等の97.5%まで引き上げ、推論速度のメリットを維持したまま精度を回復させました。",
-      "why_it_matters": "すべてのトークンに注意を向けるのではなく、ボトルネックとなっている極少数のヘッド（KVヘッドの数%）に焦点を当てるだけで、長文処理性能が劇的に改善することを示しています。",
-      "tags": [
-        "LLM",
-        "効率化",
-        "自然言語処理"
-      ],
-      "fetched_at": "2026-11-19T11:58:57.640797+09:00"
-    },
-    {
-      "id": "2611.22244",
-      "title": "PhyVGGT: Feed-Forward Articulated Object Reconstruction from Monocular Videos",
-      "url": "https://arxiv.org/abs/2611.22244",
-      "pdf": "https://arxiv.org/pdf/2611.22244",
-      "authors": [
-        "Qi Shao",
-        "Zhihao Cao",
-        "Shuhao Zhai",
-        "Anh Nguyen",
-        "Hong Liang",
-        "Baoru Huang"
-      ],
-      "categories": [
-        "cs.CV"
-      ],
-      "venues": [],
-      "award": false,
-      "talk": false,
-      "workshop": false,
-      "comment": "10 pages, 5 figures, 7 tables. Project page: https://phyvggt.github.io",
-      "hf_upvotes": null,
-      "star_votes": 1,
-      "star_level": 1,
-      "star_codes": [
-        "sota"
-      ],
-      "star_quote": "achieves state-of-the-art monocular performance across five benchmarks",
-      "signals": [],
-      "headline": "単眼ビデオからの可動部位・関節パラメータを含む3D多関節オブジェクトの高速再構成",
-      "what": "単一の動画像から、3Dの可動パーツ、関節パラメータ、未学習のポーズをワンパスで推定するPhyVGGTフレームワークです。3D基盤モデルを活用しつつ、静止した土台（ベース）に対する相対的な幾何学的特徴と運動の不確実性（Bingham prior）をデコードすることで、関節軸とピボットを閉形式で算出します。",
-      "enables": "48フレームのビデオを6.8秒で処理でき、数時間を要する従来のシーン最適化手法を上回る精度と圧倒的な速度を両立しました。",
-      "why_it_matters": "外部の奥行き情報やカメラポーズを必要とせず、単眼カメラのみでロボット操作やデジタルツインに必要な多関節モデルを効率的に生成できます。",
-      "tags": [
-        "3D再構成",
-        "コンピュータビジョン",
-        "ロボティクス"
-      ],
-      "fetched_at": "2026-11-19T11:58:57.640797+09:00"
-    },
-    {
-      "id": "2611.23022",
-      "title": "Dissecting the GPU Load/Store Unit and Exposing Its Security Risks",
-      "url": "https://arxiv.org/abs/2611.23022",
-      "pdf": "https://arxiv.org/pdf/2611.23022",
-      "authors": [
-        "Wenbo Han",
-        "Pierre Talbot"
-      ],
-      "categories": [
-        "cs.AR",
-        "cs.CR"
-      ],
-      "venues": [],
-      "award": false,
-      "talk": false,
-      "workshop": false,
-      "comment": "",
-      "hf_upvotes": null,
-      "star_votes": 1,
-      "star_level": 1,
-      "star_codes": [
-        "cap"
-      ],
-      "star_quote": "we recover a full AES-128 key under the threat model of prior GPU AES timing attacks.",
-      "signals": [],
-      "headline": "GPUのLoad/Storeユニットの構造解明と、それを通じた新たなセキュリティ脆弱性の指摘",
-      "what": "NVIDIA GPUのLoad/Store Unit（LSU）の内部挙動をリバースエンジニアリングし、メモリアクセスの競合がサイク単位でどのように発生するかを詳細に分析した研究です。アドレス依存のバンク競合やタグ検索が、情報の漏洩やプロセスの飢餓状態を引き起こすことを示しました。",
-      "enables": "特定のワープを長時間待機させることで、他のプロセスのcuBLAS行列演算をA100上で最大750倍遅延させたり、暗号鍵（AES-128）を特定したりすることが可能であることを実証しました。",
-      "why_it_matters": "GPUのアーキテクチャレベルでの脆弱性を明らかにし、マルチプロセス共有環境におけるセキュリティ対策の必要性を警鐘しています。",
-      "tags": [
-        "ハードウェア",
-        "セキュリティ",
-        "GPU"
-      ],
-      "fetched_at": "2026-11-19T11:58:57.640797+09:00"
-    },
-    {
-      "id": "2611.23102",
-      "title": "CADENCE: Learning Acyclic Gaits for Model-Based Quadruped Locomotion",
-      "url": "https://arxiv.org/abs/2611.23102",
-      "pdf": "https://arxiv.org/pdf/2611.23102",
-      "authors": [
-        "Owen Sullivan",
-        "Sourav Selvaraj",
-        "Mahdi Agheli"
-      ],
-      "categories": [
-        "cs.RO"
-      ],
-      "venues": [],
-      "award": false,
-      "talk": false,
-      "workshop": false,
-      "comment": "18 pages, 8 figures, 2 tables",
-      "hf_upvotes": null,
-      "star_votes": 1,
-      "star_level": 1,
-      "star_codes": [
-        "cap"
-      ],
-      "star_quote": "The policy we analyzed developed an acyclic gait, with no fixed period or stepping order",
-      "signals": [],
-      "headline": "歩行スケジュールに縛られない、非周期的な歩容を学習する4足歩行ロボット制御手法",
-      "what": "従来の4足歩行コントローラのような固定された周期（トロットなど）を持たず、状況に応じて最適な脚を最適なタイミングで踏み出すCADENCEを提案しています。強化学習によるステッププランナーと凸モデル予測制御（MPC）を組み合わせ、非周期的な歩容を動的に生成します。",
-      "enables": "穴の空いた足場（空隙率49%）などの困難な地形で、従来の周期的なコントローラ（43.0%）を大きく上回る72.9%の成功率を達成しました。",
-      "why_it_matters": "環境の制約に合わせて柔軟に歩行パターンを変化させることが可能になり、不整地におけるロボットの走破能力を向上させます。",
-      "tags": [
-        "ロボティクス",
-        "強化学習",
-        "モデル予測制御"
-      ],
-      "fetched_at": "2026-11-19T11:58:57.640797+09:00"
-    },
-    {
-      "id": "2611.21791",
-      "title": "Regularized Score Centering",
-      "url": "https://arxiv.org/abs/2611.21791",
-      "pdf": "https://arxiv.org/pdf/2611.21791",
-      "authors": [
-        "Hao Bai",
-        "Chenlu Ye",
-        "Xuanchang Zhang",
-        "Aviral Kumar",
-        "Tong Zhang"
-      ],
-      "categories": [
-        "cs.LG"
-      ],
-      "venues": [],
-      "award": false,
-      "talk": false,
-      "workshop": false,
-      "comment": "",
-      "hf_upvotes": 4,
-      "star_votes": 1,
-      "star_level": 1,
-      "star_codes": [
-        "sota"
-      ],
-      "star_quote": "it achieves top performance across all six agentic tasks, improving by 14.3% on AppWorld",
-      "signals": [],
-      "headline": "非同期強化学習の安定性を向上させる正規化スコアセンタリング手法（RSC）",
-      "what": "オフポリシー強化学習における報酬ベースラインの影響を排除するScore Centering（SC）に、行動ポリシーとの乖離を抑える逆KLダイバージェンス制約を加えた手法です。学習データの古さや推論時のミスマッチによる不安定性を緩和します。",
-      "enables": "AppWorldなどのエージェント系タスクにおいて、既存の最強のベースラインと比較して最大14.3%の向上、BabyAIでは9.9倍のスコアを達成しました。",
-      "why_it_matters": "LLMを用いたエージェント学習において不可欠な、非同期・オフポリシー環境での学習効率と安定性を同時に改善する重要な知見を提供します。",
-      "tags": [
-        "強化学習",
-        "LLM",
-        "AIエージェント"
-      ],
-      "fetched_at": "2026-11-19T11:58:57.640797+09:00"
-    },
-    {
-      "id": "2611.22415",
-      "title": "SpatialMind: Adaptive Multi-Level Geometric Fusion for Spatial Reasoning in Multimodal Large Language Models",
-      "url": "https://arxiv.org/abs/2611.22415",
-      "pdf": "https://arxiv.org/pdf/2611.22415",
-      "authors": [
-        "Shibin Zhao",
-        "Hao Tan",
-        "Fan Yang",
-        "Haixin Wang",
-        "Feilong Chen",
-        "Yidong Ma"
-      ],
-      "categories": [
-        "cs.CV",
-        "cs.CG"
-      ],
-      "venues": [],
-      "award": false,
-      "talk": false,
-      "workshop": false,
-      "comment": "Includes supplementary material. Code available at https://github.com/zhaosb-star/SpatialMind",
-      "hf_upvotes": null,
-      "star_votes": 1,
-      "star_level": 1,
-      "star_codes": [
-        "sota"
-      ],
-      "star_quote": "attaining a state-of-the-art score of 72.3 on VSI-Bench",
-      "signals": [],
-      "headline": "タスクに応じた幾何学的粒度の適応的統合によるMLLMの3D空間推論能力の向上",
-      "what": "マルチモーダルLLMにおいて、距離推定や経路計画といった異なるレベルのタスクに必要な幾何学情報の細かさを動的に調整するSpatialMindフレームワークです。指示、視覚、幾何学情報の各条件に基づいてゲートが作動し、最適な深さの幾何学特徴をLLMに融合します。",
-      "enables": "3D空間推論ベンチマークのVSI-Benchにおいて、SOTAとなるスコア72.3を記録しました。",
-      "why_it_matters": "一律に幾何学情報を与えるのではなく、タスクの要求に合わせて「粒度を使い分ける」という人間の認知に近いアプローチで、LLMの3D理解を深めました。",
-      "tags": [
-        "マルチモーダルLLM",
-        "3D理解",
-        "空間推論"
-      ],
-      "fetched_at": "2026-11-19T11:58:57.640797+09:00"
-    },
-    {
-      "id": "2611.22508",
-      "title": "Reliability-Driven Feature Correction for Hyperspectral and LiDAR Classification",
-      "url": "https://arxiv.org/abs/2611.22508",
-      "pdf": "https://arxiv.org/pdf/2611.22508",
-      "authors": [
-        "Lianming Zhang",
-        "Xiaolu Wang",
-        "Qiya Song",
-        "Jinyang Liu",
-        "Renwei Dian",
-        "Xudong Kang"
-      ],
-      "categories": [
-        "cs.CV"
-      ],
-      "venues": [],
-      "award": false,
-      "talk": false,
-      "workshop": false,
-      "comment": "",
-      "hf_upvotes": null,
-      "star_votes": 1,
-      "star_level": 1,
-      "star_codes": [
-        "new"
-      ],
-      "star_quote": "we propose ReDF, a reliability-driven framework that quantifies the reliability of each modality's features at each spatial location",
-      "signals": [],
-      "headline": "信頼度駆動型の特徴量補正による、ハイパースペクトルとLiDARデータの高精度分類",
-      "what": "異なるセンサーから得られる情報の信頼性を各空間地点で定量化し、それをガイドとして情報の補正と統合を行うReDFフレームワークです。一方のセンサー情報が曖昧な場合に、他方の確実な情報を用いて補正する双方向のメカニズムを備えています。",
-      "enables": "土地利用分類において、従来のハイパースペクトル・LiDAR統合手法を超える平均正解率とKappa係数を達成しました。",
-      "why_it_matters": "異種センサーのデータの単純な結合ではなく、データの「不確かさ」を明示的に扱うことで、複雑な地表条件でも安定した認識を可能にします。",
-      "tags": [
-        "リモートセンシング",
-        "画像分類",
-        "マルチモーダル学習"
-      ],
-      "fetched_at": "2026-11-19T11:58:57.640797+09:00"
-    },
-    {
-      "id": "2611.22549",
-      "title": "Physically Admissible Generative Flow Matching for Sparse Flow Reconstruction",
-      "url": "https://arxiv.org/abs/2611.22549",
-      "pdf": "https://arxiv.org/pdf/2611.22549",
-      "authors": [
-        "Yuhao Wang",
-        "Yuanxi Peng"
-      ],
-      "categories": [
-        "cs.LG"
-      ],
-      "venues": [],
-      "award": false,
-      "talk": false,
-      "workshop": false,
-      "comment": "",
-      "hf_upvotes": null,
-      "star_votes": 1,
-      "star_level": 1,
-      "star_codes": [
-        "new"
-      ],
-      "star_quote": "We introduce Feasible Subspace Consistency (FSC), a framework that preserves physical admissibility as an invariant of continuous generative dynamics",
-      "signals": [],
-      "headline": "物理的保存則を常に満たしながら流体場を再構成する、FSCを用いたFlow Matching",
-      "what": "疎な観測データから流体の全速度場を再構成する際、生成過程のあらゆるステップで物理的制約（非圧縮性、境界条件）を数学的に保証するFeasible Subspace Consistency (FSC) フレームワークです。潜在空間上の輸送問題を解くことで、出力の物理的正当性を保ちます。",
-      "enables": "疎なデータからの再構成において、グローバル誤差を最大50%削減しつつ、物理的にあり得ない歪みのない、信頼性の高い不確実性推定を可能にしました。",
-      "why_it_matters": "深層学習による流体予測において、事後的な修正ではなく「物理的に妥当な解しか生成しない」という強固な制約を組み込んだ点が画期的です。",
-      "tags": [
-        "流体力学",
-        "生成モデル",
-        "科学技術計算"
-      ],
-      "fetched_at": "2026-11-19T11:58:57.640797+09:00"
-    },
-    {
-      "id": "2611.22650",
-      "title": "Must You See Fakes to Catch Fakes? Language Says What to Look For, Real Images What to Ignore",
-      "url": "https://arxiv.org/abs/2611.22650",
-      "pdf": "https://arxiv.org/pdf/2611.22650",
-      "authors": [
-        "Tianchi Xu",
-        "Yuxuan Zhou",
-        "Yuheng Zhang",
-        "Yanan Guan",
-        "Tao Dai",
-        "Shu-Tao Xia"
-      ],
-      "categories": [
-        "cs.CV"
-      ],
-      "venues": [],
-      "award": false,
-      "talk": false,
-      "workshop": false,
-      "comment": "",
-      "hf_upvotes": null,
-      "star_votes": 1,
-      "star_level": 1,
-      "star_codes": [
-        "sota"
-      ],
-      "star_quote": "reaches a mean AUC of 98.2% with MoE-ViE, 4.2 points above the best existing detector",
-      "signals": [],
-      "headline": "生成画像を使わずにAI生成画像を検知する、テキスト誘導型検知手法SaySee",
-      "what": "特定のジェネレータで生成された画像で訓練するのではなく、テキスト記述から「生成らしさ」の方向を定義し、実画像でフォーマットの偏りを補正する、訓練不要（training-free）の検知手法です。ビジョン基盤モデルが既に持つ「生成画像」の概念をテキストで引き出します。",
-      "enables": "24種類の評価データセットにおいて、最新のジェネレータに対しても平均AUC 98.2%という、既存手法を4.2ポイント上回る高い汎用性を実現しました。",
-      "why_it_matters": "特定のモデルに対する過学習を防ぎ、未知のジェネレータや画像形式に対しても頑健な検知が可能になります。",
-      "tags": [
-        "フェイク検知",
-        "コンピュータビジョン",
-        "ゼロショット学習"
-      ],
-      "fetched_at": "2026-11-19T11:58:57.640797+09:00"
-    },
-    {
-      "id": "2611.22728",
-      "title": "LoopZip: Visual Token Compression for Efficient Looped Vision-Language Models",
-      "url": "https://arxiv.org/abs/2611.22728",
-      "pdf": "https://arxiv.org/pdf/2611.22728",
-      "authors": [
-        "Weizhong Huang",
-        "Zhicheng Liu",
-        "Yan Zhang",
-        "Fei Chao",
-        "Xiawu Zheng",
-        "Liujuan Cao"
-      ],
-      "categories": [
-        "cs.CV",
-        "cs.LG"
-      ],
-      "venues": [],
-      "award": false,
-      "talk": false,
-      "workshop": false,
-      "comment": "11 pages, 10 figures",
-      "hf_upvotes": null,
-      "star_votes": 1,
-      "star_level": 1,
-      "star_codes": [
-        "new"
-      ],
-      "star_quote": "We propose LoopZip, a training-free visual token compression algorithm addressing both issues.",
-      "signals": [],
-      "headline": "反復計算を行う視覚言語モデル向けの効率的なトークン圧縮アルゴリズムLoopZip",
-      "what": "計算を繰り返すLooped VLMにおいて、計算コストとメモリ使用量を削減するための訓練不要なトークン圧縮手法です。最初の数回の呼び出しでの注目度（Attention）を平均化して重要なトークンを選別し、出力の偏差を最小化する補正を行います。",
-      "enables": "性能を維持したままトークンの50%を削減し、GPUメモリ消費を約58%削減、エンドツーエンドの推論速度を2.01〜2.47倍に高速化しました。",
-      "why_it_matters": "モデルの層を共通化してパラメータを減らすLoopedモデルの利点を、計算効率の面でもさらに最大化する手法です。",
-      "tags": [
-        "モデル圧縮",
-        "マルチモーダルLLM",
-        "効率化推論"
-      ],
-      "fetched_at": "2026-11-19T11:58:57.640797+09:00"
-    },
-    {
-      "id": "2611.22782",
-      "title": "PANO: Parallel Latent Space Neural Operator for Solving PDEs",
-      "url": "https://arxiv.org/abs/2611.22782",
-      "pdf": "https://arxiv.org/pdf/2611.22782",
-      "authors": [
-        "Zijiang Yang",
-        "Xiaomeng Wu",
-        "Chen Kuang",
-        "Dongmei Fu"
-      ],
-      "categories": [
-        "cs.LG",
-        "cs.AI"
-      ],
-      "venues": [],
-      "award": false,
-      "talk": false,
-      "workshop": false,
-      "comment": "39 pages, 24 figures, 23 tables",
-      "hf_upvotes": null,
-      "star_votes": 1,
-      "star_level": 1,
-      "star_codes": [
-        "sota"
-      ],
-      "star_quote": "demonstrate that PANO achieves state-of-the-art performance",
-      "signals": [],
-      "headline": "並列潜在空間を用いたニューラルオペレータによる大規模PDE問題の高精度解法",
-      "what": "偏微分方程式（PDE）を解く際に、複数の独立した「並列潜在空間」で物理的相互作用を学習し、それらを統合して結果を予測するPANO手法です。単一の圧縮パターンに依存せず、多様な物理情報を保持することを可能にします。",
-      "enables": "航空機の揚力係数予測で21.4%以上、成形加工の歪み予測で28.3%以上のエラー削減を達成し、多くのベンチマークでSOTAを記録しました。",
-      "why_it_matters": "複雑な幾何形状や大規模な観測データを持つ物理現象に対して、Transformerベースのモデルをより効果的に適用できるようにしました。",
-      "tags": [
-        "PDE",
-        "ニューラルオペレータ",
-        "ディープラーニング"
-      ],
-      "fetched_at": "2026-11-19T11:58:57.640797+09:00"
-    },
-    {
-      "id": "2611.23001",
-      "title": "NVIDIA Kumo Tabular: Pushing the Accuracy-Efficiency Frontier for Tabular Prediction",
-      "url": "https://arxiv.org/abs/2611.23001",
-      "pdf": "https://arxiv.org/pdf/2611.23001",
-      "authors": [
-        "Jingang Qu",
-        "Valter Hudovernik",
-        "Martin Jurkovi\\v{c}",
-        "Cedric Lorenz",
-        "David Holzm\\\"uller",
-        "Federico Lopez"
-      ],
-      "categories": [
-        "cs.LG"
-      ],
-      "venues": [],
-      "award": false,
-      "talk": false,
-      "workshop": false,
-      "comment": "25 pages, 13 figures",
-      "hf_upvotes": null,
-      "star_votes": 1,
-      "star_level": 1,
-      "star_codes": [
-        "sota"
-      ],
-      "star_quote": "Kumo Tabular-L ranks first on eight benchmarks: TabArena, TALENT, BeyondArena",
-      "signals": [],
-      "headline": "テーブルデータ専用の基盤モデルKumo Tabularによる超高速・高精度な予測",
-      "what": "分類・回帰タスク向けの、追加学習なしで即座に使用できるテーブルデータ用基盤モデル（最大2.1億パラメータ）です。人工的に生成されたテーブルデータで事前学習され、行の埋め込みとコンテキスト内学習（In-Context Learning）を用いて予測を行います。",
-      "enables": "8つの主要なベンチマークで1位を獲得し、既存の有力モデル（TabPFNなど）と比較して1.7倍から36倍高速な推論を実現しました。",
-      "why_it_matters": "10万列を超えるような大規模なテーブルや、テキスト・画像が混在する複雑なデータにも対応でき、実務におけるテーブルデータ解析を効率化します。",
-      "tags": [
-        "テーブルデータ",
-        "基盤モデル",
-        "機械学習"
-      ],
-      "fetched_at": "2026-11-19T11:58:57.640797+09:00"
-    },
-    {
       "id": "2611.26444",
       "title": "Mind2Act World: A Diagnostic Benchmark for Embodied Mind, Physical Action, and Mind-Action Composition in Robotic Manipulation",
       "url": "https://arxiv.org/abs/2611.26444",
@@ -2358,6 +1660,45 @@ window.papersData = {
         "アクティブ学習"
       ],
       "fetched_at": "2026-11-20T11:53:34.599390+09:00"
+    },
+    {
+      "id": "2611.24932",
+      "title": "Knowing What You Know: A Trait Theory of Reviewer Value in Human-AI Cognitive Systems",
+      "url": "https://arxiv.org/abs/2611.24932",
+      "pdf": "https://arxiv.org/pdf/2611.24932",
+      "authors": [
+        "Priyanka Sinha",
+        "Sugam Pandey"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CE",
+        "cs.HC",
+        "cs.LG"
+      ],
+      "venues": [],
+      "award": true,
+      "talk": false,
+      "workshop": false,
+      "comment": "Accepted at the Thirteenth Annual Conference on Advances in Cognitive Systems (ACS), Edinburgh, United Kingdom, October 6-9, 2026. Awarded one of 2026 Ada Lovelace Awardees for Excellent Paper Submissions to ACS",
+      "hf_upvotes": null,
+      "star_votes": 0,
+      "star_level": 1,
+      "star_codes": [],
+      "star_quote": "",
+      "signals": [
+        "受賞"
+      ],
+      "headline": "AIとの協調における人間の価値を「メタ認知の正確さ」で評価する特性理論",
+      "what": "AIと人間が共同で意思決定を行うシステムにおいて、どの人間が価値を提供しているかを、自分の判断の正しさを正しく認識できているか（メタ認知のキャリブレーション）という観点から分析する理論です。会計システムの実際の運用データ（483名分）を用いて検証を行っています。",
+      "enables": "経験年数や活動量ではなく、メタ認知の正確さが高い人間を特定することで、人間の努力の92.5%をAIが間違えた項目に集中させる最適化が可能になりました。",
+      "why_it_matters": "AIアシストシステムにおいて、単なる「人間の参加」ではなく、AIの弱点を補完できる質の高い人間介入を特定・活用するための理論的・実践的指針を提供します。",
+      "tags": [
+        "人間とAIの協調",
+        "意思決定サポート",
+        "メタ認知"
+      ],
+      "fetched_at": "2026-11-20T11:53:34.599390+09:00"
     }
   ],
   "hf": [
@@ -2365,7 +1706,7 @@ window.papersData = {
       "id": "2611.22115",
       "title": "TeleChat to Xing4: Advancing Frontier Agentic Models on Domestic Chips and Frameworks",
       "abstract": "We present Xing 4, a series of large language models that extends the TeleChat lineage through coordinated advances in model architecture and training infrastructure on Ascend. This report describes the design principles and systems engineering behind the series, spanning architecture selection, large-scale pretraining, and reasoning and agentic post-training. We study how sparse activation, attention design, model depth and width, and speculative decoding balance model capacity with computation, memory access, and execution overhead. Our pretraining infrastructure builds on MindSpore HyperParallel, combining topology-aware hybrid sharding, efficient distributed optimizer execution, and coordinated management of long-sequence workloads and activation memory. CPU affinity and core isolation further reduce host scheduling interference. Together, these mechanisms support the pretraining of a 285B-parameter model on 8,192 Ascend 910C cards, providing a concrete setting for the architectural and systems studies. For post-training, we introduce TeleGym, a unified agent execution platform that connects execution, evaluation, and trajectory construction to policy optimization. Disaggregated asynchronous execution, bounded oversampling, and partial rollout accommodate heterogeneous task durations while preserving trajectory continuity across policy updates. Together, these advances establish an Ascend-oriented training foundation for the continued development of Xing 4 across model scales and increasingly demanding reasoning and agent workloads.",
-      "upvotes": 165,
+      "upvotes": 167,
       "github_stars": 0,
       "github_repo": "",
       "project_page": "https://github.com/XingChen-AGI",
@@ -2373,38 +1714,38 @@ window.papersData = {
       "org": "XingChen-AGI",
       "url": "https://huggingface.co/papers/2611.22115",
       "arxiv_url": "https://arxiv.org/abs/2611.22115",
-      "title_ja": "TeleChat to Xing4：国産チップとフレームワークにおけるフロンティア・エージェントモデルの進展",
-      "summary_ja": "Ascend上で構築され、疎な活性化や推論の最適化により計算効率と性能を両立した大規模言語モデルシリーズ。"
+      "title_ja": "TeleChatからXing4へ：国産チップとフレームワークにおける最先端エージェントモデルの進展",
+      "summary_ja": "AscendチップとMindSporeを活用し、推論・エージェント能力を最適化した大規模言語モデルシリーズの設計と訓練手法を提示。"
     },
     {
       "id": "2611.24738",
       "title": "Jeveration: System One Models Now Generate",
       "abstract": "System One models such as Jev return decisions through fast, parallel prediction. In this paper, we introduce Jeveration, showing that the same decision paradigm can also generate high-quality images in a single forward pass. Jeveration builds on a frozen vision-language model, repurposing its visual-semantic knowledge for holistic image generation. The key challenge is to maintain global consistency. A single prompt admits many valid images, yet parallel predictions must converge on a coherent whole. We therefore condition all positions on a shared random state to coordinate parallel predictions, so that each draw yields a different but coherent image. Since the model tends to ignore this state under direct image supervision, we first learn a distribution over discrete image codes to guide single-pass generation. Beyond text-to-image generation, we further unify image-to-image generation and dense prediction within the same architecture, so that one checkpoint supports all three tasks, each in one forward pass. Experiments show that Jeveration generates a 512x512 image in 78 ms, up to 122x faster than existing unified models, while maintaining competitive image quality and dense prediction performance.",
-      "upvotes": 146,
-      "github_stars": 72,
+      "upvotes": 148,
+      "github_stars": 96,
       "github_repo": "https://github.com/Carol-lyh/Jeveration",
       "project_page": "https://carol-lyh.github.io/Jeveration/",
       "comments": 4,
       "org": "National University of Singapore",
       "url": "https://huggingface.co/papers/2611.24738",
       "arxiv_url": "https://arxiv.org/abs/2611.24738",
-      "title_ja": "Jeveration：システム1モデルによる高速画像生成",
-      "summary_ja": "凍結された視覚言語モデルを利用し、共有ランダム状態を用いて並列予測を調整することで、1回の推論での画像生成を実現。"
+      "title_ja": "Jeveration：システム1モデルによる画像生成",
+      "summary_ja": "高速な並列予測を行うシステム1モデルを用い、共有ランダム状態による調整でグローバルな一貫性を保った高品質な画像の一括生成を実現。"
     },
     {
       "id": "2611.18397",
       "title": "Gamer: A Generalist Vision-Language-Action Foundation Model for Long-Horizon Real-Time Game Agent",
       "abstract": "We introduce Gamer, a generalist agent framework built for long-horizon tasks in complex interactive environments. Its end-to-end architecture combines perception, memory management, and multi-step reasoning. A shared training and deployment pipeline supports interaction with both conventional 2D graphical interfaces and complex 3D simulated worlds. We first continue pre-training on a dataset constructed from tens of thousands of hours of device-level keyboard and mouse interaction. These trajectories span simulated games and embodied environments, allowing the model to learn environmental dynamics across both physical and virtual domains. Sparse-thinking instruction tuning then substantially reduces redundant computation while preserving the reasoning needed for complex decisions. We train the policy for long-horizon interaction with a stable multi-turn reinforcement learning method that addresses finite context windows, accumulated rollout errors, and sparse rewards. For real-time interaction, a cloud-edge inference engine serves numerous simulated game environments concurrently, supports unbounded-context execution, and keeps online inference latency low. Across multiple challenging 3D open-world games, Gamer demonstrates solid generalization and operational efficiency comparable to skilled players. It also achieves competitive results on a range of conventional 2D game benchmarks. These results suggest that even repetitive keyboard and mouse trajectories can support substantial gains from scaling data and learning algorithms. Training on these trajectories helps Gamer learn complex skills more steadily in environments with both physical and digital properties. This approach offers a path toward generalist agents that can interact across digital and physical worlds.",
-      "upvotes": 144,
-      "github_stars": 1050,
+      "upvotes": 147,
+      "github_stars": 1188,
       "github_repo": "https://github.com/RainBowLuoCS/Gamer",
       "project_page": "https://mihoyo-gamer.github.io/",
       "comments": 4,
       "org": "",
       "url": "https://huggingface.co/papers/2611.18397",
       "arxiv_url": "https://arxiv.org/abs/2611.18397",
-      "title_ja": "Gamer：長期的なタスクに対応する汎用的な視覚・言語・行動基盤モデル",
-      "summary_ja": "数万時間の操作データで学習し、2Dインターフェースと3D環境の両方で複雑な意思決定と行動が可能なゲームエージェント。"
+      "title_ja": "Gamer：長期タスクに対応する汎用型視覚・言語・行動基盤モデル",
+      "summary_ja": "2D/3D環境での数万時間の操作データで学習し、知覚・メモリ・推論を統合して複雑なゲーム等の長期タスクを遂行するエージェント。"
     },
     {
       "id": "2611.18359",
@@ -2418,8 +1759,8 @@ window.papersData = {
       "org": "Grid Robotics",
       "url": "https://huggingface.co/papers/2611.18359",
       "arxiv_url": "https://arxiv.org/abs/2611.18359",
-      "title_ja": "エージェント・ロボティクスの展望：ロボットの新時代",
-      "summary_ja": "基盤モデルをオープンワールドのタスクに適用し、意図解釈から推論、実行までをクローズドループで行う新パラダイムを定義。"
+      "title_ja": "エージェント・ロボティクスの展望：ロボットシステムの新時代",
+      "summary_ja": "汎用基盤モデルをオープンワールドのタスクに適用し、環境観察から適応までをクローズドループで行う「エージェント型ロボティクス」を定義。"
     },
     {
       "id": "2611.21218",
@@ -2433,44 +1774,44 @@ window.papersData = {
       "org": "",
       "url": "https://huggingface.co/papers/2611.21218",
       "arxiv_url": "https://arxiv.org/abs/2611.21218",
-      "title_ja": "InclusionMed：包括的ヘルスケアに向けたAI評価ベンチマーク",
-      "summary_ja": "多様な医療的役割とタスクにわたり、AIの診断推論能力などを客観的に評価するためのオープンな評価基盤。"
+      "title_ja": "InclusionMed：包括的ヘルスケアのためのAIベンチマーク",
+      "summary_ja": "多様な医療的役割や能力を網羅する、公平で包括的な医療AI評価のためのオープンなベンチマーク・イニシアチブを構築。"
     },
     {
       "id": "2611.21072",
       "title": "Sage S2.1 Flash Technical Report",
       "abstract": "We introduce Sage S1.5 Flash, a 320-billion-parameter general-purpose mixture-of-experts model designed to reason over scientific evidence and act in interactive environments. Sage Sci-Perception uses dedicated encoders for molecular graphs and biological sequences and represents spectra as ordered patches of measurements. Modality-specific projectors map these representations into the input space of a shared backbone, which processes them alongside text and images. To develop the model's agent capabilities, we construct verifiable environments for tool use, search, and coding, as well as specialized workflows involving machine learning experiments and scientific software. Task completion is checked against execution results, changes in environment state, or submitted artifacts. We evaluate Sage S1.5 Flash on 33 benchmarks across seven domains. In the primary comparison against five baselines, it ranks first on OfficeQA Pro (72.2), MLE-bench Lite (90.3 HumanRank), Harvey LAB, and SpreadsheetBench~2, and second on OSWorld-Verified (85.2), WebArena-Verified (67.6), and DeepResearch Bench~II (54.2). These results show particular strengths in using documentary evidence, producing verifiable workbooks, and carrying out machine learning tasks, alongside competitive performance in desktop and browser workflows that require the model to act on visual feedback.",
       "upvotes": 98,
-      "github_stars": 35,
+      "github_stars": 36,
       "github_repo": "https://github.com/InternLM/Sage-S2.1-Flash",
       "project_page": "https://internlm.github.io/Sage-S2.1-Flash/",
       "comments": 4,
       "org": "Intern Large Models",
       "url": "https://huggingface.co/papers/2611.21072",
       "arxiv_url": "https://arxiv.org/abs/2611.21072",
-      "title_ja": "Sage S2.1 Flash テクニカルレポート",
-      "summary_ja": "分子グラフやスペクトルを処理する専用エンコーダを備え、科学的証拠の推論と実験の自動実行が可能な3200億パラメータのMoEモデル。"
+      "title_ja": "Sage S2.1 Flash 技術リポート",
+      "summary_ja": "科学的証拠の推論と実験ツール操作に特化した3200億パラメータのMoEモデルを導入し、検証可能な環境でのタスク遂行能力を強化。"
     },
     {
       "id": "2611.17621",
       "title": "AscendGYM: A Cost-Aware Kernel Optimization Benchmark for Real-World Workloads on Ascend NPUs",
       "abstract": "Kernel optimization is essential for efficient large language model (LLM) training and inference on Ascend NPUs. Existing Ascend kernel benchmarks primarily focus on kernel generation, with less emphasis on the ability of agents to optimize existing implementations under input configurations drawn from real workloads. To address this requirement, we introduce AscendGYM, a benchmark whose initial suite comprises 48 kernels across three difficulty levels. Each kernel is paired with test cases whose data types and tensor shapes are collected from real-world training and inference tasks. Consequently, performance improvements on AscendGYM map directly to the corresponding workloads. In terms of usability, two evaluation modes are supported in AscendGYM: model evaluation and model-harness evaluation. The kernel optimization capabilities of both trained models and custom agents are allowed to be measured. It provides a complete execution environment that closely reproduces how Ascend kernels are invoked in practical pipelines. For model evaluation, it additionally includes a built-in harness equipped with search orchestration and experience accumulation. Finally, we propose a new metric, the Speedup-Token Score (STS), which quantifies performance gains relative to token cost. By jointly considering speedup and cost, STS enables the assessment of practical kernel optimization capability of a model or harness under an acceptable budget. AscendGYM is available at https://github.com/SLAI-AITP/AscendGYM.",
-      "upvotes": 92,
-      "github_stars": 33,
+      "upvotes": 94,
+      "github_stars": 34,
       "github_repo": "https://github.com/SLAI-AITP/AscendGYM",
       "project_page": "https://slai-aitp.github.io/AscendGYM/",
       "comments": 3,
       "org": "SLAI-AITP",
       "url": "https://huggingface.co/papers/2611.17621",
       "arxiv_url": "https://arxiv.org/abs/2611.17621",
-      "title_ja": "AscendGYM：Ascend NPU上の実ワークロードに基づくコスト意識型カーネル最適化ベンチマーク",
-      "summary_ja": "実務に即した48種類のカーネルを用い、エージェントが既存の実装を実際の入出力設定に合わせて最適化する能力を測定。"
+      "title_ja": "AscendGYM：Ascend NPU上の実ワークロードに対するコスト意識型カーネル最適化ベンチマーク",
+      "summary_ja": "実務に即した48種類のカーネルを用い、AIエージェントが既存のカーネル実装をどれだけ効率的に最適化できるかを評価する指標を提案。"
     },
     {
       "id": "2611.21003",
       "title": "K2-Horizon: A Frontier Fleet of Open Source Language Models",
       "abstract": "We present K2-Horizon, a fleet of six fully open language models, from a 0.9B dense model to a 375B-A23B MoE, built for general-purpose reasoning and agentic work across math and science, software engineering, deep research, office automation, and beyond. The models lead or are competitive with strong open models of their size on agentic and coding benchmarks. On the modeling side, to strengthen reasoning, we introduce Mixture-of-Value Attention (MoVA), applying MoE to attention value projections, and softplus attention gating, a more flexible, theoretically motivated gate. Our 36B-A4B model uses both and nearly matches a 32B dense model trained on the same data, with one-seventh the active parameters. We also introduce Uno, lossless diffusion adapters that speed up decoding by up to 2.2x without a separate draft model. Our release follows the LLM360 definition of open source for transparency and reproducibility: the full development history, including intermediate checkpoints from every training stage, pre-training data, training logs, and all training, evaluation, and infrastructure code, notably our production-scale xLLM framework for dense and MoE training and the RL360 reinforcement-learning stack. Beyond the data itself, we release and document in detail every pipeline that built it, the part of model development that open releases most rarely disclose. These pipelines produced roughly 10T synthetic pre-training tokens, showing that synthetic data can be a major ingredient of pre-training at scale. Four of the models share one 22T-token pre-training corpus and recipe, revealing consistent scaling behavior and enabling controlled studies of scale and sparsity. All artifacts are available at https://ifm.ai/k2/",
-      "upvotes": 88,
+      "upvotes": 89,
       "github_stars": 0,
       "github_repo": "",
       "project_page": "https://ifm.ai/k2/",
@@ -2478,29 +1819,29 @@ window.papersData = {
       "org": "Institute of Foundation Models",
       "url": "https://huggingface.co/papers/2611.21003",
       "arxiv_url": "https://arxiv.org/abs/2611.21003",
-      "title_ja": "K2-Horizon：オープンソース言語モデルのフロンティア・フリート",
-      "summary_ja": "MoVA等の新技術を導入し、数学・科学・研究等のエージェント業務で高性能を発揮する0.9Bから375Bまでのモデル群。"
+      "title_ja": "K2-Horizon：オープンソース言語モデルの最先端フリート",
+      "summary_ja": "MoVA等の新技術を導入し、数学・科学・事務自動化などのエージェント作業で高い性能を示す、0.9Bから375Bまでのオープンモデル群。"
     },
     {
       "id": "2611.15789",
       "title": "VibePrevisBench: Evaluating Agentic Coding for 4D Scene Generation in Blender",
       "abstract": "Controllable real-world video generation models can condition on a rendered graybox proxy video, which fixes layout, motion and camera. Coding agents can build such videos by reconstructing a 4D scene in Blender, yet no benchmark checks both these videos and the long, multi-shot scenes behind them. We introduce VibePrevisBench, a benchmark for 4D scene reconstruction: an agent turns a brief into an executable 4D scene and renders its proxy video. Its 242 tasks span four input kinds, including scripts, photos, continuations, and reference videos. Each delivery is scored along two evaluation dimensions. Rule-based Scene Check re-runs the code and compares the exported 4D scene with hidden ground truth facts in nine dimensions. VLM-based Screen Check asks a VLM judge whether the facts that pass can be recognized in the proxy video. We analyze the evaluation results and trajectories of 11 frontier coding agents and identify three key observations. First, multimodal understanding separates the agents, especially in understanding space and camera motion. Second, all agents seem to already master basic camera work and staging, and fail at challenging requests. Third, agents inspect their own renders but fail to correct their errors. Agents thus need better visual understanding of space and camera, explicit checks for challenging requests, and item-by-item verification of renders against the brief.",
       "upvotes": 87,
-      "github_stars": 20,
+      "github_stars": 22,
       "github_repo": "https://github.com/vibeprevisbench/vibeprevisbench",
       "project_page": "https://vibeprevisbench.github.io/",
       "comments": 3,
       "org": "Kling-Keye",
       "url": "https://huggingface.co/papers/2611.15789",
       "arxiv_url": "https://arxiv.org/abs/2611.15789",
-      "title_ja": "VibePrevisBench：Blenderでの4Dシーン生成エージェントの評価",
-      "summary_ja": "指示から実行可能な4Dシーンを構築し動画をレンダリングするエージェントを、物理的一貫性やコード精度で評価するベンチマーク。"
+      "title_ja": "VibePrevisBench：Blenderにおける4Dシーン生成のエージェント型コーディング評価",
+      "summary_ja": "指示から実行可能な4Dシーンを構築し、プロキシ動画をレンダリングする能力を、コード実行と視覚的一致の両面から評価するベンチマーク。"
     },
     {
       "id": "2611.19937",
       "title": "AllocFlow: End-to-End Portfolio Trading Action Generation from Raw Market Data",
       "abstract": "Real-world portfolio management requires converting noisy market observations into coordinated, simultaneous allocations across multiple assets under shared capital constraints. Advances in forecasting models and alpha discovery help identify opportunities. However, traditional pipelines often decouple signal forecasting from portfolio construction, potentially misaligning learning with allocation and execution objectives. We present AllocFlow, an end-to-end flow-matching framework that directly generates joint portfolio allocations from raw multi-asset market histories. To capture dependencies among portfolio positions, AllocFlow employs a cross-asset flow Transformer conditioned on temporal market representations to generate continuous, signed position weights across all instruments jointly. To address the sample inefficiency and instability of learning continuous allocation policies from scratch, we establish a two-stage training scheme: strategy-supervised imitation shapes a structured distribution of candidate portfolios, followed by group-relative reinforcement learning (RL) that refines joint decisions using portfolio-level financial rewards and a frozen policy reference. On hourly cryptocurrency perpetual futures, RL refinement raises the annualized net return of the imitation policy from 27.79% to 51.38% and its Calmar ratio from 0.955 to 4.043, surpassing the teacher strategy on every metric, and AllocFlow reaches a Calmar ratio of 4.90 on six further months of unseen 2026 data without retraining.",
-      "upvotes": 72,
+      "upvotes": 74,
       "github_stars": 36,
       "github_repo": "https://github.com/allocflow/AllocFlow",
       "project_page": "https://allocflow.github.io/",
@@ -2508,45 +1849,45 @@ window.papersData = {
       "org": "Nanyang Technological University",
       "url": "https://huggingface.co/papers/2611.19937",
       "arxiv_url": "https://arxiv.org/abs/2611.19937",
-      "title_ja": "AllocFlow：生市場データからのエンドツーエンドなポートフォリオ取引アクション生成",
-      "summary_ja": "予測と構築を統合し、複数資産間の依存関係を考慮しながら直接最適な資産配分を生成するフロー変換フレームワーク。"
+      "title_ja": "AllocFlow：生市場データからのエンドツーエンド・ポートフォリオ取引アクション生成",
+      "summary_ja": "予測と構築を統合し、市場履歴から複数の資産配分を直接生成する、相互依存性を考慮したフローマッチング・フレームワークを提案。"
     },
     {
       "id": "2611.14848",
       "title": "Tideway: Phase-Aware Tiered Memory Management for MoE Inference on Consumer Devices",
       "abstract": "Large language model (LLM) agents are rapidly becoming a dominant paradigm for AI applications. Recently, there is a growing demand to deploy large-scale Mixture-of-Experts (MoE) models locally on consumer PCs to balance data privacy, API costs, and inference efficiency. However, unlike datacenter servers with abundant DRAM, consumer devices are tightly constrained in both GPU VRAM and host RAM, forcing massive MoE weights to spill across VRAM, host RAM, and SSD. Under such spilling, we observe that existing systems fail to fully utilize this memory hierarchy, treating the tiers as independent caches and thrashing in inference. We present TIDEWAY, a system for efficient inference of large MoE models on memory-constrained consumer devices. Our core insight is to manage host RAM and GPU VRAM as a unified memory pool. Within this pool, TIDEWAY couples phase-aware memory layouts, which adapt to the distinct access patterns of prefill and decode, with an execution engine that optimizes CUDA Graph execution under expert paging. Our evaluations on representative consumer hardware with frontier MoE models demonstrate that TIDEWAY significantly outperforms state-of-the-art systems. On average, TIDEWAY achieves speedups of 1.97x in end-to-end latency and 2.40x in Time-to-First-Token (TTFT), along with 1.61x higher decode throughput against the fastest baseline. Our source code is publicly available at https://github.com/Afterglow231/Tideway .",
-      "upvotes": 65,
-      "github_stars": 7,
+      "upvotes": 67,
+      "github_stars": 8,
       "github_repo": "https://github.com/Afterglow231/Tideway",
       "project_page": "",
       "comments": 3,
       "org": "Duke University",
       "url": "https://huggingface.co/papers/2611.14848",
       "arxiv_url": "https://arxiv.org/abs/2611.14848",
-      "title_ja": "Tideway：消費者向けデバイスでのMoE推論に向けたフェーズ認識型階層メモリ管理",
-      "summary_ja": "GPUメモリ、ホストRAM、SSDにまたがる階層構造を効率的に活用し、メモリ制約のあるPCでのMoEモデル推論を高速化。"
+      "title_ja": "Tideway：コンシューマデバイスでのMoE推論に向けたフェーズ認識型階層メモリ管理",
+      "summary_ja": "メモリ制限のあるPCで、VRAM・RAM・SSDに分散した大規模MoEモデルの重みを効率的に管理し、推論の停滞を防ぐシステム。"
     },
     {
       "id": "2611.22055",
       "title": "Weight-Space Programming Doesn't Need Transformers",
       "abstract": "Standard neural architectures such as the Transformer were chosen because they train well with gradient descent and run fast on GPUs. In weight-space programming, a large language model (LLM) writes target weights by hand without gradient-based training, so those reasons no longer apply. Should we keep the Transformer? Given minimal guidance, ten labeled examples, and a sandbox, mainly on multiple-choice questions, we task three frontier LLMs with either generating the weights of a fixed architecture or designing the architecture themselves. When free to design, all three compile plain-text facts into a sparse table queried by a fixed procedure, reaching up to 54.4% test accuracy. An LLM-designed model achieves higher test accuracy than the most accurate released Transformer that the same LLM wrote while using about 1,800x fewer parameters. Without gradients, they choose a table, in which the LLM can state what each weight means and can find and rewrite a wrong one. Each wrong answer points to one row, and removing a row changes about one other answer. From this, we propose an associative-memory-based model up to 17x faster on GPUs than a same-sized Transformer. We also test pretrained weights, other benchmarks, and tasks where models generate answers. Pretrained LLMs remain more accurate; the claim concerns which structure to build when writing weights.",
-      "upvotes": 58,
-      "github_stars": 47,
+      "upvotes": 59,
+      "github_stars": 50,
       "github_repo": "https://github.com/effl-lab/Weight-Space-Programming",
       "project_page": "https://wsp-no-transformer.github.io/",
-      "comments": 3,
+      "comments": 4,
       "org": "Pohang University of Science and Technology",
       "url": "https://huggingface.co/papers/2611.22055",
       "arxiv_url": "https://arxiv.org/abs/2611.22055",
       "title_ja": "重み空間プログラミングにTransformerは不要である",
-      "summary_ja": "LLMが直接ネットワークの重みを設計する手法において、固定の手順で疎なテーブルを参照する独自の構造が有効であることを実証。"
+      "summary_ja": "LLMが直接モデルの重みを記述する場合、Transformerよりも疎なテーブル形式のアーキテクチャの方が高い精度を達成できることを発見。"
     },
     {
       "id": "2611.12068",
       "title": "MIRIX-2.0: Multi-Agent Memory System",
       "abstract": "Long-term memory lets LLM agents personalize, stay consistent, and reuse what worked before. Parametric memories need training, consolidation can lose details for good, and keeping every record leaves a growing store to search. We present MIRIX-2.0, a multi-agent memory system designed to be practical, accurate, and efficient at once. It is the most accurate of the compared systems on four of five QA benchmarks. It reaches 91.4% on LoCoMo and 72.6% on LongMemEval-S, where it leads the strongest baseline by 14.3 points, and with AutoDream disabled it gains 31.0 and 22.0 points over HyperMem on single-hop and multi-hop document QA. As procedural memory, it yields the highest mean success among the compared memory methods on ALFWorld and WebShop and reaches 49.2% on MetaClaw-Bench, against 44.0% for MetaClaw's skill library. Six typed memory agents keep complete records as the system of record, and a provenance hypergraph indexes episodic and semantic records with n-ary frames that cite their rows. Retrieval runs under explicit budgets, so the evidence a question inspects does not grow with the history. AutoDream merges duplicate anchors outside the write path without rewriting any record, and it distills task sessions into skills. With AutoDream disabled, MIRIX-2.0 answers faster than HyperMem on all five timed benchmarks. It needs no fine-tuning, runs with closed and open models, and its code is public.",
-      "upvotes": 55,
-      "github_stars": 3508,
+      "upvotes": 56,
+      "github_stars": 3509,
       "github_repo": "https://github.com/Mirix-AI/MIRIX",
       "project_page": "https://mirix.io/",
       "comments": 4,
@@ -2554,13 +1895,13 @@ window.papersData = {
       "url": "https://huggingface.co/papers/2611.12068",
       "arxiv_url": "https://arxiv.org/abs/2611.12068",
       "title_ja": "MIRIX-2.0：マルチエージェント・メモリシステム",
-      "summary_ja": "長期的な記憶の保存と検索を効率化し、文書QAや複雑な手続きを必要とするタスクで高い精度と成功率を実現するシステム。"
+      "summary_ja": "長期的な一貫性と効率を両立し、複数のQAベンチマークで既存手法を大幅に上回る精度を実現した、実用的なエージェント用記憶システム。"
     },
     {
       "id": "2611.20218",
       "title": "SWE-CoWork: Benchmarking Coding Agents as Digital Employees in Organizations",
       "abstract": "A coding agent working within a software organization must establish what to build, collaborate with colleagues, and verify what it delivers. We introduce SWE-CoWork, a benchmark comprising 101 development assignments across 101 real repositories, 11 programming languages, and 12 application domains. Each assignment places an agent in a simulated engineering organization with 26 colleagues who have distinct responsibilities, bounded knowledge, and controlled collaboration behavior. Starting from a brief handoff, agents must recover requirements distributed across colleagues and workplace records, reconcile conflicting evidence, and implement changes evaluated by private executable tests. We evaluate eleven models and find a substantial gap between partial implementation and complete task delivery. The two leading models satisfy approximately 63% of fail-to-pass (F2P) tests but complete fewer than 8% of assignments. Providing complete requirements upfront improves F2P by approximately 16 percentage points for Seed Evolving and GPT-6 Astra, yet leaves complete task success unchanged. Requirement-level trajectory analysis reveals failures throughout the delivery process: Claude-Opus-5.5 directs a mean of 93% of first questions about queried cards to their accountable owners across runs but obtains only 64% of colleague-held requirements. Deferred questions go unfollowed, implementations remain incomplete even after requirements are acquired, and 31% of requirements reported as completed fail their tests. These findings highlight sustained requirement tracking, from clarification through implementation, verification, and handoff, as a key challenge for reliable autonomous software engineering.",
-      "upvotes": 51,
+      "upvotes": 53,
       "github_stars": 15,
       "github_repo": "https://github.com/TokenWave-AI/swe-cowork-bench",
       "project_page": "https://tokenwave-ai.github.io/swe-cowork-page",
@@ -2568,29 +1909,44 @@ window.papersData = {
       "org": "Tokenwave.AI",
       "url": "https://huggingface.co/papers/2611.20218",
       "arxiv_url": "https://arxiv.org/abs/2611.20218",
-      "title_ja": "SWE-CoWork：組織内のデジタル従業員としてのコーディングエージェントのベンチマーク",
-      "summary_ja": "模擬組織内で同僚との対話や要件整理、実装、テストを行い、実世界の共同開発能力を多角的に評価する基盤。"
+      "title_ja": "SWE-CoWork：組織内のデジタル従業員としてのコーディングエージェント評価",
+      "summary_ja": "同僚との協力や要件の回収が必要なシミュレーション環境を用い、実社会の組織におけるエージェントの開発遂行能力を測定する指標。"
     },
     {
       "id": "2611.21373",
       "title": "WeVisForensics: Self-Evolving Agent for Omni AI-Generated Video Detection",
       "abstract": "Recent advances in video generation call for reliable detection grounded in explicit forensic evidence. However, current methods primarily depend on single-pass chain-of-thought reasoning that overlooks brief or localized artifacts, or on predefined multi-agent workflows that offer limited flexibility in selecting relevant inspections. Even with adaptive investigation, optimizing the investigation policy alone does not directly improve the forensic capabilities of fixed experts. We introduce WeVisForensics, an agentic framework in which a main investigator agent coordinates a self-evolving library of forensic inspector sub-agents spanning visual and audio cues. The investigator learns which artifact type to examine, over which window, and when to conclude, and these interactions provide shared feedback for both levels of agents. Our dual-timescale policy optimization strategy, DTPO, closes this loop through fast reinforcement learning of the investigator and slower refinement of the inspectors, guided by annotated artifact intervals, to report subtle artifacts they once dismissed. Furthermore, we curate ForenCue-30K, combining role-specific forensic annotations and interaction trajectories to supervise individual inspections and their coordination, with an accompanying reinforcement-learning pool. Experiments show that WeVisForensics averages 95.2% detection accuracy across in-domain, out-of-domain and agentic benchmarks, 9.0% above the strongest prior detector, while grounding its verdicts in localized evidence.",
-      "upvotes": 49,
-      "github_stars": 45,
+      "upvotes": 52,
+      "github_stars": 50,
       "github_repo": "https://github.com/Tencent/WeVisForensics",
       "project_page": "https://tencent.github.io/WeVisForensics",
       "comments": 3,
       "org": "Tencent",
       "url": "https://huggingface.co/papers/2611.21373",
       "arxiv_url": "https://arxiv.org/abs/2611.21373",
-      "title_ja": "WeVisForensics：オムニAI生成ビデオ検出のための自己進化型エージェント",
-      "summary_ja": "調査エージェントが視覚・音声の専門エージェント群を統括し、証拠に基づき偽造ビデオを検出する自己進化型フレームワーク。"
+      "title_ja": "WeVisForensics：全方位AI生成ビデオ検知のための自己進化型エージェント",
+      "summary_ja": "調査官エージェントが、視覚・音声の専門家エージェント群を動的に調整・進化させることで、高精度な生成動画の証拠検知を実現。"
+    },
+    {
+      "id": "2611.26444",
+      "title": "Mind2Act World: A Diagnostic Benchmark for Embodied Mind, Physical Action, and Mind-Action Composition in Robotic Manipulation",
+      "abstract": "Embodied intelligence aims to let robots perform complex physical tasks with human-like adaptability and reliability, which requires three complementary capabilities: history-based cognitive reasoning, precise and timely physical execution, and the composition of reasoning and execution through environmental feedback. Yet existing benchmarks either evaluate reasoning and execution within the same tasks or assess them separately without their composition, so they reveal little about whether a failure comes from reasoning, execution, or their composition. We introduce Mind2Act World, a diagnostic benchmark of 30 simulated manipulation tasks from five real-world application domains. Each task has three difficulty levels and two scene settings (Clean and Random), yielding 180 configurations. The tasks form three views: Mind tests decisions based on past observations, Act tests precise and timely execution, and Mind2Act combines both in closed-loop tasks where action outcomes guide later decisions. Comparing the three views shows whether a system lacks a capability or fails to compose capabilities it already has. A diagnosis harness further attributes the failed episodes of three representative systems to Mind, Act, or their composition and summarizes each system in a profile card. Our evaluation of multimodal agents, vision-language-action models (VLAs), and world-action models (WAMs) shows that competence in a single view does not carry over to Mind2Act tasks. Even the strongest agent succeeds in 52.7% of Mind and 39.0% of Act episodes but in only 12.0% of Mind2Act episodes. The strongest agent retains task state but struggles with sustained contact, whereas end-to-end policies execute practiced motions but retain little task state. These findings point to composing reasoning and execution through environmental feedback as the main open problem.",
+      "upvotes": 50,
+      "github_stars": 30,
+      "github_repo": "https://github.com/Mind2Act/Mind2Act_World",
+      "project_page": "https://mind2act-world.com/",
+      "comments": 4,
+      "org": "Mind2Act-World",
+      "url": "https://huggingface.co/papers/2611.26444",
+      "arxiv_url": "https://arxiv.org/abs/2611.26444",
+      "title_ja": "Mind2Act World：ロボット操作における思考、行動、およびその合成の診断ベンチマーク",
+      "summary_ja": "30のシミュレーションタスクを通じ、ロボットの失敗が「推論」「実行」「その連携」のどこに起因するかを特定可能な評価手法を導入。"
     },
     {
       "id": "2611.19800",
       "title": "Multi-Branch Transformer",
       "abstract": "Transformer language models are commonly scaled by making their blocks wider or stacking them deeper. In this work, we explore a complementary path: branching, the parallel composition of full Transformer blocks. We introduce the Multi-Branch Transformer (MBT), which processes the input through shared initial layers, executes independently parameterized branches of sequential blocks in parallel, and fuses their outputs before shared final layers. At comparable training compute, we study three MBT variants: Wide-Shallow preserves block width, Narrow-Deep preserves sequential depth, and Balanced interpolates between them. In controlled pretraining experiments at four mixture-of-experts scales (0.8B to 2.1B total parameters), 2-branch Wide-Shallow MBTs consistently outperform sequential Transformers under matched parameter and training-compute budgets. Balanced MBTs improve further and retain comparable quality as the number of branches increases. To improve inference efficiency at long contexts, we introduce Joint-KV, which constructs a shared KV cache from branch representations at each depth. Our final recipe combines Balanced MBTs with Joint-KV, supported by an inference engine that exploits branch grouping and shared-cache reuse. Fitted scaling curves indicate that standard Transformers require up to 1.26x as much training body compute to match our final models' validation loss. These models reduce full-model KV-cache storage by up to 34% and deliver up to 51.4% higher decoding throughput on a single H200 GPU. Ablation studies show that branching yields gains beyond changes in width and depth, enables an effective KV-sharing strategy (Joint-KV), remains robust across fusion functions, and performs best in the middle layers. These findings show that branching offers a practical path for scaling language models toward both better modeling quality and faster inference.",
-      "upvotes": 46,
+      "upvotes": 47,
       "github_stars": 13,
       "github_repo": "https://github.com/GaotangLi/Multi-Branch-Transformer",
       "project_page": "https://gaotangli.github.io/project_page/Multi-Branch-Transformer/",
@@ -2598,29 +1954,14 @@ window.papersData = {
       "org": "",
       "url": "https://huggingface.co/papers/2611.19800",
       "arxiv_url": "https://arxiv.org/abs/2611.19800",
-      "title_ja": "Multi-Branch Transformer",
-      "summary_ja": "Transformerブロックを並列に配置する「ブランチ化」により、一定の計算量下でモデルの表現力を高める新たな構成手法。"
-    },
-    {
-      "id": "2611.26444",
-      "title": "Mind2Act World: A Diagnostic Benchmark for Embodied Mind, Physical Action, and Mind-Action Composition in Robotic Manipulation",
-      "abstract": "Embodied intelligence aims to let robots perform complex physical tasks with human-like adaptability and reliability, which requires three complementary capabilities: history-based cognitive reasoning, precise and timely physical execution, and the composition of reasoning and execution through environmental feedback. Yet existing benchmarks either evaluate reasoning and execution within the same tasks or assess them separately without their composition, so they reveal little about whether a failure comes from reasoning, execution, or their composition. We introduce Mind2Act World, a diagnostic benchmark of 30 simulated manipulation tasks from five real-world application domains. Each task has three difficulty levels and two scene settings (Clean and Random), yielding 180 configurations. The tasks form three views: Mind tests decisions based on past observations, Act tests precise and timely execution, and Mind2Act combines both in closed-loop tasks where action outcomes guide later decisions. Comparing the three views shows whether a system lacks a capability or fails to compose capabilities it already has. A diagnosis harness further attributes the failed episodes of three representative systems to Mind, Act, or their composition and summarizes each system in a profile card. Our evaluation of multimodal agents, vision-language-action models (VLAs), and world-action models (WAMs) shows that competence in a single view does not carry over to Mind2Act tasks. Even the strongest agent succeeds in 52.7% of Mind and 39.0% of Act episodes but in only 12.0% of Mind2Act episodes. The strongest agent retains task state but struggles with sustained contact, whereas end-to-end policies execute practiced motions but retain little task state. These findings point to composing reasoning and execution through environmental feedback as the main open problem.",
-      "upvotes": 45,
-      "github_stars": 27,
-      "github_repo": "https://github.com/Mind2Act/Mind2Act_World",
-      "project_page": "https://mind2act-world.com/",
-      "comments": 3,
-      "org": "Mind2Act-World",
-      "url": "https://huggingface.co/papers/2611.26444",
-      "arxiv_url": "https://arxiv.org/abs/2611.26444",
-      "title_ja": "Mind2Act World：ロボット操作における思考、物理行動、思考・行動統合の診断ベンチマーク",
-      "summary_ja": "ロボットの失敗が認知推論、物理的実行、あるいはその統合のどこに起因するかを切り分けて評価可能な30のシミュレーションタスク。"
+      "title_ja": "マルチブランチTransformer",
+      "summary_ja": "従来の深さや幅の拡張に加え、Transformerブロックを並列に分岐させる構成を提案し、訓練計算量あたりの性能向上を検証。"
     },
     {
       "id": "2611.07222",
       "title": "SPILLWAY: Separating Target Admission from Sanitization to Defend Tool-Using Agents against Prompt Injection",
       "abstract": "Tool-using agents act on email, files, and payments, so an instruction hidden in a web page or a shared document can make an agent send data or money to an attacker. Many runtime defenses put a language model on the decision that lets an action through, so the decision depends on a model that may read the attacker's text and adds model calls to every step. Provenance defenses keep the model off the final check but need a model to plan or route each task first. Where an action goes can instead be read from the tools' typed returns: an email's sender or a payment's account arrives in a typed field, while injected instructions arrive as free text. SPILLWAY turns this observation into a deterministic floor with no per-task plan. The check admits a call when each target value that appears in tool output but not in the user's task was returned by a read-only tool in a typed field or is covered by a fixed delegation rule. A deterministic sanitizer removes instruction-like regions its fixed rules match before the model reads them and retains the removed spans as evidence, and a local judge may restore a refused call, never one whose target lies in the removed text. Across three backbones, and seven task suites on one of them, no standard templated injection redirects an action to an attacker's target under SPILLWAY, at the highest observed mean utility and composite scores (NRP, ERS) of the defenses we run under that attack. A forged chat template also produces a raw zero, and mean in-scope attack success under a released reinforcement-learning attacker is .007. SPILLWAY reaches this floor with no defense-triggered backbone re-run and almost no added model call. As personal AI agents act on users' email, files, and payments, SPILLWAY gives them an auditable refusal floor on where their actions go that keeps them useful and holds across backbones.",
-      "upvotes": 45,
+      "upvotes": 46,
       "github_stars": 5,
       "github_repo": "https://github.com/saintmachines/spillway",
       "project_page": "https://saintmachines.github.io/spillway/",
@@ -2628,23 +1969,53 @@ window.papersData = {
       "org": "SAINT Machines",
       "url": "https://huggingface.co/papers/2611.07222",
       "arxiv_url": "https://arxiv.org/abs/2611.07222",
-      "title_ja": "SPILLWAY：ターゲット承認と無害化の分離による、ツール利用エージェントへのプロンプト注入防御",
-      "summary_ja": "ツールの戻り値に含まれる型情報を利用し、自由記述の注入攻撃を決定論的に識別して不正なアクションを阻止する防御手法。"
+      "title_ja": "SPILLWAY：ツール利用エージェントをプロンプト注入から守るための標的承認と無害化の分離",
+      "summary_ja": "ツールの戻り値から型情報を抽出して判定することで、追加のLLM呼び出しなしに悪意ある指示の実行を阻止する決定論的な防御手法。"
     },
     {
       "id": "2611.21099",
       "title": "ForceHarness: Turning Force into Action and Physics for Frozen Frontier Models",
       "abstract": "Frontier multimodal models can now control robots zero-shot from images, yet many manipulation tasks depend on contact forces that images cannot show. Bringing force to an API-only frozen model raises two challenges. First, contact evolves much faster than an API model can decide, so the system must close the loop on force beneath the model. Second, a frozen model cannot interpret raw force streams, so force must be returned in a form the model can reason about. Therefore, we present ForceHarness, a harness that lets frozen models use force without demonstrations or finetuning. After calibrating hand force from a wrist sensor or joint torques alone, ForceHarness addresses the first challenge with self-terminating force primitives that regulate force on their own and return at a contact event. To address the second challenge, a physics translation layer turns each force trace into physical quantities with uncertainty as the tool result. To evaluate ForceHarness against expert force controllers and learned policies under identical conditions, we also build HiddenPhys, a seven-task MuJoCo benchmark with hidden physical variables. On a real arm without a wrist force sensor, ForceHarness raises the zero-shot success rate of GPT-6 Astra from 3.3% to 90.0%. In simulation, it adds 17.5 percentage points on the public ForceBench suite and 34.3 percentage points on HiddenPhys, surpassing force-aware policies trained on demonstrations on both benchmarks and matching hand-written expert controllers on HiddenPhys. Ablations further show that smaller models make significantly better decisions when given physical quantities rather than raw force values.",
-      "upvotes": 44,
-      "github_stars": 48,
+      "upvotes": 45,
+      "github_stars": 49,
       "github_repo": "https://github.com/showlab/ForceHarness",
       "project_page": "https://showlab.github.io/ForceHarness/",
       "comments": 3,
       "org": "Show Lab",
       "url": "https://huggingface.co/papers/2611.21099",
       "arxiv_url": "https://arxiv.org/abs/2611.21099",
-      "title_ja": "ForceHarness：凍結されたフロンティアモデルにおける力の制御と物理の統合",
-      "summary_ja": "微細な力の変化をエージェントが解釈可能な形式に変換し、モデルの更新なしに力制御を伴うロボット操作を可能にするシステム。"
+      "title_ja": "ForceHarness：既存の最先端モデルに力覚と物理演算を付加するハーネス",
+      "summary_ja": "追加学習なしで、視覚では捉えられない接触力を frozen モデルが理解・利用できるようにし、高精度なロボット操作を可能にする仕組み。"
+    },
+    {
+      "id": "2611.26409",
+      "title": "WeMM-Video: Pushing the Frontiers of Open-Source Omni-Modal Video Understanding",
+      "abstract": "Video understanding, particularly with accompanying audio, remains a central challenge in multimodal intelligence. In this report, we introduce WeMM-Video, a family of Chinese-English bilingual omni-modal foundation models spanning 2B, 4B, 9B, and 35B-A3B variants. Centering on joint audio-visual perception and reasoning, WeMM-Video unifies text, image, audio, and video processing within a hybrid-thinking paradigm, seamlessly supporting both a non-thinking instruct mode for fast, direct responses and a thinking mode for explicit step-by-step reasoning. The models are trained on a large-scale multimodal corpus of approximately 1.2 trillion tokens through progressive pre-training and a multi-stage post-training pipeline incorporating multi-teacher OPD, anti-repetition MrDPO, and specialist RL. Evaluated across more than 120 benchmarks, WeMM-Video demonstrates superior performance in omni-modal video understanding and reasoning, while maintaining highly competitive capabilities across general audio, silent video, image, and text tasks. Specifically, in omni-modal video evaluations, our flagship WeMM-Video-35B-A3B establishes a new open-source state of the art, substantially outperforming proprietary models such as Qwen3.5-Omni-Flash and Seed2.0-Mini-0428 while narrowing the gap with the strong Gemini-3.0-Flash, and our compact WeMM-Video-9B surpasses the larger open-source Qwen3-Omni-30B-A3B-Instruct. We publicly release the WeMM-Video family along with our evaluation and reproduction pipeline to foster further research and development in the open-source community.",
+      "upvotes": 44,
+      "github_stars": 62,
+      "github_repo": "https://github.com/Tencent/WeMM-Video",
+      "project_page": "",
+      "comments": 3,
+      "org": "Tencent",
+      "url": "https://huggingface.co/papers/2611.26409",
+      "arxiv_url": "https://arxiv.org/abs/2611.26409",
+      "title_ja": "WeMM-Video：オープンソースの全方位動画理解の最先端へ",
+      "summary_ja": "音声・視覚を統合的に処理し、高速応答とステップバイステップの思考モードを切り替え可能な日英バイリンガルの動画理解モデル群。"
+    },
+    {
+      "id": "2611.26590",
+      "title": "Probing the \"Conscious\" Mind: Selective Access and Global Workspace in Vision-Language Models",
+      "abstract": "Vision-language models (VLMs) integrate visual and textual information, but their outputs do not reveal internal concept representations. Global workspace theory (GWT) proposes that information is selected from parallel brain processes, integrated in a shared workspace, and made available to specialised processes. We introduce the Multimodal Concept Lens (MC-Lens), a multimodal Jacobian lens, to study these functions in VLM concept processing. Its vision encoder and language decoder lenses map intermediate states to a shared semantic space defined by the decoder's output vocabulary to compare concept accessibility across modalities. MC-Lens supports internal concept interventions to examine the role of accessed concepts in downstream computation. (i) Accessibility and selective access. Multimodal concept information is readable in intermediate states and selectively accessible as tasks require. We extend \"readout carriers\" from one name token to a token set to better capture and express concept information and support counterfactual experiments. (ii) Concepts in downstream computation. Counterfactual experiments show that accessed concept information participates in downstream computation and reasoning. (iii) Development of cross-modal alignment and selective access. We develop two J-space metrics tracking the development of cross-modal concept alignment more clearly than hidden state cosine in controlled VLM training. The experiment also shows that reliable selective access develops later than concept accessibility. (iv) Shared functions across models. Across VLM families and sizes, we find shared patterns of concept accessibility, query-dependent selectivity and cross-task intervention effects despite differences in internal organisation. These findings offer an experimental basis to study GWT in multimodal artificial systems and how it can guide cross-modal alignment improvements.",
+      "upvotes": 42,
+      "github_stars": 0,
+      "github_repo": "",
+      "project_page": "",
+      "comments": 2,
+      "org": "University College London",
+      "url": "https://huggingface.co/papers/2611.26590",
+      "arxiv_url": "https://arxiv.org/abs/2611.26590",
+      "title_ja": "「意識」を持つ心の探求：視覚言語モデルにおける選択的アクセスとグローバルワークスペース",
+      "summary_ja": "MC-Lensを用いてVLM内部の概念処理を解析し、異なるモダリティ間で概念がどのように統合・共有されているかを調査。"
     },
     {
       "id": "2611.18482",
@@ -2658,59 +2029,29 @@ window.papersData = {
       "org": "National University of Singapore",
       "url": "https://huggingface.co/papers/2611.18482",
       "arxiv_url": "https://arxiv.org/abs/2611.18482",
-      "title_ja": "MMFlash：視覚言語モデルのための高速投機的デコーディング",
-      "summary_ja": "トークンの視覚依存度に基づき草案モデルの動作を動的に調整し、マルチモーダル環境でのデコード速度を向上させる手法。"
-    },
-    {
-      "id": "2611.26590",
-      "title": "Probing the \"Conscious\" Mind: Selective Access and Global Workspace in Vision-Language Models",
-      "abstract": "Vision-language models (VLMs) integrate visual and textual information, but their outputs do not reveal internal concept representations. Global workspace theory (GWT) proposes that information is selected from parallel brain processes, integrated in a shared workspace, and made available to specialised processes. We introduce the Multimodal Concept Lens (MC-Lens), a multimodal Jacobian lens, to study these functions in VLM concept processing. Its vision encoder and language decoder lenses map intermediate states to a shared semantic space defined by the decoder's output vocabulary to compare concept accessibility across modalities. MC-Lens supports internal concept interventions to examine the role of accessed concepts in downstream computation. (i) Accessibility and selective access. Multimodal concept information is readable in intermediate states and selectively accessible as tasks require. We extend \"readout carriers\" from one name token to a token set to better capture and express concept information and support counterfactual experiments. (ii) Concepts in downstream computation. Counterfactual experiments show that accessed concept information participates in downstream computation and reasoning. (iii) Development of cross-modal alignment and selective access. We develop two J-space metrics tracking the development of cross-modal concept alignment more clearly than hidden state cosine in controlled VLM training. The experiment also shows that reliable selective access develops later than concept accessibility. (iv) Shared functions across models. Across VLM families and sizes, we find shared patterns of concept accessibility, query-dependent selectivity and cross-task intervention effects despite differences in internal organisation. These findings offer an experimental basis to study GWT in multimodal artificial systems and how it can guide cross-modal alignment improvements.",
-      "upvotes": 40,
-      "github_stars": 0,
-      "github_repo": "",
-      "project_page": "",
-      "comments": 2,
-      "org": "University College London",
-      "url": "https://huggingface.co/papers/2611.26590",
-      "arxiv_url": "https://arxiv.org/abs/2611.26590",
-      "title_ja": "「意識」の探求：視覚言語モデルにおける選択的アクセスとグローバル・ワークスペース",
-      "summary_ja": "MC-Lensを用いて中間状態を共通のセマンティック空間に写像し、内部的な概念表現の統合やアクセシビリティを解析。"
-    },
-    {
-      "id": "2611.26409",
-      "title": "WeMM-Video: Pushing the Frontiers of Open-Source Omni-Modal Video Understanding",
-      "abstract": "Video understanding, particularly with accompanying audio, remains a central challenge in multimodal intelligence. In this report, we introduce WeMM-Video, a family of Chinese-English bilingual omni-modal foundation models spanning 2B, 4B, 9B, and 35B-A3B variants. Centering on joint audio-visual perception and reasoning, WeMM-Video unifies text, image, audio, and video processing within a hybrid-thinking paradigm, seamlessly supporting both a non-thinking instruct mode for fast, direct responses and a thinking mode for explicit step-by-step reasoning. The models are trained on a large-scale multimodal corpus of approximately 1.2 trillion tokens through progressive pre-training and a multi-stage post-training pipeline incorporating multi-teacher OPD, anti-repetition MrDPO, and specialist RL. Evaluated across more than 120 benchmarks, WeMM-Video demonstrates superior performance in omni-modal video understanding and reasoning, while maintaining highly competitive capabilities across general audio, silent video, image, and text tasks. Specifically, in omni-modal video evaluations, our flagship WeMM-Video-35B-A3B establishes a new open-source state of the art, substantially outperforming proprietary models such as Qwen3.5-Omni-Flash and Seed2.0-Mini-0428 while narrowing the gap with the strong Gemini-3.0-Flash, and our compact WeMM-Video-9B surpasses the larger open-source Qwen3-Omni-30B-A3B-Instruct. We publicly release the WeMM-Video family along with our evaluation and reproduction pipeline to foster further research and development in the open-source community.",
-      "upvotes": 40,
-      "github_stars": 38,
-      "github_repo": "https://github.com/Tencent/WeMM-Video",
-      "project_page": "",
-      "comments": 3,
-      "org": "Tencent",
-      "url": "https://huggingface.co/papers/2611.26409",
-      "arxiv_url": "https://arxiv.org/abs/2611.26409",
-      "title_ja": "WeMM-Video：オープンソース・オムニモーダル・ビデオ理解のフロンティア",
-      "summary_ja": "画像・音声・動画を統合処理し、即時応答モードと論理的思考モードを使い分け可能な高性能ビデオ理解モデルシリーズ。"
+      "title_ja": "MMFlash：視覚言語モデルのための高速な投機的デコーディング",
+      "summary_ja": "トークンの視覚依存度に応じた承認率の低下を分析し、拡散モデルベースの高速なドラフターを用いて多言語VLMの生成速度を向上。"
     },
     {
       "id": "2611.21366",
       "title": "ALIVE: Making Streaming Video Models Interactive",
       "abstract": "Streaming video LLMs can continuously observe the world, yet often handle user requests in isolation. We introduce ALIVE, an interactive streaming video model supporting proactive monitoring, streaming task coordination, and feedback-seeking interaction. We construct ALIVE-SFT-288K and ALIVE-RL-3K for two-stage training. Contrastive supervised fine-tuning teaches when and how to respond, while reinforcement learning with Behavior-Aligned Credit Assignment (BACA) combines trajectory-level and local advantages to refine decisions, responses, and silence across multi-turn interactions. We also introduce FSI-Bench to evaluate feedback seeking and subsequent task completion. ALIVE achieves the highest overall scores among the compared models on four public benchmarks and FSI-Bench, demonstrating strong streaming understanding and interactive capabilities.",
       "upvotes": 40,
-      "github_stars": 23,
+      "github_stars": 38,
       "github_repo": "https://github.com/lijinzhao30/ALIVE",
       "project_page": "https://lijinzhao30.github.io/ALIVE/",
       "comments": 4,
       "org": "Tsinghua University",
       "url": "https://huggingface.co/papers/2611.21366",
       "arxiv_url": "https://arxiv.org/abs/2611.21366",
-      "title_ja": "ALIVE：ストリーミングビデオモデルをインタラクティブにする",
-      "summary_ja": "常時映像を監視しながら能動的に情報を確認し、強化学習によって適切なタイミングでの発話や沈黙を実現したモデル。"
+      "title_ja": "ALIVE：ストリーミング動画モデルをインタラクティブにする",
+      "summary_ja": "継続的な監視とユーザーへの能動的な問いかけを可能にし、強化学習によって適切なタイミングでの応答や沈黙を学習させた動画エージェント。"
     },
     {
       "id": "2611.21607",
       "title": "ScaleVLA: Scaling Vision-Language-Action Models to 552 Billion Parameters",
       "abstract": "Frontier Vision-Language Models (VLMs) such as GPT-6 Astra have demonstrated remarkable capabilities in robot control, suggesting that broad pretraining provides knowledge valuable for physical action. Yet most Vision-Language-Action (VLA) policies still rely on much smaller VLM backbones, leaving this potential largely untapped. We ask whether frontier-scale representations can provide a stronger foundation for robot learning. We introduce ScaleVLA, which connects a 552B DeepSeek-V4.1-Flash backbone to a trainable action DiT, and systematically compare VLMs from 2B to 552B under a shared training setup. We evaluate three fundamental capabilities of robot foundation models. In sample efficiency, just 10 demonstrations outperform a 2B backbone trained with 50 (87.8% vs. 85.6%). In generalization, LIBERO-PRO success reaches 45.1%, compared with at most 31.3% for smaller backbones. In precise manipulation, real-world charger insertion improves from 4/10 to 9/10 successes, with gains concentrated in contact-sensitive alignment. Despite its scale, ScaleVLA achieves 216 ms median latency per action chunk. Our findings suggest that frontier VLMs can serve not only as reasoning agents, but also as powerful representational foundations for efficient and generalizable robot policies.",
-      "upvotes": 39,
+      "upvotes": 40,
       "github_stars": 0,
       "github_repo": "",
       "project_page": "https://galaxygeneralrobotics.github.io/scalevla/",
@@ -2718,29 +2059,29 @@ window.papersData = {
       "org": "galbot",
       "url": "https://huggingface.co/papers/2611.21607",
       "arxiv_url": "https://arxiv.org/abs/2611.21607",
-      "title_ja": "ScaleVLA：視覚・言語・行動モデルを5520億パラメータに拡張",
-      "summary_ja": "巨大なVLMバックボーンと行動生成DiTを接続し、モデルの規模がロボット操作の学習効率や汎用性に与える影響を検証。"
+      "title_ja": "ScaleVLA：視覚・言語・行動モデルを5520億パラメータまで拡張",
+      "summary_ja": "巨大なDeepSeek-V4.1-Flashを基盤に、大規模な事前学習がロボット制御のサンプル効率や汎化性能を向上させることを実証。"
     },
     {
       "id": "2611.23068",
       "title": "The Resolution Hypothesis: Agent Evolution's Key Is Identifying Improvements",
       "abstract": "Agent evolution follows a simple loop: a proposer writes candidate artifacts (prompts, skills, memories) and selection accepts those that score higher. This loop has shown promise, yet practitioners face a puzzle: methods trade wins across papers, and evolution often fails to bootstrap on certain tasks. We trace this puzzle to the Resolution Hypothesis: agent evolution stalls not because methods fail to propose better artifacts, but because noisy evaluations cannot reliably identify them. Across seven evolution methods and six models (over 10M LLM calls), we find support for the hypothesis at both levels where evaluation scores are used. At the candidate level (choosing artifacts), helpful candidate artifacts exist, but selection is no better than random at telling them from harmful ones, so errors accumulate across rounds. At the method level (ranking methods), typical margins of a few percentage points are smaller than the difference between two independent runs of the same method, so published rankings often rest on luck. Together, these findings indicate that agent evolution is often bottlenecked by reliably identifying improvements. This calls for a shift in how we develop and evaluate self-improving agents, from designing ever more candidate improvement systems to making true improvements detectable and accumulable.",
-      "upvotes": 37,
+      "upvotes": 39,
       "github_stars": 0,
       "github_repo": "",
       "project_page": "https://lineshogan.github.io/resolution-hypothesis/",
-      "comments": 6,
+      "comments": 8,
       "org": "ShanghaiTech University",
       "url": "https://huggingface.co/papers/2611.23068",
       "arxiv_url": "https://arxiv.org/abs/2611.23068",
-      "title_ja": "解像度仮説：エージェント進化の鍵は改善箇所の特定にある",
-      "summary_ja": "エージェントの自己進化が停滞するのは、生成物の質が低いからではなく、評価のノイズにより良し悪しを正しく判断できないためという説。"
+      "title_ja": "解像度仮説：エージェント進化の鍵は改善の特定にある",
+      "summary_ja": "エージェントの自己進化が停滞する主因は、評価のノイズによって改善された成果物を正しく識別できないことにあるとする仮説を検証。"
     },
     {
       "id": "2611.18856",
       "title": "Self-Improvement Memory Enables Continual Recursive Self-Improvement",
       "abstract": "Harness optimization is often studied with a fixed policy model and benchmark. When either changes, the optimizer must decide which parts of an evolved harness to reuse or revise, but the harness alone may not explain why earlier edits were made or how they performed. In this work, we study Continual Recursive Self-Improvement (CRSI), a setting for continuing existing harness-optimization methods across compatible benchmarks or policy models. We propose Self-Improvement Memory (SIM) for the harness optimizer, rather than the task-solving policy. SIM groups edits by recurring harness problem and records their rationale, predicted and observed outcomes, and evaluation context. New attempts extend this history as optimization continues. In our experiments across four domains, SIM achieves higher final scores than harness-only and root-cause-only continuation in cross-dataset and pairwise cross-model comparisons. Across ten independent source runs in coding, paired continuations with SIM improve final scores by an average of 2.36 points over harness-only continuation (p=0.003).",
-      "upvotes": 35,
+      "upvotes": 38,
       "github_stars": 0,
       "github_repo": "",
       "project_page": "",
@@ -2749,7 +2090,37 @@ window.papersData = {
       "url": "https://huggingface.co/papers/2611.18856",
       "arxiv_url": "https://arxiv.org/abs/2611.18856",
       "title_ja": "自己改善メモリによる継続的な再帰的自己改善",
-      "summary_ja": "エージェントの構成（ハーネス）の変更履歴とその理由、結果を記録し、異なるモデルや課題でも過去の改善を再利用可能にする手法。"
+      "summary_ja": "モデルや指標が変化しても過去の改善経緯（理由や結果）を記憶・活用し、効率的なエージェント最適化を継続できる手法を提案。"
+    },
+    {
+      "id": "2611.26629",
+      "title": "Posterior Matching Distillation",
+      "abstract": "Diffusion distillation accelerates image and video generation by compressing a pretrained teacher's iterative sampling process into a few network evaluations. Distribution-based methods achieve this by matching the student's output distribution to the teacher's. This matching is often driven by reverse-KL objectives, whose mode-seeking bias favors dominant teacher modes at the expense of diversity across samples. We introduce Posterior Matching Distillation (PMD), a new member of the distribution-based distillation family that combines mode-covering posterior sampling with any-step generation. At zero population loss, PMD recovers the teacher's full posterior of clean images at each trained noise level. Its stochastic student supports any-step sampling budgets within the trained timestep grid without further training. To learn these posteriors, PMD matches exponentially reweighted averages of student samples conditioned on a fixed noisy state to corresponding teacher posterior means. Under Gaussian corruption, exponentially tilted posterior mean is a single teacher evaluation at a shifted input. We prove that, matching tilted means over an open neighborhood uniquely identifies the full posterior. PMD thus supervises the entire conditional distribution through a family of mean constraints, without any auxiliary student-score network. Experiments on SDXL and FLUX.2 [klein] 4B demonstrate that PMD achieves the best FID among 4-step methods on both models, while maintaining competitive or leading performance across prompt-alignment and perceptual-quality metrics.",
+      "upvotes": 37,
+      "github_stars": 12,
+      "github_repo": "https://github.com/yesiltepe-hidir/PMD",
+      "project_page": "https://pmd-distillation.github.io/",
+      "comments": 4,
+      "org": "NVIDIA",
+      "url": "https://huggingface.co/papers/2611.26629",
+      "arxiv_url": "https://arxiv.org/abs/2611.26629",
+      "title_ja": "事後確率マッチング蒸留（PMD）",
+      "summary_ja": "拡散モデルの蒸留において、多様性を損なうバイアスを抑え、教師モデルの画像分布を正確に再現しながら高速な生成を可能にする新手法。"
+    },
+    {
+      "id": "2611.26595",
+      "title": "Coda-DaVinci: Reimagining Video Generation with Code2Video",
+      "abstract": "Code2Video uses agent-authored 3D proxies to guide video generation, enabling explicit control over structure and dynamics. However, how to construct proxies and prompts for optimal downstream quality remains underexplored, as do the capabilities and limitations of this paradigm. Through controlled experiments and blinded human evaluation, we study proxy granularity, physics simulation, and prompting. The results reveal task-dependent trade-offs: coarse proxies favor natural motion, while medium-grained proxies favor consistency. Physics simulation and proxy-aligned prompting further improve average quality. Guided by these findings, we introduce Coda-DaVinci, a task-adaptive agentic framework for Code2Video generation that selects between proxy-guided and direct generation, adapts modeling granularity to each entity, and coordinates simulation with proxy-grounded prompting. Its multi-agent harness preserves scene assets and guides repairs through visual inspection and independent review. Experiments demonstrate leading instruction following on VTR and scene consistency on R2M, improved physical plausibility over direct generation, and higher visual realism than the compared Code2Video baselines. Long-video evaluations further show gains in event structure and consistency across successive interactions, while revealing limitations in transition stability and adherence to scene settings.",
+      "upvotes": 35,
+      "github_stars": 22,
+      "github_repo": "https://github.com/FrankYang-17/Coda",
+      "project_page": "https://coda-davinci.github.io/",
+      "comments": 4,
+      "org": "KlingAI Research",
+      "url": "https://huggingface.co/papers/2611.26595",
+      "arxiv_url": "https://arxiv.org/abs/2611.26595",
+      "title_ja": "Coda-DaVinci：Code2Videoによるビデオ生成の再構築",
+      "summary_ja": "エージェントが書いた3Dプロキシを利用して動画生成を制御し、タスクに応じて最適な粒度や物理シミュレーションを適用する適応型フレームワーク。"
     },
     {
       "id": "2611.15348",
@@ -2763,8 +2134,8 @@ window.papersData = {
       "org": "",
       "url": "https://huggingface.co/papers/2611.15348",
       "arxiv_url": "https://arxiv.org/abs/2611.15348",
-      "title_ja": "Breath-Dx：eNoseによる疾患スクリーニングのためのタイムシリーズ分類ベンチマーク",
-      "summary_ja": "呼気分析デバイスのデータを用い、センサドリフト等の実用上の課題を考慮した機械学習アルゴリズムの評価用データセット。"
+      "title_ja": "Breath-Dx：eNoseを用いた疾患スクリーニングのための時系列分類ベンチマーク",
+      "summary_ja": "電子鼻技術による呼気分析において、センサー特有のドリフト問題を考慮し、機械学習手法を公平に比較できる初の包括的データセット。"
     },
     {
       "id": "2611.17834",
@@ -2779,37 +2150,7 @@ window.papersData = {
       "url": "https://huggingface.co/papers/2611.17834",
       "arxiv_url": "https://arxiv.org/abs/2611.17834",
       "title_ja": "PaperCritic：論文の妥当性を評価するAI査読者の訓練",
-      "summary_ja": "客観的な基準である「妥当性」に焦点を絞り、査読指摘の適合率と網羅率を最大化するよう学習させたAI査読システム。"
-    },
-    {
-      "id": "2611.26595",
-      "title": "Coda-DaVinci: Reimagining Video Generation with Code2Video",
-      "abstract": "Code2Video uses agent-authored 3D proxies to guide video generation, enabling explicit control over structure and dynamics. However, how to construct proxies and prompts for optimal downstream quality remains underexplored, as do the capabilities and limitations of this paradigm. Through controlled experiments and blinded human evaluation, we study proxy granularity, physics simulation, and prompting. The results reveal task-dependent trade-offs: coarse proxies favor natural motion, while medium-grained proxies favor consistency. Physics simulation and proxy-aligned prompting further improve average quality. Guided by these findings, we introduce Coda-DaVinci, a task-adaptive agentic framework for Code2Video generation that selects between proxy-guided and direct generation, adapts modeling granularity to each entity, and coordinates simulation with proxy-grounded prompting. Its multi-agent harness preserves scene assets and guides repairs through visual inspection and independent review. Experiments demonstrate leading instruction following on VTR and scene consistency on R2M, improved physical plausibility over direct generation, and higher visual realism than the compared Code2Video baselines. Long-video evaluations further show gains in event structure and consistency across successive interactions, while revealing limitations in transition stability and adherence to scene settings.",
-      "upvotes": 32,
-      "github_stars": 13,
-      "github_repo": "https://github.com/FrankYang-17/Coda",
-      "project_page": "https://coda-davinci.github.io/",
-      "comments": 4,
-      "org": "KlingAI Research",
-      "url": "https://huggingface.co/papers/2611.26595",
-      "arxiv_url": "https://arxiv.org/abs/2611.26595",
-      "title_ja": "Coda-DaVinci：Code2Videoによるビデオ生成の再構築",
-      "summary_ja": "エージェントが作成した3Dプロキシを介してビデオ生成を制御し、構造の粒度や物理シミュレーションを最適化する適応型フレームワーク。"
-    },
-    {
-      "id": "2611.26629",
-      "title": "Posterior Matching Distillation",
-      "abstract": "Diffusion distillation accelerates image and video generation by compressing a pretrained teacher's iterative sampling process into a few network evaluations. Distribution-based methods achieve this by matching the student's output distribution to the teacher's. This matching is often driven by reverse-KL objectives, whose mode-seeking bias favors dominant teacher modes at the expense of diversity across samples. We introduce Posterior Matching Distillation (PMD), a new member of the distribution-based distillation family that combines mode-covering posterior sampling with any-step generation. At zero population loss, PMD recovers the teacher's full posterior of clean images at each trained noise level. Its stochastic student supports any-step sampling budgets within the trained timestep grid without further training. To learn these posteriors, PMD matches exponentially reweighted averages of student samples conditioned on a fixed noisy state to corresponding teacher posterior means. Under Gaussian corruption, exponentially tilted posterior mean is a single teacher evaluation at a shifted input. We prove that, matching tilted means over an open neighborhood uniquely identifies the full posterior. PMD thus supervises the entire conditional distribution through a family of mean constraints, without any auxiliary student-score network. Experiments on SDXL and FLUX.2 [klein] 4B demonstrate that PMD achieves the best FID among 4-step methods on both models, while maintaining competitive or leading performance across prompt-alignment and perceptual-quality metrics.",
-      "upvotes": 31,
-      "github_stars": 7,
-      "github_repo": "https://github.com/yesiltepe-hidir/PMD",
-      "project_page": "https://pmd-distillation.github.io/",
-      "comments": 4,
-      "org": "NVIDIA",
-      "url": "https://huggingface.co/papers/2611.26629",
-      "arxiv_url": "https://arxiv.org/abs/2611.26629",
-      "title_ja": "Posterior Matching Distillation：事後分布マッチングによる蒸留",
-      "summary_ja": "拡散モデルの高速化において、事後分布の多様性を維持しつつ少ないステップ数で高品質な画像を生成可能にする新たな蒸留手法。"
+      "summary_ja": "主観を排除し、査読の「妥当性」と「網羅性」を最大化するようにAIを訓練し、人間と同等の批判的検討を行わせる手法の研究。"
     }
   ],
   "labs": [
@@ -2819,8 +2160,8 @@ window.papersData = {
       "summary": "Generative AI",
       "url": "https://research.google/blog/how-google-duplex-evolved-to-also-call-businesses-for-you-in-gemini/",
       "published": "2026-11-21T08:30:30+09:00",
-      "title_ja": "Google DuplexがGeminiで進化、店舗への自動電話が可能に",
-      "summary_ja": "生成AIのGeminiが、Google Duplexの技術によりユーザーに代わって店舗への電話を行えるようになった。"
+      "title_ja": "Google DuplexのGeminiへの進化：店舗への電話予約も可能に",
+      "summary_ja": "GeminiがGoogle Duplexのように、ユーザーに代わってビジネスへの電話を行えるよう進化した。"
     },
     {
       "lab": "OpenAI",
@@ -2828,8 +2169,8 @@ window.papersData = {
       "summary": "OpenAI’s layered approach to adversarial distillation combines model training, safeguards, detection, and enforcement to protect against capability extraction.",
       "url": "https://openai.com/index/combatting-adversarial-distillation",
       "published": "2026-11-20T19:00:00+09:00",
-      "title_ja": "敵対的蒸留への対策：OpenAIの多層的アプローチ",
-      "summary_ja": "モデル訓練、保護、検知、執行を組み合わせ、能力の抽出を防ぐための多層的な防御手法を導入した。"
+      "title_ja": "敵対的蒸留への対抗策",
+      "summary_ja": "モデル訓練、防御策、検知、執行を組み合わせ、モデル能力の抽出（蒸留）を防ぐ層状のアプローチを構築。"
     },
     {
       "lab": "OpenAI",
@@ -2837,8 +2178,8 @@ window.papersData = {
       "summary": "Hebbia tested GPT-6 Astra for financial research. Its prerelease evaluations found gains in source coverage, citation relevance, and presentation quality.",
       "url": "https://openai.com/business/customer-stories/hebbia",
       "published": "2026-11-20T09:00:00+09:00",
-      "title_ja": "Hebbia、GPT-6 Astraによる金融リサーチの向上を確認",
-      "summary_ja": "GPT-6 Astraにより、ソースの網羅性、引用の関連性、プレゼンテーション品質が向上することが実証された。"
+      "title_ja": "GPT-6 Astraによる金融リサーチの向上",
+      "summary_ja": "GPT-6 Astraが金融研究においてソースの網羅性、引用の関連性、提示の質の向上を実現した。"
     },
     {
       "lab": "OpenAI",
@@ -2847,7 +2188,7 @@ window.papersData = {
       "url": "https://openai.com/index/introducing-medchembench",
       "published": "2026-11-20T09:00:00+09:00",
       "title_ja": "AIは科学者の有望な新薬候補の特定を支援できるか？",
-      "summary_ja": "MedChemBenchを用いて、AIが分子構造の解釈や実験証拠に基づく推論、化合物の選別をどの程度行えるか評価した。"
+      "summary_ja": "初期の創薬段階における分子構造の解釈、実験結果からの推論、化合物選択におけるAIモデルの性能を評価。"
     },
     {
       "lab": "Apple ML",
@@ -2855,8 +2196,8 @@ window.papersData = {
       "summary": "We present Depth Pro 2, an approach to estimating dense metric depth for images and video at full resolution. By analyzing prior methods for monocular depth estimation, we find that they commonly trade off temporal consistency and boundary sharpness: multi-frame methods favor consistency, single-frame methods favor sharpness. To overcome this trade-off, we train a single, scalable network that processes both images and video and predicts depth maps at native resolution. Depth Pro 2 produces depth maps that are metrically accurate, sharp, and temporally consistent all at once, outperforming…",
       "url": "https://machinelearning.apple.com/research/depth-pro-2-monocular",
       "published": "2026-11-20T09:00:00+09:00",
-      "title_ja": "Depth Pro 2：鮮明で時間的一貫性のある単眼深度推定",
-      "summary_ja": "単一のネットワークにより、画像と動画の双方で解像度を維持したまま、正確かつ鮮明で一貫性のある深度推定を実現した。"
+      "title_ja": "Depth Pro 2：鮮明で時間的一貫性のあるメトリック単眼深度推定",
+      "summary_ja": "画像と動画からフル解像度かつ時間的一貫性と境界の鮮明さを両立した正確な深度マップを予測する手法。"
     },
     {
       "lab": "Hugging Face",
@@ -2865,7 +2206,7 @@ window.papersData = {
       "url": "https://huggingface.co/blog/inkling2mini",
       "published": "2026-11-20T09:00:00+09:00",
       "title_ja": "Inkling 2 Miniの発表：ローカル環境向けの最先端パフォーマンス",
-      "summary_ja": "ローカル環境で動作する、最先端のパフォーマンスを備えた小型モデル「Inkling 2 Mini」を導入した。"
+      "summary_ja": "ローカルセットアップにおいて最先端のパフォーマンスを発揮する小型モデル、Inkling 2 Miniが登場。"
     },
     {
       "lab": "Hugging Face",
@@ -2873,8 +2214,8 @@ window.papersData = {
       "summary": "",
       "url": "https://huggingface.co/blog/harness-adapters-at-scale",
       "published": "2026-11-20T09:00:00+09:00",
-      "title_ja": "Harness Adaptersの導入：性能向上とコスト削減のためのモデル適応",
-      "summary_ja": "好みのモデルを独自のハーネスに適応させることで、パフォーマンスの向上とコストの最適化を可能にした。"
+      "title_ja": "ハーネスアダプターの導入：モデルの適合による性能向上とコスト削減",
+      "summary_ja": "好みのモデルを独自のハーネスに適合させることで、パフォーマンスを向上させコストを改善する手法。"
     },
     {
       "lab": "Google Research",
@@ -2883,7 +2224,7 @@ window.papersData = {
       "url": "https://research.google/blog/a-game-you-cannot-win-unless-you-have-a-quantum-computer/",
       "published": "2026-11-20T05:03:00+09:00",
       "title_ja": "量子コンピュータなしでは勝てないゲーム",
-      "summary_ja": "量子コンピュータ特有の能力を必要とする、従来の計算機では勝利が不可能なゲームについての研究。"
+      "summary_ja": "量子コンピューティング技術を用いることで初めて勝利が可能となるゲームやタスクについての紹介。"
     },
     {
       "lab": "OpenAI",
@@ -2891,8 +2232,8 @@ window.papersData = {
       "summary": "Learn how OpenAI built the Performance Factory, a system of Codex-powered workflows that finds and fixes performance issues to help keep ChatGPT fast.",
       "url": "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast",
       "published": "2026-11-19T17:00:00+09:00",
-      "title_ja": "OpenAIのPerformance FactoryがChatGPTの高速性を維持する仕組み",
-      "summary_ja": "Codexを活用し、パフォーマンスの問題を自動で発見・修正するワークフローを構築することで、ChatGPTの速度を維持している。"
+      "title_ja": "OpenAIのPerformance FactoryがChatGPTの高速性を維持する方法",
+      "summary_ja": "Codexを活用したワークフローにより性能問題を特定・修正し、ChatGPTの高速動作を維持するシステム。"
     },
     {
       "lab": "OpenAI",
@@ -2901,7 +2242,7 @@ window.papersData = {
       "url": "https://openai.com/business/learn/codex-security-plugin-demo",
       "published": "2026-11-19T09:00:00+09:00",
       "title_ja": "Codex Security Pluginの探索",
-      "summary_ja": "Codex Security Pluginのデモを通じて、利用開始から結果の確認までのセキュリティワークフローを公開した。"
+      "summary_ja": "導入から結果の確認まで、Codex Security Pluginを用いたセキュリティワークフローのデモを紹介。"
     },
     {
       "lab": "OpenAI",
@@ -2910,7 +2251,7 @@ window.papersData = {
       "url": "https://openai.com/business/learn/pr-scans-demo",
       "published": "2026-11-19T09:00:00+09:00",
       "title_ja": "PRスキャンの実演",
-      "summary_ja": "プルリクエストのワークフローにおいて、スキャン結果をレビューする実際の手順を解説した。"
+      "summary_ja": "プルリクエストのワークフローにおいて、スキャン結果をレビューする手順をウォークスルー形式で解説。"
     },
     {
       "lab": "Google DeepMind",
@@ -2919,7 +2260,7 @@ window.papersData = {
       "url": "https://deepmind.google/blog/introducing-gemini-4-neon/",
       "published": "2026-11-19T06:35:43+09:00",
       "title_ja": "Gemini 4 Neonの発表",
-      "summary_ja": "Gemini 4シリーズの新たなモデル「Neon」を導入した。"
+      "summary_ja": "Geminiシリーズの最新モデルであるGemini 4 Neonを新たに導入。"
     },
     {
       "lab": "Hugging Face",
@@ -2928,7 +2269,7 @@ window.papersData = {
       "url": "https://huggingface.co/blog/RadixArk/daisyrose-27b-pushing-the-frontier-of-post-trainin",
       "published": "2026-11-19T04:54:56+09:00",
       "title_ja": "DaisyRose-27B：ポストトレーニング効率の限界に挑む",
-      "summary_ja": "27Bパラメータを持つDaisyRoseにより、学習後の効率化における最先端の成果を提示した。"
+      "summary_ja": "270億パラメータを持つDaisyRose-27Bにより、学習後の効率化における最前線を押し広げる。"
     },
     {
       "lab": "Hugging Face",
@@ -2936,8 +2277,8 @@ window.papersData = {
       "summary": "",
       "url": "https://huggingface.co/blog/Dharma-AI/predicting-fine-tuning-time",
       "published": "2026-11-19T03:53:43+09:00",
-      "title_ja": "ファインチューニングが理論上の演算量よりも時間がかかる理由",
-      "summary_ja": "ファインチューニングの実行時間が、理論上のFLOPsから算出される時間よりも長くなる要因について解説している。"
+      "title_ja": "ファインチューニングがFLOPsの理論値より時間がかかる理由",
+      "summary_ja": "計算量（FLOPs）から想定される時間よりも、実際の微調整作業が長引く要因について解説。"
     },
     {
       "lab": "Google DeepMind",
@@ -2946,7 +2287,7 @@ window.papersData = {
       "url": "https://deepmind.google/blog/genie-4-is-now-available/",
       "published": "2026-11-19T03:13:42+09:00",
       "title_ja": "Genie 4が利用可能に",
-      "summary_ja": "最新モデル「Genie 4」の提供を開始した。"
+      "summary_ja": "最新モデルのGenie 4が正式にリリースされ、ユーザーが利用できるようになった。"
     },
     {
       "lab": "Hugging Face",
@@ -2955,7 +2296,7 @@ window.papersData = {
       "url": "https://huggingface.co/blog/ibm-research/time-series-powered-streamhouse",
       "published": "2026-11-19T00:00:23+09:00",
       "title_ja": "Streamhouseにおける時系列モデル：新たなフロンティアとユースケース",
-      "summary_ja": "Streamhouse環境での時系列モデル活用の可能性と、具体的な利用シナリオを提示した。"
+      "summary_ja": "Streamhouse環境で時系列モデルを活用する新しい可能性と、具体的な活用事例について紹介。"
     },
     {
       "lab": "Hugging Face",
@@ -2963,8 +2304,8 @@ window.papersData = {
       "summary": "",
       "url": "https://huggingface.co/blog/moe-expert-streaming",
       "published": "2026-11-18T09:00:00+09:00",
-      "title_ja": "180Bパラメータを32GB RAMで：TransformersによるMoE推論の限界",
-      "summary_ja": "大規模な混合専門家（MoE）モデルの推論を、限られたメモリ容量で実行するための技術的挑戦。"
+      "title_ja": "180Bパラメータと32GBメモリ：TransformersによるMoE推論の限界への挑戦",
+      "summary_ja": "32GBのRAM環境で1800億パラメータの混合エキスパート（MoE）モデルの推論を可能にする技術。"
     },
     {
       "lab": "Apple ML",
@@ -2972,8 +2313,8 @@ window.papersData = {
       "summary": "Latent 3D representations have significantly expanded the capabilities of modern shape modeling, enabling compact encoding of 3D scenes and supporting powerful 3D generative models. Despite this progress, current representations struggle to capture the fine details of complex objects, fundamentally limited by the capacity of their latents. However, scaling latent capacity at training time is computationally expensive and often infeasible under memory limits, and naively increasing the number of latents at inference fails to make effective use of the added capacity. In this paper, we address…",
       "url": "https://machinelearning.apple.com/research/split-scale-latent-3d",
       "published": "2026-11-16T09:00:00+09:00",
-      "title_ja": "分割・スケール型潜在3D表現",
-      "summary_ja": "潜在容量を効率的に拡張することで、複雑な物体の微細な詳細を捉えることができる新しい3D生成モデル手法。"
+      "title_ja": "分割・拡張可能な潜在3D表現",
+      "summary_ja": "計算コストを抑えつつ、潜在能力を拡張することで複雑な物体の微細な詳細を捉える新たな3D表現手法。"
     },
     {
       "lab": "Google Research",
@@ -2981,8 +2322,8 @@ window.papersData = {
       "summary": "Education Innovation",
       "url": "https://research.google/blog/advancing-science-engineering-with-antigravitys-teamwork-feature/",
       "published": "2026-11-14T05:47:18+09:00",
-      "title_ja": "Antigravityの/teamworkによる科学・工学の進歩",
-      "summary_ja": "教育イノベーションを通じて、科学や工学分野における共同作業と研究を促進する取り組み。"
+      "title_ja": "Antigravityの/teamworkによる科学・工学の進展",
+      "summary_ja": "教育・科学イノベーションを推進するAntigravityの共同作業支援機能「/teamwork」の紹介。"
     },
     {
       "lab": "Google DeepMind",
@@ -2991,7 +2332,7 @@ window.papersData = {
       "url": "https://deepmind.google/blog/introducing-gemini-4-hydrogen/",
       "published": "2026-11-13T03:00:50+09:00",
       "title_ja": "Gemini 4 Hydrogenの導入",
-      "summary_ja": "Gemini 4シリーズの新たなバリエーションとして「Hydrogen」を発表した。"
+      "summary_ja": "Gemini 4ファミリーの新しいラインナップとして、Gemini 4 Hydrogenを導入。"
     },
     {
       "lab": "Apple ML",
@@ -2999,8 +2340,8 @@ window.papersData = {
       "summary": "Language model (LM) alignment improves model outputs to reflect human preferences while preserving the capabilities of the base model. The most common alignment approaches are (i) reinforcement learning, which maximizes the expected reward under a KL-divergence constraint, and (ii) best-of-NNN alignment, which selects the highest-reward output among NNN independent samples. Despite their widespread use, the fundamental limits of reward improvement under a KL budget remain poorly understood. We characterize the information-theoretic limits of KL-regularized alignment by deriving the maximum…",
       "url": "https://machinelearning.apple.com/research/theoretical-limits-alignment",
       "published": "2026-11-12T09:00:00+09:00",
-      "title_ja": "言語モデルアライメントの理論的限界",
-      "summary_ja": "KLダイバージェンス制約下での報酬改善の限界を情報理論的に導出し、アライメント手法の特性を明らかにした。"
+      "title_ja": "言語モデル・アライメントの理論的限界",
+      "summary_ja": "人間の好みを反映させる調整において、KLダイバージェンスの制約下での報酬向上の情報理論的限界を特定。"
     },
     {
       "lab": "Google Research",
@@ -3008,8 +2349,8 @@ window.papersData = {
       "summary": "Health & Bioscience",
       "url": "https://research.google/blog/using-wearables-to-enable-cardiovascular-kidney-metabolic-ckm-risk-profiling-for-personalized-coaching/",
       "published": "2026-11-12T04:54:00+09:00",
-      "title_ja": "ウェアラブルを用いたCKMリスク評価と個別化コーチング",
-      "summary_ja": "ウェアラブル端末のデータを活用し、心血管・腎臓・代謝のリスクを把握して個人に合わせた指導を行う。"
+      "title_ja": "ウェアラブルを用いたCKMリスク評価による個別化コーチング",
+      "summary_ja": "ウェアラブル端末のデータを活用し、心血管・腎臓・代謝のリスクを評価して個別の健康指導を可能にする。"
     },
     {
       "lab": "Google DeepMind",
@@ -3017,8 +2358,8 @@ window.papersData = {
       "summary": "Predicting how DNA sequences and their variations impact specific human cell types and disease.",
       "url": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/",
       "published": "2026-11-12T00:00:15+09:00",
-      "title_ja": "AlphaGenome 2：細胞のDNA解読メカニズムを解明し疾患を理解する",
-      "summary_ja": "DNA配列の変化が特定の細胞型や疾患にどのような影響を与えるかを予測する技術。"
+      "title_ja": "AlphaGenome 2：細胞によるDNAの読み取りを解明し疾患を理解する",
+      "summary_ja": "DNA配列とその変異が特定のヒト細胞型や疾患にどのような影響を与えるかを予測する技術。"
     },
     {
       "lab": "Google DeepMind",
@@ -3027,7 +2368,7 @@ window.papersData = {
       "url": "https://deepmind.google/blog/gemini-4-carbon-is-now-available/",
       "published": "2026-11-11T01:03:47+09:00",
       "title_ja": "Gemini 4 Carbonが利用可能に",
-      "summary_ja": "Gemini 4シリーズの最新モデル「Carbon」の提供を開始した。"
+      "summary_ja": "Gemini 4シリーズの新たなバリエーションであるGemini 4 Carbonが提供開始された。"
     },
     {
       "lab": "Google DeepMind",
@@ -3035,8 +2376,8 @@ window.papersData = {
       "summary": "AlphaProof Code agents wrote three  million lines of proofs in Lean to verify Signal’s core encryption.",
       "url": "https://deepmind.google/blog/introducing-alphaproof-code/",
       "published": "2026-11-10T21:02:28+09:00",
-      "title_ja": "AlphaProof Codeの導入：複雑なソフトウェアの深層検証における突破口",
-      "summary_ja": "Signalの暗号化の検証において、Lean言語で300万行の証明を記述することに成功した。"
+      "title_ja": "AlphaProof Codeの導入：複雑なソフトウェア検証における突破口",
+      "summary_ja": "Signalの暗号化の検証のため、Lean言語で300万行の証明を記述したAIエージェントの紹介。"
     },
     {
       "lab": "Apple ML",
@@ -3044,8 +2385,8 @@ window.papersData = {
       "summary": "This paper was accepted at the Can We Trust AI Evaluation? Workshop at NeurIPS 2026.\nWe evaluate how good large language model (LLM) judges are for personalized writing tasks. This is important when a user’s preferred writing style is known (e.g., “upbeat”) and an LLM judge is used to evaluate whether generated text adheres to this preference. We examine how the writing task, the combination of generator and judge LLM, the evaluation objective, and general commonsense and reasoning ability impact LLM judge performance. To this end, we generate text with four LLMs for three long-form writing…",
       "url": "https://machinelearning.apple.com/research/evaluating-evaluators-llm-judges",
       "published": "2026-11-10T09:00:00+09:00",
-      "title_ja": "評価者の評価：パーソナライズされた執筆スタイル評価におけるLLM Judgeの調査",
-      "summary_ja": "特定の書き方に基づいたテキスト生成に対し、LLMによる評価がどの程度信頼できるかを様々な要因から分析した。"
+      "title_ja": "評価者を評価する：個人化された執筆スタイル評価におけるLLM Judgeの調査",
+      "summary_ja": "特定の執筆スタイルの遵守をLLMが評価する際の性能や、判断に影響を与える要因を検証した研究。"
     },
     {
       "lab": "Apple ML",
@@ -3053,8 +2394,8 @@ window.papersData = {
       "summary": "State Space Models (SSMs) have emerged as a compelling alternative to Transformers, enabling sequence modeling with constant memory and linear compute. Although SSMs exhibit reasonable performance and favorable computational characteristics, they continue to lag behind Transformers on tasks that require in-context learning and precise retrieval, slowing their adoption for large-scale language modeling. In this work, we demonstrate that both the success and failure of SSMs in these domains can be explained by studying the role of the gating mechanism, a prevalent component in modern recurrent…",
       "url": "https://machinelearning.apple.com/research/gating-memorization-in-context",
       "published": "2026-11-10T09:00:00+09:00",
-      "title_ja": "ゲート機構の重要性：状態空間モデルにおける暗記 vs コンテキスト内学習",
-      "summary_ja": "SSMがTransformerに劣る理由を分析し、ゲート機構がコンテキスト内学習や精密な情報抽出に果たす役割を解明した。"
+      "title_ja": "ゲート機構の重要性：状態空間モデルにおける記憶とインコンテキスト学習",
+      "summary_ja": "状態空間モデル（SSM）が文脈内学習等でTransformerに劣る理由が、ゲート機構の役割にあることを解明。"
     },
     {
       "lab": "Apple ML",
@@ -3062,8 +2403,8 @@ window.papersData = {
       "summary": "This paper was accepted at the Workshop on Personalized, Aligned, Long-term Memory for AI Systems (PALM) at NeurIPS 2026.\nState space models (SSMs) combine fast inference and fixed state size with competitive language-modeling performance. Recently, state souping has been proposed as a procedure whereby an SSM independently encodes chunks of tokens like documents, tool definitions, or memory records. The resulting state encodings may be cached and recombined to cheaply construct a context for downstream queries. However, both state souping and vanilla SSMs deteriorate on long, crowded…",
       "url": "https://machinelearning.apple.com/research/weighted-state-souping",
       "published": "2026-11-10T09:00:00+09:00",
-      "title_ja": "効率的な長文脈検索のための重み付きState Souping",
-      "summary_ja": "SSMで独立した情報の埋め込みを再結合する際、長文や情報の密集による精度低下を抑えるための効率的な手法。"
+      "title_ja": "効率的な長文コンテキスト検索のための重み付きState Souping",
+      "summary_ja": "SSMで文書等を独立して符号化・集約する際、長大で混雑したコンテキストでも精度を維持する手法。"
     },
     {
       "lab": "Google Research",
@@ -3072,7 +2413,7 @@ window.papersData = {
       "url": "https://research.google/blog/exploring-the-worlds-languages-with-language-explorer/",
       "published": "2026-11-10T05:29:39+09:00",
       "title_ja": "Language Explorerで世界の言語を探索する",
-      "summary_ja": "自然言語処理技術を用いて、世界中の多様な言語を調査・探索するプロジェクト。"
+      "summary_ja": "自然言語処理技術を用いて、世界中の多様な言語を調査・探索するための取り組み。"
     },
     {
       "lab": "Berkeley BAIR",
@@ -3080,8 +2421,8 @@ window.papersData = {
       "summary": "The Conference on Robot Learning (CoRL) takes place November 9–12, 2026, in Austin, Texas. BAIR faculty, postdocs and students will be presenting research at various sessions, including an Early Career Keynote from Professor Negar Mehr. See below for the full schedule of sessions with BAIR members, including papers co-authored with collaborators at other universities and companies. November 9–12, 2026 Austin, Texas All times CST · UTC−6 33 Main-conference papers 4 Late-breaking results (LBR) posters 10 Orals & spotlights 3 orals · 7 spotlights 4 Days of research November 9–12 Mon Nov 9 Tue Nov",
       "url": "http://bair.berkeley.edu/blog/2026/11/09/bair-at-corl-2026/",
       "published": "2026-11-09T18:00:00+09:00",
-      "title_ja": "CoRL 2026におけるBAIRの発表内容",
-      "summary_ja": "ロボット学習会議にて、BAIRのメンバーが33本の主論文を含む最新の研究成果を発表する。"
+      "title_ja": "CoRL 2026におけるBAIRの発表",
+      "summary_ja": "ロボット学習会議CoRL 2026にて、BAIRのメンバーが行う33本の論文発表や基調講演の予定。"
     }
   ]
 };
