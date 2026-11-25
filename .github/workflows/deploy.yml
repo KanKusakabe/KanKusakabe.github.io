@@ -19,7 +19,11 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  build-and-deploy:
+  # アップロードとデプロイを別ジョブに分ける。同じジョブで続けて実行すると、
+  # アップロード直後は成果物がまだ一覧に出ず deploy-pages が
+  # 「No artifacts named "github-pages"」で失敗することがある
+  # （https://github.com/actions/deploy-pages/issues/451）
+  build:
     runs-on: ubuntu-24.04
     steps:
       - name: Checkout
@@ -60,6 +64,13 @@ jobs:
         with:
           path: ./public_site
 
+  deploy:
+    needs: build
+    runs-on: ubuntu-24.04
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v5
