@@ -146,7 +146,7 @@ export default function HomePage({ common, projects, samplePublications, lang })
           <div className="a-work-head a-reveal">
             <h3 className="a-sec-title"><Lines text={sections.work} /></h3>
           </div>
-          <div className={`a-cards cols-${Math.min(projects.length, 5)}`}>
+          <div className="a-cards">
             {projects.map((work) => (
               <Link key={work.id} className="a-card a-reveal" href={`${prefix}/works/${work.id}`}>
                 <div className="pic">

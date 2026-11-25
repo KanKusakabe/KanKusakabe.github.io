@@ -553,18 +553,33 @@
   margin: 0;
   line-height: 1;
 }
+/* 折り返さず、横にスクロールして見る。次のカードを少しはみ出させて、スクロールできることを示す */
 .a-cards {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  display: flex;
   gap: 22px;
+  overflow-x: auto;
+  scroll-snap-type: x proximity;
+  overscroll-behavior-x: contain;
+  padding-bottom: 18px; /* スクロールバーの分 */
+  scrollbar-width: thin;
+  scrollbar-color: var(--a-ink) transparent;
 }
-.a-cards.cols-5 {
-  grid-template-columns: repeat(5, 1fr);
-  gap: 18px;
+.a-cards::-webkit-scrollbar {
+  height: 6px;
+}
+.a-cards::-webkit-scrollbar-thumb {
+  background: var(--a-ink);
+  border-radius: 999px;
+}
+.a-cards::-webkit-scrollbar-track {
+  background: rgba(21, 21, 21, 0.12);
+  border-radius: 999px;
 }
 .a-card {
   display: block;
   position: relative;
+  flex: 0 0 calc((100% - 66px) / 3.5); /* 3.5 枚ぶんが見える */
+  scroll-snap-align: start;
 }
 .a-card .pic {
   aspect-ratio: 4/3;
@@ -896,8 +911,8 @@
 
 /* ---------- responsive ---------- */
 @media (max-width: 1100px) {
-  .a-cards.cols-5 {
-    grid-template-columns: repeat(3, 1fr);
+  .a-card {
+    flex-basis: calc((100% - 44px) / 2.8); /* 2.8 枚 */
   }
 }
 /* Hello: 狭い画面では見出しと本文を縦に積む */
@@ -975,9 +990,8 @@
   .a-yellow {
     margin-top: -40px;
   }
-  .a-cards,
-  .a-cards.cols-5 {
-    grid-template-columns: 1fr 1fr;
+  .a-card {
+    flex-basis: calc((100% - 22px) / 1.6); /* 1.6 枚 */
   }
   .a-pub-list li {
     grid-template-columns: 64px 1fr;
@@ -1011,9 +1025,8 @@
   .a-icons-row {
     grid-template-columns: 1fr 1fr;
   }
-  .a-cards,
-  .a-cards.cols-5 {
-    grid-template-columns: 1fr;
+  .a-card {
+    flex-basis: calc((100% - 22px) / 1.25); /* 1.25 枚（次のカードが少し見える） */
   }
   .a-contact {
     padding: 18px 18px 16px;
