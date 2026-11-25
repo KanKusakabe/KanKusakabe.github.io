@@ -396,6 +396,20 @@
   font-weight: 500;
   line-height: 1.35;
 }
+/* 外部リンク付きの項目（受賞ページなど）。背景が明るい色でも読めるよう、色は変えず下線の太さで示す */
+.a-timeline .what a {
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 4px;
+}
+.a-timeline .what a::after {
+  content: " ↗";
+  font-size: 0.85em;
+}
+.a-timeline .what a:hover {
+  text-decoration-thickness: 2px;
+}
 .a-timeline .what small {
   display: block;
   font-size: 12px;

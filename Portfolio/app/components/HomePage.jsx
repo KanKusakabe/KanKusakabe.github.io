@@ -22,7 +22,13 @@ function Timeline({ items, yearKey = "year" }) {
         <li key={i}>
           <span className="yr">{item[yearKey]}</span>
           <span className="what">
-            {item.title ?? item.school}
+            {item.url ? (
+              <a href={item.url} target="_blank" rel="noopener noreferrer">
+                {item.title ?? item.school}
+              </a>
+            ) : (
+              (item.title ?? item.school)
+            )}
             <small>{item.detail}</small>
           </span>
         </li>

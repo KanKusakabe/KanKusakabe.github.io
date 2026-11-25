@@ -1,5 +1,32 @@
 [
   {
+    "id": "PhaseNav",
+    "thumbnail": "/image/PhaseNav.jpg",
+    "short_title": "PhaseNav",
+    "summary": "Phase-aware 3D guidance helps blind and low-vision users find, approach and grasp objects.",
+    "venue": "UbiComp 2026 · Best Poster Runner-up",
+    "title": "Enhancing Object Retrieval via Phase-Aware 3D Spatial Guidance for Blind and Low-Vision Users",
+    "youtube": ["https://youtu.be/7epeFhqvPVA"],
+    "publication": [
+      {
+        "title": "PhaseNav: Assisting Object Retrieval for Blind and Low-Vision People via Phase-Aware Spatial Guidance (in Japanese). ",
+        "authors": "***Kan Kusakabe***, Yuki Abe, Jaylee Soh, Karthick Anandan, Daisuke Sakamoto, Kotaro Hara.",
+        "year": 2026,
+        "publisher": "The 34th Workshop on Interactive Systems and Software (WISS’26), Japan Society for Software Science and Technology, Demonstration. December 2026.",
+        "url": "[link](https://www.wiss.org/WISS2026/demo.html)",
+        "date": "20261209"
+      },
+      {
+        "title": "Enhancing Object Retrieval via Phase-Aware 3D Spatial Guidance for Blind and Low-Vision Users",
+        "authors": "***Kan Kusakabe***, Yuki Abe, Karthick Anandan, Daisuke Sakamoto, Kotaro Hara.",
+        "year": 2026,
+        "publisher": "The 2026 ACM International Joint Conference on Pervasive and Ubiquitous Computing (UbiComp 2026), Poster, Shanghai, October 2026. **Best Poster Award Runner-up**.",
+        "url": "DOI: TBD",
+        "date": "20261013"
+      }
+    ]
+  },
+  {
     "id": "handheld-styleHMD",
     "thumbnail": "/image/handheld-teaser-EN.png",
     "short_title": "Handheld‑style HMD Pointing",
@@ -92,6 +119,27 @@
         "publisher": "The 31st Workshop on Interactive Systems and Software (WISS’23), Japan Society for Software Science and Technology, Demonstration. December 2023.",
         "url": "[link](https://www.wiss.org/WISS2023Proceedings/data/1-A03.pdf)",
         "date": "20231220"
+      }
+    ]
+  },
+  {
+    "id": "BeMyARm",
+    "thumbnail": "/image/BeMyARm.jpg",
+    "short_title": "BeMyARm",
+    "summary": "A smartphone and gimbal pairing that helps blind and low-vision users aim the camera.",
+    "venue": "WISS 2025 · Demo",
+    "title": "BeMyARm: The Assistive Technology for Camera Aiming for the blind and Low-Vision People (in Japanese). ",
+    "abstract": "Searching for objects in a space is important for blind and low-vision people in daily life. However, with existing smartphone-based systems, \u201ccamera aiming\u201d, pointing the camera accurately toward the region to be searched, is difficult. To address this, we propose BeMyARm, a system that links a smartphone with a gimbal so that the aiming operation is achieved cooperatively. Rather than searching fully automatically, the system leaves the rough region to explore to the user\u2019s intention and assists with the steps that require delicate aiming. This aims to reduce the user\u2019s operational load and to enable active, user-driven object search. In the demonstration, visitors experience searching for a target object in a real space in cooperation with the system.",
+    "youtube": ["https://youtu.be/nBAqErN81gE"],
+    "pdf": "/image/BeMyARm.pdf",
+    "publication": [
+      {
+        "title": "BeMyARm: The Assistive Technology for Camera Aiming for the blind and Low-Vision People (in Japanese). ",
+        "authors": "***Kan Kusakabe***, Yuki Abe, Daisuke Sakamoto.",
+        "year": 2025,
+        "publisher": "The 33rd Workshop on Interactive Systems and Software (WISS’25), Japan Society for Software Science and Technology, Demonstration. December 2025.",
+        "url": "[link](https://www.wiss.org/WISS2025Proceedings/)",
+        "date": "20251203"
       }
     ]
   }

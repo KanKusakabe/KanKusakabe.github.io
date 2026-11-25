@@ -10,6 +10,7 @@
   "introduction": "I'm Kan Kusakabe, a third-year PhD student in Information Science at Hokkaido University. My research focuses on interactive interfaces (accessory-style designs, advanced sensing, and gesture input) and accessibility technology. My approach centers on interaction design and building working prototypes: I combine machine learning and 3D printing to rapidly turn ideas into functional interfaces that blend digital and physical experiences, and evaluate them through user studies. I'm open to research collaborations, internships, and career opportunities—feel free to get in touch!",
   "news_title": "News",
   "news": [
+    "Received the Best Poster Award Runner-up at UbiComp 2026 for ''Enhancing Object Retrieval via Phase-Aware 3D Spatial Guidance for Blind and Low-Vision Users'' (Oct 2026)",
     "Invited Talk at [Public Lecture / Yokohama City MICE Next-Generation Development Initiative: CHI 2025 Symposium](https://sigchi.jp/symposium/chi2025_symposium/) (Apr 26, 2025)",
     "Oral presentation at CHI 2025 titled ''[Understanding Usability of VR Pointing Methods with a Handheld-style HMD for Onsite Exhibitions](https://kankusakabe.github.io/Portfolio/ja/works/handheld-styleHMD)'' (Apr 30, 2025)"
   ],
@@ -48,7 +49,7 @@
       {
         "years": "2026",
         "title": "Singapore Management University",
-        "detail": "Visiting Researcher · Mar–Oct 2026"
+        "detail": "Visiting Research Student · Mar–Oct 2026"
       },
       {
         "years": "2024-2025",
@@ -58,14 +59,22 @@
     ],
     "highlights": [
       {
+        "year": "2026",
+        "title": "UbiComp 2026 Best Poster Runner-up",
+        "detail": "Phase-aware 3D spatial guidance for blind and low-vision object retrieval",
+        "url": "https://www.ubicomp.org/ubicomp-iswc-2026/awards-all/"
+      },
+      {
         "year": "2025",
         "title": "CHI 2025 Honorable Mention",
-        "detail": "Top 5% of submitted papers · VR pointing with handheld HMDs"
+        "detail": "Top 5% of submitted papers · VR pointing with handheld HMDs",
+        "url": "https://programs.sigchi.org/chi/2025/awards/honorable-mentions"
       },
       {
         "year": "2025",
         "title": "WISS 2025 Sponsor Award",
-        "detail": "2 papers, 1 demo and 1 invited talk accepted"
+        "detail": "2 papers, 1 demo and 1 invited talk accepted",
+        "url": "https://www.wiss.org/WISS2025/award.html"
       },
       {
         "year": "2024",

@@ -1,5 +1,26 @@
 [
   {
+    "title": "PhaseNav: Assisting Object Retrieval for Blind and Low-Vision People via Phase-Aware Spatial Guidance (in Japanese). ",
+    "authors": "***Kan Kusakabe***, Yuki Abe, Jaylee Soh, Karthick Anandan, Daisuke Sakamoto, Kotaro Hara.",
+    "year": 2026,
+    "publisher": "The 34th Workshop on Interactive Systems and Software (WISS’26), Japan Society for Software Science and Technology, Demonstration. December 2026.",
+    "url": "[link](https://www.wiss.org/WISS2026/demo.html)",
+    "date": "20261209",
+    "category": "other",
+    "venue": "WISS 2026 · Demo"
+  },
+  {
+    "title": "Enhancing Object Retrieval via Phase-Aware 3D Spatial Guidance for Blind and Low-Vision Users",
+    "authors": "***Kan Kusakabe***, Yuki Abe, Karthick Anandan, Daisuke Sakamoto, Kotaro Hara.",
+    "year": 2026,
+    "publisher": "The 2026 ACM International Joint Conference on Pervasive and Ubiquitous Computing (UbiComp 2026), Poster, Shanghai, October 2026. **Best Poster Award Runner-up**.",
+    "url": "DOI: TBD",
+    "date": "20261013",
+    "category": "intl",
+    "venue": "UbiComp 2026 · Poster",
+    "award": "Best Poster Runner-up"
+  },
+  {
     "title": "KanaShark: Exploration of Japanese Gesture Input Method based on SHARK2 (in Japanese). ",
     "authors": "Shingo Toyoda, ***Kan Kusakabe***, Daisuke Sakamoto.",
     "year": 2025,

@@ -1,5 +1,32 @@
 [
   {
+    "id": "PhaseNav",
+    "thumbnail": "/image/PhaseNav.jpg",
+    "short_title": "PhaseNav",
+    "summary": "探索・接近・把持の3段階に合わせた3D空間ガイダンスで、視覚障がい者の物体取得を支援。",
+    "venue": "UbiComp 2026 · Best Poster Runner-up",
+    "title": "Enhancing Object Retrieval via Phase-Aware 3D Spatial Guidance for Blind and Low-Vision Users",
+    "youtube": ["https://youtu.be/7epeFhqvPVA"],
+    "publication": [
+      {
+        "title": "PhaseNav: 段階的な空間誘導による視覚障がい者の物体取得支援",
+        "authors": "***日下部 完***, 阿部 優樹, Jaylee Soh, Karthick Anandan, 坂本 大介, 原 航太郎.",
+        "year": 2026,
+        "publisher": "第34回インタラクティブシステムとソフトウェアに関するワークショップ（WISS 2026），日本ソフトウェア科学会，2026年12月.デモ発表",
+        "url": "[URL](https://www.wiss.org/WISS2026/demo.html)",
+        "date": "20261209"
+      },
+      {
+        "title": "Enhancing Object Retrieval via Phase-Aware 3D Spatial Guidance for Blind and Low-Vision Users",
+        "authors": "***Kan Kusakabe***, Yuki Abe, Karthick Anandan, Daisuke Sakamoto, Kotaro Hara.",
+        "year": 2026,
+        "publisher": "The 2026 ACM International Joint Conference on Pervasive and Ubiquitous Computing (UbiComp 2026), Poster, Shanghai, October 2026. **Best Poster Award Runner-up**.",
+        "url": "DOI: TBD",
+        "date": "20261013"
+      }
+    ]
+  },
+  {
     "id": "BodSockets",
     "thumbnail": "/image/BodSockets.jpg",
     "short_title": "BodSockets",
@@ -101,7 +128,7 @@
     "publication": [
       {
         "title": "BeMyARm：カメラエイミングを補助する視覚障がい者のための物体探索システムの提案",
-        "authors": "***日下部 完***, 阿部 優樹, 坂本 大介, 小野 哲雄.",
+        "authors": "***日下部 完***, 阿部 優樹, 坂本 大介.",
         "year": 2025,
         "publisher": "第33回インタラクティブシステムとソフトウェアに関するワークショップ（WISS 2025），日本ソフトウェア科学会，2025年12月.デモポスター発表",
         "url": "[URL](https://www.wiss.org/WISS2025/demo.html)",

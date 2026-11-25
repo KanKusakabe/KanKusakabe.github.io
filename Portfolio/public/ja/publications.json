@@ -1,5 +1,26 @@
 [
   {
+    "title": "PhaseNav: 段階的な空間誘導による視覚障がい者の物体取得支援",
+    "authors": "***日下部 完***, 阿部 優樹, Jaylee Soh, Karthick Anandan, 坂本 大介, 原 航太郎.",
+    "year": 2026,
+    "publisher": "第34回インタラクティブシステムとソフトウェアに関するワークショップ（WISS 2026），日本ソフトウェア科学会，2026年12月.デモ発表",
+    "url": "[URL](https://www.wiss.org/WISS2026/demo.html)",
+    "date": "20261209",
+    "category": "other",
+    "venue": "WISS 2026 · デモ"
+  },
+  {
+    "title": "Enhancing Object Retrieval via Phase-Aware 3D Spatial Guidance for Blind and Low-Vision Users",
+    "authors": "***Kan Kusakabe***, Yuki Abe, Karthick Anandan, Daisuke Sakamoto, Kotaro Hara.",
+    "year": 2026,
+    "publisher": "The 2026 ACM International Joint Conference on Pervasive and Ubiquitous Computing (UbiComp 2026), Poster, Shanghai, October 2026. **Best Poster Award Runner-up**.",
+    "url": "DOI: TBD",
+    "date": "20261013",
+    "category": "intl",
+    "venue": "UbiComp 2026 · Poster",
+    "award": "Best Poster Runner-up"
+  },
+  {
     "title": "BodSockets：スマホソケット型インタフェースを用いたスマートフォンの背面領域を活用した操作手法の提案",
     "authors": "***日下部 完***, 池松 香, 坂本 大介, 小野 哲雄.",
     "year": 2025,
@@ -34,7 +55,7 @@
   },
   {
     "title": "BeMyARm：カメラエイミングを補助する視覚障がい者のための物体探索システムの提案",
-    "authors": "***日下部 完***, 阿部 優樹, 坂本 大介, 小野 哲雄.",
+    "authors": "***日下部 完***, 阿部 優樹, 坂本 大介.",
     "year": 2025,
     "publisher": "第33回インタラクティブシステムとソフトウェアに関するワークショップ（WISS 2025），日本ソフトウェア科学会，2025年12月.デモポスター発表",
     "url": "[URL](https://www.wiss.org/WISS2025/demo.html)",
