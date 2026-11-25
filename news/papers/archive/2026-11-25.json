@@ -1739,7 +1739,7 @@
       "id": "2611.29897",
       "title": "Motion Mamba 2.0: Autoregressive Diffusion Mamba for Long-Horizon Humanoid Control",
       "abstract": "Long-horizon, real-time controllable motion generation is essential for interactive animation and humanoid robotics, where an agent must respond to changing instructions and spatial goals while moving. Existing autoregressive diffusion methods generate motion incrementally, but bounded attention caches limit access to distant history, while repeated denoising introduces substantial inference overhead. We present Motion Mamba 2.0, a Mamba-based root-body diffusion architecture that integrates local attention, resumable recurrent states, and persistent content memory (PCM) for long-horizon controllable motion generation. PCM transforms compressed motion history from Mamba recurrent states, together with state changes and text-conditioned features, into dynamically updated content slots accessible to local attention. To enable efficient inference, we further develop an execution scheme tailored to this architecture, combining CUDA Graph replay, fused kernels, and execution-flow simplification while preserving the canonical history update. Evaluations on retargeted HiPHI demonstrate accurate terminal control over rollouts of up to 39.52 s, while short-horizon comparisons on BONES Seed and retargeted HumanML3D show that the model also retains strong spatial control and text-motion matching. On an RTX 4090, the optimized execution reduces median complete-window latency from 1685.35 to 276.14 ms, achieving a median paired speedup of 6.138times while preserving identical outputs and committed states in the tested rollouts. Moreover, we conduct extensive real-world evaluation on the Unitree G1, demonstrating sequential text-guided action composition, expressive motion, and interactive locomotion through keyboard and mouse control.",
-      "upvotes": 175,
+      "upvotes": 180,
       "github_stars": 23,
       "github_repo": "https://github.com/AIGeeksGroup/MotionMamba2.0",
       "project_page": "https://aigeeksgroup.github.io/MotionMamba2.0/",
@@ -1748,13 +1748,13 @@
       "url": "https://huggingface.co/papers/2611.29897",
       "arxiv_url": "https://arxiv.org/abs/2611.29897",
       "title_ja": "Motion Mamba 2.0: ヒューマノイド制御のための自己回帰拡散Mamba",
-      "summary_ja": "Mambaを基盤に、長期の履歴を保持しつつリアルタイムで制御可能な高品質な人型動作生成を実現。"
+      "summary_ja": "Mamba基盤の拡散構造により、計算効率を保ちつつ長時間の制御可能な動作生成を実現。"
     },
     {
       "id": "2611.24738",
       "title": "Jeveration: System One Models Now Generate",
       "abstract": "System One models such as Jev return decisions through fast, parallel prediction. In this paper, we introduce Jeveration, showing that the same decision paradigm can also generate high-quality images in a single forward pass. Jeveration builds on a frozen vision-language model, repurposing its visual-semantic knowledge for holistic image generation. The key challenge is to maintain global consistency. A single prompt admits many valid images, yet parallel predictions must converge on a coherent whole. We therefore condition all positions on a shared random state to coordinate parallel predictions, so that each draw yields a different but coherent image. Since the model tends to ignore this state under direct image supervision, we first learn a distribution over discrete image codes to guide single-pass generation. Beyond text-to-image generation, we further unify image-to-image generation and dense prediction within the same architecture, so that one checkpoint supports all three tasks, each in one forward pass. Experiments show that Jeveration generates a 512x512 image in 78 ms, up to 122x faster than existing unified models, while maintaining competitive image quality and dense prediction performance.",
-      "upvotes": 156,
+      "upvotes": 157,
       "github_stars": 163,
       "github_repo": "https://github.com/Carol-lyh/Jeveration",
       "project_page": "https://carol-lyh.github.io/Jeveration/",
@@ -1762,14 +1762,14 @@
       "org": "National University of Singapore",
       "url": "https://huggingface.co/papers/2611.24738",
       "arxiv_url": "https://arxiv.org/abs/2611.24738",
-      "title_ja": "Jeveration: システム1モデルによる画像生成の実現",
-      "summary_ja": "高速な意思決定を行うVLMを用い、共有ランダム状態により一貫性を保ちつつ単一のフォワードパスで画像生成が可能。"
+      "title_ja": "Jeveration: システム1モデルによる画像生成",
+      "summary_ja": "並列予測を行う高速な決定モデルを用いて、高品質な画像を1回の推論で生成する手法。"
     },
     {
       "id": "2611.30989",
       "title": "WorldLeague: Benchmarking Physical Agency",
       "abstract": "AI systems can now operate Blender, follow instructions in complex video games, and manipulate objects with robot arms. What range of physical goals can today's AI systems achieve autonomously? Answering this question requires testing systems on tasks that demand different combinations of perception, memory, planning, and action. We introduce WorldLeague, a benchmark that compares AI systems on a common set of 60 simulated robot tasks by measuring progress toward each task's physical goal from the robot's trajectory. Robots explore scenes to gather evidence in WorldSeek, rearrange objects in WorldShape, and adapt to changes in WorldShift. Tying these goals to a single control interface limits which AI systems can be compared. In WorldLeague, vision-language models (VLMs) choose targets and motions, while vision-language-action models (VLAs) and world-action models (WAMs) use their native controls. For each of six capability dimensions, we measure how much progress a system makes toward its goals (Interactive Score) and how often it achieves them (physical success rate). Together, these measures form the system's Physical Agency Profile. Among 13 representative AI systems, Claude Fable 5.2 achieves 13 of the 60 goals and earns the highest mean Interactive Score (28.58/100). Fable leads in four dimensions, while GPT-6.1-Sol and GPT-6-Astra tie for first on rule-following tasks. Even when VLMs answer every final question correctly, they receive an Interactive Score of zero in 71.8\\% of those episodes. WorldLeague gives Embodied AI, Physical AI, and Agentic AI a shared basis for comparing what AI systems achieve autonomously, from partial progress toward a physical goal to full goal completion. Project Webpage: https://xyangzhou.github.io/WorldLeague",
-      "upvotes": 102,
+      "upvotes": 121,
       "github_stars": 18,
       "github_repo": "https://github.com/xyangzhou/WorldLeague",
       "project_page": "https://xyangzhou.github.io/WorldLeague/",
@@ -1778,7 +1778,7 @@
       "url": "https://huggingface.co/papers/2611.30989",
       "arxiv_url": "https://arxiv.org/abs/2611.30989",
       "title_ja": "WorldLeague: 物理的エージェンシーのベンチマーク",
-      "summary_ja": "知覚・記憶・計画・行動が必要な60のロボットタスクを通じて、AIの物理的な目標達成能力を総合的に評価。"
+      "summary_ja": "知覚・計画・行動が必要な60種のロボットタスクでAIの物理目標達成能力を測定する。"
     },
     {
       "id": "2611.27193",
@@ -1792,8 +1792,8 @@
       "org": "XingChen-AGI",
       "url": "https://huggingface.co/papers/2611.27193",
       "arxiv_url": "https://arxiv.org/abs/2611.27193",
-      "title_ja": "cmHC: 幾何学的収縮によるハイパーコネクションのストリーム混合バランス",
-      "summary_ja": "残差ストリームの混合におけるトレードオフを解明し、混合の集中を防ぎつつ独立性を保つ新たな手法を提案。"
+      "title_ja": "cmHC: 幾何学的収縮によるハイパーコネクションのストリーム混合の調整",
+      "summary_ja": "残差接続を複数ストリームに拡張する際、混合度合いを最適化し表現力を向上させる手法。"
     },
     {
       "id": "2611.31201",
@@ -1808,7 +1808,7 @@
       "url": "https://huggingface.co/papers/2611.31201",
       "arxiv_url": "https://arxiv.org/abs/2611.31201",
       "title_ja": "Embo-Harness: フロンティアモデルを方策とするハーネスの理解に向けて",
-      "summary_ja": "VLMを直接ロボットの方策として使う際の設計原則を体系的に調査し、最適な構成を「レシピ」として提示。"
+      "summary_ja": "多峰性モデルを直接ロボットの方策として使う際の設計原則を体系化し実用的な手法を提案。"
     },
     {
       "id": "2611.27963",
@@ -1823,7 +1823,7 @@
       "url": "https://huggingface.co/papers/2611.27963",
       "arxiv_url": "https://arxiv.org/abs/2611.27963",
       "title_ja": "非貫通型ワールドモデル",
-      "summary_ja": "動画生成における物体の貫通問題を評価するベンチマークを導入し、隠れ状態から貫通を検知・回避する軽量枠組みを提案。"
+      "summary_ja": "動画生成モデルでの物体貫通を防ぐため、内部状態から失敗を予測し回避する軽量フレーム。"
     },
     {
       "id": "2611.30013",
@@ -1837,8 +1837,8 @@
       "org": "Peking University",
       "url": "https://huggingface.co/papers/2611.30013",
       "arxiv_url": "https://arxiv.org/abs/2611.30013",
-      "title_ja": "3AGameFactory-Motion: 多様な3D資産のためのエージェント的リギングと複雑な動作生成",
-      "summary_ja": "多様な形態の3Dモデルに対し、LLMを用いて制約の多い複雑な動作とリギングを生成・比較する手法を導入。"
+      "title_ja": "3AGameFactory-Motion: 多様な3D資産のためのエージェントによるリギングと動作生成",
+      "summary_ja": "多様な形態の3Dモデルに対し、複雑な制約条件下でのリギングとアニメーション生成を評価。"
     },
     {
       "id": "2611.26444",
@@ -1852,8 +1852,8 @@
       "org": "Mind2Act-World",
       "url": "https://huggingface.co/papers/2611.26444",
       "arxiv_url": "https://arxiv.org/abs/2611.26444",
-      "title_ja": "Mind2Act World: ロボット操作における知能、行動、およびその構成の診断ベンチマーク",
-      "summary_ja": "認知推論、物理実行、およびその連携のどこに失敗の原因があるかを特定可能な30のロボット操作タスクを提供。"
+      "title_ja": "Mind2Act World: ロボット操作における認知・行動・合成の診断用ベンチマーク",
+      "summary_ja": "ロボットの失敗が認知、実行、またはその組み合わせのどこに起因するかを特定する評価系。"
     },
     {
       "id": "2611.21373",
@@ -1867,8 +1867,23 @@
       "org": "Tencent",
       "url": "https://huggingface.co/papers/2611.21373",
       "arxiv_url": "https://arxiv.org/abs/2611.21373",
-      "title_ja": "WeVisForensics: 全方位AI生成ビデオ検知のための自己進化型エージェント",
-      "summary_ja": "視覚・音声の専門家エージェントを自己進化させ、連携させることで、AI生成動画の法科学的証拠を適応的に検出。"
+      "title_ja": "WeVisForensics: 万能AI生成動画検知のための自己進化型エージェント",
+      "summary_ja": "視覚・音声の専門家エージェントを動的に調整し、証拠に基づいた信頼性の高い動画検知を実現。"
+    },
+    {
+      "id": "2611.29338",
+      "title": "A Glimpse of Training VLMs as Foundation Models for Robotic Manipulation",
+      "abstract": "Recently, GPT-6 Astra demonstrates strong generalization in robot control, yet limited disclosure of its training leaves open how such capabilities can be reproduced. We introduce nanoAstra, an approach to training vision-language models (VLMs) for generalizable manipulation that combines semantic action modeling with capability-preserving supervised fine-tuning (CP-SFT). nanoAstra represents robot behavior as semantic steps composed of reusable, parameterized action primitives, guided by explicit progress descriptions. Meanwhile, CP-SFT uses an explicit robot-specific system prompt to constrain manipulation outputs to a structured action space, aiming to focus adaptation on robot-specific contexts and promote specialization while minimizing interference with broader pretrained capabilities. With this formulation, we train nanoAstra on more than 5,000 hours of robot data together with general VQA data. On RoboTwin 2.0's randomized benchmark, nanoAstra-9B achieves a 17.8% zero-shot success rate, substantially outperforming advanced VLA and WAM baselines as well as similarly sized VLMs. With inference faster than the corresponding motion execution on a single H20 GPU, our model supports action-chunk-like streaming execution that overlaps inference with motion, reducing the robot's idle time from 35.0% to 6.9%.",
+      "upvotes": 54,
+      "github_stars": 21,
+      "github_repo": "https://github.com/Hugo-AGI/nanoAstra",
+      "project_page": "https://nanoastra.github.io",
+      "comments": 2,
+      "org": "Tsinghua University",
+      "url": "https://huggingface.co/papers/2611.29338",
+      "arxiv_url": "https://arxiv.org/abs/2611.29338",
+      "title_ja": "ロボット操作の基盤モデルとしてのVLM学習の概観",
+      "summary_ja": "意味的な行動モデリングと能力保持微調整により、汎用的なロボット操作VLMを学習する。"
     },
     {
       "id": "2611.30662",
@@ -1882,23 +1897,8 @@
       "org": "Tencent",
       "url": "https://huggingface.co/papers/2611.30662",
       "arxiv_url": "https://arxiv.org/abs/2611.30662",
-      "title_ja": "WeMM-Ecom: WeChat Eコマースのためのマルチモーダル理解の進展",
-      "summary_ja": "Eコマースに特化した大規模データと強化学習を用い、汎用性能と専門能力を両立させたVLMシリーズを開発。"
-    },
-    {
-      "id": "2611.29338",
-      "title": "A Glimpse of Training VLMs as Foundation Models for Robotic Manipulation",
-      "abstract": "Recently, GPT-6 Astra demonstrates strong generalization in robot control, yet limited disclosure of its training leaves open how such capabilities can be reproduced. We introduce nanoAstra, an approach to training vision-language models (VLMs) for generalizable manipulation that combines semantic action modeling with capability-preserving supervised fine-tuning (CP-SFT). nanoAstra represents robot behavior as semantic steps composed of reusable, parameterized action primitives, guided by explicit progress descriptions. Meanwhile, CP-SFT uses an explicit robot-specific system prompt to constrain manipulation outputs to a structured action space, aiming to focus adaptation on robot-specific contexts and promote specialization while minimizing interference with broader pretrained capabilities. With this formulation, we train nanoAstra on more than 5,000 hours of robot data together with general VQA data. On RoboTwin 2.0's randomized benchmark, nanoAstra-9B achieves a 17.8% zero-shot success rate, substantially outperforming advanced VLA and WAM baselines as well as similarly sized VLMs. With inference faster than the corresponding motion execution on a single H20 GPU, our model supports action-chunk-like streaming execution that overlaps inference with motion, reducing the robot's idle time from 35.0% to 6.9%.",
-      "upvotes": 53,
-      "github_stars": 0,
-      "github_repo": "",
-      "project_page": "",
-      "comments": 2,
-      "org": "Tsinghua University",
-      "url": "https://huggingface.co/papers/2611.29338",
-      "arxiv_url": "https://arxiv.org/abs/2611.29338",
-      "title_ja": "ロボット操作用基盤モデルとしてのVLM訓練の概観",
-      "summary_ja": "意味的な行動モデリングと能力保持ファインチューニングにより、汎用的なロボット操作を可能にするVLM訓練法を提案。"
+      "title_ja": "WeMM-Ecom: WeChat eコマースのためのマルチモーダル理解の推進",
+      "summary_ja": "EC特化データとRLを活用し、商品理解や思考モードを備えた多規模なマルチモーダルLLM。"
     },
     {
       "id": "2611.12164",
@@ -1912,8 +1912,8 @@
       "org": "Misraj Ai",
       "url": "https://huggingface.co/papers/2611.12164",
       "arxiv_url": "https://arxiv.org/abs/2611.12164",
-      "title_ja": "Fixerに決めさせる：修正機の確信度からコード局所化モデルを訓練する",
-      "summary_ja": "修正用LLMのスコアを教師として局所化モデルを訓練し、テスト実行なしでバグ特定効率と精度を向上。"
+      "title_ja": "修正器に決めさせる：修正器の尤度を用いたコード局所化器の学習",
+      "summary_ja": "テスト実行なしで、修正モデルが正解を導きやすいコード箇所を予測する効率的な学習手法。"
     },
     {
       "id": "2611.26409",
@@ -1927,8 +1927,8 @@
       "org": "Tencent",
       "url": "https://huggingface.co/papers/2611.26409",
       "arxiv_url": "https://arxiv.org/abs/2611.26409",
-      "title_ja": "WeMM-Video: オープンソース全方位ビデオ理解のフロンティア",
-      "summary_ja": "音声と映像を統合し、「思考モード」で段階的な推論を可能にする日中二言語対応のビデオ理解基盤モデルを構築。"
+      "title_ja": "WeMM-Video: オープンソースの全方位動画理解の最前線",
+      "summary_ja": "音声・視覚を統合し、即答モードと思考モードを切り替え可能な動画理解基盤モデル群。"
     },
     {
       "id": "2611.26629",
@@ -1943,13 +1943,13 @@
       "url": "https://huggingface.co/papers/2611.26629",
       "arxiv_url": "https://arxiv.org/abs/2611.26629",
       "title_ja": "事後分布マッチング蒸留 (PMD)",
-      "summary_ja": "拡散モデルの高速化において、教師モデルの多様性を損なわずに任意のステップ数で高品質な生成を可能にする新手法。"
+      "summary_ja": "教師モデルの多様性を維持しつつ、画像・動画生成を少ないステップ数に高速化する蒸留法。"
     },
     {
       "id": "2611.26954",
       "title": "Learning Video Foresight Reasoning from Unlabeled Videos via On-Policy Self-Distillation",
       "abstract": "Video foresight reasoning requires vision-language models to anticipate future events or next actions from currently observed videos. Existing methods fit future captions, rationales, or full visual states, but face two limitations. First, they rely on annotations or external large models for supervision, limiting scalability. We address this with an on-policy self-distillation framework that turns past-future video pairs into a natural self-supervised signal without extra annotations or LLM supervision. Second, they treat the whole future clip as equally valuable, although most of it is irrelevant context information. We address this by defining a foresight score, from which we obtain a contrastive privilege advantage that drives the model to learn the most valuable future information. Since the score is intractable, we optimize a tractable lower-bound surrogate that interpolates this advantage, computed between the true and a random reference future, with a teacher-student distillation advantage; together, they amplify decision-relevant content information and suppress irrelevant context information. We call the resulting framework Future-OPSD. On open-ended prediction and closed-ended planning, Future-OPSD improves base models by up to 14.2 and 15.9 points without compromising general video understanding. Code will be available at https://jingchensun.github.io/future-opsd/",
-      "upvotes": 43,
+      "upvotes": 44,
       "github_stars": 15,
       "github_repo": "https://github.com/Jingchensun/future-opsd",
       "project_page": "https://jingchensun.github.io/future-opsd/",
@@ -1957,8 +1957,8 @@
       "org": "University at Buffalo",
       "url": "https://huggingface.co/papers/2611.26954",
       "arxiv_url": "https://arxiv.org/abs/2611.26954",
-      "title_ja": "ラベルなし動画からの自己蒸留によるビデオ先読み推論の学習",
-      "summary_ja": "追加アノテーションなしで、過去と未来のペアから重要な変化を特定し、将来の出来事を予測する能力を自己学習。"
+      "title_ja": "ラベルなし動画からのオンポリシー自己蒸留による動画先読み推論の学習",
+      "summary_ja": "注釈なしで過去と未来の動画ペアから未来の出来事や行動を予測する能力を学習する手法。"
     },
     {
       "id": "2611.24636",
@@ -1973,7 +1973,7 @@
       "url": "https://huggingface.co/papers/2611.24636",
       "arxiv_url": "https://arxiv.org/abs/2611.24636",
       "title_ja": "Clover-35B-A3B-Preview テクニカルレポート",
-      "summary_ja": "再帰メモリとアテンションを組み合わせたMoE言語モデルを提案し、エージェントタスクで高い推論性能を達成。"
+      "summary_ja": "再帰メモリとアテンションを組み合わせ、エージェントタスクで高い性能を示す混合精度モデル。"
     },
     {
       "id": "2611.21366",
@@ -1987,8 +1987,8 @@
       "org": "Tsinghua University",
       "url": "https://huggingface.co/papers/2611.21366",
       "arxiv_url": "https://arxiv.org/abs/2611.21366",
-      "title_ja": "ALIVE: ストリーミングビデオモデルをインタラクティブにする",
-      "summary_ja": "監視、タスク調整、フィードバック要求を自ら行う、対話可能なストリーミング動画理解モデルと訓練法を開発。"
+      "title_ja": "ALIVE: ストリーミング動画モデルをインタラクティブにする",
+      "summary_ja": "能動的な監視やフィードバック要求を行い、対話を通じてタスクを遂行する動画LLM。"
     },
     {
       "id": "2611.26595",
@@ -2002,8 +2002,23 @@
       "org": "KlingAI Research",
       "url": "https://huggingface.co/papers/2611.26595",
       "arxiv_url": "https://arxiv.org/abs/2611.26595",
-      "title_ja": "Coda-DaVinci: Code2Videoによる動画生成の再考",
-      "summary_ja": "エージェントが作成した3Dプロキシを用いて動画生成を制御し、構造と物理の整合性を高める適応的な枠組み。"
+      "title_ja": "Coda-DaVinci: Code2Videoによる動画生成の再構築",
+      "summary_ja": "エージェントが生成した3Dプロキシをガイドとして、構造と動力を精密に制御する動画生成。"
+    },
+    {
+      "id": "2611.26603",
+      "title": "Depth Pro 2: Sharp and Temporally Consistent Metric Monocular Depth",
+      "abstract": "We present Depth Pro 2, an approach to estimating dense metric depth for images and video at full resolution. By analyzing prior methods for monocular depth estimation, we find that they commonly trade off temporal consistency and boundary sharpness: multi-frame methods favor consistency, single-frame methods favor sharpness. To overcome this trade-off, we train a single, scalable network that processes both images and video and predicts depth maps at native resolution. Depth Pro 2 produces depth maps that are metrically accurate, sharp, and temporally consistent all at once, outperforming prior work in all of these dimensions. We release a family of models that define a new Pareto frontier in terms of metric accuracy, sharpness, temporal consistency, and runtime. We release code and weights at https://apple-aiml-research.github.io/ml-depth-pro-2/",
+      "upvotes": 39,
+      "github_stars": 684,
+      "github_repo": "https://github.com/apple-aiml-research/ml-depth-pro-2",
+      "project_page": "https://apple-aiml-research.github.io/ml-depth-pro-2/",
+      "comments": 3,
+      "org": "Apple",
+      "url": "https://huggingface.co/papers/2611.26603",
+      "arxiv_url": "https://arxiv.org/abs/2611.26603",
+      "title_ja": "Depth Pro 2: 鮮明で時間的一貫性のある単眼メトリック深度推定",
+      "summary_ja": "境界の鮮明さと動画全体の一貫性を両立し、実解像度で正確な深度を推定する単一ネットワーク。"
     },
     {
       "id": "2611.23068",
@@ -2018,28 +2033,13 @@
       "url": "https://huggingface.co/papers/2611.23068",
       "arxiv_url": "https://arxiv.org/abs/2611.23068",
       "title_ja": "解像度仮説：エージェント進化の鍵は改善の特定にある",
-      "summary_ja": "エージェントの自己進化が停滞するのは、評価のノイズにより「改善」を正しく識別できていないためだとする仮説を検証。"
-    },
-    {
-      "id": "2611.26603",
-      "title": "Depth Pro 2: Sharp and Temporally Consistent Metric Monocular Depth",
-      "abstract": "We present Depth Pro 2, an approach to estimating dense metric depth for images and video at full resolution. By analyzing prior methods for monocular depth estimation, we find that they commonly trade off temporal consistency and boundary sharpness: multi-frame methods favor consistency, single-frame methods favor sharpness. To overcome this trade-off, we train a single, scalable network that processes both images and video and predicts depth maps at native resolution. Depth Pro 2 produces depth maps that are metrically accurate, sharp, and temporally consistent all at once, outperforming prior work in all of these dimensions. We release a family of models that define a new Pareto frontier in terms of metric accuracy, sharpness, temporal consistency, and runtime. We release code and weights at https://apple-aiml-research.github.io/ml-depth-pro-2/",
-      "upvotes": 38,
-      "github_stars": 684,
-      "github_repo": "https://github.com/apple-aiml-research/ml-depth-pro-2",
-      "project_page": "https://apple-aiml-research.github.io/ml-depth-pro-2/",
-      "comments": 3,
-      "org": "Apple",
-      "url": "https://huggingface.co/papers/2611.26603",
-      "arxiv_url": "https://arxiv.org/abs/2611.26603",
-      "title_ja": "Depth Pro 2: 鋭利で時間的一貫性のある単眼メトリック深度推定",
-      "summary_ja": "単一画像と動画の両方に対応し、境界の鋭さと時間的一貫性を両立した高精度なフル解像度深度推定を実現。"
+      "summary_ja": "AIエージェントの進化が停滞するのは、評価のノイズにより良質な改善を識別できないため。"
     },
     {
       "id": "2611.26389",
       "title": "ViDecide: Teaching Video Diffusion Models to Reason and Plan Step by Step",
       "abstract": "Current leading video generation models can synthesize highly realistic videos, while still frequently violating physical and logical constraints in multi-step reasoning and planning, even after training with large-scale reasoning data or existing diffusion RL methods. We attribute these failures to the conventional video training paradigm, which treats a solution as a fixed-length clip rather than a chain of decisions. We present ViDecide, a decision-centric framework that trains video diffusion models to predict state transitions causally and decide when to stop, with a decision-focused training schedule. We further propose Corrective Fine-tuning (CFT), which corrects failed decisions by mapping their noise to the model's own successful continuations, achieving stable improvement without policy-gradient optimization. Across abstract games, planning tasks, and a new benchmark of multi-step robot planning, ViDecide achieves an average strict success rate of 83.8%, far above 23.3% for standard fine-tuning and 67.8% for the strongest prior method, and generalizes to larger puzzles and unseen layouts. Our framework therefore unlocks greater potential for video generation models as reliable reasoners and planners in the visual world. Project page: https://kevin-thu.github.io/ViDecide.",
-      "upvotes": 36,
+      "upvotes": 37,
       "github_stars": 10,
       "github_repo": "https://github.com/Kevin-thu/ViDecide",
       "project_page": "https://kevin-thu.github.io/ViDecide/",
@@ -2047,8 +2047,8 @@
       "org": "MMLab@NTU",
       "url": "https://huggingface.co/papers/2611.26389",
       "arxiv_url": "https://arxiv.org/abs/2611.26389",
-      "title_ja": "ViDecide: ビデオ拡散モデルに段階的な推論と計画を教える",
-      "summary_ja": "動画を意思決定の連鎖として捉え、状態遷移の予測と停止判断を学習させることで物理的・論理的整合性を向上。"
+      "title_ja": "ViDecide: 動画拡散モデルに段階的な推論と計画を教える",
+      "summary_ja": "動画を決定の連鎖として捉え、状態遷移の予測と停止判断を学習させる決定中心の枠組み。"
     },
     {
       "id": "2611.26590",
@@ -2062,8 +2062,8 @@
       "org": "University College London",
       "url": "https://huggingface.co/papers/2611.26590",
       "arxiv_url": "https://arxiv.org/abs/2611.26590",
-      "title_ja": "「意識的」な精神の探索：VLMにおける選択的アクセスとグローバルワークスペース",
-      "summary_ja": "マルチモーダル概念レンズを用いて、VLM内部の概念がモダリティを超えてどのように統合・処理されるかを解明。"
+      "title_ja": "「意識」を探る：VLMにおける選択的アクセスとグローバルワークスペース",
+      "summary_ja": "MC-Lensを用いてVLM内部の概念処理を可視化し、情報の統合と選択の仕組みを解析。"
     },
     {
       "id": "2611.21383",
@@ -2077,14 +2077,29 @@
       "org": "Yonsei University",
       "url": "https://huggingface.co/papers/2611.21383",
       "arxiv_url": "https://arxiv.org/abs/2611.21383",
-      "title_ja": "マスクは物体ではない：3D Gaussian Segmentationのための体積監督",
-      "summary_ja": "レンダリング結果だけでなく、深度構造を利用して隠れたガウス粒子も直接監督する3Dセグメンテーション手法。"
+      "title_ja": "マスクは物体ではない：3D Gaussian Segmentationのための体積監視",
+      "summary_ja": "奥行き構造を利用した新損失により、隠れた部分を含む3Dガウス全体の正確な分離を実現。"
+    },
+    {
+      "id": "2611.31358",
+      "title": "Nemotron-Labs-VisualCreation: Pixel as Code for Agentic Visual Creation",
+      "abstract": "Visual creation demands expressive imagery together with precise control over text, layout, and structure. We introduce Nemotron-Labs-VisualCreation, an agentic framework that connects these capabilities through Pixel as Code. Raster images are represented by learned discrete visual tokens, while structured artifacts use explicit programs. A shared generation-and-rendering interface connects these representations to visual feedback across images, vector graphics, webpages, and documents. A Nemotron-native harness coordinates planning and raster candidate selection, with targeted repair for editable structured and hybrid artifacts. To support this interface, we develop Nemotron-Labs-Image-Tokenizer, the autoregressive raster generator Nemotron-Labs-Image-30B-A3B, and the structured-code model family Nemotron-Labs-VisionCode. On approximately 178K images spanning six visual domains, our tokenizer improves reconstruction PSNR from 26.08 to 29.57 dB over Emu3.5 IBQ. It also provides 7.13x faster encoding and 10.93x faster decoding at batch size one on A100. In standalone evaluation, one Nemotron-Labs-VisionCode variant surpasses Kimi K3.1 Pro on the aggregate across Chart2Code, MMSVG, Design2Code, and Image2Struct. At the system level, the Nemotron-native configuration raises GenEval2 Soft-TIFA GM from 31.71 to 52.56 using the same raster generator. With our best setting, Nemotron-Labs-VisualCreation achieves performance competitive with GPT Image 2 and Nano Banana Pro across most benchmarks with available comparisons.",
+      "upvotes": 35,
+      "github_stars": 0,
+      "github_repo": "",
+      "project_page": "https://huggingface.co/nvidia/Nemotron-Labs-Image-30B-A3B",
+      "comments": 1,
+      "org": "NVIDIA Nemotron",
+      "url": "https://huggingface.co/papers/2611.31358",
+      "arxiv_url": "https://arxiv.org/abs/2611.31358",
+      "title_ja": "Nemotron-Labs-VisualCreation: エージェントによる視覚制作のためのPixel as Code",
+      "summary_ja": "画像をコードとトークンで表現し、対話的な修正や精密なレイアウト制御を可能にする手法。"
     },
     {
       "id": "2611.28202",
       "title": "AutoPILOT: A Visual Agent Harness for Real-Time Gameplay",
       "abstract": "Multimodal foundation models can play video games well when the game waits for them, but often fail when it keeps running. We find that much of this gap lies in the harness, which decides what the model sees, what it remembers, and how its outputs become actions over time. Existing harnesses such as VISTA improve the first two, yet turn each model call into at most one action, so the agent acts only as often as its model thinks. We introduce AutoPILOT, which changes the third: in each model call, the model can send a primitive action, start an open-loop macro, or write a closed-loop controller that keeps playing from the screen without further model calls until it hands control back. To evaluate agents in real-time games, we build AFK-Bench, 120 diverse browser games grouped by how they respond to inaction and playable in real time or with the clock paused. With GPT-6.1 Sol under the same budgets, AutoPILOT reaches 68.6% real-time success against 38.3% for VISTA, and on GameWorld it keeps 80.0% in real time while VISTA drops from 84.1% to 42.9%. Its gains hold across models, and it reaches VISTA's final success rate at a fifth of its API cost. Our results suggest that how a harness turns model outputs into actions over time is a central yet underexplored part of agent design, and we hope AutoPILOT and AFK-Bench will serve as a foundation for agents in a world that does not wait.",
-      "upvotes": 32,
+      "upvotes": 33,
       "github_stars": 0,
       "github_repo": "",
       "project_page": "https://autopilot-harness.github.io/",
@@ -2093,7 +2108,7 @@
       "url": "https://huggingface.co/papers/2611.28202",
       "arxiv_url": "https://arxiv.org/abs/2611.28202",
       "title_ja": "AutoPILOT: リアルタイムゲームプレイのための視覚エージェントハーネス",
-      "summary_ja": "モデルが制御コードを書き出す仕組みにより、思考速度に縛られずリアルタイムで複雑なゲーム操作を継続可能。"
+      "summary_ja": "モデルが制御器を書くことで、推論速度に縛られずリアルタイムなゲーム操作を可能にする。"
     },
     {
       "id": "2611.27376",
@@ -2107,23 +2122,23 @@
       "org": "UCSB AI Group",
       "url": "https://huggingface.co/papers/2611.27376",
       "arxiv_url": "https://arxiv.org/abs/2611.27376",
-      "title_ja": "RL専門家の構成可能なソフトプロンプト蒸留：継続的な学習に向けて",
-      "summary_ja": "各分野の強化学習済みモデルを独立したソフトプロンプトに蒸留・合成することで、既存能力を壊さず能力を拡張。"
+      "title_ja": "RLエクスパートの構成可能なソフトプロンプト蒸留",
+      "summary_ja": "既存モデルを固定したまま、専門能力を個別のプロンプトに蒸留・合成する継続学習手法。"
     },
     {
       "id": "2611.26516",
       "title": "Plan4D: Generative Plannable 4D Worlds",
       "abstract": "Most world models for future prediction prioritize aestetic quality of generated videos, but offer only weak physical grounding and limited geometric consistency over time, due to the lack of explicit 4D modeling. In this paper, we introduce plan4d, a possible next milestone towards building a generative plannable 4D world model that predicts future RGB videos together with dense 4D geometry, including depth, cameras, point clouds, and scene flow from an observed scene context and text-specified actions. Since training data with paired actions and dense 4D annotations is inherently scarce, plan4d leverages the complementary priors of foundational video generators and 3D reconstructors. Specifically, we propose a model-stitching architecture that couples Depth Anything 3 with LongCat-Video and augments it with an auxiliary DPT head for scene-flow prediction. The resulting model allows us to plan and generate complex, long-horizon, and fine-grained actions in a dynamic 3D scenes, while substantially improving both visual fidelity and geometric accuracy of the generated future videos. Extensive experiments on both synthetic and real-world datasets demonstrate that plan4d achieves state-of-the-art performance in generative 4D modeling of environmental reactions. Project Page: https://fogradio.github.io/plan4d-project",
       "upvotes": 29,
-      "github_stars": 21,
+      "github_stars": 24,
       "github_repo": "https://github.com/AMAP-ML/plan4d",
       "project_page": "https://fogradio.github.io/plan4d-project/",
       "comments": 1,
       "org": "AMAP-ML",
       "url": "https://huggingface.co/papers/2611.26516",
       "arxiv_url": "https://arxiv.org/abs/2611.26516",
-      "title_ja": "Plan4D: 生成可能で計画可能な4D世界",
-      "summary_ja": "ビデオ生成と3D再構成を組み合わせ、指定した行動に応じた未来の4D幾何学と映像を予測する世界モデルを構築。"
+      "title_ja": "Plan4D: 生成・計画可能な4Dワールド",
+      "summary_ja": "行動に応じたRGB動画と、奥行き・フローを含む詳細な4Dジオメトリを同時に予測するモデル。"
     },
     {
       "id": "2611.24154",
@@ -2137,8 +2152,8 @@
       "org": "University of Illinois at Urbana-Champaign",
       "url": "https://huggingface.co/papers/2611.24154",
       "arxiv_url": "https://arxiv.org/abs/2611.24154",
-      "title_ja": "Game2Player: 環境とプレイヤーの共同開発によるゲーム体験のスケールアップ",
-      "summary_ja": "Webゲームを自動改変してタスクと状態を定義し、大規模かつ検証可能なプレイデータを収集する枠組みを提案。"
+      "title_ja": "Game2Player: 環境とプレイヤーの共同開発による視覚エージェント体験の拡張",
+      "summary_ja": "既存ゲームを自動改造してタスクと状態を定義し、大規模で検証可能な学習データを収集。"
     },
     {
       "id": "2611.11318",
@@ -2152,8 +2167,8 @@
       "org": "",
       "url": "https://huggingface.co/papers/2611.11318",
       "arxiv_url": "https://arxiv.org/abs/2611.11318",
-      "title_ja": "PROLA: 予測的な時空間気象ダウンスケーリングのための主直交低ランク適応",
-      "summary_ja": "粗い気象データから将来の高解像度な局所気象パターンを予測・生成するための、低コストな学習枠組み。"
+      "title_ja": "PROLA: 予測的時空間気象ダウンスケーリングのための主直交低ランク適応",
+      "summary_ja": "粗い気象データから、空間と時間の解像度を同時に高めた高精度な将来予測を行う手法。"
     },
     {
       "id": "2611.27973",
@@ -2168,33 +2183,45 @@
       "url": "https://huggingface.co/papers/2611.27973",
       "arxiv_url": "https://arxiv.org/abs/2611.27973",
       "title_ja": "MemOnce: 大規模言語モデルのためのスケーラブルなメモリ層",
-      "summary_ja": "最終層の状態のみを固定サイズでメモリに符号化することで、長い文脈でも計算量を抑えつつ詳細を保持する新アーキテクチャ。"
-    },
-    {
-      "id": "2611.26380",
-      "title": "EgoCaptioner: Towards Comprehensive and Fine-Grained Egocentric Video Captioning",
-      "abstract": "Egocentric video captioning requires fine-grained detail and accurate timing, yet current multimodal large language models (MLLMs) often miss brief actions, confuse their order, or misinterpret the wearer's motion. Existing caption formats also offer limited support for combining detailed narration with precise timing. We present EgoCaptioner, which pairs a video-level overview of the setting, participants, and the wearer's overall activity with timed steps whose narration adapts to varying perceptual demands and marks key moments at specific timestamps. We develop a coarse-to-fine annotation pipeline that establishes event structure before expanding step descriptions, yielding 50,000 training examples from eight egocentric video sources. Complementary rewards assess factual accuracy and coverage, measure step-level temporal alignment, and penalize fragmented or redundant narration, guiding caption refinement through Group Relative Policy Optimization (GRPO). To improve the reliability of factual supervision, we supplement caption references with pose-derived motion facts when sensor data are available. Across five egocentric benchmarks, EgoCaptioner achieves leading performance among evaluated open-source models in caption quality, caption-conditioned question answering, and temporal alignment. It also surpasses Gemini 3.1 Pro on PhysCapBench and all evaluated proprietary baselines on Minerva-Ego under the caption-to-QA protocol. Ablations support the complementary roles of factual and temporal rewards and show that coarse-to-fine annotation provides more effective supervision than single-pass annotation.",
-      "upvotes": 26,
-      "github_stars": 11,
-      "github_repo": "https://github.com/cactusqq/EgoCaptioner",
-      "project_page": "https://cactusqq.github.io/EgoCaptioner/",
-      "comments": 2,
-      "org": "KlingAI Research",
-      "url": "https://huggingface.co/papers/2611.26380",
-      "arxiv_url": "https://arxiv.org/abs/2611.26380",
-      "title_ja": "EgoCaptioner: 包括的で詳細な一人称視点ビデオキャプションに向けて",
-      "summary_ja": "一人称視点動画に対し、全体概要とタイムスタンプ付きの精密な行動解説を組み合わせた詳細なデータセットを作成。"
+      "summary_ja": "最終層の状態のみを記憶することで、KVキャッシュの増大を抑えつつ長期間の対話を実現。"
     }
   ],
   "labs": [
+    {
+      "lab": "AlphaSignal",
+      "title": "CTU's iRBL Drone Swarm Navigates Dense Forests With 100% Success",
+      "summary": "A new onboard navigation stack lets drones coordinate through dense forest without GPS, radios, or any messages exchanged between robots. Get AlphaSignal’s 5-minute AI brief, free every weekday morning",
+      "url": "https://alphasignal.ai/paper/ctu-s-irbl-drone-swarm-navigates-dense-forests-with-100-success?utm_source=rss&utm_medium=feed",
+      "published": "2026-11-25T12:06:33+09:00",
+      "title_ja": "iRBLドローンスウォーム、100%の成功率で密集した森林を航行",
+      "summary_ja": "GPSや通信、機体間のメッセージ交換なしで密集した森林を自律調整しながら航行できる新しいナビゲーションスタックを開発。"
+    },
+    {
+      "lab": "AlphaSignal",
+      "title": "Google's Gemma 4 E4B Doubles Mobile AI Speed to 49 Tokens per Second",
+      "summary": "Google's LiteRT community ships Gemma 4 E4B in a mobile-ready format with speculative decoding support across Android, iOS, desktop, web, and Raspberry Pi. Get AlphaSignal’s 5-minute AI brief, free every weekday morning",
+      "url": "https://alphasignal.ai/model/google-s-gemma-4-e4b-doubles-mobile-ai-speed-to-49-tokens-per-second?utm_source=rss&utm_medium=feed",
+      "published": "2026-11-25T11:06:28+09:00",
+      "title_ja": "GoogleのGemma 4 E4B、モバイルAIの速度を毎秒49トークンに倍増",
+      "summary_ja": "LiteRTコミュニティが、AndroidやiOS等で投機的デコードをサポートしたモバイル向けの高速なGemma 4 E4Bを公開。"
+    },
+    {
+      "lab": "AlphaSignal",
+      "title": "Tiny Corp Moves AMD LLM Kernels Into Dedicated slopkernels Module",
+      "summary": "Tinygrad spins out a dedicated kernel library written in Python that emits UIR, its minimalist shape-aware IR, targeting AMD MI300X and beyond. Get AlphaSignal’s 5-minute AI brief, free every weekday morning",
+      "url": "https://alphasignal.ai/news/tiny-corp-moves-amd-llm-kernels-into-dedicated-slopkernels-module?utm_source=rss&utm_medium=feed",
+      "published": "2026-11-25T10:49:45+09:00",
+      "title_ja": "Tiny Corp、AMD向けLLMカーネルを専用のslopkernelsモジュールに移行",
+      "summary_ja": "Pythonで記述された専用カーネルライブラリを分離し、AMD MI300X以降を対象としたミニマリストなIR（UIR）を出力。"
+    },
     {
       "lab": "AlphaSignal",
       "title": "Mantic Scales Inkling 2 Small to 100,000 Forecasts at One-Fifteenth the Cost",
       "summary": "Mantic fine-tuned Inkling 2 Small on Tinker with reinforcement learning, matching frontier forecasting accuracy at 15 times lower cost per prediction. Get AlphaSignal’s 5-minute AI brief, free every weekday morning",
       "url": "https://alphasignal.ai/news/mantic-scales-inkling-2-small-to-100-000-forecasts-at-one-fifteenth-the-cost?utm_source=rss&utm_medium=feed",
       "published": "2026-11-25T10:20:28+09:00",
-      "title_ja": "ManticがInkling 2 Smallを公開、コストを15分の1に削減",
-      "summary_ja": "強化学習により最適化され、既存の予測精度を維持しつつコストを15分の1に抑え、10万件の予測を実行可能。"
+      "title_ja": "Mantic、1/15のコストで10万件の予測を生成するInkling 2 Smallを公開",
+      "summary_ja": "強化学習で微調整されたInkling 2 Smallが、従来の15分の1のコストで最先端モデルに匹敵する予測精度を実現。"
     },
     {
       "lab": "AlphaSignal",
@@ -2202,8 +2229,8 @@
       "summary": "A new open-source template spins up 20 Claude Code agents on real iOS simulators and Android emulators via GitHub Actions, for roughly zero dollars. Get AlphaSignal’s 5-minute AI brief, free every weekday morning",
       "url": "https://alphasignal.ai/repo/claude-code-agents-found-9-of-11-mobile-bugs-for-under-1?utm_source=rss&utm_medium=feed",
       "published": "2026-11-25T10:06:18+09:00",
-      "title_ja": "Claude Codeエージェントが1ドル未満で11件中9件のモバイルバグを発見",
-      "summary_ja": "実機シミュレーター上で20個のClaude Codeエージェントを動かし、低コストでバグ検出を行うオープンソースの仕組み。"
+      "title_ja": "Claude Codeエージェント、1ドル未満で11個中9個のモバイルバグを特定",
+      "summary_ja": "20個のClaude Codeエージェントを実機のシミュレータ上で並列稼働させ、ほぼゼロコストでバグを発見するオープンソーステンプレート。"
     },
     {
       "lab": "AlphaSignal",
@@ -2211,35 +2238,8 @@
       "summary": "Sakana AI's new 30B reasoning model takes NVIDIA's Nemotron 3 Nano, retrains it in-house, and beats a model four times its size on 25 benchmarks. Get AlphaSignal’s 5-minute AI brief, free every weekday morning",
       "url": "https://alphasignal.ai/news/sakana-ai-s-30b-namazu-small-beats-nvidia-s-120b-model-on-25-benchmarks?utm_source=rss&utm_medium=feed",
       "published": "2026-11-25T09:35:45+09:00",
-      "title_ja": "Sakana AIの30Bモデル「Namazu Small」がNVIDIAの120Bモデルを凌駕",
-      "summary_ja": "NVIDIAのモデルを独自に再学習させ、4倍のサイズを持つモデルを25のベンチマークで上回る性能を達成。"
-    },
-    {
-      "lab": "AlphaSignal",
-      "title": "CPCN Loops a Single Layer to Match Deep Network Performance",
-      "summary": "Closing a predictive coding network into a loop lets a small model behave like a deep one, matching ResNet-scale accuracy and solving Sudoku-hard. Get AlphaSignal’s 5-minute AI brief, free every weekday morning",
-      "url": "https://alphasignal.ai/paper/cpcn-loops-a-single-layer-to-match-deep-network-performance?utm_source=rss&utm_medium=feed",
-      "published": "2026-11-25T09:05:18+09:00",
-      "title_ja": "CPCNが単一層のループ構造でディープネットワークに匹敵する性能を実現",
-      "summary_ja": "予測符号化ネットワークをループ化することで、ResNet規模の精度や数独のような難問解決を小規模モデルで可能にした。"
-    },
-    {
-      "lab": "AlphaSignal",
-      "title": "OpenAI Data Shows AI Training Is Accelerating 8x Faster Since 2026",
-      "summary": "OpenAI released pretraining loss data for 13 frontier models showing log-perplexity dropping seven times faster since early 2026, and analysts are split on what it means. Get AlphaSignal’s 5-minute AI brief, free every weekday morning",
-      "url": "https://alphasignal.ai/news/openai-data-shows-ai-training-is-accelerating-8x-faster-since-2026?utm_source=rss&utm_medium=feed",
-      "published": "2026-11-25T08:33:55+09:00",
-      "title_ja": "OpenAIのデータ、AIトレーニングが2026年以降8倍加速したことを示唆",
-      "summary_ja": "13の最先端モデルの学習損失データから、対数パープレキシティの低下速度が2026年初頭より7倍速まったことが判明。"
-    },
-    {
-      "lab": "AlphaSignal",
-      "title": "Anthropic Fellows Turn Raw Neuron Vectors Into Zero-Shot Safety Tools",
-      "summary": "Anthropic Fellows show individual neurons in open-weight LLMs can detect harmful text, steer behavior, and expose backdoors without any training. Get AlphaSignal’s 5-minute AI brief, free every weekday morning",
-      "url": "https://alphasignal.ai/news/anthropic-fellows-turn-raw-neuron-vectors-into-zero-shot-safety-tools?utm_source=rss&utm_medium=feed",
-      "published": "2026-11-25T08:05:42+09:00",
-      "title_ja": "ニューロンベクトルをゼロショットの安全性ツールに変換する手法",
-      "summary_ja": "公開重みLLM内の個別のニューロンが、追加学習なしで有害テキストの検出や行動制御、バックドアの露出を行えることを実証。"
+      "title_ja": "Sakana AIの30Bモデル「Namazu Small」、NVIDIAの120Bモデルを凌駕",
+      "summary_ja": "NVIDIAのモデルを再学習した30B推論モデルが、4倍のサイズを持つモデルを25のベンチマークで上回る性能を記録。"
     },
     {
       "lab": "Hugging Face",
@@ -2247,8 +2247,8 @@
       "summary": "",
       "url": "https://huggingface.co/blog/nvidia/microduck-obstacle-avoidance",
       "published": "2026-11-25T01:34:13+09:00",
-      "title_ja": "Microduckの障害物回避：Isaac LabとNewtonを用いたSim2Realワークフロー",
-      "summary_ja": "Isaac LabとNewtonを活用し、シミュレーションから現実世界への移行を実現する障害物回避ワークフローを提示。"
+      "title_ja": "Microduckの障害物回避：Isaac LabとNewtonによるSim2Realワークフロー",
+      "summary_ja": "Isaac LabとNewtonを活用した、シミュレーションから実環境（Sim2Real）への障害物回避ワークフローの構築。"
     },
     {
       "lab": "OpenAI",
@@ -2256,8 +2256,8 @@
       "summary": "GPT-6 models design protein structures and sequences using reasoning and code. Lab tests found evidence of binding across five targets.",
       "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities",
       "published": "2026-11-24T22:00:00+09:00",
-      "title_ja": "GPT-6モデルが固有のタンパク質設計能力を実証",
-      "summary_ja": "推論とコードを用いてタンパク質の構造と配列を設計し、ラボ試験にて5つのターゲットに対する結合能力が確認された。"
+      "title_ja": "GPT-6モデルがタンパク質設計における本質的な能力を実証",
+      "summary_ja": "推論とコードを用いてタンパク質の構造と配列を設計。臨床試験において5つのターゲットに対する結合の証拠を確認。"
     },
     {
       "lab": "OpenAI",
@@ -2265,8 +2265,8 @@
       "summary": "See how two amateur astronomers used Codex and Astra to find potential exoplanets in public data from NASA’s Kepler and TESS space telescopes.",
       "url": "https://openai.com/index/searching-for-distant-planets-with-astra",
       "published": "2026-11-24T20:00:00+09:00",
-      "title_ja": "Astraを活用した遠近の惑星探索",
-      "summary_ja": "アマチュア天文家がCodexとAstraを使用し、NASAの公開データから未知の系外惑星候補を特定することに成功。"
+      "title_ja": "Astraを用いた遠方の惑星探索",
+      "summary_ja": "アマチュア天文学者がCodexとAstraを使用し、NASAの公開データから未知の系外惑星の候補を発見。"
     },
     {
       "lab": "OpenAI",
@@ -2274,8 +2274,8 @@
       "summary": "Marina Petrova’s dot Aria helps research websites and build proposals, while proactively flagging messages and resolving issues.",
       "url": "https://openai.com/business/customer-stories/intentful-dots",
       "published": "2026-11-24T09:00:00+09:00",
-      "title_ja": "Intentfulがいかにして成長のための時間を創出しているか",
-      "summary_ja": "AIドット「Aria」がウェブ調査や提案書作成、メッセージへの対応を自律的に行い、業務効率化を支援する事例。"
+      "title_ja": "Intentfulがdotを活用して成長時間を創出する方法",
+      "summary_ja": "dotのAriaがウェブ調査や提案書作成を支援し、メッセージへのフラグ立てや問題解決を主体的に実行して業務を効率化。"
     },
     {
       "lab": "OpenAI",
@@ -2283,8 +2283,8 @@
       "summary": "",
       "url": "https://openai.com/business/customer-stories/ifood",
       "published": "2026-11-24T09:00:00+09:00",
-      "title_ja": "iFoodが15,000のリポジトリでコーディングエージェントを拡張する方法",
-      "summary_ja": "膨大な数のリポジトリにおいてコーディングエージェントを大規模に運用・スケーリングするための手法を解説。"
+      "title_ja": "iFoodがいかにして15,000のリポジトリでコーディングエージェントを拡張するか",
+      "summary_ja": "iFoodが1万5千もの膨大なリポジトリ群に対して、コーディングエージェントを大規模に展開・運用する方法の紹介。"
     },
     {
       "lab": "OpenAI",
@@ -2292,8 +2292,8 @@
       "summary": "ChatGPT and Codex integrations help Clay’s users research deals and turn data into go-to-market plays, with GPT-6 models handling the reasoning.",
       "url": "https://openai.com/business/customer-stories/clay-plugins-openai",
       "published": "2026-11-24T09:00:00+09:00",
-      "title_ja": "ClayがCodexとChatGPTで営業チームを支援",
-      "summary_ja": "ChatGPTとCodexを統合し、GPT-6による推論を用いて案件調査やデータに基づく営業戦略の構築を可能にする。"
+      "title_ja": "ClayがCodexとChatGPTで営業チームの勝利を支援",
+      "summary_ja": "ChatGPTとCodexを統合し、商談調査やデータに基づいた戦略立案を支援。GPT-6モデルが高度な推論を担当。"
     },
     {
       "lab": "OpenAI",
@@ -2301,8 +2301,8 @@
       "summary": "OpenAI and Cisco introduce Shirudo, an open-source runtime for Linux. It helps teams protect running systems while they roll out patches.",
       "url": "https://openai.com/index/introducing-shirudo",
       "published": "2026-11-24T06:20:00+09:00",
-      "title_ja": "OpenAIとCiscoがLinux向け実行環境「Shirudo」を発表",
-      "summary_ja": "パッチ適用の作業中に、稼働中のシステムを保護するためのオープンソースのLinux向けランタイムを共同開発。"
+      "title_ja": "OpenAIとCiscoがShirudoを発表",
+      "summary_ja": "パッチ適用のロールアウト中に実行中のシステムを保護するための、Linux向けオープンソースランタイム「Shirudo」を導入。"
     },
     {
       "lab": "Google Research",
@@ -2310,8 +2310,8 @@
       "summary": "Algorithms & Theory",
       "url": "https://research.google/blog/supercharging-transformer-residual-connections/",
       "published": "2026-11-24T02:21:12+09:00",
-      "title_ja": "Transformerの残差接続を強化するアルゴリズム",
-      "summary_ja": "アルゴリズムと理論に基づき、Transformerモデルの残差接続をスーパーチャージして性能を向上させる手法。"
+      "title_ja": "Transformerの残差接続を強化する",
+      "summary_ja": "アルゴリズムと理論の観点から、Transformerモデルにおける残差接続の機能を大幅に強化する手法について解説。"
     },
     {
       "lab": "Hugging Face",
@@ -2319,8 +2319,8 @@
       "summary": "",
       "url": "https://huggingface.co/blog/allenai/robotrack",
       "published": "2026-11-24T02:20:37+09:00",
-      "title_ja": "RoboTrack：実世界のロボット操作におけるポイントトラッキング",
-      "summary_ja": "現実世界のロボットアームなどの操作において、高精度なポイントトラッキングを実現する新技術を紹介。"
+      "title_ja": "RoboTrack：現実世界のロボット操作のためのポイントトラッキング",
+      "summary_ja": "現実の複雑な環境下でロボットが物体を操作するために必要な、精密なポイントトラッキング技術の紹介。"
     },
     {
       "lab": "Google DeepMind",
@@ -2329,7 +2329,7 @@
       "url": "https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/",
       "published": "2026-11-24T01:59:40+09:00",
       "title_ja": "エージェントと形式検証による高速な量子アルゴリズムの発見",
-      "summary_ja": "エージェントチームと形式検証を組み合わせ、核融合や化学分野向けの量子アルゴリズムの性能を改善する取り組み。"
+      "summary_ja": "エージェントチームと形式検証を組み合わせることで、核融合や化学分野に向けた量子アルゴリズムの性能を向上。"
     },
     {
       "lab": "Hugging Face",
@@ -2338,7 +2338,7 @@
       "url": "https://huggingface.co/blog/agentic-evals",
       "published": "2026-11-23T09:00:00+09:00",
       "title_ja": "エージェント評価基盤の構築と維持方法",
-      "summary_ja": "AIエージェントの性能を適切に評価するためのフレームワークの構築手法と、その継続的な運用について解説。"
+      "summary_ja": "AIエージェントの性能を適切に測定し、継続的に改善していくための評価システムの構築・運用ガイド。"
     },
     {
       "lab": "Google Research",
@@ -2346,8 +2346,8 @@
       "summary": "Generative AI",
       "url": "https://research.google/blog/how-google-duplex-evolved-to-also-call-businesses-for-you-in-gemini/",
       "published": "2026-11-21T08:30:30+09:00",
-      "title_ja": "Google DuplexがGemini内でビジネス電話代行へと進化した経緯",
-      "summary_ja": "生成AIの進化に伴い、Google Duplexがユーザーに代わって店舗等へ電話をかける機能をGeminiに統合した過程を紹介。"
+      "title_ja": "Google DuplexがGeminiで店舗への電話予約代行へと進化した経緯",
+      "summary_ja": "自動音声技術のDuplexがGeminiに統合され、ユーザーに代わってビジネスへの電話連絡を行うまでに至った進化の過程。"
     },
     {
       "lab": "Apple ML",
@@ -2355,8 +2355,8 @@
       "summary": "We present Depth Pro 2, an approach to estimating dense metric depth for images and video at full resolution. By analyzing prior methods for monocular depth estimation, we find that they commonly trade off temporal consistency and boundary sharpness: multi-frame methods favor consistency, single-frame methods favor sharpness. To overcome this trade-off, we train a single, scalable network that processes both images and video and predicts depth maps at native resolution. Depth Pro 2 produces depth maps that are metrically accurate, sharp, and temporally consistent all at once, outperforming…",
       "url": "https://machinelearning.apple.com/research/depth-pro-2-monocular",
       "published": "2026-11-20T09:00:00+09:00",
-      "title_ja": "Depth Pro 2：鮮明で時間的一貫性のある単眼奥行き推定",
-      "summary_ja": "画像と動画から高精度かつ境界が鮮明で、時間的なブレが少ない絶対的な奥行き情報を予測できるスケーラブルなネットワーク。"
+      "title_ja": "Depth Pro 2：鮮明で時間的一貫性のある単眼距離推定",
+      "summary_ja": "単一のネットワークで、画像と動画の両方から境界が鮮明かつ時間的に安定した高精度な距離マップをネイティブ解像度で生成。"
     },
     {
       "lab": "Hugging Face",
@@ -2364,8 +2364,8 @@
       "summary": "",
       "url": "https://huggingface.co/blog/inkling2mini",
       "published": "2026-11-20T09:00:00+09:00",
-      "title_ja": "ローカル環境に最先端の性能をもたらす「Inkling 2 Mini」登場",
-      "summary_ja": "ローカルのセットアップ環境でも動作するよう設計された、最先端の性能を持つ小型モデルInkling 2 Miniを公開。"
+      "title_ja": "ローカル環境で最先端の性能を発揮するInkling 2 Miniが登場",
+      "summary_ja": "個人のローカルセットアップ環境でも動作し、最先端のパフォーマンスを提供する小型モデル「Inkling 2 Mini」の紹介。"
     },
     {
       "lab": "Hugging Face",
@@ -2373,8 +2373,8 @@
       "summary": "",
       "url": "https://huggingface.co/blog/harness-adapters-at-scale",
       "published": "2026-11-20T09:00:00+09:00",
-      "title_ja": "ハーネスアダプターの導入：モデルの適合による性能とコストの改善",
-      "summary_ja": "好みのモデルを特定の評価ハーネスに適合させ、コストを抑えつつ最大限の性能を引き出すためのアダプターを紹介。"
+      "title_ja": "harnessアダプターの導入：モデルを最適化し性能向上とコスト削減を実現",
+      "summary_ja": "好みのモデルを独自のハーネスに適合させ、パフォーマンスの最大化と運用コストの最適化を可能にするアダプターの紹介。"
     },
     {
       "lab": "Google Research",
@@ -2383,7 +2383,7 @@
       "url": "https://research.google/blog/a-game-you-cannot-win-unless-you-have-a-quantum-computer/",
       "published": "2026-11-20T05:03:00+09:00",
       "title_ja": "量子コンピュータなしでは勝てないゲーム",
-      "summary_ja": "量子力学的な優位性を証明するために設計された、量子コンピュータを用いることで初めて勝利可能になるゲームの解説。"
+      "summary_ja": "量子コンピューティング特有の性質を利用しなければ攻略不可能な課題を通じ、量子技術の優位性を解説。"
     },
     {
       "lab": "Google DeepMind",
@@ -2392,7 +2392,7 @@
       "url": "https://deepmind.google/blog/introducing-gemini-4-neon/",
       "published": "2026-11-19T06:35:43+09:00",
       "title_ja": "Gemini 4 Neonの紹介",
-      "summary_ja": "Googleの次世代AIモデルシリーズにおける、新たなラインナップ「Gemini 4 Neon」の発表。"
+      "summary_ja": "Googleが発表したGemini 4シリーズの新しいモデル「Neon」に関する紹介。"
     },
     {
       "lab": "Hugging Face",
@@ -2400,8 +2400,8 @@
       "summary": "",
       "url": "https://huggingface.co/blog/RadixArk/daisyrose-27b-pushing-the-frontier-of-post-trainin",
       "published": "2026-11-19T04:54:56+09:00",
-      "title_ja": "DaisyRose-27B：事後学習効率の限界に挑む",
-      "summary_ja": "27Bパラメータ規模で、モデルの事後学習プロセスにおける効率性を飛躍的に高めた新たなフロンティアモデル。"
+      "title_ja": "DaisyRose-27B：ポストトレーニング効率の限界に挑む",
+      "summary_ja": "27Bパラメータを持ち、学習後の最適化プロセスにおいて極めて高い効率性と性能を両立した新しいモデル。"
     },
     {
       "lab": "Google DeepMind",
@@ -2410,7 +2410,7 @@
       "url": "https://deepmind.google/blog/genie-4-is-now-available/",
       "published": "2026-11-19T03:13:42+09:00",
       "title_ja": "Genie 4が利用可能に",
-      "summary_ja": "最新のAIモデル「Genie 4」が正式にリリースされ、ユーザーが利用できるようになったことを発表。"
+      "summary_ja": "最新世代のモデルまたはツールである「Genie 4」の正式リリースと提供開始の案内。"
     },
     {
       "lab": "Apple ML",
@@ -2418,8 +2418,8 @@
       "summary": "Latent 3D representations have significantly expanded the capabilities of modern shape modeling, enabling compact encoding of 3D scenes and supporting powerful 3D generative models. Despite this progress, current representations struggle to capture the fine details of complex objects, fundamentally limited by the capacity of their latents. However, scaling latent capacity at training time is computationally expensive and often infeasible under memory limits, and naively increasing the number of latents at inference fails to make effective use of the added capacity. In this paper, we address…",
       "url": "https://machinelearning.apple.com/research/split-scale-latent-3d",
       "published": "2026-11-16T09:00:00+09:00",
-      "title_ja": "Split-and-Scale Latent 3D Representations",
-      "summary_ja": "計算負荷を抑えつつ潜在容量を拡張し、複雑な3Dシーンの微細なディテールを忠実に再現する新たな3D生成モデル表現手法。"
+      "title_ja": "Split-and-Scale：潜在3D表現の分割と拡張",
+      "summary_ja": "計算負荷を抑えつつ潜在容量を拡張し、複雑な物体の微細なディテールを正確に捉える新しい3D形状モデリング手法。"
     },
     {
       "lab": "Google Research",
@@ -2428,7 +2428,7 @@
       "url": "https://research.google/blog/advancing-science-engineering-with-antigravitys-teamwork-feature/",
       "published": "2026-11-14T05:47:18+09:00",
       "title_ja": "Antigravityの「/teamwork」による科学とエンジニアリングの進展",
-      "summary_ja": "教育イノベーションの枠組みにおいて、チームワークを支援する新機能が科学・工学分野の発展を加速させる。"
+      "summary_ja": "教育イノベーションの一環として、チームワークを支援する新機能が科学・工学分野の発展をどのように加速させるかを解説。"
     },
     {
       "lab": "Google DeepMind",
@@ -2437,7 +2437,7 @@
       "url": "https://deepmind.google/blog/introducing-gemini-4-hydrogen/",
       "published": "2026-11-13T03:00:50+09:00",
       "title_ja": "Gemini 4 Hydrogenの紹介",
-      "summary_ja": "Gemini 4シリーズの新たなバリエーションとして、特定の性能や用途に特化した「Hydrogen」モデルを導入。"
+      "summary_ja": "Googleの次世代AIラインナップであるGemini 4シリーズに加わった新モデル「Hydrogen」の発表。"
     },
     {
       "lab": "Apple ML",
@@ -2445,8 +2445,8 @@
       "summary": "Language model (LM) alignment improves model outputs to reflect human preferences while preserving the capabilities of the base model. The most common alignment approaches are (i) reinforcement learning, which maximizes the expected reward under a KL-divergence constraint, and (ii) best-of-NNN alignment, which selects the highest-reward output among NNN independent samples. Despite their widespread use, the fundamental limits of reward improvement under a KL budget remain poorly understood. We characterize the information-theoretic limits of KL-regularized alignment by deriving the maximum…",
       "url": "https://machinelearning.apple.com/research/theoretical-limits-alignment",
       "published": "2026-11-12T09:00:00+09:00",
-      "title_ja": "言語モデルアライメントの理論的限界",
-      "summary_ja": "KLダイバージェンス制約下での報酬最大化において、情報理論に基づきアライメントによる改善の限界値を解明。"
+      "title_ja": "言語モデルのアライメントにおける理論的限界",
+      "summary_ja": "RLやBest-of-N手法における報酬改善とKLダイバージェンスの制約関係を、情報理論的に解明し限界を特定。"
     },
     {
       "lab": "Google Research",
@@ -2454,8 +2454,8 @@
       "summary": "Health & Bioscience",
       "url": "https://research.google/blog/using-wearables-to-enable-cardiovascular-kidney-metabolic-ckm-risk-profiling-for-personalized-coaching/",
       "published": "2026-11-12T04:54:00+09:00",
-      "title_ja": "ウェアラブル端末を用いたCKMリスク評価による個別化コーチング",
-      "summary_ja": "ウェアラブルデバイスのデータから心血管・腎臓・代謝のリスクを分析し、個々に適した健康コーチングを提供する取り組み。"
+      "title_ja": "ウェアラブルを活用したCKMリスク予測と個別コーチングの実現",
+      "summary_ja": "ウェアラブル端末のデータを用いて心血管・腎臓・代謝のリスクをプロファイリングし、個人に最適化された健康指導を提供。"
     }
   ]
 }
