@@ -11,3 +11,7 @@ Portfolio/.env
 # local design work (mockups) and preview config
 Portfolio/idea/
 Portfolio/.claude/
+
+# Illustrator working files
+*.ai
+~ai-*.tmp
