@@ -96,7 +96,7 @@
 % \printname is used to output the user's name in a large size
 \newcommand{\printname}{
 	\begingroup
-		\hfil{\MakeUppercase{\huge\bfseries\name}}\hfil % Style and output the user's name
+		\hfil{\MakeUppercase{\huge\sffamily\bfseries\name}}\hfil % Style and output the user's name
 		\bigskip\break % Vertical whitespace below name
 	\endgroup
 }
@@ -121,7 +121,7 @@
 % Defines the rSection environment for the major sections within the CV
 \newenvironment{rSection}[1]{ % The single parameter is for the section title
 	\medskip % Vertical whitespace
-	\MakeUppercase{\textbf{#1}} % Section title
+	\MakeUppercase{\sffamily\bfseries #1} % Section title (Linux Biolinum bold, as in the thesis headings)
 	\medskip % Vertical whitespace
 	\hrule % Horizontal rule
 	\begin{list}{}{ % List to indent the entire content of the section
@@ -137,14 +137,14 @@
 %----------------------------------------------------------------------------------------
 
 \newenvironment{rSubsection}[4]{ % 4 parameters: company name, year(s) employed, job title and location
-	\textbf{#1} \hfill {#2} % Bold company name and date to the right
+	{\sffamily\bfseries #1} \hfill {#2} % Bold (Biolinum) company name and date to the right
 	\ifthenelse{\equal{#3}{}}{}{ % If the third parameter is empty, don't output the job title and location line
 		\\ % Job title and location on a new line
 		\textit{#3} \hfill \textit{#4} % Output job title and location
 	}%
 	\smallskip % Vertical whitespace
 	\begin{list}{$\cdot$}{\leftmargin=0em} % \cdot used for bullets, no indentation
-		\setlength{\itemsep}{-0.5em} \vspace{-0.5em} % Reduce vertical spacing between items in the list for a tighter look
+		\setlength{\itemsep}{-0.25em} \vspace{-0.5em} % Spacing between items (was -0.5em; widened a little for readability)
 }{
 	\end{list}
 	\vspace{0.5em} % Vertical whitespace after the end of the list

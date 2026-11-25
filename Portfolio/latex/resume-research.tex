@@ -26,27 +26,27 @@
 	11pt, % Default font size, can use 10pt, 11pt or 12pt
 ]{resume} % Use the resume class
 
-\usepackage{ebgaramond} % Use the EB Garamond font
+\usepackage{libertine} % English: Linux Libertine (same as the thesis)
+\usepackage{libertinust1math}
+\usepackage[haranoaji]{pxchfon} % Japanese: Harano Aji Mincho / Gothic (same as the thesis)
 \usepackage[dvipdfm,linkcolor=blue,anchorcolor=blue,urlcolor=blue,colorlinks=true]{hyperref}
 \urlstyle{same}
 \usepackage{pxjahyper}
+\usepackage{needspace}
+\usepackage{xurl} % URLを任意の場所で折り返せるようにする
+\usepackage[dvipdfm,linkcolor=blue,anchorcolor=blue,urlcolor=blue,colorlinks=true]{hyperref}
 
 \name{Kan Kusakabe} % Your name to appear at the top
 
 \address{Hokkaido University, Japan}
 \address{kusakabe.kan.v5@elms.hokudai.ac.jp}
-\address{\url{https://kankusakabe.github.io/Portfolio}}
+\address{\url{https://kankusakabe.github.io/}}
 
 
 \begin{document}
 
-\begin{rSection}{Research Topic}
-Human-Computer Interaction (HCI); Interaction Technique for Mobile Device; Gesture Design; Sensing Technique; Machine Learning (ML); 3D Printing; UI/UX.
-\end{rSection}
-\begin{rSection}{Fellow}
-1. Hokkaido University EXEX Doctoral Fellowship. 2024--2027. \$3,000 annual and stipend.
-
-2. HOKUDAI TECH GARAGE Project. 2 months (March-April 2022), \$ 2,000 per project.
+\begin{rSection}{Research Interest}
+Human-Computer Interaction (HCI); Interaction Technique for Mobile Device; Accessibility; Sensing Technique; UI/UX.
 \end{rSection}
 
 %%%%%%%%%%%%	EDUCATION SECTION
@@ -64,7 +64,7 @@ Human-Computer Interaction (HCI); Interaction Technique for Mobile Device; Gestu
 	Bachelor of Computer Science, Advisor: Daisuke Sakamoto 
 	% Overall GPA: 5.678
 
-    \textbf{National Institute of Technology(KOSEN), Gifu College, Japan} \hfill \textit{April 2015 -- March 2020} \\ 
+    \textbf{National Institute of Technology (KOSEN) Gifu College, Japan}, \\ A unique 5-year engineering college system in Japan. \hfill \textit{April 2015 -- March 2020} \\ 
 	Associate Degree of Engineering, Advisor: Deguchi Toshinori
 	% Overall GPA: 5.678
     	
@@ -74,47 +74,78 @@ Human-Computer Interaction (HCI); Interaction Technique for Mobile Device; Gestu
 \begin{rSection}{Papers}
     
 	\begin{rSubsection}{Peer-reviewed International Conferences}{}{}{}
+        \item \underline{\textbf{Kan Kusakabe}}, Yuki Abe, Karthick Anandan, Daisuke Sakamoto, Kotaro Hara. Enhancing Object Retrieval via Phase-Aware 3D Spatial Guidance for Blind and Low-Vision Users. The 2026 ACM International Joint Conference on Pervasive and Ubiquitous Computing (UbiComp 2026), Poster, Shanghai, October 2026. (\textbf{Best Poster Award Runner-up}). [DOI: TBD]
         \item Yuki Abe*, \underline{\textbf{Kan Kusakabe*}}, Myungguen Choi*, Daisuke Sakamoto, Tetsuo Ono. *Joint first authors. Understanding Usability of VR Pointing Methods with a Handheld-style HMD for Onsite Exhibitions. ACM CHI Conference on Human Factors in Computing Systems (CHI 2025), ACM, April 2025. (Conference acceptance rate: 27 \%; \textbf{Honorable Mentions: top 5 \% of submitted papers}). [\href{https://doi.org/10.1145/3706598.3713874}{doi}]
         
     \end{rSubsection}
-    \begin{rSubsection}{Peer-reviewed Domestic Journals}{}{}{}
+    \begin{rSubsection}{Peer-reviewed Journals}{}{}{}
+		\item \underline{\textbf{Kan Kusakabe}}, Kaori Ikematsu, Daisuke Sakamoto, Tetsuo Ono. BodSockets: Enabling Back-of-Device Interaction on Smartphones with Socket-based Interface. Transactions of the Information Processing Society of Japan, Vol. 66, No. 12, 2025. [\href{https://doi.org/10.20729/0002006344}{doi}]
+        
 		\item \underline{\textbf{Kan Kusakabe}}, Daisuke Sakamoto, Tetsuo Ono. RingSense: Exploring User-defined Gestures for Phone Ring Holders. Transactions of the Information Processing Society of Japan, Vol. 66, No. 2, Feb. 2025. [\href{https://doi.org/10.20729/0002000028}{doi}]
     \end{rSubsection}
     \begin{rSubsection}{Peer-reviewed Domestic Conferences}{}{}{}
-		\item \underline{\textbf{Kan Kusakabe}}, Daisuke Sakamoto, Tetsuo Ono. スマートフォン背面のジェスチャ入力を実現するスマホリング型デバイスの設計と実装. 第30回インタラクティブシステムとソフトウェアに関するワークショップ（WISS 2022），日本ソフトウェア科学会, pp.8-14，December 2022. (\textbf{Long-press, acceptance rate: 12.5\%}). [\href{https://www.wiss.org/WISS2022Proceedings/data/02.pdf}{link}]
+		\item Shingo Toyoda, \underline{\textbf{Kan Kusakabe}}, Daisuke Sakamoto. KanaShark: Exploration of Japanese Gesture Input Method based on SHARK2 (in Japanese). The 33rd Workshop on Interactive Systems and Software (WISS'25), Japan Society for Software Science and Technology, pp.158-164, December 2025. Sponsor Award. [\href{https://www.wiss.org/WISS2025/downloads/proceedings.pdf}{pdf}]
+        
+		\item Hiromu Kobayashi, Yuto Suzuki, \underline{\textbf{Kan Kusakabe}}, Daisuke Sakamoto. Proposal and Evaluation of a Redirection Method based on Unperceived Thresholds for Relieving Physical Constraints in Seated Positions (in Japanese). The 33rd Workshop on Interactive Systems and Software (WISS'25), Japan Society for Software Science and Technology, pp.126-133, December 2025. [\href{https://www.wiss.org/WISS2025/downloads/proceedings.pdf}{pdf}] 
+        
+		\item \underline{\textbf{Kan Kusakabe}}, Daisuke Sakamoto, Tetsuo Ono. Design and Implementation of a Phone-Ring-Type Device for Back-of-Device Gesture Interaction (in Japanese). The 30th Workshop on Interactive Systems and Software (WISS'22), Japan Society for Software Science and Technology, pp.8-14, December 2022. (Long-press, acceptance rate: 12.5\%). [\href{https://www.wiss.org/WISS2022Proceedings/data/02.pdf}{pdf}]
+        
 	\end{rSubsection}
     
 	\begin{rSubsection}{Other Publications (Non-peer-reviewed)}{}{}{}
-		\item \underline{\textbf{Kan Kusakabe*}}, Yuki Abe*, Daisuke Sakamoto, Tetsuo Ono. *Joint first author. Game-2-X: 種類が異なるゲームプレイ間を繋ぐシステムの提案. 第31回インタラクティブシステムとソフトウェアに関するワークショップ（WISS 2023），日本ソフトウェア科学会, デモンストレーション発表. December 2023. [\href{https://www.wiss.org/WISS2023Proceedings/data/1-A03.pdf}{link}]
-		\item \underline{\textbf{Kan Kusakabe}}, Myungguen Choi, Daisuke Sakamoto, Tetsuo Ono. 無段階調整インタフェースのためのハンドジェスチャによる操作手法の探索的研究. 情報処理学会 研究報告ヒューマンコンピュータインタラクション（HCI）, 2022-HCI-197(25), 1-8, March 2022. [\href{http://id.nii.ac.jp/1001/00217337/}{link}]
+		\item \underline{\textbf{Kan Kusakabe}}, Yuki Abe, Jaylee Soh, Karthick Anandan, Daisuke Sakamoto, Kotaro Hara. PhaseNav: Assisting Object Retrieval for Blind and Low-Vision People via Phase-Aware Spatial Guidance (in Japanese). The 34th Workshop on Interactive Systems and Software (WISS'26), Japan Society for Software Science and Technology, Demonstration. December 2026. [\href{https://www.wiss.org/WISS2026/demo.html}{web}]
+
+		\item \underline{\textbf{Kan Kusakabe}}, Yuki Abe, Daisuke Sakamoto. BeMyARm: The Assistive Technology for Camera Aiming for the blind and Low-Vision People (in Japanese). The 33rd Workshop on Interactive Systems and Software (WISS'25), Japan Society for Software Science and Technology, Demonstration. December 2025. [\href{https://www.wiss.org/WISS2025/demo.html}{web}]
+		\item \underline{\textbf{Kan Kusakabe*}}, Yuki Abe*, Daisuke Sakamoto, Tetsuo Ono. *Joint first author. Game-2-X: A System Connecting Different Types of Gameplay (in Japanese). The 31st Workshop on Interactive Systems and Software (WISS'23), Japan Society for Software Science and Technology, Demonstration. December 2023. [\href{https://www.wiss.org/WISS2023Proceedings/data/1-A03.pdf}{pdf}]
+        
+		\item \underline{\textbf{Kan Kusakabe}}, Myungguen Choi, Daisuke Sakamoto, Tetsuo Ono. Exploratory Study of Hand Gesture Interaction for Stepless Adjustment Interfaces (in Japanese). Information Processing Society of Japan, 2022-HCI-197(25), 1-8, March 2022. [\href{https://ipsj.ixsq.nii.ac.jp/records/217445}{web}]
 	\end{rSubsection}
 
     \begin{rSubsection}{Invited Talks}{}{}{}
-		\item Public Lecture / Yokohama City MICE Next-Generation Development Initiative: CHI 2025 Symposium. April 26 2025. [\href{https://sigchi.jp/symposium/chi2025_symposium/}{url}]
+        \item The 33rd Workshop on Interactive Systems and Software. December 4 2025. [\href{https://www.wiss.org/WISS2025/demo.html}{web}]
+        
+        \item The 24th Forum on Information Technology. September 5 2025. [\href{https://www.ipsj.or.jp/event/fit/fit2025/index.html}{web}]
+    
+		\item Public Lecture / Yokohama City MICE Next-Generation Development Initiative: CHI 2025 Symposium. April 26 2025. [\href{https://sigchi.jp/symposium/chi2025_symposium/}{web}]
+        
 	\end{rSubsection}
 
 \end{rSection}
 
-%%%%%%%%%%%%	TECHNICAL STRENGTHS SECTION
-\begin{rSection}{Technical Strengths}
-    \textbf{Domain}: Rapid Prototyping, 3D Print, Mobile Application, Machine-Learning (ML)
+%%%%%%%%%%%%	AWARDS SECTION
+\begin{rSection}{Awards}
+	\item \textbf{Best Poster Award Runner-up}, UbiComp 2026, October 2026. Enhancing Object Retrieval via Phase-Aware 3D Spatial Guidance for Blind and Low-Vision Users. [\href{https://www.ubicomp.org/ubicomp-iswc-2026/awards-all/}{url}]
+	\item \textbf{Sponsor Award (Dentsu Lab Tokyo Prize)}, WISS 2025, December 2025. KanaShark: Exploration of Japanese Gesture Input Method based on SHARK2 (in Japanese). [\href{https://www.wiss.org/WISS2025/award.html}{url}]
+	\item \textbf{Honorable Mention Award (top 5\% of submitted papers)}, ACM CHI 2025, April 2025. Understanding Usability of VR Pointing Methods with a Handheld-style HMD for Onsite Exhibitions. [\href{https://programs.sigchi.org/chi/2025/awards/honorable-mentions}{url}]
+\end{rSection}
+\begin{rSection}{Service}{}{}{}
+    - ACM CHI 2027 (Paper Track)
 
-    \textbf{Programming Languages}:
-    Python, C, C\#, JavaScript, PHP, Swift, Objective-C, Kotlin, Java, Arduino, Processing, Dart, LATEX
+    - ACM CHI 2026 (Paper Track)
+\end{rSection}
 
-    \textbf{Frameworks \& Libraries}:
-    Tensorflow, Pytorch, Next.js, Flutter, React, Unity
+\begin{rSection}{Fellow}
+    1. Hokkaido University EXEX Doctoral Fellowship. 2024--2027. \$3,000 annual and stipend.
     
-    \textbf{Platforms \& Development Environments}:
-    Android, iOS, Web (Frontend, Backend, Database), Mac, Arduino Platform, Raspberry Pi
-
-    \textbf{Design}:
-    Adobe (Illustrator, Photoshop, Premiere Pro, After Effects, Audition, Figma), Fusion 360
+    2. HOKUDAI TECH GARAGE Project. 2 months (March-April 2022), \$ 2,000 per project.
 \end{rSection}
 
 
+%%%%%%%%%%%%	TECHNICAL STRENGTHS SECTION
+\needspace{9\baselineskip} % 見出しだけがページ末に残らないようにする
+\begin{rSection}{Technical Strengths}
+    - \textbf{Domain}: Rapid Prototyping, 3D Print, Mobile Application, Machine-Learning (ML)
 
+    - \textbf{Programming Languages}:
+    Python, C, C\#, JavaScript, PHP, Swift, Objective-C, Kotlin, Java, Arduino, Processing, Dart, LATEX
 
+    - \textbf{Frameworks \& Libraries}:
+    Tensorflow, Pytorch, Next.js, Flutter, React, Unity
+    
+    - \textbf{Platforms \& Development Environments}:
+    Android, iOS, Web (Frontend, Backend, Database), Mac, Arduino Platform, Raspberry Pi
 
-
+    - \textbf{Design}:
+    Adobe (Illustrator, Photoshop, Premiere Pro, After Effects, Audition, Figma), Fusion 360
+\end{rSection}
 \end{document}

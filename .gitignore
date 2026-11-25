@@ -15,3 +15,12 @@ Portfolio/.claude/
 # Illustrator working files
 *.ai
 ~ai-*.tmp
+
+# LaTeX の作業ファイル（Portfolio/latex）。PDF は成果物として管理する
+Portfolio/latex/*.aux
+Portfolio/latex/*.dvi
+Portfolio/latex/*.log
+Portfolio/latex/*.out
+Portfolio/latex/*.fls
+Portfolio/latex/*.fdb_latexmk
+Portfolio/latex/*.synctex.gz
