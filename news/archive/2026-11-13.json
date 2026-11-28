@@ -260,17 +260,6 @@
               "fetched_at": "2026-11-13T11:27:40.965400+09:00"
             },
             {
-              "headline": "スペインで住宅問題を巡る大規模デモ、政府が緊急対策を承認",
-              "content": "スペイン政府は、住宅価格の高騰に対する大規模な抗議活動を受け、新たな住宅対策を承認した。14年ぶりとなるゼネラルストライキが実施されるなど、怒りは全土に広がっており、今後の総選挙の結果次第では対策の継続性が危ぶまれている。",
-              "impact": "欧州各国で共通する生活費危機と格差問題が、社会不安として表面化している事例。スペインの経済活動の停滞や政治的混乱は、ユーロ圏の安定性に影響を及ぼす可能性がある。日本においても不動産価格の高騰は社会問題化しており、他国の政策対応とその帰結は先行事例として参照される。",
-              "date": "11/12",
-              "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNdXBKWGJabnpPdWxiMlVyeVJmOVB6OGpsX0RNeXVmeEhwRzhnLW1SeXRMZ0h5ZG1TWE9nYXNfZDVfcmxyRl9KZlpsSklrRzhSYnEtaWI1SURoRjFvZzBSeUNqeFpsaGgybjc3amdXUm9YeVVQTGl4T1dVdF9sMV85TlpfLUJ6MUc5cjFhSnBtRi1kVE1qaElUbC1rVVZHaWN4eEhKVldBZUs?oc=5",
-              "importance": 3,
-              "novelty": 3,
-              "japan_relevance": 2,
-              "fetched_at": "2026-11-13T11:27:40.965400+09:00"
-            },
-            {
               "headline": "Microsoftのサービス障害が数時間継続、OutlookやTeamsに深刻な影響",
               "content": "Microsoftのクラウドサービスで大規模な障害が発生し、OutlookやTeamsが数時間にわたり数千人のユーザーで利用不能となった。原因の詳細は調査中だが、ビジネスコミュニケーションに大きな支障が出た。",
               "impact": "主要なクラウドインフラへの過度な依存が露呈した形。業務停止による経済的損失に加え、SaaSモデルの信頼性に対する再評価を促す。日本国内でもTeamsを標準導入している企業が多く、デジタルインフラの冗長化やディザスタリカバリの重要性が改めて浮き彫りとなった。",
@@ -280,28 +269,6 @@
               "novelty": 3,
               "japan_relevance": 4,
               "fetched_at": "2026-11-13T11:27:40.965400+09:00"
-            },
-            {
-              "headline": "イスラエル新議会が発足。アイゼンコット氏がネタニヤフ路線の撤回を掲げる",
-              "content": "イスラエルの新議会が招集され、アイゼンコット氏がネタニヤフ前政権の政策を覆すためのアジェンダを発表しました。ガザ紛争や司法改革を巡り分裂した国内政治の再編と、新政権樹立に向けた動きが活発化しています。",
-              "impact": "イスラエルの国内政治の流動化は、ガザでの戦闘継続やヒズボラ、イランへの強硬姿勢に変化をもたらす可能性があります。政権交代が実現すれば、中東和平プロセスへのアプローチが再構築される可能性があり、地域安定化への分水嶺となるニュースです。",
-              "date": "11/11",
-              "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOQ1pwamowLTNQNERPRUUyTzRWWGxYVGo1MnRlYjl0UGR3OEhtclpFSXRmRjc1YThpTUJJcWlVWHVJVnVNajQ5dHJCd08tTXdtQW5Ya3YtODVhUVVvLVE2SUYxLXpUOW5QVWFZVVU0UHFfTWoydGh2MG93NlFBTUt2Mjk2VXVHYkc5b0NJOGdZR21hZTFOWVFSY0xWcVJ0bWZ4MHZ6el9QRmJWalZaOGdya1B5cmRwNDJvTkE?oc=5",
-              "importance": 3,
-              "novelty": 4,
-              "japan_relevance": 2,
-              "fetched_at": "2026-11-12T11:44:30.045365+09:00"
-            },
-            {
-              "headline": "COP31：気候変動対策を「経済的利益」として再定義する動き",
-              "content": "COP31の会合で、世界のリーダーたちは「早急な対策がなければ既知の世界は終わる」と警告する一方で、気候アクションを「経済成長のための新たな手段」としてアピールする販売戦略を取り始めました。紛争による外交の停滞が気候対策を邪魔してはならないと警鐘を鳴らしています。",
-              "impact": "気候変動を道徳的課題から経済的競争力の課題へとパラダイムシフトさせようとする動きです。これはグリーン・トランスフォーメーション（GX）への投資を加速させる可能性があり、サステナブル投資や排出権取引、再生可能エネルギー技術を持つ日本企業にとっては、市場環境の再構築を意味する重要なトレンドです。",
-              "date": "11/11",
-              "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQLVJVdHUyUk9FT2pJRzNfMUlWcGhDYUJrakN3cFZ1SkZ5R3ViYmdBWG8yaHRNa0R4aHc0ZV96ZVJaMlEteHZwdHJrY1JQckRYaERPNTNWV1E4bHFHVk16UHZDV0xRLXlpclZXY2lCU2dITFdfNk5lRXJVS0R6MDEtUVJlcU5kdWs4Ym9wN2R0enl4S1N2UWk5TGo5TlEwQVRYTFpWa2Z5dFg0VE5xTU9z?oc=5",
-              "importance": 3,
-              "novelty": 3,
-              "japan_relevance": 3,
-              "fetched_at": "2026-11-12T11:44:30.045365+09:00"
             },
             {
               "headline": "米陸軍兵士、ロシア向けスパイ活動の容疑で英国内にて逮捕",
@@ -323,17 +290,6 @@
               "importance": 3,
               "novelty": 4,
               "japan_relevance": 3,
-              "fetched_at": "2026-11-11T10:44:51.519620+09:00"
-            },
-            {
-              "headline": "トランプ次期大統領、BBCへの100億ドル名誉毀損訴訟の継続を裁判所が認める",
-              "content": "米連邦判事は、ドナルド・トランプ氏がBBCに対して起こした100億ドルの名誉毀損訴訟について、審理を継続することを認める判断を下した。",
-              "impact": "次期大統領と主要メディアの対立激化は、米国内の言論空間の分断を象徴しており、政権発足後の報道自由度や公共放送への圧力に関する議論に影響を与える可能性がある。",
-              "date": "11/10",
-              "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQLXBMT2FsRHRuMzJPbE1qVmxwbUllWmUxZk5ENGVBSGthMGxsUjVDZFhiMEhNalJVdU5ZejhYcVo3SlBtTjZ5d09QVlF6QmdHYkZHSkxFQ2R3SXRTZXZtUU1IcjdoQjctb1FxcTNtalRtcWVqTms1aFhoR1pYRDlfZGhnUWc5b0cxdFVmOWg4WEw3STUwX05PVFZPTm9sTW9xbzc0S2NHQlBNRGd5WExTaHhiQTVXMDA?oc=5",
-              "importance": 3,
-              "novelty": 4,
-              "japan_relevance": 1,
               "fetched_at": "2026-11-11T10:44:51.519620+09:00"
             },
             {
@@ -559,17 +515,6 @@
               "fetched_at": "2026-11-10T12:58:55.607065+09:00"
             },
             {
-              "headline": "米住宅販売件数が16年ぶりの低水準、記録的な住宅ローン金利が直撃",
-              "content": "10月の米中古住宅販売件数が、記録的な住宅ローン金利の高騰により過去16年間で最低の水準まで落ち込みました。金利負担増が購買意欲を削いでいます。",
-              "impact": "米国経済の屋台骨である住宅市場の停滞は、個人消費や関連産業への下押し圧力となります。米国の景気後退リスクを示唆する強力なシグナルであり、FRBの今後の金利政策にも影響を与える可能性があります。",
-              "date": "11/12",
-              "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5DVGlPR1ZwaEU5LXE2TERKRTY2M1VrV3VTYXlUdVFXSURPeFJwcmdCQmxaR2VDR3k3QkxwS2FjQXZ4dTBhR2xja0JFRDY0UUFLcDFBdDNSdXl4bmdsVjdwb005eW1iTkRlSzY4SURYbTRzN3Q0bXBpQXhHSQ?oc=5",
-              "importance": 3,
-              "novelty": 3,
-              "japan_relevance": 2,
-              "fetched_at": "2026-11-13T11:27:40.965400+09:00"
-            },
-            {
               "headline": "SpaceX、スターシップ第15回飛行で史上初のダブル着陸に挑戦",
               "content": "SpaceXは11月13日に予定されているスターシップの第15回試験飛行において、2基の機体を同時に着陸させる「ダブル・ランディング」に初めて挑戦します。これは再利用可能な宇宙輸送システムの完成に向けた重要なマイルストーンです。",
               "impact": "宇宙輸送コストの劇的な低減は、衛星通信インフラや宇宙資源探査のビジネスモデルを根本から変えます。日本の宇宙産業にとっても、打ち上げ需要の拡大や新たな市場機会を創出する技術革新となります。",
@@ -594,14 +539,6 @@
               "importance": 3,
               "novelty": 3,
               "japan_relevance": 5,
-              "fetched_at": "2026-11-10T12:58:55.607065+09:00"
-            },
-            {
-              "headline": "SkydanceがHBO MaxとParamount+のセット販売を計画、60億ドルのコスト削減案",
-              "content": "スカイダンス・メディアが、パラマウントとの合併後の戦略としてHBO MaxとParamount+を統合したバンドルサービスの提供を発表しました。60億ドル規模のコスト削減を進める一方、配信プラットフォームの集約による競争力強化を図ります。",
-              "importance": 3,
-              "novelty": 4,
-              "japan_relevance": 2,
               "fetched_at": "2026-11-10T12:58:55.607065+09:00"
             }
           ]
@@ -1253,28 +1190,6 @@
               "novelty": 5,
               "japan_relevance": 2,
               "fetched_at": "2026-11-10T12:58:55.607065+09:00"
-            },
-            {
-              "headline": "1億1500万年前の恐竜の骨から「血」の痕跡を発見、生体物質保存の常識を覆す可能性",
-              "content": "琥珀に閉じ込められたサンプルではなく、1億1500万年前の恐竜の化石骨そのものから血液に関連する生体物質が発見された可能性が報告された。",
-              "impact": "有機分子がこれほどの長期間保存されるメカニズムの解明を促し、恐竜の生理学や代謝の理解に革新をもたらす可能性がある。古生物学における分析技術の限界を押し広げる発見である。",
-              "date": "11/09",
-              "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNMThsaGsyYWVUNzhzaXl5SVJtNGNuQlFXZE1xMjRISU5pRGVTWnoyZXJxamJuUXR2clF5bDFOMFl6WWxEUkIxbHpmX1FWbUw4SkdkYVNMdUtQS0JkYXZ5VGtMa3RiV3BHa25lTVNmVjIwWFlOV1JpNU5KaUotQU5NMkVIQ0biX1IwLUZhazhxcWpHeUlTRnozSF82a0hIQQ?oc=5",
-              "importance": 3,
-              "novelty": 5,
-              "japan_relevance": 1,
-              "fetched_at": "2026-11-10T12:58:55.607065+09:00"
-            },
-            {
-              "headline": "生命の起源としての「RNAワールド仮説」を再検証、最新研究が問う生命誕生の謎",
-              "content": "生命がタンパク質やDNAではなく、自ら遺伝情報を持ち触媒としても機能するRNAから始まったとする「RNAワールド仮説」について、その起源を問う最新の知見が議論を呼んでいる。",
-              "impact": "生命誕生のプロセスを解明することは、合成生物学による新たな生命機能の設計や、宇宙生物学（アストロバイオロジー）における地球外生命探査の指針となる極めて重要な基礎研究である。",
-              "date": "11/09",
-              "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9hRVA5UXNDOGJDaV9FWldBRXpiekMwV3prT1ZTbnVfU09hcmZUa0p5U3dpendSZ0JKN0NBVzRqdWhnZV9RWjFLaWRkNUxJUl9fTm9xZlBJU3lrTWZ4OF9SNGNUNm9jZ2lhcV8xWWttN0VpMHJTbFcwOGdqUQ?oc=5",
-              "importance": 3,
-              "novelty": 2,
-              "japan_relevance": 2,
-              "fetched_at": "2026-11-10T12:58:55.607065+09:00"
             }
           ]
         },
@@ -1654,17 +1569,6 @@
               "importance": 3,
               "novelty": 4,
               "japan_relevance": 4,
-              "fetched_at": "2026-11-12T11:44:30.045365+09:00"
-            },
-            {
-              "headline": "Jane Streetのデータセンター、火災報知器の誤作動による浸水危機の教訓",
-              "content": "高頻度取引（HFT）のJane Streetが、火災報知器の誤作動によりデータセンターが危うく壊滅しかけた事案の詳細を報告。消火システムの連動により物理インフラ全体が危機にさらされたが、現場の即応能力で回避した。",
-              "impact": "ソフトウェアの冗長性だけでなく、物理インフラの単一障害点（SPOF）がいかに致命的かを示すSRE（Site Reliability Engineering）上の貴重なケーススタディ。極限の低遅延を求める環境での運用リスク管理を再考させる。",
-              "date": "11/11",
-              "url": "https://michael.bacarella.com/2026/11/10/false-smoke-alarm-jane-street-datacenter/",
-              "importance": 3,
-              "novelty": 3,
-              "japan_relevance": 3,
               "fetched_at": "2026-11-12T11:44:30.045365+09:00"
             },
             {
